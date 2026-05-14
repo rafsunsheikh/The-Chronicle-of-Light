@@ -1,0 +1,274 @@
+[
+  {
+    "id": "event-001",
+    "title": "Revelation of the Quran",
+    "description": "First revelation of the Quran to Prophet Muhammad in Cave Hira through the angel Gabriel",
+    "startDate": "610-10-13",
+    "endDate": "610-10-13",
+    "location": {
+      "latitude": 21.4225,
+      "longitude": 39.8175,
+      "name": "Mecca, Arabia"
+    },
+    "category": "religious",
+    "connections": ["event-002"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Pre-Islamic",
+    "region": "Arabia"
+  },
+  {
+    "id": "event-002",
+    "title": "Hijra (Migration to Medina)",
+    "description": "Prophet Muhammad and early Muslims migrate from Mecca to Medina, marking the beginning of the Islamic calendar",
+    "startDate": "622-09-24",
+    "endDate": "622-09-24",
+    "location": {
+      "latitude": 24.5247,
+      "longitude": 39.5692,
+      "name": "Medina, Arabia"
+    },
+    "category": "political",
+    "connections": ["event-001", "event-003", "event-004"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Rashidun",
+    "region": "Arabia"
+  },
+  {
+    "id": "event-003",
+    "title": "Battle of Badr",
+    "description": "First major military victory for Muslims against the Quraysh of Mecca",
+    "startDate": "624-03-13",
+    "endDate": "624-03-13",
+    "location": {
+      "latitude": 26.5933,
+      "longitude": 39.0267,
+      "name": "Badr, Saudi Arabia"
+    },
+    "category": "military",
+    "connections": ["event-002", "event-004"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Rashidun",
+    "region": "Arabia"
+  },
+  {
+    "id": "event-004",
+    "title": "Conquest of Mecca",
+    "description": "Muslim forces peacefully conquered Mecca, leading to widespread conversion to Islam",
+    "startDate": "630-01-10",
+    "endDate": "630-01-10",
+    "location": {
+      "latitude": 21.4225,
+      "longitude": 39.8175,
+      "name": "Mecca, Arabia"
+    },
+    "category": "military",
+    "connections": ["event-002", "event-003", "event-005"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Rashidun",
+    "region": "Arabia"
+  },
+  {
+    "id": "event-005",
+    "title": "Death of Prophet Muhammad",
+    "description": "The Prophet Muhammad passed away in Medina, marking the end of prophethood in Islam",
+    "startDate": "632-06-08",
+    "endDate": "632-06-08",
+    "location": {
+      "latitude": 24.5247,
+      "longitude": 39.5692,
+      "name": "Medina, Arabia"
+    },
+    "category": "religious",
+    "connections": ["event-004", "event-006"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Rashidun",
+    "region": "Arabia"
+  },
+  {
+    "id": "event-006",
+    "title": "Ridda Wars",
+    "description": "Wars against tribes that renounced Islam after the Prophet's death, preserving Islamic unity",
+    "startDate": "632-11-01",
+    "endDate": "633-08-01",
+    "location": {
+      "latitude": 24.5247,
+      "longitude": 39.5692,
+      "name": "Arabia"
+    },
+    "category": "military",
+    "connections": ["event-005", "event-007"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Rashidun",
+    "region": "Arabia"
+  },
+  {
+    "id": "event-007",
+    "title": "Battle of Yarmuk",
+    "description": "Decisive Muslim victory against the Byzantine Empire, leading to Islamic conquest of Syria",
+    "startDate": "636-08-01",
+    "endDate": "636-08-15",
+    "location": {
+      "latitude": 33.4167,
+      "longitude": 36.3,
+      "name": "Yarmuk River, Syria"
+    },
+    "category": "military",
+    "connections": ["event-006", "event-008"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Rashidun",
+    "region": "Levant"
+  },
+  {
+    "id": "event-008",
+    "title": "Battle of al-Qadisiyyah",
+    "description": "Muslim victory against the Sassanian Empire, opening Persia to Islamic conquest",
+    "startDate": "636-11-01",
+    "endDate": "636-11-19",
+    "location": {
+      "latitude": 32.4333,
+      "longitude": 44.9833,
+      "name": "Al-Qadisiyyah, Iraq"
+    },
+    "category": "military",
+    "connections": ["event-007", "event-009"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Rashidun",
+    "region": "Mesopotamia"
+  },
+  {
+    "id": "event-009",
+    "title": "Construction of Kufa",
+    "description": "Founding of Kufa as a military camp and later major Islamic city in Iraq",
+    "startDate": "638-01-01",
+    "endDate": "638-12-31",
+    "location": {
+      "latitude": 32.0333,
+      "longitude": 47.7167,
+      "name": "Kufa, Iraq"
+    },
+    "category": "cultural",
+    "connections": ["event-008", "event-010"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Rashidun",
+    "region": "Mesopotamia"
+  },
+  {
+    "id": "event-010",
+    "title": "First Fitna",
+    "description": "First Islamic civil war over the caliphate succession after Uthman's assassination",
+    "startDate": "656-01-01",
+    "endDate": "661-01-01",
+    "location": {
+      "latitude": 24.5247,
+      "longitude": 39.5692,
+      "name": "Arabia"
+    },
+    "category": "political",
+    "connections": ["event-009", "event-011"],
+    "learningPath": "early-islamic-period",
+    "dynasty": "Rashidun",
+    "region": "Arabia"
+  },
+  {
+    "id": "event-011",
+    "title": "Establishment of Umayyad Caliphate",
+    "description": "Muawiyah I established the Umayyad Caliphate, creating the first hereditary dynasty in Islam",
+    "startDate": "661-01-01",
+    "endDate": "661-06-01",
+    "location": {
+      "latitude": 31.7683,
+      "longitude": 35.2137,
+      "name": "Damascus, Syria"
+    },
+    "category": "political",
+    "connections": ["event-010", "event-012"],
+    "learningPath": "classical-islamic-period",
+    "dynasty": "Umayyad",
+    "region": "Levant"
+  },
+  {
+    "id": "event-012",
+    "title": "Islamic Expansion to Spain",
+    "description": "Muslim forces under Tariq ibn Ziyad conquered Hispania, establishing Al-Andalus",
+    "startDate": "711-07-01",
+    "endDate": "718-01-01",
+    "location": {
+      "latitude": 36.7213,
+      "longitude": -4.4214,
+      "name": "Gibraltar, Spain"
+    },
+    "category": "military",
+    "connections": ["event-011", "event-013"],
+    "learningPath": "classical-islamic-period",
+    "dynasty": "Umayyad",
+    "region": "Iberia"
+  },
+  {
+    "id": "event-013",
+    "title": "House of Wisdom Established",
+    "description": "The Bayt al-Hikmah was founded in Baghdad, becoming the intellectual center of the Islamic Golden Age",
+    "startDate": "830-01-01",
+    "endDate": "830-12-31",
+    "location": {
+      "latitude": 33.3152,
+      "longitude": 44.3661,
+      "name": "Baghdad, Iraq"
+    },
+    "category": "scientific",
+    "connections": ["event-012", "event-014"],
+    "learningPath": "islamic-golden-age",
+    "dynasty": "Abbasid",
+    "region": "Mesopotamia"
+  },
+  {
+    "id": "event-014",
+    "title": "Translation Movement",
+    "description": "Major scholarly effort to translate Greek, Persian, and Indian texts into Arabic, preserving classical knowledge",
+    "startDate": "786-01-01",
+    "endDate": "848-12-31",
+    "location": {
+      "latitude": 33.3152,
+      "longitude": 44.3661,
+      "name": "Baghdad, Iraq"
+    },
+    "category": "scientific",
+    "connections": ["event-013", "event-015"],
+    "learningPath": "islamic-golden-age",
+    "dynasty": "Abbasid",
+    "region": "Mesopotamia"
+  },
+  {
+    "id": "event-015",
+    "title": "Completion of Sahih Bukhari",
+    "description": "Imam Bukhari completed his collection of hadith, considered the most authentic after the Quran",
+    "startDate": "870-01-01",
+    "endDate": "870-12-31",
+    "location": {
+      "latitude": 38.8789,
+      "longitude": 68.7681,
+      "name": "Bukhara, Uzbekistan"
+    },
+    "category": "religious",
+    "connections": ["event-014", "event-016"],
+    "learningPath": "islamic-golden-age",
+    "dynasty": "Tahirid",
+    "region": "Central Asia"
+  },
+  {
+    "id": "event-016",
+    "title": "Avicenna Writes The Canon",
+    "description": "Ibn Sina (Avicenna) completed The Canon of Medicine, a medical encyclopedia used for 600 years",
+    "startDate": "1025-01-01",
+    "endDate": "1025-12-31",
+    "location": {
+      "latitude": 37.0382,
+      "longitude": 49.0067,
+      "name": "Amol, Iran"
+    },
+    "category": "scientific",
+    "connections": ["event-015", "event-017"],
+    "learningPath": "islamic-golden-age",
+    "dynasty": "Buyid",
+    "region": "Persia"
+  }
+]
