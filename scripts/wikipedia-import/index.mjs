@@ -1,23 +1,32 @@
 #!/usr/bin/env node
 // Wikipedia → Chronicle of Light importer.
+//
+// Pipeline (Path 2: pre-filter at Wikidata):
+//   1. Fetch all outgoing link titles from the timeline article
+//   2. Batch-resolve every title → Wikidata QID (~7 MediaWiki calls / 334 titles)
+//   3. ONE SPARQL query: keep only QIDs that have a date AND coordinates
+//   4. Fetch Wikipedia summaries only for the survivors (small set, fast)
+//   5. Map each into the event schema, write to imported/
+//
 // Usage:
 //   node scripts/wikipedia-import/index.mjs \
 //     --page "Timeline_of_the_history_of_Islam" \
 //     --max 20 \
-//     --dry-run
+//     --dry-run \
+//     --ignore-existing
 //
-// Output: draft events under src/data/events/imported/ with confidence=auto-imported.
-// All hits to the Wikipedia REST API, MediaWiki API, and Wikidata Query Service
-// are cached on disk under scripts/wikipedia-import/.cache/ so re-runs are cheap.
-//
-// Set the env var IMPORTER_USER_AGENT to identify yourself per Wikipedia policy:
-//   export IMPORTER_USER_AGENT='YourProject/0.1 (https://github.com/you/repo; you@example.com)'
+// All API responses are cached on disk under scripts/wikipedia-import/.cache/
+// so re-runs are fast and offline-friendly.
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import { fetchTimelineLinks, fetchSummary } from './wikipedia.mjs';
+import {
+  fetchTimelineLinks,
+  fetchSummary,
+  batchResolveQids,
+} from './wikipedia.mjs';
 import { fetchWikidata } from './wikidata.mjs';
 import { buildEvent } from './transform.mjs';
 
@@ -102,106 +111,126 @@ async function main() {
       '\n',
   );
 
-  console.log('1/3  fetching timeline article links …');
-  const titles = await fetchTimelineLinks(args.page);
-  // Oversample: the first N links in any Wikipedia article are usually concept/
-  // disambiguation links, not events. Walk a wider pool and let Wikidata's
-  // date-filter pick the real events.
-  const OVERSAMPLE = 12;
-  const candidates = titles
-    .filter((t) => args.ignoreExisting || !state.titles.has(t))
-    .slice(0, args.max * OVERSAMPLE);
+  // ── 1/4  Timeline links ─────────────────────────────────────────────────
+  console.log('1/4  fetching timeline article links …');
+  const allTitles = await fetchTimelineLinks(args.page);
+  const candidates = allTitles.filter(
+    (t) => args.ignoreExisting || !state.titles.has(t),
+  );
   console.log(
-    `     ${titles.length} link(s) found, ${candidates.length} candidate(s) to probe ` +
-      `(target: ${args.max} event(s))`,
+    `     ${allTitles.length} link(s) found, ${candidates.length} candidate(s) after dedup`,
+  );
+  if (candidates.length === 0) {
+    console.log('\nnothing to import');
+    return;
+  }
+
+  // ── 2/4  Batch-resolve QIDs ─────────────────────────────────────────────
+  console.log(
+    `\n2/4  resolving Wikidata QIDs for ${candidates.length} candidate(s) ` +
+      `(MediaWiki prop=pageprops, batched) …`,
+  );
+  const titleToQid = await batchResolveQids(candidates);
+  const titlesWithQid = candidates.filter((t) => titleToQid.get(t));
+  console.log(
+    `     ${titlesWithQid.length} have a Wikidata link, ${
+      candidates.length - titlesWithQid.length
+    } don't (red links or no item)`,
   );
 
-  if (candidates.length === 0) {
-    console.log('\nnothing new to import');
-    return;
-  }
-
-  console.log(`\n2/3  fetching Wikipedia summaries (${candidates.length}) …`);
-  const summaries = [];
-  for (let i = 0; i < candidates.length; i++) {
-    const title = candidates[i];
-    try {
-      const s = await fetchSummary(title);
-      if (!s.qid) {
-        console.log(`     [${i + 1}/${candidates.length}] ${title} — no Wikidata QID, skip`);
-        continue;
+  if (!args.ignoreExisting) {
+    const knownQids = state.qids;
+    const before = titlesWithQid.length;
+    for (let i = titlesWithQid.length - 1; i >= 0; i--) {
+      if (knownQids.has(titleToQid.get(titlesWithQid[i]))) {
+        titlesWithQid.splice(i, 1);
       }
-      if (!args.ignoreExisting && state.qids.has(s.qid)) {
-        console.log(`     [${i + 1}/${candidates.length}] ${title} — QID already imported, skip`);
-        continue;
-      }
-      summaries.push(s);
-      console.log(`     [${i + 1}/${candidates.length}] ${title} → ${s.qid}`);
-    } catch (e) {
-      console.warn(`     [${i + 1}/${candidates.length}] ${title} — ${e.message}`);
     }
-  }
-
-  if (summaries.length === 0) {
-    console.log('\nno usable summaries; done');
-    return;
-  }
-
-  console.log(`\n3/3  querying Wikidata for ${summaries.length} QID(s) …`);
-  const wd = await fetchWikidata(summaries.map((s) => s.qid));
-
-  let written = 0;
-  let skipped = 0;
-  const writes = [];
-  // Within a single run, never write two events with the same id. When
-  // --ignore-existing is off, also avoid colliding with already-curated ids.
-  const seenIds = args.ignoreExisting ? new Set() : new Set(state.ids);
-
-  for (const summary of summaries) {
-    if (written >= args.max) break;
-    const out = buildEvent({
-      summary,
-      wd: wd.get(summary.qid),
-      today,
-    });
-
-    if (out.skipped) {
-      console.log(`     skip ${summary.title} — ${out.reason}`);
-      skipped++;
-      continue;
-    }
-
-    if (seenIds.has(out.event.id)) {
+    if (before !== titlesWithQid.length) {
       console.log(
-        `     skip ${summary.title} — derived id "${out.event.id}" collides with another event in this run`,
+        `     dropped ${before - titlesWithQid.length} title(s) whose QID is already imported`,
       );
-      skipped++;
-      continue;
     }
-    seenIds.add(out.event.id);
-
-    writes.push(out);
-    written++;
   }
 
-  if (args.dryRun) {
-    console.log(`\n[dry-run] would write ${written} event(s); skipped ${skipped}.`);
-    for (const w of writes) {
-      console.log(`  • ${w.filename}  (${w.event.category}, ${w.event.startDate})`);
+  if (titlesWithQid.length === 0) {
+    console.log('\nno candidates have Wikidata items to query');
+    return;
+  }
+
+  // ── 3/4  SPARQL pre-filter (requires date + coords) ─────────────────────
+  console.log(
+    `\n3/4  querying Wikidata for ${titlesWithQid.length} QID(s) ` +
+      `(one batched SPARQL; requires date AND coordinates) …`,
+  );
+  const qidList = titlesWithQid.map((t) => titleToQid.get(t));
+  const wd = await fetchWikidata(qidList);
+  console.log(
+    `     ${wd.size} QID(s) returned — ${qidList.length - wd.size} dropped by the date+coords filter`,
+  );
+
+  // Take first --max survivors, preserving the timeline-article link order.
+  const survivors = titlesWithQid
+    .filter((t) => wd.has(titleToQid.get(t)))
+    .slice(0, args.max);
+
+  if (survivors.length === 0) {
+    console.log('\nno survivors after the Wikidata pre-filter');
+    return;
+  }
+
+  // ── 4/4  Fetch Wikipedia summaries for survivors only ───────────────────
+  console.log(
+    `\n4/4  fetching Wikipedia summaries for ${survivors.length} survivor(s) …`,
+  );
+  const built = [];
+  const seenIds = args.ignoreExisting ? new Set() : new Set(state.ids);
+  let skipped = 0;
+
+  for (let i = 0; i < survivors.length; i++) {
+    const title = survivors[i];
+    const qid = titleToQid.get(title);
+    try {
+      const summary = await fetchSummary(title);
+      const out = buildEvent({ summary, wd: wd.get(qid), today });
+      if (out.skipped) {
+        console.log(`     [${i + 1}/${survivors.length}] ${title} — skip (${out.reason})`);
+        skipped++;
+        continue;
+      }
+      if (seenIds.has(out.event.id)) {
+        console.log(
+          `     [${i + 1}/${survivors.length}] ${title} — skip (id "${out.event.id}" collision)`,
+        );
+        skipped++;
+        continue;
+      }
+      seenIds.add(out.event.id);
+      built.push(out);
+      console.log(
+        `     [${i + 1}/${survivors.length}] ${title} → ${out.filename} ` +
+          `(${out.event.category}, ${out.event.startDate})`,
+      );
+    } catch (e) {
+      console.warn(`     [${i + 1}/${survivors.length}] ${title} — ${e.message}`);
+      skipped++;
     }
+  }
+
+  // ── Write or dry-run report ────────────────────────────────────────────
+  if (args.dryRun) {
+    console.log(`\n[dry-run] would write ${built.length} event(s); skipped ${skipped}.`);
     return;
   }
 
   fs.mkdirSync(outDir, { recursive: true });
-  for (const w of writes) {
+  for (const w of built) {
     const filepath = path.join(outDir, w.filename);
     fs.writeFileSync(filepath, JSON.stringify(w.event, null, 2) + '\n');
-    console.log(`     wrote imported/${w.filename}`);
   }
-
-  console.log(`\n✓ wrote ${written} event(s); skipped ${skipped}.`);
+  console.log(`\n✓ wrote ${built.length} event(s) to ${path.relative(repoRoot, outDir)}; skipped ${skipped}.`);
   console.log(
-    '\nNext: review each file, edit any mis-categorized events, set confidence to "established",\n' +
+    '\nNext: review each file, fix any mis-categorized events, set confidence to "established",\n' +
       'fill in connections[], then move from src/data/events/imported/ to src/data/events/.',
   );
 }

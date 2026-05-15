@@ -6,6 +6,10 @@ const SPARQL_ENDPOINT = 'https://query.wikidata.org/sparql';
 
 function buildQuery(qids) {
   const values = qids.map((q) => `wd:${q}`).join(' ');
+  // We REQUIRE both a date (P585 point-in-time OR P580 start-time) and
+  // coordinates (either P625 on the event itself, or on its P276 location).
+  // Pre-filtering at the Wikidata level is the whole point of Path 2 — we
+  // never fetch a Wikipedia summary for a QID that isn't a locatable event.
   return `
 SELECT ?event ?eventLabel
        ?startTime ?endTime
@@ -14,13 +18,21 @@ SELECT ?event ?eventLabel
        (GROUP_CONCAT(DISTINCT ?typeLabel; separator="|") AS ?types)
 WHERE {
   VALUES ?event { ${values} }
-  OPTIONAL { ?event wdt:P585 ?startTime . }
-  OPTIONAL { ?event wdt:P580 ?startTime . }
-  OPTIONAL { ?event wdt:P582 ?endTime . }
-  OPTIONAL {
+
+  { ?event wdt:P585 ?startTime . }
+  UNION
+  { ?event wdt:P580 ?startTime . }
+
+  {
     ?event wdt:P276 ?location .
-    OPTIONAL { ?location wdt:P625 ?coords . }
+    ?location wdt:P625 ?coords .
   }
+  UNION
+  {
+    ?event wdt:P625 ?coords .
+  }
+
+  OPTIONAL { ?event wdt:P582 ?endTime . }
   OPTIONAL { ?event wdt:P18 ?image . }
   OPTIONAL {
     ?event wdt:P31 ?type .
@@ -42,33 +54,50 @@ function parsePointWkt(wkt) {
   return { lon: parseFloat(m[1]), lat: parseFloat(m[2]) };
 }
 
-export async function fetchWikidata(qids) {
-  if (qids.length === 0) return new Map();
+// Wikidata caps GET-request URLs around ~8 KB; for big VALUES lists we POST.
+// We also chunk by 200 QIDs/query to keep individual responses small and the
+// progress more visible.
+const SPARQL_CHUNK = 200;
+
+async function runSparql(qids) {
   const query = buildQuery(qids);
   const cacheKey = `wikidata/${hash(query)}.json`;
-  const url = `${SPARQL_ENDPOINT}?query=${encodeURIComponent(query)}&format=json`;
-  const data = await politeFetch(url, cacheKey, {
-    headers: { Accept: 'application/sparql-results+json' },
+  return politeFetch(SPARQL_ENDPOINT, cacheKey, {
+    method: 'POST',
+    headers: {
+      Accept: 'application/sparql-results+json',
+      'Content-Type': 'application/x-www-form-urlencoded',
+    },
+    body: 'query=' + encodeURIComponent(query) + '&format=json',
   });
+}
 
+export async function fetchWikidata(qids) {
+  if (qids.length === 0) return new Map();
   const out = new Map();
-  for (const b of data?.results?.bindings ?? []) {
-    const qid = qidFromUri(b.event.value);
-    const existing = out.get(qid) ?? { qid, types: [] };
-    if (b.eventLabel) existing.label = b.eventLabel.value;
-    if (b.startTime && !existing.startTime) existing.startTime = b.startTime.value;
-    if (b.endTime && !existing.endTime) existing.endTime = b.endTime.value;
-    if (b.locationLabel && !existing.locationName) existing.locationName = b.locationLabel.value;
-    if (b.location && !existing.locationQid) existing.locationQid = qidFromUri(b.location.value);
-    if (b.coords && !existing.coords) existing.coords = parsePointWkt(b.coords.value);
-    if (b.image && !existing.image) existing.image = b.image.value;
-    if (b.types) {
-      existing.types = (b.types.value || '')
-        .split('|')
-        .map((t) => t.trim())
-        .filter(Boolean);
+  const uniqueQids = [...new Set(qids)];
+
+  for (let i = 0; i < uniqueQids.length; i += SPARQL_CHUNK) {
+    const chunk = uniqueQids.slice(i, i + SPARQL_CHUNK);
+    const data = await runSparql(chunk);
+    for (const b of data?.results?.bindings ?? []) {
+      const qid = qidFromUri(b.event.value);
+      const existing = out.get(qid) ?? { qid, types: [] };
+      if (b.eventLabel) existing.label = b.eventLabel.value;
+      if (b.startTime && !existing.startTime) existing.startTime = b.startTime.value;
+      if (b.endTime && !existing.endTime) existing.endTime = b.endTime.value;
+      if (b.locationLabel && !existing.locationName) existing.locationName = b.locationLabel.value;
+      if (b.location && !existing.locationQid) existing.locationQid = qidFromUri(b.location.value);
+      if (b.coords && !existing.coords) existing.coords = parsePointWkt(b.coords.value);
+      if (b.image && !existing.image) existing.image = b.image.value;
+      if (b.types) {
+        existing.types = (b.types.value || '')
+          .split('|')
+          .map((t) => t.trim())
+          .filter(Boolean);
+      }
+      out.set(qid, existing);
     }
-    out.set(qid, existing);
   }
   return out;
 }

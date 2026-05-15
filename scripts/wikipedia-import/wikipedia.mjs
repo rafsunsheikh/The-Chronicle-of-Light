@@ -95,3 +95,53 @@ export async function fetchSummary(title) {
 export function wikipediaUrl(title) {
   return `https://en.wikipedia.org/wiki/${encodeURIComponent(slugifyTitle(title))}`;
 }
+
+// Resolve a batch of article titles to their Wikidata QIDs in one or a few
+// MediaWiki query calls. Up to 50 titles per request.
+// Returns Map<title, qid | null>. Titles whose Wikipedia article exists but
+// has no Wikidata link → null. Redirect sources are mapped to the target's QID.
+export async function batchResolveQids(titles) {
+  const out = new Map();
+  if (titles.length === 0) return out;
+
+  const CHUNK_SIZE = 50;
+  for (let i = 0; i < titles.length; i += CHUNK_SIZE) {
+    const chunk = titles.slice(i, i + CHUNK_SIZE);
+    const titlesParam = chunk.join('|');
+    const url =
+      `https://en.wikipedia.org/w/api.php` +
+      `?action=query&prop=pageprops&ppprop=wikibase_item` +
+      `&titles=${encodeURIComponent(titlesParam)}` +
+      `&format=json&formatversion=2&redirects=1`;
+    const cacheKey = `qids/${batchHash(titlesParam)}.json`;
+    const data = await politeFetch(url, cacheKey);
+
+    const pages = data?.query?.pages ?? [];
+    const redirects = data?.query?.redirects ?? [];
+    // redirect.from = original requested title, redirect.to = resolved title
+    const redirectSourceOf = new Map();
+    for (const r of redirects) {
+      if (!redirectSourceOf.has(r.to)) redirectSourceOf.set(r.to, []);
+      redirectSourceOf.get(r.to).push(r.from);
+    }
+
+    for (const page of pages) {
+      const qid = page?.pageprops?.wikibase_item ?? null;
+      out.set(page.title, qid);
+      // Also map the original (pre-redirect) titles the user asked for.
+      for (const src of redirectSourceOf.get(page.title) ?? []) {
+        out.set(src, qid);
+      }
+    }
+    for (const t of chunk) {
+      if (!out.has(t)) out.set(t, null);
+    }
+  }
+  return out;
+}
+
+function batchHash(s) {
+  let h = 5381;
+  for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
+  return (h >>> 0).toString(36);
+}

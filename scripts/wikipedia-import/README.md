@@ -11,12 +11,20 @@ of what we need (date, location, type, image) as structured data. This
 script:
 
 1. Reads the linked article titles from a Wikipedia timeline page
-   (MediaWiki API)
-2. Fetches each article's summary + Wikidata QID (REST API)
-3. Issues one batched SPARQL query for all QIDs (Wikidata)
-4. Maps the result into the event schema at `src/data/event.schema.json`
-5. Writes draft files with `confidence: "auto-imported"` for human
-   review
+   (MediaWiki API, 1 call)
+2. Batch-resolves every title to a Wikidata QID
+   (MediaWiki `prop=pageprops`, ~7 calls for ~334 titles)
+3. Issues **one** SPARQL query against Wikidata that requires both a
+   date (P585 or P580) and coordinates (P625 directly or on P276 →
+   P625). Non-events (concepts, people, places without a date) drop out
+   here
+4. Fetches Wikipedia summaries (REST API) **only** for survivors of
+   step 3 — that's typically 30–80 calls instead of one-per-link
+5. Maps each into the event schema at `src/data/event.schema.json` and
+   writes drafts with `confidence: "auto-imported"` for human review
+
+The pipeline is designed so that the slowest stage (per-article REST
+calls) only runs on QIDs we already know are real, locatable events.
 
 It is **not** a substitute for editorial review. Auto-imported events
 ship with mis-categorizations, wrong dates from Wikidata typos, and
@@ -56,7 +64,7 @@ Always start with a dry run on a small batch:
 
 ```bash
 node scripts/wikipedia-import/index.mjs \
-  --page "Timeline_of_the_history_of_Islam" \
+  --page "Early_Muslim_conquests" \
   --max 10 \
   --dry-run
 ```
@@ -64,8 +72,32 @@ node scripts/wikipedia-import/index.mjs \
 Then drop `--dry-run` to write files:
 
 ```bash
-node scripts/wikipedia-import/index.mjs --max 25
+node scripts/wikipedia-import/index.mjs --page "Early_Muslim_conquests" --max 25
 ```
+
+### Picking a source page
+
+Not every Wikipedia article is equally event-rich. The default
+*Timeline of the history of Islam* article is structured as a **glossary**
+of concepts (Caliphate, Sharia, Hadith, …) — its outgoing links don't
+point to specific events, so the pipeline only finds ~4 multi-century
+**periods** there (Al-Andalus, Islamic Golden Age, etc.).
+
+Articles that heavily wikilink to specific events yield far more:
+
+| Source page                         | Approx. event yield   |
+|-------------------------------------|----------------------|
+| `Early_Muslim_conquests`            | ~85 events           |
+| `Muslim_conquest_of_the_Levant`     | dozens of battles    |
+| `List_of_expeditions_of_Muhammad`   | every recorded raid  |
+| `Rashidun_Caliphate`                | succession events    |
+| `Abbasid_Caliphate`                 | political events     |
+| `Crusades`                          | sieges, battles      |
+
+Run the importer once per source page, accumulate drafts in
+`src/data/events/imported/`, then review + promote. The `seen` /
+`titles` set across runs prevents the same event from being imported
+twice (turn off with `--ignore-existing` only on the very first run).
 
 ### Flags
 
