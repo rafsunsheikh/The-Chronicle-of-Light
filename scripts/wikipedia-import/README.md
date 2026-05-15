@@ -104,9 +104,42 @@ twice (turn off with `--ignore-existing` only on the very first run).
 | Flag                 | Default                              | Description |
 |----------------------|--------------------------------------|-------------|
 | `--page`             | `Timeline_of_the_history_of_Islam`   | Wikipedia article whose outgoing links to import |
-| `--max`              | `25`                                 | Cap on events to **write** in one run (oversampled internally) |
+| `--max`              | `25`                                 | Cap on events to **write** in one run (BFS may discover many more) |
+| `--depth`            | `0`                                  | How many recursion hops to take past the seed page. `0` = only the seed page's outgoing links. `1` = also follow links of confirmed events found at depth 0. `2+` = one more hop per level (slow; produces many drafts). |
 | `--dry-run`          | off                                  | Print what would be written; don't touch the filesystem |
 | `--ignore-existing`  | off                                  | Don't skip articles whose title or Wikidata QID matches an already-curated event. Use on the **first run** to bring real Wikipedia data in even where placeholders exist; reviewer overwrites the placeholders during the imported/ → events/ promotion step. |
+
+### Recursion (--depth)
+
+The default is `--depth 0`: only follow the seed page's outgoing links.
+With `--depth 1` (or higher) the importer wraps its 4-stage pipeline in
+a **breadth-first crawl**:
+
+```
+depth 0: seed page's outgoing links
+         ↓ batch-resolve QIDs → SPARQL filter → say 50 events confirmed
+depth 1: links from those 50 events
+         ↓ batch-resolve QIDs → SPARQL filter → say 300 more events
+depth 2: links from those 300 events
+         ↓ ... etc.
+```
+
+**Important:** only **confirmed events** become the next-depth frontier.
+Concept articles like *Allah*, *Caliphate*, *Islam* are dead-ends for
+crawling, so the BFS stays focused on the event subgraph and doesn't
+drift into "everything Wikipedia knows about." Concept articles still
+contribute their links **at the depth they were found**, but we don't
+follow links out of *them*.
+
+Performance notes:
+
+- Depth 0 from a small seed: seconds.
+- Depth 1 from `Early_Muslim_conquests` (1014 outgoing links): a few
+  minutes on first run; subsequent runs are cached.
+- Depth ≥ 2: many minutes to hours depending on the seed. Importer
+  prints a warning at depth ≥ 2.
+- All API responses are cached on disk, so re-runs with same flags are
+  effectively free.
 
 ## Output
 

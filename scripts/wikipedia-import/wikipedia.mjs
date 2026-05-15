@@ -145,3 +145,50 @@ function batchHash(s) {
   for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
   return (h >>> 0).toString(36);
 }
+
+// Resolve outgoing wikilinks for many titles in a single API call.
+// Returns Map<title, string[]>. Up to 50 titles per call, up to 500 links per
+// page. Useful for BFS frontier expansion — far cheaper than calling
+// fetchTimelineLinks once per page.
+//
+// Note: pages with >500 outgoing links are truncated. This is fine for
+// recursion (we only need the most prominent links; the importer's
+// Wikidata pre-filter will cull non-events anyway), but for the SEED
+// page we still use fetchTimelineLinks which returns the full set.
+export async function batchFetchLinks(titles) {
+  const out = new Map();
+  if (titles.length === 0) return out;
+
+  const CHUNK_SIZE = 50;
+  for (let i = 0; i < titles.length; i += CHUNK_SIZE) {
+    const chunk = titles.slice(i, i + CHUNK_SIZE);
+    const titlesParam = chunk.join('|');
+    const url =
+      `https://en.wikipedia.org/w/api.php` +
+      `?action=query&prop=links&plnamespace=0&pllimit=500` +
+      `&titles=${encodeURIComponent(titlesParam)}` +
+      `&format=json&formatversion=2&redirects=1`;
+    const cacheKey = `links/${batchHash(titlesParam)}.json`;
+    const data = await politeFetch(url, cacheKey);
+
+    const pages = data?.query?.pages ?? [];
+    const redirects = data?.query?.redirects ?? [];
+    const redirectSourceOf = new Map();
+    for (const r of redirects) {
+      if (!redirectSourceOf.has(r.to)) redirectSourceOf.set(r.to, []);
+      redirectSourceOf.get(r.to).push(r.from);
+    }
+
+    for (const page of pages) {
+      const links = (page.links ?? []).map((l) => l.title);
+      out.set(page.title, links);
+      for (const src of redirectSourceOf.get(page.title) ?? []) {
+        out.set(src, links);
+      }
+    }
+    for (const t of chunk) {
+      if (!out.has(t)) out.set(t, []);
+    }
+  }
+  return out;
+}
