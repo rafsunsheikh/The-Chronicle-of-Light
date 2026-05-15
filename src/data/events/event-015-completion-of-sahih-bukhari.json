@@ -1,0 +1,21 @@
+{
+  "id": "event-015",
+  "title": "Completion of Sahih Bukhari",
+  "description": "Imam Bukhari completed his collection of hadith, considered the most authentic after the Quran",
+  "startDate": "870-01-01",
+  "endDate": "870-12-31",
+  "location": {
+    "latitude": 38.8789,
+    "longitude": 68.7681,
+    "name": "Bukhara, Uzbekistan"
+  },
+  "category": "religious",
+  "connections": [
+    "event-014",
+    "event-016"
+  ],
+  "learningPath": "islamic-golden-age",
+  "dynasty": "Tahirid",
+  "region": "Central Asia",
+  "media": []
+}

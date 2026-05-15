@@ -1,0 +1,22 @@
+{
+  "id": "event-004",
+  "title": "Conquest of Mecca",
+  "description": "Muslim forces peacefully conquered Mecca, leading to widespread conversion to Islam",
+  "startDate": "630-01-10",
+  "endDate": "630-01-10",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8175,
+    "name": "Mecca, Arabia"
+  },
+  "category": "military",
+  "connections": [
+    "event-002",
+    "event-003",
+    "event-005"
+  ],
+  "learningPath": "early-islamic-period",
+  "dynasty": "Rashidun",
+  "region": "Arabia",
+  "media": []
+}

@@ -1,6 +1,13 @@
 import { useState, useMemo } from 'react';
 import { HistoricalIncident } from '../types/incident';
-import incidentsData from '../data/incidents.json';
+
+const eventModules = import.meta.glob<{ default: HistoricalIncident }>(
+  '../data/events/*.json',
+  { eager: true },
+);
+const incidentsData: HistoricalIncident[] = Object.values(eventModules)
+  .map((m) => m.default)
+  .sort((a, b) => a.startDate.localeCompare(b.startDate));
 
 export function useIncidents() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);

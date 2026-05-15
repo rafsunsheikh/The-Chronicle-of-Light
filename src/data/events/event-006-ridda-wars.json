@@ -1,0 +1,21 @@
+{
+  "id": "event-006",
+  "title": "Ridda Wars",
+  "description": "Wars against tribes that renounced Islam after the Prophet's death, preserving Islamic unity",
+  "startDate": "632-11-01",
+  "endDate": "633-08-01",
+  "location": {
+    "latitude": 24.5247,
+    "longitude": 39.5692,
+    "name": "Arabia"
+  },
+  "category": "military",
+  "connections": [
+    "event-005",
+    "event-007"
+  ],
+  "learningPath": "early-islamic-period",
+  "dynasty": "Rashidun",
+  "region": "Arabia",
+  "media": []
+}

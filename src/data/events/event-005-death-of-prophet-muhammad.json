@@ -1,0 +1,21 @@
+{
+  "id": "event-005",
+  "title": "Death of Prophet Muhammad",
+  "description": "The Prophet Muhammad passed away in Medina, marking the end of prophethood in Islam",
+  "startDate": "632-06-08",
+  "endDate": "632-06-08",
+  "location": {
+    "latitude": 24.5247,
+    "longitude": 39.5692,
+    "name": "Medina, Arabia"
+  },
+  "category": "religious",
+  "connections": [
+    "event-004",
+    "event-006"
+  ],
+  "learningPath": "early-islamic-period",
+  "dynasty": "Rashidun",
+  "region": "Arabia",
+  "media": []
+}

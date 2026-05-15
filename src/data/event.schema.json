@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/rafsunsheikh/The-Chronicle-of-Light/blob/main/src/data/event.schema.json",
+  "title": "HistoricalEvent",
+  "description": "A single historical event record. Each event lives in its own file at src/data/events/{id}-{slug}.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "description",
+    "startDate",
+    "location",
+    "category",
+    "connections"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^event-[0-9]{3,}$",
+      "description": "Stable identifier. Format: event-NNN where NNN is at least 3 digits."
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 200
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 2000
+    },
+    "startDate": {
+      "type": "string",
+      "pattern": "^[0-9]{3,4}-[0-9]{2}-[0-9]{2}$",
+      "description": "ISO-like date YYYY-MM-DD. Years before 1000 are zero-padded to 3 digits if needed."
+    },
+    "endDate": {
+      "type": "string",
+      "pattern": "^[0-9]{3,4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "location": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["latitude", "longitude", "name"],
+      "properties": {
+        "latitude": { "type": "number", "minimum": -90, "maximum": 90 },
+        "longitude": { "type": "number", "minimum": -180, "maximum": 180 },
+        "name": { "type": "string", "minLength": 1 }
+      }
+    },
+    "category": {
+      "type": "string",
+      "enum": ["political", "religious", "cultural", "scientific", "military"]
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^event-[0-9]{3,}$"
+      },
+      "uniqueItems": true
+    },
+    "learningPath": { "type": "string" },
+    "dynasty": { "type": "string" },
+    "region": { "type": "string" },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "url"],
+        "properties": {
+          "type": { "type": "string", "enum": ["image", "video", "document"] },
+          "url": { "type": "string", "format": "uri" },
+          "caption": { "type": "string" }
+        }
+      }
+    },
+    "sources": {
+      "description": "Provenance / citations supporting this event. Required when confidence is auto-imported or contested.",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["citation"],
+        "properties": {
+          "citation": { "type": "string", "minLength": 3 },
+          "url": { "type": "string", "format": "uri" },
+          "page": { "type": "string" },
+          "wikidata": { "type": "string", "pattern": "^Q[0-9]+$" },
+          "retrieved": {
+            "type": "string",
+            "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+          },
+          "license": { "type": "string" }
+        }
+      }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["established", "contested", "legendary", "auto-imported"],
+      "description": "Maintainer's confidence in the historicity of this record."
+    },
+    "perspectives": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["sunni", "shia", "ibadi", "academic", "secular"]
+      },
+      "uniqueItems": true,
+      "description": "Scholarly traditions from which this account is drawn. Required for confidence=contested."
+    }
+  }
+}

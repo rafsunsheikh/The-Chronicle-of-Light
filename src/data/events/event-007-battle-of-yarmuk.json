@@ -1,0 +1,21 @@
+{
+  "id": "event-007",
+  "title": "Battle of Yarmuk",
+  "description": "Decisive Muslim victory against the Byzantine Empire, leading to Islamic conquest of Syria",
+  "startDate": "636-08-01",
+  "endDate": "636-08-15",
+  "location": {
+    "latitude": 33.4167,
+    "longitude": 36.3,
+    "name": "Yarmuk River, Syria"
+  },
+  "category": "military",
+  "connections": [
+    "event-006",
+    "event-008"
+  ],
+  "learningPath": "early-islamic-period",
+  "dynasty": "Rashidun",
+  "region": "Levant",
+  "media": []
+}

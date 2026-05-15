@@ -40,3 +40,9 @@ Thumbs.db
 # Coverage
 coverage/
 *.lcov
+
+# Wikipedia importer cache
+scripts/wikipedia-import/.cache/
+
+# Auto-imported event drafts (review then promote to src/data/events/)
+src/data/events/imported/

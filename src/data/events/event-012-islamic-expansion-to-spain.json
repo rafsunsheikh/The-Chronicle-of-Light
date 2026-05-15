@@ -1,0 +1,21 @@
+{
+  "id": "event-012",
+  "title": "Islamic Expansion to Spain",
+  "description": "Muslim forces under Tariq ibn Ziyad conquered Hispania, establishing Al-Andalus",
+  "startDate": "711-07-01",
+  "endDate": "718-01-01",
+  "location": {
+    "latitude": 36.7213,
+    "longitude": -4.4214,
+    "name": "Gibraltar, Spain"
+  },
+  "category": "military",
+  "connections": [
+    "event-011",
+    "event-013"
+  ],
+  "learningPath": "classical-islamic-period",
+  "dynasty": "Umayyad",
+  "region": "Iberia",
+  "media": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "event-008",
+  "title": "Battle of al-Qadisiyyah",
+  "description": "Muslim victory against the Sassanian Empire, opening Persia to Islamic conquest",
+  "startDate": "636-11-01",
+  "endDate": "636-11-19",
+  "location": {
+    "latitude": 32.4333,
+    "longitude": 44.9833,
+    "name": "Al-Qadisiyyah, Iraq"
+  },
+  "category": "military",
+  "connections": [
+    "event-007",
+    "event-009"
+  ],
+  "learningPath": "early-islamic-period",
+  "dynasty": "Rashidun",
+  "region": "Mesopotamia",
+  "media": []
+}

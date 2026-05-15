@@ -1,0 +1,21 @@
+{
+  "id": "event-014",
+  "title": "Translation Movement",
+  "description": "Major scholarly effort to translate Greek, Persian, and Indian texts into Arabic, preserving classical knowledge",
+  "startDate": "786-01-01",
+  "endDate": "848-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "category": "scientific",
+  "connections": [
+    "event-013",
+    "event-015"
+  ],
+  "learningPath": "islamic-golden-age",
+  "dynasty": "Abbasid",
+  "region": "Mesopotamia",
+  "media": []
+}

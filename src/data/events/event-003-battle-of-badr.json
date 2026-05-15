@@ -1,0 +1,21 @@
+{
+  "id": "event-003",
+  "title": "Battle of Badr",
+  "description": "First major military victory for Muslims against the Quraysh of Mecca",
+  "startDate": "624-03-13",
+  "endDate": "624-03-13",
+  "location": {
+    "latitude": 26.5933,
+    "longitude": 39.0267,
+    "name": "Badr, Saudi Arabia"
+  },
+  "category": "military",
+  "connections": [
+    "event-002",
+    "event-004"
+  ],
+  "learningPath": "early-islamic-period",
+  "dynasty": "Rashidun",
+  "region": "Arabia",
+  "media": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "event-011",
+  "title": "Establishment of Umayyad Caliphate",
+  "description": "Muawiyah I established the Umayyad Caliphate, creating the first hereditary dynasty in Islam",
+  "startDate": "661-01-01",
+  "endDate": "661-06-01",
+  "location": {
+    "latitude": 31.7683,
+    "longitude": 35.2137,
+    "name": "Damascus, Syria"
+  },
+  "category": "political",
+  "connections": [
+    "event-010",
+    "event-012"
+  ],
+  "learningPath": "classical-islamic-period",
+  "dynasty": "Umayyad",
+  "region": "Levant",
+  "media": []
+}
