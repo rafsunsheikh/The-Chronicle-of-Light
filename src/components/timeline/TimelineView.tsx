@@ -129,8 +129,18 @@ const TimelineCard: React.FC<CardProps> = ({ incident, onClick }) => {
   );
 };
 
-const laneWidth = (items: HistoricalIncident[]): number =>
-  items.reduce((acc, i) => acc + variantFor(i.id).width + CARD_GAP, 0);
+// Sum of column widths when events are paired into chronological columns:
+// column N contains items[2N] (above the rail) and items[2N+1] (below).
+// Column width = max(top.width, bottom.width) so the two cards line up.
+const pairedTracksWidth = (items: HistoricalIncident[]): number => {
+  let total = 0;
+  for (let i = 0; i < items.length; i += 2) {
+    const topW = variantFor(items[i].id).width;
+    const botW = items[i + 1] ? variantFor(items[i + 1].id).width : 0;
+    total += Math.max(topW, botW) + CARD_GAP;
+  }
+  return total;
+};
 
 export const TimelineView: React.FC<TimelineViewProps> = ({
   incidents,
@@ -181,13 +191,7 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
           </div>
 
           {grouped.map((era) => {
-            const topItems = era.incidents.filter((_, i) => i % 2 === 0);
-            const bottomItems = era.incidents.filter((_, i) => i % 2 === 1);
-            const tracksWidth = Math.max(
-              laneWidth(topItems),
-              laneWidth(bottomItems),
-              120,
-            );
+            const tracksWidth = Math.max(pairedTracksWidth(era.incidents), 120);
             const eraWidth = ERA_BASE_WIDTH + tracksWidth;
 
             return (
@@ -199,24 +203,21 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
               >
                 <div className="timeline-era-label">{era.label}</div>
                 <div className="timeline-era-tracks">
-                  <div className="timeline-era-lane timeline-era-lane--top">
-                    {topItems.map((incident) => (
+                  {era.incidents.map((incident, i) => (
+                    <div
+                      key={incident.id}
+                      className={`timeline-slot ${
+                        i % 2 === 0
+                          ? 'timeline-slot--top'
+                          : 'timeline-slot--bottom'
+                      }`}
+                    >
                       <TimelineCard
-                        key={incident.id}
                         incident={incident}
                         onClick={onIncidentClick}
                       />
-                    ))}
-                  </div>
-                  <div className="timeline-era-lane timeline-era-lane--bottom">
-                    {bottomItems.map((incident) => (
-                      <TimelineCard
-                        key={incident.id}
-                        incident={incident}
-                        onClick={onIncidentClick}
-                      />
-                    ))}
-                  </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             );
