@@ -6,6 +6,7 @@ export function useIncidents() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [dateRange, setDateRange] = useState<{ start: string; end: string } | null>(null);
+  const [selectedEra, setSelectedEra] = useState<string | undefined>(undefined);
 
   const incidents = useMemo(() => {
     return incidentsData as HistoricalIncident[];
@@ -42,5 +43,7 @@ export function useIncidents() {
     setSelectedRegion,
     dateRange,
     setDateRange,
+    selectedEra,
+    setSelectedEra,
   };
 }

@@ -11,7 +11,6 @@ import type { HistoricalIncident } from './types/incident';
 function App() {
   const {
     incidents,
-    allIncidents,
     categories,
     regions,
     selectedCategory,
@@ -20,19 +19,11 @@ function App() {
     setSelectedRegion,
     dateRange,
     setDateRange,
+    selectedEra,
+    setSelectedEra,
   } = useIncidents();
 
   const [selectedIncident, setSelectedIncident] = useState<HistoricalIncident | null>(null);
-  const [selectedEra, setSelectedEra] = useState<string | undefined>(undefined);
-
-  const getRelatedIncidents = useCallback(
-    (incident: HistoricalIncident) => {
-      return allIncidents.filter((i) =>
-        incident.connections.includes(i.id)
-      );
-    },
-    [allIncidents]
-  );
 
   const handleIncidentClick = useCallback((incident: HistoricalIncident) => {
     setSelectedIncident(incident);
@@ -43,69 +34,81 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-indigo-600 text-white p-6">
-        <h1 className="text-3xl font-bold">Islamic History Timeline</h1>
-        <p className="mt-2">Explore 1400+ years of Islamic history</p>
-      </header>
+    <div className="min-h-screen bg-panel font-sans">
+      {/* Immersive timeline stage */}
+      <section className="relative bg-white">
+        {/* Navy logo gutter (top-left, overlays the white stage) */}
+        <div className="absolute top-0 left-0 z-20 bg-navy-nma text-white px-4 w-40 h-16 flex flex-col justify-center">
+          <div className="text-[10px] tracking-widest uppercase opacity-70 leading-tight">The</div>
+          <div className="font-bold leading-tight text-sm">Chronicle of Light</div>
+        </div>
 
-      <main className="container mx-auto p-6">
-        <FilterBar
-          categories={categories}
-          regions={regions}
-          selectedCategory={selectedCategory}
-          setSelectedCategory={setSelectedCategory}
-          selectedRegion={selectedRegion}
-          setSelectedRegion={setSelectedRegion}
+        <TimelineView
+          incidents={incidents}
+          onIncidentClick={handleIncidentClick}
+          selectedEra={selectedEra}
+          onEraChange={setSelectedEra}
           dateRange={dateRange}
-          setDateRange={setDateRange}
+          onDateRangeChange={setDateRange}
         />
+      </section>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
-          <TimelineView
-            incidents={incidents}
-            onIncidentClick={handleIncidentClick}
-            selectedEra={selectedEra}
-            onEraChange={setSelectedEra}
+      {/* Secondary content section */}
+      <section className="bg-panel">
+        <div className="container mx-auto p-6 space-y-8">
+          <header className="border-b border-slate-200 pb-4">
+            <h2 className="text-xs uppercase tracking-widest text-slate-500">Explore further</h2>
+          </header>
+
+          <FilterBar
+            categories={categories}
+            regions={regions}
+            selectedCategory={selectedCategory}
+            setSelectedCategory={setSelectedCategory}
+            selectedRegion={selectedRegion}
+            setSelectedRegion={setSelectedRegion}
             dateRange={dateRange}
-            onDateRangeChange={setDateRange}
+            setDateRange={setDateRange}
           />
-          <MapView
-            incidents={incidents}
-            onIncidentClick={handleIncidentClick}
-            timeRange={dateRange}
-          />
-        </div>
 
-        <div className="mb-6">
-          <GraphView
-            incidents={incidents}
-            onNodeClick={handleIncidentClick}
-          />
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {incidents.map((incident) => (
-            <IncidentCard
-              key={incident.id}
-              incident={incident}
-              onClick={handleIncidentClick}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <MapView
+              incidents={incidents}
+              onIncidentClick={handleIncidentClick}
+              timeRange={dateRange}
             />
-          ))}
-        </div>
 
-        {incidents.length === 0 && (
-          <div className="text-center py-12 text-gray-500">
-            No incidents found matching your filters
+            <GraphView
+              incidents={incidents}
+              onNodeClick={handleIncidentClick}
+            />
           </div>
-        )}
-      </main>
+
+          <div>
+            <h3 className="text-sm font-semibold text-slate-700 mb-3">All moments</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {incidents.map((incident) => (
+                <IncidentCard
+                  key={incident.id}
+                  incident={incident}
+                  onClick={handleIncidentClick}
+                />
+              ))}
+            </div>
+          </div>
+
+          {incidents.length === 0 && (
+            <div className="text-center py-12 text-slate-500">
+              No incidents found matching your filters
+            </div>
+          )}
+        </div>
+      </section>
 
       {selectedIncident && (
         <IncidentDetailModal
           incident={selectedIncident}
           onClose={handleCloseModal}
-          relatedIncidents={getRelatedIncidents(selectedIncident)}
         />
       )}
     </div>

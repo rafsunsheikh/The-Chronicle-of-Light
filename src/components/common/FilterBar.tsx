@@ -22,12 +22,12 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   setDateRange,
 }) => {
   return (
-    <div className="bg-gray-100 p-4 rounded-lg mb-6">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div className="bg-white border border-slate-200 rounded-md p-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
         <select
           value={selectedCategory || ''}
           onChange={(e) => setSelectedCategory(e.target.value || null)}
-          className="p-2 border rounded"
+          className="p-2 border border-slate-300 rounded text-sm"
         >
           <option value="">All Categories</option>
           {categories.map((cat) => (
@@ -38,7 +38,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         <select
           value={selectedRegion || ''}
           onChange={(e) => setSelectedRegion(e.target.value || null)}
-          className="p-2 border rounded"
+          className="p-2 border border-slate-300 rounded text-sm"
         >
           <option value="">All Regions</option>
           {regions.map((region) => (
@@ -50,7 +50,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           type="date"
           value={dateRange?.start || ''}
           onChange={(e) => setDateRange(dateRange ? { ...dateRange, start: e.target.value } : { start: e.target.value, end: '' })}
-          className="p-2 border rounded"
+          className="p-2 border border-slate-300 rounded text-sm"
           placeholder="Start Date"
         />
 
@@ -58,7 +58,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           type="date"
           value={dateRange?.end || ''}
           onChange={(e) => setDateRange(dateRange ? { ...dateRange, end: e.target.value } : { start: '', end: e.target.value })}
-          className="p-2 border rounded"
+          className="p-2 border border-slate-300 rounded text-sm"
           placeholder="End Date"
         />
       </div>

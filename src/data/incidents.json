@@ -11,10 +11,13 @@
       "name": "Mecca, Arabia"
     },
     "category": "religious",
-    "connections": ["event-002"],
+    "connections": [
+      "event-002"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Pre-Islamic",
-    "region": "Arabia"
+    "region": "Arabia",
+    "media": []
   },
   {
     "id": "event-002",
@@ -28,10 +31,15 @@
       "name": "Medina, Arabia"
     },
     "category": "political",
-    "connections": ["event-001", "event-003", "event-004"],
+    "connections": [
+      "event-001",
+      "event-003",
+      "event-004"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Rashidun",
-    "region": "Arabia"
+    "region": "Arabia",
+    "media": []
   },
   {
     "id": "event-003",
@@ -45,10 +53,14 @@
       "name": "Badr, Saudi Arabia"
     },
     "category": "military",
-    "connections": ["event-002", "event-004"],
+    "connections": [
+      "event-002",
+      "event-004"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Rashidun",
-    "region": "Arabia"
+    "region": "Arabia",
+    "media": []
   },
   {
     "id": "event-004",
@@ -62,10 +74,15 @@
       "name": "Mecca, Arabia"
     },
     "category": "military",
-    "connections": ["event-002", "event-003", "event-005"],
+    "connections": [
+      "event-002",
+      "event-003",
+      "event-005"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Rashidun",
-    "region": "Arabia"
+    "region": "Arabia",
+    "media": []
   },
   {
     "id": "event-005",
@@ -79,10 +96,14 @@
       "name": "Medina, Arabia"
     },
     "category": "religious",
-    "connections": ["event-004", "event-006"],
+    "connections": [
+      "event-004",
+      "event-006"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Rashidun",
-    "region": "Arabia"
+    "region": "Arabia",
+    "media": []
   },
   {
     "id": "event-006",
@@ -96,10 +117,14 @@
       "name": "Arabia"
     },
     "category": "military",
-    "connections": ["event-005", "event-007"],
+    "connections": [
+      "event-005",
+      "event-007"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Rashidun",
-    "region": "Arabia"
+    "region": "Arabia",
+    "media": []
   },
   {
     "id": "event-007",
@@ -113,10 +138,14 @@
       "name": "Yarmuk River, Syria"
     },
     "category": "military",
-    "connections": ["event-006", "event-008"],
+    "connections": [
+      "event-006",
+      "event-008"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Rashidun",
-    "region": "Levant"
+    "region": "Levant",
+    "media": []
   },
   {
     "id": "event-008",
@@ -130,10 +159,14 @@
       "name": "Al-Qadisiyyah, Iraq"
     },
     "category": "military",
-    "connections": ["event-007", "event-009"],
+    "connections": [
+      "event-007",
+      "event-009"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Rashidun",
-    "region": "Mesopotamia"
+    "region": "Mesopotamia",
+    "media": []
   },
   {
     "id": "event-009",
@@ -147,10 +180,14 @@
       "name": "Kufa, Iraq"
     },
     "category": "cultural",
-    "connections": ["event-008", "event-010"],
+    "connections": [
+      "event-008",
+      "event-010"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Rashidun",
-    "region": "Mesopotamia"
+    "region": "Mesopotamia",
+    "media": []
   },
   {
     "id": "event-010",
@@ -164,10 +201,14 @@
       "name": "Arabia"
     },
     "category": "political",
-    "connections": ["event-009", "event-011"],
+    "connections": [
+      "event-009",
+      "event-011"
+    ],
     "learningPath": "early-islamic-period",
     "dynasty": "Rashidun",
-    "region": "Arabia"
+    "region": "Arabia",
+    "media": []
   },
   {
     "id": "event-011",
@@ -181,10 +222,14 @@
       "name": "Damascus, Syria"
     },
     "category": "political",
-    "connections": ["event-010", "event-012"],
+    "connections": [
+      "event-010",
+      "event-012"
+    ],
     "learningPath": "classical-islamic-period",
     "dynasty": "Umayyad",
-    "region": "Levant"
+    "region": "Levant",
+    "media": []
   },
   {
     "id": "event-012",
@@ -198,10 +243,14 @@
       "name": "Gibraltar, Spain"
     },
     "category": "military",
-    "connections": ["event-011", "event-013"],
+    "connections": [
+      "event-011",
+      "event-013"
+    ],
     "learningPath": "classical-islamic-period",
     "dynasty": "Umayyad",
-    "region": "Iberia"
+    "region": "Iberia",
+    "media": []
   },
   {
     "id": "event-013",
@@ -215,10 +264,14 @@
       "name": "Baghdad, Iraq"
     },
     "category": "scientific",
-    "connections": ["event-012", "event-014"],
+    "connections": [
+      "event-012",
+      "event-014"
+    ],
     "learningPath": "islamic-golden-age",
     "dynasty": "Abbasid",
-    "region": "Mesopotamia"
+    "region": "Mesopotamia",
+    "media": []
   },
   {
     "id": "event-014",
@@ -232,10 +285,14 @@
       "name": "Baghdad, Iraq"
     },
     "category": "scientific",
-    "connections": ["event-013", "event-015"],
+    "connections": [
+      "event-013",
+      "event-015"
+    ],
     "learningPath": "islamic-golden-age",
     "dynasty": "Abbasid",
-    "region": "Mesopotamia"
+    "region": "Mesopotamia",
+    "media": []
   },
   {
     "id": "event-015",
@@ -249,10 +306,14 @@
       "name": "Bukhara, Uzbekistan"
     },
     "category": "religious",
-    "connections": ["event-014", "event-016"],
+    "connections": [
+      "event-014",
+      "event-016"
+    ],
     "learningPath": "islamic-golden-age",
     "dynasty": "Tahirid",
-    "region": "Central Asia"
+    "region": "Central Asia",
+    "media": []
   },
   {
     "id": "event-016",
@@ -266,9 +327,13 @@
       "name": "Amol, Iran"
     },
     "category": "scientific",
-    "connections": ["event-015", "event-017"],
+    "connections": [
+      "event-015",
+      "event-017"
+    ],
     "learningPath": "islamic-golden-age",
     "dynasty": "Buyid",
-    "region": "Persia"
+    "region": "Persia",
+    "media": []
   }
 ]

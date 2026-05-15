@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
-import { Timeline, TimelineOptions } from 'vis-timeline/standalone';
+import React, { useEffect, useMemo, useRef } from 'react';
 import { HistoricalIncident } from '../../types/incident';
+import { TimelineTopBar } from './TimelineTopBar';
 import './timeline.css';
 
 interface TimelineViewProps {
@@ -12,148 +12,216 @@ interface TimelineViewProps {
   onDateRangeChange?: (range: { start: string; end: string } | null) => void;
 }
 
+interface EraDef {
+  id: string;
+  label: string;
+}
+
+const ERAS: EraDef[] = [
+  { id: 'earlier', label: 'Earlier' },
+  { id: '600', label: '600' },
+  { id: '700', label: '700' },
+  { id: '800', label: '800' },
+  { id: '900', label: '900' },
+  { id: '1000', label: '1000' },
+  { id: '1100', label: '1100' },
+  { id: '1200', label: '1200' },
+  { id: '1300', label: '1300' },
+  { id: '1400', label: '1400' },
+  { id: '1500', label: '1500' },
+  { id: '1600', label: '1600' },
+  { id: '1700', label: '1700' },
+  { id: '1800', label: '1800' },
+  { id: '1900', label: '1900' },
+  { id: '2000', label: '2000' },
+];
+
+const bucketize = (iso: string): string => {
+  const year = parseInt(iso.split('-')[0], 10);
+  if (Number.isNaN(year) || year < 600) return 'earlier';
+  if (year >= 2000) return '2000';
+  return String(Math.floor(year / 100) * 100);
+};
+
+interface CardVariant {
+  width: number;
+  height: number;
+}
+
+const CARD_VARIANTS: CardVariant[] = [
+  { width: 220, height: 220 },
+  { width: 240, height: 280 },
+  { width: 260, height: 220 },
+  { width: 280, height: 240 },
+  { width: 200, height: 260 },
+  { width: 260, height: 260 },
+  { width: 220, height: 200 },
+  { width: 280, height: 200 },
+  { width: 200, height: 240 },
+];
+
+const hashString = (s: string): number =>
+  Math.abs([...s].reduce((acc, c) => (acc * 31 + c.charCodeAt(0)) | 0, 7));
+
+const variantFor = (id: string): CardVariant =>
+  CARD_VARIANTS[hashString(id) % CARD_VARIANTS.length];
+
+const CARD_GAP = 24;
+const ERA_BASE_WIDTH = 200;
+
+const formatProseDate = (iso: string): string => {
+  const [y, m, d] = iso.split('-');
+  const year = parseInt(y, 10);
+  const month = parseInt(m ?? '1', 10);
+  const day = parseInt(d ?? '1', 10);
+  if (Number.isNaN(year) || Number.isNaN(month) || Number.isNaN(day)) return iso;
+  const date = new Date(Date.UTC(year, month - 1, day));
+  if (Number.isNaN(date.getTime())) return iso;
+  return new Intl.DateTimeFormat('en-AU', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(date);
+};
+
+interface CardProps {
+  incident: HistoricalIncident;
+  onClick: (incident: HistoricalIncident) => void;
+}
+
+const TimelineCard: React.FC<CardProps> = ({ incident, onClick }) => {
+  const imageMedia = incident.media?.find((m) => m.type === 'image');
+  const imageUrl = imageMedia?.url;
+  const date = formatProseDate(incident.startDate);
+  const { width, height } = variantFor(incident.id);
+  const sizeStyle: React.CSSProperties = { width, height };
+
+  if (imageUrl) {
+    return (
+      <button
+        type="button"
+        onClick={() => onClick(incident)}
+        className="timeline-card timeline-card--image"
+        style={sizeStyle}
+        aria-label={`${incident.title}, ${date}`}
+      >
+        <img src={imageUrl} alt="" className="timeline-card-image" />
+        <div className="timeline-card-image-overlay">
+          <div className="timeline-card-image-date">{date}</div>
+          <div className="timeline-card-image-title">{incident.title}</div>
+        </div>
+      </button>
+    );
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={() => onClick(incident)}
+      className="timeline-card timeline-card--text"
+      style={sizeStyle}
+      aria-label={`${incident.title}, ${date}`}
+    >
+      <div className="timeline-card-text-title">{incident.title}</div>
+      <div className="timeline-card-text-date">{date}</div>
+    </button>
+  );
+};
+
+const laneWidth = (items: HistoricalIncident[]): number =>
+  items.reduce((acc, i) => acc + variantFor(i.id).width + CARD_GAP, 0);
+
 export const TimelineView: React.FC<TimelineViewProps> = ({
   incidents,
   onIncidentClick,
   selectedEra,
   onEraChange,
 }) => {
-  const timelineRef = useRef<HTMLDivElement>(null);
-  const timelineInstance = useRef<Timeline | null>(null);
+  const scrollerRef = useRef<HTMLDivElement>(null);
+  const eraRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
-  const eraMarkers = [
-    { year: 'earlier', label: 'Earlier' },
-    { year: '400', label: '400' },
-    { year: '600', label: '600' },
-    { year: '700', label: '700' },
-    { year: '800', label: '800' },
-    { year: '900', label: '900' },
-    { year: '1000', label: '1000' },
-    { year: '1100', label: '1100' },
-    { year: '1200', label: '1200' },
-    { year: '1300', label: '1300' },
-    { year: '1400', label: '1400' },
-    { year: '1500', label: '1500' },
-    { year: '1600', label: '1600' },
-    { year: '1700', label: '1700' },
-    { year: '1800', label: '1800' },
-    { year: '1900', label: '1900' },
-    { year: '2000', label: '2000' },
-  ];
+  const grouped = useMemo(() => {
+    return ERAS.map((era) => ({
+      ...era,
+      incidents: incidents
+        .filter((i) => bucketize(i.startDate) === era.id)
+        .sort((a, b) => a.startDate.localeCompare(b.startDate)),
+    }));
+  }, [incidents]);
 
   useEffect(() => {
-    if (!timelineRef.current) return;
-
-    // Convert incidents to timeline items
-    const items = incidents.map(incident => ({
-      id: incident.id,
-      content: incident.title,
-      start: incident.startDate,
-      end: incident.endDate || undefined,
-      group: incident.category,
-      className: `incident-${incident.category}`,
-    }));
-
-    const options: TimelineOptions = {
-      orientation: 'top',
-      horizontalScroll: true,
-      zoomMin: 1000 * 60 * 60 * 24 * 365, // Minimum 1 year zoom
-      zoomMax: 1000 * 60 * 60 * 24 * 365 * 1400, // Maximum 1400 years zoom
-      editable: {
-        add: false,
-        updateTime: false,
-        remove: false,
-      },
-      selectable: true,
-      showCurrentTime: false,
-      onMove: (item: any, callback: (item: any) => void) => {
-        // Prevent item movement
-        callback(item);
-      },
-      margin: {
-        item: 20,
-        axis: 10,
-      },
-      template: (item: any, element: HTMLElement, data: any) => {
-        const imageUrl = (data as any).media?.[0]?.url || '/placeholder-image.jpg';
-        element.innerHTML = `
-          <div class="timeline-card">
-            <img src="${imageUrl}" alt="${item.content}" class="timeline-card-image" />
-            <div class="timeline-card-content">
-              <div class="timeline-card-year">${item.start.split('-')[0]}</div>
-              <div class="timeline-card-title">${item.content}</div>
-              <div class="timeline-card-category">${item.group}</div>
-            </div>
-          </div>
-        `;
-      },
-    };
-
-    timelineInstance.current = new Timeline(timelineRef.current, items, options);
-
-    const handleSelection = (info: { items: string[] }) => {
-      if (info.items.length > 0) {
-        const incident = incidents.find(i => i.id === info.items[0]);
-        if (incident) {
-          onIncidentClick(incident);
-        }
-      }
-    };
-
-    timelineInstance.current.on('select', handleSelection);
-
-    return () => {
-      if (timelineInstance.current) {
-        timelineInstance.current.off('select', handleSelection);
-        timelineInstance.current.destroy();
-      }
-    };
-  }, [incidents, onIncidentClick]);
+    if (!selectedEra) return;
+    const target = eraRefs.current[selectedEra];
+    const scroller = scrollerRef.current;
+    if (!target || !scroller) return;
+    scroller.scrollTo({
+      left: target.offsetLeft - 80,
+      behavior: 'smooth',
+    });
+  }, [selectedEra]);
 
   return (
-    <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden border border-gray-200">
-      {/* Era Navigation Bar */}
-      <div className="border-b border-gray-200 bg-white">
-        <div className="flex items-center px-6 py-3 overflow-x-auto">
-          <div className="flex items-center space-x-8 min-w-max">
-            <button
-              onClick={() => onEraChange?.('earlier')}
-              className={`text-sm font-medium transition-colors ${
-                selectedEra === 'earlier'
-                  ? 'text-slate-900'
-                  : 'text-gray-500 hover:text-gray-700'
-              }`}
-            >
-              Earlier
-            </button>
-            {eraMarkers.slice(1).map((era, index) => (
-              <React.Fragment key={era.year}>
-                <button
-                  onClick={() => onEraChange?.(era.year)}
-                  className={`text-sm font-medium transition-colors ${
-                    selectedEra === era.year
-                      ? 'text-slate-900'
-                      : 'text-gray-500 hover:text-gray-700'
-                  }`}
-                >
-                  {era.year}
-                </button>
-                {index < eraMarkers.length - 2 && (
-                  <div className="w-px h-4 bg-gray-300" />
-                )}
-              </React.Fragment>
-            ))}
-          </div>
-        </div>
-        {/* Active indicator */}
-        {selectedEra && (
-          <div className="absolute bottom-0 left-6 h-0.5 bg-slate-900 transition-all" />
-        )}
-      </div>
+    <div className="relative w-full bg-white">
+      <TimelineTopBar
+        selectedEra={selectedEra}
+        onEraChange={onEraChange ?? (() => {})}
+      />
+      <div
+        ref={scrollerRef}
+        className="timeline-scroller"
+        role="region"
+        aria-label="Historical timeline"
+      >
+        <div className="timeline-stage">
+          <div className="timeline-rail" aria-hidden="true" />
 
-      {/* Horizontal Timeline Container */}
-      <div className="overflow-x-auto overflow-y-hidden">
-        <div ref={timelineRef} className="h-96 min-w-full" />
+          <div className="timeline-scroll-hint" aria-hidden="true">
+            SCROLL <span className="timeline-scroll-hint-arrow">›</span>
+          </div>
+
+          {grouped.map((era) => {
+            const topItems = era.incidents.filter((_, i) => i % 2 === 0);
+            const bottomItems = era.incidents.filter((_, i) => i % 2 === 1);
+            const tracksWidth = Math.max(
+              laneWidth(topItems),
+              laneWidth(bottomItems),
+              120,
+            );
+            const eraWidth = ERA_BASE_WIDTH + tracksWidth;
+
+            return (
+              <div
+                key={era.id}
+                ref={(el) => { eraRefs.current[era.id] = el; }}
+                className="timeline-era"
+                style={{ width: eraWidth }}
+              >
+                <div className="timeline-era-label">{era.label}</div>
+                <div className="timeline-era-tracks">
+                  <div className="timeline-era-lane timeline-era-lane--top">
+                    {topItems.map((incident) => (
+                      <TimelineCard
+                        key={incident.id}
+                        incident={incident}
+                        onClick={onIncidentClick}
+                      />
+                    ))}
+                  </div>
+                  <div className="timeline-era-lane timeline-era-lane--bottom">
+                    {bottomItems.map((incident) => (
+                      <TimelineCard
+                        key={incident.id}
+                        incident={incident}
+                        onClick={onIncidentClick}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
