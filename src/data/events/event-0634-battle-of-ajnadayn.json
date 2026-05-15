@@ -1,0 +1,23 @@
+{
+  "id": "event-0634-battle-of-ajnadayn",
+  "title": "Battle of Ajnadayn",
+  "description": "The Battle of Ajnadayn was fought in July or August 634, in a location close to Bayt Jibrin; it was the first major pitched battle between the Byzantine (Roman) Empire and the army of the Arab Rashidun Caliphate. The result of the battle was a decisive Muslim victory.",
+  "startDate": "0634-01-01",
+  "location": {
+    "latitude": 31.6833,
+    "longitude": 34.95,
+    "name": "southern Levant, near Bayt Jibrin (Eleutheropolis) in present-day Israel"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Battle of Ajnadayn",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Ajnadayn",
+      "wikidata": "Q888904",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

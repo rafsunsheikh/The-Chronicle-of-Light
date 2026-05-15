@@ -1,0 +1,24 @@
+{
+  "id": "event-0639-arab-conquest-of-egypt",
+  "title": "Arab conquest of Egypt",
+  "description": "The Rashidun Caliphate conquered Byzantine Egypt between 639 and 642 AD as part of the Arab–Byzantine wars and the wider Muslim conquests. The Arab conquest was led by Amr ibn al-As and resulted in not only the conclusion of Roman rule in Egypt, which had begun in 30 BC and…",
+  "startDate": "0639-01-01",
+  "endDate": "0642-01-01",
+  "location": {
+    "latitude": 28,
+    "longitude": 32.1,
+    "name": "Roman Egypt"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Arab conquest of Egypt",
+      "url": "https://en.wikipedia.org/wiki/Arab_conquest_of_Egypt",
+      "wikidata": "Q317519",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

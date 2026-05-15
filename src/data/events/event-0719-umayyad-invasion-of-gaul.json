@@ -1,0 +1,30 @@
+{
+  "id": "event-0719-umayyad-invasion-of-gaul",
+  "title": "Umayyad invasion of Gaul",
+  "description": "The Umayyads invaded Gaul following the their conquest of the Iberian peninsula (711–718). The invasion occurred in two main phases, from AD 719 and from 732. Although the Umayyads secured control of Septimania, their incursions beyond this region into the Loire and Rhône valleys failed.",
+  "startDate": "0719-01-01",
+  "endDate": "0759-01-01",
+  "location": {
+    "latitude": 46.5,
+    "longitude": 2.9,
+    "name": "Gaul"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Umayyad invasion of Gaul",
+      "url": "https://en.wikipedia.org/wiki/Umayyad_invasion_of_Gaul",
+      "wikidata": "Q129124",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Umayyad_invasion_of_Gaul-en.svg/330px-Umayyad_invasion_of_Gaul-en.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    }
+  ]
+}

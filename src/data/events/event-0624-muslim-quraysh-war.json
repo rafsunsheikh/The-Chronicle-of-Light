@@ -1,0 +1,30 @@
+{
+  "id": "event-0624-muslim-quraysh-war",
+  "title": "Muslim–Quraysh War",
+  "description": "The Muslim–Quraysh War was a 6-year military and religious conflict in the Arabian Peninsula between the early Muslims led by Muhammad on one side and the Arab pagan Quraysh tribe on the other.",
+  "startDate": "0624-03-16",
+  "endDate": "0630-01-01",
+  "location": {
+    "latitude": 23,
+    "longitude": 46,
+    "name": "Arabian Peninsula"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Muslim–Quraysh War",
+      "url": "https://en.wikipedia.org/wiki/Muslim%E2%80%93Quraysh_War",
+      "wikidata": "Q111939431",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Siyer-i_Nebi_-_Imam_Ali_und_Hamza_bei_dem_vorgezogenen_Einzelkampf_in_Badr_gegen_die_G%C3%B6tzendiener.jpg/330px-Siyer-i_Nebi_-_Imam_Ali_und_Hamza_bei_dem_vorgezogenen_Einzelkampf_in_Badr_gegen_die_G%C3%B6tzendiener.jpg"
+    }
+  ]
+}

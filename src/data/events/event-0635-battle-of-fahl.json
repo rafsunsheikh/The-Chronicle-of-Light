@@ -1,0 +1,29 @@
+{
+  "id": "event-0635-battle-of-fahl",
+  "title": "Battle of Fahl",
+  "description": "The Battle of Fahl, also known as the Battle of the Marshes and the Battle of Beisan, was a major battle in the Muslim conquest of Byzantine Syria fought by the Arab troops of the Rashidun Caliphate and Byzantine forces at or near Pella (Fahl) and nearby Scythopolis (Beisan)…",
+  "startDate": "0635-01-01",
+  "location": {
+    "latitude": 33.1867,
+    "longitude": 35.6192,
+    "name": "Jordan River"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Battle of Fahl",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Fahl",
+      "wikidata": "Q1030249",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/20100921_pella08.JPG/330px-20100921_pella08.JPG"
+    }
+  ]
+}

@@ -32,12 +32,12 @@
     },
     "startDate": {
       "type": "string",
-      "pattern": "^[0-9]{3,4}-[0-9]{2}-[0-9]{2}$",
-      "description": "ISO-like date YYYY-MM-DD. Years before 1000 are zero-padded to 3 digits if needed."
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$",
+      "description": "ISO-like date YYYY-MM-DD. Years must be zero-padded to exactly 4 digits so lexicographic string sort matches chronological sort."
     },
     "endDate": {
       "type": "string",
-      "pattern": "^[0-9]{3,4}-[0-9]{2}-[0-9]{2}$"
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
     },
     "location": {
       "type": "object",

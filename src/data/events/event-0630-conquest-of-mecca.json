@@ -2,8 +2,8 @@
   "id": "event-0630-conquest-of-mecca",
   "title": "Conquest of Mecca",
   "description": "Muslim forces peacefully conquered Mecca, leading to widespread conversion to Islam",
-  "startDate": "630-01-10",
-  "endDate": "630-01-10",
+  "startDate": "0630-01-10",
+  "endDate": "0630-01-10",
   "location": {
     "latitude": 21.4225,
     "longitude": 39.8175,

@@ -1,0 +1,30 @@
+{
+  "id": "event-0629-arab-byzantine-wars",
+  "title": "Arab–Byzantine wars",
+  "description": "The Arab–Byzantine wars or Muslim–Byzantine wars were a series of wars from the 7th to 11th centuries between the successive Islamic caliphates and the Byzantine Empire. Following the Byzantine defeat at the Battle of the Yarmuk, Muslim armies conquered most Byzantine territory in the Levant, Egypt and North Africa within decades.",
+  "startDate": "0629-01-01",
+  "endDate": "1050-01-01",
+  "location": {
+    "latitude": 41.1942,
+    "longitude": 15.2424,
+    "name": "Southern Italy"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Arab–Byzantine wars",
+      "url": "https://en.wikipedia.org/wiki/Arab%E2%80%93Byzantine_wars",
+      "wikidata": "Q29100",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Greekfire-madridskylitzes1.jpg/330px-Greekfire-madridskylitzes1.jpg"
+    }
+  ]
+}

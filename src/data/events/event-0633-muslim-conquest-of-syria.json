@@ -1,0 +1,30 @@
+{
+  "id": "event-0633-muslim-conquest-of-syria",
+  "title": "Muslim conquest of Syria",
+  "description": "The Rashidun Caliphate conquered Byzantine Syria between 634–638 CE as part of the Arab–Byzantine wars and the wider Muslim conquests.",
+  "startDate": "0633-01-01",
+  "endDate": "0640-01-01",
+  "location": {
+    "latitude": 32.8,
+    "longitude": 35.6,
+    "name": "Near East"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Muslim conquest of Syria",
+      "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Syria",
+      "wikidata": "Q248984",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/The_Scene_of_the_Theater_in_Palmyra.JPG/330px-The_Scene_of_the_Theater_in_Palmyra.JPG"
+    }
+  ]
+}

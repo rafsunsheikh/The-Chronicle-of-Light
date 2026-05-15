@@ -1,0 +1,30 @@
+{
+  "id": "event-0746-abbasid-revolution",
+  "title": "Abbasid revolution",
+  "description": "The Abbasid revolution, was the overthrow of the Umayyad Caliphate (661–750), the second of the four major caliphates in Islamic history, by the third, the Abbasid Caliphate (750–1517).",
+  "startDate": "0746-06-13",
+  "endDate": "0750-07-01",
+  "location": {
+    "latitude": 36,
+    "longitude": 62,
+    "name": "Khorasan"
+  },
+  "category": "cultural",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Abbasid revolution",
+      "url": "https://en.wikipedia.org/wiki/Abbasid_revolution",
+      "wikidata": "Q5933860",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Caliphate_750.jpg/330px-Caliphate_750.jpg"
+    }
+  ]
+}

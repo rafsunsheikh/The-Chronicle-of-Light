@@ -1,0 +1,29 @@
+{
+  "id": "event-0656-assassination-of-uthman",
+  "title": "Assassination of Uthman",
+  "description": "Uthman ibn Affan, the third Rashidun caliph, who ruled from 644 to 656, was assassinated at the end of a siege upon his house in 656. This was initially a protest but escalated into a siege following the death of a protester. The protesters-turned-rebels had demanded a new caliph, which Uthman refused.",
+  "startDate": "0656-06-20",
+  "location": {
+    "latitude": 25,
+    "longitude": 39.5,
+    "name": "Medina Province"
+  },
+  "category": "political",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Assassination of Uthman",
+      "url": "https://en.wikipedia.org/wiki/Assassination_of_Uthman",
+      "wikidata": "Q3625539",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ayasofya_13_%28cropped%29.JPG/330px-Ayasofya_13_%28cropped%29.JPG"
+    }
+  ]
+}

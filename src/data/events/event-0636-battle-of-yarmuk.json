@@ -2,8 +2,8 @@
   "id": "event-0636-battle-of-yarmuk",
   "title": "Battle of Yarmuk",
   "description": "Decisive Muslim victory against the Byzantine Empire, leading to Islamic conquest of Syria",
-  "startDate": "636-08-01",
-  "endDate": "636-08-15",
+  "startDate": "0636-08-01",
+  "endDate": "0636-08-15",
   "location": {
     "latitude": 33.4167,
     "longitude": 36.3,

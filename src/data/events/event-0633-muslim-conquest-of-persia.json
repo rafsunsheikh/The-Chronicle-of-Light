@@ -1,0 +1,30 @@
+{
+  "id": "event-0633-muslim-conquest-of-persia",
+  "title": "Muslim conquest of Persia",
+  "description": "Between 633 and 651, the Rashidun Caliphate conquered the Sasanian Empire as part of the early Muslim conquests, which began under the Islamic prophet Muhammad in 627/628.",
+  "startDate": "0633-01-01",
+  "endDate": "0654-01-01",
+  "location": {
+    "latitude": 36,
+    "longitude": 62,
+    "name": "Khorasan"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Muslim conquest of Persia",
+      "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Persia",
+      "wikidata": "Q887684",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/IslamicConquestsIroon.png/330px-IslamicConquestsIroon.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    }
+  ]
+}

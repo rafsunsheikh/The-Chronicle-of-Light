@@ -1,0 +1,30 @@
+{
+  "id": "event-0673-muslim-conquest-of-transoxiana",
+  "title": "Muslim conquest of Transoxiana",
+  "description": "Muslims conquered Transoxiana between 651 and 751, shortly after their conquest of Persia enabled them to enter Central Asia. Relatively small-scale incursions had taken place under the Rashidun Caliphate, but it was not until after the establishment of the Umayyad Caliphate…",
+  "startDate": "0673-01-01",
+  "endDate": "0751-01-01",
+  "location": {
+    "latitude": 42.4303,
+    "longitude": 63.8996,
+    "name": "Transoxiana"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Muslim conquest of Transoxiana",
+      "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_Transoxiana",
+      "wikidata": "Q4817850",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Arabs_besieging_the_city_of_Samarkand%2C_captured_in_722_CE%2C_Palace_of_Devastich_%28706-722%29%2C_Penjikent_mural.jpg/330px-Arabs_besieging_the_city_of_Samarkand%2C_captured_in_722_CE%2C_Palace_of_Devastich_%28706-722%29%2C_Penjikent_mural.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    }
+  ]
+}

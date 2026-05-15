@@ -2,8 +2,8 @@
   "id": "event-0622-hijra-migration-to-medina",
   "title": "Hijra (Migration to Medina)",
   "description": "Prophet Muhammad and early Muslims migrate from Mecca to Medina, marking the beginning of the Islamic calendar",
-  "startDate": "622-09-24",
-  "endDate": "622-09-24",
+  "startDate": "0622-09-24",
+  "endDate": "0622-09-24",
   "location": {
     "latitude": 24.5247,
     "longitude": 39.5692,

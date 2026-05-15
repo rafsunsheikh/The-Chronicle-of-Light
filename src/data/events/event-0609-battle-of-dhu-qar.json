@@ -1,0 +1,23 @@
+{
+  "id": "event-0609-battle-of-dhu-qar",
+  "title": "Battle of Dhu Qar",
+  "description": "The Battle of Dhu Qar, also known as the War of the Camel's Udder, was a pre-Islamic battle fought between Arab tribes and the Persian Sasanian Empire in Southern Iraq between 604 and 611 AD.",
+  "startDate": "0609-01-01",
+  "location": {
+    "latitude": 31.2333,
+    "longitude": 46.3167,
+    "name": "Dhi Qar Governorate"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Battle of Dhu Qar",
+      "url": "https://en.wikipedia.org/wiki/Battle_of_Dhu_Qar",
+      "wikidata": "Q2888408",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

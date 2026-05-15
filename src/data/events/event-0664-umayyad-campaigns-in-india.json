@@ -1,0 +1,24 @@
+{
+  "id": "event-0664-umayyad-campaigns-in-india",
+  "title": "Umayyad campaigns in India",
+  "description": "During the first half of the 8th century, a series of battles took place in the Indian subcontinent between the Umayyad Caliphate and Indian kingdoms situated to the east of the Indus River, beginning with the Arab conquest of Sindh during 711–713.",
+  "startDate": "0664-01-01",
+  "endDate": "0740-01-01",
+  "location": {
+    "latitude": 19,
+    "longitude": 74.15,
+    "name": "West India"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Umayyad campaigns in India",
+      "url": "https://en.wikipedia.org/wiki/Umayyad_campaigns_in_India",
+      "wikidata": "Q4087317",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ]
+}

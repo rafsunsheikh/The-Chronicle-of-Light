@@ -108,8 +108,10 @@ function placeEra(events: HistoricalIncident[]): {
 } {
   if (events.length === 0) return { placed: [], width: 120 };
 
-  const sorted = [...events].sort((a, b) =>
-    a.startDate.localeCompare(b.startDate),
+  // Numeric sort — see useIncidents.ts comment; protects against any
+  // 3-digit vs 4-digit year mismatch in event data.
+  const sorted = [...events].sort(
+    (a, b) => fractionalYear(a.startDate) - fractionalYear(b.startDate),
   );
   const firstYear = fractionalYear(sorted[0].startDate);
 
@@ -217,7 +219,10 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
       ...era,
       incidents: incidents
         .filter((i) => bucketize(i.startDate) === era.id)
-        .sort((a, b) => a.startDate.localeCompare(b.startDate)),
+        .sort(
+          (a, b) =>
+            fractionalYear(a.startDate) - fractionalYear(b.startDate),
+        ),
     }));
   }, [incidents]);
 

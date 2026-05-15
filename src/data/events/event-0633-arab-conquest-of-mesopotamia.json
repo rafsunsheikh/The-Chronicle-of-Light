@@ -1,0 +1,30 @@
+{
+  "id": "event-0633-arab-conquest-of-mesopotamia",
+  "title": "Arab conquest of Mesopotamia",
+  "description": "The Arab conquest of Mesopotamia, or the Muslim conquest of Mesopotamia, was carried out by the Rashidun Caliphate from 633 to 638 AD. The Arab Muslim forces of Caliph Umar first attacked Sasanian territory in 633, when Khalid ibn al-Walid invaded Mesopotamia, which was the political and economic centre of the Sasanian state.",
+  "startDate": "0633-01-01",
+  "endDate": "0638-01-01",
+  "location": {
+    "latitude": 33.7,
+    "longitude": 43.5,
+    "name": "Mesopotamia"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Arab conquest of Mesopotamia",
+      "url": "https://en.wikipedia.org/wiki/Arab_conquest_of_Mesopotamia",
+      "wikidata": "Q117286538",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/%D8%A2%D8%AA%D8%B4%DA%A9%D8%AF%D9%87_%D9%86%D9%88%DB%8C%D8%B3_%28%DA%86%D9%87%D8%A7%D8%B1%D8%B7%D8%A7%D9%82%DB%8C%29_%D9%85%D8%A7%D8%A8%DB%8C%D9%86_%D8%B3%D8%A7%D9%84%D9%87%D8%A7%DB%8C_%DB%B1%DB%B3%DB%B8%DB%B5_-_%DB%B8%DB%B8_-_%D8%B9%DA%A9%D8%A7%D8%B3_%D9%85%D8%B5%D8%B7%D9%81%DB%8C_%D9%85%D8%B9%D8%B1%D8%A7%D8%AC%DB%8C_15.jpg/330px-%D8%A2%D8%AA%D8%B4%DA%A9%D8%AF%D9%87_%D9%86%D9%88%DB%8C%D8%B3_%28%DA%86%D9%87%D8%A7%D8%B1%D8%B7%D8%A7%D9%82%DB%8C%29_%D9%85%D8%A7%D8%A8%DB%8C%D9%86_%D8%B3%D8%A7%D9%84%D9%87%D8%A7%DB%8C_%DB%B1%DB%B3%DB%B8%DB%B5_-_%DB%B8%DB%B8_-_%D8%B9%DA%A9%D8%A7%D8%B3_%D9%85%D8%B5%D8%B7%D9%81%DB%8C_%D9%85%D8%B9%D8%B1%D8%A7%D8%AC%DB%8C_15.jpg"
+    }
+  ]
+}

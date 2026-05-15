@@ -1,0 +1,30 @@
+{
+  "id": "event-0642-arab-invasion-of-armenia",
+  "title": "Arab invasion of Armenia",
+  "description": "The Arab invasion of Armenia was a series of military campaigns conducted in 639–661 CE by the Rashidun Caliphate against the Byzantine Empire in Byzantine Armenia as part of the wider early Muslim conquests and centuries-long Arab–Byzantine wars.",
+  "startDate": "0642-01-01",
+  "endDate": "0744-01-01",
+  "location": {
+    "latitude": 40.5,
+    "longitude": 43.5,
+    "name": "Greater Armenia"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Arab invasion of Armenia",
+      "url": "https://en.wikipedia.org/wiki/Arab_invasion_of_Armenia",
+      "wikidata": "Q3621258",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Mohammad_adil_rais-Invasion_of_Anatolia_and_Armenia.PNG/330px-Mohammad_adil_rais-Invasion_of_Anatolia_and_Armenia.PNG"
+    }
+  ]
+}

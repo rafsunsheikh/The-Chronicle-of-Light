@@ -1,0 +1,30 @@
+{
+  "id": "event-0647-muslim-conquest-of-the-maghreb",
+  "title": "Muslim conquest of the Maghreb",
+  "description": "The Rashidun and Umayyad Caliphates conquered Byzantine North Africa commencing in 647 and concluding in 709, when the Byzantine Empire lost its last remaining strongholds to Caliph Al-Walid I.",
+  "startDate": "0647-01-01",
+  "endDate": "0709-01-01",
+  "location": {
+    "latitude": 30,
+    "longitude": 5,
+    "name": "Maghreb"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Muslim conquest of the Maghreb",
+      "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Maghreb",
+      "wikidata": "Q925960",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/%D9%81%D8%AA%D9%88%D8%AD_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8.jpg/330px-%D9%81%D8%AA%D9%88%D8%AD_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+    }
+  ]
+}

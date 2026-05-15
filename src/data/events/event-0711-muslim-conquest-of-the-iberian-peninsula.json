@@ -1,0 +1,30 @@
+{
+  "id": "event-0711-muslim-conquest-of-the-iberian-peninsula",
+  "title": "Muslim conquest of the Iberian Peninsula",
+  "description": "The Umayyad Caliphate conquered the Visigothic Kingdom on the Iberian Peninsula in the early 8th century. The conquest resulted in the end of Christian rule throughout most of Iberia and the establishment of Muslim rule in that territory, which came to be known as al-Andalus…",
+  "startDate": "0711-01-01",
+  "endDate": "0726-01-01",
+  "location": {
+    "latitude": 40.21,
+    "longitude": -4.35,
+    "name": "Hispania"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Muslim conquest of the Iberian Peninsula",
+      "url": "https://en.wikipedia.org/wiki/Muslim_conquest_of_the_Iberian_Peninsula",
+      "wikidata": "Q1455917",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Conquistaislamicapeninsula2.svg/330px-Conquistaislamicapeninsula2.svg.png"
+    }
+  ]
+}

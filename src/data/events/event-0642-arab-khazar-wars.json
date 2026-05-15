@@ -1,0 +1,30 @@
+{
+  "id": "event-0642-arab-khazar-wars",
+  "title": "Arab–Khazar wars",
+  "description": "The Arab–Khazar wars were a series of conflicts fought between the Khazar Khaganate and successive Arab caliphates in the Caucasus region from c. 642 to 799 CE. Smaller native principalities were also involved in the conflict as vassals of the two empires.",
+  "startDate": "0642-01-01",
+  "endDate": "0799-01-01",
+  "location": {
+    "latitude": 40.3796,
+    "longitude": 49.8912,
+    "name": "South Caucasus"
+  },
+  "category": "military",
+  "connections": [],
+  "confidence": "established",
+  "sources": [
+    {
+      "citation": "Wikipedia: Arab–Khazar wars",
+      "url": "https://en.wikipedia.org/wiki/Arab%E2%80%93Khazar_wars",
+      "wikidata": "Q3621718",
+      "retrieved": "2026-05-15",
+      "license": "CC BY-SA 4.0"
+    }
+  ],
+  "media": [
+    {
+      "type": "image",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Map_of_the_Caucasus%2C_740_CE.svg/330px-Map_of_the_Caucasus%2C_740_CE.svg.png"
+    }
+  ]
+}
