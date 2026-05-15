@@ -66,8 +66,82 @@ const hashString = (s: string): number =>
 const variantFor = (id: string): CardVariant =>
   CARD_VARIANTS[hashString(id) % CARD_VARIANTS.length];
 
-const CARD_GAP = 24;
 const ERA_BASE_WIDTH = 200;
+// Pixels of horizontal space per year of elapsed time. Controls visual density.
+// Bumping it up spreads events further apart; bumping it down tightens clusters
+// (and forces more lane alternation when events are close in date).
+const PX_PER_YEAR = 28;
+// Minimum horizontal gap (px) between two cards sharing a lane.
+const LANE_GAP = 16;
+// Buffer (px) added to the right edge of the placed cards before declaring the
+// era's tracks width.
+const ERA_RIGHT_BUFFER = 24;
+
+// Convert "YYYY-MM-DD" into a fractional year (e.g. 610-10-13 → 610.78).
+// Used to position cards along the X axis proportional to their date.
+const fractionalYear = (iso: string): number => {
+  const [y, m, d] = iso.split('-');
+  const year = parseInt(y, 10);
+  const month = parseInt(m ?? '1', 10);
+  const day = parseInt(d ?? '1', 10);
+  if (Number.isNaN(year)) return 0;
+  const monthFrac = Number.isNaN(month) ? 0 : (month - 1) / 12;
+  const dayFrac = Number.isNaN(day) ? 0 : (day - 1) / 372; // ≈ 1/31/12
+  return year + monthFrac + dayFrac;
+};
+
+interface PlacedCard {
+  incident: HistoricalIncident;
+  x: number;
+  width: number;
+  lane: 'top' | 'bottom';
+}
+
+// Greedy chronological placement: walk events left-to-right by date, compute
+// each card's "ideal X" from its date, then assign top or bottom lane based on
+// which one lets it sit nearest to that ideal X without colliding with the
+// previous card in the chosen lane. Layout is fully data-driven: any new event
+// slots in automatically by its startDate.
+function placeEra(events: HistoricalIncident[]): {
+  placed: PlacedCard[];
+  width: number;
+} {
+  if (events.length === 0) return { placed: [], width: 120 };
+
+  const sorted = [...events].sort((a, b) =>
+    a.startDate.localeCompare(b.startDate),
+  );
+  const firstYear = fractionalYear(sorted[0].startDate);
+
+  const placed: PlacedCard[] = [];
+  let lastTopRight = -Infinity;
+  let lastBotRight = -Infinity;
+
+  for (const event of sorted) {
+    const idealX = (fractionalYear(event.startDate) - firstYear) * PX_PER_YEAR;
+    const width = variantFor(event.id).width;
+
+    const nextXTop = Math.max(idealX, lastTopRight + LANE_GAP);
+    const nextXBot = Math.max(idealX, lastBotRight + LANE_GAP);
+
+    // Choose the lane that lets us sit closest to idealX (= smallest nextX).
+    // Ties resolve toward the less-used lane so cards naturally alternate.
+    const chooseTop =
+      nextXTop < nextXBot ||
+      (nextXTop === nextXBot && lastTopRight <= lastBotRight);
+
+    if (chooseTop) {
+      placed.push({ incident: event, x: nextXTop, width, lane: 'top' });
+      lastTopRight = nextXTop + width;
+    } else {
+      placed.push({ incident: event, x: nextXBot, width, lane: 'bottom' });
+      lastBotRight = nextXBot + width;
+    }
+  }
+
+  const rightEdge = Math.max(lastTopRight, lastBotRight);
+  return { placed, width: Math.max(120, rightEdge + ERA_RIGHT_BUFFER) };
+}
 
 const formatProseDate = (iso: string): string => {
   const [y, m, d] = iso.split('-');
@@ -129,19 +203,6 @@ const TimelineCard: React.FC<CardProps> = ({ incident, onClick }) => {
   );
 };
 
-// Sum of column widths when events are paired into chronological columns:
-// column N contains items[2N] (above the rail) and items[2N+1] (below).
-// Column width = max(top.width, bottom.width) so the two cards line up.
-const pairedTracksWidth = (items: HistoricalIncident[]): number => {
-  let total = 0;
-  for (let i = 0; i < items.length; i += 2) {
-    const topW = variantFor(items[i].id).width;
-    const botW = items[i + 1] ? variantFor(items[i + 1].id).width : 0;
-    total += Math.max(topW, botW) + CARD_GAP;
-  }
-  return total;
-};
-
 export const TimelineView: React.FC<TimelineViewProps> = ({
   incidents,
   onIncidentClick,
@@ -191,7 +252,7 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
           </div>
 
           {grouped.map((era) => {
-            const tracksWidth = Math.max(pairedTracksWidth(era.incidents), 120);
+            const { placed, width: tracksWidth } = placeEra(era.incidents);
             const eraWidth = ERA_BASE_WIDTH + tracksWidth;
 
             return (
@@ -202,18 +263,18 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
                 style={{ width: eraWidth }}
               >
                 <div className="timeline-era-label">{era.label}</div>
-                <div className="timeline-era-tracks">
-                  {era.incidents.map((incident, i) => (
+                <div
+                  className="timeline-era-tracks"
+                  style={{ width: tracksWidth }}
+                >
+                  {placed.map((p) => (
                     <div
-                      key={incident.id}
-                      className={`timeline-slot ${
-                        i % 2 === 0
-                          ? 'timeline-slot--top'
-                          : 'timeline-slot--bottom'
-                      }`}
+                      key={p.incident.id}
+                      className={`timeline-slot timeline-slot--${p.lane}`}
+                      style={{ left: p.x }}
                     >
                       <TimelineCard
-                        incident={incident}
+                        incident={p.incident}
                         onClick={onIncidentClick}
                       />
                     </div>
