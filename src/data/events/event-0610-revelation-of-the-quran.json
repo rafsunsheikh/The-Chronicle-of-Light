@@ -1,5 +1,5 @@
 {
-  "id": "event-001",
+  "id": "event-0610-revelation-of-the-quran",
   "title": "Revelation of the Quran",
   "description": "First revelation of the Quran to Prophet Muhammad in Cave Hira through the angel Gabriel",
   "startDate": "610-10-13",
@@ -11,7 +11,7 @@
   },
   "category": "religious",
   "connections": [
-    "event-002"
+    "event-0622-hijra-migration-to-medina"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Pre-Islamic",

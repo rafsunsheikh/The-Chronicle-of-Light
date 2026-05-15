@@ -27,15 +27,22 @@ const eventsDir = path.join(repoRoot, 'src', 'data', 'events');
 const outDir = path.join(eventsDir, 'imported');
 
 function parseArgs(argv) {
-  const args = { page: 'Timeline_of_the_history_of_Islam', max: 25, dryRun: false };
+  const args = {
+    page: 'Timeline_of_the_history_of_Islam',
+    max: 25,
+    dryRun: false,
+    ignoreExisting: false,
+  };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--page') args.page = argv[++i];
     else if (a === '--max') args.max = parseInt(argv[++i], 10);
     else if (a === '--dry-run') args.dryRun = true;
+    else if (a === '--ignore-existing') args.ignoreExisting = true;
     else if (a === '--help' || a === '-h') {
       console.log(
-        'Usage: node scripts/wikipedia-import/index.mjs [--page <title>] [--max <n>] [--dry-run]',
+        'Usage: node scripts/wikipedia-import/index.mjs ' +
+          '[--page <title>] [--max <n>] [--dry-run] [--ignore-existing]',
       );
       process.exit(0);
     }
@@ -47,7 +54,6 @@ function loadExistingState() {
   const ids = new Set();
   const qids = new Set();
   const titles = new Set();
-  let maxIdNum = 0;
 
   function walk(dir) {
     if (!fs.existsSync(dir)) return;
@@ -61,8 +67,6 @@ function loadExistingState() {
       if (!f.endsWith('.json')) continue;
       const event = JSON.parse(fs.readFileSync(p, 'utf8'));
       ids.add(event.id);
-      const m = /^event-(\d+)$/.exec(event.id);
-      if (m) maxIdNum = Math.max(maxIdNum, parseInt(m[1], 10));
       titles.add(event.title);
       for (const s of event.sources ?? []) {
         if (s.wikidata) qids.add(s.wikidata);
@@ -71,7 +75,7 @@ function loadExistingState() {
   }
 
   walk(eventsDir);
-  return { ids, qids, titles, maxIdNum };
+  return { ids, qids, titles };
 }
 
 async function main() {
@@ -93,15 +97,24 @@ async function main() {
 
   const state = loadExistingState();
   console.log(
-    `existing: ${state.ids.size} event(s), ${state.qids.size} known Wikidata QID(s)\n`,
+    `existing: ${state.ids.size} event(s), ${state.qids.size} known Wikidata QID(s)` +
+      (args.ignoreExisting ? '  (--ignore-existing: dedup disabled)' : '') +
+      '\n',
   );
 
   console.log('1/3  fetching timeline article links …');
   const titles = await fetchTimelineLinks(args.page);
+  // Oversample: the first N links in any Wikipedia article are usually concept/
+  // disambiguation links, not events. Walk a wider pool and let Wikidata's
+  // date-filter pick the real events.
+  const OVERSAMPLE = 12;
   const candidates = titles
-    .filter((t) => !state.titles.has(t))
-    .slice(0, args.max);
-  console.log(`     ${titles.length} link(s) found, ${candidates.length} new to consider`);
+    .filter((t) => args.ignoreExisting || !state.titles.has(t))
+    .slice(0, args.max * OVERSAMPLE);
+  console.log(
+    `     ${titles.length} link(s) found, ${candidates.length} candidate(s) to probe ` +
+      `(target: ${args.max} event(s))`,
+  );
 
   if (candidates.length === 0) {
     console.log('\nnothing new to import');
@@ -118,7 +131,7 @@ async function main() {
         console.log(`     [${i + 1}/${candidates.length}] ${title} — no Wikidata QID, skip`);
         continue;
       }
-      if (state.qids.has(s.qid)) {
+      if (!args.ignoreExisting && state.qids.has(s.qid)) {
         console.log(`     [${i + 1}/${candidates.length}] ${title} — QID already imported, skip`);
         continue;
       }
@@ -137,16 +150,18 @@ async function main() {
   console.log(`\n3/3  querying Wikidata for ${summaries.length} QID(s) …`);
   const wd = await fetchWikidata(summaries.map((s) => s.qid));
 
-  let nextId = state.maxIdNum + 1;
   let written = 0;
   let skipped = 0;
   const writes = [];
+  // Within a single run, never write two events with the same id. When
+  // --ignore-existing is off, also avoid colliding with already-curated ids.
+  const seenIds = args.ignoreExisting ? new Set() : new Set(state.ids);
 
   for (const summary of summaries) {
+    if (written >= args.max) break;
     const out = buildEvent({
       summary,
       wd: wd.get(summary.qid),
-      nextId,
       today,
     });
 
@@ -156,8 +171,16 @@ async function main() {
       continue;
     }
 
+    if (seenIds.has(out.event.id)) {
+      console.log(
+        `     skip ${summary.title} — derived id "${out.event.id}" collides with another event in this run`,
+      );
+      skipped++;
+      continue;
+    }
+    seenIds.add(out.event.id);
+
     writes.push(out);
-    nextId++;
     written++;
   }
 
@@ -176,10 +199,7 @@ async function main() {
     console.log(`     wrote imported/${w.filename}`);
   }
 
-  console.log(
-    `\n✓ wrote ${written} event(s); skipped ${skipped}; ` +
-      `next id will be event-${String(nextId).padStart(3, '0')}.`,
-  );
+  console.log(`\n✓ wrote ${written} event(s); skipped ${skipped}.`);
   console.log(
     '\nNext: review each file, edit any mis-categorized events, set confidence to "established",\n' +
       'fill in connections[], then move from src/data/events/imported/ to src/data/events/.',

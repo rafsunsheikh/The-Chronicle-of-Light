@@ -1,5 +1,5 @@
 {
-  "id": "event-005",
+  "id": "event-0632-death-of-prophet-muhammad",
   "title": "Death of Prophet Muhammad",
   "description": "The Prophet Muhammad passed away in Medina, marking the end of prophethood in Islam",
   "startDate": "632-06-08",
@@ -11,8 +11,8 @@
   },
   "category": "religious",
   "connections": [
-    "event-004",
-    "event-006"
+    "event-0630-conquest-of-mecca",
+    "event-0632-ridda-wars"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Rashidun",

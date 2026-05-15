@@ -69,11 +69,12 @@ node scripts/wikipedia-import/index.mjs --max 25
 
 ### Flags
 
-| Flag       | Default                              | Description |
-|------------|--------------------------------------|-------------|
-| `--page`   | `Timeline_of_the_history_of_Islam`   | Wikipedia article whose outgoing links to import |
-| `--max`    | `25`                                 | Cap on new candidates to fetch in one run |
-| `--dry-run`| off                                  | Print what would be written; don't touch the filesystem |
+| Flag                 | Default                              | Description |
+|----------------------|--------------------------------------|-------------|
+| `--page`             | `Timeline_of_the_history_of_Islam`   | Wikipedia article whose outgoing links to import |
+| `--max`              | `25`                                 | Cap on events to **write** in one run (oversampled internally) |
+| `--dry-run`          | off                                  | Print what would be written; don't touch the filesystem |
+| `--ignore-existing`  | off                                  | Don't skip articles whose title or Wikidata QID matches an already-curated event. Use on the **first run** to bring real Wikipedia data in even where placeholders exist; reviewer overwrites the placeholders during the imported/ → events/ promotion step. |
 
 ## Output
 
@@ -81,14 +82,22 @@ Each run writes files like:
 
 ```
 src/data/events/imported/
-  event-017-<slug>.json
-  event-018-<slug>.json
+  event-0624-battle-of-badr.json
+  event-0680-battle-of-karbala.json
   ...
 ```
 
-Files use the next sequential ID after the highest existing
-`event-NNN` across both `src/data/events/` and
-`src/data/events/imported/`.
+The id format is `event-YYYY-slug`, where `YYYY` is the 4-digit zero-padded
+start year (so alphabetical sort = chronological sort) and `slug` is a
+hyphenated lowercase derivation of the title. The filename is exactly
+`{id}.json`. There is no sequential numbering — each event derives its
+own id from its start date and title.
+
+If a derived id collides with another event written in the same run,
+the second one is skipped. Collisions with already-curated events are
+gated by `--ignore-existing`: by default the importer skips them; pass
+the flag on the first run to bring imports in alongside the
+placeholders so a reviewer can overwrite them.
 
 ## Cache
 

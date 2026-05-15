@@ -17,8 +17,8 @@
   "properties": {
     "id": {
       "type": "string",
-      "pattern": "^event-[0-9]{3,}$",
-      "description": "Stable identifier. Format: event-NNN where NNN is at least 3 digits."
+      "pattern": "^event-[0-9]{4}-[a-z0-9-]+$",
+      "description": "Stable identifier. Format: event-YYYY-slug, where YYYY is the 4-digit start year (zero-padded) and slug is a lowercase a-z/0-9/hyphen derivation of the title. Year-prefix makes alphabetical sort = chronological sort."
     },
     "title": {
       "type": "string",
@@ -57,7 +57,7 @@
       "type": "array",
       "items": {
         "type": "string",
-        "pattern": "^event-[0-9]{3,}$"
+        "pattern": "^event-[0-9]{4}-[a-z0-9-]+$"
       },
       "uniqueItems": true
     },

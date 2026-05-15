@@ -85,14 +85,15 @@ const slugify = (s) =>
     .replace(/^-+|-+$/g, '')
     .slice(0, 60);
 
-export function buildEvent({ summary, wd, nextId, today }) {
-  const id = `event-${String(nextId).padStart(3, '0')}`;
-
+export function buildEvent({ summary, wd, today }) {
   const startDate = normalizeDate(wd?.startTime);
   if (!startDate) {
     return { skipped: true, reason: 'no usable date from Wikidata' };
   }
   const endDate = normalizeDate(wd?.endTime);
+
+  const year = startDate.split('-')[0].padStart(4, '0');
+  const id = `event-${year}-${slugify(summary.title)}`;
 
   let lat = null;
   let lon = null;
@@ -140,7 +141,7 @@ export function buildEvent({ summary, wd, nextId, today }) {
       : {}),
   };
 
-  const filename = `${id}-${slugify(summary.title)}.json`;
+  const filename = `${id}.json`;
   return { event, filename };
 }
 

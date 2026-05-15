@@ -1,5 +1,5 @@
 {
-  "id": "event-006",
+  "id": "event-0632-ridda-wars",
   "title": "Ridda Wars",
   "description": "Wars against tribes that renounced Islam after the Prophet's death, preserving Islamic unity",
   "startDate": "632-11-01",
@@ -11,8 +11,8 @@
   },
   "category": "military",
   "connections": [
-    "event-005",
-    "event-007"
+    "event-0632-death-of-prophet-muhammad",
+    "event-0636-battle-of-yarmuk"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Rashidun",

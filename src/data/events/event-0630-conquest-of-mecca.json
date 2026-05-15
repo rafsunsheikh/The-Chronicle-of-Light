@@ -1,5 +1,5 @@
 {
-  "id": "event-004",
+  "id": "event-0630-conquest-of-mecca",
   "title": "Conquest of Mecca",
   "description": "Muslim forces peacefully conquered Mecca, leading to widespread conversion to Islam",
   "startDate": "630-01-10",
@@ -11,9 +11,9 @@
   },
   "category": "military",
   "connections": [
-    "event-002",
-    "event-003",
-    "event-005"
+    "event-0622-hijra-migration-to-medina",
+    "event-0624-battle-of-badr",
+    "event-0632-death-of-prophet-muhammad"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Rashidun",

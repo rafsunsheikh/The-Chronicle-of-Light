@@ -1,5 +1,5 @@
 {
-  "id": "event-016",
+  "id": "event-1025-avicenna-writes-the-canon",
   "title": "Avicenna Writes The Canon",
   "description": "Ibn Sina (Avicenna) completed The Canon of Medicine, a medical encyclopedia used for 600 years",
   "startDate": "1025-01-01",
@@ -11,7 +11,7 @@
   },
   "category": "scientific",
   "connections": [
-    "event-015"
+    "event-0870-completion-of-sahih-bukhari"
   ],
   "learningPath": "islamic-golden-age",
   "dynasty": "Buyid",

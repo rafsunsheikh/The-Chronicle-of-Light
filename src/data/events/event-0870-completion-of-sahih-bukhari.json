@@ -1,5 +1,5 @@
 {
-  "id": "event-015",
+  "id": "event-0870-completion-of-sahih-bukhari",
   "title": "Completion of Sahih Bukhari",
   "description": "Imam Bukhari completed his collection of hadith, considered the most authentic after the Quran",
   "startDate": "870-01-01",
@@ -11,8 +11,8 @@
   },
   "category": "religious",
   "connections": [
-    "event-014",
-    "event-016"
+    "event-0786-translation-movement",
+    "event-1025-avicenna-writes-the-canon"
   ],
   "learningPath": "islamic-golden-age",
   "dynasty": "Tahirid",

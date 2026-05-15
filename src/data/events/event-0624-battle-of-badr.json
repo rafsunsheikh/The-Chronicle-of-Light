@@ -1,5 +1,5 @@
 {
-  "id": "event-003",
+  "id": "event-0624-battle-of-badr",
   "title": "Battle of Badr",
   "description": "First major military victory for Muslims against the Quraysh of Mecca",
   "startDate": "624-03-13",
@@ -11,8 +11,8 @@
   },
   "category": "military",
   "connections": [
-    "event-002",
-    "event-004"
+    "event-0622-hijra-migration-to-medina",
+    "event-0630-conquest-of-mecca"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Rashidun",

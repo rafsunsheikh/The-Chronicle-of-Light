@@ -1,5 +1,5 @@
 {
-  "id": "event-010",
+  "id": "event-0656-first-fitna",
   "title": "First Fitna",
   "description": "First Islamic civil war over the caliphate succession after Uthman's assassination",
   "startDate": "656-01-01",
@@ -11,8 +11,8 @@
   },
   "category": "political",
   "connections": [
-    "event-009",
-    "event-011"
+    "event-0638-construction-of-kufa",
+    "event-0661-establishment-of-umayyad-caliphate"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Rashidun",

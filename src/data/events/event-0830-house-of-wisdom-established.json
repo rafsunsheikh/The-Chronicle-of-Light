@@ -1,5 +1,5 @@
 {
-  "id": "event-013",
+  "id": "event-0830-house-of-wisdom-established",
   "title": "House of Wisdom Established",
   "description": "The Bayt al-Hikmah was founded in Baghdad, becoming the intellectual center of the Islamic Golden Age",
   "startDate": "830-01-01",
@@ -11,8 +11,8 @@
   },
   "category": "scientific",
   "connections": [
-    "event-012",
-    "event-014"
+    "event-0711-islamic-expansion-to-spain",
+    "event-0786-translation-movement"
   ],
   "learningPath": "islamic-golden-age",
   "dynasty": "Abbasid",

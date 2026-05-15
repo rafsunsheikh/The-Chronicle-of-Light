@@ -1,5 +1,5 @@
 {
-  "id": "event-011",
+  "id": "event-0661-establishment-of-umayyad-caliphate",
   "title": "Establishment of Umayyad Caliphate",
   "description": "Muawiyah I established the Umayyad Caliphate, creating the first hereditary dynasty in Islam",
   "startDate": "661-01-01",
@@ -11,8 +11,8 @@
   },
   "category": "political",
   "connections": [
-    "event-010",
-    "event-012"
+    "event-0656-first-fitna",
+    "event-0711-islamic-expansion-to-spain"
   ],
   "learningPath": "classical-islamic-period",
   "dynasty": "Umayyad",

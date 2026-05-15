@@ -1,5 +1,5 @@
 {
-  "id": "event-012",
+  "id": "event-0711-islamic-expansion-to-spain",
   "title": "Islamic Expansion to Spain",
   "description": "Muslim forces under Tariq ibn Ziyad conquered Hispania, establishing Al-Andalus",
   "startDate": "711-07-01",
@@ -11,8 +11,8 @@
   },
   "category": "military",
   "connections": [
-    "event-011",
-    "event-013"
+    "event-0661-establishment-of-umayyad-caliphate",
+    "event-0830-house-of-wisdom-established"
   ],
   "learningPath": "classical-islamic-period",
   "dynasty": "Umayyad",

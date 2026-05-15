@@ -1,5 +1,5 @@
 {
-  "id": "event-008",
+  "id": "event-0636-battle-of-al-qadisiyyah",
   "title": "Battle of al-Qadisiyyah",
   "description": "Muslim victory against the Sassanian Empire, opening Persia to Islamic conquest",
   "startDate": "636-11-01",
@@ -11,8 +11,8 @@
   },
   "category": "military",
   "connections": [
-    "event-007",
-    "event-009"
+    "event-0636-battle-of-yarmuk",
+    "event-0638-construction-of-kufa"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Rashidun",

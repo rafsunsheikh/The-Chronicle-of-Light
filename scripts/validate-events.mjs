@@ -82,10 +82,18 @@ for (const relPath of files) {
   }
   seenIds.set(event.id, filename);
 
-  const expectedPrefix = event.id + '-';
-  if (!basename.startsWith(expectedPrefix)) {
+  const expectedBasename = event.id + '.json';
+  if (basename !== expectedBasename) {
     errors.push(
-      `${filename}: filename should start with "${expectedPrefix}" (id is "${event.id}")`,
+      `${filename}: filename should be "${expectedBasename}" (id is "${event.id}")`,
+    );
+  }
+
+  const expectedYearPrefix = event.startDate.split('-')[0].padStart(4, '0');
+  const idYearMatch = /^event-(\d{4})-/.exec(event.id);
+  if (idYearMatch && idYearMatch[1] !== expectedYearPrefix) {
+    errors.push(
+      `${filename}: id year "${idYearMatch[1]}" does not match startDate year "${expectedYearPrefix}"`,
     );
   }
 

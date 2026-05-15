@@ -1,5 +1,5 @@
 {
-  "id": "event-002",
+  "id": "event-0622-hijra-migration-to-medina",
   "title": "Hijra (Migration to Medina)",
   "description": "Prophet Muhammad and early Muslims migrate from Mecca to Medina, marking the beginning of the Islamic calendar",
   "startDate": "622-09-24",
@@ -11,9 +11,9 @@
   },
   "category": "political",
   "connections": [
-    "event-001",
-    "event-003",
-    "event-004"
+    "event-0610-revelation-of-the-quran",
+    "event-0624-battle-of-badr",
+    "event-0630-conquest-of-mecca"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Rashidun",

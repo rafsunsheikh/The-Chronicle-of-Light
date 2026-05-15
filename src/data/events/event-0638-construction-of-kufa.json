@@ -1,5 +1,5 @@
 {
-  "id": "event-009",
+  "id": "event-0638-construction-of-kufa",
   "title": "Construction of Kufa",
   "description": "Founding of Kufa as a military camp and later major Islamic city in Iraq",
   "startDate": "638-01-01",
@@ -11,8 +11,8 @@
   },
   "category": "cultural",
   "connections": [
-    "event-008",
-    "event-010"
+    "event-0636-battle-of-al-qadisiyyah",
+    "event-0656-first-fitna"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Rashidun",

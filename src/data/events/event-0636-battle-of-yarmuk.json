@@ -1,5 +1,5 @@
 {
-  "id": "event-007",
+  "id": "event-0636-battle-of-yarmuk",
   "title": "Battle of Yarmuk",
   "description": "Decisive Muslim victory against the Byzantine Empire, leading to Islamic conquest of Syria",
   "startDate": "636-08-01",
@@ -11,8 +11,8 @@
   },
   "category": "military",
   "connections": [
-    "event-006",
-    "event-008"
+    "event-0632-ridda-wars",
+    "event-0636-battle-of-al-qadisiyyah"
   ],
   "learningPath": "early-islamic-period",
   "dynasty": "Rashidun",
