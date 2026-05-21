@@ -235,7 +235,6 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
   useEffect(() => {
     const mq = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`);
     const handle = (e: MediaQueryListEvent) => setIsMobile(e.matches);
-    setIsMobile(mq.matches);
     mq.addEventListener('change', handle);
     return () => mq.removeEventListener('change', handle);
   }, []);
