@@ -6,9 +6,11 @@ graph of connections between them. The dataset lives as one JSON file per
 event under `src/data/events/`; a Wikipedia/Wikidata importer is included
 for bulk-seeding drafts that humans then review and promote.
 
-> **Status:** pre-launch / private. License files (MIT for code, CC BY-SA
-> 4.0 for the dataset) are in place; CI is green; the public-release plan
-> is in `thoughts/shared/plans/2026-05-15-open-source-launch-plan.md`.
+> **Status:** open-source. MIT license for code, CC BY-SA 4.0 for the
+> dataset. See [Contributing](#contributing) to add events, fix bugs, or
+> suggest features.
+>
+> **Live demo:** https://rafsunsheikh.github.io/The-Chronicle-of-Light/
 
 ## Contents
 
@@ -335,23 +337,16 @@ the corresponding npm script, and fails the PR on any non-zero exit.
 
 ## Contributing
 
-This project will go open-source in the near future. The detailed
-launch plan lives at
-`thoughts/shared/plans/2026-05-15-open-source-launch-plan.md`. Until
-then:
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute
+events, code, or documentation. In short:
 
-- The dataset is the asset and the contribution surface — most PRs will
-  be event additions, corrections, or `connections[]` enrichment.
+- The dataset is the primary contribution surface — most PRs are event
+  additions, corrections, or `connections[]` enrichment.
 - Code PRs: keep them focused. Run lint, build, and validate-events
   before pushing.
-- For Islamic-history content: future PRs are expected to cite a
-  `sources[]` entry. Contested events should set `confidence:
-  "contested"` and list the relevant `perspectives[]` (sunni / shia /
-  academic / …).
-
-`CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, and
-`.github/ISSUE_TEMPLATE/` are not yet checked in — they're on the
-pre-launch checklist in the OSS launch plan.
+- Cite sources for new events. Mark contested events with
+  `confidence: "contested"` and list `perspectives[]`.
+- All PRs require maintainer approval before merge.
 
 ## Continuous integration
 
