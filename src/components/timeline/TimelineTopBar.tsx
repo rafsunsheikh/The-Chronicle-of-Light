@@ -38,11 +38,11 @@ export const TimelineTopBar: React.FC<TimelineTopBarProps> = ({
   const buttonRefs = useRef<Record<string, HTMLButtonElement | null>>({});
 
   return (
-    <div className="relative bg-white border-b border-slate-200 h-16 flex items-start pl-44 pr-14 pt-3">
+    <div className="relative bg-white border-b border-slate-200 h-12 sm:h-16 flex items-start pl-28 sm:pl-44 pr-6 sm:pr-14 pt-2 sm:pt-3 overflow-x-auto">
       <nav
         role="navigation"
         aria-label="Era navigation"
-        className="flex items-start space-x-8 whitespace-nowrap"
+        className="flex items-start space-x-4 sm:space-x-8 whitespace-nowrap"
       >
         {ERA_MARKERS.map((era, idx) => {
           const isActive = selectedEra === era.year;
@@ -68,7 +68,7 @@ export const TimelineTopBar: React.FC<TimelineTopBarProps> = ({
                   }
                 }}
                 aria-pressed={isActive}
-                className={`text-[15px] font-medium transition-colors focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-slate-900 ${
+                className={`text-[13px] sm:text-[15px] font-medium transition-colors focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-slate-900 ${
                   isActive
                     ? 'text-slate-900'
                     : 'text-slate-600 hover:text-slate-900'

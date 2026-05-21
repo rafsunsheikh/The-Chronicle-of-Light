@@ -126,11 +126,11 @@ export const GraphView: React.FC<GraphViewProps> = ({
   }, [data]);
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 h-96 flex flex-col">
-      <div className="flex items-baseline justify-between mb-3">
-        <h2 className="text-2xl font-bold">Event Connections</h2>
-        <span className="text-xs text-slate-500">
-          drag to rotate · scroll to zoom · right-click to pan
+    <div className="bg-white rounded-lg shadow-md p-3 sm:p-4 h-80 sm:h-96 flex flex-col">
+      <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-2 sm:mb-3 gap-1">
+        <h2 className="text-lg sm:text-2xl font-bold">Event Connections</h2>
+        <span className="text-[11px] sm:text-xs text-slate-500">
+          drag to rotate · pinch / scroll to zoom
         </span>
       </div>
       <div

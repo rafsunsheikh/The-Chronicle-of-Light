@@ -1,7 +1,12 @@
-import React, { useEffect, useMemo, useRef } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { HistoricalIncident } from '../../types/incident';
 import { TimelineTopBar } from './TimelineTopBar';
 import './timeline.css';
+
+const MOBILE_BREAKPOINT = 768;
+const MOBILE_CARD_SCALE = 0.65;
+const MOBILE_PX_PER_YEAR_SCALE = 0.7;
+const MOBILE_ERA_BASE_WIDTH = 110;
 
 interface TimelineViewProps {
   incidents: HistoricalIncident[];
@@ -63,8 +68,14 @@ const CARD_VARIANTS: CardVariant[] = [
 const hashString = (s: string): number =>
   Math.abs([...s].reduce((acc, c) => (acc * 31 + c.charCodeAt(0)) | 0, 7));
 
-const variantFor = (id: string): CardVariant =>
-  CARD_VARIANTS[hashString(id) % CARD_VARIANTS.length];
+const variantFor = (id: string, scale = 1): CardVariant => {
+  const base = CARD_VARIANTS[hashString(id) % CARD_VARIANTS.length];
+  if (scale === 1) return base;
+  return {
+    width: Math.round(base.width * scale),
+    height: Math.round(base.height * scale),
+  };
+};
 
 const ERA_BASE_WIDTH = 200;
 // Pixels of horizontal space per year of elapsed time. Controls visual density.
@@ -102,7 +113,7 @@ interface PlacedCard {
 // which one lets it sit nearest to that ideal X without colliding with the
 // previous card in the chosen lane. Layout is fully data-driven: any new event
 // slots in automatically by its startDate.
-function placeEra(events: HistoricalIncident[]): {
+function placeEra(events: HistoricalIncident[], cardScale = 1): {
   placed: PlacedCard[];
   width: number;
 } {
@@ -115,16 +126,19 @@ function placeEra(events: HistoricalIncident[]): {
   );
   const firstYear = fractionalYear(sorted[0].startDate);
 
+  const pxPerYear = PX_PER_YEAR * (cardScale === 1 ? 1 : MOBILE_PX_PER_YEAR_SCALE);
+  const laneGap = Math.round(LANE_GAP * (cardScale === 1 ? 1 : MOBILE_PX_PER_YEAR_SCALE));
+
   const placed: PlacedCard[] = [];
   let lastTopRight = -Infinity;
   let lastBotRight = -Infinity;
 
   for (const event of sorted) {
-    const idealX = (fractionalYear(event.startDate) - firstYear) * PX_PER_YEAR;
-    const width = variantFor(event.id).width;
+    const idealX = (fractionalYear(event.startDate) - firstYear) * pxPerYear;
+    const width = variantFor(event.id, cardScale).width;
 
-    const nextXTop = Math.max(idealX, lastTopRight + LANE_GAP);
-    const nextXBot = Math.max(idealX, lastBotRight + LANE_GAP);
+    const nextXTop = Math.max(idealX, lastTopRight + laneGap);
+    const nextXBot = Math.max(idealX, lastBotRight + laneGap);
 
     // Choose the lane that lets us sit closest to idealX (= smallest nextX).
     // Ties resolve toward the less-used lane so cards naturally alternate.
@@ -164,13 +178,14 @@ const formatProseDate = (iso: string): string => {
 interface CardProps {
   incident: HistoricalIncident;
   onClick: (incident: HistoricalIncident) => void;
+  cardScale?: number;
 }
 
-const TimelineCard: React.FC<CardProps> = ({ incident, onClick }) => {
+const TimelineCard: React.FC<CardProps> = ({ incident, onClick, cardScale = 1 }) => {
   const imageMedia = incident.media?.find((m) => m.type === 'image');
   const imageUrl = imageMedia?.url;
   const date = formatProseDate(incident.startDate);
-  const { width, height } = variantFor(incident.id);
+  const { width, height } = variantFor(incident.id, cardScale);
   const sizeStyle: React.CSSProperties = { width, height };
 
   if (imageUrl) {
@@ -213,6 +228,20 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
 }) => {
   const scrollerRef = useRef<HTMLDivElement>(null);
   const eraRefs = useRef<Record<string, HTMLDivElement | null>>({});
+  const [isMobile, setIsMobile] = useState<boolean>(
+    typeof window !== 'undefined' && window.innerWidth < MOBILE_BREAKPOINT,
+  );
+
+  useEffect(() => {
+    const mq = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`);
+    const handle = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    setIsMobile(mq.matches);
+    mq.addEventListener('change', handle);
+    return () => mq.removeEventListener('change', handle);
+  }, []);
+
+  const cardScale = isMobile ? MOBILE_CARD_SCALE : 1;
+  const eraBaseWidth = isMobile ? MOBILE_ERA_BASE_WIDTH : ERA_BASE_WIDTH;
 
   const grouped = useMemo(() => {
     return ERAS.map((era) => ({
@@ -232,10 +261,10 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
     const scroller = scrollerRef.current;
     if (!target || !scroller) return;
     scroller.scrollTo({
-      left: target.offsetLeft - 80,
+      left: target.offsetLeft - (isMobile ? 32 : 80),
       behavior: 'smooth',
     });
-  }, [selectedEra]);
+  }, [selectedEra, isMobile]);
 
   return (
     <div className="relative w-full bg-white">
@@ -257,8 +286,8 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
           </div>
 
           {grouped.map((era) => {
-            const { placed, width: tracksWidth } = placeEra(era.incidents);
-            const eraWidth = ERA_BASE_WIDTH + tracksWidth;
+            const { placed, width: tracksWidth } = placeEra(era.incidents, cardScale);
+            const eraWidth = eraBaseWidth + tracksWidth;
 
             return (
               <div
@@ -281,6 +310,7 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
                       <TimelineCard
                         incident={p.incident}
                         onClick={onIncidentClick}
+                        cardScale={cardScale}
                       />
                     </div>
                   ))}

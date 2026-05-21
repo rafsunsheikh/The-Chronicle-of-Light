@@ -23,9 +23,9 @@ export const MapView: React.FC<MapViewProps> = ({
   });
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4">
-      <h2 className="text-2xl font-bold mb-4">Map</h2>
-      <div className="h-96 rounded">
+    <div className="bg-white rounded-lg shadow-md p-3 sm:p-4">
+      <h2 className="text-lg sm:text-2xl font-bold mb-3 sm:mb-4">Map</h2>
+      <div className="h-64 sm:h-80 lg:h-96 rounded">
         <MapContainer
           center={[30, 45]}
           zoom={3}

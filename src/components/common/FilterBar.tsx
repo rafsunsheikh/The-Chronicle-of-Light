@@ -22,8 +22,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   setDateRange,
 }) => {
   return (
-    <div className="bg-white border border-slate-200 rounded-md p-4">
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-3">
+    <div className="bg-white border border-slate-200 rounded-md p-3 sm:p-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
         <select
           value={selectedCategory || ''}
           onChange={(e) => setSelectedCategory(e.target.value || null)}

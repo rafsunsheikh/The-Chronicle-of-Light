@@ -20,6 +20,14 @@
   background: #ffffff;
 }
 
+@media (max-width: 767px) {
+  .timeline-stage {
+    height: 440px;
+    padding-left: 96px;
+    padding-right: 32px;
+  }
+}
+
 /* Continuous dashed rail running through the vertical centerline */
 .timeline-rail {
   position: absolute;
@@ -31,6 +39,12 @@
   transform: translateY(-50%);
   pointer-events: none;
   z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .timeline-rail {
+    left: 96px;
+  }
 }
 
 .timeline-scroll-hint {
@@ -49,6 +63,18 @@
   gap: 6px;
   background: #ffffff;
   padding: 4px 8px;
+}
+
+@media (max-width: 767px) {
+  .timeline-scroll-hint {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    padding: 3px 6px;
+    gap: 4px;
+  }
+  .timeline-scroll-hint-arrow {
+    font-size: 14px;
+  }
 }
 
 .timeline-scroll-hint-arrow {
@@ -80,6 +106,13 @@
   padding: 0 20px;
   background: #ffffff;
   align-self: center;
+}
+
+@media (max-width: 767px) {
+  .timeline-era-label {
+    font-size: 32px;
+    padding: 0 10px;
+  }
 }
 
 .timeline-era-tracks {
@@ -215,6 +248,25 @@
   font-size: 13px;
   color: #64748b;
   margin-top: 12px;
+}
+
+@media (max-width: 767px) {
+  .timeline-card-image-overlay {
+    padding: 10px;
+  }
+  .timeline-card-image-date,
+  .timeline-card-text-date {
+    font-size: 11px;
+    margin-top: 8px;
+  }
+  .timeline-card-image-title,
+  .timeline-card-text-title {
+    font-size: 13px;
+    line-height: 1.25;
+  }
+  .timeline-card--text {
+    padding: 12px 14px;
+  }
 }
 
 /* ============================================================
