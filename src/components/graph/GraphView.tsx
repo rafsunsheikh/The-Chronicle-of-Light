@@ -9,6 +9,7 @@ const LABEL_VISIBLE_DISTANCE = 160;
 interface GraphViewProps {
   incidents: HistoricalIncident[];
   onNodeClick: (incident: HistoricalIncident) => void;
+  fill?: boolean; // fill the parent (full-window page) instead of the card layout
 }
 
 interface GraphNode {
@@ -40,6 +41,7 @@ const DEFAULT_COLOR = '#1B8A87';
 export const GraphView: React.FC<GraphViewProps> = ({
   incidents,
   onNodeClick,
+  fill = false,
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const graphRef = useRef<any>(null);
@@ -126,7 +128,7 @@ export const GraphView: React.FC<GraphViewProps> = ({
   }, [data]);
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-3 sm:p-4 h-80 sm:h-96 flex flex-col">
+    <div className={`bg-white flex flex-col ${fill ? 'h-full w-full p-3 sm:p-4' : 'rounded-lg shadow-md p-3 sm:p-4 h-80 sm:h-96'}`}>
       <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-2 sm:mb-3 gap-1">
         <h2 className="text-lg sm:text-2xl font-bold">Event Connections</h2>
         <span className="text-[11px] sm:text-xs text-slate-500">

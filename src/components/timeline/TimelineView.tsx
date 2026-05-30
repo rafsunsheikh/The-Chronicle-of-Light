@@ -15,6 +15,7 @@ interface TimelineViewProps {
   onEraChange?: (era: string) => void;
   dateRange: { start: string; end: string } | null;
   onDateRangeChange?: (range: { start: string; end: string } | null) => void;
+  fill?: boolean; // stretch the timeline stage to fill a full-window page
 }
 
 interface EraDef {
@@ -225,6 +226,7 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
   onIncidentClick,
   selectedEra,
   onEraChange,
+  fill = false,
 }) => {
   const scrollerRef = useRef<HTMLDivElement>(null);
   const eraRefs = useRef<Record<string, HTMLDivElement | null>>({});
@@ -237,6 +239,23 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
     const handle = (e: MediaQueryListEvent) => setIsMobile(e.matches);
     mq.addEventListener('change', handle);
     return () => mq.removeEventListener('change', handle);
+  }, []);
+
+  // Translate vertical mouse-wheel scrolling into horizontal movement along the
+  // timeline. When the gesture is horizontal-dominant (a trackpad swipe) we let
+  // the browser handle it natively; only vertical-dominant wheels are remapped.
+  // Listener is non-passive so we can preventDefault the would-be page scroll.
+  useEffect(() => {
+    const el = scrollerRef.current;
+    if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) return; // native horizontal scroll
+      if (e.deltaY === 0) return;
+      e.preventDefault();
+      el.scrollLeft += e.deltaY;
+    };
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
   }, []);
 
   const cardScale = isMobile ? MOBILE_CARD_SCALE : 1;
@@ -266,7 +285,7 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
   }, [selectedEra, isMobile]);
 
   return (
-    <div className="relative w-full bg-white">
+    <div className={`relative w-full bg-white${fill ? ' timeline--fill' : ''}`}>
       <TimelineTopBar
         selectedEra={selectedEra}
         onEraChange={onEraChange ?? (() => {})}

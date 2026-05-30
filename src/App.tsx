@@ -1,5 +1,7 @@
 import { useState, useCallback } from 'react';
 import { useIncidents } from './hooks/useIncidents';
+import { useHashRoute } from './hooks/useHashRoute';
+import { NavBar } from './components/common/NavBar';
 import { IncidentCard } from './components/common/IncidentCard';
 import { FilterBar } from './components/common/FilterBar';
 import { TimelineView } from './components/timeline/TimelineView';
@@ -11,6 +13,7 @@ import type { HistoricalIncident } from './types/incident';
 function App() {
   const {
     incidents,
+    allIncidents,
     categories,
     regions,
     selectedCategory,
@@ -23,93 +26,85 @@ function App() {
     setSelectedEra,
   } = useIncidents();
 
+  const route = useHashRoute();
   const [selectedIncident, setSelectedIncident] = useState<HistoricalIncident | null>(null);
 
   const handleIncidentClick = useCallback((incident: HistoricalIncident) => {
     setSelectedIncident(incident);
   }, []);
-
-  const handleCloseModal = useCallback(() => {
-    setSelectedIncident(null);
-  }, []);
+  const handleCloseModal = useCallback(() => setSelectedIncident(null), []);
 
   return (
-    <div className="min-h-screen bg-panel font-sans">
-      {/* Immersive timeline stage */}
-      <section className="relative bg-white">
-        {/* Navy logo gutter (top-left, overlays the white stage) */}
-        <div className="absolute top-0 left-0 z-20 bg-navy-nma text-white px-3 sm:px-4 w-24 sm:w-40 h-12 sm:h-16 flex flex-col justify-center">
-          <div className="text-[9px] sm:text-[10px] tracking-widest uppercase opacity-70 leading-tight">The</div>
-          <div className="font-bold leading-tight text-[11px] sm:text-sm">Chronicle of Light</div>
-        </div>
+    <div className="h-screen flex flex-col overflow-hidden bg-panel font-sans">
+      <NavBar route={route} eventCount={allIncidents.length} />
 
-        <TimelineView
-          incidents={incidents}
-          onIncidentClick={handleIncidentClick}
-          selectedEra={selectedEra}
-          onEraChange={setSelectedEra}
-          dateRange={dateRange}
-          onDateRangeChange={setDateRange}
-        />
-      </section>
-
-      {/* Secondary content section */}
-      <section className="bg-panel">
-        <div className="container mx-auto p-4 sm:p-6 space-y-6 sm:space-y-8">
-          <header className="border-b border-slate-200 pb-3 sm:pb-4">
-            <h2 className="text-xs uppercase tracking-widest text-slate-500">Explore further</h2>
-          </header>
-
-          <FilterBar
-            categories={categories}
-            regions={regions}
-            selectedCategory={selectedCategory}
-            setSelectedCategory={setSelectedCategory}
-            selectedRegion={selectedRegion}
-            setSelectedRegion={setSelectedRegion}
+      <main className="flex-1 min-h-0">
+        {route === '/timeline' && (
+          <TimelineView
+            fill
+            incidents={incidents}
+            onIncidentClick={handleIncidentClick}
+            selectedEra={selectedEra}
+            onEraChange={setSelectedEra}
             dateRange={dateRange}
-            setDateRange={setDateRange}
+            onDateRangeChange={setDateRange}
           />
+        )}
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6">
-            <MapView
-              incidents={incidents}
-              onIncidentClick={handleIncidentClick}
-              timeRange={dateRange}
-            />
+        {route === '/map' && (
+          <MapView
+            fill
+            incidents={incidents}
+            onIncidentClick={handleIncidentClick}
+            timeRange={dateRange}
+          />
+        )}
 
-            <GraphView
-              incidents={incidents}
-              onNodeClick={handleIncidentClick}
-            />
-          </div>
+        {route === '/connections' && (
+          <GraphView fill incidents={incidents} onNodeClick={handleIncidentClick} />
+        )}
 
-          <div>
-            <h3 className="text-sm font-semibold text-slate-700 mb-3">All moments</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
-              {incidents.map((incident) => (
-                <IncidentCard
-                  key={incident.id}
-                  incident={incident}
-                  onClick={handleIncidentClick}
-                />
-              ))}
+        {route === '/moments' && (
+          <div className="h-full flex flex-col">
+            <div className="shrink-0 p-4 border-b border-slate-200 bg-white">
+              <FilterBar
+                categories={categories}
+                regions={regions}
+                selectedCategory={selectedCategory}
+                setSelectedCategory={setSelectedCategory}
+                selectedRegion={selectedRegion}
+                setSelectedRegion={setSelectedRegion}
+                dateRange={dateRange}
+                setDateRange={setDateRange}
+              />
+            </div>
+            <div className="flex-1 min-h-0 overflow-y-auto p-4 sm:p-6">
+              <div className="flex items-baseline justify-between mb-3">
+                <h3 className="text-sm font-semibold text-slate-700">All moments</h3>
+                <span className="text-xs text-slate-500">{incidents.length} shown</span>
+              </div>
+              {incidents.length === 0 ? (
+                <div className="text-center py-12 text-slate-500">
+                  No incidents found matching your filters
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                  {incidents.map((incident) => (
+                    <IncidentCard
+                      key={incident.id}
+                      incident={incident}
+                      onClick={handleIncidentClick}
+                    />
+                  ))}
+                </div>
+              )}
             </div>
           </div>
-
-          {incidents.length === 0 && (
-            <div className="text-center py-12 text-slate-500">
-              No incidents found matching your filters
-            </div>
-          )}
-        </div>
-      </section>
+        )}
+      </main>
 
       {selectedIncident && (
-        <IncidentDetailModal
-          incident={selectedIncident}
-          onClose={handleCloseModal}
-        />
+        <IncidentDetailModal incident={selectedIncident} onClose={handleCloseModal} />
       )}
     </div>
   );
