@@ -1,0 +1,24 @@
+{
+  "id": "event-0814-civil-strife-in-baghdad-between-the-troops-of",
+  "title": "The civil strife in Baghdad between the troops of the Harbiyyah quarter and those of al-Ma'mun's representative in al-'Iraq, al-Hasan b. Sahl",
+  "description": "The civil strife in Baghdad between the troops of the Harbiyyah quarter and those of al-Ma'mun's representative in al-'Iraq, al-Hasan b. Sahl. Recorded under the year 198 AH (814–815 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0814-01-01",
+  "category": "political",
+  "connections": [
+    "event-0812-tahir-captures-baghdad",
+    "event-0817-expulsion-from-baghdad-of-al-hasan-b-sahl"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0815-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "42"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "event-0819-various-items-of-information",
+  "title": "Various items of information",
+  "description": "Various items of information. Recorded under the year 203 AH (819–820 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0819-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0820-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "97"
+    }
+  ]
+}

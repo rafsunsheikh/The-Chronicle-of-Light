@@ -1,0 +1,16 @@
+{
+  "id": "event-0864-reason-for-the-rebellion-of-al-hasan-b",
+  "title": "Reason for the rebellion of al-Hasan b. Zayd b. Abi Talib",
+  "description": "Reason for the rebellion of al-Hasan b. Zayd b. Abi Talib. Recorded under the year 250 AH (864–865 CE) in al-Tabari's History, volume 35.",
+  "startDate": "0864-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0865-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 35",
+      "page": "2"
+    }
+  ]
+}

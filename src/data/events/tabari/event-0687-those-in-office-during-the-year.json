@@ -1,0 +1,26 @@
+{
+  "id": "event-0687-those-in-office-during-the-year",
+  "title": "Those in Office during the Year",
+  "description": "According to Abu Ja'far [sc. al-Tabari]: In this year, Ibn al -Zubayr's governor in charge of Medina was Jabir b. al-Aswad b. Awf alZuhri. Ibn al-Zubayr ' s brother Mus'ab was in charge of al-Basrah and al-Kufah. Hisham b. Hubayrah was in charge of the judiciary of al-Basrah, and `Abdallah b. `Utbah b. Masud was in charge of the judiciary of al-Kufah. `Abdallah b. Khazim al-Sulami was in charge of Khurasan, and Abd al-Malik b. Marwan was in Syria.",
+  "startDate": "0687-01-01",
+  "category": "political",
+  "connections": [
+    "event-0686-al-mukhtar-sends-an-army-to-trick-ibn",
+    "event-0686-those-in-office-during-the-year",
+    "event-0688-those-in-office-during-the-year",
+    "event-0693-important-events-of-this-year-x-al-muhallab"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0688-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "153"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "event-0846-portrayal-of-al-wathiq-his-years-and-the",
+  "title": "A Portrayal of al-Wathiq, His Years, and the Extent of His Caliphate",
+  "description": "of His Caliphate Someone who knew him personally reported that al-Wathiq was fair, tending to a ruddy complexion, and was handsome, of medium height and well-built. His left eye was paralyzed and had a white fleck.195 He died, as some claim, at the age of thirty-six; according to others, he succumbed at the age of thirty-two. Those who claim that he was thirty-six say that he was born in 196 192. Text: a'md 'alayhi. Addenda, DCCLXXV and Cairo edition (Mss. A and D(: ghumiya 'alayhi. 193.",
+  "startDate": "0846-01-01",
+  "category": "political",
+  "connections": [
+    "event-0846-account-of-the-illness-from-which-al-wathiq",
+    "event-0846-some-reports-about-al-wathiq"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0847-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "52"
+    }
+  ]
+}

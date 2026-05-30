@@ -1,0 +1,16 @@
+{
+  "id": "event-0753-death-of-abu-al-abbas-al-saffah",
+  "title": "The Death of Abu al -'Abbas al-Saffah",
+  "description": "The Death of Abu al -'Abbas al-Saffah. Recorded under the year 135 AH (753–754 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0753-07-07",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0754-06-26",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "212"
+    }
+  ]
+}

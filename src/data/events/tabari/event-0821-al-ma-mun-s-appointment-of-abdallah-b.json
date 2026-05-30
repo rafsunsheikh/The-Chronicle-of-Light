@@ -1,0 +1,20 @@
+{
+  "id": "event-0821-al-ma-mun-s-appointment-of-abdallah-b",
+  "title": "Al-Ma'mun's appointment of 'Abdallah b. Tahir as governor of al-Jazirah and Syria with the task of suppressing the revolt thereof Nasr b. Shabath",
+  "description": "Al-Ma'mun's appointment of 'Abdallah b. Tahir as governor of al-Jazirah and Syria with the task of suppressing the revolt thereof Nasr b. Shabath. Recorded under the year 206 AH (c. 821 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0821-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.5,
+    "longitude": 40.5,
+    "name": "Upper Mesopotamia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "109"
+    }
+  ]
+}

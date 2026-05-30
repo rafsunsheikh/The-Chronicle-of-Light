@@ -1,0 +1,24 @@
+{
+  "id": "event-0630-account-of-the-military-expedition-to-tabik",
+  "title": "An Account of the Military Expedition to Tabik",
+  "description": "In Humayd-Salamah-Muhammad b. Ishaq: After his return from al-'Wa'if, the Messenger of God stayed in Medina from Dhu al-Hijjah to Rajab [May 19-October 14, 6311; then he ordered the people to prepare for a military expedition against the Byzantines339",
+  "startDate": "0630-01-01",
+  "category": "military",
+  "connections": [
+    "event-0629-amr-b-al-a-and-khalid-b-al",
+    "event-0631-names-of-the-messenger-of-god-s-horses"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0631-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 09",
+      "page": "47"
+    }
+  ]
+}

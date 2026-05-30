@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-campaign-against-the-banu-qaynuga",
+  "title": "The Campaign Against the Banu Qaynuga'",
+  "description": "Abu Ja'far (al-Tabari) says: The Messenger of God remained in Medina after his return from Badr. When he first came to Medina he had made a compact with its Jews that they would not aid anyone against him and that if any enemy attacked him there they would come to his aid. After the Messenger of God killed many polytheists of Quraysh at Badr, (the Jews) were envious and behaved badly towards him, saying, \"Muhammad has not met anyone who is good at fighting.",
+  "startDate": "0622-07-16",
+  "category": "military",
+  "connections": [
+    "event-0622-celebration-of-the-first-id-al-adha",
+    "event-0622-conversion-of-abu-al-as"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "85"
+    }
+  ]
+}

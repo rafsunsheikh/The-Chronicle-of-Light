@@ -1,0 +1,24 @@
+{
+  "id": "event-0700-account-of-bal-it-b-warga-s-death",
+  "title": "Account of Bal it b. Warga\"s Death in Khurisan",
+  "description": "Account of Bal it b. Warga\"s Death in Khurisan. Recorded under the year 81 AH (700–701 CE) in al-Tabari's History, volume 22.",
+  "startDate": "0700-01-01",
+  "category": "military",
+  "connections": [
+    "event-0697-officials-whom-al-hajjaj-appointed-in-khurasan-and",
+    "event-0701-death-of-al-mughirah-b-al-muhallabj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0701-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "196"
+    }
+  ]
+}

@@ -1,0 +1,648 @@
+[
+  {
+    "id": "tabari-v13-1-001",
+    "title": "The Battle of Burs",
+    "description": "",
+    "hijriYear": 1,
+    "ceLabel": "c. 623",
+    "startDate": "623",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 2,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v13-1-002",
+    "title": "The Battle of Babil",
+    "description": "",
+    "hijriYear": 1,
+    "ceLabel": "c. 623",
+    "startDate": "623",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 3,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v13-1-003",
+    "title": "The Story of Bahurasir in the Month Dhu al -Hijjah of the Year 15 (January 637) as Related by Sayf",
+    "description": "",
+    "hijriYear": 1,
+    "ceLabel": "c. 623",
+    "startDate": "623",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 6,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v13-16-004",
+    "title": "The Remainder of the Account of the Muslims ' Entering the City of Bahurasir",
+    "description": "",
+    "hijriYear": 16,
+    "ceLabel": "637–638",
+    "startDate": "637",
+    "endDate": "638",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 8,
+      "ceRaw": "637/638"
+    }
+  },
+  {
+    "id": "tabari-v13-16-005",
+    "title": "The Report Concerning al-Mada 'in al-Qu$wa, That Is, That Part (on the East Bank of the Tigris) in Which the King Had His Residence",
+    "description": "",
+    "hijriYear": 16,
+    "ceLabel": "637–638",
+    "startDate": "637",
+    "endDate": "638",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 12,
+      "ceRaw": "637/638"
+    }
+  },
+  {
+    "id": "tabari-v13-16-006",
+    "title": "Mention of the Booty Amassed from the People of alMada'in",
+    "description": "",
+    "hijriYear": 16,
+    "ceLabel": "637–638",
+    "startDate": "637",
+    "endDate": "638",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 24,
+      "ceRaw": "637/638"
+    }
+  },
+  {
+    "id": "tabari-v13-16-007",
+    "title": "How the Booty Acquired at al-Mada'in Was Distributed among the People Present at Its Conquest, Who Numbered, as Sayf Claims, in All Sixty Thousand",
+    "description": "",
+    "hijriYear": 16,
+    "ceLabel": "637–638",
+    "startDate": "637",
+    "endDate": "638",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 29,
+      "ceRaw": "637/638"
+    }
+  },
+  {
+    "id": "tabari-v13-16-008",
+    "title": "The Report about the Battle of Jalula ' al-Wagi'ah",
+    "description": "",
+    "hijriYear": 16,
+    "ceLabel": "637–638",
+    "startDate": "637",
+    "endDate": "638",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 36,
+      "ceRaw": "637/638"
+    }
+  },
+  {
+    "id": "tabari-v13-16-009",
+    "title": "The Account of the Conquest of Takrit",
+    "description": "",
+    "hijriYear": 16,
+    "ceLabel": "637–638",
+    "startDate": "637",
+    "endDate": "638",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 54,
+      "ceRaw": "637/638"
+    }
+  },
+  {
+    "id": "tabari-v13-16-010",
+    "title": "The Account of the Conquest of Masabadhan",
+    "description": "",
+    "hijriYear": 16,
+    "ceLabel": "637–638",
+    "startDate": "637",
+    "endDate": "638",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 57,
+      "ceRaw": "637/638"
+    }
+  },
+  {
+    "id": "tabari-v13-16-011",
+    "title": "The Account of the Battle That Took Place at Qargisiya'",
+    "description": "",
+    "hijriYear": 16,
+    "ceLabel": "637–638",
+    "startDate": "637",
+    "endDate": "638",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 57,
+      "ceRaw": "637/638"
+    }
+  },
+  {
+    "id": "tabari-v13-17-012",
+    "title": "The Reason Why Those Muslims Who Moved from al -Mada'in to al-Kufah Did So, and the Reason for Their Planning of alKufah, According to Sayf",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 61,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-013",
+    "title": "The Account Is Resumed Once More by Sayf",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 66,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-014",
+    "title": "The Redivision of the People into 'Irdfahs",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 77,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-015",
+    "title": "The Conquest of al-Mada'in before the Founding of alKufah",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 77,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-016",
+    "title": "The Story of Him$ When the Byzantine Commander Marched on Its Muslim Occupants",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 79,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-017",
+    "title": "The Conquest of al-Jazirah",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 86,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-018",
+    "title": "'Umar's journey to Syria",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 92,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-019",
+    "title": "Variant Features of the Story of the Plague of 'Amawas and the Uncertainty as to the Year That It Occurred",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 96,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-020",
+    "title": "Sayf's Account of 'Umar's Last Trip to Syria and How He Introduced New Ideas for the Well-Being of the Muslims",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 101,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-021",
+    "title": "An Account of the Campaign of Khalid and 'Iyad",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 106,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-022",
+    "title": "An Account of the Circumstances Leading to the Conquest of al-Ahwaz and of Him Who Carried It Out",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 114,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-023",
+    "title": "The Conquest of Tustar",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 123,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-024",
+    "title": "The Raid into Fars",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 126,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-025",
+    "title": "The Conquest of Ramhurmuz, al-Sus, and Tustar",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 132,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-026",
+    "title": "The Conquest of al-Sus",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 142,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-17-027",
+    "title": "What Happened between the Muslims and the Inhabitants of Jundaysabur",
+    "description": "",
+    "hijriYear": 17,
+    "ceLabel": "638–639",
+    "startDate": "638",
+    "endDate": "639",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 148,
+      "ceRaw": "638/639"
+    }
+  },
+  {
+    "id": "tabari-v13-19-028",
+    "title": "The Campaigns of the Muslims and Other Matters",
+    "description": "",
+    "hijriYear": 19,
+    "ceLabel": "640",
+    "startDate": "640",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 162,
+      "ceRaw": "640"
+    }
+  },
+  {
+    "id": "tabari-v13-19-029",
+    "title": "The Conquest of Mi$r and Alexandria",
+    "description": "",
+    "hijriYear": 19,
+    "ceLabel": "640",
+    "startDate": "640",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 163,
+      "ceRaw": "640"
+    }
+  },
+  {
+    "id": "tabari-v13-19-030",
+    "title": "The Battle of the Muslims and the Persians at Nihawand",
+    "description": "",
+    "hijriYear": 19,
+    "ceLabel": "640",
+    "startDate": "640",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 179,
+      "ceRaw": "640"
+    }
+  },
+  {
+    "id": "tabari-v13-19-031",
+    "title": "The Account Is Resumed Once More by Sayf",
+    "description": "",
+    "hijriYear": 19,
+    "ceLabel": "640",
+    "startDate": "640",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 200,
+      "ceRaw": "640"
+    }
+  },
+  {
+    "id": "tabari-v13-19-032",
+    "title": "Appendix I. The Poetry and Saj' in This Volume",
+    "description": "",
+    "hijriYear": 19,
+    "ceLabel": "640",
+    "startDate": "640",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 219,
+      "ceRaw": "640"
+    }
+  },
+  {
+    "id": "tabari-v13-19-033",
+    "title": "Appendix H. A Modern Description of Tustar",
+    "description": "",
+    "hijriYear": 19,
+    "ceLabel": "640",
+    "startDate": "640",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 227,
+      "ceRaw": "640"
+    }
+  },
+  {
+    "id": "tabari-v13-19-034",
+    "title": "Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 19,
+    "ceLabel": "640",
+    "startDate": "640",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "13",
+      "page": 231,
+      "ceRaw": "640"
+    }
+  }
+]

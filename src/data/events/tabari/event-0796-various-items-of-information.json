@@ -1,0 +1,25 @@
+{
+  "id": "event-0796-various-items-of-information",
+  "title": "Various Items of Information",
+  "description": "In this year, al-Rashid took away the seal ring from Ja 'far b. Yabya and handed it over to his father Yabya b. Khalid.577 In this year, Ja'far b. Yabyi was appointed governor of Khurasan and Sijistin. He appointed as his deputy over them Mu$ammad b. al-Hasan b. Qablabah.578 In this year, al-Rashid set out from the City of Peace, intending to travel to al-Raqqah via the Maw4il road. When he encamped at al-Baradin, he appointed 'Isa b. Ja`far governor of Khurasan and dismissed Ja'far b. Yabyi from it. Ja'far b.",
+  "startDate": "0796-01-01",
+  "category": "political",
+  "connections": [
+    "event-0789-time-of-al-khayzuran-s-death-and-her",
+    "event-0794-al-fa41-b-yai-ya-s-governorship-in",
+    "event-0799-various-items-of-information"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0797-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "162"
+    }
+  ]
+}

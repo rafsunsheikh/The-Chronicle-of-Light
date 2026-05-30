@@ -1,0 +1,19 @@
+{
+  "id": "event-0742-malady-that-caused-hisham-s-death",
+  "title": "The Malady That Caused Hisham 's Death",
+  "description": "According to AI.imad b. Zuhayr377-'Ali b. MuIammad (al-Mada'ini)-Shaybah b. 'Uthman-'Amr b. Kali'378 - Salim Abu al-'Ala':379 One day, Hisham b. 'Abd al -Malik came out to us380 His appearance betrayed the fact that he was in melancholy mood. His clothes were hanging loosely on him and he had slackened the reins of his steed.",
+  "startDate": "0742-01-01",
+  "category": "political",
+  "connections": [
+    "event-0737-reason-for-nasr-b-sayyir-s-governorship-of",
+    "event-0743-some-of-the-reasons-why-al-walid-acceded"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0743-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "71"
+    }
+  ]
+}

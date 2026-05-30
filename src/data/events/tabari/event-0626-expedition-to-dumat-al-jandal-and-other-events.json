@@ -1,0 +1,23 @@
+{
+  "id": "event-0626-expedition-to-dumat-al-jandal-and-other-events",
+  "title": "The Expedition to Dumat al-Jandal and Other Events",
+  "description": "According to al-Wagidi: In this year he mounted an expedition against Dumat al-Jandal16 in the month of Rabi' I.17 The reason for 11. Yunus b. 'Abd al-AU was born in 170/787 and died in 264/877. He was Egypt's leading scholar in the fields of badith and Qur'an reading. Al-Tabarl stud. led with him in Egypt. See GAS, 1, 38 (which identifies this isnAd as pointing to a Qur'an commentary by 'Abd al -Rabman b. Zayd b. Aslam), and F. Rosenthal, in \"General Introduction,\" 27. 12. 'Abdallih b. Wahb b.",
+  "startDate": "0626-01-01",
+  "category": "military",
+  "connections": [
+    "event-0634-dumat-al-jandal"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0627-12-31",
+  "location": {
+    "latitude": 29.812,
+    "longitude": 39.867,
+    "name": "al-Jawf, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "4"
+    }
+  ]
+}

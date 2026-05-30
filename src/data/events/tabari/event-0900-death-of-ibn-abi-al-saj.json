@@ -1,0 +1,23 @@
+{
+  "id": "event-0900-death-of-ibn-abi-al-saj",
+  "title": "Death of Ibn Abi al -Saj",
+  "description": "Death of Ibn Abi al -Saj. Recorded under the year 287 AH (900 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0900-01-01",
+  "category": "military",
+  "connections": [
+    "event-0895-mu-tadidi-new-year",
+    "event-0904-seizure-of-insurgents-in-the-ba-rah-region"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "97"
+    }
+  ]
+}

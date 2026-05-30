@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-ali-leaves-for-al-rabadhah-on-his-way",
+  "title": "'Ali Leaves for al-Rabadhah on His Way to al -Basrah",
+  "description": "'Ali Leaves for al-Rabadhah on His Way to al -Basrah. Recorded under the year 35 AH (656–657 CE) in al-Tabari's History, volume 16.",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0649-reason-for-uthmin-s-removal-of-abu-musa",
+    "event-0656-ishah-s-remark-by-allah-i-will-seek"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "47"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0833-a1-ma-mun-s-interrogation-at-al-raqqah",
+  "title": "A1-Ma'mun's interrogation at al-Raqqah of certain scholars, and his second letter to Ishaq b. Ibrahim",
+  "description": "A1-Ma'mun's interrogation at al-Raqqah of certain scholars, and his second letter to Ishaq b. Ibrahim. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0802-taking-of-the-solemn-oaths-in-the-ka"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "location": {
+    "latitude": 35.95,
+    "longitude": 39.01,
+    "name": "Raqqa, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "204"
+    }
+  ]
+}

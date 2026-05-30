@@ -1,0 +1,23 @@
+{
+  "id": "event-0622-first-friday-prayer",
+  "title": "The First Friday Prayer",
+  "description": "Among these is his holding the Friday prayer with his companions on the day on which he left Quba' for Medina. This was on Friday,' and the time for prayer-the Friday prayer-overtook r. IH, 333, says that the Messenger reached Quba ' on the outskirts of the oasis of Medina on Monday, rz Rabi' al-Awwal (September 24, 622, and stayed there until Friday of that week.",
+  "startDate": "0622-07-16",
+  "category": "religious",
+  "connections": [
+    "event-0622-sermon-of-the-messenger-of-god-at-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "1"
+    }
+  ]
+}

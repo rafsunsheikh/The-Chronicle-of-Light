@@ -1,0 +1,18 @@
+{
+  "id": "event-0745-abu-hamzah-the-kharijite-in-arabia",
+  "title": "Abu Hamzah the Kharijite in Arabia",
+  "description": "Abu Hamzah the Kharijite in Arabia. Recorded under the year 127 AH (745 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0745-01-01",
+  "category": "military",
+  "connections": [
+    "event-0745-slaying-of-al-khaybari-the-kharijite",
+    "event-0746-death-of-shayban-b-abd-al-aziz-the"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "53"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0895-considering-the-varied-number-of-events-mentioned-under",
+  "title": "*Considering the varied number of events mentioned under each year in this volume, the selection of subjects listed here under various years is, of necessity, somewhat arbitrary. Continued campaign ag",
+  "description": "*Considering the varied number of events mentioned under each year in this volume, the selection of subjects listed here under various years is, of necessity, somewhat arbitrary. Continued campaign ag. Recorded under the year 282 AH (895–896 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0895-01-01",
+  "category": "military",
+  "connections": [
+    "event-0862-reason-for-dispatching-waif-to-byzantium-and-his",
+    "event-0898-al-d-a-i-s-attack-on-pilgrim"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0896-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "39"
+    }
+  ]
+}

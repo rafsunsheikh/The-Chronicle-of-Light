@@ -1,0 +1,25 @@
+{
+  "id": "event-0704-reason-why-al-hajjaj-dismissed-yazid-b-al",
+  "title": "The Reason Why al- Hajjaj Dismissed [Yazid b. al-Muhallabj from Khurasan and Appointed al-Mufadcial",
+  "description": "[al-Hajjaj), together with 'Abd al-Rahman b. Muhammad b. alAsh'ath. Al-Hajjaj had put (Sa'id] in charge of the troops' stipends when he sent 'Abd al-Rahman to fight the Zunbil. When 'Abd alRahmin disavowed al-Hajjaj, Said was among those who disavowed him with him; and, when 'Abd al-Rahman was defeated and fled to the Zunbil's country, Said [also] fled. According to Abu Kurayb-Abu Bakr b. 'Ayyash: Al-Hajjaj wrote to so-and-so, who was in charge of I$bahan-and Said was [there]: Abu Ja'far said: I think that, when he fled from al-Hajjaj, 680.",
+  "startDate": "0704-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0701-reason-why-al-hajjaj-built-wasix",
+    "event-0705-what-happened-to-qutaybah-in-khurasan-in-this",
+    "event-0720-slaying-of-yazid-b-abi-muslim"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0705-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "83"
+    }
+  ]
+}

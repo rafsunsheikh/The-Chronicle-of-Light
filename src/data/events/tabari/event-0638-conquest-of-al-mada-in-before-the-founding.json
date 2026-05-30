@@ -1,0 +1,23 @@
+{
+  "id": "event-0638-conquest-of-al-mada-in-before-the-founding",
+  "title": "The Conquest of al-Mada'in before the Founding of alKufah",
+  "description": "al-Ku f ah According to al-Sari-Shu'ayb-Sayf-Muhammad, Talhah, alMuhallab, 'Amr and Said: The conquests of al-Mada'in comprised the Sawid, Hulwan, Masabadhan and Qargisiya'. The frontier ways of access of al-Kufah were the following four: Hulwan under the command of al-Qa'ga' b. 'Amr, Masabadhin under the command of llirar b. al-Khattab al-Fihri, Qargisiya' under the com281.",
+  "startDate": "0638-01-01",
+  "category": "military",
+  "connections": [
+    "event-0638-reason-why-those-muslims-who-moved-from-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0639-12-31",
+  "location": {
+    "latitude": 33.09,
+    "longitude": 44.58,
+    "name": "Ctesiphon/al-Mada'in, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "77"
+    }
+  ]
+}

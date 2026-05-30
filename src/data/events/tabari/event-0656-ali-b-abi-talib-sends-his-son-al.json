@@ -1,0 +1,23 @@
+{
+  "id": "event-0656-ali-b-abi-talib-sends-his-son-al",
+  "title": "'Ali b. Abi Talib Sends His Son al-Hasan and 'Ammar b. Yasir from Dhu Qar to Get the Kufans to Mobilize with Him",
+  "description": "and `Ammar b. Yasir from Dhu Qar to Get",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-commander-of-the-faithful-dismounts-at-dhu-qar"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.97,
+    "longitude": 46.1,
+    "name": "Dhu Qar (SE of Kufa)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "112"
+    }
+  ]
+}

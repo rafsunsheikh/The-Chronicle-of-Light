@@ -1,0 +1,15 @@
+{
+  "id": "event-0737-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 119 AH (737 CE) in al-Tabari's History, volume 25.",
+  "startDate": "0737-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "195"
+    }
+  ]
+}

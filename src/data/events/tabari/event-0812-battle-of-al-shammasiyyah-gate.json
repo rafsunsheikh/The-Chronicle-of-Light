@@ -1,0 +1,16 @@
+{
+  "id": "event-0812-battle-of-al-shammasiyyah-gate",
+  "title": "The Battle of al-Shammasiyyah Gate",
+  "description": "In this year, a battle took place at al-Shammasiyyah Gate.608 Harthamah was taken prisoner in it. A report of the reasons for the battle, how it took place, and its results follows. According to 'Ali b. Yazid, who said: Harthamah was encamped at the Bin Canal (Nahr Bin), protected by a wall and trench. He had prepared manjanigs and arradahs, and had stationed ` Ubaydallah b. al-Waddah at al-Shammasiyyah. From time to time he would go forth, but he would halt at the Khurasan Gate, 609 fearful of the men of the army, not desiring to fight.",
+  "startDate": "0812-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "64"
+    }
+  ]
+}

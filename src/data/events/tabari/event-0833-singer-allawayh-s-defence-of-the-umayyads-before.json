@@ -1,0 +1,18 @@
+{
+  "id": "event-0833-singer-allawayh-s-defence-of-the-umayyads-before",
+  "title": "The singer 'Allawayh's defence of the Umayyads before his master al-Ma'mun",
+  "description": "The singer 'Allawayh's defence of the Umayyads before his master al-Ma'mun. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0833-al-ma-mun-and-the-exigent-boon-companion"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "243"
+    }
+  ]
+}

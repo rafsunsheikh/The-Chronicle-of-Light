@@ -1,0 +1,25 @@
+{
+  "id": "event-0697-important-events-occurring-in-this-year",
+  "title": "The Important Events Occurring in This Year",
+  "description": "'Abd al-Malik b. Marwin dismissed Umayyah b. 'Abdallih from the governorship of Khurisin and included Khurisin and Sijistin under the jurisdiction of al-Hajjaj b. Yusuf. When they were included in his jurisdiction, al-Hajjaj dispersed his officials throughout them. The Officials Whom al- Hajjaj Appointed in Khurusan and Sijistun, and Why He Appointed",
+  "startDate": "0697-01-01",
+  "category": "political",
+  "connections": [
+    "event-0696-shabib-s-second-entry-into-al-kiifah-and",
+    "event-0696-umayyah-b-abdallah-kills-bukayr-b-wishal-in",
+    "event-0697-officials-whom-al-hajjaj-appointed-in-khurasan-and"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0698-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "177"
+    }
+  ]
+}

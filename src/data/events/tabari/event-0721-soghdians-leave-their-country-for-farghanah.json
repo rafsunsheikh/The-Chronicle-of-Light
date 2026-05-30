@@ -1,0 +1,23 @@
+{
+  "id": "event-0721-soghdians-leave-their-country-for-farghanah",
+  "title": "The Soghdians Leave Their Country for Farghanah",
+  "description": "According to 'Ali b. Muhammad-his authorities: The Soghdians had aided the Turks during the administration of Khudhaynah. Therefore, when al-Harashi was appointed as their governor, they feared for their lives, and their leaders resolved to leave their lands. Their king, however, advised them as follows: \"Don't do this.",
+  "startDate": "0721-01-01",
+  "category": "political",
+  "connections": [
+    "event-0712-qutaybah-s-campaign-in-al-shish-and-farghanah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0722-12-31",
+  "location": {
+    "latitude": 40.4,
+    "longitude": 71.8,
+    "name": "Fergana valley"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "169"
+    }
+  ]
+}

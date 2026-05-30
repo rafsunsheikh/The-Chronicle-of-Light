@@ -1,0 +1,15 @@
+{
+  "id": "event-0900-arrest-of-ibn-shaykh",
+  "title": "Arrest of Ibn Shaykh",
+  "description": "Arrest of Ibn Shaykh. Recorded under the year 287 AH (900 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0900-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "92"
+    }
+  ]
+}

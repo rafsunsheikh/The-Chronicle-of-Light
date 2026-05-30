@@ -1,0 +1,26 @@
+{
+  "id": "event-0686-why-he-seized-them-names-of-those-he",
+  "title": "Why He Seized Them; Names of Those He Killed and of Those Who Fled and Eluded His Grasp / z [The Kufan Ashraf Rise against al-Mukhtar",
+  "description": "Why He Seized Them; Names of Those He Killed and of Those Who Fled and Eluded His Grasp / z [The Kufan Ashraf Rise against al-Mukhtar. Recorded under the year 66 AH (686–687 CE) in al-Tabari's History, volume 21.",
+  "startDate": "0686-07-28",
+  "category": "political",
+  "connections": [
+    "event-0685-al-mukhtar-s-revolutionary-movement-in-al-kufah",
+    "event-0686-al-mukhtar-acts-against-the-murderers-of-al",
+    "event-0686-al-mukhtar-acts-against-the-slayers-of-al",
+    "event-0686-those-in-office-during-the-year"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0687-07-17",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "1"
+    }
+  ]
+}

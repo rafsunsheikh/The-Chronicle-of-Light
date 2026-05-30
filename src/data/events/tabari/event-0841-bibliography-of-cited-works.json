@@ -1,0 +1,16 @@
+{
+  "id": "event-0841-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 226 AH (841–842 CE) in al-Tabari's History, volume 33.",
+  "startDate": "0841-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0842-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "217"
+    }
+  ]
+}

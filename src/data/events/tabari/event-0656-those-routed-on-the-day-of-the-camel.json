@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-those-routed-on-the-day-of-the-camel",
+  "title": "Those Routed on the Day of the Camel Who Hid and Went off into the Surrounding Towns",
+  "description": "and Went off into the Surrounding Towns According to al-Sari (in writing)-Shu'ayb-Sayf-Muhammad and Talhah: At the height of the morning of the rout al-Zubayr went off on foot toward Medina, but he was killed by Ibn Jurmuz. `Utbah b. Abi Sufyan and the two sons of al-Hakam, `Abd al1o26. Or \"I just wanted to ask you [how you were/what you were doing.]\" 1027. Presumably in the modem area of Ba$rah called al-Zubayr.",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0650-reports-concerning-abu-dharr-al-ghifari",
+    "event-0661-departure-of-al-hasan-and-al-husayn-for"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "159"
+    }
+  ]
+}

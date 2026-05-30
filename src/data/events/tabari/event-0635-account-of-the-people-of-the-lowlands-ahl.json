@@ -1,0 +1,16 @@
+{
+  "id": "event-0635-account-of-the-people-of-the-lowlands-ahl",
+  "title": "An Account of the People of the Lowlands (ahl al-sawdd",
+  "description": "According to al-Sari - Shucayb - Sayf - `Abd al-Malik b. `UmayrQabigah b. Jabir: A man from among us recited on the Day of alQadisiyyah, when victory was attained: We were fighting until God granted His victory,",
+  "startDate": "0635-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0636-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "1145"
+    }
+  ]
+}

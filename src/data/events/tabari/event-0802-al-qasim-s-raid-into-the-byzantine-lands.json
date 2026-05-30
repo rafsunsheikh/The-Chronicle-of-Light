@@ -1,0 +1,15 @@
+{
+  "id": "event-0802-al-qasim-s-raid-into-the-byzantine-lands",
+  "title": "Al-Qasim 's Raid into the Byzantine Lands",
+  "description": "Al-Qasim 's Raid into the Byzantine Lands. Recorded under the year 186 AH (802 CE) in al-Tabari's History, volume 30.",
+  "startDate": "0802-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "238"
+    }
+  ]
+}

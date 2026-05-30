@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-zaynab-s-journey-to-medina",
+  "title": "Zaynab's journey to Medina",
+  "description": "According to Ibn Humayd-Salamah-Muhammad b. Ishaq -'Abd Allah b. Abi Bakr b. Muhammad b. 'Amr b. Hazm: I have been told that Zaynab said, \"While I was getting ready to travel in Mecca in order to join my father, Hind bt. 'Utbah\"° met me and said, 'Daughter of Muhammad, have I not heard that you wish to join your father?' I said, 'I do not want to do so.' She said, 'Cousin, do not deny it.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-conversion-of-abu-al-as",
+    "event-0622-return-of-the-muslims-to-medina"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "75"
+    }
+  ]
+}

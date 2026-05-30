@@ -1,0 +1,24 @@
+{
+  "id": "event-0806-al-rashid-s-answer-to-harthamah-s-letter",
+  "title": "Al-Rashid's Answer to Harthamah 's Letter",
+  "description": "In the name of God, the Merciful, the Compassionate. As follows: There has reached the Commander of the Faithful your letter mentioning your arrival in Marw on the day which you have specified and in the circumstances which you have described and which you have set forth in explanation; what ruses and subter- (7281 fuges you employed before you reached Marw, what measures you adopted in regard to the administrative regions which you named and in regard to the appointment of…",
+  "startDate": "0806-01-01",
+  "category": "political",
+  "connections": [
+    "event-0747-abu-muslim-enters-the-walled-city-of-marw",
+    "event-0809-succession-of-muhammad-al-amin-as-caliph"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0807-12-31",
+  "location": {
+    "latitude": 37.66,
+    "longitude": 62.19,
+    "name": "Merv, Turkmenistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "287"
+    }
+  ]
+}

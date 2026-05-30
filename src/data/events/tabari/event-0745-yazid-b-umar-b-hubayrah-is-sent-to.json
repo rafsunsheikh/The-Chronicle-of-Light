@@ -1,0 +1,23 @@
+{
+  "id": "event-0745-yazid-b-umar-b-hubayrah-is-sent-to",
+  "title": "Yazid b. Umar b. Hubayrah is Sent to Iraq",
+  "description": "Yazid b. Umar b. Hubayrah is Sent to Iraq. Recorded under the year 127 AH (745 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0745-01-01",
+  "category": "political",
+  "connections": [
+    "event-0744-dismissal-of-manger-b-jumhur-from-the-post",
+    "event-0753-visit-of-abu-muslim-to-abu-al-abbas"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "52"
+    }
+  ]
+}

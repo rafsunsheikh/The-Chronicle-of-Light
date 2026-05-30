@@ -1,0 +1,24 @@
+{
+  "id": "event-0855-reason-for-the-prisoner-exchange",
+  "title": "The Reason for the Prisoner Exchange",
+  "description": "It is reported that Theodora, empress of Byzantium, mother of Michael, sent a man named George, son of Cyriac, to request an exchange of Muslims who were in the hands of the Byzantines.456 The number of Muslims approached 20,000. Al-Mutawakkil sent a Shiite by the name of Nag b. al-Azhar b. Faraj457 to determine the exact number of Muslim captives in the hands of the Byzantines, so as to order their exchange. This was in Sha`ban (December 15, 855-January 12, 856[ of this year. [Nasr returned],458 having remained with the Byzantines for some time.",
+  "startDate": "0855-01-01",
+  "category": "political",
+  "connections": [
+    "event-0837-byzantine-emperor-s-attacks-on-the-muslims-at",
+    "event-0862-reason-for-dispatching-waif-to-byzantium-and-his"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0856-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "138"
+    }
+  ]
+}

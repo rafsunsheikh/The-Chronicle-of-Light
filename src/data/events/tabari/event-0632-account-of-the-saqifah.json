@@ -1,0 +1,16 @@
+{
+  "id": "event-0632-account-of-the-saqifah",
+  "title": "An Account of the Saqifah",
+  "description": "An Account of the Saqifah. Recorded under the year 11 AH (632–633 CE) in al-Tabari's History, volume 09.",
+  "startDate": "0632-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0633-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 09",
+      "page": "189"
+    }
+  ]
+}

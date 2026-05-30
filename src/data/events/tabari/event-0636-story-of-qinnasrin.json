@@ -1,0 +1,21 @@
+{
+  "id": "event-0636-story-of-qinnasrin",
+  "title": "The Story of Qinnasrin",
+  "description": "The Story of Qinnasrin. Recorded under the year 15 AH (636–637 CE) in al-Tabari's History, volume 12.",
+  "startDate": "0636-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0637-12-31",
+  "location": {
+    "latitude": 35.99,
+    "longitude": 37.05,
+    "name": "Qinnasrin (south of Aleppo)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "178"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "event-0817-al-ma-mun-s-designation-of-the-eighth",
+  "title": "Al-Ma'mun 's designation of the Eighth Imam of the Shi'ah, 'Ali al-Rids, as his heir and the adoption of the 'Alid green colour",
+  "description": "Al-Ma'mun 's designation of the Eighth Imam of the Shi'ah, 'Ali al-Rids, as his heir and the adoption of the 'Alid green colour. Recorded under the year 201 AH (c. 817 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0817-01-01",
+  "category": "political",
+  "connections": [
+    "event-0812-some-aspects-of-the-conduct-and-mode-of",
+    "event-0825-capture-of-ibrahim-b-al-mahdi-dressed-in"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "6"
+    }
+  ]
+}

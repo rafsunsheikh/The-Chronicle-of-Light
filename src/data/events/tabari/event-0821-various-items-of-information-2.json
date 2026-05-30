@@ -1,0 +1,15 @@
+{
+  "id": "event-0821-various-items-of-information-2",
+  "title": "Various items of information",
+  "description": "Various items of information. Recorded under the year 206 AH (c. 821 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0821-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "135"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0624-various-accounts-concerning-uhud",
+  "title": "Various Accounts Concerning Uhud",
+  "description": "According to Ibn Humayd-Salamah-Muhammad b. Ishaq -'Asim b. 'Umar b. Qatadah-Mahmud b. Labid:'98 When the Messenger of God went out to Uhud, IHusayl b. Jabir-who was al-Yaman, the father of Hudhayfah b. al-Yaman -and Thabit b. Waqsh b. Za'ura', who were very old men, were sent up into the strongholds with the women and children. One of them said to 197. Qur. 16.126-8. Al-Tabari has a fuller isnad for this section than IH. 198. IH, 577.",
+  "startDate": "0624-01-01",
+  "category": "political",
+  "connections": [
+    "event-0624-expedition-of-hamra-al-asad",
+    "event-0624-fighting-begins"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0625-12-31",
+  "location": {
+    "latitude": 24.51,
+    "longitude": 39.613,
+    "name": "Mount Uhud, Medina"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "134"
+    }
+  ]
+}

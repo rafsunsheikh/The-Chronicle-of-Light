@@ -1,0 +1,24 @@
+{
+  "id": "event-0837-byzantine-emperor-s-attacks-on-the-muslims-at",
+  "title": "The Byzantine Emperor's Attacks on the Muslims at Zibatrah and Malatyah",
+  "description": "Zibafrah and Malafyah In this year Theophilus son of Michael,'60 the ruler of the Byzantines, fell upon the inhabitants of Zibalrah,261 taking them captive and devastating their town. He proceeded immediately to Malalyah262 and launched attacks on its people and successively on the people of various of the fortresses held by the Muslims.",
+  "startDate": "0837-01-01",
+  "category": "military",
+  "connections": [
+    "event-0831-al-ma-mun-s-further-campaigns-against-the",
+    "event-0855-reason-for-the-prisoner-exchange"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0838-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "93"
+    }
+  ]
+}

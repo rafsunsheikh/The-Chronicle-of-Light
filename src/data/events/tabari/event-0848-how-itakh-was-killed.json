@@ -1,0 +1,24 @@
+{
+  "id": "event-0848-how-itakh-was-killed",
+  "title": "How Itakh Was Killed",
+  "description": "It is reported that, when ltakh left Mecca heading back to Iraq, alMutawakkil sent to him Said b. $alih the Chamberlain286 with attire and precious gifts, ordering Said to meet Itakh in al-Kufah or somewhere along his route. Al-Mutawakkil had already broached his order concerning Itakh to his chief of security police in Baghdad.",
+  "startDate": "0848-01-01",
+  "category": "political",
+  "connections": [
+    "event-0818-revolt-in-al-kufah-of-the-alid-al",
+    "event-0872-account-of-kanjur-sj-death"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0849-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "83"
+    }
+  ]
+}

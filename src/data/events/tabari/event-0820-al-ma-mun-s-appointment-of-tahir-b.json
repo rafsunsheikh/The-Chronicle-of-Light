@@ -1,0 +1,26 @@
+{
+  "id": "event-0820-al-ma-mun-s-appointment-of-tahir-b",
+  "title": "Al-Ma'mun's appointment of Tahir b. al-Husayn as governor of Khurasan and the East; Tahir's suspicions of al-Ma'mun's good faith towards him and his scheming with the Caliph's minister Ahmad b. Abi Kh",
+  "description": "Al-Ma'mun's appointment of Tahir b. al-Husayn as governor of Khurasan and the East; Tahir's suspicions of al-Ma'mun's good faith towards him and his scheming with the Caliph's minister Ahmad b. Abi Kh. Recorded under the year 205 AH (820–821 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0820-01-01",
+  "category": "political",
+  "connections": [
+    "event-0809-causes-of-the-discord-between-al-amin-and",
+    "event-0811-tahir-takes-al-mada-in-and-marches-toward",
+    "event-0821-mysterious-death-in-khurasan-of-tahir-b-al",
+    "event-0821-tahir-b-al-husayn-s-epistle-of-advice"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0821-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "99"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "event-0837-ai-afshin-s-bringing-of-babak-and-his",
+  "title": "AI-Afshin's Bringing of Babak and His Brother to al-Mu'tasim at Samarra and Their Execution",
+  "description": "al-Mu`tagim at Samarra and Their Execution It has been mentioned that al-Afshin reached al -Mu`tasim at Samarra with them on the night of Thursday (i.e., the night of Wednesday-Thursday), the third of $afar (4 January 838) and that al-Mu`tasim used [at this time] to send to al-Afshin, on every day from the moment when he set off from Barzand until he reached Samarra, a horse and a robe of honor.21 [It is further mentioned] that, because of his concern over the matter of…",
+  "startDate": "0837-01-01",
+  "category": "political",
+  "connections": [
+    "event-0833-al-ma-mun-s-fatal-illness-at-al",
+    "event-0835-killing-of-babak-s-commander-tarkhan",
+    "event-0836-capture-of-al-badhdh-how-it-was-achieved",
+    "event-0837-al-mu-tasim-s-campaign-against-ammuriyyah",
+    "event-0838-reason-behind-minkajur-s-rebellion-in-adharbayjan",
+    "event-0866-talibids-carried-off-to-samarra"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0838-12-31",
+  "location": {
+    "latitude": 34.198,
+    "longitude": 43.874,
+    "name": "Samarra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "84"
+    }
+  ]
+}

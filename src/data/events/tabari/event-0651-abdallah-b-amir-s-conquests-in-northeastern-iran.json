@@ -1,0 +1,21 @@
+{
+  "id": "event-0651-abdallah-b-amir-s-conquests-in-northeastern-iran",
+  "title": "'Abdallah b. 'Amir' s Conquests in Northeastern Iran",
+  "description": "Iran] According to 'Ali (b. Muhammad al-Mada'ini)-Salamah b. 'Uthman and others-Isma il b. Muslim-Ibn Sirin: Ibn 'Amir dispatched al-Ahnaf b. Qays to Marwarudh, and he besieged its inhabitants. They came out and fought, but the Muslims routed them and forced them back into their fortresses. Then (the inhabitants of Marwarudh) looked out upon them and said, \"You Arabs are not what we expected. Had we known what you were like, matters between you and us would be different than they are. Grant us a respite and we will consider now [what we should do].",
+  "startDate": "0651-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0652-12-31",
+  "location": {
+    "latitude": 32.0,
+    "longitude": 53.0,
+    "name": "Iran (Persia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "102"
+    }
+  ]
+}

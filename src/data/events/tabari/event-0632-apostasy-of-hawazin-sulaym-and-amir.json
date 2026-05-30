@@ -1,0 +1,15 @@
+{
+  "id": "event-0632-apostasy-of-hawazin-sulaym-and-amir",
+  "title": "The Apostasy of Hawazin, Sulaym, and 'Amir",
+  "description": "The Apostasy of Hawazin, Sulaym, and 'Amir. Recorded under the year 11 AH (c. 632 CE) in al-Tabari's History, volume 10.",
+  "startDate": "0632-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 10",
+      "page": "75"
+    }
+  ]
+}

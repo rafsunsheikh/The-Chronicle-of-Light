@@ -1,0 +1,24 @@
+{
+  "id": "event-0723-ibrahim-b-hisham-leads-the-pilgrimage",
+  "title": "Ibrahim b. Hisham Leads the Pilgrimage",
+  "description": "Ibrih-un b. Hisham b. Ismail\" led the pilgrimage this year while al-Nasri's was governor of al-Madinah. According to al-Wagidi Ibrahim b. Muhammad b. Shurahbilhis father: Ibrahim b. Hisham b. Ismail, while leading the pilgrimage, sent a messenger to 'Ata' b. Abi Rabah19 to ask when he should give his sermon at Mecca. 'Ata' answered, \"After the noon worship a day before the watering. i20 But Ibrahim then gave the sermon before noon, saying that his messenger had brought Akhbar al-Dawlah, 183; Sharon, Black Banners, 134. t2. The mawla of the Hamden.",
+  "startDate": "0723-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0722-yazid-b-abd-al-malik-s-dismissal-of",
+    "event-0725-pilgrimage-and-officials"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0724-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "3"
+    }
+  ]
+}

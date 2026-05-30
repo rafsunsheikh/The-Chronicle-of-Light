@@ -1,0 +1,24 @@
+{
+  "id": "event-0904-seizure-of-insurgents-in-the-ba-rah-region",
+  "title": "Seizure of insurgents in the Ba§rah region",
+  "description": "Seizure of insurgents in the Ba§rah region. Recorded under the year 291 AH (904–905 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0904-01-01",
+  "category": "military",
+  "connections": [
+    "event-0900-death-of-ibn-abi-al-saj",
+    "event-0905-qarmatian-abdallah-b-said-and-the-qarmatian-attacks"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0905-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "155"
+    }
+  ]
+}

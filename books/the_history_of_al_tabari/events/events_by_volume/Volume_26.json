@@ -1,0 +1,553 @@
+[
+  {
+    "id": "tabari-v26-120-001",
+    "title": "The Reason for [Zayd b. 'All's] Death, an Account of His Circumstances, and the Cause of His Rebellion",
+    "description": "",
+    "hijriYear": 120,
+    "ceLabel": "738–739",
+    "startDate": "738",
+    "endDate": "739",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 4,
+      "ceRaw": "738/739"
+    }
+  },
+  {
+    "id": "tabari-v26-120-002",
+    "title": "The Raids of Nagr b. Sayyar",
+    "description": "",
+    "hijriYear": 120,
+    "ceLabel": "738–739",
+    "startDate": "738",
+    "endDate": "739",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 24,
+      "ceRaw": "738/739"
+    }
+  },
+  {
+    "id": "tabari-v26-121-003",
+    "title": "The Killing of Zayd b. 'Ali",
+    "description": "",
+    "hijriYear": 121,
+    "ceLabel": "739–740",
+    "startDate": "739",
+    "endDate": "740",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 36,
+      "ceRaw": "739/740"
+    }
+  },
+  {
+    "id": "tabari-v26-122-004",
+    "title": "The [Treaty with the Soghdians] and the Reason for It",
+    "description": "",
+    "hijriYear": 122,
+    "ceLabel": "740–741",
+    "startDate": "740",
+    "endDate": "741",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 56,
+      "ceRaw": "740/741"
+    }
+  },
+  {
+    "id": "tabari-v26-122-005",
+    "title": "The Reason for Yusuf 's Request and the Outcome of It",
+    "description": "",
+    "hijriYear": 122,
+    "ceLabel": "740–741",
+    "startDate": "740",
+    "endDate": "741",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 58,
+      "ceRaw": "740/741"
+    }
+  },
+  {
+    "id": "tabari-v26-122-006",
+    "title": "An Account of [the Denunciation of Nasr] and of the Part Played in It by Hisham and Yusuf b. 'Umar",
+    "description": "",
+    "hijriYear": 122,
+    "ceLabel": "740–741",
+    "startDate": "740",
+    "endDate": "741",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 59,
+      "ceRaw": "740/741"
+    }
+  },
+  {
+    "id": "tabari-v26-123-007",
+    "title": "The Reason Why Bukayr b. Mahan Bought Abu Muslim",
+    "description": "",
+    "hijriYear": 123,
+    "ceLabel": "741–742",
+    "startDate": "741",
+    "endDate": "742",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 66,
+      "ceRaw": "74-11742"
+    }
+  },
+  {
+    "id": "tabari-v26-124-008",
+    "title": "The Malady That Caused Hisham 's Death",
+    "description": "",
+    "hijriYear": 124,
+    "ceLabel": "742–743",
+    "startDate": "742",
+    "endDate": "743",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 71,
+      "ceRaw": "742/743"
+    }
+  },
+  {
+    "id": "tabari-v26-124-009",
+    "title": "Some Biographical Details about Hisham",
+    "description": "",
+    "hijriYear": 124,
+    "ceLabel": "742–743",
+    "startDate": "742",
+    "endDate": "743",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 72,
+      "ceRaw": "742/743"
+    }
+  },
+  {
+    "id": "tabari-v26-125-010",
+    "title": "Some of the Reasons Why al -Walid Acceded to the Caliphate",
+    "description": "",
+    "hijriYear": 125,
+    "ceLabel": "743–744",
+    "startDate": "743",
+    "endDate": "744",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 87,
+      "ceRaw": "743/744"
+    }
+  },
+  {
+    "id": "tabari-v26-125-011",
+    "title": "What Transpired between Yusuf and Nagr in the Matter of Tribute]",
+    "description": "",
+    "hijriYear": 125,
+    "ceLabel": "743–744",
+    "startDate": "743",
+    "endDate": "744",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 16,
+      "ceRaw": "743/744"
+    }
+  },
+  {
+    "id": "tabari-v26-125-012",
+    "title": "The Killing of Yahya b. Zayd b. 'Ali",
+    "description": "",
+    "hijriYear": 125,
+    "ceLabel": "743–744",
+    "startDate": "743",
+    "endDate": "744",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 120,
+      "ceRaw": "743/744"
+    }
+  },
+  {
+    "id": "tabari-v26-125-013",
+    "title": "The Reason for Yazid's Killing of al-Walid and the Manner of His Killing",
+    "description": "",
+    "hijriYear": 125,
+    "ceLabel": "743–744",
+    "startDate": "743",
+    "endDate": "744",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 1126,
+      "ceRaw": "743/744"
+    }
+  },
+  {
+    "id": "tabari-v26-125-014",
+    "title": "Part of the Account of al-Walid 's Causing Disaffection among the Sons of His Two Uncles, Hisham and al-Walid",
+    "description": "",
+    "hijriYear": 125,
+    "ceLabel": "743–744",
+    "startDate": "743",
+    "endDate": "744",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 127,
+      "ceRaw": "743/744"
+    }
+  },
+  {
+    "id": "tabari-v26-126-015",
+    "title": "The Discords That Occurred",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 183,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-016",
+    "title": "The Uprising in Himg",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 184,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-017",
+    "title": "The Rebellion of the People of Palestine and Jordan and the Treatment They Received from Yazid b. al-Walid",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 189,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-018",
+    "title": "The Dismissal of Yusuf b. 'Umar and the Appointment of Manger b. Jumhur (as Governor of Iraq)",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 196,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-019",
+    "title": "The Text of Marwan 's Letter to al-Ghamr",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 214,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-020",
+    "title": "The Dismissal of Manger b. Jumhur from the Post of Governor of Iraq",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 219,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-021",
+    "title": "The Discord between Nagr and al-Kirmani and What Had Caused It",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 221,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-022",
+    "title": "The Reason for Granting Safe-Conduct to al-Harith b. Surayj",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 235,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-023",
+    "title": "The Account of (Marwan 's Rebellion) and of the Reason That Prompted Marwan to Oppose (Yazid) and Then to Give Allegiance to Yazid",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 239,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-024",
+    "title": "The Account of Marwan's journey and What Caused the Battle [at 'Ayn al-Darr)",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 249,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-025",
+    "title": "The Account of the Cause of the Uprising of 'Abdallah (b. Mu'awiyah) and of His Summoning the People to Himself",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 254,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-026",
+    "title": "The Account of the Affair of al-Harith and Nagr after al-Harith Came to See Him",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 263,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-027",
+    "title": "Appendix I. Problems of Translation",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 267,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-028",
+    "title": "Appendix II. Al-Walid's Letter Appointing His Two Sons, alHakam and 'Uthman, as His Successors",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 271,
+      "ceRaw": "744/745"
+    }
+  },
+  {
+    "id": "tabari-v26-126-029",
+    "title": "Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 126,
+    "ceLabel": "744–745",
+    "startDate": "744",
+    "endDate": "745",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "26",
+      "page": 275,
+      "ceRaw": "744/745"
+    }
+  }
+]

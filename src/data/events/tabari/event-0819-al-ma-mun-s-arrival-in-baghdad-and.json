@@ -1,0 +1,24 @@
+{
+  "id": "event-0819-al-ma-mun-s-arrival-in-baghdad-and",
+  "title": "Al-Ma'mun's arrival in Baghdad and assumption of authority there; the abandonment of the 'Alid colour of green and restoration of the traditional 'Abbasid colour of black",
+  "description": "Al-Ma'mun's arrival in Baghdad and assumption of authority there; the abandonment of the 'Alid colour of green and restoration of the traditional 'Abbasid colour of black. Recorded under the year 203 AH (819–820 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0819-01-01",
+  "category": "political",
+  "connections": [
+    "event-0818-ibrahim-b-al-mahdi-s-despairing-attempt-to",
+    "event-0825-capture-of-ibrahim-b-al-mahdi-dressed-in"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0820-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "94"
+    }
+  ]
+}

@@ -1,0 +1,1236 @@
+[
+  {
+    "id": "person:mu-awiyah-b-abi-sufyan-651",
+    "type": "person",
+    "label": "Mu'awiyah b. Abi Sufyan (651–651 CE)",
+    "eventIds": [
+      "tabari-v15-30-016",
+      "tabari-v15-30-018"
+    ]
+  },
+  {
+    "id": "person:the-kharijites-661",
+    "type": "person",
+    "label": "the Kharijites (661–752 CE)",
+    "eventIds": [
+      "tabari-v18-41-004",
+      "tabari-v18-42-007",
+      "tabari-v18-43-008",
+      "tabari-v18-57-023",
+      "tabari-v20-64-008",
+      "tabari-v20-64-016",
+      "tabari-v21-68-025",
+      "tabari-v21-72-037",
+      "tabari-v21-73-040",
+      "tabari-v24-99-007",
+      "tabari-v24-100-017",
+      "tabari-v27-127-003",
+      "tabari-v27-127-006",
+      "tabari-v27-127-007",
+      "tabari-v27-127-009",
+      "tabari-v27-128-010",
+      "tabari-v27-128-016",
+      "tabari-v27-129-018",
+      "tabari-v27-129-023",
+      "tabari-v27-134-042"
+    ]
+  },
+  {
+    "id": "person:ibn-al-zubayr-684",
+    "type": "person",
+    "label": "Ibn al-Zubayr (684–692 CE)",
+    "eventIds": [
+      "tabari-v20-64-010",
+      "tabari-v20-64-017",
+      "tabari-v21-66-005",
+      "tabari-v21-66-008",
+      "tabari-v21-66-013",
+      "tabari-v21-66-016",
+      "tabari-v21-66-017",
+      "tabari-v21-67-023",
+      "tabari-v21-68-026",
+      "tabari-v21-70-029",
+      "tabari-v21-71-035",
+      "tabari-v21-72-038",
+      "tabari-v21-73-039"
+    ]
+  },
+  {
+    "id": "person:al-mukhtar-685",
+    "type": "person",
+    "label": "al-Mukhtar (685–686 CE)",
+    "eventIds": [
+      "tabari-v20-65-020",
+      "tabari-v21-66-001",
+      "tabari-v21-66-002",
+      "tabari-v21-66-003",
+      "tabari-v21-66-004",
+      "tabari-v21-66-005",
+      "tabari-v21-66-006",
+      "tabari-v21-66-011",
+      "tabari-v21-66-014",
+      "tabari-v21-66-015"
+    ]
+  },
+  {
+    "id": "person:abd-al-malik-b-marwan-687",
+    "type": "person",
+    "label": "'Abd al-Malik b. Marwan (687–723 CE)",
+    "eventIds": [
+      "tabari-v21-67-019",
+      "tabari-v21-68-024",
+      "tabari-v22-76-010",
+      "tabari-v22-77-014",
+      "tabari-v24-100-015",
+      "tabari-v24-100-016",
+      "tabari-v24-105-033"
+    ]
+  },
+  {
+    "id": "person:al-hajjaj-b-yusuf-691",
+    "type": "person",
+    "label": "al-Hajjaj b. Yusuf (691–722 CE)",
+    "eventIds": [
+      "tabari-v21-72-038",
+      "tabari-v22-74-001",
+      "tabari-v22-75-004",
+      "tabari-v22-76-009",
+      "tabari-v22-77-012",
+      "tabari-v22-78-018",
+      "tabari-v22-78-019",
+      "tabari-v23-81-001",
+      "tabari-v23-82-003",
+      "tabari-v23-82-010",
+      "tabari-v23-82-011",
+      "tabari-v23-85-014",
+      "tabari-v24-101-024",
+      "tabari-v24-104-031"
+    ]
+  },
+  {
+    "id": "person:umar-b-abd-al-aziz-705",
+    "type": "person",
+    "label": "'Umar b. 'Abd al-'Aziz (705–745 CE)",
+    "eventIds": [
+      "tabari-v23-86-022",
+      "tabari-v24-99-010",
+      "tabari-v24-100-012",
+      "tabari-v24-100-013",
+      "tabari-v24-100-014",
+      "tabari-v24-100-015",
+      "tabari-v24-100-017",
+      "tabari-v27-127-006"
+    ]
+  },
+  {
+    "id": "person:yazid-b-al-muhallab-715",
+    "type": "person",
+    "label": "Yazid b. al-Muhallab (715–734 CE)",
+    "eventIds": [
+      "tabari-v24-96-002",
+      "tabari-v24-99-008",
+      "tabari-v24-100-012",
+      "tabari-v24-100-014",
+      "tabari-v24-100-018",
+      "tabari-v24-101-019",
+      "tabari-v25-116-034"
+    ]
+  },
+  {
+    "id": "person:hisham-b-abd-al-malik-723",
+    "type": "person",
+    "label": "Hisham b. 'Abd al-Malik (723–744 CE)",
+    "eventIds": [
+      "tabari-v25-105-001",
+      "tabari-v25-106-006",
+      "tabari-v25-106-009",
+      "tabari-v25-118-040",
+      "tabari-v25-119-046",
+      "tabari-v25-119-054",
+      "tabari-v26-124-008",
+      "tabari-v26-125-010",
+      "tabari-v26-126-015"
+    ]
+  },
+  {
+    "id": "person:abu-muslim-741",
+    "type": "person",
+    "label": "Abu Muslim (741–755 CE)",
+    "eventIds": [
+      "tabari-v26-123-007",
+      "tabari-v27-128-011",
+      "tabari-v27-128-013",
+      "tabari-v27-129-017",
+      "tabari-v27-129-019",
+      "tabari-v27-129-020",
+      "tabari-v27-131-025",
+      "tabari-v27-135-044",
+      "tabari-v27-135-045",
+      "tabari-v27-135-046",
+      "tabari-v28-136-001",
+      "tabari-v28-138-003"
+    ]
+  },
+  {
+    "id": "person:al-walid-b-yazid-743",
+    "type": "person",
+    "label": "al-Walid b. Yazid (743–744 CE)",
+    "eventIds": [
+      "tabari-v26-125-013",
+      "tabari-v26-126-015"
+    ]
+  },
+  {
+    "id": "person:nasr-b-sayyar-745",
+    "type": "person",
+    "label": "Nasr b. Sayyar (745–749 CE)",
+    "eventIds": [
+      "tabari-v27-127-005",
+      "tabari-v27-129-017",
+      "tabari-v27-129-018",
+      "tabari-v27-131-024"
+    ]
+  },
+  {
+    "id": "person:marwan-b-muhammad-746",
+    "type": "person",
+    "label": "Marwan b. Muhammad (746–750 CE)",
+    "eventIds": [
+      "tabari-v27-128-010",
+      "tabari-v27-132-034"
+    ]
+  },
+  {
+    "id": "person:qahtabah-747",
+    "type": "person",
+    "label": "Qahtabah (747–755 CE)",
+    "eventIds": [
+      "tabari-v27-129-020",
+      "tabari-v27-131-025",
+      "tabari-v27-131-026",
+      "tabari-v27-131-028",
+      "tabari-v27-131-030",
+      "tabari-v27-132-032",
+      "tabari-v28-138-004"
+    ]
+  },
+  {
+    "id": "person:al-mansur-758",
+    "type": "person",
+    "label": "al-Mansur (758–774 CE)",
+    "eventIds": [
+      "tabari-v28-141-007",
+      "tabari-v28-145-018",
+      "tabari-v29-157-001",
+      "tabari-v29-157-002"
+    ]
+  },
+  {
+    "id": "person:al-mahdi-784",
+    "type": "person",
+    "label": "al-Mahdi (784–825 CE)",
+    "eventIds": [
+      "tabari-v29-167-003",
+      "tabari-v30-186-038",
+      "tabari-v32-201-012",
+      "tabari-v32-201-015",
+      "tabari-v32-202-019",
+      "tabari-v32-210-040"
+    ]
+  },
+  {
+    "id": "person:al-hadi-786",
+    "type": "person",
+    "label": "al-Hadi (786–786 CE)",
+    "eventIds": [
+      "tabari-v30-169-001",
+      "tabari-v30-169-004",
+      "tabari-v30-169-008"
+    ]
+  },
+  {
+    "id": "person:al-husayn-b-ali-786",
+    "type": "person",
+    "label": "al-Husayn b. 'Ali (786–811 CE)",
+    "eventIds": [
+      "tabari-v30-169-003",
+      "tabari-v30-169-004",
+      "tabari-v31-195-020"
+    ]
+  },
+  {
+    "id": "person:harun-al-rashid-789",
+    "type": "person",
+    "label": "Harun al-Rashid (789–809 CE)",
+    "eventIds": [
+      "tabari-v30-173-015",
+      "tabari-v30-180-027",
+      "tabari-v30-183-029",
+      "tabari-v30-186-030",
+      "tabari-v30-186-033",
+      "tabari-v30-186-034",
+      "tabari-v30-186-035",
+      "tabari-v30-186-040",
+      "tabari-v30-186-044",
+      "tabari-v30-186-047",
+      "tabari-v30-189-050",
+      "tabari-v30-190-054",
+      "tabari-v30-190-055",
+      "tabari-v30-191-057",
+      "tabari-v30-191-058",
+      "tabari-v30-191-059",
+      "tabari-v30-192-064",
+      "tabari-v30-192-067",
+      "tabari-v30-192-068",
+      "tabari-v31-193-001",
+      "tabari-v31-193-002"
+    ]
+  },
+  {
+    "id": "person:al-amin-791",
+    "type": "person",
+    "label": "al-Amin (791–812 CE)",
+    "eventIds": [
+      "tabari-v30-175-016",
+      "tabari-v31-193-001",
+      "tabari-v31-193-002",
+      "tabari-v31-193-003",
+      "tabari-v31-193-004",
+      "tabari-v31-193-007",
+      "tabari-v31-195-009",
+      "tabari-v31-195-012",
+      "tabari-v31-195-015",
+      "tabari-v31-195-018",
+      "tabari-v31-195-019",
+      "tabari-v31-195-020",
+      "tabari-v31-195-022",
+      "tabari-v31-195-023",
+      "tabari-v31-195-024",
+      "tabari-v31-196-026",
+      "tabari-v31-196-032"
+    ]
+  },
+  {
+    "id": "person:al-ma-mun-808",
+    "type": "person",
+    "label": "al-Ma'mun (808–833 CE)",
+    "eventIds": [
+      "tabari-v30-192-067",
+      "tabari-v31-193-002",
+      "tabari-v31-193-003",
+      "tabari-v31-193-007",
+      "tabari-v31-195-009",
+      "tabari-v31-195-011",
+      "tabari-v31-195-018",
+      "tabari-v31-196-035",
+      "tabari-v32-201-014",
+      "tabari-v32-210-040",
+      "tabari-v32-218-066",
+      "tabari-v32-218-072",
+      "tabari-v32-218-074"
+    ]
+  },
+  {
+    "id": "person:tahir-b-al-husayn-811",
+    "type": "person",
+    "label": "Tahir b. al-Husayn (811–821 CE)",
+    "eventIds": [
+      "tabari-v31-195-013",
+      "tabari-v31-195-021",
+      "tabari-v32-205-027",
+      "tabari-v32-206-030",
+      "tabari-v32-206-033"
+    ]
+  },
+  {
+    "id": "person:babak-824",
+    "type": "person",
+    "label": "Babak (824–838 CE)",
+    "eventIds": [
+      "tabari-v32-209-038",
+      "tabari-v33-220-005",
+      "tabari-v33-220-006",
+      "tabari-v33-220-007",
+      "tabari-v33-220-008",
+      "tabari-v33-222-011",
+      "tabari-v33-223-018"
+    ]
+  },
+  {
+    "id": "person:al-mu-tasim-833",
+    "type": "person",
+    "label": "al-Mu'tasim (833–848 CE)",
+    "eventIds": [
+      "tabari-v32-218-063",
+      "tabari-v32-218-064",
+      "tabari-v33-222-011",
+      "tabari-v33-222-014",
+      "tabari-v33-223-015",
+      "tabari-v33-223-019",
+      "tabari-v33-226-023",
+      "tabari-v33-226-024",
+      "tabari-v34-233-013"
+    ]
+  },
+  {
+    "id": "person:al-afshin-835",
+    "type": "person",
+    "label": "al-Afshin (835–838 CE)",
+    "eventIds": [
+      "tabari-v33-220-006",
+      "tabari-v33-220-007",
+      "tabari-v33-221-009",
+      "tabari-v33-221-010",
+      "tabari-v33-222-011",
+      "tabari-v33-223-018",
+      "tabari-v33-223-019"
+    ]
+  },
+  {
+    "id": "person:al-wathiq-846",
+    "type": "person",
+    "label": "al-Wathiq (846–847 CE)",
+    "eventIds": [
+      "tabari-v34-231-007",
+      "tabari-v34-231-008",
+      "tabari-v34-231-009",
+      "tabari-v34-231-010",
+      "tabari-v34-232-011"
+    ]
+  },
+  {
+    "id": "person:al-mutawakkil-847",
+    "type": "person",
+    "label": "al-Mutawakkil (847–878 CE)",
+    "eventIds": [
+      "tabari-v34-232-011",
+      "tabari-v34-236-017",
+      "tabari-v34-247-025",
+      "tabari-v34-247-026",
+      "tabari-v36-264-018"
+    ]
+  },
+  {
+    "id": "place:medina-622",
+    "type": "place",
+    "label": "Medina (622–843 CE)",
+    "eventIds": [
+      "tabari-v07-1-001",
+      "tabari-v07-1-002",
+      "tabari-v07-1-003",
+      "tabari-v07-1-004",
+      "tabari-v07-1-007",
+      "tabari-v07-1-013",
+      "tabari-v07-1-019",
+      "tabari-v07-1-022",
+      "tabari-v07-1-029",
+      "tabari-v07-1-040",
+      "tabari-v07-1-044",
+      "tabari-v07-1-045",
+      "tabari-v07-1-048",
+      "tabari-v07-1-049",
+      "tabari-v07-1-051",
+      "tabari-v07-4-068",
+      "tabari-v08-8-020",
+      "tabari-v09-9-003",
+      "tabari-v09-10-013",
+      "tabari-v09-10-024",
+      "tabari-v10-11-016",
+      "tabari-v15-29-014",
+      "tabari-v16-35-017",
+      "tabari-v18-41-003",
+      "tabari-v18-53-019",
+      "tabari-v19-61-006",
+      "tabari-v20-64-014",
+      "tabari-v20-64-017",
+      "tabari-v19-66-007",
+      "tabari-v21-66-005",
+      "tabari-v21-67-023",
+      "tabari-v22-74-001",
+      "tabari-v23-86-022",
+      "tabari-v23-87-025",
+      "tabari-v23-90-035",
+      "tabari-v24-104-029",
+      "tabari-v25-105-003",
+      "tabari-v25-107-015",
+      "tabari-v25-117-037",
+      "tabari-v25-118-040",
+      "tabari-v25-118-042",
+      "tabari-v27-129-022",
+      "tabari-v27-129-023",
+      "tabari-v28-144-012",
+      "tabari-v28-144-014",
+      "tabari-v28-145-017",
+      "tabari-v31-195-017",
+      "tabari-v34-228-002"
+    ]
+  },
+  {
+    "id": "place:nakhlah-622",
+    "type": "place",
+    "label": "Nakhlah (622–629 CE)",
+    "eventIds": [
+      "tabari-v07-1-021",
+      "tabari-v07-1-023",
+      "tabari-v07-1-024",
+      "tabari-v08-8-026"
+    ]
+  },
+  {
+    "id": "place:jerusalem-622",
+    "type": "place",
+    "label": "Jerusalem (622–636 CE)",
+    "eventIds": [
+      "tabari-v07-1-025",
+      "tabari-v12-15-013"
+    ]
+  },
+  {
+    "id": "place:badr-622",
+    "type": "place",
+    "label": "Badr (622–625 CE)",
+    "eventIds": [
+      "tabari-v07-1-027",
+      "tabari-v07-1-028",
+      "tabari-v07-1-030",
+      "tabari-v07-1-032",
+      "tabari-v07-1-033",
+      "tabari-v07-1-042",
+      "tabari-v07-1-047",
+      "tabari-v07-4-069"
+    ]
+  },
+  {
+    "id": "place:mecca-622",
+    "type": "place",
+    "label": "Mecca (622–814 CE)",
+    "eventIds": [
+      "tabari-v07-1-034",
+      "tabari-v07-1-041",
+      "tabari-v08-8-025",
+      "tabari-v15-34-040",
+      "tabari-v16-35-004",
+      "tabari-v17-46-009",
+      "tabari-v19-60-001",
+      "tabari-v20-64-008",
+      "tabari-v21-66-007",
+      "tabari-v21-66-008",
+      "tabari-v21-70-028",
+      "tabari-v21-72-038",
+      "tabari-v22-80-022",
+      "tabari-v23-90-034",
+      "tabari-v25-106-006",
+      "tabari-v29-157-002",
+      "tabari-v30-186-040",
+      "tabari-v31-195-022",
+      "tabari-v32-198-004",
+      "tabari-v32-198-007",
+      "tabari-v32-198-009"
+    ]
+  },
+  {
+    "id": "place:al-qadisiyyah-623",
+    "type": "place",
+    "label": "al-Qadisiyyah (623–635 CE)",
+    "eventIds": [
+      "tabari-v13-1-002",
+      "tabari-v11-13-031",
+      "tabari-v12-14-003"
+    ]
+  },
+  {
+    "id": "place:uhud-624",
+    "type": "place",
+    "label": "Uhud (624–624 CE)",
+    "eventIds": [
+      "tabari-v07-3-056",
+      "tabari-v07-3-057",
+      "tabari-v07-3-060",
+      "tabari-v07-3-061"
+    ]
+  },
+  {
+    "id": "place:dumat-al-jandal-626",
+    "type": "place",
+    "label": "Dumat al-Jandal (626–634 CE)",
+    "eventIds": [
+      "tabari-v08-5-002",
+      "tabari-v11-13-005"
+    ]
+  },
+  {
+    "id": "place:khaybar-628",
+    "type": "place",
+    "label": "Khaybar (628–628 CE)",
+    "eventIds": [
+      "tabari-v08-7-012",
+      "tabari-v08-7-013",
+      "tabari-v08-7-015",
+      "tabari-v08-7-017"
+    ]
+  },
+  {
+    "id": "place:hunayn-629",
+    "type": "place",
+    "label": "Hunayn (629–629 CE)",
+    "eventIds": [
+      "tabari-v09-8-001",
+      "tabari-v09-8-002"
+    ]
+  },
+  {
+    "id": "place:syria-631",
+    "type": "place",
+    "label": "Syria (631–687 CE)",
+    "eventIds": [
+      "tabari-v09-10-025",
+      "tabari-v11-13-021",
+      "tabari-v13-17-018",
+      "tabari-v13-17-020",
+      "tabari-v15-30-016",
+      "tabari-v15-30-017",
+      "tabari-v15-32-025",
+      "tabari-v15-32-026",
+      "tabari-v18-46-010",
+      "tabari-v20-64-004",
+      "tabari-v21-67-019"
+    ]
+  },
+  {
+    "id": "place:syria-791",
+    "type": "place",
+    "label": "Syria (791–833 CE)",
+    "eventIds": [
+      "tabari-v30-175-021",
+      "tabari-v30-180-025",
+      "tabari-v30-180-026",
+      "tabari-v31-195-014",
+      "tabari-v31-195-018",
+      "tabari-v31-195-019",
+      "tabari-v32-218-070",
+      "tabari-v32-218-072"
+    ]
+  },
+  {
+    "id": "place:yemen-632",
+    "type": "place",
+    "label": "Yemen (632–632 CE)",
+    "eventIds": [
+      "tabari-v10-11-010",
+      "tabari-v10-11-012",
+      "tabari-v10-11-014"
+    ]
+  },
+  {
+    "id": "place:yemen-814",
+    "type": "place",
+    "label": "Yemen (814–821 CE)",
+    "eventIds": [
+      "tabari-v32-198-006",
+      "tabari-v32-206-032"
+    ]
+  },
+  {
+    "id": "place:yemen-905",
+    "type": "place",
+    "label": "Yemen (905–907 CE)",
+    "eventIds": [
+      "tabari-v38-292-018",
+      "tabari-v38-294-021"
+    ]
+  },
+  {
+    "id": "place:al-hirah-634",
+    "type": "place",
+    "label": "al-Hirah (634–634 CE)",
+    "eventIds": [
+      "tabari-v11-13-002",
+      "tabari-v11-13-012"
+    ]
+  },
+  {
+    "id": "place:al-anbar-865",
+    "type": "place",
+    "label": "al-Anbar (865–899 CE)",
+    "eventIds": [
+      "tabari-v35-251-009",
+      "tabari-v38-286-009"
+    ]
+  },
+  {
+    "id": "place:damascus-634",
+    "type": "place",
+    "label": "Damascus (634–745 CE)",
+    "eventIds": [
+      "tabari-v11-13-013",
+      "tabari-v11-13-019",
+      "tabari-v11-13-020",
+      "tabari-v21-68-024",
+      "tabari-v27-127-001"
+    ]
+  },
+  {
+    "id": "place:damascus-833",
+    "type": "place",
+    "label": "Damascus (833–840 CE)",
+    "eventIds": [
+      "tabari-v32-218-073",
+      "tabari-v33-225-020"
+    ]
+  },
+  {
+    "id": "place:al-basrah-635",
+    "type": "place",
+    "label": "al-Basrah (635–701 CE)",
+    "eventIds": [
+      "tabari-v12-14-006",
+      "tabari-v14-21-008",
+      "tabari-v15-28-009",
+      "tabari-v16-35-005",
+      "tabari-v16-35-007",
+      "tabari-v16-35-008",
+      "tabari-v16-35-009",
+      "tabari-v16-35-012",
+      "tabari-v16-35-018",
+      "tabari-v16-35-020",
+      "tabari-v16-35-021",
+      "tabari-v16-35-023",
+      "tabari-v16-35-026",
+      "tabari-v16-35-027",
+      "tabari-v16-35-033",
+      "tabari-v18-43-009",
+      "tabari-v18-54-021",
+      "tabari-v20-64-002",
+      "tabari-v20-64-015",
+      "tabari-v21-66-001",
+      "tabari-v21-66-004",
+      "tabari-v21-66-006",
+      "tabari-v21-66-013",
+      "tabari-v21-66-016",
+      "tabari-v21-68-026",
+      "tabari-v21-71-030",
+      "tabari-v21-71-032",
+      "tabari-v21-73-041",
+      "tabari-v22-75-004",
+      "tabari-v23-82-002"
+    ]
+  },
+  {
+    "id": "place:al-basrah-789",
+    "type": "place",
+    "label": "al-Basrah (789–880 CE)",
+    "eventIds": [
+      "tabari-v30-173-014",
+      "tabari-v32-218-071",
+      "tabari-v36-256-015",
+      "tabari-v36-256-016",
+      "tabari-v37-266-014"
+    ]
+  },
+  {
+    "id": "place:the-byzantines-636",
+    "type": "place",
+    "label": "the Byzantines (636–694 CE)",
+    "eventIds": [
+      "tabari-v12-15-007",
+      "tabari-v21-70-027",
+      "tabari-v21-73-042",
+      "tabari-v22-75-003"
+    ]
+  },
+  {
+    "id": "place:the-byzantines-786",
+    "type": "place",
+    "label": "the Byzantines (786–913 CE)",
+    "eventIds": [
+      "tabari-v30-169-007",
+      "tabari-v30-186-044",
+      "tabari-v30-189-050",
+      "tabari-v30-190-051",
+      "tabari-v32-216-053",
+      "tabari-v33-222-012",
+      "tabari-v34-241-022",
+      "tabari-v34-248-027",
+      "tabari-v38-282-006",
+      "tabari-v38-285-008",
+      "tabari-v38-287-012",
+      "tabari-v38-289-015",
+      "tabari-v38-300-027"
+    ]
+  },
+  {
+    "id": "place:qinnasrin-717",
+    "type": "place",
+    "label": "Qinnasrin (717–750 CE)",
+    "eventIds": [
+      "tabari-v24-98-005",
+      "tabari-v27-132-035"
+    ]
+  },
+  {
+    "id": "place:al-mada-in-637",
+    "type": "place",
+    "label": "al-Mada'in (637–638 CE)",
+    "eventIds": [
+      "tabari-v13-16-007",
+      "tabari-v13-17-012",
+      "tabari-v13-17-015"
+    ]
+  },
+  {
+    "id": "place:jalula-637",
+    "type": "place",
+    "label": "Jalula (637–638 CE)",
+    "eventIds": [
+      "tabari-v13-16-008",
+      "tabari-v13-16-010",
+      "tabari-v13-17-026"
+    ]
+  },
+  {
+    "id": "place:al-ahwaz-638",
+    "type": "place",
+    "label": "al-Ahwaz (638–687 CE)",
+    "eventIds": [
+      "tabari-v13-17-022",
+      "tabari-v13-17-023",
+      "tabari-v14-22-017",
+      "tabari-v21-67-020"
+    ]
+  },
+  {
+    "id": "place:al-ahwaz-870",
+    "type": "place",
+    "label": "al-Ahwaz (870–872 CE)",
+    "eventIds": [
+      "tabari-v36-256-012",
+      "tabari-v36-258-022"
+    ]
+  },
+  {
+    "id": "place:fars-638",
+    "type": "place",
+    "label": "Fars (638–756 CE)",
+    "eventIds": [
+      "tabari-v13-17-024",
+      "tabari-v17-39-008",
+      "tabari-v21-67-018",
+      "tabari-v24-100-015",
+      "tabari-v27-128-015",
+      "tabari-v28-139-005"
+    ]
+  },
+  {
+    "id": "place:fars-868",
+    "type": "place",
+    "label": "Fars (868–910 CE)",
+    "eventIds": [
+      "tabari-v35-254-016",
+      "tabari-v38-296-024",
+      "tabari-v38-297-025"
+    ]
+  },
+  {
+    "id": "place:al-kufah-640",
+    "type": "place",
+    "label": "al-Kufah (640–877 CE)",
+    "eventIds": [
+      "tabari-v13-19-031",
+      "tabari-v14-21-009",
+      "tabari-v15-23-002",
+      "tabari-v15-23-004",
+      "tabari-v15-24-006",
+      "tabari-v15-29-012",
+      "tabari-v16-35-024",
+      "tabari-v18-41-002",
+      "tabari-v20-64-003",
+      "tabari-v20-64-007",
+      "tabari-v20-64-009",
+      "tabari-v20-64-011",
+      "tabari-v20-65-020",
+      "tabari-v21-66-002",
+      "tabari-v21-66-017",
+      "tabari-v21-71-031",
+      "tabari-v22-76-009",
+      "tabari-v22-77-012",
+      "tabari-v27-131-031",
+      "tabari-v29-157-001",
+      "tabari-v32-198-003",
+      "tabari-v32-198-005",
+      "tabari-v32-202-018",
+      "tabari-v34-233-014",
+      "tabari-v36-258-021",
+      "tabari-v36-263-033"
+    ]
+  },
+  {
+    "id": "place:al-rayy-642",
+    "type": "place",
+    "label": "al-Rayy (642–663 CE)",
+    "eventIds": [
+      "tabari-v14-21-004",
+      "tabari-v18-43-008"
+    ]
+  },
+  {
+    "id": "place:tabaristan-642",
+    "type": "place",
+    "label": "Tabaristan (642–650 CE)",
+    "eventIds": [
+      "tabari-v14-21-006",
+      "tabari-v15-29-011"
+    ]
+  },
+  {
+    "id": "place:tabaristan-873",
+    "type": "place",
+    "label": "Tabaristan (873–914 CE)",
+    "eventIds": [
+      "tabari-v36-259-025",
+      "tabari-v38-301-028"
+    ]
+  },
+  {
+    "id": "place:adharbayjan-807",
+    "type": "place",
+    "label": "Adharbayjan (807–838 CE)",
+    "eventIds": [
+      "tabari-v30-191-059",
+      "tabari-v32-209-038",
+      "tabari-v33-223-018"
+    ]
+  },
+  {
+    "id": "place:sijistan-643",
+    "type": "place",
+    "label": "Sijistan (643–699 CE)",
+    "eventIds": [
+      "tabari-v14-22-015",
+      "tabari-v18-58-025",
+      "tabari-v22-79-021",
+      "tabari-v22-80-024"
+    ]
+  },
+  {
+    "id": "place:armenia-644",
+    "type": "place",
+    "label": "Armenia (644–644 CE)",
+    "eventIds": [
+      "tabari-v15-23-003",
+      "tabari-v15-23-005"
+    ]
+  },
+  {
+    "id": "place:armenia-744",
+    "type": "place",
+    "label": "Armenia (744–851 CE)",
+    "eventIds": [
+      "tabari-v26-126-024",
+      "tabari-v30-183-028",
+      "tabari-v34-236-016"
+    ]
+  },
+  {
+    "id": "place:egypt-647",
+    "type": "place",
+    "label": "Egypt (647–656 CE)",
+    "eventIds": [
+      "tabari-v15-26-007",
+      "tabari-v16-35-030"
+    ]
+  },
+  {
+    "id": "place:egypt-791",
+    "type": "place",
+    "label": "Egypt (791–826 CE)",
+    "eventIds": [
+      "tabari-v30-175-022",
+      "tabari-v32-211-046"
+    ]
+  },
+  {
+    "id": "place:khurasan-650",
+    "type": "place",
+    "label": "Khurasan (650–884 CE)",
+    "eventIds": [
+      "tabari-v15-29-015",
+      "tabari-v15-30-020",
+      "tabari-v16-35-031",
+      "tabari-v17-37-006",
+      "tabari-v18-50-012",
+      "tabari-v18-52-018",
+      "tabari-v18-53-020",
+      "tabari-v18-58-024",
+      "tabari-v20-64-006",
+      "tabari-v20-64-019",
+      "tabari-v21-66-009",
+      "tabari-v22-77-017",
+      "tabari-v22-78-018",
+      "tabari-v22-78-019",
+      "tabari-v22-81-026",
+      "tabari-v23-82-004",
+      "tabari-v23-82-011",
+      "tabari-v23-85-014",
+      "tabari-v23-86-021",
+      "tabari-v24-96-002",
+      "tabari-v24-99-009",
+      "tabari-v24-99-010",
+      "tabari-v24-101-020",
+      "tabari-v24-101-023",
+      "tabari-v24-102-025",
+      "tabari-v24-102-026",
+      "tabari-v24-104-030",
+      "tabari-v24-104-031",
+      "tabari-v25-106-010",
+      "tabari-v25-109-018",
+      "tabari-v25-109-019",
+      "tabari-v25-109-020",
+      "tabari-v25-111-027",
+      "tabari-v25-116-034",
+      "tabari-v25-117-036",
+      "tabari-v25-117-038",
+      "tabari-v25-118-039",
+      "tabari-v25-119-052",
+      "tabari-v25-119-054",
+      "tabari-v26-126-022",
+      "tabari-v27-127-005",
+      "tabari-v27-128-011",
+      "tabari-v27-128-013",
+      "tabari-v27-132-038",
+      "tabari-v27-134-041",
+      "tabari-v28-140-006",
+      "tabari-v30-178-024",
+      "tabari-v30-180-027",
+      "tabari-v30-183-029",
+      "tabari-v30-186-046",
+      "tabari-v30-190-054",
+      "tabari-v30-191-057",
+      "tabari-v30-191-058",
+      "tabari-v31-193-002",
+      "tabari-v32-205-027",
+      "tabari-v32-206-033",
+      "tabari-v32-206-034",
+      "tabari-v32-206-036",
+      "tabari-v33-219-002",
+      "tabari-v33-223-016",
+      "tabari-v37-270-023"
+    ]
+  },
+  {
+    "id": "place:balkh-737",
+    "type": "place",
+    "label": "Balkh (737–737 CE)",
+    "eventIds": [
+      "tabari-v25-119-044",
+      "tabari-v25-119-051"
+    ]
+  },
+  {
+    "id": "place:dhu-qar-656",
+    "type": "place",
+    "label": "Dhu Qar (656–656 CE)",
+    "eventIds": [
+      "tabari-v16-35-010",
+      "tabari-v16-35-011"
+    ]
+  },
+  {
+    "id": "place:iraq-744",
+    "type": "place",
+    "label": "Iraq (744–818 CE)",
+    "eventIds": [
+      "tabari-v26-126-018",
+      "tabari-v26-126-020",
+      "tabari-v27-127-008",
+      "tabari-v27-135-045",
+      "tabari-v28-144-013",
+      "tabari-v28-144-015",
+      "tabari-v30-186-048",
+      "tabari-v32-198-002",
+      "tabari-v32-202-017"
+    ]
+  },
+  {
+    "id": "place:kish-699",
+    "type": "place",
+    "label": "Kish (699–701 CE)",
+    "eventIds": [
+      "tabari-v22-80-023",
+      "tabari-v23-82-005"
+    ]
+  },
+  {
+    "id": "place:marw-701",
+    "type": "place",
+    "label": "Marw (701–818 CE)",
+    "eventIds": [
+      "tabari-v23-82-006",
+      "tabari-v27-129-017",
+      "tabari-v30-190-056",
+      "tabari-v31-193-001",
+      "tabari-v32-198-010",
+      "tabari-v32-202-020"
+    ]
+  },
+  {
+    "id": "place:al-shash-705",
+    "type": "place",
+    "label": "al-Shash (705–712 CE)",
+    "eventIds": [
+      "tabari-v23-86-024",
+      "tabari-v23-93-043"
+    ]
+  },
+  {
+    "id": "place:bukhara-708",
+    "type": "place",
+    "label": "Bukhara (708–729 CE)",
+    "eventIds": [
+      "tabari-v23-89-027",
+      "tabari-v25-111-028"
+    ]
+  },
+  {
+    "id": "place:transoxania-709",
+    "type": "place",
+    "label": "Transoxania (709–753 CE)",
+    "eventIds": [
+      "tabari-v23-90-033",
+      "tabari-v24-101-022",
+      "tabari-v27-135-044"
+    ]
+  },
+  {
+    "id": "place:samarqand-711",
+    "type": "place",
+    "label": "Samarqand (711–728 CE)",
+    "eventIds": [
+      "tabari-v23-92-037",
+      "tabari-v25-110-023"
+    ]
+  },
+  {
+    "id": "place:farghanah-712",
+    "type": "place",
+    "label": "Farghanah (712–721 CE)",
+    "eventIds": [
+      "tabari-v23-93-040",
+      "tabari-v24-102-027"
+    ]
+  },
+  {
+    "id": "place:jurjan-716",
+    "type": "place",
+    "label": "Jurjan (716–747 CE)",
+    "eventIds": [
+      "tabari-v24-97-004",
+      "tabari-v27-129-021"
+    ]
+  },
+  {
+    "id": "place:wasit-720",
+    "type": "place",
+    "label": "Wasit (720–750 CE)",
+    "eventIds": [
+      "tabari-v24-101-019",
+      "tabari-v27-127-006",
+      "tabari-v27-132-039"
+    ]
+  },
+  {
+    "id": "place:sind-723",
+    "type": "place",
+    "label": "Sind (723–752 CE)",
+    "eventIds": [
+      "tabari-v25-105-002",
+      "tabari-v26-123-007",
+      "tabari-v27-134-043"
+    ]
+  },
+  {
+    "id": "place:al-khuttal-725",
+    "type": "place",
+    "label": "al-Khuttal (725–737 CE)",
+    "eventIds": [
+      "tabari-v25-107-014",
+      "tabari-v25-119-043",
+      "tabari-v25-119-048"
+    ]
+  },
+  {
+    "id": "place:al-raqqah-745",
+    "type": "place",
+    "label": "al-Raqqah (745–833 CE)",
+    "eventIds": [
+      "tabari-v27-127-004",
+      "tabari-v30-186-030",
+      "tabari-v30-186-031",
+      "tabari-v32-218-059"
+    ]
+  },
+  {
+    "id": "place:baghdad-762",
+    "type": "place",
+    "label": "Baghdad (762–908 CE)",
+    "eventIds": [
+      "tabari-v28-145-018",
+      "tabari-v30-186-034",
+      "tabari-v31-195-020",
+      "tabari-v31-196-025",
+      "tabari-v31-196-027",
+      "tabari-v31-196-028",
+      "tabari-v31-196-031",
+      "tabari-v32-198-011",
+      "tabari-v32-201-012",
+      "tabari-v32-201-013",
+      "tabari-v32-201-015",
+      "tabari-v32-202-019",
+      "tabari-v32-202-023",
+      "tabari-v32-203-025",
+      "tabari-v32-210-040",
+      "tabari-v32-218-058",
+      "tabari-v32-218-060",
+      "tabari-v33-220-004",
+      "tabari-v34-230-004",
+      "tabari-v35-249-002",
+      "tabari-v36-256-001",
+      "tabari-v36-264-018",
+      "tabari-v37-277-036",
+      "tabari-v38-282-005",
+      "tabari-v38-287-011",
+      "tabari-v38-291-017",
+      "tabari-v38-292-019",
+      "tabari-v38-295-023"
+    ]
+  },
+  {
+    "id": "place:tarsus-833",
+    "type": "place",
+    "label": "Tarsus (833–897 CE)",
+    "eventIds": [
+      "tabari-v32-218-062",
+      "tabari-v32-218-065",
+      "tabari-v37-272-025",
+      "tabari-v37-279-043",
+      "tabari-v38-284-007"
+    ]
+  },
+  {
+    "id": "place:samarra-837",
+    "type": "place",
+    "label": "Samarra (837–866 CE)",
+    "eventIds": [
+      "tabari-v33-222-011",
+      "tabari-v35-252-013"
+    ]
+  },
+  {
+    "id": "place:al-ubullah-870",
+    "type": "place",
+    "label": "al-Ubullah (870–870 CE)",
+    "eventIds": [
+      "tabari-v36-256-010",
+      "tabari-v36-256-011"
+    ]
+  }
+]

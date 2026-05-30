@@ -1,0 +1,16 @@
+{
+  "id": "event-0886-ibn-abi-dulaf-battles-the-affarid",
+  "title": "Ibn Abi Dulaf Battles the $affarid",
+  "description": "Ibn Abi Dulaf Battles the $affarid. Recorded under the year 273 AH (886–887 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0886-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0887-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "153"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0870-in-baghdad",
+  "title": "in Baghdad",
+  "description": "in Baghdad. Recorded under the year 256 AH (870–887 CE) in al-Tabari's History, volume 36.",
+  "startDate": "0870-01-01",
+  "category": "political",
+  "connections": [
+    "event-0863-shakiriyyah-riot-in-baghdad",
+    "event-0878-account-of-muflih-s-death"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0887-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "3"
+    }
+  ]
+}

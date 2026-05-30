@@ -1,0 +1,28 @@
+{
+  "id": "event-0686-al-mukhtar-sends-an-army-to-trick-ibn",
+  "title": "Al-Mukhtar Sends an Army to Trick Ibn al-Zubayr",
+  "description": "According to Abu Ja`far [sc. al-Tabaril: In this year, al-Mukhtar dispatched an army to Medina to trick Ibn al-Zubayr. He pretended to Ibn al-Zubayr that he had sent the army to help him fight the army that `Abd al-Malik b. Marwan217 had sent to fight him and that had encamped in Wadi al-Qura.218",
+  "startDate": "0686-07-28",
+  "category": "political",
+  "connections": [
+    "event-0684-ibn-al-zubayr-s-dismissal-and-appointment-of",
+    "event-0686-al-mukhtar-s-motive-in-sending-this-army",
+    "event-0686-arrival-of-a-delegation-of-the-people-of",
+    "event-0686-swearing-of-allegiance-to-al-mukhtar-in-al",
+    "event-0686-why-the-khashabiyyah-came-to-mecca",
+    "event-0687-those-in-office-during-the-year"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0687-07-17",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "53"
+    }
+  ]
+}

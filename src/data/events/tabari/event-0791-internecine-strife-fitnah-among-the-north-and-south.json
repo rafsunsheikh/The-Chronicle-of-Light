@@ -1,0 +1,23 @@
+{
+  "id": "event-0791-internecine-strife-fitnah-among-the-north-and-south",
+  "title": "The Internecine Strife (fitnah) among the North and South Arabs in Syria",
+  "description": "The Internecine Strife (fitnah) among the North and South Arabs in Syria. Recorded under the year 175 AH (791–792 CE) in al-Tabari's History, volume 30.",
+  "startDate": "0791-01-01",
+  "category": "political",
+  "connections": [
+    "event-0796-outcome-of-the-factional-strife-in-syria-and"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0792-12-31",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "132"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-expedition-of-al-sawiq-the-barley-meal",
+  "title": "The Expedition of al-Sawiq (the Barley-Meal",
+  "description": "Abu Ja'far (al-Tabari)-Ibn Humayd-Salamah-Ibn Ishaq: When the Messenger of God returned to Medina from the expedition to al-Kudr, he remained there for the rest of Shawwal of the second year of the Hijrah and Dhu al-Qa'da (which ended May 24, 624). Then Abu Sufyan b. Harb went on the expedition of al-Sawiq in Dhu al-Hijjah. In this year the polytheists led the pilgrimage. According to Ibn Humayd-Salamah-Muhammad b. Ishaq -Muhammad b. Ja'far b. al-Zubayr, and Yazid b. Ruman and one whose authority I do not doubt-'Ubayd Allah b. Ka'b b.",
+  "startDate": "0622-07-16",
+  "category": "military",
+  "connections": [
+    "event-0622-celebration-of-the-first-id-al-adha",
+    "event-0625-expedition-of-dhat-al-riga"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "89"
+    }
+  ]
+}

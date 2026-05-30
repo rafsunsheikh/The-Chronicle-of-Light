@@ -1,0 +1,23 @@
+{
+  "id": "event-0870-account-of-the-occupation-of-al-ahwaz",
+  "title": "An Account of the Occupation of al-Ahwaz",
+  "description": "The reason for this was that following the actions of the Zanj in alUbullah and the surrender of the inhabitants of'Abbidin to the abominable one,329 he next set his ambitions on al-Ahwaz. He had attached the `Abbidinians ' slaves {mamdlik) to his own Zanj troops, while distributing among them as well the weapons that had been seized from the city. The Zanj troops eagerly set off for)ubbi. The population offered 118381 no resistance and fled from the Zanj, who entered the town, killing, 328. Ibrahim b.",
+  "startDate": "0870-01-01",
+  "category": "political",
+  "connections": [
+    "event-0872-account-of-the-battle-at-suq-al-ahwaz"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0887-12-31",
+  "location": {
+    "latitude": 31.32,
+    "longitude": 48.67,
+    "name": "Ahvaz, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "111"
+    }
+  ]
+}

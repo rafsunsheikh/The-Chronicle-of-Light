@@ -1,0 +1,23 @@
+{
+  "id": "event-0711-qutaybah-s-conquest-of-samarqand",
+  "title": "Qutaybah's Conquest of Samarqand",
+  "description": "Qutaybah's Conquest of Samarqand. Recorded under the year 92 AH (711–712 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0711-01-01",
+  "category": "military",
+  "connections": [
+    "event-0728-ashras-and-the-affair-of-the-people-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0712-12-31",
+  "location": {
+    "latitude": 39.65,
+    "longitude": 66.96,
+    "name": "Samarkand, Uzbekistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "189"
+    }
+  ]
+}

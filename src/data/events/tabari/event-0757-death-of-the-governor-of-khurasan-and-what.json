@@ -1,0 +1,24 @@
+{
+  "id": "event-0757-death-of-the-governor-of-khurasan-and-what",
+  "title": "The Death of the Governor of Khurasan and What Brought It About",
+  "description": "Brought It About It is related that one night some members of the army became so stirred up against Abu Dawud Khalid b. Ibrahim, then Abu Ja`far al-Mangur 's governor in Khurasan, that they converged on the house where he lived near the Kushmahan270 gate in the city of Marw.271 Perched on the edge of a protruding brick, Abu Dawud looked down from the parapet and began to shout out to his confederates so that they would recognize his voice.",
+  "startDate": "0757-01-01",
+  "category": "political",
+  "connections": [
+    "event-0752-rebellion-of-bassam-b-ibrahim",
+    "event-0794-al-fa41-b-yai-ya-s-governorship-in"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0758-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "59"
+    }
+  ]
+}

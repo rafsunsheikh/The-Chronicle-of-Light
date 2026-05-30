@@ -1,0 +1,23 @@
+{
+  "id": "event-0821-al-hasan-b-al-husayn-al-mus-abi",
+  "title": "Al-Hasan b. al-Husayn al -Mus'abi 's revolt in Khurasan; various appointments to official positions",
+  "description": "Al-Hasan b. al-Husayn al -Mus'abi 's revolt in Khurasan; various appointments to official positions. Recorded under the year 206 AH (c. 821 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0821-01-01",
+  "category": "military",
+  "connections": [
+    "event-0821-appointment-of-his-son-talhah-as-successor-over",
+    "event-0834-rebellion-of-the-alid-muhammad-b-al-qasim"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "136"
+    }
+  ]
+}

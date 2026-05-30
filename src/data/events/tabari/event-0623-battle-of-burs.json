@@ -1,0 +1,15 @@
+{
+  "id": "event-0623-battle-of-burs",
+  "title": "The Battle of Burs",
+  "description": "The transmitter said: After concluding the operations at alQadisiyyah and sending Zuhrah b. al-Hawiyyah forward at the head of the vanguard to al-Lisan, Sa'd set off. Then he dispatched 'Abdallah b. al-Mu'tamm after Zuhrah, next Shurahbil b. al-Simi after 'Abdallah, and finally Hashim b. 'Utbah after all these. Sa'd had appointed the last-named as his deputy in the area in which Khalid b. 'Urfutah was commander. Khalid was given command of the rearguard.",
+  "startDate": "0623-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "2"
+    }
+  ]
+}

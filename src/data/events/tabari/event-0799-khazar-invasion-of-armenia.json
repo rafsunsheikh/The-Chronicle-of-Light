@@ -1,0 +1,24 @@
+{
+  "id": "event-0799-khazar-invasion-of-armenia",
+  "title": "The Khazar Invasion of Armenia",
+  "description": "Among the events taking place during this year was the invasion of the Khazars through Bib al-Abw1b,61s on account of the Khagan's daughter, their sweeping down on the Muslims and the Protected Peoples [ahl al-dhimmahl there, and their capture and enslavement-according to what has been mentioned-of more than xoo,ooo persons. They perpetrated a monstrous deed, whose like had never been heard of previously in Islam. Hence, al-Rashid appointed Yazid b.",
+  "startDate": "0799-01-01",
+  "category": "military",
+  "connections": [
+    "event-0744-account-of-marwan-s-journey-and-what-caused",
+    "event-0851-cause-of-the-revolt-by-the-inhabitants-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0800-12-31",
+  "location": {
+    "latitude": 40.0,
+    "longitude": 44.5,
+    "name": "Armenia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "170"
+    }
+  ]
+}

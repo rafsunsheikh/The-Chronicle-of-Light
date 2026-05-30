@@ -1,0 +1,19 @@
+{
+  "id": "event-0806-harthamah-s-letter-to-al-rashid-announcing-the",
+  "title": "Harthamah 's Letter to al-Rashid Announcing the Successful Completion of His Mission",
+  "description": "Announcing the Successful Completion of His Mission When Harthamah sent 'All, mounted, on his journey to al-Rashid, he wrote a letter to the Caliph informing him of what he had done, its text being in the following terms: 963. Qadhf is a technical term of Islamic law meaning \"an accusation of illicit sexual relations, zind,\" incurring a 4add penalty when falsely brought, as is implied a few lines below here; see Eft s.v. Itadhf (Y. Linant de Bellefonds(. 964.",
+  "startDate": "0806-01-01",
+  "category": "political",
+  "connections": [
+    "event-0806-what-befell-harthamah-in-the-course-of-his",
+    "event-0807-al-rashid-s-preparations-for-his-journey-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0807-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "282"
+    }
+  ]
+}

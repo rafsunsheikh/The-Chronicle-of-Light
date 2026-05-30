@@ -1,0 +1,24 @@
+{
+  "id": "event-0806-various-raids-into-the-byzantine-lands-and-measures",
+  "title": "Various Raids into the Byzantine Lands, and Measures against the Protected Peoples",
+  "description": "and Measures against the Protected Peoples In this year, Yazid b. Makhlad al-Hubayri (al-Fazirn raided the Byzantine lands with a force of ten thousand men. The Byzantines 923. lbn al-Ahhir, loc. cit. On liammid, see Tabu!, ID, 649 (above, 173 and n. 632). According to Ya'qubi, Ta'n7ih, 11, 498-9, Haminid had been appointed governor of Yemen in 179 (795), but his tyranny drove the local people into rebellion, led by al-Haysam b. 'Abd al-Magid al-Hamdani.",
+  "startDate": "0806-01-01",
+  "category": "military",
+  "connections": [
+    "event-0805-various-campaigns-by-al-rashid-against-the-byzantines",
+    "event-0831-al-ma-mun-s-further-campaigns-against-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0807-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "267"
+    }
+  ]
+}

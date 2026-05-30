@@ -1,0 +1,26 @@
+{
+  "id": "event-0806-what-befell-harthamah-in-the-course-of-his",
+  "title": "What Befell Harthamah in the Course of His journey to Khurisin, and What Happened to 'Ali b. 'Isa and His Sons",
+  "description": "to Khurasdn, and What Happened to 'Alf b. 'Isa and His Sons It has been mentioned that Harthamah went on his way on the sixth day after the one on which al-Rashid wrote for him his contract of appointment. Al-Rashid accompanied him on the first part of his journey and gave him a charge concerning what he required Harthamah to do. Harthamah did not pause for any reason en route, and publicly sent on to 'Ali b.",
+  "startDate": "0806-01-01",
+  "category": "political",
+  "connections": [
+    "event-0802-al-rashid-s-journeying-to-al-rayy-in",
+    "event-0805-various-campaigns-by-al-rashid-against-the-byzantines",
+    "event-0806-harthamah-s-letter-to-al-rashid-announcing-the",
+    "event-0807-al-rashid-s-preparations-for-his-journey-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0807-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "276"
+    }
+  ]
+}

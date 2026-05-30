@@ -1,0 +1,16 @@
+{
+  "id": "event-0632-index-of-qur-anic-verses",
+  "title": "Index of Qur'anic Verses",
+  "description": "Index of Qur'anic Verses. Recorded under the year 11 AH (632–633 CE) in al-Tabari's History, volume 09.",
+  "startDate": "0632-01-01",
+  "category": "religious",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0633-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 09",
+      "page": "249"
+    }
+  ]
+}

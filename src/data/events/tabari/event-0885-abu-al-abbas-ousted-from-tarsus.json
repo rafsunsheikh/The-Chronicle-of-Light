@@ -1,0 +1,24 @@
+{
+  "id": "event-0885-abu-al-abbas-ousted-from-tarsus",
+  "title": "Abu al-'Abbas Ousted from Tarsus",
+  "description": "Abu al-'Abbas Ousted from Tarsus. Recorded under the year 272 AH (885–886 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0885-01-01",
+  "category": "political",
+  "connections": [
+    "event-0833-august-833-and-burial-at-tarsus",
+    "event-0892-battle-between-muhammad-b-musa-and-maknun-in"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0886-12-31",
+  "location": {
+    "latitude": 36.92,
+    "longitude": 34.89,
+    "name": "Tarsus, Turkey"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "149"
+    }
+  ]
+}

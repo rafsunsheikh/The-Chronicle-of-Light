@@ -1,0 +1,25 @@
+{
+  "id": "event-0701-reason-why-al-hajjaj-built-wasix",
+  "title": "The Reason Why al -Hajjaj Built WasiX",
+  "description": "]Yazid b. a]-MuhallabJ from Khurasan and Appointed al-Mufaddal 'Ali b. Muhammad mentioned on the authority of al-Mufadclal b. Muhammad that al-Hajjaj went on a delegation to 'Abd al-Malik and on his way back stopped at a monastery. He was told that in the monastery there was a learned old man of the People of the Books;319 so he summoned him and said, \"0 shaykh, do you find in your books [any reference to] our current situation?\" He said, \"Yes, we find [references to] your…",
+  "startDate": "0701-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0701-death-of-al-mughirah-b-al-muhallabj",
+    "event-0701-second-account-of-the-battle-of-maskinj",
+    "event-0704-reason-why-al-hajjaj-dismissed-yazid-b-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0702-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "70"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "event-0808-al-rashid-s-vengeance-on-rafi-b-layth",
+  "title": "Al-Rashid's Vengeance on Rafi' b. Layth's Brother Bashir",
+  "description": "Brother Bashfr In this year, there took place a battle campaign between Harthamah and Rafl\"s partisans, in the course of which Harthamah conquered Bukhara and took prisoner Rifle's brother Bashir b. alLayth. 1006 He then sent the latter to al-Rashid at Tus. It has been mentioned from Ibn jami' al-Marwazi, from his father, who said: I 1ooo. jahshiyiirl, alo-zi, with the exact date of death as Saturday, the twentyfifth of al-Mubarram (November z8, So8); Azdi, 316; Ibn aI-Athb, VI, 210; Ibn Khallikin, IV, 436, tr. II, 467; Bouvat, loo; Abbott, 199-200.",
+  "startDate": "0808-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 39.77,
+    "longitude": 64.42,
+    "name": "Bukhara, Uzbekistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "297"
+    }
+  ]
+}

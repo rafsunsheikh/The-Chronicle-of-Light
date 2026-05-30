@@ -1,0 +1,19 @@
+{
+  "id": "event-0719-yazid-b-al-muhallab-renounces-his-allegiance-to",
+  "title": "Yazid b. al-Muhallab Renounces His Allegiance to Yazid b. 'Abd al-Malik",
+  "description": "Yazid b. 'Abd al-Malik Having already mentioned the report of Yazid b. al-Muhallab's escape from the prison in which he had been confined by 'Umar b.",
+  "startDate": "0719-01-01",
+  "category": "political",
+  "connections": [
+    "event-0719-aspects-of-his-character",
+    "event-0720-slaying-of-yazid-b-al-muhallab"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0720-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "11"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "event-0774-some-stories-about-al-mansur-and-his-conduct",
+  "title": "Some Stories about al-Mansur and His Conduct",
+  "description": "According to $alih b. al-Wajih27-his father: Al-Mansur heard that 'Isa b. Musa had killed one of the descendants of Nasr b. Sayy,ir28O who was hiding in al-Kufah. `Isa was directed to him and cut off his head. Al-Mansur disapproved of that and was appalled. He was planning something that would be the destruction of `Isa, but `Isa's ignorance of the significance of what he had done stopped him. So he wrote to him: Were it not for the discernment and restraint of the Commander of the Faithful, your punishment for the killing of the son of Nasr b.",
+  "startDate": "0774-01-01",
+  "category": "political",
+  "connections": [
+    "event-0749-muhammad-b-khalid-al-qasri-revolts-at-kiifah",
+    "event-0762-reason-abu-ja-far-built-baghdad",
+    "event-0774-information-about-his-wills",
+    "event-0814-revolt-in-al-kufah-of-muhammad-b-ibrahim"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0775-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 29",
+      "page": "93"
+    }
+  ]
+}

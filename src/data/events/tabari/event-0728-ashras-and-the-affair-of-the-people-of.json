@@ -1,0 +1,22 @@
+{
+  "id": "event-0728-ashras-and-the-affair-of-the-people-of",
+  "title": "Ashras and the Affair of the People of Samarqand and Those Who Followed Them in It",
+  "description": "and Those Who Followed Them in It",
+  "startDate": "0728-01-01",
+  "category": "political",
+  "connections": [
+    "event-0711-qutaybah-s-conquest-of-samarqand"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 39.65,
+    "longitude": 66.96,
+    "name": "Samarkand, Uzbekistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "46"
+    }
+  ]
+}

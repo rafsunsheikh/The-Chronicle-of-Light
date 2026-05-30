@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-ali-b-abi-talib-sends-jarir-b-abdallah",
+  "title": "'Ali b. Abi Talib Sends Jarir b. 'Abdallah al-Bajali to Call Mu'awiyah to Acknowledge 'Ali's Authority over Him",
+  "description": "to Call Mu`awiyah to Acknowledge `All's Authority over Him Abu Ja`far al-Tabari said:11731n this year, as `Ali was leaving al-Basrah for al-Kufah, having finished with the Battle of the Camel, he sent Jarir b. `Abdalldh al-Bajali to call Mu`awiyah to give allegiance to him. Now, when `Ali set out for al-Basrah to fight his opponents there, Jarir had been in Hamadhan1174 as its governor. `Uthman had appointed him to this post. Al-Ash'ath b. Qays1175 was governor of Adharbayjan,1176 also appointed by `Uthman.",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-ali-equips-a-ishah-to-leave-al-basrah",
+    "event-0663-ziyad-s-governorship-over-al-basrah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "195"
+    }
+  ]
+}

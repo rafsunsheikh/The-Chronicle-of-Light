@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-ishah-s-remark-by-allah-i-will-seek",
+  "title": "A'ishah's Remark \"By Allah! I Will Seek Vengeance for the Blood of 'Uthman!\" and Her Departure for al-Basrah with Talhah and al-Zubayr and Their Followers",
+  "description": "for the Blood of `Uthman!\" and Her Departure",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-ali-leaves-for-al-rabadhah-on-his-way",
+    "event-0656-their-entry-into-al-basrah-and-the-battle"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "52"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "event-0835-clashes-of-bugha-al-kabir-and-al-afshin",
+  "title": "The Clashes of Bugha al- Kabir and al-Afshin with Babak, and the Reasons behind them",
+  "description": "Babak, and the Reasons behind Them It has been mentioned that Bugha al -Kabir reached al-Afshin with the money which has previously been mentioned and that al-Mu`ta^im also sent with him to al-Afshin pay for the troops accompanying him and for his own expenses. Furthermore, Bugha reached him with the troops for al -Afshin that were being sent 133. In Persian literally \"eighty peaks.\" This must have lain in the mountain region of northern Adharbayj3n; see Schwarz, op. cit., 990-91.",
+  "startDate": "0835-01-01",
+  "category": "military",
+  "connections": [
+    "event-0835-killing-of-babak-s-commander-tarkhan",
+    "event-0835-reason-for-this-battle-between-al-afshin-and",
+    "event-0836-engagement-between-al-afshin-s-forces-and-babak"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "36"
+    }
+  ]
+}

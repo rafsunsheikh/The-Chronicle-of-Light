@@ -1,0 +1,24 @@
+{
+  "id": "event-0721-dismissal-of-said-khudhaynah-as-governor-of-khurasan",
+  "title": "The Dismissal of Said Khudhaynah as Governor of Khurasan",
+  "description": "Khurusan Among the events of this year was 'Umar b. Hubayrah's dismissal of Said Khudhaynah as governor of Khurasin.576 The circumstances of his dismissal, as reported by 'Ali b. Muhammad on the authority of his shaykhs, were as follows: Al-Mujashshir b. Muzahim al-Sulami and 'Abdallah b. 'Umayr al-Laythi approached 'Umar b. Hubayrah and complained to him about Said. As a result, 'Umar dismissed Said and appointed as governor of Khurisin Said b. 'Amr b. al-Aswad b. Malik b. Ka'b b. Wagdan b. al-Harish b. Ka'b b. Rabi'ah b. 'Amir b. $a'^a'ah.",
+  "startDate": "0721-01-01",
+  "category": "political",
+  "connections": [
+    "event-0720-dismissal-of-maslamah-from-iraq-and-khurasan",
+    "event-0721-omar-b-hubayrah-s-appointment-of-said-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0722-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "166"
+    }
+  ]
+}

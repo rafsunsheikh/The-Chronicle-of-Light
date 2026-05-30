@@ -1,0 +1,16 @@
+{
+  "id": "event-0655-uthman-s-life-span",
+  "title": "'Uthman's Life Span",
+  "description": "'Uthman's Life Span. Recorded under the year 34 AH (655–656 CE) in al-Tabari's History, volume 15.",
+  "startDate": "0655-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0656-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "252"
+    }
+  ]
+}

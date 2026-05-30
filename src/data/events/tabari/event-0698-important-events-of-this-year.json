@@ -1,0 +1,16 @@
+{
+  "id": "event-0698-important-events-of-this-year",
+  "title": "The Important Events of This Year",
+  "description": "The Important Events of This Year. Recorded under the year 79 AH (698–699 CE) in al-Tabari's History, volume 22.",
+  "startDate": "0698-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0699-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "182"
+    }
+  ]
+}

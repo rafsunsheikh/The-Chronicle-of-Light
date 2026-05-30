@@ -1,0 +1,23 @@
+{
+  "id": "event-0625-expedition-of-al-sawiq-or-badr-al-maw",
+  "title": "The Expedition of al-Sawiq (or Badr al-Maw'id",
+  "description": "This is the Prophet's second expedition to Badr, which he undertook to keep his appointment with Abu Sufyan. According to Ibn Humayd-Salamah-Ibn Ishaq: After the Messenger of God had returned to Medina from Dhat al-Riga', he remained there for the rest of Jumada al-Ula, Jumada al-Akhirah, and Rajab (late October 625 to early January 626). Then in Sha'ban (which began January 6, 626) he went out to Badr to meet Abu Sufyan and halted there for eight days, waiting for him.",
+  "startDate": "0625-01-01",
+  "category": "military",
+  "connections": [
+    "event-0622-discussions-about-the-lawfulness-of-taking-captives"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0626-12-31",
+  "location": {
+    "latitude": 23.78,
+    "longitude": 38.7906,
+    "name": "Badr, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "65"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0684-plague-of-al-jarif-in-al-bagrah",
+  "title": "The Plague of al-JArif in al-Bagrah",
+  "description": "Abu Ja'far said: In this year too there broke out in al-Baorah the plague known as the plague of al-Jarif. A great number of Bafrans perished in it.",
+  "startDate": "0684-01-01",
+  "category": "political",
+  "connections": [
+    "event-0684-ubaydallah-b-ziyad-and-the-people-of-al",
+    "event-0686-al-mukhtar-acts-against-the-slayers-of-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0685-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 20",
+      "page": "163"
+    }
+  ]
+}

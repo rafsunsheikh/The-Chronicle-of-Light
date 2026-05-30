@@ -1,0 +1,19 @@
+{
+  "id": "event-0684-threat-to-al-ba-rah-from-n3fic-b",
+  "title": "The Threat to al-Ba$rah from N3fic b. al-Azraq and the Kh3rijites and al-Muhallab b. Abi $ufrah's Victory over Them",
+  "description": "and the Kharijites and al -Muhallab b. Abi Sufrah's",
+  "startDate": "0684-01-01",
+  "category": "political",
+  "connections": [
+    "event-0684-end-of-the-kharijites-support-for-cabdallah-b",
+    "event-0688-kharijite-killed-at-the-pilgrimage"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0685-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 20",
+      "page": "164"
+    }
+  ]
+}

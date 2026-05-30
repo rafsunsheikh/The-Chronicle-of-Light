@@ -1,0 +1,24 @@
+{
+  "id": "event-0690-71-khalid-b-abdallah-raises-support-for-abd",
+  "title": "71 [Khalid b. Abdallah Raises Support for Abd al-Malik in al-Basrah",
+  "description": "`Abd al-Malik in a]-Ba.srahJ According to `Umar b. Shabbah-`Ali b. Muhammad [al-Mada'ini), who said: `Abd al- Malik came from Syria intending to fight Mus`ab. (This happened prior to this year, in the year 7o.) With him was Khalid b. `Abdallah b. Khalid b. Asid. Khalid said to Abd al -Malik, \" If you send me to al-Basrah and have a few horsemen follow me, I hope to subdue it for you.\" `Abd al-Malik sent him. Khalid arrived there clandestinely with his mawdli and close associates, and stayed at the home of `Amr b. Asma` alBahili. According to Umar [b.",
+  "startDate": "0690-01-01",
+  "category": "military",
+  "connections": [
+    "event-0688-those-in-office-during-the-year",
+    "event-0690-khalid-b-abdallah-becomes-governor-of-al-basrah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0691-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "178"
+    }
+  ]
+}

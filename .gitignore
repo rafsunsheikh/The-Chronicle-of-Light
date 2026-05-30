@@ -46,3 +46,14 @@ scripts/wikipedia-import/.cache/
 
 # Auto-imported event drafts (review then promote to src/data/events/)
 src/data/events/imported/
+
+# Source books: large + likely copyrighted PDFs and the bulky OCR text they
+# generate. The pipeline scripts + extracted events JSON under books/ ARE kept;
+# the PDFs and .txt are regenerable locally and stay out of the repo.
+*.pdf
+books/**/extracted_text/
+books/**/cleaned_text/
+
+# Python bytecode cache
+__pycache__/
+*.pyc

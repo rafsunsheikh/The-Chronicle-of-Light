@@ -1,0 +1,23 @@
+{
+  "id": "event-0699-ai-muhallab-attacks-kish",
+  "title": "AI-Muhallab Attacks Kish",
+  "description": "According to 'Ali b. Muhammad -al-Mufacl4al b. Muhammad and others: When al-Muhallab attacked Kish, his vanguard was under the command of Abu al-Adham Ziyad b. 'Amr al-Zimmani, with three thousand, which really counted as five thousand683 because Abu al-Adham by himself was worth two thousand in valor, leadership, and strategy. While al-Muhallab was attacking Kish, there came to him the paternal cousin of the king of al-Khuttal,684 urging him to attack that province. Al-Muhallab sent off with him his son Yazid.",
+  "startDate": "0699-01-01",
+  "category": "military",
+  "connections": [
+    "event-0701-reason-for-al-muhallab-s-departure-from-kish"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0700-12-31",
+  "location": {
+    "latitude": 39.05,
+    "longitude": 66.83,
+    "name": "Kesh (Shahrisabz)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "188"
+    }
+  ]
+}

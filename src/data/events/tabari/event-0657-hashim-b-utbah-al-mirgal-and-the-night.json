@@ -1,0 +1,24 @@
+{
+  "id": "event-0657-hashim-b-utbah-al-mirgal-and-the-night",
+  "title": "HAshim b. 'Utbah al-Mirgal and the \"Night of Howling\" The Raising of the Ma. aIif and the Call for Arbitration 'All Sends Ja'dah b. Hubayrah to KhurisAn",
+  "description": "the \"Night of Howling\"288 According to Abu Mikhnaf-Abu Salamah: At evening HAshim b. 'Utbah al-Zuhr summoned the men: \"Let anyone who seeks God and the next world come to me! \" Many came to him, and he attacked the Syrians with a band of followers several times, but everywhere he attacked them they held firm against him and the fighting was fierce. He said to his men: \"Do not let this steadfastness",
+  "startDate": "0657-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-ali-despatches-khulayd-b-tarif-to-khurasan",
+    "event-0670-al-hakam-b-amr-raids-al-ashall"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0658-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 17",
+      "page": "99"
+    }
+  ]
+}

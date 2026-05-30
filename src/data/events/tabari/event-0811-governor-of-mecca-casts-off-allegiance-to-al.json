@@ -1,0 +1,25 @@
+{
+  "id": "event-0811-governor-of-mecca-casts-off-allegiance-to-al",
+  "title": "The Governor of Mecca Casts off Allegiance to al-Amin",
+  "description": "to al-Amin In this year, Dawud b. 'Isa, the governor of Mecca and Medina, cast off his allegiance to Muhammad, whose governor he was for the two cities.\"\" He swore allegiance to al-Ma 'mun and received the oath of allegiance to him from the people. He wrote announcing this to Tahir and al-Ma'mun. Then he himself departed to go to al-Ma'mun. A report of how this happened follows. It has been mentioned: After the caliphate had devolved upon al-Amin, he sent to Mecca and Medina Diwud b. Isa b. Musa b. Muhammad b. 'Ali b. 'Abdallah b. 'Abbas and 469.",
+  "startDate": "0811-09-23",
+  "category": "political",
+  "connections": [
+    "event-0802-killing-of-ja-far",
+    "event-0811-abortive-coup-of-al-husayn-b-ali-b",
+    "event-0811-harthamah-b-a-yan-defeats-al-amin-s",
+    "event-0814-spread-of-the-revolt-to-mecca-under-husayn"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "124"
+    }
+  ]
+}

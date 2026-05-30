@@ -1,0 +1,23 @@
+{
+  "id": "event-0802-al-rashid-receives-the-allegiance-of-the-local",
+  "title": "Al-Rashid Receives the Allegiance of the Local Rulers of the Caspian Provinces and Daylam, and Appoints Various Governors in Western Persia and Eastern Arabia",
+  "description": "Local Rulers of the Caspian Provinces and Daylam, and Appoints Various Governors in Western Persia",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0802-correspondence-between-the-byzantine-emperor-nicephorus-and-al",
+    "event-0805-various-campaigns-by-al-rashid-against-the-byzantines"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 32.0,
+    "longitude": 53.0,
+    "name": "Iran (Persia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "254"
+    }
+  ]
+}

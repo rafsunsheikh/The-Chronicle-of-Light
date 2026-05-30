@@ -1,0 +1,24 @@
+{
+  "id": "event-0833-al-ma-mfin-and-the-poet-of-tamim",
+  "title": "Al-Ma'mfin and the poet of Tamim from al-Basrah",
+  "description": "Al-Ma'mfin and the poet of Tamim from al-Basrah. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0789-death-of-muhammad-b-sulayman-and-the-confiscation",
+    "event-0870-events-that-led-up-to-the-entry-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "236"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-treatment-of-the-captives",
+  "title": "The Treatment of the Captives",
+  "description": "According to Ibn Humayd-Salamah b. al-Fadl-Muhammad b. Ishaq-al-'Abbas b. 'Abd Allah b. Ma'bad-a member of his family-'Abd Allah b.'Abbas: On the evening after the day of Badr, when the captives were confined in fetters, the Messenger of God could not sleep in the first part of the night. His companions said, \"0 Messenger of God, why do you not sleep? \" He said, \"I can hear al-'Abbas writhing in his fetters.\" So they went to al-'Abbas and released him from his fetters, and the Messenger of God went to sleep. According to Ibn Humayd-Salamah b.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-advance-of-the-muslims-to-badr",
+    "event-0622-discussions-about-the-lawfulness-of-taking-captives"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 23.78,
+    "longitude": 38.7906,
+    "name": "Badr, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "69"
+    }
+  ]
+}

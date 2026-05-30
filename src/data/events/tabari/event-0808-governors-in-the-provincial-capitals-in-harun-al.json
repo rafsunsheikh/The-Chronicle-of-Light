@@ -1,0 +1,18 @@
+{
+  "id": "event-0808-governors-in-the-provincial-capitals-in-harun-al",
+  "title": "The Governors in the Provincial Capitals in Harun al -Rashid's Reign",
+  "description": "in Hdran al-Rashid 's Reign",
+  "startDate": "0808-01-01",
+  "category": "political",
+  "connections": [
+    "event-0807-various-items-of-information",
+    "event-0808-al-rashid-s-children"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "304"
+    }
+  ]
+}

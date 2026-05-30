@@ -1,0 +1,16 @@
+{
+  "id": "event-0704-al-mufacidal-s-conquest-of-badghis",
+  "title": "Al-Mufacidal' s Conquest of Badghis",
+  "description": "Al-Mufacidal' s Conquest of Badghis. Recorded under the year 85 AH (704–705 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0704-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0705-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "88"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "event-0812-battle-at-qasr-alih",
+  "title": "The Battle at Qasr $alih",
+  "description": "In this year, those who had been put in charge of Qasr $alih (the Palace of $alih) by Muhammad (al-Amin] went over [to Tahir] on a promise of safety. In this year the battle that went against Tahir's forces at Qasr $alih took place. The account of this battle follows. According to Muhammad b. al-Husayn b. Mus 'ab: Tahir [881] continued to vie in endurance with Muhammad and his army, as I have described, until the people of Baghdad grew weary of fighting him. `Ali Farahmard, who had been assigned to the Palaces of $alih and Sulayman b.",
+  "startDate": "0812-01-01",
+  "category": "military",
+  "connections": [
+    "event-0811-some-of-tahir-s-men-go-over-to",
+    "event-0812-death-of-al-amin"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "150"
+    }
+  ]
+}

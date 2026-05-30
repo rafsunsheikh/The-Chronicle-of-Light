@@ -1,0 +1,24 @@
+{
+  "id": "event-0833-his-generosity-with-the-revenues-collected-in-syria",
+  "title": "His generosity with the revenues collected in Syria",
+  "description": "His generosity with the revenues collected in Syria. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0811-abd-al-malik-b-alih-recruits-troops-in",
+    "event-0833-al-ma-mun-and-the-exigent-boon-companion"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "234"
+    }
+  ]
+}

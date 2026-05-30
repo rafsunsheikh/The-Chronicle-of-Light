@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-discussions-about-the-lawfulness-of-taking-captives",
+  "title": "Discussions About the Lawfulness of Taking Captives",
+  "description": "When the events of Badr were over, God revealed al-Anfdl (Surah 8) in its entirety concerning it.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-treatment-of-the-captives",
+    "event-0625-expedition-of-al-sawiq-or-badr-al-maw"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 23.78,
+    "longitude": 38.7906,
+    "name": "Badr, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "80"
+    }
+  ]
+}

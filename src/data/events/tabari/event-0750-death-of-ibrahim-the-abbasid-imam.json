@@ -1,0 +1,15 @@
+{
+  "id": "event-0750-death-of-ibrahim-the-abbasid-imam",
+  "title": "Death of Ibrahim the 'Abbasid Imam",
+  "description": "Death of Ibrahim the 'Abbasid Imam. Recorded under the year 132 AH (750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0750-08-09",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "166"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0811-abd-al-malik-b-alih-recruits-troops-in",
+  "title": "Abd al-Malik b. $alih Recruits Troops in Syria for al-Amin",
+  "description": "Abd al-Malik b. $alih Recruits Troops in Syria for al-Amin. Recorded under the year 195 AH (811 CE) in al-Tabari's History, volume 31.",
+  "startDate": "0811-09-23",
+  "category": "political",
+  "connections": [
+    "event-0811-abortive-coup-of-al-husayn-b-ali-b",
+    "event-0811-al-amin-imprisons-asad-b-yazid-and-dispatches",
+    "event-0833-his-generosity-with-the-revenues-collected-in-syria"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "104"
+    }
+  ]
+}

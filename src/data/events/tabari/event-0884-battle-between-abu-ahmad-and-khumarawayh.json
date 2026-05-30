@@ -1,0 +1,16 @@
+{
+  "id": "event-0884-battle-between-abu-ahmad-and-khumarawayh",
+  "title": "The Battle Between Abu Ahmad and Khumarawayh",
+  "description": "The Battle Between Abu Ahmad and Khumarawayh. Recorded under the year 270 AH (884–885 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0884-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0885-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "148"
+    }
+  ]
+}

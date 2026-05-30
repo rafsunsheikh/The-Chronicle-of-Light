@@ -1,0 +1,18 @@
+{
+  "id": "event-0811-tahir-expels-al-amin-s-agents-from-al",
+  "title": "Tahir Expels al-Amin 's Agents from al-Jibal Province",
+  "description": "Tahir Expels al-Amin 's Agents from al-Jibal Province. Recorded under the year 195 AH (811 CE) in al-Tabari's History, volume 31.",
+  "startDate": "0811-09-23",
+  "category": "political",
+  "connections": [
+    "event-0811-al-amin-imprisons-asad-b-yazid-and-dispatches",
+    "event-0811-al-amin-sends-abd-al-rahman-b-jabalah"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "88"
+    }
+  ]
+}

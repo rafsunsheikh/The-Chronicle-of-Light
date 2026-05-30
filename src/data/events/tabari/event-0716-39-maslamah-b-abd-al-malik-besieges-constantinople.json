@@ -1,0 +1,21 @@
+{
+  "id": "event-0716-39-maslamah-b-abd-al-malik-besieges-constantinople",
+  "title": "39 Maslamah b. 'Abd al- Malik Besieges Constantinople",
+  "description": "Among the events which took place that year: Sulayman b. 'Abd al-Malik sent his brother, Maslamah b. 'Abd al-Malik, to Constantinople, and ordered him to stay there until he either conquered the city or received Sulayman 's order to return. So he spent the winter and the summer there.' 44 According to Muhammad b. 'Umar -Thawr b. Yazid-Sulayman b. Musa: When Maslamah approached Constantinople, he ordered every horseman to load two mudds'45 of food on the back of his horse so that he might bring it to Constantinople.",
+  "startDate": "0716-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0717-12-31",
+  "location": {
+    "latitude": 41.01,
+    "longitude": 28.98,
+    "name": "Istanbul"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "39"
+    }
+  ]
+}

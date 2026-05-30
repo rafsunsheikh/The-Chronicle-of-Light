@@ -1,0 +1,24 @@
+{
+  "id": "event-0721-omar-b-hubayrah-s-appointment-of-said-al",
+  "title": "'Omar b. Hubayrah's Appointment of Said al -Harashi as Governor of Khurasan",
+  "description": "According to 'Ali b. Muhammad-his authorities: When Ibn Hubayrah was appointed governor of Iraq, he sent Yazid b. 'Abd al-Malik the names of those men who had demonstrated their bravery at the battle of al-'Agr.582 Al-Harashi's name did not appear on the list, causing Yazid b. 'Abd al-Malik to exclaim, \"Why didn 't he mention al-Harashi?\" Yazid then wrote to Ibn Hubayrah, ordering him to appoint al-Harashi as governor of Khurasan, which he did. Al-Harashi dispatched al-Mujashshir b.",
+  "startDate": "0721-01-01",
+  "category": "political",
+  "connections": [
+    "event-0721-dismissal-of-said-khudhaynah-as-governor-of-khurasan",
+    "event-0722-umar-b-hubayrah-s-dismissal-of-said-b"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0722-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "68"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "event-0817-expulsion-from-baghdad-of-al-hasan-b-sahl",
+  "title": "The expulsion from Baghdad of al-Hasan b. Sahl's representative in the city, 'Ali b. Hishim; the fighting between the Sahlid forces and the leader of the Baghdad rebels, Muhammad b. Abi Khilid; the pr",
+  "description": "The expulsion from Baghdad of al-Hasan b. Sahl's representative in the city, 'Ali b. Hishim; the fighting between the Sahlid forces and the leader of the Baghdad rebels, Muhammad b. Abi Khilid; the pr. Recorded under the year 201 AH (c. 817 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0817-01-01",
+  "category": "military",
+  "connections": [
+    "event-0802-barmakis-growing-fears-of-the-caliph-s-threatening",
+    "event-0814-civil-strife-in-baghdad-between-the-troops-of",
+    "event-0817-breakdown-of-social-order-in-baghdad-and-the",
+    "event-0817-proclamation-in-baghdad-of-ibrahim-b-al-mahdi"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "46"
+    }
+  ]
+}

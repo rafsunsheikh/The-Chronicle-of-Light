@@ -1,0 +1,24 @@
+{
+  "id": "event-0724-asad-b-abdallah-al-qasri-in-khurasin",
+  "title": "Asad b. 'Abdallah al-Qasri in Khurasin",
+  "description": "In this year Khalid b. 'Abdallah al-Qasri came as governor to Iraq. In the same year, Khalid appointed his brother Asad b. 'Abdallah as governor of Khurasan. Asad came to his province while Muslim b. Said was still on his expedition in Farghanah. It has been reported about Asad that when he came to the Oxus to cross, al-Ashhab b. Zubayri, Nasab, 283-4, for this story in more detail. too. A semicircular, partially enclosed space on the north side of the Kabah. See Bit, a.v. al-Hidjr. rot. That is, the Ka'bah. 102. That is, Mecca. to3.",
+  "startDate": "0724-01-01",
+  "category": "political",
+  "connections": [
+    "event-0722-appointment-of-muslim-b-said-as-governor-of",
+    "event-0727-hisham-s-removal-of-khalid-and-his-brother"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0725-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "20"
+    }
+  ]
+}

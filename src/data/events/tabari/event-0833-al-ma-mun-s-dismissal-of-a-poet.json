@@ -1,0 +1,23 @@
+{
+  "id": "event-0833-al-ma-mun-s-dismissal-of-a-poet",
+  "title": "Al-Ma'mun's dismissal of a poet-judge of Damascus for his jesting attitude towards the Islamic faith",
+  "description": "Al-Ma'mun's dismissal of a poet-judge of Damascus for his jesting attitude towards the Islamic faith. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0840-rebellion-of-ali-b-ishaq-in-damascus"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "location": {
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "name": "Damascus, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "241"
+    }
+  ]
+}

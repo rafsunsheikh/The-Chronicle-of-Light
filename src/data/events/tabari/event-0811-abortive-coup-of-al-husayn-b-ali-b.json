@@ -1,0 +1,26 @@
+{
+  "id": "event-0811-abortive-coup-of-al-husayn-b-ali-b",
+  "title": "The Abortive Coup of al -Husayn b. 'Ali b. Isa b. Mahan against al-Amin in Baghdad / rob The Death of Muhammad b. Yazid al-Muhallabi and Tl hir's Entry into al-Ahwaz",
+  "description": "Mahan against al-Amin in Baghdad In this year, Muhammad b. Hirun was imprisoned in the Palace of Abu Ja'far with Umm Ja'far, the daughter of Ja'far b. Abi Ja'far.4ls A report of the reason for this follows. According to Dawud b. Sulayman: After the death of 'Abd al-Malik b. $alih at al-Raqqah, al-Husayn b. 'All b. isa b. Mahan summoned the army. He put the foot soldiers into boats and had the horsemen mount. He gave them gifts; those who were weak he strengthened and mounted on horses, until he brought them out of the territory of al-Jazirah.",
+  "startDate": "0811-09-23",
+  "category": "political",
+  "connections": [
+    "event-0786-revolt-and-killing-of-al-husayn-b-ali",
+    "event-0802-al-rashid-s-subsequent-renewal-of-the-succession",
+    "event-0811-abd-al-malik-b-alih-recruits-troops-in",
+    "event-0811-governor-of-mecca-casts-off-allegiance-to-al",
+    "event-0812-details-and-results-of-the-siege-of-baghdad"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "1114"
+    }
+  ]
+}

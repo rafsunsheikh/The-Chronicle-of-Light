@@ -1,0 +1,23 @@
+{
+  "id": "event-0694-events-of-this-year",
+  "title": "The Events of This Year",
+  "description": "Among the events of this year: Muhammad b. Marwan 's summer expedition when the Byzantines attacked near Mar'ash.51 In this year, 'Abd al-Malik appointed Yahya b. al-I;Iakam b. Abi al-'Ag governor of Medina.52 In this year, 'Abd al-Malik appointed al-Hajjaj b. Yusuf governor of Iraq, excluding Khurasan and Sijistan.53 Al-Ilajjaj proceeded to al-Kufah.",
+  "startDate": "0694-01-01",
+  "category": "political",
+  "connections": [
+    "event-0692-campaigns-against-the-byzantines"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0695-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "12"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "event-0724-pilgrimage-of-hisham-b-abd-al-malik",
+  "title": "The Pilgrimage of Hisham b. 'Abd al-Malik",
+  "description": "In this year, the imam Taus 39 the mawli of Bahir b. Raysin alHimyari, died at Mecca. Salim b. 'Abdallah b. 'Umar40 also died. Hisham led the prayers over them. Ta'us's death was at Mecca and that of Salim at al-Madinah. According to al-Hirith41 -Ibn Sa'd-Muhammad b. 'Umar'Abd al-Hakim b. 'Abdallih b. Abi Farwah: Salim b. 'Abdallah died in the year Io5 at the end of Dhu al-Hijjah (about May 28, 724). Hishim b. 'Abd al-Malik led the prayer over him at al-Bag-.42 There I saw al-Qasim b. Muhammad b.",
+  "startDate": "0724-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0709-khalid-al-qasri-s-strict-governorship-of-mecca",
+    "event-0723-caliphate-of-hisham-b-abd-al-malik",
+    "event-0724-pilgrimage-of-hisham-b-abd-al-malik-cont",
+    "event-0774-information-about-his-wills"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0725-12-31",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "9"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0706-reconstruction-of-the-mosque-of-medina",
+  "title": "Reconstruction of the Mosque of Medina",
+  "description": "Reconstruction of the Mosque of Medina. Recorded under the year 87 AH (706–707 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0706-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0705-appointment-of-umar-b-abd-al-aziz-as",
+    "event-0709-al-walid-s-visit-to-medina"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0707-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "141"
+    }
+  ]
+}

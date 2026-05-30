@@ -1,0 +1,19 @@
+{
+  "id": "event-0724-pilgrimage-of-hisham-b-abd-al-malik-cont",
+  "title": "The Pilgrimage of Hisham b. 'Abd al-Malik (Cont'd",
+  "description": "This year Hisham b. 'Abd al-Malik led the pilgrimage. According to Ahmad b. Thabit,'r -his informantIshaq b. Isa 93 Abu Ma'shar,94 and likewise al-Wagidi and others reported that, there being no difference between them. According to al-Wagidi Ibn Abi al-Zanad95 -his father: Hisham b. 'Abd al-Malik wrote to me before he entered alMadinah asking me to write the recommended rituals (sunan) of the pilgrimage for him, so I wrote them. Then Abu al-Zanad met Hisham. According to Abu al-Zanad: That day I was in a procession behind him, when Said b. 'Abdallah b.",
+  "startDate": "0724-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0724-pilgrimage-of-hisham-b-abd-al-malik",
+    "event-0736-hisham-dismisses-khalid-b-abd-al-malik-from"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0725-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "19"
+    }
+  ]
+}

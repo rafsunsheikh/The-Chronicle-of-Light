@@ -1,0 +1,24 @@
+{
+  "id": "event-0818-ibrahim-b-al-mahdi-s-arrest-and-jailing",
+  "title": "Ibrahim b. al-Mahdi 's arrest and jailing of the vigilante leader in Baghdad Sahl b. Salima",
+  "description": "In this year, during the night of Sunday (the night of SaturdaySunday), the sixteenth of Rabi ' II (August 5-6, 825),4\" Ibrahim b. al-Mahdi was arrested, veiled and dressed like a woman and in the company of two women.° A black negro guard stopped",
+  "startDate": "0818-01-01",
+  "category": "political",
+  "connections": [
+    "event-0817-proclamation-in-baghdad-of-ibrahim-b-al-mahdi",
+    "event-0818-ibrahim-b-al-mahdi-s-despairing-attempt-to",
+    "event-0825-capture-of-ibrahim-b-al-mahdi-dressed-in"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "75"
+    }
+  ]
+}

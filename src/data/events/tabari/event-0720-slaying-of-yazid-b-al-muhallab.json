@@ -1,0 +1,25 @@
+{
+  "id": "event-0720-slaying-of-yazid-b-al-muhallab",
+  "title": "The Slaying of Yazid b. al-Muhallab",
+  "description": "According to Hisham-Abu Mikhnaf-Mu'adh b. Said: Yazid b. al-Muhallab decided to leave Wasit in order to confront Maslamah b. 'Abd al-Malik and al-'Abbas. He designated his son, Mu awiyah, as his representative in that city, entrusting him with the Public Treasury, the coffers, and the prisoners of war, and he dispatched an advance party headed by his brother, 'Abd al-Malik. 439.",
+  "startDate": "0720-01-01",
+  "category": "political",
+  "connections": [
+    "event-0719-yazid-b-al-muhallab-renounces-his-allegiance-to",
+    "event-0734-matter-of-al-junayd-b-abd-al-rahman",
+    "event-0745-death-of-al-dahhak-b-qays-the-kharijite"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0721-12-31",
+  "location": {
+    "latitude": 32.18,
+    "longitude": 46.3,
+    "name": "Wasit (near Kut), Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "127"
+    }
+  ]
+}

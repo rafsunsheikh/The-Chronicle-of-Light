@@ -1,0 +1,23 @@
+{
+  "id": "event-0699-abd-al-ral-man-b-al-ash-ath",
+  "title": "'Abd al-Ral}man b. al-Ash'ath Campaigns in Sijistin",
+  "description": "'Abd al-Ral}man b. al-Ash'ath Campaigns in Sijistin. Recorded under the year 80 AH (699–700 CE) in al-Tabari's History, volume 22.",
+  "startDate": "0699-01-01",
+  "category": "military",
+  "connections": [
+    "event-0698-campaign-by-ubaydallah-b-abi-bakrah-in-sijistan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0700-12-31",
+  "location": {
+    "latitude": 31.0,
+    "longitude": 61.5,
+    "name": "Sistan (Zaranj)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "190"
+    }
+  ]
+}

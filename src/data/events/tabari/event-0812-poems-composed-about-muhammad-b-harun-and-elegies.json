@@ -1,0 +1,16 @@
+{
+  "id": "event-0812-poems-composed-about-muhammad-b-harun-and-elegies",
+  "title": "Poems Composed about Muhammad b. Harun and Elegies for Him",
+  "description": "Elegies for Him",
+  "startDate": "0812-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "2112"
+    }
+  ]
+}

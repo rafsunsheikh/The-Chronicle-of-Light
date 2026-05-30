@@ -1,0 +1,16 @@
+{
+  "id": "event-0627-account-of-the-lie",
+  "title": "An Account of the Lie",
+  "description": "An Account of the Lie. Recorded under the year 6 AH (627–628 CE) in al-Tabari's History, volume 08.",
+  "startDate": "0627-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0628-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "57"
+    }
+  ]
+}

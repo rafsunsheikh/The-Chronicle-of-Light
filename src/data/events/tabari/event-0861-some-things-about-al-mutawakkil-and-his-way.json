@@ -1,0 +1,19 @@
+{
+  "id": "event-0861-some-things-about-al-mutawakkil-and-his-way",
+  "title": "Some Things about al-Mutawakkil and His Way of Life",
+  "description": "Some Things about al-Mutawakkil and His Way of Life. Recorded under the year 247 AH (861–862 CE) in al-Tabari's History, volume 34.",
+  "startDate": "0861-01-01",
+  "category": "political",
+  "connections": [
+    "event-0861-reason-for-al-mutawakkil-s-murder-and-how",
+    "event-0878-account-of-muflih-s-death"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0862-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "185"
+    }
+  ]
+}

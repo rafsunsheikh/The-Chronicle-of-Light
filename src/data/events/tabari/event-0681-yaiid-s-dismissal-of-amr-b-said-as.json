@@ -1,0 +1,23 @@
+{
+  "id": "event-0681-yaiid-s-dismissal-of-amr-b-said-as",
+  "title": "Yaiid's Dismissal of 'Amr b. Said as Governor of Medina and His Appointment of al-Walid b. 'Utbah",
+  "description": "Medina and His Appointment of al-Walid b. 'Utbah The reason for Yazid's dismissal of `Amr and his appointment of al-Walid and the reason for Ibn Zubayr 's making public the call to himself are reported according to what Hisham (b. Muhammad al-Kalbi) has mentioned-Abu Mikhnaf-Abd al-Malik b. Nawfal625 -his father:626 When al-Husayn was killed,627 Ibn alZubayr arose among the people of Mecca and declared his horror at Husayn 's killing. He stigmatized the people of al-Kufah in particular and blamed the people of Iraq generally.",
+  "startDate": "0681-09-19",
+  "category": "political",
+  "connections": [
+    "event-0673-why-mu-awiyah-dismissed-said-and-appointed-marwan",
+    "event-0684-failure-of-the-syrian-expedition-against-medina"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 19",
+      "page": "189"
+    }
+  ]
+}

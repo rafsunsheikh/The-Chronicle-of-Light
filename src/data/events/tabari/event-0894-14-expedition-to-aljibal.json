@@ -1,0 +1,16 @@
+{
+  "id": "event-0894-14-expedition-to-aljibal",
+  "title": "14-Expedition to alJibal",
+  "description": "14-Expedition to alJibal. Recorded under the year 281 AH (894–895 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0894-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0895-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "14"
+    }
+  ]
+}

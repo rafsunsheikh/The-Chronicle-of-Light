@@ -1,0 +1,24 @@
+{
+  "id": "event-0629-amr-b-al-a-and-khalid-b-al",
+  "title": "'Amr b. al-'A§ and Khalid b. al-Walid Go to Medina as Muslims",
+  "description": "as Muslims In this year 'Amr b. al-'A^ came to the Messenger of God as a Muslim, having accepted Islam at the court of the Negus. With him came 'Uthman b. Talbah al-'Abdari and Khalid b. al-Walid b. al-Mughirah. They came to Medina at the beginning of $afar.609 According to Abu Ja'far [al-Tabari]: The circumstances of 'Amr b. al-'Ag's becoming a Muslim were as follows (according to Ibn Humayd-Salamah-Ibn Isliaq-Yazid b. Abi Habib-Rashid,",
+  "startDate": "0629-01-01",
+  "category": "political",
+  "connections": [
+    "event-0625-expedition-of-dhat-al-riga",
+    "event-0630-account-of-the-military-expedition-to-tabik"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0630-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "143"
+    }
+  ]
+}

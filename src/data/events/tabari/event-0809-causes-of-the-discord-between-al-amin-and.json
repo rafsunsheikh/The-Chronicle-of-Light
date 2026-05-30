@@ -1,0 +1,27 @@
+{
+  "id": "event-0809-causes-of-the-discord-between-al-amin-and",
+  "title": "Causes of the Discord between al -Amin and al-Ma'mun",
+  "description": "al-Ma'mun According to Abu Ja'far [al-Tabari[: We have already mentioned that al-Rashid, when he left for Khurasan, renewed the oath of allegiance to al-Ma'mun by the military commanders who were with him. He made the commanders, the remaining troops, and the others who were with him witness that all the soldiers who were with him were to be attached to al-Ma'mun and that all money, weapons, equipment, and other things that were with him were to be al-Ma'mun's.17 When…",
+  "startDate": "0809-10-15",
+  "category": "political",
+  "connections": [
+    "event-0807-al-rashid-s-serious-medical-condition-and-his",
+    "event-0808-al-rashid-s-children",
+    "event-0809-letter-of-muhammad-al-amin-to-his-brother",
+    "event-0809-succession-of-muhammad-al-amin-as-caliph",
+    "event-0820-al-ma-mun-s-appointment-of-tahir-b"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0810-10-03",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "4"
+    }
+  ]
+}

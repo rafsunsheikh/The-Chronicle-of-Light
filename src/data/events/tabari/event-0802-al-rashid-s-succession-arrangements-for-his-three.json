@@ -1,0 +1,25 @@
+{
+  "id": "event-0802-al-rashid-s-succession-arrangements-for-his-three",
+  "title": "Al-Rashid's Succession Arrangements for His Three Sons",
+  "description": "for His Three Sons In this year, Hiram al-Rashid led the Pilgrimage. He set out from al-Raqqah on the Pilgrimage in Ramadan of this year (September, 8o2). He passed through (or: by, bi-) al-Anbir and did not enter the City of Peace, but encamped at a halting-place on the banks of the Euphrates called al-Dist659 seven farsakhs from the City of Peace. He left behind Ibrahim b. `Uthman b. Nahik (al-'Akki) in charge of al-Raqqah, and took with him his two sons Muhammad al-Amin and 'Abdallah al-Ma'mnn, his two designated heirs.",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0745-revolt-of-sulayman-b-hisham",
+    "event-0799-various-items-of-information",
+    "event-0802-taking-of-the-solemn-oaths-in-the-ka",
+    "event-0802-text-of-the-letter-of-harnn-b-muhammad"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 35.95,
+    "longitude": 39.01,
+    "name": "Raqqa, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "179"
+    }
+  ]
+}

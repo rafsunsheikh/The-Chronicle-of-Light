@@ -1,0 +1,24 @@
+{
+  "id": "event-0863-shakiriyyah-riot-in-baghdad",
+  "title": "The Shakiriyyah riot in Baghdad",
+  "description": "The Reasons for This When news concerning the death of 'Umar b. 'Ubaydallah al-Agra' and'Ali b. Yahya al-Armani reached the people of Baghdad (Madinat al-Salam), Samarra and the rest of the nearby Muslim cities-the two were strong defenders of Islam, men of great courage who elicited enormous praise along the frontier districts they servedpeople became exceedingly distressed. Their hearts were heavy, especially because one had died so quickly after the other.",
+  "startDate": "0863-01-01",
+  "category": "political",
+  "connections": [
+    "event-0845-reason-for-the-rebellion-of-the-baghdad-group",
+    "event-0870-in-baghdad"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0864-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 35",
+      "page": "10"
+    }
+  ]
+}

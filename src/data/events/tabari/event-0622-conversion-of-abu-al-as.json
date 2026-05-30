@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-conversion-of-abu-al-as",
+  "title": "The Conversion of Abu al-'As",
+  "description": "Abu al-'As remained in Mecca, and Zaynab remained with the Messenger of God in Medina, separated by Islam. Just before the conquest of Mecca, however, Abu al-'As went on a trading expedition to Syria. He was regarded as a trustworthy man, and he had with him, besides his own merchandise, goods belonging to other men of Quraysh which they had entrusted to him to trade with.",
+  "startDate": "0622-07-16",
+  "category": "religious",
+  "connections": [
+    "event-0622-campaign-against-the-banu-qaynuga",
+    "event-0622-zaynab-s-journey-to-medina"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "76"
+    }
+  ]
+}

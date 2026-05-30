@@ -1,0 +1,16 @@
+{
+  "id": "event-0834-al-ma-miin-s-death",
+  "title": "al-Ma'miin's Death",
+  "description": "al-Ma'miin's Death. Recorded under the year 219 AH (834–835 CE) in al-Tabari's History, volume 33.",
+  "startDate": "0834-01-16",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0835-01-04",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "1"
+    }
+  ]
+}

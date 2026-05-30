@@ -1,0 +1,18 @@
+{
+  "id": "event-0802-barmakis-growing-fears-of-the-caliph-s-threatening",
+  "title": "The Barmakis' Growing Fears of the Caliph's Threatening Intentions",
+  "description": "of the Caliph's Threatening Intentions Zayd b. `All b. Husayn b. Zayd (al-`Alawl) 718 has mentioned that Ibrahim b. al-Mahdi transmitted the information to him that ja`far b. Yaliya said to him one day-ja'far b. Yalya being Ibrahim's patron and sponsor [. al)ibahu ] at al-Rashid's court and the one who had brought him into the Caliph's circle of intimates-\"I have begun to feel suspicious regarding this man's-he meant al-Rashid's-attitude, and I have got the idea that this stems from some previous action of his which has affected me.",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0784-some-of-the-doings-of-al-mabdi-and",
+    "event-0817-expulsion-from-baghdad-of-al-hasan-b-sahl"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "210"
+    }
+  ]
+}

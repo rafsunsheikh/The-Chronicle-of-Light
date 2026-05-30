@@ -1,0 +1,15 @@
+{
+  "id": "event-0728-battle-of-baykand",
+  "title": "The Battle of Baykand",
+  "description": "The enemy approached, and, when they were close by, the Muslims met and fought them for a short time, then broke off the engagement. In that time, some men of the Muslims were slain. Then the Muslims renewed the battle, (this time) persevering. The polytheists were defeated. Ashras passed on with the troops until they camped at Baykand.' At this, the enemy cut off their water. Ashras and the Muslims stayed in their camp that day and night.",
+  "startDate": "0728-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "51"
+    }
+  ]
+}

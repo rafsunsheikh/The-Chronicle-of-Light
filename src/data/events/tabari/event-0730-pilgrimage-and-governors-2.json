@@ -1,0 +1,16 @@
+{
+  "id": "event-0730-pilgrimage-and-governors-2",
+  "title": "Pilgrimage and Governors",
+  "description": "Pilgrimage and Governors. Recorded under the year 112 AH (730–731 CE) in al-Tabari's History, volume 25.",
+  "startDate": "0730-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0731-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "96"
+    }
+  ]
+}

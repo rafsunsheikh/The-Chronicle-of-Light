@@ -1,0 +1,23 @@
+{
+  "id": "event-0791-reason-behind-al-rashid-s-appointment-of-ja",
+  "title": "The Reason behind al-Rashid's Appointment of Ja'far al-Barmakd over Egypt and the Latter's Appointment of 'Umar b. Mihran (as His Deputy) over It",
+  "description": "al-Barmaki over Egypt and the Latter's Appointment of 'Umar b. Mihrdn (as His Deputy) over It Muhammad b. 'Umar has mentioned that Abmad b. Muhammad b. Mihran transmitted the information to him that the news reached al-Rashid that Musa b. Isa, the governor in Egypt at that time,494.had resolved to throw off allegiance 495 Al-Rashid ex491. Son of the naqib prominent in the 'Abbasid Revolution and commander of guard for al-Manger and al -Mahdi, died in 181 (797-8). See Crone, 181; Kennedy, 81. 492. Tabari-Bal'ami, tr. IV, 459; Hamzah, 165; Azd1, 277.",
+  "startDate": "0791-01-01",
+  "category": "political",
+  "connections": [
+    "event-0826-ahmad-b-yusuf-s-letter-of-congratulation-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0792-12-31",
+  "location": {
+    "latitude": 30.007,
+    "longitude": 31.23,
+    "name": "Egypt (Fustat)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "134"
+    }
+  ]
+}

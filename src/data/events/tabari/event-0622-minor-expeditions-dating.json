@@ -1,0 +1,16 @@
+{
+  "id": "event-0622-minor-expeditions-dating",
+  "title": "Minor Expeditions -Dating",
+  "description": "Abu Ja`far (al -Tabari) says: As for Ibn Ishaq, he does not specify any date for the campaign of the Messenger of God against the Banu Qaynuga', except for saying that it was between the expedition of al-Sawiq and the expedition of the Messenger of God from Medina against Quraysh, in which he went as far as the Banu Sulaym and Buhr-an, a mine in Hijaz in the direction of al-Fur'.",
+  "startDate": "0622-07-16",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "88"
+    }
+  ]
+}

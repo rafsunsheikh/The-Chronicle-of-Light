@@ -1,0 +1,21 @@
+{
+  "id": "event-0887-abu-ahmad-goes-to-kirman",
+  "title": "Abu Ahmad Goes to Kirman",
+  "description": "Abu Ahmad Goes to Kirman. Recorded under the year 274 AH (887–888 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0887-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0888-12-31",
+  "location": {
+    "latitude": 30.28,
+    "longitude": 57.08,
+    "name": "Kerman, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "155"
+    }
+  ]
+}

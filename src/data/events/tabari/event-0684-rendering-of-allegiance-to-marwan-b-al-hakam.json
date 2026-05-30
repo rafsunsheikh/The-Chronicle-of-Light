@@ -1,0 +1,24 @@
+{
+  "id": "event-0684-rendering-of-allegiance-to-marwan-b-al-hakam",
+  "title": "The Rendering of Allegiance to Marwan b. al-Hakam in Syria",
+  "description": "b. al-Hakam in Syria According to al-Hdrith-Ibn Sa°d-Muhammad b. cUmar:236 When the oath of allegiance was given to °Abdalli h b. al227. According to Ansdb, lVb, tot', he was called duhrujat a1-ju°al because of his shortness. 228. On him see Ell, s.v.; GAS. II, 324. 229. Cf. Ansdb, lVb, iota, V, 191's; \"Zayd\" is sometimes identified as a mawla of Ibn Masud; \" cure the widows of\" may refer to their amorous infatuation with the governor. 230. Ar.",
+  "startDate": "0684-01-01",
+  "category": "political",
+  "connections": [
+    "event-0666-death-of-abd-al-rahman-b-khalid-b",
+    "event-0687-events-in-syria"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0685-12-31",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 20",
+      "page": "47"
+    }
+  ]
+}

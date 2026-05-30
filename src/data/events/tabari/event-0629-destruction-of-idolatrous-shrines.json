@@ -1,0 +1,23 @@
+{
+  "id": "event-0629-destruction-of-idolatrous-shrines",
+  "title": "The Destruction of Idolatrous Shrines",
+  "description": "In this year, five nights before the end of Ramadan, KhAlid b. al- [1648) Walid destroyed al-'Uzza in the lowland of Nakhlah.763 Al-'Uzza was an idol of the Band Shayban, a subdivision of Sulaym, allies of the Banu HAshim. The Band Asad b. 'Abd al-'Uzza used to say it was their idol. Khalid set out for it, and then he said, \"I have destroyed it.\" [The Messenger of God) said, \"Did you see anything?\" \"No,\" said Khalid. \"Then,\" he said, \"go back and destroy it.\" So Khalid returned to the idol, destroyed its temple, and broke the idol.",
+  "startDate": "0629-01-01",
+  "category": "political",
+  "connections": [
+    "event-0622-further-details-about-the-expedition-of-nakhlah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0630-12-31",
+  "location": {
+    "latitude": 21.5,
+    "longitude": 40.2,
+    "name": "between Mecca and Ta'if"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "187"
+    }
+  ]
+}

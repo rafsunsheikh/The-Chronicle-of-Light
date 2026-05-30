@@ -1,0 +1,22 @@
+{
+  "id": "event-0747-marwan-s-governor-for-jurjan-is-killed",
+  "title": "Marwan's Governor for Jurjan is Killed",
+  "description": "Marwan's Governor for Jurjan is Killed. Recorded under the year 129 AH (747 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0747-01-01",
+  "category": "political",
+  "connections": [
+    "event-0716-conquest-of-jurjan-and-tabaristanj"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.84,
+    "longitude": 54.44,
+    "name": "Gorgan, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "110"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "event-0825-capture-of-ibrahim-b-al-mahdi-dressed-in",
+  "title": "The capture of Ibrahim b. al-Mahdi, dressed in woman's clothing, in the streets of Baghdad; Ibrahim 's ode addressed to al-Ma'mun seeking the Caliph 's forgiveness",
+  "description": "The capture of Ibrahim b. al-Mahdi, dressed in woman's clothing, in the streets of Baghdad; Ibrahim 's ode addressed to al-Ma'mun seeking the Caliph 's forgiveness. Recorded under the year 210 AH (825–826 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0825-01-01",
+  "category": "political",
+  "connections": [
+    "event-0817-al-ma-mun-s-designation-of-the-eighth",
+    "event-0818-ibrahim-b-al-mahdi-s-arrest-and-jailing",
+    "event-0819-al-ma-mun-s-arrival-in-baghdad-and",
+    "event-0833-al-ma-mun-s-orders-to-his-governor",
+    "event-0833-anecdotes-about-al-ma-mun-and-his-conduct"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0826-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "146"
+    }
+  ]
+}

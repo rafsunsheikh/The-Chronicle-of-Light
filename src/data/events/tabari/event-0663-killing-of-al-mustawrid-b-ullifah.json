@@ -1,0 +1,25 @@
+{
+  "id": "event-0663-killing-of-al-mustawrid-b-ullifah",
+  "title": "The killing of al-Mustawrid b. 'Ullifah",
+  "description": "We have already reported\"' the meeting of the remaining Kharijites who were carried off wounded at the Battle of al-Nahr, those who withdrew to al-Rayy and others. They met with the three persons whom I named previously, one of whom was alMustawrid b. 'Ullifah. We reported how they rendered allegiance to him and gathered for revolt at the beginning of the new moon of Sha 'ban 43 (November 8, 663). (According to) Hisham--Ja'far b. Hudhayfah al-'J'a'i-alMuhill b. Khalifah: Qabisah11 b. al-Dammun,\"' who was in charge of the police came to al-Mughirah b.",
+  "startDate": "0663-01-01",
+  "category": "political",
+  "connections": [
+    "event-0642-conquest-of-al-rayy",
+    "event-0662-what-happened-to-the-kharijites",
+    "event-0677-why-ubaydallah-b-ziyad-killed-the-kharijites"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0664-12-31",
+  "location": {
+    "latitude": 35.59,
+    "longitude": 51.43,
+    "name": "Rayy (near Tehran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "33"
+    }
+  ]
+}

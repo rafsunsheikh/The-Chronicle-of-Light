@@ -1,0 +1,16 @@
+{
+  "id": "event-0635-account-of-ibn-ishaq",
+  "title": "The Account of Ibn Ishaq",
+  "description": "The Account of Ibn Ishaq. Recorded under the year 14 AH (635–636 CE) in al-Tabari's History, volume 12.",
+  "startDate": "0635-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0636-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "132"
+    }
+  ]
+}

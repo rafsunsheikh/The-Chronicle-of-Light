@@ -1,0 +1,23 @@
+{
+  "id": "event-0752-khazim-b-khuzaymah-s-war-against-the-kharijites",
+  "title": "Khazim b. Khuzaymah 's War Against the Kharijites of 'Uman",
+  "description": "Khazim b. Khuzaymah 's War Against the Kharijites of 'Uman. Recorded under the year 134 AH (752–753 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0752-07-18",
+  "category": "military",
+  "connections": [
+    "event-0747-abu-hamzah-the-kharijite-enters-madinah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0753-07-07",
+  "location": {
+    "latitude": 24.347,
+    "longitude": 56.709,
+    "name": "Oman (Suhar)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "201"
+    }
+  ]
+}

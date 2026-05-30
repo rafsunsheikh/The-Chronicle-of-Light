@@ -1,0 +1,16 @@
+{
+  "id": "event-0891-three-sided-battle",
+  "title": "A Three-Sided Battle",
+  "description": "A Three-Sided Battle. Recorded under the year 278 AH (891–892 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0891-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0892-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "164"
+    }
+  ]
+}

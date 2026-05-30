@@ -1,0 +1,23 @@
+{
+  "id": "event-0644-account-of-that-event",
+  "title": "The Account of That Event",
+  "description": "According to Hishim-Abu Mikhnaf-Farwah b. Lagif al-Azdi: When-during the year 24 according to (Abu Mikhnaf's) chronology- al-Walid achieved his aims in Armenia in the campaign discussed above, and then entered Mosul, making camp at al- (2807) Hadithah, he received a letter from 'Uthman, [as follows]: \"To proceed: Mu awiyah b.",
+  "startDate": "0644-01-01",
+  "category": "political",
+  "connections": [
+    "event-0644-campaign-of-lal-walid-b-ugbah-in-adharbayjin"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0645-12-31",
+  "location": {
+    "latitude": 40.0,
+    "longitude": 44.5,
+    "name": "Armenia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "9"
+    }
+  ]
+}

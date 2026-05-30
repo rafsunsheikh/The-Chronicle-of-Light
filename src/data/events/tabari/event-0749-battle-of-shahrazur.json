@@ -1,0 +1,21 @@
+{
+  "id": "event-0749-battle-of-shahrazur",
+  "title": "The Battle of Shahrazur",
+  "description": "The Battle of Shahrazur. Recorded under the year 131 AH (749–750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0749-08-20",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0750-08-08",
+  "location": {
+    "latitude": 35.4,
+    "longitude": 45.85,
+    "name": "Sharazor (Iraqi Kurdistan)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "131"
+    }
+  ]
+}

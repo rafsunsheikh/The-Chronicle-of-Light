@@ -1,0 +1,24 @@
+{
+  "id": "event-0761-reason-abu-ja-far-had-the-descendants-of",
+  "title": "The Reason [Abu Ja'far] Had [the Descendants of Hasan] Transported to Iraq",
+  "description": "Hasan] Transported to Iraq According to al-Harith b. Muhammad 656-Muhammad b. [187] Sa`d657-Muhammad b. `Umar: When Abu jacfar appointed Riyah b. `Uthman b. Hayyan al-Murri as governor of Medina, he ordered him to search strenuously for Muhammad and Ibrahim, the sons of `Abdallah b. Hasan, not to treat them as of minor importance [as former governors had]. According to Muhammad b. `Umar-`Abd al-Rabman b. Abi alMawali: Riydb vigorously pressed the search for them, showing 653. jac far b.",
+  "startDate": "0761-01-01",
+  "category": "political",
+  "connections": [
+    "event-0761-reason-the-descendants-of-hasan-were-transported-to",
+    "event-0802-al-rashid-s-return-to-iraq"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0762-12-31",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "138"
+    }
+  ]
+}

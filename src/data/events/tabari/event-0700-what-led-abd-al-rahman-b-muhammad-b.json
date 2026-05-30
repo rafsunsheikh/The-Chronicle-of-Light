@@ -1,0 +1,18 @@
+{
+  "id": "event-0700-what-led-abd-al-rahman-b-muhammad-b",
+  "title": "What Led 'Abd al-Rahman b. Muhammad b. al-Ash'ath to Do What He Did",
+  "description": "al-Ash'ath to Do What He Did, with an Account of His Actions after Disobeying al-Hajjaj",
+  "startDate": "0700-01-01",
+  "category": "political",
+  "connections": [
+    "event-0697-officials-whom-al-hajjaj-appointed-in-khurasan-and",
+    "event-0701-reason-for-ibn-al-ash-ath-s-progress"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "3"
+    }
+  ]
+}

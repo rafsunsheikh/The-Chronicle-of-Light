@@ -1,0 +1,24 @@
+{
+  "id": "event-0699-important-events-of-this-year",
+  "title": "The Important Events of This Year",
+  "description": "In this year, according to Ibn Sa'd679-Muhammad b. 'Umar alWagidi, there was a flash flood in Mecca that swept away the pilgrims and inundated the buildings. That year was named the [1o4o] Year of Sweeping Away679 because that flash flood swept away everything in its path. According to Muhammad b. 'Umar -Muhammad b. Rifa'ah b. Tha'labah-his father-his grandfather: The flash flood came down and swept away the pilgrims in the valley of Mecca; that is why it was called the Year of Sweeping Away.",
+  "startDate": "0699-01-01",
+  "category": "political",
+  "connections": [
+    "event-0691-abd-al-malik-sends-al-hajjaj-to-fight",
+    "event-0709-khalid-al-qasri-s-strict-governorship-of-mecca"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0700-12-31",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "187"
+    }
+  ]
+}

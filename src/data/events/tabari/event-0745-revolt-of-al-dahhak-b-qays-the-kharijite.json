@@ -1,0 +1,18 @@
+{
+  "id": "event-0745-revolt-of-al-dahhak-b-qays-the-kharijite",
+  "title": "Revolt of al-Dahhak b. Qays the Kharijite",
+  "description": "Sources differ in their accounts of this affair. As for Ahmad b. Zuhayr-'Abd al-Wahhab b. Ibrahim-Abu Hashim Mukhallad b. Muhammad: The occasion for the revolt of al-Dahhak was that when al-Walid was slain, a Haruri called Sa'id b. Bahdal al-Shaybani rebelled in the Jazirah at the head of two hundred men of the region.",
+  "startDate": "0745-01-01",
+  "category": "military",
+  "connections": [
+    "event-0719-slaying-of-shawdhab-the-kharijite",
+    "event-0745-death-of-al-dahhak-b-qays-the-kharijite"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "9"
+    }
+  ]
+}

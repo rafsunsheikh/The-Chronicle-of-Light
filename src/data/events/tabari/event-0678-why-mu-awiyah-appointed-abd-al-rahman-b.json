@@ -1,0 +1,24 @@
+{
+  "id": "event-0678-why-mu-awiyah-appointed-abd-al-rahman-b",
+  "title": "Why Mu°awiyah appointed 'Abd al-Rahman b. Ziyad as governor of Khurasan",
+  "description": "Why Mu°awiyah appointed 'Abd al-Rahman b. Ziyad as governor of Khurasan. Recorded under the year 58 AH (678–679 CE) in al-Tabari's History, volume 18.",
+  "startDate": "0678-01-01",
+  "category": "political",
+  "connections": [
+    "event-0673-how-ubaydallah-b-ziyad-became-governor-over-khurasan",
+    "event-0684-disturbances-in-khurasan-associated-with-abdallah-b-khazim"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0679-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "201"
+    }
+  ]
+}

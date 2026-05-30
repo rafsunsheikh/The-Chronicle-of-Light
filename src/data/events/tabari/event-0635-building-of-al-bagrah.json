@@ -1,0 +1,23 @@
+{
+  "id": "event-0635-building-of-al-bagrah",
+  "title": "The Building of al-Bagrah",
+  "description": "The Building of al-Bagrah. Recorded under the year 14 AH (635–636 CE) in al-Tabari's History, volume 12.",
+  "startDate": "0635-01-01",
+  "category": "cultural",
+  "connections": [
+    "event-0642-conquest-of-al-bab"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0636-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "1611"
+    }
+  ]
+}

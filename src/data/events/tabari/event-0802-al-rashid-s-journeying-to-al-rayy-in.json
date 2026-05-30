@@ -1,0 +1,23 @@
+{
+  "id": "event-0802-al-rashid-s-journeying-to-al-rayy-in",
+  "title": "Al-Rashid's Journeying to al-Rayy in Order to Investigate Complaints against the Governor of Khurisin, 'Ali b. Isa b. Mahan, and His Confirmation of 'Ali in Office",
+  "description": "to Investigate Complaints against the Governor of Khurdsdn, All b. `Isa b. Mahan, and His Confirmation of All in Office",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0799-various-items-of-information",
+    "event-0806-what-befell-harthamah-in-the-course-of-his"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "250"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "event-0835-affair-of-babak-and-his-outbreak",
+  "title": "The Affair of Babak and His Outbreak",
+  "description": "It has been mentioned that Babak 's (first) rebellion was in the year 201 (816/817) and that the settlement and town that was his headquarters was al-Badhdh.57 (On that occasion) he put to flight",
+  "startDate": "0835-01-01",
+  "category": "political",
+  "connections": [
+    "event-0824-military-operations-in-azerbaijan-against-the-rebel-babak",
+    "event-0835-reason-for-this-battle-between-al-afshin-and"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "14"
+    }
+  ]
+}

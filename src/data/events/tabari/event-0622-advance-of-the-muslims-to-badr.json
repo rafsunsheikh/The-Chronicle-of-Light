@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-advance-of-the-muslims-to-badr",
+  "title": "The Advance of the Muslims to Badr",
+  "description": "Resumption of the narrative of Ibn Ishaq.\" When several days of Ramadan had passed, the Messenger of God went out at the head of his companions, putting Qays b. Abi Sa'sa'ah, the brother of the Banu Mazin b. al-Najjar, in charge of the rearguard. He himself went ahead, and when he was near alSafra' he sent Basbas b. 'Amr al-Juhani-the confederate of the Banu Sa'idah (of the Ansar)-and 'Adi b. Abi al-Zaghba' al-Juhani -the confederate of the Banu al-Najjar (of the Ansar)-to Badr, in order to glean information for him about Abu Sufyan b.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-number-of-muslims-at-badr",
+    "event-0622-treatment-of-the-captives"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 23.78,
+    "longitude": 38.7906,
+    "name": "Badr, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "40"
+    }
+  ]
+}

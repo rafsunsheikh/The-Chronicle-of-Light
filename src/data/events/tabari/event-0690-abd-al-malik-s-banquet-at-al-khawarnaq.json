@@ -1,0 +1,21 @@
+{
+  "id": "event-0690-abd-al-malik-s-banquet-at-al-khawarnaq",
+  "title": "Abd al-Malik's Banquet at al-Khawarnaq",
+  "description": "('Umar b. Shabbah] also mentions that Abd al-Malik, having killed Mus'ab and entered al-Kiifah, ordered a great deal of food prepared and brought to al-Khawamaq, 702 and issued a general invitation. So the people entered and took their seats. When `Amr b. Hurayth al-Makhzumi703 entered, `Abd al-Malik said, \"Come to me, and sit on my couch.\" And he seated him with him.",
+  "startDate": "0690-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0691-12-31",
+  "location": {
+    "latitude": 31.95,
+    "longitude": 44.4,
+    "name": "al-Khawarnaq (near al-Hira)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "195"
+    }
+  ]
+}

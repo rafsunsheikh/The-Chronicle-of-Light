@@ -1,0 +1,27 @@
+{
+  "id": "event-0691-abd-al-malik-sends-al-hajjaj-to-fight",
+  "title": "Abd al-Malik Sends al-Hajjaj to Fight Ibn al-Zubayr] / zo6 [Abd al-Malik and Abdallah b. Khazim] / zo9 [Those in Office during the Year",
+  "description": "Ibn al-ZubayrJ In this year, `Abd al -Malik sent al-Hajjaj b. Yiisuf to Mecca to fight Abdallah b. al-Zubayr. The following reason is given for his sending al-Hajjaj, rather than someone else, against him: 723 When `Abd al -Malik was about to return to Syria, al-Hajjaj b. Yusuf stood before him and said, \" 0 Commander of the Faithful, I dreamed I had taken Abdallah b.",
+  "startDate": "0691-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0689-mus-ab-b-al-zubayr-visits-mecca",
+    "event-0690-ibn-al-zubayr-s-sermon-after-the-death",
+    "event-0692-description-of-the-death-of-ibn-al-zubayr",
+    "event-0693-important-events-of-this-year-x-al-muhallab",
+    "event-0699-important-events-of-this-year"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0692-12-31",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "213"
+    }
+  ]
+}

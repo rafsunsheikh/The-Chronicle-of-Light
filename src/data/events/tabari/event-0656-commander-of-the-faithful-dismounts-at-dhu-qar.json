@@ -1,0 +1,23 @@
+{
+  "id": "event-0656-commander-of-the-faithful-dismounts-at-dhu-qar",
+  "title": "The Commander of the Faithful Dismounts at Dhu Qar",
+  "description": "at Dhu Qdr According to al-Sari (in writing)-Shu'ayb-Sayf-'Amr-alSha'bi: When they congregated at Dhu Qar `Ali received them with a group, which included Ibn `Abbas. He then welcomed them. \"Men of al-Kufah!\" he said. \"It was you who repelled the power of the Sasanians and their kings. You scattered their troops, and their inheritances fell to you. You enriched640 your territory 635. A milder form of la aba Zak! 636. I.e., you can cut it off if I'm lying. 637. Cf. p. 89, above. 638. Munafigin; see EI2, s.v. 639. I.e., that is sufficient. 640.",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-ali-b-abi-talib-sends-his-son-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.97,
+    "longitude": 46.1,
+    "name": "Dhu Qar (SE of Kufa)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "95"
+    }
+  ]
+}

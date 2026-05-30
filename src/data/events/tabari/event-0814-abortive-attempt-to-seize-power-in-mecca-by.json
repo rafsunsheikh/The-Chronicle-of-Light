@@ -1,0 +1,23 @@
+{
+  "id": "event-0814-abortive-attempt-to-seize-power-in-mecca-by",
+  "title": "The abortive attempt to seize power in Mecca by a member of the 'Aqili branch of the Talibids",
+  "description": "The abortive attempt to seize power in Mecca by a member of the 'Aqili branch of the Talibids. Recorded under the year 198 AH (814–815 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0814-01-01",
+  "category": "political",
+  "connections": [
+    "event-0814-proclamation-in-mecca-of-the-alid-muhammad-b"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0815-12-31",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "37"
+    }
+  ]
+}

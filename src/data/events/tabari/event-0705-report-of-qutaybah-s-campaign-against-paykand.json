@@ -1,0 +1,22 @@
+{
+  "id": "event-0705-report-of-qutaybah-s-campaign-against-paykand",
+  "title": "Report of [Qutaybah's) Campaign [against Paykand",
+  "description": "The narrative returns to that of 'Ali b. Muhammad, who said: AlI;Iajjaj sent from Iraq an army that joined Qutaybah in the year 95; and [Qutaybah] went on campaign. When he was at al-Shash or at Kushmahan,698 (news of] the death of al-Hajjaj in Shawwal reached him. That grieved him; he turned back to Marw and recited (tawil):699",
+  "startDate": "0705-01-01",
+  "category": "military",
+  "connections": [
+    "event-0712-report-of-qutaybah-s-campaign-in-al-shish"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 41.3,
+    "longitude": 69.3,
+    "name": "Tashkent"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "134"
+    }
+  ]
+}

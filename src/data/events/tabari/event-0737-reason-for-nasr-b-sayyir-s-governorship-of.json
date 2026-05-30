@@ -1,0 +1,25 @@
+{
+  "id": "event-0737-reason-for-nasr-b-sayyir-s-governorship-of",
+  "title": "The Reason for Nasr b. Sayyir's Governorship of Khurasan",
+  "description": "Governorship of Khurasan According to 'Ali b. Muhammad-his authorities: When (news of) [166o1 the death of Asad b. 'Abdallah reached Hisham b. 'Abd al -Malik, he consulted his companions about a man who would be suitable for Khurasan. They indicated various groups of men, writing down their names for him. Among those who were written down for him were: 'Uthman b. 'Abdallih b. al-Shikhkhir, Yahya b. Hudayn b. al-Mundhir al-Rigashi, Nasr b. Sayyar al-Laythi, Qatan b. Qutaybah b. Muslim, and al- Mujashshir b. Muzahim al-Salami, one of the Banu Harim.",
+  "startDate": "0737-01-01",
+  "category": "political",
+  "connections": [
+    "event-0737-reason-for-the-khurasanis-sending-sulaymin-b-kathir",
+    "event-0737-rebellion-and-execution-of-bahlul-b-bishr",
+    "event-0742-malady-that-caused-hisham-s-death",
+    "event-0744-reason-for-granting-safe-conduct-to-al-harith"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "188"
+    }
+  ]
+}

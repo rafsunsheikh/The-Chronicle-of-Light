@@ -1,0 +1,16 @@
+{
+  "id": "event-0744-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 126 AH (744–745 CE) in al-Tabari's History, volume 26.",
+  "startDate": "0744-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0745-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "275"
+    }
+  ]
+}

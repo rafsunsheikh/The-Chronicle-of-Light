@@ -1,0 +1,23 @@
+{
+  "id": "event-0686-arrival-of-a-delegation-of-the-people-of",
+  "title": "The Arrival of a Delegation of the People of Medina to Yazid b. Mu'awiyah",
+  "description": "Medina to Yazid b. Mu'dwiyah The reason for that was according to Lot b. Yahyi (Abu Mikhnaf)Abd al-Malik b. Nawfal b. Musahiq-'Abdallih b. 'Urwah (b. alZubayr):1 When Yazid b. Mu'iwiyah sent al-Walid b. 'Utbah to the Hijaz as governor and dismissed `Amr b. Said, al-Walid came to Medina and seized and imprisoned many servants and mawili of 'Amr. 'Amr spoke to him about them, but he refused to free them saying, \"Don't worry, Amr.\" His brother Abin b. Sa' id b.",
+  "startDate": "0686-01-01",
+  "category": "political",
+  "connections": [
+    "event-0684-ibn-al-zubayr-s-dismissal-and-appointment-of",
+    "event-0686-al-mukhtar-sends-an-army-to-trick-ibn"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 19",
+      "page": "195"
+    }
+  ]
+}

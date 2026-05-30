@@ -1,0 +1,19 @@
+{
+  "id": "event-0833-al-ma-mun-s-fatal-illness-at-al",
+  "title": "Al-Ma'mun's fatal illness at al-Budandun; his last testament and commendation to al-Mu 'tasim; his death on 18 Rajab 218",
+  "description": "Al-Ma'mun's fatal illness at al-Budandun; his last testament and commendation to al-Mu 'tasim; his death on 18 Rajab 218. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0833-al-ma-mun-s-letters-to-his-governors",
+    "event-0837-ai-afshin-s-bringing-of-babak-and-his"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "9"
+    }
+  ]
+}

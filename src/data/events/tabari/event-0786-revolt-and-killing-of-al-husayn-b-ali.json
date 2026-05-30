@@ -1,0 +1,21 @@
+{
+  "id": "event-0786-revolt-and-killing-of-al-husayn-b-ali",
+  "title": "The Revolt and Killing of al-Husayn b. 'Ali",
+  "description": "It has been mentioned from Muhammad b. Musi al-Khwirazmi56 that he related: Between al-Mahdi's death and al-Hadi 's assump5 a. Ibn al-Athir, VI, 89; Vajda, 186-7; Moscati, Le califat dal-Hddi 7-8; Omar, in 'Abbasiyydt, 91. Tabari-Bal'ami, tr. N, 447 - 53, devotes & lengthy, special section to zandaqah under al-H!&, with many novel details. 53. See on Windidhurmuz and his reign in Tabaristin, Ibn Isfandiyir, Ta'rlkh-i Tabaristdn, tr. E. G. Browne, 125-32; Moscati, \"Studi storici sul califatto di alMahdi,\" 347-50; idem, \"Le califat dal-H!&,\" 8-9; W.",
+  "startDate": "0786-01-01",
+  "category": "military",
+  "connections": [
+    "event-0786-reason-why-al-khayzuran-had-ordered-the-slave",
+    "event-0786-remainder-of-the-events-of-this-year",
+    "event-0786-succession-of-musa-al-hadi-as-caliph-on",
+    "event-0811-abortive-coup-of-al-husayn-b-ali-b"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0787-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "14"
+    }
+  ]
+}

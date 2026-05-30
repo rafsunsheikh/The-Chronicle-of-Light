@@ -1,0 +1,24 @@
+{
+  "id": "event-0878-account-of-muflih-s-death",
+  "title": "An Account of [Muflih 's] Death",
+  "description": "I have already recounted how Abu Ahmad (al-Muwaffaq (b. al-Mutawakkil departed from Simarri and headed for al-Bagrah to do battle with the cursed one.-1g0 I myself witnessed'99 in Baghdad the army with which Abu Ahmad and Muflih had set out. This was after the news had reached Abu Ahmad and al- Muctamid concerning the atrocities endured by Muslims in al-Bagrah and adjacent territories.",
+  "startDate": "0878-01-01",
+  "category": "political",
+  "connections": [
+    "event-0861-some-things-about-al-mutawakkil-and-his-way",
+    "event-0870-in-baghdad",
+    "event-0890-fighting-in-baghdad"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "139"
+    }
+  ]
+}

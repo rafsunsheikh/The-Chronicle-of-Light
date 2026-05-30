@@ -1,0 +1,18 @@
+{
+  "id": "event-0747-abu-muslim-kills-ali-and-uthman-the-sons",
+  "title": "Abu Muslim Kills 'Ali and 'Uthman the Sons of Juday' al-Kirmani",
+  "description": "Abu Muslim Kills 'Ali and 'Uthman the Sons of Juday' al-Kirmani. Recorded under the year 129 AH (747 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0747-01-01",
+  "category": "political",
+  "connections": [
+    "event-0747-abu-muslim-enters-the-walled-city-of-marw",
+    "event-0747-qahtabah-b-shabib-comes-to-abu-muslim"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "104"
+    }
+  ]
+}

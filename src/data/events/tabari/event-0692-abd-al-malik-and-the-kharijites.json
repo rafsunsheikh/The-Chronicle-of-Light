@@ -1,0 +1,19 @@
+{
+  "id": "event-0692-abd-al-malik-and-the-kharijites",
+  "title": "'Abd al-Malik and the Kharijites",
+  "description": "Also in this year, according to what is mentioned, 'Abd al-Malik sent `Umar b. `Ubaydallah b. Ma'mar to fight Abu Fudayk, ordering him to call up anyone he wanted from the two garrison cities to go with him. `Umar b. `Ubaydallah went to al-Kufah and called up its people; ten thousand answered his call. Then he went to al-Basrah and called up its people; ten thousand answered his call.83' Having issued them their provisions and given them their stipends, `Umar b. U baydallah marched forth with them. He placed the Kufans, led by Muhammad b. Musa b.",
+  "startDate": "0692-01-01",
+  "category": "military",
+  "connections": [
+    "event-0691-abd-a-malik-and-the-kharijites",
+    "event-0718-revolt-of-the-kharijites"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0693-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "232"
+    }
+  ]
+}

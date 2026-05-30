@@ -1,0 +1,21 @@
+{
+  "id": "event-0651-disaster-at-balanjar",
+  "title": "The Disaster at Balanjar",
+  "description": "It was transmitted to me in writing by al-Sari --Shu'ayb-SayfMuhammad and Talhah: 'Uthman wrote to Said ordering Salman to attack al-Bab. ('Uthmin) wrote also to 'Abd al-Rahman b. Rabi'ah, who was in command at al-Bab: \"Verily greed and arrogance have made many of the subjects (ra'iyyah) reckless. Curtail (your campaign ] and do not plunge ahead with the Muslims so boldly, for I fear they may face severe trials.\" But this [letter) did not restrain 'Abd al-Rahmin from his goal and he would not stop short of Balanjar.",
+  "startDate": "0651-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0652-12-31",
+  "location": {
+    "latitude": 42.5,
+    "longitude": 47.0,
+    "name": "Balanjar (Khazar frontier, Dagestan)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "95"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "event-0672-how-ziyad-b-sumayyah-perished",
+  "title": "How Ziyad b. Sumayyah perished",
+  "description": "I was told by 'Abdallah b. Ahmad al -Marwazi-his father-Sulayman-'Abdallah b. al-Mubarik--'Abdallah b. Shawdhab -Kathir b. Ziyad: Ziyad wrote to Mu'awiyah, \"Indeed, I have seized Iraq with my left hand while my right hand is empty.\" So Mu'awiyah added al -'Arad to him, which is the Yamamah and what is adjacent to it. At that, Ibn 'Umar prayed against him, so Ziyad caught the plague and died.",
+  "startDate": "0672-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "167"
+    }
+  ]
+}

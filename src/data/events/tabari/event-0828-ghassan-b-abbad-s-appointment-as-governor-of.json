@@ -1,0 +1,21 @@
+{
+  "id": "event-0828-ghassan-b-abbad-s-appointment-as-governor-of",
+  "title": "Ghassan b. 'Abbad's appointment as governor of Sind",
+  "description": "Ghassan b. 'Abbad's appointment as governor of Sind. Recorded under the year 213 AH (828–829 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0828-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0829-12-31",
+  "location": {
+    "latitude": 26.0,
+    "longitude": 68.5,
+    "name": "Sindh (lower Indus)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "179"
+    }
+  ]
+}

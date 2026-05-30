@@ -1,0 +1,25 @@
+{
+  "id": "event-0753-rebellion-of-ziyad-b-salih-in-transoxania",
+  "title": "The Rebellion of Ziyad b. Salih in Transoxania",
+  "description": "Among the events of this year was the rebellion of Ziyad b. Salih, beyond the river of Balkh (the Oxus (.4M Abu Muslim set out from 1821 Marw, prepared to encounter him, while Abu Dawud Khalid b. Ibrahim sent Nasr b. Rashid to Tirmidh°\" and ordered him to establish himself at the town, to prevent Ziyad b. Salih from sending men and gaining possession of the fortress and the boats there. This Nasr did.",
+  "startDate": "0753-07-07",
+  "category": "military",
+  "connections": [
+    "event-0720-said-khudhaynah-s-military-expedition-against-the-soghdians",
+    "event-0749-qahtabah-camps-at-rayy-and-abu-muslim-moves",
+    "event-0753-visit-of-abu-muslim-to-abu-al-abbas"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0754-06-26",
+  "location": {
+    "latitude": 39.7,
+    "longitude": 65.7,
+    "name": "Transoxania (between Oxus & Jaxartes)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "205"
+    }
+  ]
+}

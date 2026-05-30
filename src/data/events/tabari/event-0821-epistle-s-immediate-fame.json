@@ -1,0 +1,15 @@
+{
+  "id": "event-0821-epistle-s-immediate-fame",
+  "title": "The epistle's immediate fame",
+  "description": "The epistle's immediate fame. Recorded under the year 206 AH (c. 821 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0821-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "128"
+    }
+  ]
+}

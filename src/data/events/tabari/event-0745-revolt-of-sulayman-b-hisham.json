@@ -1,0 +1,22 @@
+{
+  "id": "event-0745-revolt-of-sulayman-b-hisham",
+  "title": "Revolt of Sulayman b. Hisham",
+  "description": "According to Ahmad b. Zuhayr-'Abd al-Wahhab b. Ibrahim--Abu Hashim Mukhallad b. Muhammad b. Salih: When Marwan set out from Rusafah to Raqqah to send lbn Hubayrah to Iraq to fight alpahhak b. Qays al-Shaybani, Sulayman b. Hisham requested his permission to stay behind a few days to rest his forces and set his affairs in order. Marwan consented and went his way. About ten thousand men came forward, of those whom Marwan had levied at Dayr Ayyub to campaign in Iraq.",
+  "startDate": "0745-01-01",
+  "category": "military",
+  "connections": [
+    "event-0802-al-rashid-s-succession-arrangements-for-his-three"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 35.95,
+    "longitude": 39.01,
+    "name": "Raqqa, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "19"
+    }
+  ]
+}

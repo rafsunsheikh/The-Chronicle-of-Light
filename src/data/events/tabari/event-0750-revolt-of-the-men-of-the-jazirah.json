@@ -1,0 +1,20 @@
+{
+  "id": "event-0750-revolt-of-the-men-of-the-jazirah",
+  "title": "Revolt of the Men of the Jazirah",
+  "description": "Revolt of the Men of the Jazirah. Recorded under the year 132 AH (750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0750-08-09",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.5,
+    "longitude": 40.5,
+    "name": "Upper Mesopotamia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "180"
+    }
+  ]
+}

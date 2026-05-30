@@ -1,0 +1,591 @@
+[
+  {
+    "id": "tabari-v18-46-001",
+    "title": "The Rendering of Allegiance to al-Hasan b. All",
+    "description": "",
+    "hijriYear": 46,
+    "ceLabel": "666–667",
+    "startDate": "666",
+    "endDate": "667",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 2,
+      "ceRaw": "666/667"
+    }
+  },
+  {
+    "id": "tabari-v18-41-002",
+    "title": "Al-Hasan's surrender of al-Kufah to Mu'awiyah",
+    "description": "",
+    "hijriYear": 41,
+    "ceLabel": "661–662",
+    "startDate": "661",
+    "endDate": "662",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 9,
+      "ceRaw": "661/662"
+    }
+  },
+  {
+    "id": "tabari-v18-41-003",
+    "title": "The departure of al-Hasan and al-Husayn for al-Madinah",
+    "description": "",
+    "hijriYear": 41,
+    "ceLabel": "661–662",
+    "startDate": "661",
+    "endDate": "662",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 1,
+      "ceRaw": "661/662"
+    }
+  },
+  {
+    "id": "tabari-v18-41-004",
+    "title": "The Kharijites at Shahrazur",
+    "description": "",
+    "hijriYear": 41,
+    "ceLabel": "661–662",
+    "startDate": "661",
+    "endDate": "662",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 12,
+      "ceRaw": "661/662"
+    }
+  },
+  {
+    "id": "tabari-v18-41-005",
+    "title": "Mucawiyah's order to kill the sons of Ziyad",
+    "description": "",
+    "hijriYear": 41,
+    "ceLabel": "661–662",
+    "startDate": "661",
+    "endDate": "662",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 14,
+      "ceRaw": "661/662"
+    }
+  },
+  {
+    "id": "tabari-v18-41-006",
+    "title": "Why °Abdallah b. 'Amir was put in charge of al-Ba§rah and some events during his Activity there",
+    "description": "",
+    "hijriYear": 41,
+    "ceLabel": "661–662",
+    "startDate": "661",
+    "endDate": "662",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 18,
+      "ceRaw": "661/662"
+    }
+  },
+  {
+    "id": "tabari-v18-42-007",
+    "title": "What happened to the Kharijites",
+    "description": "",
+    "hijriYear": 42,
+    "ceLabel": "662–663",
+    "startDate": "662",
+    "endDate": "663",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 2,
+      "ceRaw": "662/663"
+    }
+  },
+  {
+    "id": "tabari-v18-43-008",
+    "title": "The killing of al-Mustawrid b. 'Ullifah",
+    "description": "",
+    "hijriYear": 43,
+    "ceLabel": "663–664",
+    "startDate": "663",
+    "endDate": "664",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 33,
+      "ceRaw": "663/664"
+    }
+  },
+  {
+    "id": "tabari-v18-43-009",
+    "title": "Ziyad's governorship over al -Basrah",
+    "description": "",
+    "hijriYear": 43,
+    "ceLabel": "663–664",
+    "startDate": "663",
+    "endDate": "664",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 76,
+      "ceRaw": "663/664"
+    }
+  },
+  {
+    "id": "tabari-v18-46-010",
+    "title": "The death of °Abd al -Rahman b. Khalid b. al-Walid",
+    "description": "",
+    "hijriYear": 46,
+    "ceLabel": "666–667",
+    "startDate": "666",
+    "endDate": "667",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 88,
+      "ceRaw": "666/667"
+    }
+  },
+  {
+    "id": "tabari-v18-50-011",
+    "title": "Al-Faradzaq's flight from Ziyad",
+    "description": "",
+    "hijriYear": 50,
+    "ceLabel": "670–671",
+    "startDate": "670",
+    "endDate": "671",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 104,
+      "ceRaw": "670/671"
+    }
+  },
+  {
+    "id": "tabari-v18-50-012",
+    "title": "Al-Hakam b. 'Amr raids al-Ashall",
+    "description": "",
+    "hijriYear": 50,
+    "ceLabel": "670–671",
+    "startDate": "670",
+    "endDate": "671",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 19,
+      "ceRaw": "670/671"
+    }
+  },
+  {
+    "id": "tabari-v18-51-013",
+    "title": "Hujr b.'Adi's execution",
+    "description": "",
+    "hijriYear": 51,
+    "ceLabel": "671–672",
+    "startDate": "671",
+    "endDate": "672",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 122,
+      "ceRaw": "671/672"
+    }
+  },
+  {
+    "id": "tabari-v18-51-014",
+    "title": "Those whom Ziyad sent to Mu°awiyah",
+    "description": "",
+    "hijriYear": 51,
+    "ceLabel": "671–672",
+    "startDate": "671",
+    "endDate": "672",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 144,
+      "ceRaw": "671/672"
+    }
+  },
+  {
+    "id": "tabari-v18-51-015",
+    "title": "Hujr's companions who were killed",
+    "description": "",
+    "hijriYear": 51,
+    "ceLabel": "671–672",
+    "startDate": "671",
+    "endDate": "672",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 151,
+      "ceRaw": "671/672"
+    }
+  },
+  {
+    "id": "tabari-v18-51-016",
+    "title": "I3ujr's companions who were saved",
+    "description": "",
+    "hijriYear": 51,
+    "ceLabel": "671–672",
+    "startDate": "671",
+    "endDate": "672",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 152,
+      "ceRaw": "671/672"
+    }
+  },
+  {
+    "id": "tabari-v18-52-017",
+    "title": "How Ziyad b. Sumayyah perished",
+    "description": "",
+    "hijriYear": 52,
+    "ceLabel": "672",
+    "startDate": "672",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 167,
+      "ceRaw": "672"
+    }
+  },
+  {
+    "id": "tabari-v18-52-018",
+    "title": "How al-Rabic b. Ziyad al-Harithi died",
+    "description": "",
+    "hijriYear": 52,
+    "ceLabel": "672",
+    "startDate": "672",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 170,
+      "ceRaw": "672"
+    }
+  },
+  {
+    "id": "tabari-v18-53-019",
+    "title": "Why Mu'awiyah dismissed Said and appointed Marwan as governor over al-Madinah",
+    "description": "",
+    "hijriYear": 53,
+    "ceLabel": "673–674",
+    "startDate": "673",
+    "endDate": "674",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 173,
+      "ceRaw": "673/674"
+    }
+  },
+  {
+    "id": "tabari-v18-53-020",
+    "title": "How °Ubaydallah b. Ziyad became governor over Khurasan",
+    "description": "",
+    "hijriYear": 53,
+    "ceLabel": "673–674",
+    "startDate": "673",
+    "endDate": "674",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 175,
+      "ceRaw": "673/674"
+    }
+  },
+  {
+    "id": "tabari-v18-54-021",
+    "title": "Why Mu'awiyah dismissed 'Abdalla 1 b. cAmr b. Ghaylan and appointed 'Ubaydallah over al-Basrah",
+    "description": "",
+    "hijriYear": 54,
+    "ceLabel": "674–675",
+    "startDate": "674",
+    "endDate": "675",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 180,
+      "ceRaw": "674/675"
+    }
+  },
+  {
+    "id": "tabari-v18-55-022",
+    "title": "Why Mucawiyah made his Son, Yazid, heir apparent",
+    "description": "",
+    "hijriYear": 55,
+    "ceLabel": "675–676",
+    "startDate": "675",
+    "endDate": "676",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 183,
+      "ceRaw": "675/676"
+    }
+  },
+  {
+    "id": "tabari-v18-57-023",
+    "title": "Why 'Ubaydallah b. Ziyad killed the Kharijites",
+    "description": "",
+    "hijriYear": 57,
+    "ceLabel": "677–678",
+    "startDate": "677",
+    "endDate": "678",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 196,
+      "ceRaw": "677/678"
+    }
+  },
+  {
+    "id": "tabari-v18-58-024",
+    "title": "Why Mu°awiyah appointed 'Abd al-Rahman b. Ziyad as governor of Khurasan / 1gg How Mu°awiyah dismissed and re -appointed 'Ubaydallah as governor of al-Basrah",
+    "description": "",
+    "hijriYear": 58,
+    "ceLabel": "678–679",
+    "startDate": "678",
+    "endDate": "679",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 201,
+      "ceRaw": "678/679"
+    }
+  },
+  {
+    "id": "tabari-v18-58-025",
+    "title": "Why Yasid b. Mufarrigh ridiculed the sons of Ziyad",
+    "description": "",
+    "hijriYear": 58,
+    "ceLabel": "678–679",
+    "startDate": "678",
+    "endDate": "679",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 202,
+      "ceRaw": "678/679"
+    }
+  },
+  {
+    "id": "tabari-v18-59-026",
+    "title": "The length of Mucawiyah's reign",
+    "description": "",
+    "hijriYear": 59,
+    "ceLabel": "679–680",
+    "startDate": "679",
+    "endDate": "680",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 210,
+      "ceRaw": "679/680"
+    }
+  },
+  {
+    "id": "tabari-v18-59-027",
+    "title": "Mucawiyah's last illness",
+    "description": "",
+    "hijriYear": 59,
+    "ceLabel": "679–680",
+    "startDate": "679",
+    "endDate": "680",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 211,
+      "ceRaw": "679/680"
+    }
+  },
+  {
+    "id": "tabari-v18-59-028",
+    "title": "Who led the prayer over Mu'awiyah when he died",
+    "description": "",
+    "hijriYear": 59,
+    "ceLabel": "679–680",
+    "startDate": "679",
+    "endDate": "680",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 213,
+      "ceRaw": "679/680"
+    }
+  },
+  {
+    "id": "tabari-v18-59-029",
+    "title": "Mu°awiyah's lineage and his Agnomen",
+    "description": "",
+    "hijriYear": 59,
+    "ceLabel": "679–680",
+    "startDate": "679",
+    "endDate": "680",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 215,
+      "ceRaw": "679/680"
+    }
+  },
+  {
+    "id": "tabari-v18-59-030",
+    "title": "Mucawiyah's wives and children'",
+    "description": "",
+    "hijriYear": 59,
+    "ceLabel": "679–680",
+    "startDate": "679",
+    "endDate": "680",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 215,
+      "ceRaw": "679/680"
+    }
+  },
+  {
+    "id": "tabari-v18-59-031",
+    "title": "Some of Mu'awiyah's Affairs and Conduct",
+    "description": "",
+    "hijriYear": 59,
+    "ceLabel": "679–680",
+    "startDate": "679",
+    "endDate": "680",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "18",
+      "page": 216,
+      "ceRaw": "679/680"
+    }
+  }
+]

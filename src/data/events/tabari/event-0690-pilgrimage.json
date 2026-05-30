@@ -1,0 +1,16 @@
+{
+  "id": "event-0690-pilgrimage",
+  "title": "The Pilgrimage",
+  "description": "The Pilgrimage. Recorded under the year 71 AH (690–691 CE) in al-Tabari's History, volume 21.",
+  "startDate": "0690-01-01",
+  "category": "religious",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0691-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "194"
+    }
+  ]
+}

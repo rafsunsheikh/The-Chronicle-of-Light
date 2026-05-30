@@ -1,0 +1,23 @@
+{
+  "id": "event-0908-rebellion-of-ibn-al-mu-tazz",
+  "title": "Rebellion of Ibn al-Mu'tazz",
+  "description": "Rebellion of Ibn al-Mu'tazz. Recorded under the year 295 AH (908–909 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0908-01-01",
+  "category": "military",
+  "connections": [
+    "event-0905-qarmatian-abdallah-b-said-and-the-qarmatian-attacks"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0909-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "191"
+    }
+  ]
+}

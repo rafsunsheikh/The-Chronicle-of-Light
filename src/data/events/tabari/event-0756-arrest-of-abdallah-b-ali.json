@@ -1,0 +1,23 @@
+{
+  "id": "event-0756-arrest-of-abdallah-b-ali",
+  "title": "The Arrest of 'Abdallah b. 'Ali",
+  "description": "When Sulayman and `Isa, the sons of `Ali, reached Abu Ja`far, he gave them leave to enter his presence. They informed him that `Abdallah b. `Ali was there and asked Abu ja `far's permission for him to enter. The caliph acceded to their request and engaged them in conversation, having already prepared a place of confinement in his palace for `Abdallah b. `Ali and given orders that `Abdallah be taken off there after `Isa and Sulayman had entered his presence.",
+  "startDate": "0756-01-01",
+  "category": "political",
+  "connections": [
+    "event-0746-abdallah-b-mu-awiyah-al-ja-fari-gains"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0757-12-31",
+  "location": {
+    "latitude": 29.6,
+    "longitude": 52.5,
+    "name": "Fars, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "57"
+    }
+  ]
+}

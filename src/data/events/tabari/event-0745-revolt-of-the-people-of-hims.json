@@ -1,0 +1,20 @@
+{
+  "id": "event-0745-revolt-of-the-people-of-hims",
+  "title": "Revolt of the People of Hims",
+  "description": "Revolt of the People of Hims. Recorded under the year 127 AH (c. 745 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0745-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 34.73,
+    "longitude": 36.71,
+    "name": "Homs, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "4"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "event-0826-anecdote-in-which-abdallah-is-cleared-of-suspected",
+  "title": "Anecdote in which 'Abdallah is cleared of suspected sympathies for Shi'ism",
+  "description": "Anecdote in which 'Abdallah is cleared of suspected sympathies for Shi'ism. Recorded under the year 211 AH (826–827 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0826-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0827-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "169"
+    }
+  ]
+}

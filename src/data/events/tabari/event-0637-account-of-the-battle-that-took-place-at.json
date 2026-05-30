@@ -1,0 +1,16 @@
+{
+  "id": "event-0637-account-of-the-battle-that-took-place-at",
+  "title": "The Account of the Battle That Took Place at Qargisiya'",
+  "description": "at Qargisiya'",
+  "startDate": "0637-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0638-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "57"
+    }
+  ]
+}

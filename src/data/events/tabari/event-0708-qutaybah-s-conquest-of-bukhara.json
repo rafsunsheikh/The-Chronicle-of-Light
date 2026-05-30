@@ -1,0 +1,23 @@
+{
+  "id": "event-0708-qutaybah-s-conquest-of-bukhara",
+  "title": "Qutaybah 's Conquest of Bukhara",
+  "description": "Qutaybah 's Conquest of Bukhara. Recorded under the year 89 AH (708–709 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0708-01-01",
+  "category": "military",
+  "connections": [
+    "event-0729-pilgrimage-and-governors"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0709-12-31",
+  "location": {
+    "latitude": 39.77,
+    "longitude": 64.42,
+    "name": "Bukhara, Uzbekistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "150"
+    }
+  ]
+}

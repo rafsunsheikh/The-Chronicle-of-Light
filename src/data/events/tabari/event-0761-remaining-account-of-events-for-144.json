@@ -1,0 +1,24 @@
+{
+  "id": "event-0761-remaining-account-of-events-for-144",
+  "title": "The Remaining Account of Events for 144",
+  "description": "Among these events was Abu Jacfar al-Man^ur 's transport of the descendants of Hasan b. Hasan b. ` Ali from Medina to Iraq.",
+  "startDate": "0761-01-01",
+  "category": "political",
+  "connections": [
+    "event-0761-reason-abu-ja-far-dismissed-muhammad-b-khalid",
+    "event-0762-uprising-of-the-blacks-in-medina-in-this"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0762-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "138"
+    }
+  ]
+}

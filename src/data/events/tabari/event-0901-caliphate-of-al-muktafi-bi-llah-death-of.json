@@ -1,0 +1,21 @@
+{
+  "id": "event-0901-caliphate-of-al-muktafi-bi-llah-death-of",
+  "title": "The Caliphate of al-Muktafi bi-llah Death of 'Amr b. al-Layth",
+  "description": "The Caliphate of al-Muktafi bi-llah Death of 'Amr b. al-Layth. Recorded under the year 288 AH (901–902 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0901-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0902-12-31",
+  "location": {
+    "latitude": 23.78,
+    "longitude": 38.7906,
+    "name": "Badr, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "113"
+    }
+  ]
+}

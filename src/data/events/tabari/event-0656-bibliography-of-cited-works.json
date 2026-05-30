@@ -1,0 +1,16 @@
+{
+  "id": "event-0656-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 35 AH (656–657 CE) in al-Tabari's History, volume 16.",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "199"
+    }
+  ]
+}

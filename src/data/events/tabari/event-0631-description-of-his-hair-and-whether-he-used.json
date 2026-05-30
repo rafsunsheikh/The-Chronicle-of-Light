@@ -1,0 +1,23 @@
+{
+  "id": "event-0631-description-of-his-hair-and-whether-he-used",
+  "title": "The Description of His Hair and Whether He Used to Dye It or Not",
+  "description": "to Dye It or Not Ibn al-Muthanni-Mu'idh b. Mu adh1105-Hartz b. 'Uthminl 1°6-Abu Musa-Mu adh: I have never seen a person from the inhabitants of Syria to whom I could give preference over [the Prophet]. We went to 'Abdallih b. Busr, and I said to him while I was with my companions, \"Did you see the Messenger of God? Was he an old man?\" He put his hand on the part between his chin and the edge of his lower lip and said, \"There was a white hair [among a few hairs ] between his…",
+  "startDate": "0631-04-09",
+  "category": "political",
+  "connections": [
+    "event-0634-affair-of-fih1-according-to-sayf"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0632-03-28",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 09",
+      "page": "160"
+    }
+  ]
+}

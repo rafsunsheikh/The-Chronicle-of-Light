@@ -1,0 +1,24 @@
+{
+  "id": "event-0744-dismissal-of-manger-b-jumhur-from-the-post",
+  "title": "The Dismissal of Manger b. Jumhur from the Post of Governor of Iraq",
+  "description": "The Dismissal of Manger b. Jumhur from the Post of Governor of Iraq. Recorded under the year 126 AH (744–745 CE) in al-Tabari's History, volume 26.",
+  "startDate": "0744-01-01",
+  "category": "political",
+  "connections": [
+    "event-0744-dismissal-of-yusuf-b-umar-and-the-appointment",
+    "event-0745-yazid-b-umar-b-hubayrah-is-sent-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0745-12-31",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "219"
+    }
+  ]
+}

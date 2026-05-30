@@ -1,0 +1,23 @@
+{
+  "id": "event-0717-death-of-sulayman-b-abd-al-malik",
+  "title": "The Death of Sulayman b. 'Abd al-Malik",
+  "description": "Among the events taking place that year was the death of Sulayman b. 'Abd al-Malik.232 I was told on the authority of HishamAbu Mikhnaf, that he died in Dabiq, in the province of Qinnasrin,233 on Friday the nineteenth of $afar (October 1, 717). Thus, his term of office was two years and eight months, less five days.",
+  "startDate": "0717-01-01",
+  "category": "political",
+  "connections": [
+    "event-0750-revolt-of-abu-al-ward-at-qinnasrin"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0718-12-31",
+  "location": {
+    "latitude": 35.99,
+    "longitude": 37.05,
+    "name": "Qinnasrin (south of Aleppo)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "62"
+    }
+  ]
+}

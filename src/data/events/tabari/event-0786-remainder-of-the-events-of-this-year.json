@@ -1,0 +1,18 @@
+{
+  "id": "event-0786-remainder-of-the-events-of-this-year",
+  "title": "The Remainder of the Events of This Year",
+  "description": "These included the revolt of al-Husayn b. 'Ali b. al-Hasan b. alHasan54 b. al-Hasan b. 'Ali b. Abi Talib, the one killed at Fakhkh.ss",
+  "startDate": "0786-01-01",
+  "category": "political",
+  "connections": [
+    "event-0786-revolt-and-killing-of-al-husayn-b-ali"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0787-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "14"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "event-0695-shabib-s-entry-into-al-kufah-and-his",
+  "title": "Shabib's Entry into al-Kufah and His Dealings with al-Hajjaj There, and Why Shabib Did This",
+  "description": "al-Hajjaj There, and Why Shabib Did This",
+  "startDate": "0695-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0690-abd-al-malik-enters-al-kufah",
+    "event-0694-revolt-of-the-bagran-troops-against-al-hajjaj",
+    "event-0696-shabib-s-second-entry-into-al-kiifah-and"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0696-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "44"
+    }
+  ]
+}

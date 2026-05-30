@@ -1,0 +1,24 @@
+{
+  "id": "event-0720-maslamah-appoints-said-khudhaynah-as-governor-of-khurasan",
+  "title": "Maslamah Appoints Said Khudhaynah as Governor of Khurasan",
+  "description": "of Khurdsdn",
+  "startDate": "0720-01-01",
+  "category": "political",
+  "connections": [
+    "event-0718-umar-b-abd-al-aziz-appoints-abd-al",
+    "event-0720-dismissal-of-maslamah-from-iraq-and-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0721-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "150"
+    }
+  ]
+}

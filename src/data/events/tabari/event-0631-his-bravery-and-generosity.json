@@ -1,0 +1,24 @@
+{
+  "id": "event-0631-his-bravery-and-generosity",
+  "title": "His Bravery and Generosity",
+  "description": "Ibn al-Muthanna- Hammad b. Wagid10°-Thabit' 1o1-Anas: God's Messenger was one of the best of men, the most generous of men, and the bravest of men. [One night the people of] Medina were frightened and went in the direction of the sound. Lo and behold, they found the Messenger of God on an unsaddled barebacked horse belonging to Abu Tallaah! He had a sword with him and had gone there before them and was saying, \"0 people, don't be afraid, don't be afraid.\" Then he said, \"0…",
+  "startDate": "0631-04-09",
+  "category": "political",
+  "connections": [
+    "event-0631-names-of-the-messenger-of-god-s-horses",
+    "event-0632-continuation-of-the-report-of-sayf"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0632-03-28",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 09",
+      "page": "159"
+    }
+  ]
+}

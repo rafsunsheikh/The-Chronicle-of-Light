@@ -1,0 +1,24 @@
+{
+  "id": "event-0642-information-on-umar-s-division-of-the-conquered",
+  "title": "Information on ['Umar's Division of the Conquered Lands",
+  "description": "Conquered Lands] According to al-Sari-Shu'ayb-Sayf-Muhammad, Talhah, alMuhallab, 'Amr and Said: 'Ammar b. Yasir remained as governor of al-Kufah for a whole year and part of another during the caliphate of 'Umar. 'Umar b. Suragah, at that time governor of al-Bagrah, wrote to 'Umar b.",
+  "startDate": "0642-01-01",
+  "category": "political",
+  "connections": [
+    "event-0640-account-is-resumed-once-more-by-sayf",
+    "event-0644-governorship-of-sa-d-b-abi-waggag-in"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0643-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "43"
+    }
+  ]
+}

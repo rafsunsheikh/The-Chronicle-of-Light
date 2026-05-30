@@ -1,0 +1,24 @@
+{
+  "id": "event-0628-division-of-the-spoils-of-khaybar",
+  "title": "The Division of the Spoils of Khaybar",
+  "description": "The Division of the Spoils of Khaybar. Recorded under the year 7 AH (628–629 CE) in al-Tabari's History, volume 08.",
+  "startDate": "0628-01-01",
+  "category": "political",
+  "connections": [
+    "event-0628-expedition-of-the-messenger-of-god-to-wadi",
+    "event-0628-lesser-pilgrimage-of-fulfillment"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0629-12-31",
+  "location": {
+    "latitude": 25.7,
+    "longitude": 39.29,
+    "name": "Khaybar, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "128"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "event-0833-al-ma-mun-and-the-exigent-boon-companion",
+  "title": "Al-Ma'mun and the exigent boon companion from Syria",
+  "description": "Al-Ma'mun and the exigent boon companion from Syria. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0833-anecdotes-about-al-ma-mun-and-his-conduct",
+    "event-0833-his-generosity-with-the-revenues-collected-in-syria",
+    "event-0833-singer-allawayh-s-defence-of-the-umayyads-before"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "240"
+    }
+  ]
+}

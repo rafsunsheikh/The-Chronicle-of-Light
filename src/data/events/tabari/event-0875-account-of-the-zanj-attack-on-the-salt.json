@@ -1,0 +1,16 @@
+{
+  "id": "event-0875-account-of-the-zanj-attack-on-the-salt",
+  "title": "An Account of [the Zanj Attack on the Salt Flats",
+  "description": "An Account of [the Zanj Attack on the Salt Flats. Recorded under the year 261 AH (875–876 CE) in al-Tabari's History, volume 36.",
+  "startDate": "0875-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0876-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "174"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0786-various-items-of-information",
+  "title": "Various Items of Information",
+  "description": "In this year, Ma'yaf b. Yabya (al-HajUxi)154 led the summer raid (against the Byzantines) by way of the \"Monk 's Road\" (darb alraliib). The Byzantines had approached, led by the Patricius,155 as far as al-Hadath. '56 The governor, the garrison troops, and the market traders all fled, and the enemy entered the town. Ma'yaf b. Ya1,ya penetrated into the enemy's territory and reached the town of Ushnah.157 They then seized captives and prisoners and took plunder.'58 In this year, Sulayman b. Abi Ja'far al-Manger led the Pilgrimage.159 `Umar b.",
+  "startDate": "0786-01-01",
+  "category": "political",
+  "connections": [
+    "event-0802-correspondence-between-the-byzantine-emperor-nicephorus-and-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0787-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "39"
+    }
+  ]
+}

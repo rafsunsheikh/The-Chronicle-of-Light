@@ -1,0 +1,24 @@
+{
+  "id": "event-0661-departure-of-al-hasan-and-al-husayn-for",
+  "title": "The departure of al-Hasan and al-Husayn for al-Madinah",
+  "description": "al-Husayn for al-Madinah When peace was made between al-Hasan and Mu awiyah at Maskin, (al-Hasan) rose-as I have been told on the authority of Ziyad al-Bakka'i-'Awanah-to speak to the people, saying, \"0 people of Iraq, I am glad to be rid of you for three reasons: your killing of my father, your stabbing of me, and your plundering of my possessions.\" Then al-Hasan, al-Husayn, and 'Abdallah b. Ja'far left with their servants45 and baggage and went to al-Kufah.",
+  "startDate": "0661-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-those-routed-on-the-day-of-the-camel",
+    "event-0673-why-mu-awiyah-dismissed-said-and-appointed-marwan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0662-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "1"
+    }
+  ]
+}

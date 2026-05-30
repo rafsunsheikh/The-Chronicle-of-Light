@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-another-account",
+  "title": "Another account",
+  "description": "According to Harun b. Ishaq-Mus'ab b. al-Migdam- Isra'il -Abu Islhag63-I Iarithah-`Ali: When we came to Medina we ate of its produce and became jaded with it and unwell from eating it. [12891 The Messenger of God was making enquiries about Badr, and when we learnt that the polytheists had come the Messenger of God went to Badr which is a well) and we got there before the polytheists. We found there two of them, a man of Quraysh and a mawla of 'Uqbah b. Abi Mu`ayt.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-questions-after-the-return-to-medina",
+    "event-0622-return-of-the-muslims-to-medina"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "32"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "event-0719-slaying-of-shawdhab-the-kharijite",
+  "title": "The Slaying of Shawdhab the Kharijite",
+  "description": "We have already mentioned the report about the delegation that Shawdhab sent to 'Umar b. 'Abd al-'Aziz in order to argue about his revolt against the Caliph.375 According to Ma'mar b. al-Muthanna, when 'Umar died, 'Abd al-Hamid b. 'Abd al-Rahman, desirous of winning the favor of Yazid b. 'Abd al-Malik, wrote to Muhammad b. Jarir ordering him to attack Shawdhab and his men. Now at that moment, Shawdhab, whose two messengers had not yet returned, was unaware of 'Umar's death. Thus, when the Kharijites saw Muhammad b.",
+  "startDate": "0719-01-01",
+  "category": "military",
+  "connections": [
+    "event-0718-revolt-of-the-kharijites",
+    "event-0719-supplement-to-the-biography-of-umar-b-abd",
+    "event-0745-death-of-al-dahhak-b-qays-the-kharijite",
+    "event-0745-revolt-of-al-dahhak-b-qays-the-kharijite"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0720-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "108"
+    }
+  ]
+}

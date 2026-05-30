@@ -1,0 +1,16 @@
+{
+  "id": "event-0626-battle-of-the-trench",
+  "title": "The Battle of the Trench",
+  "description": "In this year the battle of the Messenger of God at the trench took place in the month of Shawwa1,22 according to Ibn Ilumayd23-",
+  "startDate": "0626-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0627-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "5"
+    }
+  ]
+}

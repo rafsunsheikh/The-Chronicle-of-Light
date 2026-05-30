@@ -1,0 +1,16 @@
+{
+  "id": "event-0887-brigand-al-abdi-at-samara",
+  "title": "The Brigand al-'Abdi at Samara",
+  "description": "The Brigand al-'Abdi at Samara. Recorded under the year 274 AH (887–888 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0887-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0888-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "157"
+    }
+  ]
+}

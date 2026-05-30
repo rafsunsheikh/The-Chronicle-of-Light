@@ -1,0 +1,26 @@
+{
+  "id": "event-0718-umar-b-abd-al-aziz-appoints-abd-al",
+  "title": "'Umar b. 'Abd al-'Aziz Appoints 'Abd al-Rahman b. Nu'aym and 'Abd al-Rahman b. 'Abdallah al-Qushayri over Khurasan",
+  "description": "Nu'aym and `Abd al-Rahman b. 'Abdalldh alQushayri over Khurdsan The reason for this, according to what was reported to me: alJarrah b. 'Abdalldh was dismissed from his position in Khurdsan at the time that the complaint was lodged against him. He was summoned by 'Umar b. 'Abd al-'Aziz and went to see him, as I have already reported above.305 According to'Ali b. Muhammad-Kharijah b. Mu^'ab al-I)abb'i and'Abdalldhb.",
+  "startDate": "0718-01-01",
+  "category": "political",
+  "connections": [
+    "event-0705-appointment-of-umar-b-abd-al-aziz-as",
+    "event-0718-dismissal-of-al-jarrah-b-abdallah",
+    "event-0719-escape-of-yazid-b-al-muhallab",
+    "event-0720-maslamah-appoints-said-khudhaynah-as-governor-of-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0719-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "85"
+    }
+  ]
+}

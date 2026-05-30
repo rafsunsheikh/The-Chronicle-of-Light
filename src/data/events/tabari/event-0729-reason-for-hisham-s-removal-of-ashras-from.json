@@ -1,0 +1,24 @@
+{
+  "id": "event-0729-reason-for-hisham-s-removal-of-ashras-from",
+  "title": "The Reason for Hisham's Removal of Ashras from Khurasan and His Appointment of al-junayd",
+  "description": "Khurdsan and His Appointment of al-Junayd According to 'Ali b. Muhammad-Abu al-Dhayyil: The reason for the dismissal of Ashras was that Shaddid b. Khilid al-Bihili went to Hisham to complain about him. Therefore, Hisham dismissed him, appointing al-Junayd b. 'Abd al-Rahman as governor of Khurisin in the year 111(730) 271 The reason for Hishim 's appointment of Junayd was that he had given a jeweled necklace to Umm Hakim bt. Yahyi b. alHakam, the wife of Hisham.272 It pleased Hishim; thus al-Junayd gave Hisham another necklace.",
+  "startDate": "0729-01-01",
+  "category": "political",
+  "connections": [
+    "event-0727-thabit-qutnah-s-anger-at-asad",
+    "event-0734-matter-of-al-junayd-b-abd-al-rahman"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0730-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "65"
+    }
+  ]
+}

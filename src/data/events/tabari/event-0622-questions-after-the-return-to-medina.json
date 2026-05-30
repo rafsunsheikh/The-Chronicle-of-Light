@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-questions-after-the-return-to-medina",
+  "title": "Questions After the Return to Medina",
+  "description": "Some of the family of 'Abd Allah b. Jahsh relate that he said to his companions, \"The Messenger of God receives a fifth of the booty you have taken.\" This was before God made (surrendering) a fifth of booty taken a duty.\", He set aside a fifth of the booty for the Messenger of God and divided the rest between his companions. When they reached the Messenger of God he said, \"I did not order you to fight in the sacred month,\" and he impounded the caravan and the two captives and refused to take anything of it.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-another-account",
+    "event-0622-variant-account"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "20"
+    }
+  ]
+}

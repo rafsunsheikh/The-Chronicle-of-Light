@@ -1,0 +1,667 @@
+[
+  {
+    "id": "tabari-v24-96-001",
+    "title": "The Slaying of Qutaybah b. Muslim",
+    "description": "",
+    "hijriYear": 96,
+    "ceLabel": "715–716",
+    "startDate": "715",
+    "endDate": "716",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 5,
+      "ceRaw": "715/716"
+    }
+  },
+  {
+    "id": "tabari-v24-96-002",
+    "title": "The Appointment of Yazid b. al-Muhallab as Governor of Khurasan",
+    "description": "",
+    "hijriYear": 96,
+    "ceLabel": "715–716",
+    "startDate": "715",
+    "endDate": "716",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 31,
+      "ceRaw": "715/716"
+    }
+  },
+  {
+    "id": "tabari-v24-97-003",
+    "title": "39 Maslamah b. 'Abd al- Malik Besieges Constantinople",
+    "description": "",
+    "hijriYear": 97,
+    "ceLabel": "716–717",
+    "startDate": "716",
+    "endDate": "717",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 39,
+      "ceRaw": "716/717"
+    }
+  },
+  {
+    "id": "tabari-v24-97-004",
+    "title": "[The Conquest of Jurjan and Tabaristanj",
+    "description": "",
+    "hijriYear": 97,
+    "ceLabel": "716–717",
+    "startDate": "716",
+    "endDate": "717",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 42,
+      "ceRaw": "716/717"
+    }
+  },
+  {
+    "id": "tabari-v24-98-005",
+    "title": "[The Death of Sulayman b. 'Abd al-Malik] / 6 z Aspects of His Character",
+    "description": "",
+    "hijriYear": 98,
+    "ceLabel": "717–718",
+    "startDate": "717",
+    "endDate": "718",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 62,
+      "ceRaw": "717/718"
+    }
+  },
+  {
+    "id": "tabari-v24-99-006",
+    "title": "The Reason Why Sulayman Appointed 'Umar as Caliph",
+    "description": "",
+    "hijriYear": 99,
+    "ceLabel": "718–719",
+    "startDate": "718",
+    "endDate": "719",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 69,
+      "ceRaw": "718/719"
+    }
+  },
+  {
+    "id": "tabari-v24-99-007",
+    "title": "The Revolt of the Kharijites",
+    "description": "",
+    "hijriYear": 99,
+    "ceLabel": "718–719",
+    "startDate": "718",
+    "endDate": "719",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 76,
+      "ceRaw": "718/719"
+    }
+  },
+  {
+    "id": "tabari-v24-99-008",
+    "title": "The Capture of Yazid b. al-Muhallab",
+    "description": "",
+    "hijriYear": 99,
+    "ceLabel": "718–719",
+    "startDate": "718",
+    "endDate": "719",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 79,
+      "ceRaw": "718/719"
+    }
+  },
+  {
+    "id": "tabari-v24-99-009",
+    "title": "The Dismissal of al-jarrah b. 'Abdallah",
+    "description": "",
+    "hijriYear": 99,
+    "ceLabel": "718–719",
+    "startDate": "718",
+    "endDate": "719",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 82,
+      "ceRaw": "718/719"
+    }
+  },
+  {
+    "id": "tabari-v24-99-010",
+    "title": "'Umar b. 'Abd al-'Aziz Appoints 'Abd al-Rahman b. Nu'aym and 'Abd al-Rahman b. 'Abdallah al-Qushayri over Khurasan",
+    "description": "",
+    "hijriYear": 99,
+    "ceLabel": "718–719",
+    "startDate": "718",
+    "endDate": "719",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 85,
+      "ceRaw": "718/719"
+    }
+  },
+  {
+    "id": "tabari-v24-99-011",
+    "title": "The Beginning of the Da'wah",
+    "description": "",
+    "hijriYear": 99,
+    "ceLabel": "718–719",
+    "startDate": "718",
+    "endDate": "719",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 87,
+      "ceRaw": "718/719"
+    }
+  },
+  {
+    "id": "tabari-v24-100-012",
+    "title": "The Escape of Yazid b. al-Muhallab",
+    "description": "",
+    "hijriYear": 100,
+    "ceLabel": "719–720",
+    "startDate": "719",
+    "endDate": "720",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 89,
+      "ceRaw": "719/720"
+    }
+  },
+  {
+    "id": "tabari-v24-100-013",
+    "title": "(The Death of 'Umar b. 'Abd al-'Azizj",
+    "description": "",
+    "hijriYear": 100,
+    "ceLabel": "719–720",
+    "startDate": "719",
+    "endDate": "720",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 91,
+      "ceRaw": "719/720"
+    }
+  },
+  {
+    "id": "tabari-v24-100-014",
+    "title": "Aspects of His Character",
+    "description": "",
+    "hijriYear": 100,
+    "ceLabel": "719–720",
+    "startDate": "719",
+    "endDate": "720",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 93,
+      "ceRaw": "719/720"
+    }
+  },
+  {
+    "id": "tabari-v24-100-015",
+    "title": "A Supplement to the Biography of 'Umar b. 'Abd al-'Aziz That Is Not Part of Abu ja 'far's jal-Tabari'sj Book, to the Beginning of the Caliphate of Yazid b. 'Abd al -Malik b. Marwan",
+    "description": "",
+    "hijriYear": 100,
+    "ceLabel": "719–720",
+    "startDate": "719",
+    "endDate": "720",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 98,
+      "ceRaw": "719/720"
+    }
+  },
+  {
+    "id": "tabari-v24-100-016",
+    "title": "The Caliphate of Yazid b. 'Abd al-Malik b. Marwan 720)",
+    "description": "",
+    "hijriYear": 100,
+    "ceLabel": "719–720",
+    "startDate": "719",
+    "endDate": "720",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 105,
+      "ceRaw": "719/720"
+    }
+  },
+  {
+    "id": "tabari-v24-100-017",
+    "title": "The Slaying of Shawdhab the Kharijite",
+    "description": "",
+    "hijriYear": 100,
+    "ceLabel": "719–720",
+    "startDate": "719",
+    "endDate": "720",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 108,
+      "ceRaw": "719/720"
+    }
+  },
+  {
+    "id": "tabari-v24-100-018",
+    "title": "Yazid b. al-Muhallab Renounces His Allegiance to Yazid b. 'Abd al-Malik",
+    "description": "",
+    "hijriYear": 100,
+    "ceLabel": "719–720",
+    "startDate": "719",
+    "endDate": "720",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 11,
+      "ceRaw": "719/720"
+    }
+  },
+  {
+    "id": "tabari-v24-101-019",
+    "title": "The Slaying of Yazid b. al-Muhallab",
+    "description": "",
+    "hijriYear": 101,
+    "ceLabel": "720–721",
+    "startDate": "720",
+    "endDate": "721",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 127,
+      "ceRaw": "720/721"
+    }
+  },
+  {
+    "id": "tabari-v24-101-020",
+    "title": "Maslamah Appoints Said Khudhaynah as Governor of Khurasan",
+    "description": "",
+    "hijriYear": 101,
+    "ceLabel": "720–721",
+    "startDate": "720",
+    "endDate": "721",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 150,
+      "ceRaw": "720/721"
+    }
+  },
+  {
+    "id": "tabari-v24-101-021",
+    "title": "Sa9d 's Dismissal of Shu'bah and the Battle at the Fortress of al-Bahili",
+    "description": "",
+    "hijriYear": 101,
+    "ceLabel": "720–721",
+    "startDate": "720",
+    "endDate": "721",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 152,
+      "ceRaw": "720/721"
+    }
+  },
+  {
+    "id": "tabari-v24-101-022",
+    "title": "Said Khudhaynah 's Military Expedition against the Soghdians",
+    "description": "",
+    "hijriYear": 101,
+    "ceLabel": "720–721",
+    "startDate": "720",
+    "endDate": "721",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 158,
+      "ceRaw": "720/721"
+    }
+  },
+  {
+    "id": "tabari-v24-101-023",
+    "title": "The Dismissal of Maslamah from Iraq and Khurasan",
+    "description": "",
+    "hijriYear": 101,
+    "ceLabel": "720–721",
+    "startDate": "720",
+    "endDate": "721",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 162,
+      "ceRaw": "720/721"
+    }
+  },
+  {
+    "id": "tabari-v24-101-024",
+    "title": "The Slaying of Yazid b. Abi Muslim",
+    "description": "",
+    "hijriYear": 101,
+    "ceLabel": "720–721",
+    "startDate": "720",
+    "endDate": "721",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 165,
+      "ceRaw": "720/721"
+    }
+  },
+  {
+    "id": "tabari-v24-102-025",
+    "title": "The Dismissal of Said Khudhaynah as Governor of Khurasan",
+    "description": "",
+    "hijriYear": 102,
+    "ceLabel": "721–722",
+    "startDate": "721",
+    "endDate": "722",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 166,
+      "ceRaw": "721/722"
+    }
+  },
+  {
+    "id": "tabari-v24-102-026",
+    "title": "'Omar b. Hubayrah's Appointment of Said al -Harashi as Governor of Khurasan",
+    "description": "",
+    "hijriYear": 102,
+    "ceLabel": "721–722",
+    "startDate": "721",
+    "endDate": "722",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 68,
+      "ceRaw": "721/722"
+    }
+  },
+  {
+    "id": "tabari-v24-102-027",
+    "title": "The Soghdians Leave Their Country for Farghanah",
+    "description": "",
+    "hijriYear": 102,
+    "ceLabel": "721–722",
+    "startDate": "721",
+    "endDate": "722",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 169,
+      "ceRaw": "721/722"
+    }
+  },
+  {
+    "id": "tabari-v24-104-028",
+    "title": "The Battle between al-Harashi and the Soghdian Army",
+    "description": "",
+    "hijriYear": 104,
+    "ceLabel": "722–723",
+    "startDate": "722",
+    "endDate": "723",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 172,
+      "ceRaw": "722/723"
+    }
+  },
+  {
+    "id": "tabari-v24-104-029",
+    "title": "Yazid b. 'Abd al -Malik's Dismissal of 'Abd al-Rahman b. al-lDahhak from Medina",
+    "description": "",
+    "hijriYear": 104,
+    "ceLabel": "722–723",
+    "startDate": "722",
+    "endDate": "723",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 180,
+      "ceRaw": "722/723"
+    }
+  },
+  {
+    "id": "tabari-v24-104-030",
+    "title": "'Umar b. Hubayrah's Dismissal of Said b. 'Amr al-Harashi as Governor of Khurasan",
+    "description": "",
+    "hijriYear": 104,
+    "ceLabel": "722–723",
+    "startDate": "722",
+    "endDate": "723",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 183,
+      "ceRaw": "722/723"
+    }
+  },
+  {
+    "id": "tabari-v24-104-031",
+    "title": "The Appointment of Muslim b. Said as Governor of Khurasan",
+    "description": "",
+    "hijriYear": 104,
+    "ceLabel": "722–723",
+    "startDate": "722",
+    "endDate": "723",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 187,
+      "ceRaw": "722/723"
+    }
+  },
+  {
+    "id": "tabari-v24-105-032",
+    "title": "Muslim b. Said's Expedition against the Turks",
+    "description": "",
+    "hijriYear": 105,
+    "ceLabel": "723–724",
+    "startDate": "723",
+    "endDate": "724",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 193,
+      "ceRaw": "723/724"
+    }
+  },
+  {
+    "id": "tabari-v24-105-033",
+    "title": "The Death of Yazid b. 'Abd al-Malik",
+    "description": "",
+    "hijriYear": 105,
+    "ceLabel": "723–724",
+    "startDate": "723",
+    "endDate": "724",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 93,
+      "ceRaw": "723/724"
+    }
+  },
+  {
+    "id": "tabari-v24-105-034",
+    "title": "Aspects of His Character",
+    "description": "",
+    "hijriYear": 105,
+    "ceLabel": "723–724",
+    "startDate": "723",
+    "endDate": "724",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 194,
+      "ceRaw": "723/724"
+    }
+  },
+  {
+    "id": "tabari-v24-105-035",
+    "title": "Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 105,
+    "ceLabel": "723–724",
+    "startDate": "723",
+    "endDate": "724",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "24",
+      "page": 197,
+      "ceRaw": "723/724"
+    }
+  }
+]

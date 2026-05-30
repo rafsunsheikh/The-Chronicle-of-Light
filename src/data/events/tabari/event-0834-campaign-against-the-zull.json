@@ -1,0 +1,16 @@
+{
+  "id": "event-0834-campaign-against-the-zull",
+  "title": "The Campaign against the Zull",
+  "description": "In this year, in Jumada II (June -July 834), a1-Mu'tasim sent *Ujayf",
+  "startDate": "0834-01-16",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0835-01-04",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "7"
+    }
+  ]
+}

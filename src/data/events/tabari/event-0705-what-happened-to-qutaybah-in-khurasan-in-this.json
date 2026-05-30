@@ -1,0 +1,23 @@
+{
+  "id": "event-0705-what-happened-to-qutaybah-in-khurasan-in-this",
+  "title": "What Happened to Qutaybah in Khurasan in This Year",
+  "description": "What Happened to Qutaybah in Khurasan in This Year. Recorded under the year 86 AH (705 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0705-01-01",
+  "category": "political",
+  "connections": [
+    "event-0704-reason-why-al-hajjaj-dismissed-yazid-b-al",
+    "event-0715-appointment-of-yazid-b-al-muhallab-as-governor"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "1127"
+    }
+  ]
+}

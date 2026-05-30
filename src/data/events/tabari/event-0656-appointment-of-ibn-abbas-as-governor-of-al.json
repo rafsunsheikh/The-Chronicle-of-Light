@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-appointment-of-ibn-abbas-as-governor-of-al",
+  "title": "The Appointment of Ibn 'Abbas as Governor of al-Basrah and Ziyad over the Khardj Tax",
+  "description": "of a]-Basrah and Ziyad over the Kharaj Tax `Ali appointed Ibn `Abbas governor of al-Basrah and Ziyad over the [3230] kharaj tax and the treasury, and he ordered Ibn `Abbas to listen to Ziyad's advice. \" I consulted him about some small thing concerning the people,\" Ibn `Abbas used to say, \"and he replied, 'If you know you're in the right and that your opponent is in the wrong, I'll give you proper advice; if you don't know, I'll give you proper advice just the same.' 'I'm in…",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-al-ashtar-sends-a-ishah-a-he-camel",
+    "event-0656-ali-equips-a-ishah-to-leave-al-basrah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "169"
+    }
+  ]
+}

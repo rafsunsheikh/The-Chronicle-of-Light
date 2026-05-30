@@ -1,0 +1,21 @@
+{
+  "id": "event-0730-battle-of-the-defile-what-its-cause-was",
+  "title": "The Battle of the Defile: What Its Cause Was and How It Happened",
+  "description": "Cause Was and How It Happened According to 'Ali b. Muhammad-his authorities: Al-Junayd b. 'Abd al- Rahman went forth campaigning in the year 112, heading for Tukharistan. He camped by the river of Balkh, sending 'Umarah b. Huraym to Tukharistan300 with eighteen thousand (men) and Ibrahim b. Bassam al-Laythi 01 in another direction with ten thousand. The Turks then raised their army and came against Samarqand, where Sawrah b. al-Huff, one of the Band Aban b. Dirim, was governor. Sawrah wrote to al-Junayd, \"The Khagan has mobilized the Turks.",
+  "startDate": "0730-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0731-12-31",
+  "location": {
+    "latitude": 36.7,
+    "longitude": 68.0,
+    "name": "Tokharistan (upper Oxus)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "71"
+    }
+  ]
+}

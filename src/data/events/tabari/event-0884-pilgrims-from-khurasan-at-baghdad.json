@@ -1,0 +1,23 @@
+{
+  "id": "event-0884-pilgrims-from-khurasan-at-baghdad",
+  "title": "Pilgrims from Khurasan at Baghdad",
+  "description": "Pilgrims from Khurasan at Baghdad. Recorded under the year 270 AH (884–885 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0884-01-01",
+  "category": "political",
+  "connections": [
+    "event-0838-story-of-the-poet-abu-shas"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0885-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "147"
+    }
+  ]
+}

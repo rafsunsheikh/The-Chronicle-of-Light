@@ -1,0 +1,16 @@
+{
+  "id": "event-0701-cause-of-the-battle-of-maskin-with-a",
+  "title": "The Cause of the Battle [of Maskin], with a Description of It",
+  "description": "with a Description of It",
+  "startDate": "0701-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0702-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "46"
+    }
+  ]
+}

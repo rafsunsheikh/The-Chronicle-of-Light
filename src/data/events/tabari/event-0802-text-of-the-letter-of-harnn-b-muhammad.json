@@ -1,0 +1,18 @@
+{
+  "id": "event-0802-text-of-the-letter-of-harnn-b-muhammad",
+  "title": "The Text of the Letter of Harnn b. Muhammad, al-Rashid, to the Provincial Governors",
+  "description": "al-Rashid, to the Provincial Govemors689 In the name of God, the Merciful, the Compassionate. As follows: God is the patron [wall] of the Commander of the Faithful, the patron of what he has endowed him with as ruler, the guardian of the caliphate and the authority which He has entrusted to his care and has honored him with, and the One who favors him in all the affairs of his which he initiates or relinquishes.",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0802-al-rashid-s-subsequent-renewal-of-the-succession",
+    "event-0802-al-rashid-s-succession-arrangements-for-his-three"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "195"
+    }
+  ]
+}

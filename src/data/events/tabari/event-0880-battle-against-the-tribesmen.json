@@ -1,0 +1,23 @@
+{
+  "id": "event-0880-battle-against-the-tribesmen",
+  "title": "The Battle against the Tribesmen",
+  "description": "It is said that when the abominable one had devastated al-Basrah, he appointed Ahmad b. Musa b. Sa'id, the one called alQalus, one of his earliest companions, as governor of the city. While al-Qalus conducted the affairs of al-Basrah, it became the profligate 's port. The tribesmen and merchants travelled to the city and carried off provisions and merchandise, which they then transferred to the camp of the abominable one. This lasted until Abu Ahmad conquered Tahitha and al-Qalus was captured. Then, the abominable one appointed Malik b.",
+  "startDate": "0880-01-01",
+  "category": "military",
+  "connections": [
+    "event-0870-account-of-al-muwallad-s-expedition"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0881-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "68"
+    }
+  ]
+}

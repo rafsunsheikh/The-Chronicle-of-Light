@@ -1,0 +1,23 @@
+{
+  "id": "event-0907-al-misma-i-s-rebellion",
+  "title": "Al-Misma'i's rebellion",
+  "description": "Al-Misma'i's rebellion. Recorded under the year 294 AH (907–908 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0907-01-01",
+  "category": "military",
+  "connections": [
+    "event-0905-157-unrest-in-the-yemen"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0908-12-31",
+  "location": {
+    "latitude": 15.355,
+    "longitude": 44.206,
+    "name": "Yemen (San'a')"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "185"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "event-0833-anecdotes-about-al-ma-mun-and-his-conduct",
+  "title": "Anecdotes about al-Ma'mun and his conduct:",
+  "description": "Anecdotes about al-Ma'mun and his conduct:. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0825-capture-of-ibrahim-b-al-mahdi-dressed-in",
+    "event-0833-al-ma-mun-and-the-exigent-boon-companion"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "232"
+    }
+  ]
+}

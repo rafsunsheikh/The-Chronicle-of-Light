@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-account-of-badr-by-ibn-ishaq",
+  "title": "Account of Badr by Ibn Ishaq",
+  "description": "According to Ibn Humayd-Salamah-Muhammad b. Ishaq:67 The Messenger of God heard that Abu Sufyan b. I;Iarb was coming from Syria in a great caravan belonging to Quraysh containing money and merchandise of theirs and including thirty or forty horsemen of Quraysh, among them Makhramah b. Nawfal b. 65. The Prophet 's uncle.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-account-of-the-greater-battle-of-badr-in",
+    "event-0622-number-of-muslims-at-badr"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 23.78,
+    "longitude": 38.7906,
+    "name": "Badr, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "34"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "event-0629-expedition-against-the-banu-al-mulawwiki",
+  "title": "The Expedition against the Banu al-Mulawwiki",
+  "description": "In $afar of this year the Messenger of God sent Ghalib b. `Abdallah al-Laythi on a raid to al-Kadid against the Banu al -Mulawwih.592 [iS98J According to Abu Ja' far [al-Tabarij: The report of this raiding",
+  "startDate": "0629-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0630-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "139"
+    }
+  ]
+}

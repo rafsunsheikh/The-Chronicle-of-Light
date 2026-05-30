@@ -1,0 +1,18 @@
+{
+  "id": "event-0821-tahir-b-al-husayn-s-epistle-of-advice",
+  "title": "Tahir b. al-Husayn 's epistle of advice to his son 'Abdallah on the latter's taking up his post",
+  "description": "Tahir b. al-Husayn 's epistle of advice to his son 'Abdallah on the latter's taking up his post. Recorded under the year 206 AH (c. 821 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0821-01-01",
+  "category": "political",
+  "connections": [
+    "event-0820-al-ma-mun-s-appointment-of-tahir-b",
+    "event-0821-mysterious-death-in-khurasan-of-tahir-b-al"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "10"
+    }
+  ]
+}

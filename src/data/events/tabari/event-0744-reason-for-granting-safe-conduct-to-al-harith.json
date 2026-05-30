@@ -1,0 +1,24 @@
+{
+  "id": "event-0744-reason-for-granting-safe-conduct-to-al-harith",
+  "title": "The Reason for Granting Safe-Conduct to al-Harith b. Surayj",
+  "description": "al-Hurith b. Surayjil53 It is reported that when the disagreement between Nagr and alKirmani occurred in Khurasin, Nagr was afraid that al-Harith b. Surayj would muster his followers and the Turks against him, and that the situation would be worse for him than it had been with al-Kirmani and others. Na$r therefore was keen' 154 to consult alHarith. So he sent Mugatil b. Hayyan al-Nabati, Tha'labah b. $afwin al-Banani, Anas b. Bajalah al-'Araji, Hudbah al-Sha'rawi, and Rabi'ah al-Qurashi to al-Harith to bring him back from the country of the Turks.",
+  "startDate": "0744-01-01",
+  "category": "political",
+  "connections": [
+    "event-0737-reason-for-nasr-b-sayyir-s-governorship-of",
+    "event-0745-slaying-of-al-harith-b-surayj-in-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0745-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "235"
+    }
+  ]
+}

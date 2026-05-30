@@ -1,0 +1,268 @@
+[
+  {
+    "id": "tabari-v12-14-001",
+    "title": "The Day of Armath",
+    "description": "",
+    "hijriYear": 14,
+    "ceLabel": "635–636",
+    "startDate": "635",
+    "endDate": "636",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 81,
+      "ceRaw": "635/636"
+    }
+  },
+  {
+    "id": "tabari-v12-14-002",
+    "title": "The Day of Aghwath",
+    "description": "",
+    "hijriYear": 14,
+    "ceLabel": "635–636",
+    "startDate": "635",
+    "endDate": "636",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 96,
+      "ceRaw": "635/636"
+    }
+  },
+  {
+    "id": "tabari-v12-14-003",
+    "title": "The Day of 'Imas / x o6 The Night of al-Qadisiyyah",
+    "description": "",
+    "hijriYear": 14,
+    "ceLabel": "635–636",
+    "startDate": "635",
+    "endDate": "636",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 122,
+      "ceRaw": "635/636"
+    }
+  },
+  {
+    "id": "tabari-v12-14-004",
+    "title": "The Account of Ibn Ishaq",
+    "description": "",
+    "hijriYear": 14,
+    "ceLabel": "635–636",
+    "startDate": "635",
+    "endDate": "636",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 132,
+      "ceRaw": "635/636"
+    }
+  },
+  {
+    "id": "tabari-v12-14-005",
+    "title": "An Account of the People of the Lowlands (ahl al-sawdd)",
+    "description": "",
+    "hijriYear": 14,
+    "ceLabel": "635–636",
+    "startDate": "635",
+    "endDate": "636",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 1145,
+      "ceRaw": "635/636"
+    }
+  },
+  {
+    "id": "tabari-v12-14-006",
+    "title": "The Building of al-Bagrah",
+    "description": "",
+    "hijriYear": 14,
+    "ceLabel": "635–636",
+    "startDate": "635",
+    "endDate": "636",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 1611,
+      "ceRaw": "635/636"
+    }
+  },
+  {
+    "id": "tabari-v12-15-007",
+    "title": "The Battle of Marj al-Rum",
+    "description": "",
+    "hijriYear": 15,
+    "ceLabel": "636–637",
+    "startDate": "636",
+    "endDate": "637",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 174,
+      "ceRaw": "636/637"
+    }
+  },
+  {
+    "id": "tabari-v12-15-008",
+    "title": "The Conquest of Him",
+    "description": "",
+    "hijriYear": 15,
+    "ceLabel": "636–637",
+    "startDate": "636",
+    "endDate": "637",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 175,
+      "ceRaw": "636/637"
+    }
+  },
+  {
+    "id": "tabari-v12-15-009",
+    "title": "The Story of Qinnasrin",
+    "description": "",
+    "hijriYear": 15,
+    "ceLabel": "636–637",
+    "startDate": "636",
+    "endDate": "637",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 178,
+      "ceRaw": "636/637"
+    }
+  },
+  {
+    "id": "tabari-v12-15-010",
+    "title": "The Departure of Heraclius for Constantinople",
+    "description": "",
+    "hijriYear": 15,
+    "ceLabel": "636–637",
+    "startDate": "636",
+    "endDate": "637",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 181,
+      "ceRaw": "636/637"
+    }
+  },
+  {
+    "id": "tabari-v12-15-011",
+    "title": "The Conquest of Caesarea and the Siege of Gaza",
+    "description": "",
+    "hijriYear": 15,
+    "ceLabel": "636–637",
+    "startDate": "636",
+    "endDate": "637",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 183,
+      "ceRaw": "636/637"
+    }
+  },
+  {
+    "id": "tabari-v12-15-012",
+    "title": "x Contents The Conquest of Baysan and the Battle of Ajnadayn",
+    "description": "",
+    "hijriYear": 15,
+    "ceLabel": "636–637",
+    "startDate": "636",
+    "endDate": "637",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 85,
+      "ceRaw": "636/637"
+    }
+  },
+  {
+    "id": "tabari-v12-15-013",
+    "title": "The Conquest of Jerusalem",
+    "description": "",
+    "hijriYear": 15,
+    "ceLabel": "636–637",
+    "startDate": "636",
+    "endDate": "637",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 189,
+      "ceRaw": "636/637"
+    }
+  },
+  {
+    "id": "tabari-v12-15-014",
+    "title": "The Introduction of the Pay System ('ala') and of the Military Register (diwan)",
+    "description": "",
+    "hijriYear": 15,
+    "ceLabel": "636–637",
+    "startDate": "636",
+    "endDate": "637",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "12",
+      "page": 99,
+      "ceRaw": "636/637"
+    }
+  }
+]

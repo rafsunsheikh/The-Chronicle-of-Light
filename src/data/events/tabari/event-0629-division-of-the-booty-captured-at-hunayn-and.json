@@ -1,0 +1,22 @@
+{
+  "id": "event-0629-division-of-the-booty-captured-at-hunayn-and",
+  "title": "The Division of the Booty Captured at Hunayn and Gifts of Conciliation",
+  "description": "and Gifts of Conciliation) Ibn Humayd-Salamah-Ibn Ishaq: Then the Messenger of God left al-Ta'if and went [by way] of Dahna195 until he halted at alJi'ranah with the Muslims who were with him. When he marched to al-Ti'if, he had sent the captives of Hawazin to be detained in al-ji'ranah. Thus the delegations of Hawazin came to him there. The Messenger of God held six thousand captives from the children and women, and innumerable camels and sheep.196 l16751 Ibn Humayd- Salamah-Muhammad b. Ishaq-'Amr b. Shu'ayb-his father197-his grandfather 'Abdallah b.",
+  "startDate": "0629-01-01",
+  "category": "political",
+  "connections": [
+    "event-0629-account-of-the-messenger-of-god-s-expedition"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 21.46,
+    "longitude": 40.2,
+    "name": "near Ta'if"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 09",
+      "page": "26"
+    }
+  ]
+}

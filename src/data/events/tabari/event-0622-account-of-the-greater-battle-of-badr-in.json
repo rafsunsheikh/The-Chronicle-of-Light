@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-account-of-the-greater-battle-of-badr-in",
+  "title": "The Account of the Greater Battle of Badr in the Letter of 'Urwah",
+  "description": "in the Letter of 'Urwah16 According to 'Ali b. Nasr b. 'Ali and 'Abd al-Warith b. 'Abd alSamad b. 'Abd al-Warith-'Abd al-Samad b. 'Abd al-Warith-his father-Aban al-'Attar-Hisham b. 'Urwah: 'Urwah wrote to 'Abd al-Malik b. Marwan as follows:",
+  "startDate": "0622-07-16",
+  "category": "military",
+  "connections": [
+    "event-0622-account-of-badr-by-ibn-ishaq",
+    "event-0622-battle-of-badr-the-date"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 23.78,
+    "longitude": 38.7906,
+    "name": "Badr, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "28"
+    }
+  ]
+}

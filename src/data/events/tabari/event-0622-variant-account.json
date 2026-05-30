@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-variant-account",
+  "title": "A Variant Account",
+  "description": "According to Muhammad b. 'Ubayd al-Muharibi-'Abd al-'Aziz b. Abi Hazim-his father: Someone said to Sahl b. Sa'd,42 \"A certain governor of Medina intends to send to you (ordering you to) abuse 'Ali from the minbar.\" He said, \"What shall I say?\" The man replied, \"Say Abu Turab.\" Sa'd said, \"By God, nobody called him that but the Messenger of God.\" I said, \"How was that, 0 Abu al-'Abbas?\" Sa'd replied, \"'Ali went to pay a visit to Fatimah, and then came out and lay down in the shadow of the mosque.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-expedition-led-by-muhammad-to-al-abwa",
+    "event-0622-questions-after-the-return-to-medina"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "17"
+    }
+  ]
+}

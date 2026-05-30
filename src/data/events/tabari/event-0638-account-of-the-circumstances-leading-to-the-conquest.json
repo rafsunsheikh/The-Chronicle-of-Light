@@ -1,0 +1,23 @@
+{
+  "id": "event-0638-account-of-the-circumstances-leading-to-the-conquest",
+  "title": "An Account of the Circumstances Leading to the Conquest of al-Ahwaz and of Him Who Carried It Out",
+  "description": "to the Conquest of al-Ahwaz and of Him Who Carried It Out According to al-Sari -Shu'ayb-Say(-Muhammad, Talhah, alMuhallab and 'Amr: Al- Hurmuzan was one of the seven noble families among the Persians 392 His territory was comprised of 387. Women painted their fingers and toes with henna, an ancient custom that persists to this day. 388. The Qur'anic, fixed penalty for qadhf, that is, an unproven, and therefore slanderous, accusation of illicit sexual relations, is eighty stripes for a free person.",
+  "startDate": "0638-01-01",
+  "category": "military",
+  "connections": [
+    "event-0638-conquest-of-tustar"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0639-12-31",
+  "location": {
+    "latitude": 31.32,
+    "longitude": 48.67,
+    "name": "Ahvaz, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "114"
+    }
+  ]
+}

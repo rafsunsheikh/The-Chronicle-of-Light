@@ -1,0 +1,16 @@
+{
+  "id": "event-0901-99-death-of-almu-tadid",
+  "title": "99-Death of alMu'tadid",
+  "description": "99-Death of alMu'tadid. Recorded under the year 288 AH (901–902 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0901-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0902-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "101"
+    }
+  ]
+}

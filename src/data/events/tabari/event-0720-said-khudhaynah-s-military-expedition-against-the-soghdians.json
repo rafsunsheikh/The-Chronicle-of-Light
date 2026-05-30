@@ -1,0 +1,24 @@
+{
+  "id": "event-0720-said-khudhaynah-s-military-expedition-against-the-soghdians",
+  "title": "Said Khudhaynah 's Military Expedition against the Soghdians",
+  "description": "Soghdians It is reported that Sa'id carried out this military expedition because, after the Turks returned to al-Sughd, the troops spoke to him, saying, \"The fact that you are no longer carrying out military expeditions has allowed the Turks to take the offensive and caused the Soghdians to renounce Islam.\" He therefore crossed over the river and headed for al-Sughd. He was met by the Turks, 546. Zurirah b. 'Udus. 547. Text: zurrdr; the Cairo ed. has wuzzdr. See Diwdn /arir, I, 326. 548.",
+  "startDate": "0720-01-01",
+  "category": "military",
+  "connections": [
+    "event-0709-qutaybah-s-campaign-in-transoxania",
+    "event-0753-rebellion-of-ziyad-b-salih-in-transoxania"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0721-12-31",
+  "location": {
+    "latitude": 39.7,
+    "longitude": 65.7,
+    "name": "Transoxania (between Oxus & Jaxartes)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "158"
+    }
+  ]
+}

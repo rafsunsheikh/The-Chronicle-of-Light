@@ -1,0 +1,23 @@
+{
+  "id": "event-0848-reason-for-itakh-s-pilgrimage-this-year",
+  "title": "The Reason for Itakh 's Pilgrimage This Year",
+  "description": "Itikh was reportedly a Khazar slave (ghulam), a cook, belonging to Sallam al-Abrash. Al-Mu'tasim bought Itakh from Sallam in r99 (814-1 5).281 As Itakh was manly and intrepid, al-Mu'tasim, and al- Wathiq after him, promoted him to the position where many of the administrative functions (a'mdl) of the central government were assigned to him. Al-Mu'tasim appointed him governor of the security police (ma'unah) of Samarra along with Ishaq b. Ibrahim. Both Itakh and Ishaq b. Ibrahim were represented by deputies.",
+  "startDate": "0848-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0841-something-about-al-mu-tasim-s-character-and"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0849-12-31",
+  "location": {
+    "latitude": 47.0,
+    "longitude": 47.0,
+    "name": "Khazar lands (lower Volga)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "81"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "event-0719-supplement-to-the-biography-of-umar-b-abd",
+  "title": "A Supplement to the Biography of 'Umar b. 'Abd al-'Aziz That Is Not Part of Abu ja 'far's jal-Tabari'sj Book, to the Beginning of the Caliphate of Yazid b. 'Abd al -Malik b. Marwan",
+  "description": "al-'Aziz That Is Not Part of Abu Ja'far's (al-Tabari's/ Book, to the Beginning of the Caliphate of Yazid b. 'Abd al-Malik b. Marwnn According to 'Abdallah b. Bakr b. Habib al-Sahmi: We were told by a man in the mosque of al-Junabidh346 that 'Umar b. 'Abd al-'Aziz delivered a sermon to the people in Khuna^irah in which he said: 0 people, you were not created in vain, nor will you be left to yourselves 347 Rather, you will return to a place in which God will descend in order to judge among you and distinguish between you.",
+  "startDate": "0719-01-01",
+  "category": "political",
+  "connections": [
+    "event-0687-azarigah-return-from-fars-to-iraq",
+    "event-0696-account-of-mutarrif-s-rebelling-and-throwing-off",
+    "event-0719-aspects-of-his-character",
+    "event-0719-caliphate-of-yazid-b-abd-al-malik-b",
+    "event-0719-slaying-of-shawdhab-the-kharijite",
+    "event-0746-abdallah-b-mu-awiyah-al-ja-fari-gains"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0720-12-31",
+  "location": {
+    "latitude": 29.6,
+    "longitude": 52.5,
+    "name": "Fars, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "98"
+    }
+  ]
+}

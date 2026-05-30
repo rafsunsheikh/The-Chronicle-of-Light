@@ -1,0 +1,21 @@
+{
+  "id": "event-0711-killing-of-the-king-of-kham-jird-and",
+  "title": "The Killing of the King of Kham Jird and Renewed Peace with Khwarazm",
+  "description": "The Killing of the King of Kham Jird and Renewed Peace with Khwarazm. Recorded under the year 92 AH (711–712 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0711-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0712-12-31",
+  "location": {
+    "latitude": 41.378,
+    "longitude": 60.364,
+    "name": "Khwarazm (Khiva)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "185"
+    }
+  ]
+}

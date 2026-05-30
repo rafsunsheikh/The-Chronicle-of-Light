@@ -1,0 +1,18 @@
+{
+  "id": "event-0747-qahtabah-b-shabib-comes-to-abu-muslim",
+  "title": "Qahtabah b. Shabib Comes to Abu Muslim",
+  "description": "Qahtabah b. Shabib Comes to Abu Muslim. Recorded under the year 129 AH (747 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0747-01-01",
+  "category": "political",
+  "connections": [
+    "event-0747-abu-muslim-kills-ali-and-uthman-the-sons",
+    "event-0749-qahtabah-camps-at-rayy-and-abu-muslim-moves"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "107"
+    }
+  ]
+}

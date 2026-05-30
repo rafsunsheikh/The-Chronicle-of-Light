@@ -1,0 +1,25 @@
+{
+  "id": "event-0696-shabib-s-second-entry-into-al-kiifah-and",
+  "title": "Shabib's Second Entry into al-Kiifah and His Battle with al-Hajjaj",
+  "description": "with al-Hajjaj According to Hishim-Abu Mikhnaf--Musa b. Suwar: Sabrah b. 'Abd al-Ralamin b. Mikhnaf came from al -Daskarah to al-Kufah after the Syrian army had arrived there. Mutarrif b. al-Mughirah had written to al-Hajjaj saying, \"Shabib is upon me; send an expeditionary force to al-Mada'in!\" and al-Hajjaj had sent him Sabrah b. 'Abd al-Rabmin b. Mikhnaf with two hundred horsemen. When Mutarrif set out for al-Jabal, he took his men with him, having informed them of his intentions;417 but he did not tell Sabrah.",
+  "startDate": "0696-01-01",
+  "category": "military",
+  "connections": [
+    "event-0695-shabib-s-entry-into-al-kufah-and-his",
+    "event-0697-important-events-occurring-in-this-year",
+    "event-0749-muhammad-b-khalid-al-qasri-revolts-at-kiifah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0697-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "107"
+    }
+  ]
+}

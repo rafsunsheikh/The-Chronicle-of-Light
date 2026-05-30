@@ -1,0 +1,23 @@
+{
+  "id": "event-0653-exile-of-the-kufans-whom-uthman-sent-to",
+  "title": "The Exile of the Kufans Whom ('Uthman] Sent [to Syria",
+  "description": "Syria J193 The authorities (ahl al-siyar) disagree on this matter. Sayf' s account was transmitted to me in writing by al-SariShu'ayb-(Sayf)-Muhammad and Talhah: Said b. al-'A^ used to receive visits only from those long settled in Kufah, the leading men among the veterans of the earliest battles in Iraq (wujuh ahl al-ayyam) and of al-Qadisiyyah, the Qur'an reciters (qurra')194 [2908] among the Ba^rans, and the pious-minded. These were his confidants when he retired [to his private quarters ].",
+  "startDate": "0653-01-01",
+  "category": "political",
+  "connections": [
+    "event-0651-reason-why-syria-was-unified-under-mu-awiyah",
+    "event-0653-uthman-s-exile-of-certain-bagrans-to-syria"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "112"
+    }
+  ]
+}

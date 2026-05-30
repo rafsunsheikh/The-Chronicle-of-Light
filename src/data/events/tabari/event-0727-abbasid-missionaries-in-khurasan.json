@@ -1,0 +1,24 @@
+{
+  "id": "event-0727-abbasid-missionaries-in-khurasan",
+  "title": "'Abbasid Missionaries in Khurasan",
+  "description": "According to 'Ali b. Muhammad: The first missionary of the Banu al-'Abbas to come to Khurisin was Ziyid Abu Muhammad, the mawli of the Hamdin. He was sent forth in the first governorship of Asad b. 'Abdallih by Muhammad b. 'Ali b. 'Abdallih b. al-'Abbas, who told him, \"Call the people to us, stay among the Yaman, and treat the Mudar gently.\" He also warned him to avoid a man from Abrashahr\" called Ghalib15 because of his excessive of the Umayyad court. See Ell, s.v. al- Farazdak. 171.",
+  "startDate": "0727-01-01",
+  "category": "political",
+  "connections": [
+    "event-0727-hisham-s-removal-of-khalid-and-his-brother",
+    "event-0727-thabit-qutnah-s-anger-at-asad"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0728-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "38"
+    }
+  ]
+}

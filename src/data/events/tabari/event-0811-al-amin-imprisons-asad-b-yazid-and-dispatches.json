@@ -1,0 +1,26 @@
+{
+  "id": "event-0811-al-amin-imprisons-asad-b-yazid-and-dispatches",
+  "title": "Al-Amin Imprisons Asad b. Yazid and Dispatches Ahmad b. Mazyad to Fight Tahir",
+  "description": "Ahmad b. Mazyad to Fight Tahir According to `Abd al-Rahman b. Waththib: Asad b. Yazid b. Mazyad related to him that al-Fadl b. al-Rabi ` had sent to him after the death of `Abd al-Rahman al-Abnawi 3 52 (Asad b. Yazid continued,] saying: So I came to him. When I went in to him, I found him sitting in the courtyard of his house, with a piece of paper he had read in his hand. His eyes were red, and he was very angry.",
+  "startDate": "0811-09-23",
+  "category": "political",
+  "connections": [
+    "event-0811-abd-al-malik-b-alih-recruits-troops-in",
+    "event-0811-ali-b-isa-b-mahan-goes-to-al",
+    "event-0811-rebellion-of-al-sufyani-in-syria",
+    "event-0811-tahir-expels-al-amin-s-agents-from-al",
+    "event-0812-some-aspects-of-the-conduct-and-mode-of"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "102"
+    }
+  ]
+}

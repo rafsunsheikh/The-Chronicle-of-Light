@@ -1,0 +1,24 @@
+{
+  "id": "event-0661-al-hasan-s-surrender-of-al-kufah-to",
+  "title": "Al-Hasan's surrender of al-Kufah to Mu'awiyah",
+  "description": "I was told by'Abdallah b. Ahmad-his father -Sulayman b. alFadl-'Abdallah-Yunus40 -al-Zuhri: When 'Abdallah b. 'Abbas learned that al-Hasan intended to ask Mu 'awiyah for a guarantee of safe-conduct for himself, he (also) wrote to Mu'awiyah asking him for security on condition that he be allowed to keep the wealth that he had acquired. So Mu'awiyah stipulated that for him.",
+  "startDate": "0661-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-what-ali-b-abi-talib-wrote-about-the",
+    "event-0684-deposition-of-camr-b-hurayth-by-the-people"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0662-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "9"
+    }
+  ]
+}

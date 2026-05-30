@@ -1,0 +1,16 @@
+{
+  "id": "event-0825-revolt-of-the-people-of-qumm-against-tax",
+  "title": "The revolt of the people of Qumm against tax burdens",
+  "description": "The revolt of the people of Qumm against tax burdens. Recorded under the year 210 AH (825–826 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0825-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0826-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "166"
+    }
+  ]
+}

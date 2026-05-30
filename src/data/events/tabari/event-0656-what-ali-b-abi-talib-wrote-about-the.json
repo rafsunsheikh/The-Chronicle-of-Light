@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-what-ali-b-abi-talib-wrote-about-the",
+  "title": "What 'Ali b. Abi Talib Wrote about the Victory to His Governor of al-Kufah",
+  "description": "to His Governor of al-Kufah According to al-Sari (in writings-Shu`ayb-Sayf-Muhammad and Talhah: `Ali wrote to his governor of al-Kufah about the victory, in a letter concerning al-Kufah, while the governor was in Mecca. From `Allah's servant `Ali, Commander of the Faithful. After greetings. We fought in the middle of Jumada II in Khuraybah, one of the open areas in al-Basrah. Almighty and Glorious Allah gave them the sunnah of the Muslims.los9 There were many killed from our side and theirs. Among those killed from our side were Thumamah b.",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0650-reason-for-uthmin-s-removal-of-al-walid",
+    "event-0661-al-hasan-s-surrender-of-al-kufah-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "168"
+    }
+  ]
+}

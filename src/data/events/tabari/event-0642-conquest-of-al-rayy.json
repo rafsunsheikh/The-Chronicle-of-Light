@@ -1,0 +1,23 @@
+{
+  "id": "event-0642-conquest-of-al-rayy",
+  "title": "The Conquest of al-Rayy",
+  "description": "The Conquest of al-Rayy. Recorded under the year 21 AH (642–643 CE) in al-Tabari's History, volume 14.",
+  "startDate": "0642-01-01",
+  "category": "military",
+  "connections": [
+    "event-0663-killing-of-al-mustawrid-b-ullifah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0643-12-31",
+  "location": {
+    "latitude": 35.59,
+    "longitude": 51.43,
+    "name": "Rayy (near Tehran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "24"
+    }
+  ]
+}

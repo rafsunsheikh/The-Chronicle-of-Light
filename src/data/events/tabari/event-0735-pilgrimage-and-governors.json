@@ -1,0 +1,24 @@
+{
+  "id": "event-0735-pilgrimage-and-governors",
+  "title": "Pilgrimage and Governors",
+  "description": "In this year, Khalid b. 'Abd al-Malik led the pilgrimage. In it, the governor of al-Madinah as well as of Mecca and al-Ta'if was Muhammad b. Hisham b. Ismail, that of Iraq and the East 456. A town, now Rabat-i-Khawja, four farsakhs east and upstream from Samarqand on the south bank of the Zarafshin River. See Barthold, T rkestan, 83, 92-3, 191; Le Strange, Lands, 465, 467. 457. Probably the Present Dargham Ariq, which separated at Waraghsar. That Asad had to do this shows that Samargand had been lost in the preceding years, perhaps in 113.",
+  "startDate": "0735-01-01",
+  "category": "political",
+  "connections": [
+    "event-0725-pilgrimage-and-officials",
+    "event-0736-hisham-dismisses-khalid-b-abd-al-malik-from"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0736-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "122"
+    }
+  ]
+}

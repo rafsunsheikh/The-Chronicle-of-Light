@@ -1,0 +1,24 @@
+{
+  "id": "event-0752-rebellion-of-bassam-b-ibrahim",
+  "title": "The Rebellion of Bassam b. Ibrahim",
+  "description": "In this year Bassam b. Ibrahim b. Bassam rebelled and threw off his allegiance.4.11 According to what has been mentioned, he was a leading cavalryman of Khurasan. He left the army of Abu al-'Abbas the Commander of the Faithful with a group of sympathizers who sought to keep their departure secret.\"\" The Caliph made close inquiries to their purpose and where they were heading, until it was found that they were at Mada'in. Abu al-'Abbas then sent Khazim b. 1761 Khuzaymah after them. When he found Bassam, they came out to fight him.",
+  "startDate": "0752-07-18",
+  "category": "military",
+  "connections": [
+    "event-0750-abu-ja-far-the-abbasid-s-journey-to",
+    "event-0757-death-of-the-governor-of-khurasan-and-what"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0753-07-07",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "199"
+    }
+  ]
+}

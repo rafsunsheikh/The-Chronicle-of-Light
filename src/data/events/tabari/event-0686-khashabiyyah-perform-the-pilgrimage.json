@@ -1,0 +1,24 @@
+{
+  "id": "event-0686-khashabiyyah-perform-the-pilgrimage",
+  "title": "The Khashabiyyah Perform the Pilgrimage",
+  "description": "According to Abu Ja'far [sc. al-Tabarij: In this year the Khashabiyyah\"0 came to Mecca and performed the pilgrimage. Their leader (amir) was Abu `Abdallah al -Jadali. Why the Khashabiyyah Came to Mecca According to Hishim [b. al-Kalbij-Abu Mikhnaf and `Ali b. Muhammad [al-Madi 'inij-Maslamah b. Muhirib, the reason was as follows: `Abdallah b. al-Zubayr imprisoned Muhammad b.",
+  "startDate": "0686-07-28",
+  "category": "religious",
+  "connections": [
+    "event-0684-end-of-the-kharijites-support-for-cabdallah-b",
+    "event-0686-why-the-khashabiyyah-came-to-mecca"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0687-07-17",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "59"
+    }
+  ]
+}

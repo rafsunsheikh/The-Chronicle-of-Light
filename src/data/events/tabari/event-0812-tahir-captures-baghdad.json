@@ -1,0 +1,24 @@
+{
+  "id": "event-0812-tahir-captures-baghdad",
+  "title": "Tahir Captures Baghdad",
+  "description": "In this year, Khuzaymah b. Khazim disobeyed Muhammad b. Harun, separated himself from him, and sought a promise of safety from Tihir b. al-Husayn.` 2 Harthamah entered the eastern part [of Baghdad[. A report concerning why Khuzaymah left Muhammad, how this turned out, and how he became obedient to Tahir follows.",
+  "startDate": "0812-01-01",
+  "category": "political",
+  "connections": [
+    "event-0812-battle-of-al-kunasah",
+    "event-0814-civil-strife-in-baghdad-between-the-troops-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "173"
+    }
+  ]
+}

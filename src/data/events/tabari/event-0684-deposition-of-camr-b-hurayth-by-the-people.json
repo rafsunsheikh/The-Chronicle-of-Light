@@ -1,0 +1,24 @@
+{
+  "id": "event-0684-deposition-of-camr-b-hurayth-by-the-people",
+  "title": "The Deposition of cAmr b. Hurayth by the People of alKiUfah and Their Appointment of cAmir b. Masud as Governor over Them",
+  "description": "of al-Kufah and Their Appointment of cAmir b. Masud as Governor over Them785 Abu Ja' far (al-Tabari) said: According to al-Haytham b. cAdiIbn °Ayy3sh:186 The first under whom the two garrison towns of al-Kufah and al-Ba§rah were united as one governorate were Ziyad and his son. They killed 13,000 of the Khawarij and cUbaydallah put 4,000 of them in prison. When Yazid died, cUbaydallAh made an official address in which he said, \"He for obedience to whom we fought is dead.",
+  "startDate": "0684-01-01",
+  "category": "political",
+  "connections": [
+    "event-0661-al-hasan-s-surrender-of-al-kufah-to",
+    "event-0684-beginnings-of-the-movement-of-the-penitents-aitawwdbun"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0685-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 20",
+      "page": "38"
+    }
+  ]
+}

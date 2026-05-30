@@ -1,0 +1,18 @@
+{
+  "id": "event-0784-some-of-the-doings-of-al-mabdi-and",
+  "title": "Some of the Doings of al-Mabdi and Stories about Him",
+  "description": "about Him According to Harun b. Abi `Ubaydallah: When al-Mahdi used to sit for the mazdlim, he said, \"Bring in the judges to me! If I only settle the mazdlim with their approval, it is enough.\" According to al-Hasan b. Abi Sa` id-`Ali b. $alib:798 Al-Mahdi sat down one day to give rewards, which were distributed in his presence to his intimates (khdsgah) among his family and his army commanders. The names were read to him and he ordered bonuses of ten thousand and twenty thousand and similar.",
+  "startDate": "0784-01-01",
+  "category": "political",
+  "connections": [
+    "event-0802-barmakis-growing-fears-of-the-caliph-s-threatening"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0785-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 29",
+      "page": "246"
+    }
+  ]
+}

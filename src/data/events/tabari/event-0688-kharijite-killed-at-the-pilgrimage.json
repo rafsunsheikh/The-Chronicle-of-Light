@@ -1,0 +1,19 @@
+{
+  "id": "event-0688-kharijite-killed-at-the-pilgrimage",
+  "title": "A Kharijite Killed at the Pilgrimage",
+  "description": "During this year, at al-Khayf of Mini,6O3 a Kharijite proclaimed the slogan, \"Judgment belongs to none but God! X604 He was killed at al-Jamrah.605 According to Muhammad b. 'Umar (al-Wagidi]-Yahya b. Said b. Dinar-his father, who said: I saw him draw his sword at alJamrah. They were a group, but God restrained their hands. He came forward from among them and proclaimed, \"Judgment belongs to none but God!\" The people turned upon him and killed him. 6o x. I.e., the Ka'bah. 6oz. I.e., the Umayyad family. 603.",
+  "startDate": "0688-01-01",
+  "category": "military",
+  "connections": [
+    "event-0684-threat-to-al-ba-rah-from-n3fic-b",
+    "event-0691-abd-a-malik-and-the-kharijites"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0689-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "167"
+    }
+  ]
+}

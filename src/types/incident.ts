@@ -16,11 +16,13 @@ export interface HistoricalIncident {
   description: string;
   startDate: string; // ISO date string (YYYY-MM-DD)
   endDate?: string; // ISO date string
-  location: Location;
+  location?: Location; // optional: un-geocoded events still appear on timeline/graph
   category: 'political' | 'religious' | 'cultural' | 'scientific' | 'military';
   connections: string[]; // Related incident IDs
   learningPath?: string;
   media?: Media[];
   dynasty?: string;
   region?: string;
+  sources?: { citation: string; url?: string; page?: string }[];
+  confidence?: 'established' | 'contested' | 'legendary' | 'auto-imported';
 }

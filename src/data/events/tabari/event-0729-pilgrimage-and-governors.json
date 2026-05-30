@@ -1,0 +1,23 @@
+{
+  "id": "event-0729-pilgrimage-and-governors",
+  "title": "Pilgrimage and Governors",
+  "description": "Al-Junayd appointed his officials, giving appointments only to Mudaris. He appointed Qatan b. Qutaybah as governor of Bukhara, al-Walid b. al-Qaga' al-'Absi287 as governor for Herat, Habib b. 281. Or Ibn Khuraym, al-Murri, al-Junayd's first cousin on his father's side. See Crone, Slaves, 98. 282. A town between Samarqand and Bukhara in the Zarafshan Valley seven farsakhs west of Samarqand and thus necessarily close to Kamarjah. See Barthold, Turkestan, 96-7; Le Strange, Lands, 468. 283. Text: fa-usimm; read: fa-usir, as Ms. BM and Cairo ed. 284.",
+  "startDate": "0729-01-01",
+  "category": "political",
+  "connections": [
+    "event-0708-qutaybah-s-conquest-of-bukhara"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0730-12-31",
+  "location": {
+    "latitude": 39.77,
+    "longitude": 64.42,
+    "name": "Bukhara, Uzbekistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "67"
+    }
+  ]
+}

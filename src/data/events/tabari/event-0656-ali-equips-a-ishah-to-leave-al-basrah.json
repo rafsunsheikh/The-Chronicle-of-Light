@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-ali-equips-a-ishah-to-leave-al-basrah",
+  "title": "Ali Equips 'A'ishah to Leave al-Basrah",
+  "description": "According to al-Sari (in writing-Shu'ayb-Sayf-Muhammad and Talhah: 'Ali equipped 'A'ishah with everything she needed in the way of riding beasts, provisions, and other baggage and sent with her all those who had fought on her side and had survived, except for anyone who wished to stay behind. He also selected forty prominent Basran women to go with her. \"Get ready for the journey, Muhammad! \"1064 he said, \"and see that she arrives.\"1065 So on the day she was to set off he came to her to stand and bid her farewell.",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-ali-b-abi-talib-sends-jarir-b-abdallah",
+    "event-0656-appointment-of-ibn-abbas-as-governor-of-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "170"
+    }
+  ]
+}

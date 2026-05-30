@@ -1,0 +1,24 @@
+{
+  "id": "event-0831-al-ma-mun-s-further-campaigns-against-the",
+  "title": "Al-Ma'mun's further campaigns against the Byzantines",
+  "description": "Al-Ma'mun's further campaigns against the Byzantines. Recorded under the year 216 AH (831–832 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0831-01-01",
+  "category": "military",
+  "connections": [
+    "event-0806-various-raids-into-the-byzantine-lands-and-measures",
+    "event-0837-byzantine-emperor-s-attacks-on-the-muslims-at"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0832-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "187"
+    }
+  ]
+}

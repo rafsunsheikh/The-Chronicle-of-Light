@@ -1,0 +1,477 @@
+[
+  {
+    "id": "tabari-v33-219-001",
+    "title": "al-Ma'miin's Death",
+    "description": "",
+    "hijriYear": 219,
+    "ceLabel": "834–835",
+    "startDate": "0834-01-16",
+    "endDate": "0835-01-04",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 1,
+      "ceRaw": "JANUARY 16, 834 -JANUARY 4, 835"
+    }
+  },
+  {
+    "id": "tabari-v33-219-002",
+    "title": "The Rebellion of the 'Alid Muhammad b. al-Qasim at alTalagan",
+    "description": "",
+    "hijriYear": 219,
+    "ceLabel": "834–835",
+    "startDate": "0834-01-16",
+    "endDate": "0835-01-04",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 5,
+      "ceRaw": "JANUARY 16, 834 -JANUARY 4, 835"
+    }
+  },
+  {
+    "id": "tabari-v33-219-003",
+    "title": "The Campaign against the Zull",
+    "description": "",
+    "hijriYear": 219,
+    "ceLabel": "834–835",
+    "startDate": "0834-01-16",
+    "endDate": "0835-01-04",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 7,
+      "ceRaw": "JANUARY 16, 834 -JANUARY 4, 835"
+    }
+  },
+  {
+    "id": "tabari-v33-220-004",
+    "title": "The Deportation of the Captured Zull",
+    "description": "",
+    "hijriYear": 220,
+    "ceLabel": "835",
+    "startDate": "835",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 0,
+      "ceRaw": "835"
+    }
+  },
+  {
+    "id": "tabari-v33-220-005",
+    "title": "The Affair of Babak and His Outbreak",
+    "description": "",
+    "hijriYear": 220,
+    "ceLabel": "835",
+    "startDate": "835",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 14,
+      "ceRaw": "835"
+    }
+  },
+  {
+    "id": "tabari-v33-220-006",
+    "title": "The Reason for This Battle between al-Afshin and Babak",
+    "description": "",
+    "hijriYear": 220,
+    "ceLabel": "835",
+    "startDate": "835",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 19,
+      "ceRaw": "835"
+    }
+  },
+  {
+    "id": "tabari-v33-220-007",
+    "title": "The Clashes of Bugha al- Kabir and al-Afshin with Babak, and the Reasons behind them",
+    "description": "",
+    "hijriYear": 220,
+    "ceLabel": "835",
+    "startDate": "835",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 36,
+      "ceRaw": "835"
+    }
+  },
+  {
+    "id": "tabari-v33-220-008",
+    "title": "The Killing of Babak 's Commander Tarkhan",
+    "description": "",
+    "hijriYear": 220,
+    "ceLabel": "835",
+    "startDate": "835",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 43,
+      "ceRaw": "835"
+    }
+  },
+  {
+    "id": "tabari-v33-221-009",
+    "title": "The Engagement between al -Afshin 's Forces and Babak's Commander Adhin and Its Causes",
+    "description": "",
+    "hijriYear": 221,
+    "ceLabel": "836–837",
+    "startDate": "836",
+    "endDate": "837",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 46,
+      "ceRaw": "836/837"
+    }
+  },
+  {
+    "id": "tabari-v33-221-010",
+    "title": "The Capture of al-Badhdh, How It Was Achieved, and the Reasons for This",
+    "description": "",
+    "hijriYear": 221,
+    "ceLabel": "836–837",
+    "startDate": "836",
+    "endDate": "837",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 50,
+      "ceRaw": "836/837"
+    }
+  },
+  {
+    "id": "tabari-v33-222-011",
+    "title": "AI-Afshin's Bringing of Babak and His Brother to al-Mu'tasim at Samarra and Their Execution",
+    "description": "",
+    "hijriYear": 222,
+    "ceLabel": "837–838",
+    "startDate": "837",
+    "endDate": "838",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 84,
+      "ceRaw": "8371838"
+    }
+  },
+  {
+    "id": "tabari-v33-222-012",
+    "title": "The Byzantine Emperor's Attacks on the Muslims at Zibatrah and Malatyah",
+    "description": "",
+    "hijriYear": 222,
+    "ceLabel": "837–838",
+    "startDate": "837",
+    "endDate": "838",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 93,
+      "ceRaw": "8371838"
+    }
+  },
+  {
+    "id": "tabari-v33-222-013",
+    "title": "The Reason for the Byzantine Ruler 's Behaving Thus with the Muslims",
+    "description": "",
+    "hijriYear": 222,
+    "ceLabel": "837–838",
+    "startDate": "837",
+    "endDate": "838",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 94,
+      "ceRaw": "8371838"
+    }
+  },
+  {
+    "id": "tabari-v33-222-014",
+    "title": "Al-Mu'tasim 's Campaign against Ammuriyyah",
+    "description": "",
+    "hijriYear": 222,
+    "ceLabel": "837–838",
+    "startDate": "837",
+    "endDate": "838",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 97,
+      "ceRaw": "8371838"
+    }
+  },
+  {
+    "id": "tabari-v33-223-015",
+    "title": "The Reason for Mazyar's Open Rebellion against al-Mu'tasim and His Severe Measures with the People of the Plain",
+    "description": "",
+    "hijriYear": 223,
+    "ceLabel": "838–839",
+    "startDate": "838",
+    "endDate": "839",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 1136,
+      "ceRaw": "8381839"
+    }
+  },
+  {
+    "id": "tabari-v33-223-016",
+    "title": "The Story of the Poet Abu Shas",
+    "description": "",
+    "hijriYear": 223,
+    "ceLabel": "838–839",
+    "startDate": "838",
+    "endDate": "839",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 155,
+      "ceRaw": "8381839"
+    }
+  },
+  {
+    "id": "tabari-v33-223-017",
+    "title": "The Continuation of the Operations against Mazyar and His Capture and Execution",
+    "description": "",
+    "hijriYear": 223,
+    "ceLabel": "838–839",
+    "startDate": "838",
+    "endDate": "839",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 156,
+      "ceRaw": "8381839"
+    }
+  },
+  {
+    "id": "tabari-v33-223-018",
+    "title": "The Reason behind Minkajur's Rebellion in Adharbayjan",
+    "description": "",
+    "hijriYear": 223,
+    "ceLabel": "838–839",
+    "startDate": "838",
+    "endDate": "839",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 175,
+      "ceRaw": "8381839"
+    }
+  },
+  {
+    "id": "tabari-v33-223-019",
+    "title": "The Reason for al-Mu'tasim 's Anger against al-Afshin and His Imprisoning Him",
+    "description": "",
+    "hijriYear": 223,
+    "ceLabel": "838–839",
+    "startDate": "838",
+    "endDate": "839",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 180,
+      "ceRaw": "8381839"
+    }
+  },
+  {
+    "id": "tabari-v33-225-020",
+    "title": "The Rebellion of 'Ali b. Ishaq in Damascus",
+    "description": "",
+    "hijriYear": 225,
+    "ceLabel": "840–841",
+    "startDate": "840",
+    "endDate": "841",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 194,
+      "ceRaw": "840/841"
+    }
+  },
+  {
+    "id": "tabari-v33-225-021",
+    "title": "Al-Afshin's Death, the Treatment of Him at That Time, and What Was Done with His Corpse after His Death",
+    "description": "",
+    "hijriYear": 225,
+    "ceLabel": "840–841",
+    "startDate": "840",
+    "endDate": "841",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 196,
+      "ceRaw": "840/841"
+    }
+  },
+  {
+    "id": "tabari-v33-226-022",
+    "title": "The Reason for Abu Harb al-Mubarga\"s Rebellion and Its Eventual Outcome",
+    "description": "",
+    "hijriYear": 226,
+    "ceLabel": "841–842",
+    "startDate": "841",
+    "endDate": "842",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 203,
+      "ceRaw": "841/842"
+    }
+  },
+  {
+    "id": "tabari-v33-226-023",
+    "title": "Al-Mu'tasim 's Fatal Illness, the Length of His Life, and His Physical Characteristics",
+    "description": "",
+    "hijriYear": 226,
+    "ceLabel": "841–842",
+    "startDate": "841",
+    "endDate": "842",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 207,
+      "ceRaw": "841/842"
+    }
+  },
+  {
+    "id": "tabari-v33-226-024",
+    "title": "Something about al-Mu'tasim 's Character and Behavior",
+    "description": "",
+    "hijriYear": 226,
+    "ceLabel": "841–842",
+    "startDate": "841",
+    "endDate": "842",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 210,
+      "ceRaw": "841/842"
+    }
+  },
+  {
+    "id": "tabari-v33-226-025",
+    "title": "Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 226,
+    "ceLabel": "841–842",
+    "startDate": "841",
+    "endDate": "842",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "33",
+      "page": 217,
+      "ceRaw": "841/842"
+    }
+  }
+]

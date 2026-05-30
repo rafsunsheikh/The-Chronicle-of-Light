@@ -1,0 +1,26 @@
+{
+  "id": "event-0686-al-mukhtar-s-motive-in-sending-this-army",
+  "title": "Al-Mukhtar's Motive in Sending This Army; What Befell Them",
+  "description": "Befell Them According to Hisham b. Muhammad [al-KalbiJ-Abu MikhnafMusa b. `Amir, who said: Having been expelled by al-Mukhtar [6871 from al-Kufah, Ibn Muti' went to al-Basrah. Not wishing to proceed to Ibn al -Zubayr in Mecca in a state of defeat and flight, he stayed in al-Basrah until `Umar b. `Abd al-Rahman b. al-Harith b. Hisham came to him. Thus, both of them were in al-Basrah.",
+  "startDate": "0686-07-28",
+  "category": "political",
+  "connections": [
+    "event-0686-al-mukhtar-sends-an-army-to-trick-ibn",
+    "event-0686-explanation-of-the-chair-whereby-al-mukhtar-and",
+    "event-0686-mus-ab-b-al-zubayr-becomes-governor-of",
+    "event-0686-swearing-of-allegiance-to-al-mukhtar-in-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0687-07-17",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "53"
+    }
+  ]
+}

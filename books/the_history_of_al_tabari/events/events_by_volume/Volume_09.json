@@ -1,0 +1,591 @@
+[
+  {
+    "id": "tabari-v09-8-001",
+    "title": "An Account of the Messenger of God's Expedition against the Hawazin and the Battle of Hunayn / z [The Siege of al-W'a'if]",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "c. 629",
+    "startDate": "629",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 20,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v09-8-002",
+    "title": "[The Division of the Booty Captured at Hunayn and Gifts of Conciliation]",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "c. 629",
+    "startDate": "629",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 26,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v09-9-003",
+    "title": "An Account of the Military Expedition to Tabik",
+    "description": "",
+    "hijriYear": 9,
+    "ceLabel": "630–631",
+    "startDate": "630",
+    "endDate": "631",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 47,
+      "ceRaw": "630/631"
+    }
+  },
+  {
+    "id": "tabari-v09-9-004",
+    "title": "[An Account of the People Who Accepted Islam]",
+    "description": "",
+    "hijriYear": 9,
+    "ceLabel": "630–631",
+    "startDate": "630",
+    "endDate": "631",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 62,
+      "ceRaw": "630/631"
+    }
+  },
+  {
+    "id": "tabari-v09-10-005",
+    "title": "The Deputation of the Bann 'Amin b. $a'^a'ah",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 1103,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-006",
+    "title": "Disagreement about the Number of the Armies and the Raiding Parties (Saraya) Sent by the Messenger of God / 11118 Report about the Messenger of God's Pilgrimages",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 1125,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-007",
+    "title": "Report about the Messenger of God's Wives, Those Who Survived Him, Those Who Left Him, the Reason for Which They Left, and Those Who Died before Him",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 1126,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-008",
+    "title": "The Reason Why the Messenger of God Asked for the Hands of Both 'A'ishah and Sawdah in Marriage and the Received Reports as to with Whom He First Contracted the Marriage",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 129,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-009",
+    "title": "An Account of Those Women to Whom the Prophet Proposed But Did Not Marry",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 1140,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-010",
+    "title": "An Account of the Messenger of God's Slave Concubines",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 141,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-011",
+    "title": "An Account of the Messenger of God's Freedmen",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 142,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-012",
+    "title": "An Account of the Messenger of God's Scribes",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 147,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-013",
+    "title": "The Names of the Messenger of God's Horses",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 148,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-014",
+    "title": "The Names of the Messenger of God 's Mules",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 150,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-015",
+    "title": "The Names of the Messenger of God's Camels",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 150,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-016",
+    "title": "The Names of the Messenger of God 's Milch Camels 1151 The Names of the Messenger of God's Milch Sheep (Mand'ilj)",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 1153,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-017",
+    "title": "The Names of the Messenger of God's Swords",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 153,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-018",
+    "title": "The Names of the Messenger of God's Bows and Lances",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 154,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-019",
+    "title": "The Names of the Messenger of God 's Coats of Mail",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 154,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-020",
+    "title": "The Names of the Messenger of God's Shields",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 155,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-021",
+    "title": "The Messenger of God 's Names",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 155,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-022",
+    "title": "The Messenger of God 's Characteristics",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 157,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-023",
+    "title": "The Seal of Prophethood Which He Had",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 158,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-024",
+    "title": "His Bravery and Generosity",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 159,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-025",
+    "title": "The Description of His Hair and Whether He Used to Dye It or Not",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 160,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-10-026",
+    "title": "Report about the Beginning of the Messenger of God's Illness in Which He Died, and What He Did Just Prior to It When He Was Bewailed [for His Approaching Death]",
+    "description": "",
+    "hijriYear": 10,
+    "ceLabel": "631–632",
+    "startDate": "0631-04-09",
+    "endDate": "0632-03-28",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 162,
+      "ceRaw": "APRIL 9, 631-MARCH 2 8, 632"
+    }
+  },
+  {
+    "id": "tabari-v09-11-027",
+    "title": "An Account of the Day on Which the Messenger of God Died and His Age",
+    "description": "",
+    "hijriYear": 11,
+    "ceLabel": "632–633",
+    "startDate": "632",
+    "endDate": "633",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 183,
+      "ceRaw": "632/633"
+    }
+  },
+  {
+    "id": "tabari-v09-11-028",
+    "title": "An Account of the Saqifah",
+    "description": "",
+    "hijriYear": 11,
+    "ceLabel": "632–633",
+    "startDate": "632",
+    "endDate": "633",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 189,
+      "ceRaw": "632/633"
+    }
+  },
+  {
+    "id": "tabari-v09-11-029",
+    "title": "The Disagreements about His Age When He Died",
+    "description": "",
+    "hijriYear": 11,
+    "ceLabel": "632–633",
+    "startDate": "632",
+    "endDate": "633",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 206,
+      "ceRaw": "632/633"
+    }
+  },
+  {
+    "id": "tabari-v09-11-030",
+    "title": "The Day and the Month in Which the Messenger of God died",
+    "description": "",
+    "hijriYear": 11,
+    "ceLabel": "632–633",
+    "startDate": "632",
+    "endDate": "633",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 208,
+      "ceRaw": "632/633"
+    }
+  },
+  {
+    "id": "tabari-v09-11-031",
+    "title": "Index of Qur'anic Verses",
+    "description": "",
+    "hijriYear": 11,
+    "ceLabel": "632–633",
+    "startDate": "632",
+    "endDate": "633",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "09",
+      "page": 249,
+      "ceRaw": "632/633"
+    }
+  }
+]

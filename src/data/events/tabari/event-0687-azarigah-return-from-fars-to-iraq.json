@@ -1,0 +1,24 @@
+{
+  "id": "event-0687-azarigah-return-from-fars-to-iraq",
+  "title": "The Azarigah Return from Fars to Iraq",
+  "description": "The Azarigah Return from Fars to Iraq. Recorded under the year 67 AH (687–688 CE) in al-Tabari's History, volume 21.",
+  "startDate": "0687-01-01",
+  "category": "political",
+  "connections": [
+    "event-0659-mu-awiyah-sends-his-forces-into-ali-s",
+    "event-0719-supplement-to-the-biography-of-umar-b-abd"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0688-12-31",
+  "location": {
+    "latitude": 29.6,
+    "longitude": 52.5,
+    "name": "Fars, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "123"
+    }
+  ]
+}

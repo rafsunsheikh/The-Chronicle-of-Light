@@ -1,0 +1,19 @@
+{
+  "id": "event-0743-some-of-the-reasons-why-al-walid-acceded",
+  "title": "Some of the Reasons Why al -Walid Acceded to the Caliphate",
+  "description": "to the Caliphate I have already mentioned why al-Walid's father, Yazid b. 'Abd alMalik b. Marwan, nominated al-Walid to succeed to the caliphate after his (Yazid's) brother, Hisham b. 'Abd al-Malik. On the day when al-Walid's father, Yazid, appointed him (to succeed after Hisham), al-Walid was eleven years old and Yazid did not die until his son al-Walid reached the age of fifteen. Later on, Yazid regretted having nominated his brother Hisham as caliph.",
+  "startDate": "0743-01-01",
+  "category": "political",
+  "connections": [
+    "event-0742-malady-that-caused-hisham-s-death",
+    "event-0744-discords-that-occurred"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0744-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "87"
+    }
+  ]
+}

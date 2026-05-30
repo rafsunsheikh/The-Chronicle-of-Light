@@ -1,0 +1,23 @@
+{
+  "id": "event-0712-report-of-qutaybah-s-campaign-in-al-shish",
+  "title": "The Report of [Qutaybah 's] Campaign [in al-Shish",
+  "description": "The Report of [Qutaybah 's] Campaign [in al-Shish. Recorded under the year 93 AH (712–713 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0712-01-01",
+  "category": "military",
+  "connections": [
+    "event-0705-report-of-qutaybah-s-campaign-against-paykand"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0713-12-31",
+  "location": {
+    "latitude": 41.3,
+    "longitude": 69.3,
+    "name": "Tashkent"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "216"
+    }
+  ]
+}

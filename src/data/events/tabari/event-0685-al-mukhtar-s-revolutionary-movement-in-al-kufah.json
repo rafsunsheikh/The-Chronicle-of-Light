@@ -1,0 +1,25 @@
+{
+  "id": "event-0685-al-mukhtar-s-revolutionary-movement-in-al-kufah",
+  "title": "Al-Mukhtar' s Revolutionary Movement in al-Kufah and His Appeal to the Sh1°ah There",
+  "description": "According to Hisham b. Muhammad -Abu Mikhnaf-Fu4ayl b. Khadij -' Abidah b. cAmr and Ismadil b. Kathir of the Banu Hind: 612 When Sulaymdn b. $urad's followers arrived back in al-Kufah, al-Mukhtdr wrote to them: Now, may God increase your reward and lighten your burden in exchange for your separation from the un15991 righteous [ al-gdsitrrnJ and your jihad against the profaners of His law [ a]-muhillfn1! There was no expense 612. See pp. losff. above and n. 425; for the following, cf.",
+  "startDate": "0685-01-01",
+  "category": "political",
+  "connections": [
+    "event-0684-departure-of-the-penitents-from-al-kufah-and",
+    "event-0686-al-mukhtar-acts-against-the-slayers-of-al",
+    "event-0686-why-he-seized-them-names-of-those-he"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0686-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 20",
+      "page": "182"
+    }
+  ]
+}

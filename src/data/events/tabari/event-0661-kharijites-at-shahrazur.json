@@ -1,0 +1,23 @@
+{
+  "id": "event-0661-kharijites-at-shahrazur",
+  "title": "The Kharijites at Shahrazur",
+  "description": "I was told on the authority of Ziyad-'Awanah: Before al-Hasan left al-Kufah, Mu'awiyah came and halted at al-Nukhaylah.55 At that, the five hundred Haruriyyah56 who had been standing aside at Shahrazur with Farwah b. Nawfal al-Ashja'i said, \"Since someone about whom there is no doubt has come, [let us[ march against Mu'awiyah and wage jihud57 against him.\" They approached, with Farwah b. Nawfal in charge of them, and entered al-Kufah. When Mu'awiyah dispatched some of the Syrian cavalry against them, they routed the Syrians.",
+  "startDate": "0661-01-01",
+  "category": "military",
+  "connections": [
+    "event-0662-what-happened-to-the-kharijites"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0662-12-31",
+  "location": {
+    "latitude": 35.4,
+    "longitude": 45.85,
+    "name": "Sharazor (Iraqi Kurdistan)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "12"
+    }
+  ]
+}

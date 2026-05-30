@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-deaths-and-minor-events",
+  "title": "Deaths and Minor Events",
+  "description": "In this year the mosque of Quba' was built. The first Muslim to die after the Prophet's arrival in Medina, it is said, was Kulthum b. al-Hidm, in whose house in Quba' he had lodged; his death occurred shortly afterwards. There followed in the same year of the Prophet's arrival the death of Abu Umamah As'ad b. Zurarah, which occurred before the Messenger of God had finished building his mosque; it resulted from diphtheria and a rattling in the throat.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-choice-of-a-site-for-mosque-and-house",
+    "event-0622-muslim-women-brought-to-medina"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "5"
+    }
+  ]
+}

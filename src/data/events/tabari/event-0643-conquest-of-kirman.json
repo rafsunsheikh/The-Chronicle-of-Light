@@ -1,0 +1,21 @@
+{
+  "id": "event-0643-conquest-of-kirman",
+  "title": "The Conquest of Kirman",
+  "description": "The Conquest of Kirman. Recorded under the year 22 AH (643–644 CE) in al-Tabari's History, volume 14.",
+  "startDate": "0643-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0644-12-31",
+  "location": {
+    "latitude": 30.28,
+    "longitude": 57.08,
+    "name": "Kerman, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "73"
+    }
+  ]
+}

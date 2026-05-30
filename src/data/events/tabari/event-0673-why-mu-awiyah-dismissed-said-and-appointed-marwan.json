@@ -1,0 +1,24 @@
+{
+  "id": "event-0673-why-mu-awiyah-dismissed-said-and-appointed-marwan",
+  "title": "Why Mu'awiyah dismissed Said and appointed Marwan as governor over al-Madinah",
+  "description": "Marwdn as Governor over al-Madinah I was told by 'Umar-'Ali b. Muhammad-Juwayriyyah b. Asma '-his shaykhs: Muawiyah used to incite Marwdn and Said b. al-'As against each other. He wrote to Said b. al-'As while the latter was in charge of al-Madinah, \"Demolish the house of Marwdn.\" But Said did not demolish it, so Mu'awiyah sent another letter to him about demolishing it. But he did not do it, whereupon Muawiyah dismissed him and made Marwdn governor. As far as Muhammad b. 'Umar is concerned, he related that Muawiyah wrote to Said b.",
+  "startDate": "0673-01-01",
+  "category": "political",
+  "connections": [
+    "event-0661-departure-of-al-hasan-and-al-husayn-for",
+    "event-0681-yaiid-s-dismissal-of-amr-b-said-as"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0674-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "173"
+    }
+  ]
+}

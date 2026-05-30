@@ -1,0 +1,24 @@
+{
+  "id": "event-0698-campaign-by-ubaydallah-b-abi-bakrah-in-sijistan",
+  "title": "The Campaign by 'Ubaydallah b. Abi Bakrah in Sijistan",
+  "description": "Si jistan According to Hishim -Abu Mikhnaf- Abu al-Mukhariq alRasibi: When al-Hajjij appointed al-Muhallab to Khurasin and 'Ubaydallih b. Abi Bakrah to Sijistan, al-Muhallab went out to Khurisin and 'Ubaydallah b. Abi Bakrah to Sijistin; this was in the year 78 (697-698). 'Ubaydallah b. Abi Bakrah remained inactive the rest of this year, then attacked Zunbil. 659 Zunbil had been under a truce, with the Arabs collecting land taxes from him; but he had several times held back and refused to pay.660 AlIlajjij then wrote to 'Ubaydallah b.",
+  "startDate": "0698-01-01",
+  "category": "military",
+  "connections": [
+    "event-0678-why-yasid-b-mufarrigh-ridiculed-the-sons-of",
+    "event-0699-abd-al-ral-man-b-al-ash-ath"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0699-12-31",
+  "location": {
+    "latitude": 31.0,
+    "longitude": 61.5,
+    "name": "Sistan (Zaranj)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "183"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "event-0701-second-account-of-the-battle-of-maskinj",
+  "title": "A Second Account of the Battle of Maskinj",
+  "description": "Concerning the defeat of Ibn al-As'ath at Maskin, an account other than that of Abu Mikhnaf has been mentioned: Ibn alAsh'ath and al-Hajjaj met at Maskin, in the territory of Abazqubadh.260 The camp of Ibn al-Ash'ath was next to a river called ]Kh.dash261 at the back part of al-Nahr-[that is,J Nahr Tira.262 Al-Hajjaj stopped at the river Afr.y.dh,263and the two camps were in their entirety between the Tigris, a1-Sib,2M and al-Karkh.265 They fought for a month-also said to be…",
+  "startDate": "0701-01-01",
+  "category": "military",
+  "connections": [
+    "event-0701-reason-for-ibn-al-ash-ath-s-progress",
+    "event-0701-reason-why-al-hajjaj-built-wasix"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0702-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "68"
+    }
+  ]
+}

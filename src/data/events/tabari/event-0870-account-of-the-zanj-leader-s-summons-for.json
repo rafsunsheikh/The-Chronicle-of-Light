@@ -1,0 +1,23 @@
+{
+  "id": "event-0870-account-of-the-zanj-leader-s-summons-for",
+  "title": "The Account of [the Zanj Leader's] Summons for (the] Surrender of the Inhabitants of 'Abbidan",
+  "description": "Surrender (of the Inhabitants of `AbbadanJ The reason for this was that when the Zanj had dealt with the inhabitants of al-Ubullah in the manner they had, the `Abbidinians' resolve weakened, and they feared for their lives and their families. Therefore they gave themselves over to the Zanj and surrendered their city to the abominable one. His troops occupied it and seized the slaves I al-cabid) and weapons they found there; the abominable one distributed among his troops the weapons that they brought to him.",
+  "startDate": "0870-01-01",
+  "category": "political",
+  "connections": [
+    "event-0870-news-of-the-encounter-between-judlan-and-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0887-12-31",
+  "location": {
+    "latitude": 30.5,
+    "longitude": 47.9,
+    "name": "al-Ubulla (near Basra)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "111"
+    }
+  ]
+}

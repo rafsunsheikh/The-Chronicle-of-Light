@@ -2,7 +2,7 @@ import { useState, useMemo } from 'react';
 import { HistoricalIncident } from '../types/incident';
 
 const eventModules = import.meta.glob<{ default: HistoricalIncident }>(
-  '../data/events/*.json',
+  '../data/events/**/*.json',
   { eager: true },
 );
 // Sort numerically rather than lexicographically — protects against any

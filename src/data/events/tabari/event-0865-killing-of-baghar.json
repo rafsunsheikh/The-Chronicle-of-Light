@@ -1,0 +1,16 @@
+{
+  "id": "event-0865-killing-of-baghar",
+  "title": "The killing of Baghar",
+  "description": "The killing of Baghar. Recorded under the year 251 AH (865–866 CE) in al-Tabari's History, volume 35.",
+  "startDate": "0865-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0866-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 35",
+      "page": "28"
+    }
+  ]
+}

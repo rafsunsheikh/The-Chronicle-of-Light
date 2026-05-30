@@ -1,0 +1,23 @@
+{
+  "id": "event-0701-reason-for-al-muhallab-s-departure-from-kish",
+  "title": "The Reason for al -Muhallab 's Departure from Kish",
+  "description": "According to 'Ali b. Muhammad-al-Mufacl¢al b. Muhammad: Al-Muhallab was suspicious of some people from Mudar. He accordingly imprisoned them and departed from Kish, leaving them [there]; he also left Hurayth b. Qutbah, the mawla of Khuza'ah, saying to him, \"When you have exacted the whole of the tribute, return the[ir] hostages to them.\" He crossed the river [Oxus] and, when he got to Balkh, he stopped there.",
+  "startDate": "0701-01-01",
+  "category": "political",
+  "connections": [
+    "event-0699-ai-muhallab-attacks-kish"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0702-12-31",
+  "location": {
+    "latitude": 39.05,
+    "longitude": 66.83,
+    "name": "Kesh (Shahrisabz)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "29"
+    }
+  ]
+}

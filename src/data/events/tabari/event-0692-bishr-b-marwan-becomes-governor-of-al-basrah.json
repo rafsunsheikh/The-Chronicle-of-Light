@@ -1,0 +1,24 @@
+{
+  "id": "event-0692-bishr-b-marwan-becomes-governor-of-al-basrah",
+  "title": "Bishr b. Marwan Becomes Governor of al-Basrah",
+  "description": "In this year, `Abd al-Malik removed Khalid b. `Abdallah from al-Basrah and appointed his [own] brother, Bishr b. Marwan, its governor. Thus, the governorship of both it and al-Kufah came to be his. When Bishr was appointed governor of al-Basrah in addition to al-Kufah, he went to al-Basrah and left `Amr b. Hurayth as his deputy in charge of al-Kufah. [Campaigns against the ByzantinesJ In this year, Muhammad b. Marwan campaigned during the summer and defeated the Byzantines. `Uthman b. al-Walid's attack 832.",
+  "startDate": "0692-01-01",
+  "category": "political",
+  "connections": [
+    "event-0690-khalid-b-abdallah-becomes-governor-of-al-basrah",
+    "event-0694-revolt-of-the-bagran-troops-against-al-hajjaj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0693-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "233"
+    }
+  ]
+}

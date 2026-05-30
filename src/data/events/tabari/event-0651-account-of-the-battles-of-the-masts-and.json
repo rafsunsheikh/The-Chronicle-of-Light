@@ -1,0 +1,25 @@
+{
+  "id": "event-0651-account-of-the-battles-of-the-masts-and",
+  "title": "The Account of the Battles [of the Masts and against the Blacks",
+  "description": "the Blacks] According to al-Wagidi- Muhammad b. $alili-'A$im b. 'Umar b. Qatadah: 123 The Syrians set out under the command of Mu'awiyah b. Abi Sufyan, all Syria having been unified under him.",
+  "startDate": "0651-01-01",
+  "category": "military",
+  "connections": [
+    "event-0638-sayf-s-account-of-umar-s-last-trip",
+    "event-0651-reason-why-syria-was-unified-under-mu-awiyah",
+    "event-0651-return-to-al-wagidi-s-account-of-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0652-12-31",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "72"
+    }
+  ]
+}

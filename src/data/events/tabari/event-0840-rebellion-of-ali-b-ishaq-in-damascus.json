@@ -1,0 +1,23 @@
+{
+  "id": "event-0840-rebellion-of-ali-b-ishaq-in-damascus",
+  "title": "The Rebellion of 'Ali b. Ishaq in Damascus",
+  "description": "The Rebellion of 'Ali b. Ishaq in Damascus. Recorded under the year 225 AH (840–841 CE) in al-Tabari's History, volume 33.",
+  "startDate": "0840-01-01",
+  "category": "military",
+  "connections": [
+    "event-0833-al-ma-mun-s-dismissal-of-a-poet"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0841-12-31",
+  "location": {
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "name": "Damascus, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "194"
+    }
+  ]
+}

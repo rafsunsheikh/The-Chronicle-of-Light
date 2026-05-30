@@ -1,0 +1,24 @@
+{
+  "id": "event-0684-beginnings-of-the-movement-of-the-penitents-aitawwdbun",
+  "title": "The Beginnings of the Movement of the Penitents (aITawwdbun) in al-KUfah",
+  "description": "[al-Tawwabun1 in al-Kufah According to Hisham b. Muhammad-Abu Mikhnaf-Yusuf b. Yazid-'Abdallah b. cAwf b. al-Ahmar al-Azdi: After alb iusayn b. cAli had been killed and Ibn ZiyAd had returned from his army camp at al-Nukhaylah and entered al-Kufah, the ShPPah gathered, full of self-reproach and repentance. They thought they had committed a grave offense in inviting alHusayn to receive their support then failing to respond to him, and in letting him be killed so near to them while they never gave him any help.",
+  "startDate": "0684-01-01",
+  "category": "political",
+  "connections": [
+    "event-0684-contents-the-arrival-of-al-mukhtir-in-al",
+    "event-0684-deposition-of-camr-b-hurayth-by-the-people"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0685-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 20",
+      "page": "80"
+    }
+  ]
+}

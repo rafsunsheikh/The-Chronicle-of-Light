@@ -1,0 +1,25 @@
+{
+  "id": "event-0715-appointment-of-yazid-b-al-muhallab-as-governor",
+  "title": "The Appointment of Yazid b. al-Muhallab as Governor of Khurasan",
+  "description": "Governor of Khurasan The circumstances: When Sulayman b. 'Abd al-Malik became Caliph, he put Yazid b. al-Muhallab in charge of military, religious, and fiscal affairs in Iraq. According to Hisham b. Muhammad-Abu Mikhnaf: Upon being given these responsibilities in Iraq, Yazid reflected as follows: \"Iraq has been ruined by al-Hajjaj. Today I am the hope of the people of Iraq.",
+  "startDate": "0715-01-01",
+  "category": "political",
+  "connections": [
+    "event-0705-what-happened-to-qutaybah-in-khurasan-in-this",
+    "event-0718-capture-of-yazid-b-al-muhallab",
+    "event-0718-dismissal-of-al-jarrah-b-abdallah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0716-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "31"
+    }
+  ]
+}

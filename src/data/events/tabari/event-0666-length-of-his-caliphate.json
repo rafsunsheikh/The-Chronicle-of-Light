@@ -1,0 +1,15 @@
+{
+  "id": "event-0666-length-of-his-caliphate",
+  "title": "The Length of His Caliphate",
+  "description": "According to Ahmad b. Thabit (al-Razr) Ishaq b. 'Isis-Abd Ma'shar:913 'All's caliphate was five years, all but three months. According to al-Harith-Ibn Sa'd-Muhammad b. Umar: 'All's caliphate was five years, all but three months. According to Abfl Zayd-Abu al-Hasan: 'All's rule was four years, nine months and a day-or several days.",
+  "startDate": "0666-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 17",
+      "page": "227"
+    }
+  ]
+}

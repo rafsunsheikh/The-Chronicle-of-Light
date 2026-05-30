@@ -1,0 +1,23 @@
+{
+  "id": "event-0638-conquest-of-al-sus",
+  "title": "The Conquest of al-Sus",
+  "description": "The historians have different accounts of the conquest of al-Sus. According to Abu Zayd-al-Mada'ini:490 When those defeated at Jalula' finally reached Yazdajird, who was in Hulwan at the time, he summoned his court and the Priest491 to him and said, \"Every time our warriors encounter an enemy force, they suffer defeat at their hands. What do you think we should do?\" The Priest answered, \"We are of the opinion that you should leave and settle in Istakhr, for that is the center of the kingdom.",
+  "startDate": "0638-01-01",
+  "category": "military",
+  "connections": [
+    "event-0637-account-of-the-conquest-of-masabadhan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0639-12-31",
+  "location": {
+    "latitude": 34.27,
+    "longitude": 45.16,
+    "name": "Jalawla, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "142"
+    }
+  ]
+}

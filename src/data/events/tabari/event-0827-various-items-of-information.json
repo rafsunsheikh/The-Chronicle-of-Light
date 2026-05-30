@@ -1,0 +1,16 @@
+{
+  "id": "event-0827-various-items-of-information",
+  "title": "Various items of information",
+  "description": "Various items of information. Recorded under the year 212 AH (827–828 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0827-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0828-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "176"
+    }
+  ]
+}

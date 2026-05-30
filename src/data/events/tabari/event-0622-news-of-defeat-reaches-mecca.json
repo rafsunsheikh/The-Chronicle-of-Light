@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-news-of-defeat-reaches-mecca",
+  "title": "News of Defeat Reaches Mecca",
+  "description": "According to Ibn Humayd -Salamah-Muhammad b. Ishaq: The first person to reach Mecca with news of the defeat of Quraysh was al-Haysuman b. 'Abd Allah b. Iyas b. Dubay'ah b. Mazin b. Ka'b b. 'Amr al-Khuza'i. (According to Abu Ja'far (al -Tabari), AlWagidi says his name was al-Haysuman b. Habis al -Khuza'i.) \"What has happened?\" they asked. He said, \"'Utbah b. Rabi'ah has been killed, and also Shaybah b. Rabi'ah, Abu al-Hakam b. Hisham, Umayyah b. Khalaf, Zam'ah b. al-Aswad, Abu al-Bakhtari b.",
+  "startDate": "0622-07-16",
+  "category": "military",
+  "connections": [
+    "event-0622-abu-sufyan-takes-evasive-action",
+    "event-0629-conquest-of-mecca"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "67"
+    }
+  ]
+}

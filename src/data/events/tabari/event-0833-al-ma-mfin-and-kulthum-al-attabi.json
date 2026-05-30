@@ -1,0 +1,16 @@
+{
+  "id": "event-0833-al-ma-mfin-and-kulthum-al-attabi",
+  "title": "Al-Ma'mfin and Kulthum al-'Attabi",
+  "description": "Al-Ma'mfin and Kulthum al-'Attabi. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "253"
+    }
+  ]
+}

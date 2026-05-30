@@ -1,0 +1,24 @@
+{
+  "id": "event-0807-various-items-of-information",
+  "title": "Various Items of Information",
+  "description": "In this year, the Khurramiyyah became active in the region of Azerbaijan, so al-Rashid sent 'Abdallah b. Malik against them with a force of ten thousand cavalry; 'Abdallah took (male) prisoners and captured (the enemy's women and children), and met up with al-Rashid at Qarmasin. Al-Rashid then ordered the male prisoners to be killed and the captured women and children to be sold into slavery.985 In this year, the judge `Ali b. 7abyan died at Qasr al-Lugug 986 984. In al-Athir, VI, 207-8, Palmer, 12o-1; Gabrieli, loc. cit., Abbott, 203. 985.",
+  "startDate": "0807-01-01",
+  "category": "political",
+  "connections": [
+    "event-0807-al-rashid-s-serious-medical-condition-and-his",
+    "event-0808-governors-in-the-provincial-capitals-in-harun-al",
+    "event-0824-military-operations-in-azerbaijan-against-the-rebel-babak"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 37.8,
+    "longitude": 46.3,
+    "name": "Azerbaijan (NW Iran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "294"
+    }
+  ]
+}

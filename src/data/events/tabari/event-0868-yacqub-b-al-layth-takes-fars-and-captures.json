@@ -1,0 +1,22 @@
+{
+  "id": "event-0868-yacqub-b-al-layth-takes-fars-and-captures",
+  "title": "Yacqub b. al-Layth takes Fars and captures 'Ali b. al-Husayn",
+  "description": "Yacqub b. al-Layth takes Fars and captures 'Ali b. al-Husayn. Recorded under the year 254 AH (868 CE) in al-Tabari's History, volume 35.",
+  "startDate": "0868-01-01",
+  "category": "political",
+  "connections": [
+    "event-0909-mu-nis-al-khddim-s-campaign-against-byzantines"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 29.6,
+    "longitude": 52.5,
+    "name": "Fars, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 35",
+      "page": "159"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0851-cause-of-the-revolt-by-the-inhabitants-of",
+  "title": "The Cause of the Revolt by the Inhabitants of Armenia against Yusuf b. Muhammad",
+  "description": "Armenia against Yusuf b. Muhammad We have previously mentioned the reason for al-Mutawakkil's appointing this Yusuf b. Muhammad governor of Armenia. The reason for the revolt of the inhabitants of Armenia against him was reportedly as follows:",
+  "startDate": "0851-01-01",
+  "category": "military",
+  "connections": [
+    "event-0799-khazar-invasion-of-armenia"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0852-12-31",
+  "location": {
+    "latitude": 40.0,
+    "longitude": 44.5,
+    "name": "Armenia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "113"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "event-0737-reason-for-asad-s-death",
+  "title": "The Reason for Asad's Death",
+  "description": "The reason for it: He reportedly had an internal abcess 5°5 He attended (the feast of) al-Mihrijin while he was at Balkh, when the amirs and dingans brought him presents. Among those who came to him was Ibrahim b. 'Abd al-Rahmin al-Hanafi, his governor 583. This would appear to be the same as the fortress of Sideroun mentioned by Theophanes, but it cannot be further identified. See Theophanes, Chronicle, Io3i Brooks, \"Arabs in Asia Minor,\" Hellenic Studies, XVIII, 201. 584. A Jazari lieutenant of Marwin b.",
+  "startDate": "0737-01-01",
+  "category": "political",
+  "connections": [
+    "event-0737-campaign-of-kharistan"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.76,
+    "longitude": 66.9,
+    "name": "Balkh, Afghanistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "167"
+    }
+  ]
+}

@@ -1,0 +1,895 @@
+[
+  {
+    "id": "tabari-v27-127-001",
+    "title": "Why the Oath of Allegiance was Given to Marwan",
+    "description": "",
+    "hijriYear": 127,
+    "ceLabel": "c. 745",
+    "startDate": "745",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 1,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-127-002",
+    "title": "Revolt of the People of Hims",
+    "description": "",
+    "hijriYear": 127,
+    "ceLabel": "c. 745",
+    "startDate": "745",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 4,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-127-003",
+    "title": "Revolt of al-Dahhak b. Qays the Kharijite",
+    "description": "",
+    "hijriYear": 127,
+    "ceLabel": "c. 745",
+    "startDate": "745",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 9,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-127-004",
+    "title": "Revolt of Sulayman b. Hisham",
+    "description": "",
+    "hijriYear": 127,
+    "ceLabel": "c. 745",
+    "startDate": "745",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 19,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-127-005",
+    "title": "The Slaying of al-Harith b. Surayj in Khurasan",
+    "description": "",
+    "hijriYear": 127,
+    "ceLabel": "745",
+    "startDate": "745",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 28,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-127-006",
+    "title": "Death of al-Dahhak b. Qays the Kharijite",
+    "description": "",
+    "hijriYear": 127,
+    "ceLabel": "745",
+    "startDate": "745",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 49,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-127-007",
+    "title": "Slaying of al-Khaybari the Kharijite",
+    "description": "",
+    "hijriYear": 127,
+    "ceLabel": "745",
+    "startDate": "745",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 5,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-127-008",
+    "title": "Yazid b. Umar b. Hubayrah is Sent to Iraq",
+    "description": "",
+    "hijriYear": 127,
+    "ceLabel": "745",
+    "startDate": "745",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 52,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-127-009",
+    "title": "Abu Hamzah the Kharijite in Arabia",
+    "description": "",
+    "hijriYear": 127,
+    "ceLabel": "745",
+    "startDate": "745",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 53,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-128-010",
+    "title": "The Death of Shayban b. 'Abd al -'Aziz the Kharijite",
+    "description": "",
+    "hijriYear": 128,
+    "ceLabel": "746–747",
+    "startDate": "0746-09-22",
+    "endDate": "0747-09-10",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 54,
+      "ceRaw": "SEPTEMBER 22, 746- SEPTEMBER 10, 747"
+    }
+  },
+  {
+    "id": "tabari-v27-128-011",
+    "title": "Abu Muslim Openly Preaches the 'Abbasid Revolution in Khurasan",
+    "description": "",
+    "hijriYear": 128,
+    "ceLabel": "746–747",
+    "startDate": "0746-09-22",
+    "endDate": "0747-09-10",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 61,
+      "ceRaw": "SEPTEMBER 22, 746- SEPTEMBER 10, 747"
+    }
+  },
+  {
+    "id": "tabari-v27-128-012",
+    "title": "Khazim b. Khuzaymah Takes Marwarrudh",
+    "description": "",
+    "hijriYear": 128,
+    "ceLabel": "746–747",
+    "startDate": "0746-09-22",
+    "endDate": "0747-09-10",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 70,
+      "ceRaw": "SEPTEMBER 22, 746- SEPTEMBER 10, 747"
+    }
+  },
+  {
+    "id": "tabari-v27-128-013",
+    "title": "The Arab Tribesmen of Khurasan Ally Against Abu Muslim",
+    "description": "",
+    "hijriYear": 128,
+    "ceLabel": "746–747",
+    "startDate": "0746-09-22",
+    "endDate": "0747-09-10",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 75,
+      "ceRaw": "SEPTEMBER 22, 746- SEPTEMBER 10, 747"
+    }
+  },
+  {
+    "id": "tabari-v27-128-014",
+    "title": "Death of juday' b. 'Ali al -Kirmani",
+    "description": "",
+    "hijriYear": 128,
+    "ceLabel": "746–747",
+    "startDate": "0746-09-22",
+    "endDate": "0747-09-10",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 81,
+      "ceRaw": "SEPTEMBER 22, 746- SEPTEMBER 10, 747"
+    }
+  },
+  {
+    "id": "tabari-v27-128-015",
+    "title": "'Abdallah b. Mu'awiyah al-ja'fari Gains Control of Fars",
+    "description": "",
+    "hijriYear": 128,
+    "ceLabel": "746–747",
+    "startDate": "0746-09-22",
+    "endDate": "0747-09-10",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 85,
+      "ceRaw": "SEPTEMBER 22, 746- SEPTEMBER 10, 747"
+    }
+  },
+  {
+    "id": "tabari-v27-128-016",
+    "title": "Abu Hamzah the Kharijite Leads the Pilgrimage",
+    "description": "",
+    "hijriYear": 128,
+    "ceLabel": "746–747",
+    "startDate": "0746-09-22",
+    "endDate": "0747-09-10",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 90,
+      "ceRaw": "SEPTEMBER 22, 746- SEPTEMBER 10, 747"
+    }
+  },
+  {
+    "id": "tabari-v27-129-017",
+    "title": "Abu Muslim Enters the Walled City of Marw",
+    "description": "",
+    "hijriYear": 129,
+    "ceLabel": "747",
+    "startDate": "747",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 93,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-129-018",
+    "title": "Death of Shayban b. Salamah the Kharijite",
+    "description": "",
+    "hijriYear": 129,
+    "ceLabel": "747",
+    "startDate": "747",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 103,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-129-019",
+    "title": "Abu Muslim Kills 'Ali and 'Uthman the Sons of Juday' al-Kirmani",
+    "description": "",
+    "hijriYear": 129,
+    "ceLabel": "747",
+    "startDate": "747",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 104,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-129-020",
+    "title": "Qahtabah b. Shabib Comes to Abu Muslim",
+    "description": "",
+    "hijriYear": 129,
+    "ceLabel": "747",
+    "startDate": "747",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 107,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-129-021",
+    "title": "Marwan's Governor for Jurjan is Killed",
+    "description": "",
+    "hijriYear": 129,
+    "ceLabel": "747",
+    "startDate": "747",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 110,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-129-022",
+    "title": "Battle of Qudayd by Madinah",
+    "description": "",
+    "hijriYear": 129,
+    "ceLabel": "747",
+    "startDate": "747",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 112,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-129-023",
+    "title": "Abu Hamzah the Kharijite Enters Madinah",
+    "description": "",
+    "hijriYear": 129,
+    "ceLabel": "747",
+    "startDate": "747",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 113,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v27-131-024",
+    "title": "The Death of Nasr b. Sayyar",
+    "description": "",
+    "hijriYear": 131,
+    "ceLabel": "749–750",
+    "startDate": "0749-08-20",
+    "endDate": "0750-08-08",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 124,
+      "ceRaw": "AUGUST 20, 749-AUGUST 8, 7 50"
+    }
+  },
+  {
+    "id": "tabari-v27-131-025",
+    "title": "Qahtabah Camps at Rayy and Abu Muslim Moves to Naysabur",
+    "description": "",
+    "hijriYear": 131,
+    "ceLabel": "749–750",
+    "startDate": "0749-08-20",
+    "endDate": "0750-08-08",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 126,
+      "ceRaw": "AUGUST 20, 749-AUGUST 8, 7 50"
+    }
+  },
+  {
+    "id": "tabari-v27-131-026",
+    "title": "'Amir b. Dubarah is Slain by Qahtabah",
+    "description": "",
+    "hijriYear": 131,
+    "ceLabel": "749–750",
+    "startDate": "0749-08-20",
+    "endDate": "0750-08-08",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 126,
+      "ceRaw": "AUGUST 20, 749-AUGUST 8, 7 50"
+    }
+  },
+  {
+    "id": "tabari-v27-131-027",
+    "title": "The Battle of Jabalq by Isbahan",
+    "description": "",
+    "hijriYear": 131,
+    "ceLabel": "749–750",
+    "startDate": "0749-08-20",
+    "endDate": "0750-08-08",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 127,
+      "ceRaw": "AUGUST 20, 749-AUGUST 8, 7 50"
+    }
+  },
+  {
+    "id": "tabari-v27-131-028",
+    "title": "Qahtabah Enters Nihawand",
+    "description": "",
+    "hijriYear": 131,
+    "ceLabel": "749–750",
+    "startDate": "0749-08-20",
+    "endDate": "0750-08-08",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 129,
+      "ceRaw": "AUGUST 20, 749-AUGUST 8, 7 50"
+    }
+  },
+  {
+    "id": "tabari-v27-131-029",
+    "title": "The Battle of Shahrazur",
+    "description": "",
+    "hijriYear": 131,
+    "ceLabel": "749–750",
+    "startDate": "0749-08-20",
+    "endDate": "0750-08-08",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 131,
+      "ceRaw": "AUGUST 20, 749-AUGUST 8, 7 50"
+    }
+  },
+  {
+    "id": "tabari-v27-131-030",
+    "title": "The Death of Qahtabah b. Shabib",
+    "description": "",
+    "hijriYear": 131,
+    "ceLabel": "749–750",
+    "startDate": "0749-08-20",
+    "endDate": "0750-08-08",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 134,
+      "ceRaw": "AUGUST 20, 749-AUGUST 8, 7 50"
+    }
+  },
+  {
+    "id": "tabari-v27-131-031",
+    "title": "Muhammad b. Khalid al-Qasri Revolts at Kiifah in the Name of the 'Abbasids",
+    "description": "",
+    "hijriYear": 131,
+    "ceLabel": "749–750",
+    "startDate": "0749-08-20",
+    "endDate": "0750-08-08",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 140,
+      "ceRaw": "AUGUST 20, 749-AUGUST 8, 7 50"
+    }
+  },
+  {
+    "id": "tabari-v27-132-032",
+    "title": "Marwan's Defeat at the Zab",
+    "description": "",
+    "hijriYear": 132,
+    "ceLabel": "750",
+    "startDate": "0750-08-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 162,
+      "ceRaw": "AUGUST 9,750-29 JULY, 751"
+    }
+  },
+  {
+    "id": "tabari-v27-132-033",
+    "title": "Death of Ibrahim the 'Abbasid Imam",
+    "description": "",
+    "hijriYear": 132,
+    "ceLabel": "750",
+    "startDate": "0750-08-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 166,
+      "ceRaw": "AUGUST 9,750-29 JULY, 751"
+    }
+  },
+  {
+    "id": "tabari-v27-132-034",
+    "title": "Slaying of Marwan b. Muhammad",
+    "description": "",
+    "hijriYear": 132,
+    "ceLabel": "750",
+    "startDate": "0750-08-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 168,
+      "ceRaw": "AUGUST 9,750-29 JULY, 751"
+    }
+  },
+  {
+    "id": "tabari-v27-132-035",
+    "title": "Revolt of Abu al-Ward at Qinnasrin",
+    "description": "",
+    "hijriYear": 132,
+    "ceLabel": "750",
+    "startDate": "0750-08-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 176,
+      "ceRaw": "AUGUST 9,750-29 JULY, 751"
+    }
+  },
+  {
+    "id": "tabari-v27-132-036",
+    "title": "Defection of Habib b. Murrah",
+    "description": "",
+    "hijriYear": 132,
+    "ceLabel": "750",
+    "startDate": "0750-08-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 179,
+      "ceRaw": "AUGUST 9,750-29 JULY, 751"
+    }
+  },
+  {
+    "id": "tabari-v27-132-037",
+    "title": "Revolt of the Men of the Jazirah",
+    "description": "",
+    "hijriYear": 132,
+    "ceLabel": "750",
+    "startDate": "0750-08-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 180,
+      "ceRaw": "AUGUST 9,750-29 JULY, 751"
+    }
+  },
+  {
+    "id": "tabari-v27-132-038",
+    "title": "Abu Ja'far the 'Abbasid's journey to Khurasan",
+    "description": "",
+    "hijriYear": 132,
+    "ceLabel": "750",
+    "startDate": "0750-08-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 182,
+      "ceRaw": "AUGUST 9,750-29 JULY, 751"
+    }
+  },
+  {
+    "id": "tabari-v27-132-039",
+    "title": "The Battle of Wasit",
+    "description": "",
+    "hijriYear": 132,
+    "ceLabel": "750",
+    "startDate": "0750-08-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 185,
+      "ceRaw": "AUGUST 9,750-29 JULY, 751"
+    }
+  },
+  {
+    "id": "tabari-v27-132-040",
+    "title": "Contents xi Death of Ibn Hubayrah",
+    "description": "",
+    "hijriYear": 132,
+    "ceLabel": "750",
+    "startDate": "0750-08-09",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 19,
+      "ceRaw": "AUGUST 9,750-29 JULY, 751"
+    }
+  },
+  {
+    "id": "tabari-v27-134-041",
+    "title": "The Rebellion of Bassam b. Ibrahim",
+    "description": "",
+    "hijriYear": 134,
+    "ceLabel": "752–753",
+    "startDate": "0752-07-18",
+    "endDate": "0753-07-07",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 199,
+      "ceRaw": "JULY 18, 752-JULY 7, 753"
+    }
+  },
+  {
+    "id": "tabari-v27-134-042",
+    "title": "Khazim b. Khuzaymah 's War Against the Kharijites of 'Uman",
+    "description": "",
+    "hijriYear": 134,
+    "ceLabel": "752–753",
+    "startDate": "0752-07-18",
+    "endDate": "0753-07-07",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 201,
+      "ceRaw": "JULY 18, 752-JULY 7, 753"
+    }
+  },
+  {
+    "id": "tabari-v27-134-043",
+    "title": "Death of Mansur b. Jumhur in Sind",
+    "description": "",
+    "hijriYear": 134,
+    "ceLabel": "752–753",
+    "startDate": "0752-07-18",
+    "endDate": "0753-07-07",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 203,
+      "ceRaw": "JULY 18, 752-JULY 7, 753"
+    }
+  },
+  {
+    "id": "tabari-v27-135-044",
+    "title": "The Rebellion of Ziyad b. Salih in Transoxania",
+    "description": "",
+    "hijriYear": 135,
+    "ceLabel": "753–754",
+    "startDate": "0753-07-07",
+    "endDate": "0754-06-26",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 205,
+      "ceRaw": "JULY 7, 753-JUNE 26, 754"
+    }
+  },
+  {
+    "id": "tabari-v27-135-045",
+    "title": "The Visit of Abu Muslim to Abu al-'Abbas in Iraq",
+    "description": "",
+    "hijriYear": 135,
+    "ceLabel": "753–754",
+    "startDate": "0753-07-07",
+    "endDate": "0754-06-26",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 209,
+      "ceRaw": "JULY 7, 753-JUNE 26, 754"
+    }
+  },
+  {
+    "id": "tabari-v27-135-046",
+    "title": "Abu Ja ' far the 'Abbasid and Abu Muslim go on the Pilgrimage",
+    "description": "",
+    "hijriYear": 135,
+    "ceLabel": "753–754",
+    "startDate": "0753-07-07",
+    "endDate": "0754-06-26",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 211,
+      "ceRaw": "JULY 7, 753-JUNE 26, 754"
+    }
+  },
+  {
+    "id": "tabari-v27-135-047",
+    "title": "The Death of Abu al -'Abbas al-Saffah",
+    "description": "",
+    "hijriYear": 135,
+    "ceLabel": "753–754",
+    "startDate": "0753-07-07",
+    "endDate": "0754-06-26",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "27",
+      "page": 212,
+      "ceRaw": "JULY 7, 753-JUNE 26, 754"
+    }
+  }
+]

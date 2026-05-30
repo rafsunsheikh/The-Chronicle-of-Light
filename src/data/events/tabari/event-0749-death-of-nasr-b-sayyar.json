@@ -1,0 +1,18 @@
+{
+  "id": "event-0749-death-of-nasr-b-sayyar",
+  "title": "The Death of Nasr b. Sayyar",
+  "description": "The Death of Nasr b. Sayyar. Recorded under the year 131 AH (749–750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0749-08-20",
+  "category": "political",
+  "connections": [
+    "event-0747-death-of-shayban-b-salamah-the-kharijite"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0750-08-08",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "124"
+    }
+  ]
+}

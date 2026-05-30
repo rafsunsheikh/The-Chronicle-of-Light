@@ -1,0 +1,16 @@
+{
+  "id": "event-0912-falimid-expedition-against-barqah",
+  "title": "Falimid expedition against Barqah",
+  "description": "Falimid expedition against Barqah. Recorded under the year 299 AH (912–913 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0912-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0913-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "198"
+    }
+  ]
+}

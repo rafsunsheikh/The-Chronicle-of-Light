@@ -1,0 +1,24 @@
+{
+  "id": "event-0634-what-stirred-up-the-matter-of-al-qadisiyyah",
+  "title": "What Stirred Up the Matter of al-Qadisiyyah",
+  "description": "Al-Sari - Shucayb - Sayf - Muhammad b. `Abdallah b. Sawad b. Nuwayrah - `Aziz b. Miknaf al-Tamimi, then al- Usayyidi; 1052 Talhah b. al-A`lam al-Hanafi - al-Mughirah b. `Utaybah b. al-Nahhas 122o9] al `Ijli; and Ziyad b. Sarjis al-Ahmari-`Abd al- Rahman b. Sabot alAhmari: 1°53 The Persians said to Rustam and al -Fayruzan, who were in charge of the Persians,",
+  "startDate": "0634-03-07",
+  "category": "political",
+  "connections": [
+    "event-0623-battle-of-babil",
+    "event-0635-day-of-imas-x-o6-the-night-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 31.71,
+    "longitude": 44.36,
+    "name": "al-Qadisiyyah (near Kufa)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "2211"
+    }
+  ]
+}

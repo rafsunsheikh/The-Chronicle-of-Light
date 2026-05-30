@@ -1,0 +1,24 @@
+{
+  "id": "event-0692-campaigns-against-the-byzantines",
+  "title": "Campaigns against the Byzantines",
+  "description": "In this year, Muhammad b. Marwan campaigned during the summer and defeated the Byzantines. `Uthman b. al-Walid's attack 832. A]- Mushaqqar was an ancient fortress in al-Bahrayn. See Yaqut, Mu`jam, s.v.",
+  "startDate": "0692-01-01",
+  "category": "military",
+  "connections": [
+    "event-0689-abd-al-malik-and-the-byzantines",
+    "event-0694-events-of-this-year"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0693-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "233"
+    }
+  ]
+}

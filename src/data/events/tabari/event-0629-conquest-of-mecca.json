@@ -1,0 +1,24 @@
+{
+  "id": "event-0629-conquest-of-mecca",
+  "title": "The Conquest of Mecca",
+  "description": "The Conquest of Mecca. Recorded under the year 8 AH (629–630 CE) in al-Tabari's History, volume 08.",
+  "startDate": "0629-01-01",
+  "category": "military",
+  "connections": [
+    "event-0622-news-of-defeat-reaches-mecca",
+    "event-0655-names-of-uthman-s-provincial-governors-during-this"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0630-12-31",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "160"
+    }
+  ]
+}

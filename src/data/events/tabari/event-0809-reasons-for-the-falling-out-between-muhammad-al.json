@@ -1,0 +1,20 @@
+{
+  "id": "event-0809-reasons-for-the-falling-out-between-muhammad-al",
+  "title": "Reasons for the Falling out between Muhammad al-Amin and 'Abdallah al-Ma'mun",
+  "description": "Muhammad al-Amin and Abdallah al-Ma'mun",
+  "startDate": "0809-10-15",
+  "category": "political",
+  "connections": [
+    "event-0809-letter-of-muhammad-al-amin-to-his-brother",
+    "event-0809-letter-of-muhammad-al-amin-to-his-brother-2",
+    "event-0811-al-amin-forbids-prayer-for-al-ma-mun"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0810-10-03",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "22"
+    }
+  ]
+}

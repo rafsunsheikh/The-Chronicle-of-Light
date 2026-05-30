@@ -1,0 +1,24 @@
+{
+  "id": "event-0638-conquest-of-tustar",
+  "title": "The Conquest of Tustar",
+  "description": "According to al-Sari-Shu'ayb-Sayf-Muhammad, Talhah, alMuhallab and 'Amr: When al-Hurmuzan had been defeated on the day (of the battle) of Suq al-Ahwaz, and after Hurqu$ b. Zuhayr had conquered that city, the latter took up residence there. He dispatched Jaz' b. Mu'awiyah to Surrag435 in pursuit of al-Hurmuzan, as 'Umar had ordered. 'Umar had charged Hurquq, should God conquer the area for them, to send Jaz' after al-Hurmuzan in pursuit, and also to take the direction to Surraq.",
+  "startDate": "0638-01-01",
+  "category": "military",
+  "connections": [
+    "event-0638-account-of-the-circumstances-leading-to-the-conquest",
+    "event-0643-bayrudh-in-al-ahwaz"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0639-12-31",
+  "location": {
+    "latitude": 31.32,
+    "longitude": 48.67,
+    "name": "Ahvaz, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "123"
+    }
+  ]
+}

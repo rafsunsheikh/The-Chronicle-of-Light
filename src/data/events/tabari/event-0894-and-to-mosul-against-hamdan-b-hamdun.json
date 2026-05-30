@@ -1,0 +1,21 @@
+{
+  "id": "event-0894-and-to-mosul-against-hamdan-b-hamdun",
+  "title": "and to Mosul against Hamdan b. Hamdun",
+  "description": "and to Mosul against Hamdan b. Hamdun. Recorded under the year 281 AH (894–895 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0894-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0895-12-31",
+  "location": {
+    "latitude": 36.34,
+    "longitude": 43.13,
+    "name": "Mosul, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "15"
+    }
+  ]
+}

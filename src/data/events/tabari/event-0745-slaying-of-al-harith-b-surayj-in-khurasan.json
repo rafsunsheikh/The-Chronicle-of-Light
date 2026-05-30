@@ -1,0 +1,24 @@
+{
+  "id": "event-0745-slaying-of-al-harith-b-surayj-in-khurasan",
+  "title": "The Slaying of al-Harith b. Surayj in Khurasan",
+  "description": "We have already mentioned the letter of Yazid b. al-Walid b. alWalid to al-Harith with a pardon for him, and how al-Harith then left the land of the Turks for Khurasan and went to Nasr b. Sayyar. We also mentioned how Nasr treated him,65 and how adherents collected around al-Harith in answer to his call. According to 'Ali b. Muhammad (al-Mada'ini)-his shaykhs: When Ibn Hubayrah took control of Iraq, he wrote to Nasr b. Sayyar of his appointment, and Nasr gave his allegiance to Marwan. Then al-Harith said, \"It was only Yazid b.",
+  "startDate": "0745-01-01",
+  "category": "political",
+  "connections": [
+    "event-0744-reason-for-granting-safe-conduct-to-al-harith",
+    "event-0746-abu-muslim-openly-preaches-the-abbasid-revolution-in",
+    "event-0747-abu-muslim-enters-the-walled-city-of-marw"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "28"
+    }
+  ]
+}

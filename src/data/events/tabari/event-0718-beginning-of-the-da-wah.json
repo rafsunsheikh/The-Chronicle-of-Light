@@ -1,0 +1,16 @@
+{
+  "id": "event-0718-beginning-of-the-da-wah",
+  "title": "The Beginning of the Da'wah",
+  "description": "The Beginning of the Da'wah. Recorded under the year 99 AH (718–719 CE) in al-Tabari's History, volume 24.",
+  "startDate": "0718-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0719-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "87"
+    }
+  ]
+}

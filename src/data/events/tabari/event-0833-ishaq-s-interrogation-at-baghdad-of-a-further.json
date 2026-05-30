@@ -1,0 +1,24 @@
+{
+  "id": "event-0833-ishaq-s-interrogation-at-baghdad-of-a-further",
+  "title": "Ishaq's interrogation at Baghdad of a further group of scholars",
+  "description": "Ishaq's interrogation at Baghdad of a further group of scholars. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0833-al-ma-mun-s-orders-to-his-governor",
+    "event-0835-deportation-of-the-captured-zull"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "2110"
+    }
+  ]
+}

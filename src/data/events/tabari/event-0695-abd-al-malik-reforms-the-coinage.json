@@ -1,0 +1,19 @@
+{
+  "id": "event-0695-abd-al-malik-reforms-the-coinage",
+  "title": "'Abd al-Malik Reforms the Coinage",
+  "description": "In this year, 'Abd al-Malik b. Marwan ordered dinars and dirhams inscribed,358 according to al-Wagidi- Sa'd b. Rashid-$alib b. Kaysan. 357. The campaigns of Ibn al-Ash 'ath and 'Uthman b. Qa$an (in that order) are mentioned after that of Zi'idah b. Qu(amah by Ibn Khayysi, Ta 'rikh. 273, who dates 'Uthman 's defeat, like Tabari, to Dhu al-Hijjah 76.",
+  "startDate": "0695-01-01",
+  "category": "political",
+  "connections": [
+    "event-0688-revolt-and-death-of-amr-b-said-in",
+    "event-0696-account-of-mutarrif-s-rebelling-and-throwing-off"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0696-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "90"
+    }
+  ]
+}

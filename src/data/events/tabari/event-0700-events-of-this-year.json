@@ -1,0 +1,16 @@
+{
+  "id": "event-0700-events-of-this-year",
+  "title": "The Events of This Year",
+  "description": "In this year occurred the conquest of Qaligala. According to 'Umar b. Shabbah-'Ali b. Muhammad: 'Abd alMalik sent out his son 'Ubaydallah b. 'Abd al-Malik in the year 8 r, and he conquered Qaligala.712 In this year, Bal it b. Warga' al-$uraymi was killed in Khurisin.",
+  "startDate": "0700-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0701-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "196"
+    }
+  ]
+}

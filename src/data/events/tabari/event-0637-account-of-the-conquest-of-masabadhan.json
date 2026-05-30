@@ -1,0 +1,24 @@
+{
+  "id": "event-0637-account-of-the-conquest-of-masabadhan",
+  "title": "The Account of the Conquest of Masabadhan",
+  "description": "According to al-Sari-Shu'ayb--Sayf-Talhah, Muhammad, Muhallab, 'Amr and Said: When Hashim b. 'Utbah returned from Jalula' to al-Madi'in, the news reached Said that Adhin b. al-Hurmuzan had brought together a military force with which he had marched to the plain. Sa'd wrote about this development to'Umar who wrote back, \"Send I)irir b. al-Khattib with an army to stop them; set over its vanguard Ibn al-Hudhayl al-Asadi and over its two wings'Abdallah b.",
+  "startDate": "0637-01-01",
+  "category": "military",
+  "connections": [
+    "event-0637-report-about-the-battle-of-jalula-al-wagi",
+    "event-0638-conquest-of-al-sus"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0638-12-31",
+  "location": {
+    "latitude": 34.27,
+    "longitude": 45.16,
+    "name": "Jalawla, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "57"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0811-ali-b-isa-b-mahan-goes-to-al",
+  "title": "'Ali b. 'Isa b. Mahan Goes to al-Rayy to Fight the Forces of al-Ma'mun",
+  "description": "horsemen and foot soldiers from the people of Baghdad.296 He handed him the army registers (dafatir al-fund) and commanded him to select and choose those who pleased him. He was to give special treatment to whomever he liked and raise those he wanted to (a salary of ] 8o (dinars]. He gave him access to the (stores of ] weapons and treasuries. Then they were dispatched against al-Ma'mun. According to Yazid b. al-Harith, who said: When All (b.",
+  "startDate": "0811-09-23",
+  "category": "political",
+  "connections": [
+    "event-0811-al-amin-forbids-prayer-for-al-ma-mun",
+    "event-0811-al-amin-imprisons-asad-b-yazid-and-dispatches"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 35.59,
+    "longitude": 51.43,
+    "name": "Rayy (near Tehran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "49"
+    }
+  ]
+}

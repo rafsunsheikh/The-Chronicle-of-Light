@@ -1,0 +1,22 @@
+{
+  "id": "event-0750-revolt-of-abu-al-ward-at-qinnasrin",
+  "title": "Revolt of Abu al-Ward at Qinnasrin",
+  "description": "Revolt of Abu al-Ward at Qinnasrin. Recorded under the year 132 AH (750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0750-08-09",
+  "category": "military",
+  "connections": [
+    "event-0717-death-of-sulayman-b-abd-al-malik"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 35.99,
+    "longitude": 37.05,
+    "name": "Qinnasrin (south of Aleppo)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "176"
+    }
+  ]
+}

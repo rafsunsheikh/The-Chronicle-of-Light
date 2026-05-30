@@ -1,0 +1,16 @@
+{
+  "id": "event-0742-some-biographical-details-about-hisham",
+  "title": "Some Biographical Details about Hisham",
+  "description": "According to Ahmad b. Zuhayr-'Ali b. Muhammad (al-Mada'ini)-Wasnan al-'Araji385 - Ibn Abi Nuhaylah-'Aggal b. Shab-",
+  "startDate": "0742-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0743-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "72"
+    }
+  ]
+}

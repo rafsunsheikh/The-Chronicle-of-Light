@@ -1,0 +1,25 @@
+{
+  "id": "event-0824-military-operations-in-azerbaijan-against-the-rebel-babak",
+  "title": "Military operations in Azerbaijan against the rebel Babak al-Khurrami",
+  "description": "Military operations in Azerbaijan against the rebel Babak al-Khurrami. Recorded under the year 209 AH (824–825 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0824-01-01",
+  "category": "political",
+  "connections": [
+    "event-0807-various-items-of-information",
+    "event-0835-affair-of-babak-and-his-outbreak",
+    "event-0838-reason-behind-minkajur-s-rebellion-in-adharbayjan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0825-12-31",
+  "location": {
+    "latitude": 37.8,
+    "longitude": 46.3,
+    "name": "Azerbaijan (NW Iran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "144"
+    }
+  ]
+}

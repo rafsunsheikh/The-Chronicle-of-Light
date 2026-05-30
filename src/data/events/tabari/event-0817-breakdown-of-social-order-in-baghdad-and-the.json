@@ -1,0 +1,23 @@
+{
+  "id": "event-0817-breakdown-of-social-order-in-baghdad-and-the",
+  "title": "The breakdown of social order in Baghdad, and the movement there of the volunteers and vigilantes under Khalid al-Daryush and Sahl b. Salama al-Ansiri",
+  "description": "The breakdown of social order in Baghdad, and the movement there of the volunteers and vigilantes under Khalid al-Daryush and Sahl b. Salama al-Ansiri. Recorded under the year 201 AH (c. 817 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0817-01-01",
+  "category": "political",
+  "connections": [
+    "event-0817-expulsion-from-baghdad-of-al-hasan-b-sahl",
+    "event-0817-proclamation-in-baghdad-of-ibrahim-b-al-mahdi"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "55"
+    }
+  ]
+}

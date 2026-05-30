@@ -1,0 +1,16 @@
+{
+  "id": "event-0636-conquest-of-him",
+  "title": "The Conquest of Him",
+  "description": "The Conquest of Him. Recorded under the year 15 AH (636–637 CE) in al-Tabari's History, volume 12.",
+  "startDate": "0636-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0637-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "175"
+    }
+  ]
+}

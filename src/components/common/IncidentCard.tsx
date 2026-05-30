@@ -19,7 +19,7 @@ export const IncidentCard: React.FC<IncidentCardProps> = ({ incident, onClick })
       <p className="text-sm text-slate-600 mt-1">
         {new Date(incident.startDate).toLocaleDateString()}
       </p>
-      <p className="text-xs text-slate-500 mt-1">{incident.location.name}</p>
+      <p className="text-xs text-slate-500 mt-1">{incident.location?.name ?? '—'}</p>
     </div>
   );
 };

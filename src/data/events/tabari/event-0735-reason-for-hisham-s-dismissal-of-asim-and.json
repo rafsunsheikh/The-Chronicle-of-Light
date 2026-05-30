@@ -1,0 +1,24 @@
+{
+  "id": "event-0735-reason-for-hisham-s-dismissal-of-asim-and",
+  "title": "The Reason for Hisham 's Dismissal of 'Asim and His Appointment of Khalid for Khurasan",
+  "description": "and His Appointment of Khalid for Khurasan According to 'Ali-his authorities: The reason for that was that",
+  "startDate": "0735-01-01",
+  "category": "political",
+  "connections": [
+    "event-0734-matter-of-al-junayd-b-abd-al-rahman",
+    "event-0735-punishment-of-abbasid-missionaries-in-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0736-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "111"
+    }
+  ]
+}

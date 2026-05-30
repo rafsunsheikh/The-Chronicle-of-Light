@@ -1,0 +1,26 @@
+{
+  "id": "event-0693-important-events-of-this-year-x-al-muhallab",
+  "title": "The Important Events of This Year / x Al-Muhallab and the War against the Azraqites",
+  "description": "Among the events of this year: 'Abd al-Malik dismissed Tariq b. 'Amr1 from Medina and appointed as its governor al-Hajjaj b. Yusuf.2 It is reported that the latter came to Medina, stayed there a month, and then left to perform the lesser pilgrimage ('umrah) 3 In this year, it is reported, al-Hajjaj b. Yusuf dismantled the structures of the Ka'bah that Ibn al-Zubayr had put up. The latter had incorporated the Hijr inside the Ka 'bah and given the Ka'bah two doors; al-Hajjaj restored it to its original form.4 He then went 1.",
+  "startDate": "0693-01-01",
+  "category": "military",
+  "connections": [
+    "event-0687-those-in-office-during-the-year",
+    "event-0691-abd-al-malik-sends-al-hajjaj-to-fight",
+    "event-0694-revolt-of-the-bagran-troops-against-al-hajjaj",
+    "event-0705-appointment-of-umar-b-abd-al-aziz-as"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0694-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "3"
+    }
+  ]
+}

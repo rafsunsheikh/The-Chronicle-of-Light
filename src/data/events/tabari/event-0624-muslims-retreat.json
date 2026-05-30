@@ -1,0 +1,16 @@
+{
+  "id": "event-0624-muslims-retreat",
+  "title": "The Muslims Retreat",
+  "description": "The Muslims Retreat. Recorded under the year 3 AH (624–625 CE) in al-Tabari's History, volume 07.",
+  "startDate": "0624-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0625-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "120"
+    }
+  ]
+}

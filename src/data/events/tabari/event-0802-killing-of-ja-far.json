@@ -1,0 +1,25 @@
+{
+  "id": "event-0802-killing-of-ja-far",
+  "title": "The Killing of Ja'far",
+  "description": "[6781 Al-Fa4l b. Sulayman b. All has mentioned that al-Rashid performed the Pilgrimage in the year 186 (802), and that he returned homewards from Mecca and reached al-Hirah in al-MuWrram, 187 (December, 802-January, 803) on his return journey from the Pilgrimage. He stayed for a few days at the palace of 'Awn al'Ibadi733 and then set out by boat until he stopped at al-'Umr in the vicinity of al-Anbir.",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0774-information-about-his-wills",
+    "event-0802-correspondence-between-the-byzantine-emperor-nicephorus-and-al",
+    "event-0802-reason-for-al-rashld-s-killing-of-ja",
+    "event-0811-governor-of-mecca-casts-off-allegiance-to-al"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "216"
+    }
+  ]
+}

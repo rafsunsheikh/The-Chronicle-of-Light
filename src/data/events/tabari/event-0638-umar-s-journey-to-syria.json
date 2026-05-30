@@ -1,0 +1,24 @@
+{
+  "id": "event-0638-umar-s-journey-to-syria",
+  "title": "'Umar's journey to Syria",
+  "description": "According to Ibn Humayd-Salamah-Muhammad b. Ishaq: 'Umar left (Medina) in the year 17 (638) for a campaign in Syria. Then, when he had arrived in Sargh, the commanders of the Muslim armies came to meet him. They told him that the country was diseased, so he returned to Medina with his retinue. 125121 According to Ibn Humayd-Salamah-Muhammad b. IshaqIbn Shihab al-Zuhri-'Abd al-Hamid b. 'Abd al-Rahman b. Zayd b. al-Khailab-'Abdallah b. al-Harith b. Nawfal-'Abdallah b. 'Abbas: 'Umar left (Medina) to go on a campaign.",
+  "startDate": "0638-01-01",
+  "category": "political",
+  "connections": [
+    "event-0634-affair-of-fih1-according-to-sayf",
+    "event-0638-sayf-s-account-of-umar-s-last-trip"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0639-12-31",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "92"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0794-al-fa41-b-yai-ya-s-governorship-in",
+  "title": "Al-Fa41 b. YaI ya's Governorship in Khurasan and the Poetic Eulogies of Him",
+  "description": "Al-Fa41 b. YaI ya's Governorship in Khurasan and the Poetic Eulogies of Him. Recorded under the year 178 AH (794–795 CE) in al-Tabari's History, volume 30.",
+  "startDate": "0794-01-01",
+  "category": "political",
+  "connections": [
+    "event-0757-death-of-the-governor-of-khurasan-and-what",
+    "event-0796-various-items-of-information"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0795-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "143"
+    }
+  ]
+}

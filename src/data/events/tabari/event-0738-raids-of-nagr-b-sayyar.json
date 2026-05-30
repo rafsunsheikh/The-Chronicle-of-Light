@@ -1,0 +1,16 @@
+{
+  "id": "event-0738-raids-of-nagr-b-sayyar",
+  "title": "The Raids of Nagr b. Sayyar",
+  "description": "The Raids of Nagr b. Sayyar. Recorded under the year 120 AH (738–739 CE) in al-Tabari's History, volume 26.",
+  "startDate": "0738-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0739-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "24"
+    }
+  ]
+}

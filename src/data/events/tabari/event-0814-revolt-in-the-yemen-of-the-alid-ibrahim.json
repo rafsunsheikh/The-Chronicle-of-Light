@@ -1,0 +1,23 @@
+{
+  "id": "event-0814-revolt-in-the-yemen-of-the-alid-ibrahim",
+  "title": "The revolt in the Yemen of the 'Alid Ibrahim b. Musa al-Jazzar",
+  "description": "The revolt in the Yemen of the 'Alid Ibrahim b. Musa al-Jazzar. Recorded under the year 198 AH (814–815 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0814-01-01",
+  "category": "military",
+  "connections": [
+    "event-0821-revolt-in-yemen-of-the-alid-abd-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0815-12-31",
+  "location": {
+    "latitude": 15.355,
+    "longitude": 44.206,
+    "name": "Yemen (San'a')"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "28"
+    }
+  ]
+}

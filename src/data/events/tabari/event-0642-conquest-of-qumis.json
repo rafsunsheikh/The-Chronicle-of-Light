@@ -1,0 +1,21 @@
+{
+  "id": "event-0642-conquest-of-qumis",
+  "title": "The Conquest of Qumis",
+  "description": "They reported [also): When Nu' aym wrote of the conquest of alRayy, (despatching the news] with al -Mudirib al-'Ijli, and when he submitted the fifths [of booty for the state treasury), 'Umar replied to him that he should send Suwayd b. Mugarrin in advance to Qumis, posting in charge of his vanguard Simik b. Makhramah, of his flanks 'Utaybah b. al-Nahhis and Hind b. 'Amr al-Jamali. 151 Suwayd b. Muqarrin mobilized (his army[ and moved from al-Rayy on Qumis. No one showed him any 146.",
+  "startDate": "0642-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0643-12-31",
+  "location": {
+    "latitude": 36.17,
+    "longitude": 54.35,
+    "name": "Qumis (Damghan)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "27"
+    }
+  ]
+}

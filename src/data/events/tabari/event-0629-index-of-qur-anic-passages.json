@@ -1,0 +1,16 @@
+{
+  "id": "event-0629-index-of-qur-anic-passages",
+  "title": "Index of Qur 'anic Passages",
+  "description": "Index of Qur 'anic Passages. Recorded under the year 8 AH (629–630 CE) in al-Tabari's History, volume 08.",
+  "startDate": "0629-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0630-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "215"
+    }
+  ]
+}

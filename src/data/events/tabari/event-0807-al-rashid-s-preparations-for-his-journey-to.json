@@ -1,0 +1,24 @@
+{
+  "id": "event-0807-al-rashid-s-preparations-for-his-journey-to",
+  "title": "Al-Rashid's Preparations for His journey to Khurisin",
+  "description": "In this year, al-Rashid arrived from al-Raqqah by boat at the City of Peace, intending to set out for Khurasan and attack Rafi'. His arrival at Baghdad was on Friday, the twenty-fourth of Rabi' II (February z6, 808) 975 He appointed as his deputy in al-Raqqah his son al-Qasim, giving him as support Khuzaymah b. Khazim. Then he set out from the City of Peace on the evening of Monday (i.e., the Sunday evening), the fifth of Sha'ban (June 4, 808), after the",
+  "startDate": "0807-01-01",
+  "category": "political",
+  "connections": [
+    "event-0806-harthamah-s-letter-to-al-rashid-announcing-the",
+    "event-0806-what-befell-harthamah-in-the-course-of-his",
+    "event-0807-al-rashid-s-serious-medical-condition-and-his"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "291"
+    }
+  ]
+}

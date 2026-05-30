@@ -1,0 +1,23 @@
+{
+  "id": "event-0750-abu-ja-far-the-abbasid-s-journey-to",
+  "title": "Abu Ja'far the 'Abbasid's journey to Khurasan",
+  "description": "Abu Ja'far the 'Abbasid's journey to Khurasan. Recorded under the year 132 AH (750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0750-08-09",
+  "category": "political",
+  "connections": [
+    "event-0746-arab-tribesmen-of-khurasan-ally-against-abu-muslim",
+    "event-0752-rebellion-of-bassam-b-ibrahim"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "182"
+    }
+  ]
+}

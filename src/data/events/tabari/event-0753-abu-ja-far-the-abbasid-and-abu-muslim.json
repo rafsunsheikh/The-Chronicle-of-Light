@@ -1,0 +1,19 @@
+{
+  "id": "event-0753-abu-ja-far-the-abbasid-and-abu-muslim",
+  "title": "Abu Ja ' far the 'Abbasid and Abu Muslim go on the Pilgrimage",
+  "description": "Abu Ja ' far the 'Abbasid and Abu Muslim go on the Pilgrimage. Recorded under the year 135 AH (753–754 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0753-07-07",
+  "category": "religious",
+  "connections": [
+    "event-0753-visit-of-abu-muslim-to-abu-al-abbas",
+    "event-0754-account-of-abu-muslim-s-murder-and-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0754-06-26",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "211"
+    }
+  ]
+}

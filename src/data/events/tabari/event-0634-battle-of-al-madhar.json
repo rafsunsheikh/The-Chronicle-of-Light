@@ -1,0 +1,21 @@
+{
+  "id": "event-0634-battle-of-al-madhar",
+  "title": "The Battle of al-Madhar",
+  "description": "The Battle of al-Madhar. Recorded under the year 13 AH (634–635 CE) in al-Tabari's History, volume 11.",
+  "startDate": "0634-03-07",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 31.7,
+    "longitude": 47.15,
+    "name": "Maysan, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "15"
+    }
+  ]
+}

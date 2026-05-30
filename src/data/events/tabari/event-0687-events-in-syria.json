@@ -1,0 +1,24 @@
+{
+  "id": "event-0687-events-in-syria",
+  "title": "Events in Syria",
+  "description": "According to Abu Ja 'far [sc. al-Tabari]: In this year, there was severe drought in Syria, so severe that they were unable to campaign. In this year, Abd al- Malik b. Marwan encamped at Butnan Habib in the territory of Qinnasrin.479 They were rained on there, and there was so much mud that they called the place \"Butnan alTin.i480Abd al- Malik spent the winter there and then returned to Damascus.",
+  "startDate": "0687-01-01",
+  "category": "political",
+  "connections": [
+    "event-0684-rendering-of-allegiance-to-marwan-b-al-hakam",
+    "event-0688-revolt-and-death-of-amr-b-said-in"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0688-12-31",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "134"
+    }
+  ]
+}

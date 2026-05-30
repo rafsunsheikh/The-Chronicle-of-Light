@@ -1,0 +1,16 @@
+{
+  "id": "event-0714-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 95 AH (714–715 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0714-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0715-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "237"
+    }
+  ]
+}

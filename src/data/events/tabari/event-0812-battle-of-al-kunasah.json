@@ -1,0 +1,24 @@
+{
+  "id": "event-0812-battle-of-al-kunasah",
+  "title": "The Battle of al-Kunasah",
+  "description": "In this year, Tihir placed some of his commanders in (various) parts of Baghdad. He placed al-'Ala' b. al-Waddah al-Azdi with his companions and those he attached to him in al595 The translation follows the text of ed. Cairo, rather than ed. Leiden, which is corrupt at this point. 596. On the Trench ofTahir and al-Anbar Gate, located about r mile due west of the Syrian Gate of the Round City, see Le Strange, Baghdad, 1o9-ii.",
+  "startDate": "0812-01-01",
+  "category": "military",
+  "connections": [
+    "event-0812-tahir-captures-baghdad",
+    "event-0812-tahir-forbids-boatmen-to-bring-anything-to-baghdad"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "159"
+    }
+  ]
+}

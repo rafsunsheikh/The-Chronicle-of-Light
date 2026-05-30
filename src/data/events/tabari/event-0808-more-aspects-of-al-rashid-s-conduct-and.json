@@ -1,0 +1,18 @@
+{
+  "id": "event-0808-more-aspects-of-al-rashid-s-conduct-and",
+  "title": "More Aspects of al-Rashid 's Conduct and Mode of Life",
+  "description": "Ya`qub b. Isl.iq al-Igfahini has mentioned, saying: al-MufacJ\" b. Muhammad al-Rabbit 106 said: Al-Rashid sent for me, and I had no idea what it was about except that the messengers came to me at night and said, \"Respond to the Commander of the Faithful's summons!\" So I went out until I came to him, this being on a Thursday, and behold, the Caliph was reclining, propped on his elbow, with Muhammad b. Zubaydah on his left and al-Ma'mnn on his right. I greeted him and he motioned to me, so I sat down.",
+  "startDate": "0808-01-01",
+  "category": "political",
+  "connections": [
+    "event-0808-al-rashid-s-children",
+    "event-0809-succession-of-muhammad-al-amin-as-caliph"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "328"
+    }
+  ]
+}

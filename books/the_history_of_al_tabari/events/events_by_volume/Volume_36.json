@@ -1,0 +1,648 @@
+[
+  {
+    "id": "tabari-v36-256-001",
+    "title": ")in Baghdad)",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 3,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-002",
+    "title": "An Account of lthel Deaths of (Ahmad b. Isra'il and Abu Nuh)",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 10,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-003",
+    "title": "An Account of Ithel Events lof Ramadan 2 5 S)",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 13,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-004",
+    "title": "An Account of Musa's Departure",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 25,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-005",
+    "title": "The First 'Alawite Rebellion in al-Bagah",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 29,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-006",
+    "title": "An Account of)'Ali b. Muhammad b. 'Abd al-Rahim 's) Expedition and What Determined Him to Revolt There",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 30,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-007",
+    "title": "An Account of the Zanj Leader 's Advance upon al-Ba^rah with His Army",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 59,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-008",
+    "title": "An Account of $alil}'s Discovery in Hiding and His Death / 72. An Account of (al-Muhtadi 's) Removal and Death",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 91,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-009",
+    "title": "Other Accounts of al-Muhtadi 's Death",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 95,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-010",
+    "title": "News of [the ] Encounter [between Judlan and the ZanjJ / to8 An Account of the Zanj Occupation of al-Ubullah",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 110,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-011",
+    "title": "The Account of [the Zanj Leader's] Summons for (the] Surrender of the Inhabitants of 'Abbidan]",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 111,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-012",
+    "title": "An Account of the Occupation of al-Ahwaz)",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 111,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-013",
+    "title": "An Account of the Battle [between Said al-Hijib and the Zanj) / i zi An Account of the Battle [between Mansur b. Ja'far and the ZanjJ",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 122,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-014",
+    "title": "The Death of Shihin b. Bislam and the Flight of Ibrahim b. Simi",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 123,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-015",
+    "title": "The Events that Led up to [the ] Entry of al-Basrah by the Zanjj and What lianspired Thereafter",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 125,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-256-016",
+    "title": "An Account of al-Muwallad's Expedition",
+    "description": "",
+    "hijriYear": 256,
+    "ceLabel": "870–887",
+    "startDate": "870",
+    "endDate": "887",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 134,
+      "ceRaw": "870/87-1"
+    }
+  },
+  {
+    "id": "tabari-v36-264-017",
+    "title": "An Account of [Mansur b. Ja'far's] Death",
+    "description": "",
+    "hijriYear": 264,
+    "ceLabel": "878",
+    "startDate": "878",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 137,
+      "ceRaw": "87x/872"
+    }
+  },
+  {
+    "id": "tabari-v36-264-018",
+    "title": "An Account of [Muflih 's] Death",
+    "description": "",
+    "hijriYear": 264,
+    "ceLabel": "878",
+    "startDate": "878",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 139,
+      "ceRaw": "87x/872"
+    }
+  },
+  {
+    "id": "tabari-v36-264-019",
+    "title": "An Account of [Yahya b. Muhammad's) Capture and Death",
+    "description": "",
+    "hijriYear": 264,
+    "ceLabel": "878",
+    "startDate": "878",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 142,
+      "ceRaw": "87x/872"
+    }
+  },
+  {
+    "id": "tabari-v36-264-020",
+    "title": "An Account of (Abu Ahmad's] Withdrawal to Wisit",
+    "description": "",
+    "hijriYear": 264,
+    "ceLabel": "878",
+    "startDate": "878",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 146,
+      "ceRaw": "87x/872"
+    }
+  },
+  {
+    "id": "tabari-v36-258-021",
+    "title": "An Account of [Kanjur'sJ Death",
+    "description": "",
+    "hijriYear": 258,
+    "ceLabel": "872–873",
+    "startDate": "872",
+    "endDate": "873",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 150,
+      "ceRaw": "872/873"
+    }
+  },
+  {
+    "id": "tabari-v36-258-022",
+    "title": "An Account of [the ] Battle [at Suq al -Ahwaz) and How the Army Commander of the Central Authorities Was Killed",
+    "description": "",
+    "hijriYear": 258,
+    "ceLabel": "872–873",
+    "startDate": "872",
+    "endDate": "873",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 152,
+      "ceRaw": "872/873"
+    }
+  },
+  {
+    "id": "tabari-v36-258-023",
+    "title": "An Account of How (Musa b. Bughi 's Commanders (Fared against theZanj",
+    "description": "",
+    "hijriYear": 258,
+    "ceLabel": "872–873",
+    "startDate": "872",
+    "endDate": "873",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 153,
+      "ceRaw": "872/873"
+    }
+  },
+  {
+    "id": "tabari-v36-258-024",
+    "title": "An Account of (Ya'qub b. al-Layth 's Entry into Naysibur)",
+    "description": "",
+    "hijriYear": 258,
+    "ceLabel": "872–873",
+    "startDate": "872",
+    "endDate": "873",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 156,
+      "ceRaw": "872/873"
+    }
+  },
+  {
+    "id": "tabari-v36-259-025",
+    "title": "An Account of (the) Battle (in Tabaristin)",
+    "description": "",
+    "hijriYear": 259,
+    "ceLabel": "873–874",
+    "startDate": "873",
+    "endDate": "874",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 158,
+      "ceRaw": "873/874"
+    }
+  },
+  {
+    "id": "tabari-v36-259-026",
+    "title": "An Account of [al-Azdi 's) Death",
+    "description": "",
+    "hijriYear": 259,
+    "ceLabel": "873–874",
+    "startDate": "873",
+    "endDate": "874",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 161,
+      "ceRaw": "873/874"
+    }
+  },
+  {
+    "id": "tabari-v36-260-027",
+    "title": "An Account of (the) Battle [of RimhurmuzJ",
+    "description": "",
+    "hijriYear": 260,
+    "ceLabel": "874–875",
+    "startDate": "874",
+    "endDate": "875",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 164,
+      "ceRaw": "874/87S"
+    }
+  },
+  {
+    "id": "tabari-v36-261-028",
+    "title": "An Account of [the Zanj Attack on the Salt Flats)",
+    "description": "",
+    "hijriYear": 261,
+    "ceLabel": "875–876",
+    "startDate": "875",
+    "endDate": "876",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 174,
+      "ceRaw": "875/876"
+    }
+  },
+  {
+    "id": "tabari-v36-261-029",
+    "title": "An Account of the Battle and Capture of al-$u'luk",
+    "description": "",
+    "hijriYear": 261,
+    "ceLabel": "875–876",
+    "startDate": "875",
+    "endDate": "876",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 181,
+      "ceRaw": "875/876"
+    }
+  },
+  {
+    "id": "tabari-v36-262-030",
+    "title": "An Account of (the) Battle [at 'Askar Mukram)",
+    "description": "",
+    "hijriYear": 262,
+    "ceLabel": "876–877",
+    "startDate": "876",
+    "endDate": "877",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 186,
+      "ceRaw": "876/877"
+    }
+  },
+  {
+    "id": "tabari-v36-262-031",
+    "title": "An Account of [Ya'qub] al-$affir's Activities This Year",
+    "description": "",
+    "hijriYear": 262,
+    "ceLabel": "876–877",
+    "startDate": "876",
+    "endDate": "877",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 187,
+      "ceRaw": "876/877"
+    }
+  },
+  {
+    "id": "tabari-v36-263-032",
+    "title": "An Account of (the) Capture (of cAbdallih b. Rashid)",
+    "description": "",
+    "hijriYear": 263,
+    "ceLabel": "877–878",
+    "startDate": "877",
+    "endDate": "878",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 190,
+      "ceRaw": "877/878"
+    }
+  },
+  {
+    "id": "tabari-v36-263-033",
+    "title": "An Account of [the) Battle (at Wasitj",
+    "description": "",
+    "hijriYear": 263,
+    "ceLabel": "877–878",
+    "startDate": "877",
+    "endDate": "878",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 190,
+      "ceRaw": "877/878"
+    }
+  },
+  {
+    "id": "tabari-v36-263-034",
+    "title": "An Account of How the Abominable One Prepared His Zanj to Occupy Wisif (and Other Events of the Year 2.64)",
+    "description": "",
+    "hijriYear": 263,
+    "ceLabel": "877–878",
+    "startDate": "877",
+    "endDate": "878",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "36",
+      "page": 193,
+      "ceRaw": "877/878"
+    }
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "id": "event-0631-names-of-the-messenger-of-god-s-horses",
+  "title": "The Names of the Messenger of God's Horses",
+  "description": "Al-Harith-Ibn Sa'd-Muhammad b. 'Umar-Muhammad b. Yahya b. Sahl b. Abi Hathmah- his father:982 The first horse owned by the Messenger of God was the one he bought in Medina from a man of the Banu Fazarah for ten awaq.993 Its name as given by the Bedouin was al-I)aris,984 but the Messenger of God named it al-Sakti 985 The first expedition he undertook on it was Ubud. At that time, the Muslims did not have any other horse except the one belonging to Abu Burdah b. Niyar,986 which was called MUIdwil, 987 Al-Harith-Ibn Sa'd-Muhammad b.",
+  "startDate": "0631-04-09",
+  "category": "religious",
+  "connections": [
+    "event-0630-account-of-the-military-expedition-to-tabik",
+    "event-0631-his-bravery-and-generosity"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0632-03-28",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 09",
+      "page": "148"
+    }
+  ]
+}

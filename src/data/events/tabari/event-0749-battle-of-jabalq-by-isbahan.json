@@ -1,0 +1,21 @@
+{
+  "id": "event-0749-battle-of-jabalq-by-isbahan",
+  "title": "The Battle of Jabalq by Isbahan",
+  "description": "The Battle of Jabalq by Isbahan. Recorded under the year 131 AH (749–750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0749-08-20",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0750-08-08",
+  "location": {
+    "latitude": 32.65,
+    "longitude": 51.67,
+    "name": "Isfahan, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "127"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-expedition-led-by-muhammad-to-al-abwa",
+  "title": "Expedition Led by Muhammad to al-Abwa'",
+  "description": "According to Ibn Humayd-Salamah b. al-Fadl-Muhammad b. Ishaq: The Messenger of God came to Medina on the twelfth of 22. The expedition of Rabigh, placed before Sif al -Bahr by IH, 416-8; cf. W, lof. Abu Sufyan of the clan of 'Abd Shams /Umayyah was one of the leading men in Mecca, and played an important part in later events. Art. Abu Sufyan in Ell; Watt, Medina, index. 23. See IH, 422f.; W, 11. 24. Muhammad b. Ishaq (d. 150/767) is the author of the Sirah (biography(of the Prophet, which is the primary source for his career.",
+  "startDate": "0622-07-16",
+  "category": "military",
+  "connections": [
+    "event-0622-muslim-women-brought-to-medina",
+    "event-0622-variant-account"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "11"
+    }
+  ]
+}

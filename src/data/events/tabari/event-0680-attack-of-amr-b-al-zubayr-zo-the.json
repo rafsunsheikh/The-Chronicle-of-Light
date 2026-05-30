@@ -1,0 +1,23 @@
+{
+  "id": "event-0680-attack-of-amr-b-al-zubayr-zo-the",
+  "title": "The Attack of Amr b. al-Zubayr / zo The Kufans ' Invitation to Husayn and the Mission of Muslim b. 'Agil / x6 Continuation of 'Ammir al-Duhni's Account from Abu Ja'far / zo Abu Mikhnaf's Account / zz ",
+  "description": "Muhammad b. 'Umar al - Wagidi has mentioned that `Amr b. Said b. al-'AO al-Ashdaq came to Medina in Ramadan 6o (June, 68o). When the people of Medina visited him, they found him to be a dignified and eloquent man. ;. Qur'an, z8:zz.",
+  "startDate": "0680-01-01",
+  "category": "military",
+  "connections": [
+    "event-0666-mu-awiyah-sends-busr-b-abi-artat-with",
+    "event-0684-end-of-the-kharijites-support-for-cabdallah-b"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 19",
+      "page": "65"
+    }
+  ]
+}

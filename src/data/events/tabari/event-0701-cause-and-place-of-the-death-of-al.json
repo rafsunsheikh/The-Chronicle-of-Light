@@ -1,0 +1,23 @@
+{
+  "id": "event-0701-cause-and-place-of-the-death-of-al",
+  "title": "The Cause and Place of the Death (of al-Muhallabi",
+  "description": "'All b. Muhammad said: Al-Mufadc1al related to me: When he departed from Kish, al-Muhallab went off heading for Marw, and, when he was at Zighallal [in the territory of] Marw al-Radh, he was struck by pleurisy-some people say by plague.142 He summoned Habib and those of his (other] sons who were present, called for some arrows that were tied in a bundle, and said, \"Do you think that you could break these while they are gathered together?\" They said, \"No.\" He said, \"Do you…",
+  "startDate": "0701-01-01",
+  "category": "political",
+  "connections": [
+    "event-0747-abu-muslim-enters-the-walled-city-of-marw"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0702-12-31",
+  "location": {
+    "latitude": 37.66,
+    "longitude": 62.19,
+    "name": "Merv, Turkmenistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "31"
+    }
+  ]
+}

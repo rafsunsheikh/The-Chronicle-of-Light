@@ -1,0 +1,23 @@
+{
+  "id": "event-0750-marwan-s-defeat-at-the-zab",
+  "title": "Marwan's Defeat at the Zab",
+  "description": "According to 'Ali b. Muhammad-Abu al-Sari, Jabalah b. Farrukh, al-Hasan b. Rashid, Abu Salih al-Marwazi and others: Abu 'Awn `Abd al-Malik b. Yazid al-Azdi was sent by Qahtabah to Shahrazur from Nihawand. He then slew 'Uthman b. Sufyan and stayed in the neighborhood of Mosul. Marwan was informed that 'Uthman had been killed, and he advanced from Harran. He stayed at a place along the way, and asked, \"What's the name of this place?\" \"Balwa [Calamity],\" they told him. \"Bal 'Alwa (Nay, Superiority]; a good omen,\" he replied.",
+  "startDate": "0750-08-09",
+  "category": "military",
+  "connections": [
+    "event-0749-death-of-qahtabah-b-shabib",
+    "event-0755-how-al-mulabbid-came-to-be-killed"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.07,
+    "longitude": 43.46,
+    "name": "Great Zab river (battle of 750)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "162"
+    }
+  ]
+}

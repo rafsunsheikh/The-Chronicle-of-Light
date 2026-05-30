@@ -1,0 +1,24 @@
+{
+  "id": "event-0649-reason-for-uthmin-s-removal-of-abu-musa",
+  "title": "The Reason for 'Uthmin ' s Removal of Abu Musa [al -Ash'ari) from Bagrah",
+  "description": "dal-Ash'ari/ from Bagrah It was transmitted to me in writing by al-Sari-Shu'ayb-SayfMuhammad and Talhah: When 'Uthman took office, he retained Abu Musa in Ba$rah for three years, deposing him in the fourth. He appointed 'Umayr b. 'Uthman b. Sa'd as military commander of Khurasan, and 'Abdallah b. 'Umayr al-Laythi from [the tribe of] [2829] Kinanah54 as military commander in Sijistan.",
+  "startDate": "0649-01-01",
+  "category": "political",
+  "connections": [
+    "event-0642-conquest-of-al-bab",
+    "event-0656-ali-leaves-for-al-rabadhah-on-his-way"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0650-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "34"
+    }
+  ]
+}

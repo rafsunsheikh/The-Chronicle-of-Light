@@ -1,0 +1,24 @@
+{
+  "id": "event-0674-why-mu-awiyah-dismissed-abdalla-1-b-camr",
+  "title": "Why Mu'awiyah dismissed 'Abdalla 1 b. cAmr b. Ghaylan and appointed 'Ubaydallah over al-Basrah",
+  "description": "b. 'Amr b. Ghaylan and Appointed",
+  "startDate": "0674-01-01",
+  "category": "political",
+  "connections": [
+    "event-0663-ziyad-s-governorship-over-al-basrah",
+    "event-0684-ubaydallah-b-ziyad-and-the-people-of-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0675-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "180"
+    }
+  ]
+}

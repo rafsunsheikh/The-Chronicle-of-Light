@@ -1,0 +1,23 @@
+{
+  "id": "event-0687-death-of-ubaydallah-b-al-hurr",
+  "title": "The Death of 'Ubaydallah b. al -Hurr",
+  "description": "In this year, `Ubaydallah b. al-Hurr was killed.48' 478. SUlaf was a village in Khuzistin, about zo miles north of al-Ahwaz, west of the Dujayl river and near the town of Manadhir al-Kubra. See Yiqut, Mu'jam, s.v.; Le Strange, Lands, p. 239. 479. Qinnasrin is in northern Syria near Aleppo. Butnan Habib (the name means \"the lowlands of Habib,\" after Habib b. Maslamah, the Muslim conqueror of the area) is a wadi about 3o kilometers east of Aleppo. See E12, s.v. Butnan; Yaqut, Mu'jam, s.v. Butnan and Qinnasrin. 480. I.e., \"the lowland of mud.\" 481.",
+  "startDate": "0687-01-01",
+  "category": "political",
+  "connections": [
+    "event-0643-bayrudh-in-al-ahwaz"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0688-12-31",
+  "location": {
+    "latitude": 31.32,
+    "longitude": 48.67,
+    "name": "Ahvaz, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "134"
+    }
+  ]
+}

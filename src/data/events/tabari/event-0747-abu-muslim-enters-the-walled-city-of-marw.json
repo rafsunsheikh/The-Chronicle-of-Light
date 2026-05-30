@@ -1,0 +1,27 @@
+{
+  "id": "event-0747-abu-muslim-enters-the-walled-city-of-marw",
+  "title": "Abu Muslim Enters the Walled City of Marw",
+  "description": "also enter, and thus we shall gain control of the walled town.\" Abu Muslim sent this reply, \" I fear that you will join with Nasr b. Sayyar to fight me, but go on; enter and engage him and his followers in combat.\" `All b. ai-Kirmani did so, and Abu Muslim sent Abu 'Ali Shibl b. Tahman the naqib with a force. They came inside the walled city, settled in the palace of the Bukharakhuda and sent word to Abu Muslim to come. Abu Muslim came into the city from the camp at Makhuwan. Over his vanguard he put Asid b. 'Abdallah alKhuza'i, Malik b.",
+  "startDate": "0747-01-01",
+  "category": "political",
+  "connections": [
+    "event-0701-cause-and-place-of-the-death-of-al",
+    "event-0745-slaying-of-al-harith-b-surayj-in-khurasan",
+    "event-0746-arab-tribesmen-of-khurasan-ally-against-abu-muslim",
+    "event-0747-abu-muslim-kills-ali-and-uthman-the-sons",
+    "event-0747-death-of-shayban-b-salamah-the-kharijite",
+    "event-0806-al-rashid-s-answer-to-harthamah-s-letter"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 37.66,
+    "longitude": 62.19,
+    "name": "Merv, Turkmenistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "93"
+    }
+  ]
+}

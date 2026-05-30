@@ -1,0 +1,19 @@
+{
+  "id": "event-0749-amir-b-dubarah-is-slain-by-qahtabah",
+  "title": "'Amir b. Dubarah is Slain by Qahtabah",
+  "description": "'Amir b. Dubarah is Slain by Qahtabah. Recorded under the year 131 AH (749–750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0749-08-20",
+  "category": "political",
+  "connections": [
+    "event-0749-qahtabah-camps-at-rayy-and-abu-muslim-moves",
+    "event-0749-qahtabah-enters-nihawand"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0750-08-08",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "126"
+    }
+  ]
+}

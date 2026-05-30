@@ -1,0 +1,20 @@
+{
+  "id": "event-0747-death-of-shayban-b-salamah-the-kharijite",
+  "title": "Death of Shayban b. Salamah the Kharijite",
+  "description": "the Kharijite and the Reason for It According to what has been reported the reason for his death is as follows. 'Ali b. Juday ' and Shayban had joined forces to fight Nasr b. Sayyar because of Shayban 's hostility to Nasr. This was because he",
+  "startDate": "0747-01-01",
+  "category": "military",
+  "connections": [
+    "event-0746-abu-hamzah-the-kharijite-leads-the-pilgrimage",
+    "event-0747-abu-hamzah-the-kharijite-enters-madinah",
+    "event-0747-abu-muslim-enters-the-walled-city-of-marw",
+    "event-0749-death-of-nasr-b-sayyar"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "103"
+    }
+  ]
+}

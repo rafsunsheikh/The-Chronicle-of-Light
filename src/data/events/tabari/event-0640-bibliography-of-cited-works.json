@@ -1,0 +1,15 @@
+{
+  "id": "event-0640-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 19 AH (640 CE) in al-Tabari's History, volume 13.",
+  "startDate": "0640-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "231"
+    }
+  ]
+}

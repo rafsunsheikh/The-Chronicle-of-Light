@@ -1,0 +1,16 @@
+{
+  "id": "event-0762-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 145 AH (762–763 CE) in al-Tabari's History, volume 28.",
+  "startDate": "0762-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0763-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "293"
+    }
+  ]
+}

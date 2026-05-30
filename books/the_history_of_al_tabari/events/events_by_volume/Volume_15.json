@@ -1,0 +1,838 @@
+[
+  {
+    "id": "tabari-v15-23-001",
+    "title": "The Sermon of 'Uthman and the Slaying of al-Hurmuzan by 'Ubaydallah b. 'Umar",
+    "description": "",
+    "hijriYear": 23,
+    "ceLabel": "644–645",
+    "startDate": "644",
+    "endDate": "645",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 3,
+      "ceRaw": "644/645"
+    }
+  },
+  {
+    "id": "tabari-v15-23-002",
+    "title": "The Governorship of Sa'd b. Abi Waggag in Kufah The Letters of 'Uthman to His Officials and Governors and to the Common People",
+    "description": "",
+    "hijriYear": 23,
+    "ceLabel": "644–645",
+    "startDate": "644",
+    "endDate": "645",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 5,
+      "ceRaw": "644/645"
+    }
+  },
+  {
+    "id": "tabari-v15-23-003",
+    "title": "The Campaign of lal-Walid b. 'Ugbah in Adharbayjin and Armenia)",
+    "description": "",
+    "hijriYear": 23,
+    "ceLabel": "644–645",
+    "startDate": "644",
+    "endDate": "645",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 8,
+      "ceRaw": "644/645"
+    }
+  },
+  {
+    "id": "tabari-v15-23-004",
+    "title": "The Gathering of Byzantine Forces against the Muslims and the Muslims' Call for Aid from the Kufans",
+    "description": "",
+    "hijriYear": 23,
+    "ceLabel": "644–645",
+    "startDate": "644",
+    "endDate": "645",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 9,
+      "ceRaw": "644/645"
+    }
+  },
+  {
+    "id": "tabari-v15-23-005",
+    "title": "The Account of That Event",
+    "description": "",
+    "hijriYear": 23,
+    "ceLabel": "644–645",
+    "startDate": "644",
+    "endDate": "645",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 9,
+      "ceRaw": "644/645"
+    }
+  },
+  {
+    "id": "tabari-v15-24-006",
+    "title": "The Reason Why 'Uthman Removed Sai d from Kufah and Named al- Walid His Governor There",
+    "description": "",
+    "hijriYear": 24,
+    "ceLabel": "645–646",
+    "startDate": "645",
+    "endDate": "646",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 15,
+      "ceRaw": "645/646"
+    }
+  },
+  {
+    "id": "tabari-v15-26-007",
+    "title": "The Conquest [ of Ifrigiyah) and the Reason for the Appointment of 'Abdallah b. Said b. Abi Sarh as Governor of Egypt and ' Uthmin's Removal of 'Amr b. al- A^ from (That Province)",
+    "description": "",
+    "hijriYear": 26,
+    "ceLabel": "647–648",
+    "startDate": "647",
+    "endDate": "648",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 18,
+      "ceRaw": "647/ 648"
+    }
+  },
+  {
+    "id": "tabari-v15-27-008",
+    "title": "Mu'awiyah's Attack on Cyprus",
+    "description": "",
+    "hijriYear": 27,
+    "ceLabel": "648–649",
+    "startDate": "648",
+    "endDate": "649",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 26,
+      "ceRaw": "648/649"
+    }
+  },
+  {
+    "id": "tabari-v15-28-009",
+    "title": "The Reason for 'Uthmin ' s Removal of Abu Musa [al -Ash'ari) from Bagrah",
+    "description": "",
+    "hijriYear": 28,
+    "ceLabel": "649–650",
+    "startDate": "649",
+    "endDate": "650",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 34,
+      "ceRaw": "649/650"
+    }
+  },
+  {
+    "id": "tabari-v15-28-010",
+    "title": "('Uthman' s Alterations to the Pilgrimage Rites)",
+    "description": "",
+    "hijriYear": 28,
+    "ceLabel": "649–650",
+    "startDate": "649",
+    "endDate": "650",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 38,
+      "ceRaw": "649/650"
+    }
+  },
+  {
+    "id": "tabari-v15-29-011",
+    "title": "The Campaign of Said b. al-'A^ in Tabaristan",
+    "description": "",
+    "hijriYear": 29,
+    "ceLabel": "650–651",
+    "startDate": "650",
+    "endDate": "651",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 42,
+      "ceRaw": "650/651"
+    }
+  },
+  {
+    "id": "tabari-v15-29-012",
+    "title": "The Reason for 'Uthmin ' s Removal of al-Walid and His Appointment of Said as Governor [in Kufah)",
+    "description": "",
+    "hijriYear": 29,
+    "ceLabel": "650–651",
+    "startDate": "650",
+    "endDate": "651",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 45,
+      "ceRaw": "650/651"
+    }
+  },
+  {
+    "id": "tabari-v15-29-013",
+    "title": "How the Signet Ring Fell from 'Uthmin 's Hand into the Well of Aris",
+    "description": "",
+    "hijriYear": 29,
+    "ceLabel": "650–651",
+    "startDate": "650",
+    "endDate": "651",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 62,
+      "ceRaw": "650/651"
+    }
+  },
+  {
+    "id": "tabari-v15-29-014",
+    "title": "The Reports Concerning Abu Dharr (al-Ghifari)",
+    "description": "",
+    "hijriYear": 29,
+    "ceLabel": "650–651",
+    "startDate": "650",
+    "endDate": "651",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 64,
+      "ceRaw": "650/651"
+    }
+  },
+  {
+    "id": "tabari-v15-29-015",
+    "title": "[The Flight of Yazdagird from Fars to Khurasan)",
+    "description": "",
+    "hijriYear": 29,
+    "ceLabel": "650–651",
+    "startDate": "650",
+    "endDate": "651",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 69,
+      "ceRaw": "650/651"
+    }
+  },
+  {
+    "id": "tabari-v15-30-016",
+    "title": "The Account of the Battles [of the Masts and against the Blacks)",
+    "description": "",
+    "hijriYear": 30,
+    "ceLabel": "651–652",
+    "startDate": "651",
+    "endDate": "652",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 72,
+      "ceRaw": "651/652"
+    }
+  },
+  {
+    "id": "tabari-v15-30-017",
+    "title": "The Reason Why (Syria) Was Unified under [Mu 'awiyah)",
+    "description": "",
+    "hijriYear": 30,
+    "ceLabel": "651–652",
+    "startDate": "651",
+    "endDate": "652",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 72,
+      "ceRaw": "651/652"
+    }
+  },
+  {
+    "id": "tabari-v15-30-018",
+    "title": "Return to al-Wagidi 's Account of the Two Battles Mentioned Above",
+    "description": "",
+    "hijriYear": 30,
+    "ceLabel": "651–652",
+    "startDate": "651",
+    "endDate": "652",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 74,
+      "ceRaw": "651/652"
+    }
+  },
+  {
+    "id": "tabari-v15-30-019",
+    "title": "The Cause of [Yazdagird's] Murder",
+    "description": "",
+    "hijriYear": 30,
+    "ceLabel": "651–652",
+    "startDate": "651",
+    "endDate": "652",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 78,
+      "ceRaw": "651/652"
+    }
+  },
+  {
+    "id": "tabari-v15-30-020",
+    "title": "['Abdallah b. 'Amir 's Campaign in Khurasan)",
+    "description": "",
+    "hijriYear": 30,
+    "ceLabel": "651–652",
+    "startDate": "651",
+    "endDate": "652",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 90,
+      "ceRaw": "651/652"
+    }
+  },
+  {
+    "id": "tabari-v15-30-021",
+    "title": "[The Disaster at Balanjar]",
+    "description": "",
+    "hijriYear": 30,
+    "ceLabel": "651–652",
+    "startDate": "651",
+    "endDate": "652",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 95,
+      "ceRaw": "651/652"
+    }
+  },
+  {
+    "id": "tabari-v15-30-022",
+    "title": "The Account of the Death of [Abu Dharr al-Ghifari]",
+    "description": "",
+    "hijriYear": 30,
+    "ceLabel": "651–652",
+    "startDate": "651",
+    "endDate": "652",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 100,
+      "ceRaw": "651/652"
+    }
+  },
+  {
+    "id": "tabari-v15-30-023",
+    "title": "['Abdallah b. 'Amir' s Conquests in Northeastern Iran]",
+    "description": "",
+    "hijriYear": 30,
+    "ceLabel": "651–652",
+    "startDate": "651",
+    "endDate": "652",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 102,
+      "ceRaw": "651/652"
+    }
+  },
+  {
+    "id": "tabari-v15-30-024",
+    "title": "[The Peace between al-Ahnaf and the People of Balkh]",
+    "description": "",
+    "hijriYear": 30,
+    "ceLabel": "651–652",
+    "startDate": "651",
+    "endDate": "652",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 6,
+      "ceRaw": "651/652"
+    }
+  },
+  {
+    "id": "tabari-v15-32-025",
+    "title": "The Exile of the Kufans Whom ('Uthman] Sent [to Syria)",
+    "description": "",
+    "hijriYear": 32,
+    "ceLabel": "653",
+    "startDate": "653",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 112,
+      "ceRaw": "653 1654"
+    }
+  },
+  {
+    "id": "tabari-v15-32-026",
+    "title": "Uthman 's Exile of Certain Bagrans to Syria",
+    "description": "",
+    "hijriYear": 32,
+    "ceLabel": "653",
+    "startDate": "653",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 125,
+      "ceRaw": "653 1654"
+    }
+  },
+  {
+    "id": "tabari-v15-33-027",
+    "title": "The Character of the Meeting [to Confront 'Uthman] and [the Day of] al-Jara'ah",
+    "description": "",
+    "hijriYear": 33,
+    "ceLabel": "654–655",
+    "startDate": "654",
+    "endDate": "655",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 131,
+      "ceRaw": "654/655"
+    }
+  },
+  {
+    "id": "tabari-v15-34-028",
+    "title": "An Account of the Egyptians Who Went to Dhu Khushub, and the Reason Why Certain Iraqis Went to Dhu al-Marwah",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 145,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-029",
+    "title": "The Account of the Murder [of 'Uthman]",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 181,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-030",
+    "title": "The Conduct of 'Uthman b. 'Affan-May God Be Pleased with Him",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 223,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-031",
+    "title": "The Reason Why 'Uthman Ordered 'Abdall ah b. 'Abbas to Lead the Pilgrimage in This Year",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 236,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-032",
+    "title": "Uthman's Burial Place, and Those Who Led the Prayer for Him and Took Charge of His Funeral Rites",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 246,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-033",
+    "title": "The Date of 'Uthman 's Murder",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 250,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-034",
+    "title": "'Uthman's Life Span",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 252,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-035",
+    "title": "Uthman's Personal Appearance",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 252,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-036",
+    "title": "The Date of His Conversion to Islam and of His Seeking Refuge",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 253,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-037",
+    "title": "The Kunyah of 'Uthman b. 'Affan",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 253,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-038",
+    "title": "Uthman 's Lineage",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 254,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-039",
+    "title": "His Children and Wives",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 254,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-040",
+    "title": "The Names of 'Uthman' s Provincial Governors during This Year",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 255,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-041",
+    "title": "Citations from 'Uthman 's Sermons",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 256,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-042",
+    "title": "Those Who Led the People in Prayer in the Mosque of the Messenger of God while 'Uthman Was under Siege",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 257,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-043",
+    "title": "The Threnodies Composed for 'Uthman",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 258,
+      "ceRaw": "655/656"
+    }
+  },
+  {
+    "id": "tabari-v15-34-044",
+    "title": "Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 34,
+    "ceLabel": "655–656",
+    "startDate": "655",
+    "endDate": "656",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "15",
+      "page": 263,
+      "ceRaw": "655/656"
+    }
+  }
+]

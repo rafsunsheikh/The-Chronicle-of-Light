@@ -1,0 +1,20 @@
+{
+  "id": "event-0632-remainder-of-the-story-of-musaylimah-the-liar",
+  "title": "Remainder of the Story of Musaylimah the Liar and His Tribe of the People of al-Yamamah",
+  "description": "His Tribe of the People of al -Yamamah According to al-Sari-Shu `ayb-Sayf-Sahl b. Yusuf-al-Qasim b. MuI ammad:687 When Abu Bakr sent `Ikrimah b. Abi Jahl against Musaylimah and sent Shurabbil after him, `Ikrimah made haste and strove to precede Shuralibil so that he might secure [for himself] the fame [of having made war.]688 He attacked (Musaylimah 's followers), whereupon they defeated him. Shurabbil remained on the road where689 the news reached him.",
+  "startDate": "0632-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 24.1,
+    "longitude": 47.3,
+    "name": "central Najd, Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 10",
+      "page": "105"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "event-0695-events-of-this-year",
+  "title": "The Events of This Year",
+  "description": "One of these was the rebellion of $alih b. Musarrili.134",
+  "startDate": "0695-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0696-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "32"
+    }
+  ]
+}

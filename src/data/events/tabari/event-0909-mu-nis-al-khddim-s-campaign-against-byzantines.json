@@ -1,0 +1,24 @@
+{
+  "id": "event-0909-mu-nis-al-khddim-s-campaign-against-byzantines",
+  "title": "Mu'nis al-Khddim's campaign against Byzantines",
+  "description": "Mu'nis al-Khddim's campaign against Byzantines. Recorded under the year 296 AH (909–910 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0909-01-01",
+  "category": "military",
+  "connections": [
+    "event-0868-yacqub-b-al-layth-takes-fars-and-captures",
+    "event-0910-further-developments-in-fars"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0910-12-31",
+  "location": {
+    "latitude": 29.6,
+    "longitude": 52.5,
+    "name": "Fars, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "193"
+    }
+  ]
+}

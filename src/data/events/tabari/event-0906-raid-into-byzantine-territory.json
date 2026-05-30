@@ -1,0 +1,21 @@
+{
+  "id": "event-0906-raid-into-byzantine-territory",
+  "title": "Raid into Byzantine territory",
+  "description": "Raid into Byzantine territory. Recorded under the year 293 AH (906–907 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0906-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0907-12-31",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "181"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "event-0805-various-campaigns-by-al-rashid-against-the-byzantines",
+  "title": "Various Campaigns by al-Rashid against the Byzantines and Diplomatic Exchanges with the Emperor Nicephorus",
+  "description": "against the Byzantines and Diplomatic Exchanges with the Emperor Nicephorus In this year, al-Rashid led the summer expedition (against the Byzantines). He left behind his son 'Abdallah al-Ma'miin as his deputy at al-Raqqah and entrusted affairs to him.",
+  "startDate": "0805-01-01",
+  "category": "military",
+  "connections": [
+    "event-0802-al-rashid-receives-the-allegiance-of-the-local",
+    "event-0802-correspondence-between-the-byzantine-emperor-nicephorus-and-al",
+    "event-0806-various-raids-into-the-byzantine-lands-and-measures",
+    "event-0806-what-befell-harthamah-in-the-course-of-his"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "261"
+    }
+  ]
+}

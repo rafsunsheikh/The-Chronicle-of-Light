@@ -1,0 +1,24 @@
+{
+  "id": "event-0845-reason-for-the-rebellion-of-the-baghdad-group",
+  "title": "The Reason for the Rebellion of the Baghdad Group and the Consequence of Their Action and That of Ahmad b. Nair",
+  "description": "and the Consequence of Their Action and That of Alimad b. Nasr The reason for this was that Ahmad b. Nair b. Malik b. al-Haytham al-Khuza'i89... Malik b. al-Haytham was one of the naqibs of the 'Abbasids, and his son was occasionally visited by Hadith scholars, such as Yahya b. Ma'in,90 Ibn al-Dawragi,91 and Abu Khaythamah.92 Ahmad b.",
+  "startDate": "0845-01-01",
+  "category": "military",
+  "connections": [
+    "event-0835-deportation-of-the-captured-zull",
+    "event-0863-shakiriyyah-riot-in-baghdad"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0846-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "27"
+    }
+  ]
+}

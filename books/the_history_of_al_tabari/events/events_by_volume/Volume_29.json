@@ -1,0 +1,78 @@
+[
+  {
+    "id": "tabari-v29-157-001",
+    "title": "Some Stories about al-Mansur and His Conduct",
+    "description": "",
+    "hijriYear": 157,
+    "ceLabel": "774–775",
+    "startDate": "774",
+    "endDate": "775",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "29",
+      "page": 93,
+      "ceRaw": "774/775"
+    }
+  },
+  {
+    "id": "tabari-v29-157-002",
+    "title": "Information about His Wills",
+    "description": "",
+    "hijriYear": 157,
+    "ceLabel": "774–775",
+    "startDate": "774",
+    "endDate": "775",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "29",
+      "page": 149,
+      "ceRaw": "774/775"
+    }
+  },
+  {
+    "id": "tabari-v29-167-003",
+    "title": "Some of the Doings of al-Mabdi and Stories about Him",
+    "description": "",
+    "hijriYear": 167,
+    "ceLabel": "784–785",
+    "startDate": "784",
+    "endDate": "785",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "29",
+      "page": 246,
+      "ceRaw": "784/785"
+    }
+  },
+  {
+    "id": "tabari-v29-167-004",
+    "title": "Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 167,
+    "ceLabel": "784–785",
+    "startDate": "784",
+    "endDate": "785",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "29",
+      "page": 265,
+      "ceRaw": "784/785"
+    }
+  }
+]

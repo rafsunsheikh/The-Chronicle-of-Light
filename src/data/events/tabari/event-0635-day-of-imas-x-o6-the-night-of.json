@@ -1,0 +1,23 @@
+{
+  "id": "event-0635-day-of-imas-x-o6-the-night-of",
+  "title": "The Day of 'Imas / x o6 The Night of al-Qadisiyyah",
+  "description": "The Day of 'Imas / x o6 The Night of al-Qadisiyyah. Recorded under the year 14 AH (635–636 CE) in al-Tabari's History, volume 12.",
+  "startDate": "0635-01-01",
+  "category": "political",
+  "connections": [
+    "event-0634-what-stirred-up-the-matter-of-al-qadisiyyah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0636-12-31",
+  "location": {
+    "latitude": 31.71,
+    "longitude": 44.36,
+    "name": "al-Qadisiyyah (near Kufa)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "122"
+    }
+  ]
+}

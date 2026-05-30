@@ -1,0 +1,24 @@
+{
+  "id": "event-0684-departure-of-the-penitents-from-al-kufah-and",
+  "title": "The Departure of the Penitents from al-Kufah and Their Destruction by the Syrian Army at the Battle of °Ayn al-Wardah",
+  "description": "Their Destruction by the Syrian Army at the Battle of cAyn al-Wardah483 According to Hishi m-Abu Mikhnaf-Abu Yusuf-cAbdallah b. °Awf al-Abmari:484 When Sulayman b. $urad wanted to set out in the year 65 (684-51, he sent to his leading supporters and they came to him. At the new moon of Rabi°II (November 15, 684) he left with his leading supporters, having arranged with the body of his followers to leave on that night for the camp at al-Nukhaylah.",
+  "startDate": "0684-01-01",
+  "category": "military",
+  "connections": [
+    "event-0684-contents-the-arrival-of-al-mukhtir-in-al",
+    "event-0685-al-mukhtar-s-revolutionary-movement-in-al-kufah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0685-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 20",
+      "page": "124"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0689-abd-al-malik-and-the-byzantines",
+  "title": "'Abd al -Malik and the Byzantines",
+  "description": "In this year, the Byzantines arose and gathered an army against the Muslims in Syria. For fear of what he might do to the Muslims, `Abd al-Malik made peace with the Byzantine emperor, on terms that every Friday he would deliver a thousand dinars to him.606",
+  "startDate": "0689-01-01",
+  "category": "political",
+  "connections": [
+    "event-0636-battle-of-marj-al-rum",
+    "event-0692-campaigns-against-the-byzantines"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0690-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "169"
+    }
+  ]
+}

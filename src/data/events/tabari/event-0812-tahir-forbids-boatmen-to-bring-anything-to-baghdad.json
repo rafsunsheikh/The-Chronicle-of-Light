@@ -1,0 +1,24 @@
+{
+  "id": "event-0812-tahir-forbids-boatmen-to-bring-anything-to-baghdad",
+  "title": "Tahir Forbids Boatmen to Bring Anything to Baghdad",
+  "description": "to Baghdad-586 According to Muhammad b. Jarir (al-Tabaril: In this year, Tahir forbade boatmen and others to bring anything to Baghdad, except to the people who were in his camp. He established surveillance over them for this purpose. A report of what took place between him and the forces of Muhammad the Deposed in this and Twhir' s reason for doing so follows. The reason for this, according to what has been related, was as follows: When so many of his forces were killed or wounded at Qag $alih, Tahir was pained and troubled.",
+  "startDate": "0812-01-01",
+  "category": "political",
+  "connections": [
+    "event-0812-battle-of-al-kunasah",
+    "event-0812-details-and-results-of-the-siege-of-baghdad"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "156"
+    }
+  ]
+}

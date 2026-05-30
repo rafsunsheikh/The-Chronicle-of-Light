@@ -1,0 +1,25 @@
+{
+  "id": "event-0774-information-about-his-wills",
+  "title": "Information about His Wills",
+  "description": "According to al-Haytham b. 'Adi: Al-Mansur made a will for alMahdi when he set out for Mecca in Shawwal of this year (4 August-i September, 775). He had stopped at Qasr 'Abdawayh and stayed some days in the castle there. Al-Mahdi was with him, and he gave him his testament. While he was staying in Qasr",
+  "startDate": "0774-01-01",
+  "category": "political",
+  "connections": [
+    "event-0724-pilgrimage-of-hisham-b-abd-al-malik",
+    "event-0774-some-stories-about-al-mansur-and-his-conduct",
+    "event-0802-killing-of-ja-far"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0775-12-31",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 29",
+      "page": "149"
+    }
+  ]
+}

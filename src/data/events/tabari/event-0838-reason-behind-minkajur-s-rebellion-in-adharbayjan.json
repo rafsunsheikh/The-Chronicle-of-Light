@@ -1,0 +1,25 @@
+{
+  "id": "event-0838-reason-behind-minkajur-s-rebellion-in-adharbayjan",
+  "title": "The Reason behind Minkajur's Rebellion in Adharbayjan",
+  "description": "Adharbayjdn It has been mentioned that, when al-Afshin had concluded the affair of Babak and had returned from al-jibal, he appointed as governor of Adharbayjan-which was one of the regions in his own charge and for which he was responsible-this Minkajur. In Babak 's capital, in one of Babak 's dwellings, Minkajur came 493• This was a mixture of musk, ambergris, and olibanum, used only on the most festive occasions, see Herzfeld, op. cit., 144 n. 2.",
+  "startDate": "0838-01-01",
+  "category": "military",
+  "connections": [
+    "event-0824-military-operations-in-azerbaijan-against-the-rebel-babak",
+    "event-0837-ai-afshin-s-bringing-of-babak-and-his",
+    "event-0838-reason-for-al-mu-tasim-s-anger-against"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0839-12-31",
+  "location": {
+    "latitude": 37.8,
+    "longitude": 46.3,
+    "name": "Azerbaijan (NW Iran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "175"
+    }
+  ]
+}

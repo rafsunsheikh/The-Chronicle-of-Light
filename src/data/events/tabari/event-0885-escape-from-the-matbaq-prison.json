@@ -1,0 +1,16 @@
+{
+  "id": "event-0885-escape-from-the-matbaq-prison",
+  "title": "An Escape from the Matbaq Prison",
+  "description": "An Escape from the Matbaq Prison. Recorded under the year 272 AH (885–886 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0885-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0886-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "150"
+    }
+  ]
+}

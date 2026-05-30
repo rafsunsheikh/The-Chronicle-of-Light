@@ -1,0 +1,23 @@
+{
+  "id": "event-0632-account-of-the-apostates-in-the-yemen",
+  "title": "Account of the Apostates in the Yemen",
+  "description": "Abu Ja`far said: according to al-Sari b. Yahya-Shu'ayb-SayfTalhah-'Ikrimah and Sahl-al-Qdsim b. Muhammad: 990 The Apostle of God died while over Mecca and its territory were Attab b. Asid991 and al-Tahir b. Abi Halah, Attab over Banu Kinanah and al-Tahir over Akk.992 That was [because] the Prophet had said, \"Put the governorship of `Akk among the descendants of his ancestor Ma`add b. Adnan.i993 Over alTa'if and its territory were `Uthman b. Abi al- As994 and Malik b.",
+  "startDate": "0632-01-01",
+  "category": "political",
+  "connections": [
+    "event-0632-apostasy-of-the-people-of-the-yemen-a",
+    "event-0632-viii-contents-the-apostasy-of-the-people-of"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 15.355,
+    "longitude": 44.206,
+    "name": "Yemen (San'a')"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 10",
+      "page": "158"
+    }
+  ]
+}

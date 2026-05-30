@@ -1,0 +1,23 @@
+{
+  "id": "event-0910-further-developments-in-fars",
+  "title": "Further developments in Fars",
+  "description": "Further developments in Fars. Recorded under the year 297 AH (910–911 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0910-01-01",
+  "category": "political",
+  "connections": [
+    "event-0909-mu-nis-al-khddim-s-campaign-against-byzantines"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0911-12-31",
+  "location": {
+    "latitude": 29.6,
+    "longitude": 52.5,
+    "name": "Fars, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "195"
+    }
+  ]
+}

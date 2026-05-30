@@ -1,0 +1,19 @@
+{
+  "id": "event-0691-abd-a-malik-and-the-kharijites",
+  "title": "Abd a] -Malik and the Kharijites",
+  "description": "According to Hisham b. Muhammad [al-Kalbij-Abu Mikhnafl Iasirah b. `Abdallah [b. al-llarith al-Azdij and Abu Zuhayr [alNadr b. $alih] al-Absi: After eight months of extremely hard fighting between the Azarigah and al-Muhallab at Sulaf, it was reported to them that Mus`ab b. al-Zubayr had been killed. The news reached the Kharijites before it reached al-Muhallab and his forces.",
+  "startDate": "0691-01-01",
+  "category": "military",
+  "connections": [
+    "event-0688-kharijite-killed-at-the-pilgrimage",
+    "event-0692-abd-al-malik-and-the-kharijites"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0692-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "198"
+    }
+  ]
+}

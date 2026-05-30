@@ -1,0 +1,23 @@
+{
+  "id": "event-0653-uthman-s-exile-of-certain-bagrans-to-syria",
+  "title": "Uthman 's Exile of Certain Bagrans to Syria",
+  "description": "It was transmitted to me in writing by al-Sari --Shu'ayb-Sayf'Atiyyah-Yazid al-Faq'asi: When Ibn 'Amir had been governor for three years, he learned that there was a man in [the residential quarter of the tribe of] 'Abd al-Qays who was staying with 223. The name in brackets is supplied by Magrizi, al-Mugaffa; see de Goeje, Introductio, dcxxvii. With the names supplied here and in note zig, the list totals ten-that is, the number of troublemakers mentioned in Sa'id's first letter to 'Uthman above, p.",
+  "startDate": "0653-01-01",
+  "category": "political",
+  "connections": [
+    "event-0653-exile-of-the-kufans-whom-uthman-sent-to",
+    "event-0666-death-of-abd-al-rahman-b-khalid-b"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "125"
+    }
+  ]
+}

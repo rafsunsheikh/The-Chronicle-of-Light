@@ -1,0 +1,154 @@
+[
+  {
+    "id": "tabari-v19-60-001",
+    "title": "The Attack of Amr b. al-Zubayr / zo The Kufans ' Invitation to Husayn and the Mission of Muslim b. 'Agil / x6 Continuation of 'Ammir al-Duhni's Account from Abu Ja'far / zo Abu Mikhnaf's Account / zz Al-Husayn 's Departure from Mecca for al-Kufah",
+    "description": "",
+    "hijriYear": 60,
+    "ceLabel": "c. 680",
+    "startDate": "680",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "19",
+      "page": 65,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v19-60-002",
+    "title": "Continuation of 'Ammar al-Duhni 's Account from Abu Ja'far",
+    "description": "",
+    "hijriYear": 60,
+    "ceLabel": "c. 680",
+    "startDate": "680",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "19",
+      "page": 74,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v19-61-003",
+    "title": "The Names of the Banu Hishim Killed with al-Ijusayn and the Number of Those Killed from Every Tribe Which Fought against Him",
+    "description": "",
+    "hijriYear": 61,
+    "ceLabel": "681",
+    "startDate": "0681-09-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "19",
+      "page": 179,
+      "ceRaw": "OCTOBER i, 680 - SEPTEMBER i9, 68i"
+    }
+  },
+  {
+    "id": "tabari-v19-61-004",
+    "title": "The Death of Mirdis b. Amr b. Hudayr",
+    "description": "",
+    "hijriYear": 61,
+    "ceLabel": "681",
+    "startDate": "0681-09-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "19",
+      "page": 183,
+      "ceRaw": "OCTOBER i, 680 - SEPTEMBER i9, 68i"
+    }
+  },
+  {
+    "id": "tabari-v19-61-005",
+    "title": "The Appointment of Salm b. Ziyid",
+    "description": "",
+    "hijriYear": 61,
+    "ceLabel": "681",
+    "startDate": "0681-09-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "19",
+      "page": 184,
+      "ceRaw": "OCTOBER i, 680 - SEPTEMBER i9, 68i"
+    }
+  },
+  {
+    "id": "tabari-v19-61-006",
+    "title": "Yaiid's Dismissal of 'Amr b. Said as Governor of Medina and His Appointment of al-Walid b. 'Utbah",
+    "description": "",
+    "hijriYear": 61,
+    "ceLabel": "681",
+    "startDate": "0681-09-19",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "19",
+      "page": 189,
+      "ceRaw": "OCTOBER i, 680 - SEPTEMBER i9, 68i"
+    }
+  },
+  {
+    "id": "tabari-v19-66-007",
+    "title": "The Arrival of a Delegation of the People of Medina to Yazid b. Mu'awiyah",
+    "description": "",
+    "hijriYear": 66,
+    "ceLabel": "686",
+    "startDate": "686",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "19",
+      "page": 195,
+      "ceRaw": "68r/682"
+    }
+  },
+  {
+    "id": "tabari-v19-63-008",
+    "title": "The Death of Muslim b. ligbah and the Bombardment and Burning of the Ka'bah / Zzz The Cause of the Burning of the Ka'bah",
+    "description": "",
+    "hijriYear": 63,
+    "ceLabel": "683–684",
+    "startDate": "683",
+    "endDate": "684",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "19",
+      "page": 224,
+      "ceRaw": "683/684"
+    }
+  }
+]

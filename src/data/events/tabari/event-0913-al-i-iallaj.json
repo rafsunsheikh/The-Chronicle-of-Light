@@ -1,0 +1,23 @@
+{
+  "id": "event-0913-al-i-iallaj",
+  "title": "Al-I iallaj",
+  "description": "Al-I iallaj. Recorded under the year 300 AH (913–914 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0913-01-01",
+  "category": "military",
+  "connections": [
+    "event-0902-more-qarmatian-trouble-in-syria"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0914-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "202"
+    }
+  ]
+}

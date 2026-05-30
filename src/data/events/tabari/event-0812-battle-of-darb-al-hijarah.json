@@ -1,0 +1,16 @@
+{
+  "id": "event-0812-battle-of-darb-al-hijarah",
+  "title": "The Battle of Darb al-Hijarah",
+  "description": "In this year, the Battle of Darb al-Hijarah605 took place. A report of it follows. It has been mentioned: This battle, which took place in the vicinity of Darb al-Hijarah, went in favor of Muhammad's forces and against Twhir's. Many people were killed in it. Concerning this, `Amr b. Abd al-Malik al-' Itri said: Saturday's battle, the day of Darb al-Hijarah, cut off a company of onlookers.",
+  "startDate": "0812-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "162"
+    }
+  ]
+}

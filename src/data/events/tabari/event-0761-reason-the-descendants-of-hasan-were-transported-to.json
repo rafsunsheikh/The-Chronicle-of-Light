@@ -1,0 +1,24 @@
+{
+  "id": "event-0761-reason-the-descendants-of-hasan-were-transported-to",
+  "title": "The Reason [the Descendants of Hasan] Were Transported to Iraq and How Matters Stood for Them at That Time",
+  "description": "Transported to Iraq and How Matters Stood for Them at That Time According to `Umar-Musa b. `Abdallah-his father-his father: When Abu Jacfar made the Pilgrimage, he sent Muhammad b. `Imran b. Ibrahim b. Muhammad b. Talhah584 and Malik b. Anas585 to our associates [in prison], asking them to urge 583. Musa b. `Abdallah b. Musa b. `Abdallah b. Hasan was a Baghdadi traditionist whose grandfather was Muhammad b. `Abdallah's brother. Al-Khatib alBaghdidi, Ta'rikh Baghdad, XIII, 39-40; Nagel, \"Bericht, \" 244. 584. Muhammad b. `Imran b. Ibrahim b. Muhammad b.",
+  "startDate": "0761-01-01",
+  "category": "political",
+  "connections": [
+    "event-0753-visit-of-abu-muslim-to-abu-al-abbas",
+    "event-0761-reason-abu-ja-far-had-the-descendants-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0762-12-31",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "121"
+    }
+  ]
+}

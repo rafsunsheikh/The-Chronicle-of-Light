@@ -1,0 +1,24 @@
+{
+  "id": "event-0673-how-ubaydallah-b-ziyad-became-governor-over-khurasan",
+  "title": "How °Ubaydallah b. Ziyad became governor over Khurasan",
+  "description": "How °Ubaydallah b. Ziyad became governor over Khurasan. Recorded under the year 53 AH (673–674 CE) in al-Tabari's History, volume 18.",
+  "startDate": "0673-01-01",
+  "category": "political",
+  "connections": [
+    "event-0672-how-al-rabic-b-ziyad-al-harithi-died",
+    "event-0678-why-mu-awiyah-appointed-abd-al-rahman-b"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0674-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "175"
+    }
+  ]
+}

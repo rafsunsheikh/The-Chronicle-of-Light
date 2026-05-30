@@ -1,0 +1,24 @@
+{
+  "id": "event-0663-ziyad-s-governorship-over-al-basrah",
+  "title": "Ziyad's governorship over al -Basrah",
+  "description": "I was told by'Umar-'Ali-some knowledgeable people: When Ziyad came to al-Kufah, al-Mughirah supposed that he came as governor over al-Kufah. Ziyad stayed in the house of Salman b. 2 5 8. Cairo reads: Ibn 'Abd 'Amr.",
+  "startDate": "0663-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-ali-b-abi-talib-sends-jarir-b-abdallah",
+    "event-0674-why-mu-awiyah-dismissed-abdalla-1-b-camr"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0664-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "76"
+    }
+  ]
+}

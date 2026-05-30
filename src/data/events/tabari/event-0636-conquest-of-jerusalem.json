@@ -1,0 +1,23 @@
+{
+  "id": "event-0636-conquest-of-jerusalem",
+  "title": "The Conquest of Jerusalem",
+  "description": "According to Salim b. `Abdallah: When'Umar reached al-Jabiyah, a 114o31 Jew said to him: \"0 Commander of the Faithful, you will not return to your country before God has granted you victory over Jerusalem.\" While in al-Jabiyah cUmar b. al-Khaflab saw an approaching detachment of horsemen. When they came close, they drew their swords, but `Umar said: \"These are people who are coming to seek an assurance of safety. Grant it to them.\" They drew near and it became clear that they were people from Jerusalem.",
+  "startDate": "0636-01-01",
+  "category": "military",
+  "connections": [
+    "event-0622-change-of-qiblah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0637-12-31",
+  "location": {
+    "latitude": 31.78,
+    "longitude": 35.23,
+    "name": "Jerusalem"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "189"
+    }
+  ]
+}

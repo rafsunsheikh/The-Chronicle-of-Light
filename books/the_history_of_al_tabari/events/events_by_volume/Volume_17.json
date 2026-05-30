@@ -1,0 +1,230 @@
+[
+  {
+    "id": "tabari-v17-37-001",
+    "title": "Euphrates",
+    "description": "",
+    "hijriYear": 37,
+    "ceLabel": "657–658",
+    "startDate": "657",
+    "endDate": "658",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 6,
+      "ceRaw": "657/658"
+    }
+  },
+  {
+    "id": "tabari-v17-37-002",
+    "title": "The Battle \"by the Water\" / n 'Ali Calls Mu'.4wiyah to Obedience and Unity",
+    "description": "",
+    "hijriYear": 37,
+    "ceLabel": "657–658",
+    "startDate": "657",
+    "endDate": "658",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 6,
+      "ceRaw": "657/658"
+    }
+  },
+  {
+    "id": "tabari-v17-37-003",
+    "title": "The Truce between 'Al! and Mu'awiyah 121 The Organization of the Military Units (Katd'ib) and Preparation of the Troops for Battle",
+    "description": "",
+    "hijriYear": 37,
+    "ceLabel": "657–658",
+    "startDate": "657",
+    "endDate": "658",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 29,
+      "ceRaw": "657/658"
+    }
+  },
+  {
+    "id": "tabari-v17-37-004",
+    "title": "The Intensity of the Fighting",
+    "description": "",
+    "hijriYear": 37,
+    "ceLabel": "657–658",
+    "startDate": "657",
+    "endDate": "658",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 39,
+      "ceRaw": "657/658"
+    }
+  },
+  {
+    "id": "tabari-v17-37-005",
+    "title": "The Killing of 'AmmAr b. Ydsir",
+    "description": "",
+    "hijriYear": 37,
+    "ceLabel": "657–658",
+    "startDate": "657",
+    "endDate": "658",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 64,
+      "ceRaw": "657/658"
+    }
+  },
+  {
+    "id": "tabari-v17-37-006",
+    "title": "HAshim b. 'Utbah al-Mirgal and the \"Night of Howling\" The Raising of the Ma. aIif and the Call for Arbitration 'All Sends Ja'dah b. Hubayrah to KhurisAn",
+    "description": "",
+    "hijriYear": 37,
+    "ceLabel": "657–658",
+    "startDate": "657",
+    "endDate": "658",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 99,
+      "ceRaw": "657/658"
+    }
+  },
+  {
+    "id": "tabari-v17-37-007",
+    "title": "Contents viii The Secession of the Khawarij from 'Ali and His Companions, and Their Subsequent Return",
+    "description": "",
+    "hijriYear": 37,
+    "ceLabel": "657–658",
+    "startDate": "657",
+    "endDate": "658",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 100,
+      "ceRaw": "657/658"
+    }
+  },
+  {
+    "id": "tabari-v17-39-008",
+    "title": "Mu'awiyah Sends His Forces into 'Ali s lbrritories 1198 The Sending of Ziyad to Fars",
+    "description": "",
+    "hijriYear": 39,
+    "ceLabel": "659–660",
+    "startDate": "659",
+    "endDate": "660",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 203,
+      "ceRaw": "659/660"
+    }
+  },
+  {
+    "id": "tabari-v17-46-009",
+    "title": "Mu'awiyah Sends Busr b. Abi Artat with 3,000 Fighting Men to the HijAz 1206 The Circumstances of Ibn 'Abbas' Going to Mecca and Leaving Iraq",
+    "description": "",
+    "hijriYear": 46,
+    "ceLabel": "666",
+    "startDate": "666",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 209,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v17-46-010",
+    "title": "The Circumstances of the Murder and Death of 'Ali",
+    "description": "",
+    "hijriYear": 46,
+    "ceLabel": "666",
+    "startDate": "666",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 213,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v17-46-011",
+    "title": "The Length of His Caliphate",
+    "description": "",
+    "hijriYear": 46,
+    "ceLabel": "666",
+    "startDate": "666",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 227,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v17-46-012",
+    "title": "His Physical Appearance 1 227 His Ancestry 1227 His Wives and Children 1 227 His Governors 1229 Aspects of His Conduct 1230 Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 46,
+    "ceLabel": "666",
+    "startDate": "666",
+    "endDate": null,
+    "datePrecision": "year-from-toc",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "17",
+      "page": 233,
+      "ceRaw": null
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "id": "event-0634-tiberias",
+  "title": "Tiberias",
+  "description": "Tiberias. Recorded under the year 13 AH (634–635 CE) in al-Tabari's History, volume 11.",
+  "startDate": "0634-03-07",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 32.79,
+    "longitude": 35.53,
+    "name": "Tiberias"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "172"
+    }
+  ]
+}

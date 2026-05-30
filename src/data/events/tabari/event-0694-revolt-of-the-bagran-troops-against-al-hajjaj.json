@@ -1,0 +1,26 @@
+{
+  "id": "event-0694-revolt-of-the-bagran-troops-against-al-hajjaj",
+  "title": "The Revolt of the Bagran Troops against al -Hajjaj",
+  "description": "According to Hisham-Abu Mikhnaf-Abu Zuhayr al-'Abel: AlHajjaj b. Yusuf left al-KUfah immediately after arriving and having Ibn Qibi' executed, and went on to al-Bagrah. There he gave an oration like the one he had given to the Kufans, threatening them in the same way. A man of the Banu Yashkurlm was brought to him, accused of desertion. The man said, \"I have a hernia, and Bishr saw it and exempted me; and you will find that my stipend has been returned to the treasury.\" But al-Hajjaj did not accept his excuse and had him killed.",
+  "startDate": "0694-01-01",
+  "category": "military",
+  "connections": [
+    "event-0692-bishr-b-marwan-becomes-governor-of-al-basrah",
+    "event-0693-important-events-of-this-year-x-al-muhallab",
+    "event-0695-shabib-s-entry-into-al-kufah-and-his",
+    "event-0701-operations-at-al-bagrah-and-al-kufahj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0695-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "23"
+    }
+  ]
+}

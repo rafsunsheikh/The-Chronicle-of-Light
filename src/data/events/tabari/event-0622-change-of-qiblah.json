@@ -1,0 +1,23 @@
+{
+  "id": "event-0622-change-of-qiblah",
+  "title": "The Change of Qiblah",
+  "description": "One of these is God' s changing of the Muslims' Qiblah (the direction faced in prayer) from Syria (that is, Jerusalem) to the Ka'bah. This was in the second year of the Prophet 's residence in Medina, in Sha'ban (which began January z8, 624). The early scholars disagree as to the date at which the Qiblah was changed in this year; the majority say that it was changed halfway through Sha'ban, eighteen months after the arrival of the Messenger of God in Medina. Those who say this. According to Musa b. Harun al-Hamdani-'Amr b.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0636-conquest-of-jerusalem"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 31.78,
+    "longitude": 35.23,
+    "name": "Jerusalem"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "24"
+    }
+  ]
+}

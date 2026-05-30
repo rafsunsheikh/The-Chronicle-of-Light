@@ -1,0 +1,21 @@
+{
+  "id": "event-0855-role-of-the-inhabitants-of-hims-in-the",
+  "title": "The Role of the Inhabitants of Hims in the Revolt against Muhammad b. 'Abdawayh and Its Consequence for Them",
+  "description": "against Muhammad b. `Abdawayh and Its Consequence for Them It is reported that the inhabitants of Hims revolted in Jumada II (October 17-November 14, 855) of this year against Muhammad b. `Abdawayh, their chief of security police, with some of the Christians of Hims supporting their revolt. Muhammad b. `Abdawayh sent a dispatch about this to al-Mutawakkil. Al-Mutawakkil then wrote ordering Muhammad to resist them, and reinforced him with troops from the garrison440 of 439. The population of Himg was frequently restive from the time of Harlin alRashid.",
+  "startDate": "0855-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0856-12-31",
+  "location": {
+    "latitude": 34.73,
+    "longitude": 36.71,
+    "name": "Homs, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "133"
+    }
+  ]
+}

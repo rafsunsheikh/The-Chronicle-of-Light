@@ -1,0 +1,24 @@
+{
+  "id": "event-0761-reason-abu-ja-far-dismissed-muhammad-b-khalid",
+  "title": "The Reason Abu Ja'far Dismissed Muhammad b. Khalid and Appointed Riyah b. 'Uthman, Having Removed Ziyad b. 'Ubaydallah al-Harithi at the Instance of Muhammad b. Khalid",
+  "description": "Khdlid and Appointed Riyah b. `Uthman, Having Removed Ziydd b. `Ubaydalldh al-Ilarithi at the Instance of Muhammad b. Khdlid The reason why the caliph dismissed Ziyad as governor of Medina is as follows: Abu Ja`far was preoccupied with the problem of Muhammad' and Ibrahim,401 the sons of `Abdallah b. Hasan b. Hasan b. `Ali b. Abi Talib,402 and with their absence from his au397. She bore two sons to Muhammad and is described by Balidhuri, Ansdb alashrdf, III, 180, as a person of strength and power.",
+  "startDate": "0761-01-01",
+  "category": "political",
+  "connections": [
+    "event-0747-abu-hamzah-the-kharijite-enters-madinah",
+    "event-0761-remaining-account-of-events-for-144"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0762-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "85"
+    }
+  ]
+}

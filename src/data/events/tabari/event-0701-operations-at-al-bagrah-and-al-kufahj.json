@@ -1,0 +1,23 @@
+{
+  "id": "event-0701-operations-at-al-bagrah-and-al-kufahj",
+  "title": "Operations at al-Bagrah and al -Kufahj",
+  "description": "Operations at al-Bagrah and al -Kufahj. Recorded under the year 82 AH (701–702 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0701-01-01",
+  "category": "political",
+  "connections": [
+    "event-0694-revolt-of-the-bagran-troops-against-al-hajjaj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0702-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "14"
+    }
+  ]
+}

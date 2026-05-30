@@ -1,0 +1,16 @@
+{
+  "id": "event-0657-intensity-of-the-fighting",
+  "title": "The Intensity of the Fighting",
+  "description": "The Intensity of the Fighting. Recorded under the year 37 AH (657–658 CE) in al-Tabari's History, volume 17.",
+  "startDate": "0657-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0658-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 17",
+      "page": "39"
+    }
+  ]
+}

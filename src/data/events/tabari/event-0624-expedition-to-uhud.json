@@ -1,0 +1,23 @@
+{
+  "id": "event-0624-expedition-to-uhud",
+  "title": "The Expedition to Uhud",
+  "description": "In this year also there took place the expedition of the Messenger of God to Uhud. This is said to have been on Saturday, 7 Shawwal, in Year Three of the Hijrah (March 23, 625). Abu Ja'far (al-Tabari) says: What provoked the expedition to Uhud by the polytheists of Quraysh against the Messenger of God was the battle of Badr and the killing of those nobles and chiefs of Quraysh who were killed there.",
+  "startDate": "0624-01-01",
+  "category": "military",
+  "connections": [
+    "event-0624-fighting-begins"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0625-12-31",
+  "location": {
+    "latitude": 24.51,
+    "longitude": 39.613,
+    "name": "Mount Uhud, Medina"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "105"
+    }
+  ]
+}

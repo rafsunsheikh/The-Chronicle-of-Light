@@ -1,0 +1,24 @@
+{
+  "id": "event-0690-khalid-b-abdallah-becomes-governor-of-al-basrah",
+  "title": "Khalid b. Abdallah Becomes Governor of al-Basrah",
+  "description": "In this year, `Abd al-Malik sent Khalid b. `Abdallah as governor of al-Basrah. According to `Umar [b. Shabbah]-`Ali b. Muhammad [alMada'inij, who said: Humran remained in charge of al-Basrah a short while. Ibn Abi Bakrah left and went to Abd al-Malik in al-Kufah after the death of Mus`ab. Then `Abd al-Malik appointed Khalid b. `Abdallah b. Khalid b. Asid to be in charge of al-Basrah and its fiscal districts. Khalid sent Ubaydallah b. Abi Bakrah as his deputy in charge of al-Basrah.",
+  "startDate": "0690-01-01",
+  "category": "political",
+  "connections": [
+    "event-0690-71-khalid-b-abdallah-raises-support-for-abd",
+    "event-0692-bishr-b-marwan-becomes-governor-of-al-basrah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0691-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "193"
+    }
+  ]
+}

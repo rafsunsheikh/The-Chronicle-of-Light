@@ -1,0 +1,23 @@
+{
+  "id": "event-0650-flight-of-yazdagird-from-fars-to-khurasan",
+  "title": "The Flight of Yazdagird from Fars to Khurasan",
+  "description": "According to 'Ali b. Muhammad (al-Mada'ini)-MaslamahDawud: Ibn 'Amir arrived in Bagrah; then he set out for Fars and (2863) conquered it. Yazdagird fled from Jur-which is [the chief town of the district of] Ardashir -Khurrah117-in the year 30 (65o-5 1). Ibn 'Amir sent Mujashi' b. Mas'ud al-Sulami in pursuit, and he followed (Yazdagird) to Kirman. Mujashi' made camp with the army at al-Sirajan, lls while Yazdagird fled to Khurasan. According to (al-Mada 'ini), [the tribe of] 'Abd al -Qays states that Ibn 'Amir sent Harim b.",
+  "startDate": "0650-01-01",
+  "category": "political",
+  "connections": [
+    "event-0651-abdallah-b-amir-s-campaign-in-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0651-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "69"
+    }
+  ]
+}

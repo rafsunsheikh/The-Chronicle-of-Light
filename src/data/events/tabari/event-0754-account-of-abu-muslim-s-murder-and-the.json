@@ -1,0 +1,19 @@
+{
+  "id": "event-0754-account-of-abu-muslim-s-murder-and-the",
+  "title": "An Account of Abu Muslim 's Murder and the Reason for It",
+  "description": "Reason for It According to Ahmad b. Zuhayr92-`Ali b. Muhammad-Salamah b. Muharib,93 also Muslim b. al-Mughirah,94 Said b. Aws,95 Abu Hafs al-Azdi,96 al-Nu`man Abu al-Sari,97 Muhriz b. Ibrahim, 98 9o. `Abdallah b. `All's eventual arrest and detention are detailed under the year 139. 9r. For other accounts, see Fragmenta historicorum, I, 219; Khalifah b. Khayyit, Ta'rikh, II, 441; Ya`qubi, Historiae, II, 439; and Azdi, Ta'rikh al-Mawsil, 137. 92. Abu Bakr Ahmad b. Abi Khaythamah Zuhayr b. Harb al-Nasa'i (d.",
+  "startDate": "0754-01-01",
+  "category": "political",
+  "connections": [
+    "event-0753-abu-ja-far-the-abbasid-and-abu-muslim",
+    "event-0755-reason-jahwar-turned-against-al-mangur"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0755-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "8"
+    }
+  ]
+}

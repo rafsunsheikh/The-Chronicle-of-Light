@@ -1,0 +1,23 @@
+{
+  "id": "event-0666-mu-awiyah-sends-busr-b-abi-artat-with",
+  "title": "Mu'awiyah Sends Busr b. Abi Artat with 3,000 Fighting Men to the HijAz 1206 The Circumstances of Ibn 'Abbas' Going to Mecca and Leaving Iraq",
+  "description": "3,000 Fighting Men to the Hijaz",
+  "startDate": "0666-01-01",
+  "category": "military",
+  "connections": [
+    "event-0656-talhah-and-al-zubayr-ask-ali-if-they",
+    "event-0680-attack-of-amr-b-al-zubayr-zo-the"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 17",
+      "page": "209"
+    }
+  ]
+}

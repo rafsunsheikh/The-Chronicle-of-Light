@@ -1,0 +1,16 @@
+{
+  "id": "event-0876-account-of-ya-qub-al-affir-s-activities",
+  "title": "An Account of [Ya'qub] al-$affir's Activities This Year",
+  "description": "An Account of [Ya'qub] al-$affir's Activities This Year. Recorded under the year 262 AH (876–877 CE) in al-Tabari's History, volume 36.",
+  "startDate": "0876-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0877-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "187"
+    }
+  ]
+}

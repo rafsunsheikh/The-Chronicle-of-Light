@@ -1,0 +1,24 @@
+{
+  "id": "event-0625-expedition-of-dhat-al-riga",
+  "title": "The Expedition of Dhat al-Riga'",
+  "description": "There is a difference of opinion as to which of his expeditions took place after that against the Banu al-Nadir. According to Ibn Humayd-Salamah-Ibn Ishaq: The Messenger of God remained in Medina after the expedition against the Banu al-Nadir for the two months of Rabi' and part of the month of Jumada (from August i r to late October, 625). Then he went on an expedition into Najd, directed against the Banu Muharib and the Banu Tha'labah, part of Ghatafan, and reached Nakhl.229 This was the expedition of Dhat al-Riga'.",
+  "startDate": "0625-01-01",
+  "category": "military",
+  "connections": [
+    "event-0622-expedition-of-al-sawiq-the-barley-meal",
+    "event-0629-amr-b-al-a-and-khalid-b-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0626-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "161"
+    }
+  ]
+}

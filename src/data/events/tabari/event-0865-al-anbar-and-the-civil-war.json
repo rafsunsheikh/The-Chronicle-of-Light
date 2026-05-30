@@ -1,0 +1,23 @@
+{
+  "id": "event-0865-al-anbar-and-the-civil-war",
+  "title": "Al-Anbar and the civil war",
+  "description": "Al-Anbar and the civil war. Recorded under the year 251 AH (865–866 CE) in al-Tabari's History, volume 35.",
+  "startDate": "0865-01-01",
+  "category": "military",
+  "connections": [
+    "event-0899-relations-with-ibn-abi-al-saj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0866-12-31",
+  "location": {
+    "latitude": 33.37,
+    "longitude": 43.69,
+    "name": "al-Anbar (near Fallujah), Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 35",
+      "page": "75"
+    }
+  ]
+}

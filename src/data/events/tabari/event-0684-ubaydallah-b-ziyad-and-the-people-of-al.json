@@ -1,0 +1,24 @@
+{
+  "id": "event-0684-ubaydallah-b-ziyad-and-the-people-of-al",
+  "title": "°Ubaydallah b. Ziyad and the People of al-Bagrah Following the Death of Yazid",
+  "description": "°Ubaydallah b. Ziyad and the People of al-Bagrah Following the Death of Yazid. Recorded under the year 64 AH (684–685 CE) in al-Tabari's History, volume 20.",
+  "startDate": "0684-01-01",
+  "category": "political",
+  "connections": [
+    "event-0674-why-mu-awiyah-dismissed-abdalla-1-b-camr",
+    "event-0684-plague-of-al-jarif-in-al-bagrah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0685-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 20",
+      "page": "6"
+    }
+  ]
+}

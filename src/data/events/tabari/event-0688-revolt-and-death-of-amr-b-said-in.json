@@ -1,0 +1,26 @@
+{
+  "id": "event-0688-revolt-and-death-of-amr-b-said-in",
+  "title": "The Revolt and Death of Amr b. Said in Damascus",
+  "description": "According to al-Wagidi, `Abd al-Malik b. Marwan went out to 'Ayn Wardah558 this year and made `Amr b. Said b. al-`As559 his deputy over Damascus. The latter fortified himself there. When word of this reached 'Abd al-Malik, he returned to Damascus and besieged him. Thus said al-Wagidi. It is also said that `Amr b. Said went out",
+  "startDate": "0688-01-01",
+  "category": "military",
+  "connections": [
+    "event-0634-report-about-damascus-according-to-sayf",
+    "event-0687-events-in-syria",
+    "event-0695-abd-al-malik-reforms-the-coinage",
+    "event-0745-why-the-oath-of-allegiance-was-given-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0689-12-31",
+  "location": {
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "name": "Damascus, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "154"
+    }
+  ]
+}

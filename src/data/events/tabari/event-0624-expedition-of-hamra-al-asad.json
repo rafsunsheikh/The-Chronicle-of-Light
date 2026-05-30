@@ -1,0 +1,23 @@
+{
+  "id": "event-0624-expedition-of-hamra-al-asad",
+  "title": "The Expedition of Hamra ' al-Asad",
+  "description": "According to Ibn Humayd-Salamah-Muhammad b. Ishaq -Husayn b. 'Abd Allah-'Ikrimah:206 The day of Uhud was on 205. It is not clear why these two men are singled out for mention. They are named together as receiving some of the goods of the clan of al-Nadir because they were poor (1453 below; IH,654). 206. IH, 588-90, but without the first isnad; W, 334-40.",
+  "startDate": "0624-01-01",
+  "category": "military",
+  "connections": [
+    "event-0624-various-accounts-concerning-uhud"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0625-12-31",
+  "location": {
+    "latitude": 24.51,
+    "longitude": 39.613,
+    "name": "Mount Uhud, Medina"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "138"
+    }
+  ]
+}

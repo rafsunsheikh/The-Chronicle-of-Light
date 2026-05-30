@@ -1,0 +1,16 @@
+{
+  "id": "event-0886-ibn-kundaj-routed",
+  "title": "Ibn Kundaj Routed",
+  "description": "Ibn Kundaj Routed. Recorded under the year 273 AH (886–887 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0886-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0887-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "154"
+    }
+  ]
+}

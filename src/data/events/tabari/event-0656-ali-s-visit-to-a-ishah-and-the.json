@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-ali-s-visit-to-a-ishah-and-the",
+  "title": "Ali's Visit to 'A'ishah and the Punishment He Ordered for Those Who Offended Her",
+  "description": "Ordered for Those Who Offended Her According to al-Sari (in writing-Shu'ayb-Sayf-Muhammad and Talhah: On Monday 'Ali entered al-Basrah, went to the mosque, and prayed there. Then he went into al-Basrah itself, and the people came to him. Later he went to `A'ishah on his shemule. When he arrived at the house of 'Abdallah b. Khalaf-the",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-ali-s-grief-over-those-killed-at-the",
+    "event-0656-basrans-allegiance-to-ali-and-his-division-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "164"
+    }
+  ]
+}

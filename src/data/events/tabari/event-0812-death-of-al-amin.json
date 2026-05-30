@@ -1,0 +1,18 @@
+{
+  "id": "event-0812-death-of-al-amin",
+  "title": "The Death of al-Amin",
+  "description": "In this year, Muhammad b. Harun was killed 656 The report of his death follows.",
+  "startDate": "0812-01-01",
+  "category": "political",
+  "connections": [
+    "event-0812-battle-at-qasr-alih"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "182"
+    }
+  ]
+}

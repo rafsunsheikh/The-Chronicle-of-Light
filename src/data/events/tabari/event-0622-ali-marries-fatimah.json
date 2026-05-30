@@ -1,0 +1,16 @@
+{
+  "id": "event-0622-ali-marries-fatimah",
+  "title": "'Ali Marries Fatimah",
+  "description": "According to Abu Ja'far (al-Tabari): In this year, a few days before the end of Safar (which ended September 1, 623), 'Ali b. Abi Talib married Fatimah °' I have been told this on the authority of Muhammad b. 'Amr-Abu Bakr b. 'Abd Allah b. Abi SabrahIshaq b. `Abd Allah b. Abi Farwah-Abu ja'far.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "18"
+    }
+  ]
+}

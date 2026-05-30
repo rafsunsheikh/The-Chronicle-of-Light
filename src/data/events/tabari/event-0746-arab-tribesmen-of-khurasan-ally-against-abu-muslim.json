@@ -1,0 +1,25 @@
+{
+  "id": "event-0746-arab-tribesmen-of-khurasan-ally-against-abu-muslim",
+  "title": "The Arab Tribesmen of Khurasan Ally Against Abu Muslim",
+  "description": "Ally Against Abu Muslim According to 'Ali- al-Sabbah the mawla of Jibril - Maslamah b. Yahya: When Abu Muslim openly proclaimed revolution, people hastened to join him, and the people of Marw began to come to him. Nasr did not prevent them from this nor did he forbid them. Nor did al-Kirmani and Shayban disapprove of Abu Muslim's activities, be-",
+  "startDate": "0746-09-22",
+  "category": "political",
+  "connections": [
+    "event-0746-abu-muslim-openly-preaches-the-abbasid-revolution-in",
+    "event-0747-abu-muslim-enters-the-walled-city-of-marw",
+    "event-0750-abu-ja-far-the-abbasid-s-journey-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0747-09-10",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "75"
+    }
+  ]
+}

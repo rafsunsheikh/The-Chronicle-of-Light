@@ -1,0 +1,24 @@
+{
+  "id": "event-0678-why-yasid-b-mufarrigh-ridiculed-the-sons-of",
+  "title": "Why Yasid b. Mufarrigh ridiculed the sons of Ziyad",
+  "description": "the Sons of Ziyad I reported on the authority of Abu 'Ubaydah Ma'mar b. alMuthanna that Yazid b. Rabi'ah b. Mufarrigh al-Himyari accompanied'Abbad b. Ziyad in Sijistan. He was engaged in war against the Turks for 'Abbad, who was impatient with him. When the army with 'Abbad was concerned about fodder for their mounts, Ibn Mufarrigh said:546 If only the beards would turn into hay, we would feed it to the horses of the Muslims. 'Abbad b.",
+  "startDate": "0678-01-01",
+  "category": "political",
+  "connections": [
+    "event-0643-conquest-of-sijistan",
+    "event-0698-campaign-by-ubaydallah-b-abi-bakrah-in-sijistan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0679-12-31",
+  "location": {
+    "latitude": 31.0,
+    "longitude": 61.5,
+    "name": "Sistan (Zaranj)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "202"
+    }
+  ]
+}

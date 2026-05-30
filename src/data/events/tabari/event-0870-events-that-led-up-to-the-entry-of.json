@@ -1,0 +1,24 @@
+{
+  "id": "event-0870-events-that-led-up-to-the-entry-of",
+  "title": "The Events that Led up to [the ] Entry of al-Basrah by the Zanjj and What lianspired Thereafter",
+  "description": "fby the ZanjJ and What 7tanspired Thereafter;\" It was reported that, when Said b. $ilih Jai-Hajib) left al-Bagrah, the central authorities handed over his duties to Mangur b. Jacfar alKhayyal. The events concerning Mangur and the troops of the abominable one we have dealt with already: They told of Mangur 's enfeebled position, his inability to engage the abominable one in battle, contenting himself with providing protection for the supply ships-'4sufficient to relieve the…",
+  "startDate": "0870-01-01",
+  "category": "political",
+  "connections": [
+    "event-0833-al-ma-mfin-and-the-poet-of-tamim",
+    "event-0870-account-of-al-muwallad-s-expedition"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0887-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "125"
+    }
+  ]
+}

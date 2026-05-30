@@ -1,0 +1,23 @@
+{
+  "id": "event-0642-conquest-of-jurjan-z8-the-conquest-of-tabaristan",
+  "title": "The Conquest of Jurjan / z8 The Conquest of Tabaristan",
+  "description": "The Conquest of Jurjan / z8 The Conquest of Tabaristan. Recorded under the year 21 AH (642–643 CE) in al-Tabari's History, volume 14.",
+  "startDate": "0642-01-01",
+  "category": "military",
+  "connections": [
+    "event-0650-campaign-of-said-b-al-a-in-tabaristan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0643-12-31",
+  "location": {
+    "latitude": 36.4,
+    "longitude": 52.5,
+    "name": "Tabaristan (Mazandaran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "30"
+    }
+  ]
+}

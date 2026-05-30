@@ -1,0 +1,24 @@
+{
+  "id": "event-0709-al-walid-s-visit-to-medina",
+  "title": "Al-Walid's Visit to Medina",
+  "description": "Al-Walid's Visit to Medina. Recorded under the year 90 AH (709–710 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0709-01-01",
+  "category": "political",
+  "connections": [
+    "event-0706-reconstruction-of-the-mosque-of-medina",
+    "event-0722-yazid-b-abd-al-malik-s-dismissal-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0710-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "179"
+    }
+  ]
+}

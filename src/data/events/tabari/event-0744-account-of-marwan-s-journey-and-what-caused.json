@@ -1,0 +1,23 @@
+{
+  "id": "event-0744-account-of-marwan-s-journey-and-what-caused",
+  "title": "The Account of Marwan's journey and What Caused the Battle [at 'Ayn al-Darr",
+  "description": "The Battle [at 'Ayn a]-Jarrj\" I% According to Abu Ja'far (al-Tabari): The cause (of the battle) sprang from what I have already mentioned in part: 1197 namely Marwan 's going from Armenia to the Jazirah after the murder of al-Walid b. Yazid, his conquering of it (the Jazirah), professing that he was incensed on account of al-Walid, out of disapproval of his murder; then his taking of the ba'yah for Yazid b. al-Walid after Yazid had appointed him as governor of the province of his father, Mul}ammad b. Marwan; and his subsequent behavior and i195.",
+  "startDate": "0744-01-01",
+  "category": "military",
+  "connections": [
+    "event-0799-khazar-invasion-of-armenia"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0745-12-31",
+  "location": {
+    "latitude": 40.0,
+    "longitude": 44.5,
+    "name": "Armenia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "249"
+    }
+  ]
+}

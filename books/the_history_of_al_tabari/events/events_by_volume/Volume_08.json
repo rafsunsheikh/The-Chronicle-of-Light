@@ -1,0 +1,553 @@
+[
+  {
+    "id": "tabari-v08-5-001",
+    "title": "Muhammad's Marriage to Zaynab bt. Jabsh",
+    "description": "",
+    "hijriYear": 5,
+    "ceLabel": "626–627",
+    "startDate": "626",
+    "endDate": "627",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 1,
+      "ceRaw": "626/627"
+    }
+  },
+  {
+    "id": "tabari-v08-5-002",
+    "title": "The Expedition to Dumat al-Jandal and Other Events",
+    "description": "",
+    "hijriYear": 5,
+    "ceLabel": "626–627",
+    "startDate": "626",
+    "endDate": "627",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 4,
+      "ceRaw": "626/627"
+    }
+  },
+  {
+    "id": "tabari-v08-5-003",
+    "title": "The Battle of the Trench",
+    "description": "",
+    "hijriYear": 5,
+    "ceLabel": "626–627",
+    "startDate": "626",
+    "endDate": "627",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 5,
+      "ceRaw": "626/627"
+    }
+  },
+  {
+    "id": "tabari-v08-5-004",
+    "title": "The Expedition against the Banu Quray7,ah",
+    "description": "",
+    "hijriYear": 5,
+    "ceLabel": "626–627",
+    "startDate": "626",
+    "endDate": "627",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 27,
+      "ceRaw": "626/627"
+    }
+  },
+  {
+    "id": "tabari-v08-6-005",
+    "title": "The Expedition against the Bane Libyan",
+    "description": "",
+    "hijriYear": 6,
+    "ceLabel": "627–628",
+    "startDate": "627",
+    "endDate": "628",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 42,
+      "ceRaw": "627/628"
+    }
+  },
+  {
+    "id": "tabari-v08-6-006",
+    "title": "The Expedition to Dhu Qarad",
+    "description": "",
+    "hijriYear": 6,
+    "ceLabel": "627–628",
+    "startDate": "627",
+    "endDate": "628",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 43,
+      "ceRaw": "627/628"
+    }
+  },
+  {
+    "id": "tabari-v08-6-007",
+    "title": "The Expedition against the Banu al -Mu^laliq",
+    "description": "",
+    "hijriYear": 6,
+    "ceLabel": "627–628",
+    "startDate": "627",
+    "endDate": "628",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 5,
+      "ceRaw": "627/628"
+    }
+  },
+  {
+    "id": "tabari-v08-6-008",
+    "title": "An Account of the Lie",
+    "description": "",
+    "hijriYear": 6,
+    "ceLabel": "627–628",
+    "startDate": "627",
+    "endDate": "628",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 57,
+      "ceRaw": "627/628"
+    }
+  },
+  {
+    "id": "tabari-v08-6-009",
+    "title": "The Prophet 's Lesser Pilgrimage from Which the Polytheists Turned Him Back: The Story of al-Hudaybiyah",
+    "description": "",
+    "hijriYear": 6,
+    "ceLabel": "627–628",
+    "startDate": "627",
+    "endDate": "628",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 67,
+      "ceRaw": "627/628"
+    }
+  },
+  {
+    "id": "tabari-v08-6-010",
+    "title": "A Report That Khalid b. al-Walid Was Already a Muslim",
+    "description": "",
+    "hijriYear": 6,
+    "ceLabel": "627–628",
+    "startDate": "627",
+    "endDate": "628",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 71,
+      "ceRaw": "627/628"
+    }
+  },
+  {
+    "id": "tabari-v08-6-011",
+    "title": "The Missions to Foreign Rulers",
+    "description": "",
+    "hijriYear": 6,
+    "ceLabel": "627–628",
+    "startDate": "627",
+    "endDate": "628",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 98,
+      "ceRaw": "627/628"
+    }
+  },
+  {
+    "id": "tabari-v08-7-012",
+    "title": "The Expedition to Khaybar",
+    "description": "",
+    "hijriYear": 7,
+    "ceLabel": "628–629",
+    "startDate": "628",
+    "endDate": "629",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 116,
+      "ceRaw": "628/629"
+    }
+  },
+  {
+    "id": "tabari-v08-7-013",
+    "title": "The Expedition of the Messenger of God to Wadi al-Qura",
+    "description": "",
+    "hijriYear": 7,
+    "ceLabel": "628–629",
+    "startDate": "628",
+    "endDate": "629",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 124,
+      "ceRaw": "628/629"
+    }
+  },
+  {
+    "id": "tabari-v08-7-014",
+    "title": "The Affair of al-Iiajjaj b. 'Ilal al-Sulam!",
+    "description": "",
+    "hijriYear": 7,
+    "ceLabel": "628–629",
+    "startDate": "628",
+    "endDate": "629",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 126,
+      "ceRaw": "628/629"
+    }
+  },
+  {
+    "id": "tabari-v08-7-015",
+    "title": "The Division of the Spoils of Khaybar",
+    "description": "",
+    "hijriYear": 7,
+    "ceLabel": "628–629",
+    "startDate": "628",
+    "endDate": "629",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 128,
+      "ceRaw": "628/629"
+    }
+  },
+  {
+    "id": "tabari-v08-7-016",
+    "title": "Various Notices",
+    "description": "",
+    "hijriYear": 7,
+    "ceLabel": "628–629",
+    "startDate": "628",
+    "endDate": "629",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 131,
+      "ceRaw": "628/629"
+    }
+  },
+  {
+    "id": "tabari-v08-7-017",
+    "title": "The Lesser Pilgrimage of Fulfillment",
+    "description": "",
+    "hijriYear": 7,
+    "ceLabel": "628–629",
+    "startDate": "628",
+    "endDate": "629",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 133,
+      "ceRaw": "628/629"
+    }
+  },
+  {
+    "id": "tabari-v08-8-018",
+    "title": "The Expedition against the Banu al-Mulawwiki",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 139,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-019",
+    "title": "Other Notices",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 142,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-020",
+    "title": "'Amr b. al-'A§ and Khalid b. al-Walid Go to Medina as Muslims",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 143,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-021",
+    "title": "The Expedition of Dhat al -Salasil",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 146,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-022",
+    "title": "The Expedition Known as al-Khabal",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 147,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-023",
+    "title": "Expeditions Involving Ibn Abi Hadrad and Abu Qatadah",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 149,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-024",
+    "title": "The Expedition to Mu'tah",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 152,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-025",
+    "title": "The Conquest of Mecca",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 160,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-026",
+    "title": "The Destruction of Idolatrous Shrines",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 187,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-027",
+    "title": "The Expedition against the Banu Jadhimah",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 188,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-028",
+    "title": "Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 193,
+      "ceRaw": "629/630"
+    }
+  },
+  {
+    "id": "tabari-v08-8-029",
+    "title": "Index of Qur 'anic Passages",
+    "description": "",
+    "hijriYear": 8,
+    "ceLabel": "629–630",
+    "startDate": "629",
+    "endDate": "630",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "08",
+      "page": 215,
+      "ceRaw": "629/630"
+    }
+  }
+]

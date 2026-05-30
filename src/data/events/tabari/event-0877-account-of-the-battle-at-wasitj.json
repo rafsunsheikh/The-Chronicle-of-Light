@@ -1,0 +1,23 @@
+{
+  "id": "event-0877-account-of-the-battle-at-wasitj",
+  "title": "An Account of [the) Battle (at Wasitj",
+  "description": "Sulayman b. Jami` had reportedly written to the Zanj leader, informing him of the situation on Nahr al-Zuhayri. He requested permission for expenses to dig a canal from it into the Sawad al-Kufah and the plain.SN' Sulayman informed him the distance was not great and that once the canal was dug it would be easy for the Zanj leader Ito arrange) shipments of food supplies from the districts of Junbula' and the Sawad al-Kufah. The abominable one sent him a man called Muhammad b. Yazid al -Ba$ri to help in carrying out the task. He 58 r.",
+  "startDate": "0877-01-01",
+  "category": "military",
+  "connections": [
+    "event-0872-account-of-kanjur-sj-death"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0878-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "190"
+    }
+  ]
+}

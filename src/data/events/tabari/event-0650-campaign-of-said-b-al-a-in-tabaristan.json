@@ -1,0 +1,23 @@
+{
+  "id": "event-0650-campaign-of-said-b-al-a-in-tabaristan",
+  "title": "The Campaign of Said b. al-'A^ in Tabaristan",
+  "description": "It was related to me by'Umar b. Shabbah-'Ali b. Muhammad (alMada'ini)-'Ali b. Mujahid-Hanash b. Malik: In the year 30 (650-5i), Said b. al-'As set out on campaign from Kufah, aiming at Khurasan, accompanied by Hudhayfah b. al-Yaman and a group of the Companions of the Messenger of God. With him were alHasan, al-Husayn, 'Abdallah b.'Abbas, 'Abdallah b. 'Umar, 'Abdallah b. 'Amr b. al-'A$, and 'Abdallah b. al-Zubayr. [At the same time] 'Abdallah b. 'Amir set out from Bagrah for Khurasan.",
+  "startDate": "0650-01-01",
+  "category": "military",
+  "connections": [
+    "event-0642-conquest-of-jurjan-z8-the-conquest-of-tabaristan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0651-12-31",
+  "location": {
+    "latitude": 36.4,
+    "longitude": 52.5,
+    "name": "Tabaristan (Mazandaran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "42"
+    }
+  ]
+}

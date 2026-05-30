@@ -1,0 +1,19 @@
+{
+  "id": "event-0718-revolt-of-the-kharijites",
+  "title": "The Revolt of the Kharijites",
+  "description": "The Revolt of the Kharijites. Recorded under the year 99 AH (718–719 CE) in al-Tabari's History, volume 24.",
+  "startDate": "0718-01-01",
+  "category": "military",
+  "connections": [
+    "event-0692-abd-al-malik-and-the-kharijites",
+    "event-0719-slaying-of-shawdhab-the-kharijite"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0719-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "76"
+    }
+  ]
+}

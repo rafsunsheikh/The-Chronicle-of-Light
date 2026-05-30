@@ -1,0 +1,24 @@
+{
+  "id": "event-0651-abdallah-b-amir-s-campaign-in-khurasan",
+  "title": "'Abdallah b. 'Amir 's Campaign in Khurasan",
+  "description": "It is recounted that when Ibn 'Amir had conquered Fars, Aws alTamimi went before him and said, \"May God uphold the amir! Verily this land lies within your grasp, and you have conquered but little of it. Go forward, then, for God is your helper.\" (Ibn 'Amir) replied, \"Have we not ordered [the expedition] to set forth?\" He disliked showing that he had taken (Aws's) advice. According to 'Ali b. Muhammad (al-Mada'ini)-Maslamah b. Muharib-al-Sakan b. Qatadah al-'Urayni: Having conquered Fars, Ibn 'Amir returned to Basrah.",
+  "startDate": "0651-01-01",
+  "category": "military",
+  "connections": [
+    "event-0650-flight-of-yazdagird-from-fars-to-khurasan",
+    "event-0656-ali-despatches-khulayd-b-tarif-to-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0652-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "90"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0634-battle-of-al-walajah-i-g-about-ullays",
+  "title": "The Battle of al-Walajah / i g About Ullays, Which Is on the Euphrates Itself/ zi The Affair of Amghishiya / z6 The Day of al-Maqr and the Mouth of Furat Badagla / z6 What Happened after al-Hirah",
+  "description": "The Battle of al-Walajah / i g About Ullays, Which Is on the Euphrates Itself/ zi The Affair of Amghishiya / z6 The Day of al-Maqr and the Mouth of Furat Badagla / z6 What Happened after al-Hirah. Recorded under the year 13 AH (634–635 CE) in al-Tabari's History, volume 11.",
+  "startDate": "0634-03-07",
+  "category": "military",
+  "connections": [
+    "event-0634-continuation-of-the-report-of-ibn-ishaq"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 31.9,
+    "longitude": 44.3,
+    "name": "al-Hira (near Kufa), Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "37"
+    }
+  ]
+}

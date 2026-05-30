@@ -1,0 +1,24 @@
+{
+  "id": "event-0650-reports-concerning-abu-dharr-al-ghifari",
+  "title": "The Reports Concerning Abu Dharr (al-Ghifari",
+  "description": "In this year-that is, the year 30 (650-5 r)-occurred (the events) that have been recorded about the affair of Abu Dharr and Mu'awiyah, and about Mu'awiyah' s exiling him from Syria to Medina. Many things have been recorded as to why he sent him into exile, most of which I am loathe to mention.",
+  "startDate": "0650-01-01",
+  "category": "political",
+  "connections": [
+    "event-0632-continuation-of-the-report-of-sayf",
+    "event-0656-those-routed-on-the-day-of-the-camel"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0651-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "64"
+    }
+  ]
+}

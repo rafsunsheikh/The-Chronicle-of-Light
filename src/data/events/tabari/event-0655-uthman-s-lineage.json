@@ -1,0 +1,16 @@
+{
+  "id": "event-0655-uthman-s-lineage",
+  "title": "Uthman 's Lineage",
+  "description": "He is 'Uthman b. 'Affan b. Abi al-'A$ b. Umayyah b. 'Abd Shams b. 'Abd Manaf b. Qu$ayy. His mother is Arwa bt. Kurayz b. Rabi'ah b. Habib b. 'Abd Shams b. 'Abd Manaf b. Qu$ayy; her mother in turn was Umm Hakim bt. 'Abd al-Muttalib.",
+  "startDate": "0655-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0656-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "254"
+    }
+  ]
+}

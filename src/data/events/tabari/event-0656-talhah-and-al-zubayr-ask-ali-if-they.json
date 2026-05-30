@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-talhah-and-al-zubayr-ask-ali-if-they",
+  "title": "Talhah and al-Zubayr Ask 'Ali If They Can Leave",
+  "description": "According to al-Sari-Shu'ayb-Sayf-Muhammad and Talhah: Talhah and al-Zubayr asked 'Ali if they could go on the 'umrah2lo pilgrimage. He allowed them to go, and they entered Mecca. Now the men of Medina wished to learn 'Ali 's opinion about Mu'awiyah and his rebellion so they could find out what he thought about fighting fellow Muslims.211 Would he venture against him or abstain? They had heard that 'Ali's son al-I;Iasan212",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0655-names-of-uthman-s-provincial-governors-during-this",
+    "event-0666-mu-awiyah-sends-busr-b-abi-artat-with"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "32"
+    }
+  ]
+}

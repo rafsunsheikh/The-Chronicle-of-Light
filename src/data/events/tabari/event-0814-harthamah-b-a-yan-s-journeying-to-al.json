@@ -1,0 +1,24 @@
+{
+  "id": "event-0814-harthamah-b-a-yan-s-journeying-to-al",
+  "title": "Harthamah b. A'yan's journeying to al-Ma 'mun's court at Marw and his fate there",
+  "description": "Harthamah b. A'yan's journeying to al-Ma 'mun's court at Marw and his fate there. Recorded under the year 198 AH (814–815 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0814-01-01",
+  "category": "political",
+  "connections": [
+    "event-0809-succession-of-muhammad-al-amin-as-caliph",
+    "event-0818-al-ma-mun-s-decision-to-leave-marw"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0815-12-31",
+  "location": {
+    "latitude": 37.66,
+    "longitude": 62.19,
+    "name": "Merv, Turkmenistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "39"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0802-taking-of-the-solemn-oaths-in-the-ka",
+  "title": "The Taking of the Solemn Oaths in the Ka bah by the Two Princes",
+  "description": "by the Two Princes He related: Hirun made the Pilgrimage, accompanied by Muhammad and 'Abdallih and by his military commanders, ministers and judges, in the year i 8618o2). He left behind at al-Raqqah Ibrahim b. `Uthmin b. Nahik al-`Akin in charge of his womenfolk, the treasuries and material wealth, and the army, and he despatched his son al-Qasim to Manbij672 and then installed him there with the military commanders and soldiers whom he had attached to alQasim's side.",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0802-al-rashid-s-succession-arrangements-for-his-three",
+    "event-0833-a1-ma-mun-s-interrogation-at-al-raqqah"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 35.95,
+    "longitude": 39.01,
+    "name": "Raqqa, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "183"
+    }
+  ]
+}

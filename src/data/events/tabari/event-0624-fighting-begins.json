@@ -1,0 +1,24 @@
+{
+  "id": "event-0624-fighting-begins",
+  "title": "The Fighting Begins",
+  "description": "According to Harlin b. Ishaq-Mus'ab b. al-Migdam-Isra'il; and (also) Ibn Waki'-his father-Isra'il-Abu Ishaq-al-Bara': When it was the day of Uhud and the Messenger of God met the polytheists, he stationed certain men as archers and put them under the command of 'Abd Allah b.",
+  "startDate": "0624-01-01",
+  "category": "military",
+  "connections": [
+    "event-0624-expedition-to-uhud",
+    "event-0624-various-accounts-concerning-uhud"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0625-12-31",
+  "location": {
+    "latitude": 24.51,
+    "longitude": 39.613,
+    "name": "Mount Uhud, Medina"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "113"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "event-0873-account-of-al-azdi-s-death",
+  "title": "An Account of [al-Azdi 's) Death",
+  "description": "An Account of [al-Azdi 's) Death. Recorded under the year 259 AH (873–874 CE) in al-Tabari's History, volume 36.",
+  "startDate": "0873-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0874-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "161"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "event-0718-capture-of-yazid-b-al-muhallab",
+  "title": "The Capture of Yazid b. al-Muhallab",
+  "description": "The biographers disagree on this subject. According to Hisham b. Muhammad-Abu Mikhnaf: When Yazid b. al-Muhallab made his way to Wisil and then embarked on ships with the intention of sailing to al-Ba$rah, 'Umar b. 'Abd al-'Aziz sent 'Adi b. Artit to al-Bagah to serve as governor. 'Adi dispatched Musa b. al-Wajih al-Himyari, who arrested Yazid after overtaking him at the Bagrah bridge of the Ma'qil Canal. 284 'Adi sent Yazid to 'Umar b. 'Abd al-'Aziz in the custody of Musa b. al-Wajih. When the prisoner arrived, 'Umar b. 'Abd al-'Aziz summoned him.",
+  "startDate": "0718-01-01",
+  "category": "political",
+  "connections": [
+    "event-0715-appointment-of-yazid-b-al-muhallab-as-governor",
+    "event-0719-escape-of-yazid-b-al-muhallab"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0719-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "79"
+    }
+  ]
+}

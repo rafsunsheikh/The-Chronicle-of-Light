@@ -1,0 +1,25 @@
+{
+  "id": "event-0747-abu-hamzah-the-kharijite-enters-madinah",
+  "title": "Abu Hamzah the Kharijite Enters Madinah",
+  "description": "Abu Hamzah the Kharijite Enters Madinah. Recorded under the year 129 AH (747 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0747-01-01",
+  "category": "military",
+  "connections": [
+    "event-0747-battle-of-qudayd-by-madinah",
+    "event-0747-death-of-shayban-b-salamah-the-kharijite",
+    "event-0752-khazim-b-khuzaymah-s-war-against-the-kharijites",
+    "event-0761-reason-abu-ja-far-dismissed-muhammad-b-khalid"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "113"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "event-0745-why-the-oath-of-allegiance-was-given-to",
+  "title": "Why the Oath of Allegiance was Given to Marwan",
+  "description": "'Abd al-Wahhab b. Ibrahim reported the following from Abu Hashim Mukhallad b. Muhammad, the mawla of 'Uthman b. 'Affan: When people announced that Marwan's cavalry had entered Damascus, Ibrahim b. al-Walid fled and went into hiding. At this, Sulayman (b. Hisham) seized what was in the treasury, divided it among his troops, and left the city. Those mawlas of al-Walid b. Yazid who were in the city rushed to the house of 'Abd al-'Aziz b. al-I;Iajjaj and slew him. Then they ransacked the grave of Yazid b. al-Walid and hung his body on the Jabiyah Gate.",
+  "startDate": "0745-01-01",
+  "category": "political",
+  "connections": [
+    "event-0688-revolt-and-death-of-amr-b-said-in"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "name": "Damascus, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "1"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0636-battle-of-marj-al-rum",
+  "title": "The Battle of Marj al-Rum",
+  "description": "The Battle of Marj al-Rum. Recorded under the year 15 AH (636–637 CE) in al-Tabari's History, volume 12.",
+  "startDate": "0636-01-01",
+  "category": "military",
+  "connections": [
+    "event-0689-abd-al-malik-and-the-byzantines"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0637-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "174"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0716-conquest-of-jurjan-and-tabaristanj",
+  "title": "The Conquest of Jurjan and Tabaristanj",
+  "description": "The Conquest of Jurjan and Tabaristanj. Recorded under the year 97 AH (716–717 CE) in al-Tabari's History, volume 24.",
+  "startDate": "0716-01-01",
+  "category": "military",
+  "connections": [
+    "event-0747-marwan-s-governor-for-jurjan-is-killed"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0717-12-31",
+  "location": {
+    "latitude": 36.84,
+    "longitude": 54.44,
+    "name": "Gorgan, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "42"
+    }
+  ]
+}

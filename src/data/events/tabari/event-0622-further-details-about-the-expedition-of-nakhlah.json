@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-further-details-about-the-expedition-of-nakhlah",
+  "title": "Further Details About the Expedition of Nakhlah",
+  "description": "According to Abu Ja`far (al-Tabari): It is said that the Prophet had intended to ask Abu `Ubaydah b. al-Jarrab to lead this expedition but then thought it best to ask `Abd Allah b. Jahsh. According to Muhammad b. `Abd al -A'15-al-Mu`tamir b. Sulayman-his father- a man-Abu al-Sawwar-Jundub b. `Abd Allah: The Messenger of God sent a group of men with Abu `Ubaydah b. al-Jarrah in charge of them. When he was about to set off he wept in fervent love for the Messenger of God, so he sent another man in his place named `Abd Allah b. Jahsh.",
+  "startDate": "0622-07-16",
+  "category": "military",
+  "connections": [
+    "event-0622-expedition-of-nakhlah-another-account",
+    "event-0629-destruction-of-idolatrous-shrines"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 21.5,
+    "longitude": 40.2,
+    "name": "between Mecca and Ta'if"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "24"
+    }
+  ]
+}

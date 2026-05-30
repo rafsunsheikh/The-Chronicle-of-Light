@@ -1,0 +1,24 @@
+{
+  "id": "event-0650-reason-for-uthmin-s-removal-of-al-walid",
+  "title": "The Reason for 'Uthmin ' s Removal of al-Walid and His Appointment of Said as Governor [in Kufah",
+  "description": "His Appointment of Said as Governor [in Kufah) It was transmitted to me in writing by al-Sari-Shu'ayb-SayfMuhammad and Talhah: When `Uthman learned of the conflict between 'Abdallah (b. Masud) and Said (b. Abi Wagga$), he grew angry with both men and resolved [to deal with] them. Then he abandoned that [notion] and removed Sa'd [alone] from office, recovering [from him] what he owed (to the treasury in Kufah]. He confirmed 'Abdallah in office and issued instructions to him. To replace Sa'd as governor he appointed al-Walid b.",
+  "startDate": "0650-01-01",
+  "category": "political",
+  "connections": [
+    "event-0645-reason-why-uthman-removed-sai-d-from-kufah",
+    "event-0656-what-ali-b-abi-talib-wrote-about-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0651-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "45"
+    }
+  ]
+}

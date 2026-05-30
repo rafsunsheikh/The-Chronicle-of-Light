@@ -1,0 +1,15 @@
+{
+  "id": "event-0802-poetry-written-on-the-fall-of-the-barmakis",
+  "title": "Poetry Written on the Fall of the Barmakis",
+  "description": "Al-Ragashi says concerning the Barmakis (but it has also been mentioned that this poem is by Abu Nuwis783), We have now come to rest, and our mounts have taken rest, and the camel which is urged along and the one who used to urge the camels along by his singing have now ceased doing this 784",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "226"
+    }
+  ]
+}

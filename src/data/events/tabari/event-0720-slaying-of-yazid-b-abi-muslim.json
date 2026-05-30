@@ -1,0 +1,24 @@
+{
+  "id": "event-0720-slaying-of-yazid-b-abi-muslim",
+  "title": "The Slaying of Yazid b. Abi Muslim",
+  "description": "It is reported that the circumstances of Yazid 's death were as follows: He had determined to apply to (the inhabitants of Ifriqiyah) the policy that al -Hajjaj b. Yusuf had applied to those Muslims living in the garrison towns who were originally protected peoples (ahl al-dhimmah) from the rural districts; although they converted to Islam in Iraq, al- Hajjaj sent them back to their villages and lands, where they were made to pay the poll tax,574 just as they had been prior to their conversion.",
+  "startDate": "0720-01-01",
+  "category": "political",
+  "connections": [
+    "event-0704-reason-why-al-hajjaj-dismissed-yazid-b-al",
+    "event-0722-appointment-of-muslim-b-said-as-governor-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0721-12-31",
+  "location": {
+    "latitude": 35.5,
+    "longitude": 9.5,
+    "name": "Ifriqiya (Tunisia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "165"
+    }
+  ]
+}

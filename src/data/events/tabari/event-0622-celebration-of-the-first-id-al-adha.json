@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-celebration-of-the-first-id-al-adha",
+  "title": "Celebration of the First 'Id al-Adha",
+  "description": "Then the Messenger of God returned to Medina, and (the festival of) al-Adha came.\"$ It is related that the Messenger of God made his sacrifice together with those of his companions who had the means to do so on the tenth of Dhu al-Hijjah (June 3, 624). He took the people to al-Musalla and led them in prayer. This was the first prayer which the Messenger of God led at al-Musalla on a festival.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-campaign-against-the-banu-qaynuga",
+    "event-0622-expedition-of-al-sawiq-the-barley-meal"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "87"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0647-conquest-of-ifrigiyah-and-the-reason-for-the",
+  "title": "The Conquest [ of Ifrigiyah) and the Reason for the Appointment of 'Abdallah b. Said b. Abi Sarh as Governor of Egypt and ' Uthmin's Removal of 'Amr b. al- A^ from (That Province",
+  "description": "Appointment of `Abdallah b. Sad b. Abi Sarh as Governor of Egypt and `Uthman's Removal of `Amr b. a] A$ from (That Province)",
+  "startDate": "0647-01-01",
+  "category": "military",
+  "connections": [
+    "event-0656-end-of-the-account-of-the-battle-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0648-12-31",
+  "location": {
+    "latitude": 30.007,
+    "longitude": 31.23,
+    "name": "Egypt (Fustat)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "18"
+    }
+  ]
+}

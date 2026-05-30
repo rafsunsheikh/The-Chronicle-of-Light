@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-number-of-muslims-at-badr",
+  "title": "The Number of Muslims at Badr",
+  "description": "According to Abu Ja'far (al-Tabarl): The Messenger of God went out, as I have been informed by authorities other than Ibn Ishaq, on 3 Ramadan (February 28, 624) at the head of over three hundred and ten of his companions. There is a difference of opinion as",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-account-of-badr-by-ibn-ishaq",
+    "event-0622-advance-of-the-muslims-to-badr"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 23.78,
+    "longitude": 38.7906,
+    "name": "Badr, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "38"
+    }
+  ]
+}

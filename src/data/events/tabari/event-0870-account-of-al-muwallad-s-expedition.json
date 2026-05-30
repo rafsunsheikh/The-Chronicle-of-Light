@@ -1,0 +1,24 @@
+{
+  "id": "event-0870-account-of-al-muwallad-s-expedition",
+  "title": "An Account of al-Muwallad's Expedition",
+  "description": "Muhammad al-Muwallad reached the area and was quartered in alUbullah 382 Burayh arrived and established himself in al-Ba^rah. A large number of Bagrans who had previously fled the city gathered (x858) around Burayh. When Yahya (b. Muhammad) withdrew from the city, he set up camp on the Nahr al-Ghutha. Muhammad b. al-Hasan, reporting from Shibl, said that, when Muhammad al-Muwallad arrived, the abominable one sent Yahya instructions to proceed to the Nahr Awwa. He arrived there with his army and set about engaging al-Muwallad in battle for ten days.",
+  "startDate": "0870-01-01",
+  "category": "military",
+  "connections": [
+    "event-0870-events-that-led-up-to-the-entry-of",
+    "event-0880-battle-against-the-tribesmen"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0887-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "134"
+    }
+  ]
+}

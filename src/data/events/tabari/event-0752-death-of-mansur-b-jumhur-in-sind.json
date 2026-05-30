@@ -1,0 +1,23 @@
+{
+  "id": "event-0752-death-of-mansur-b-jumhur-in-sind",
+  "title": "Death of Mansur b. Jumhur in Sind",
+  "description": "Death of Mansur b. Jumhur in Sind. Recorded under the year 134 AH (752–753 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0752-07-18",
+  "category": "political",
+  "connections": [
+    "event-0741-reason-why-bukayr-b-mahan-bought-abu-muslim"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0753-07-07",
+  "location": {
+    "latitude": 26.0,
+    "longitude": 68.5,
+    "name": "Sindh (lower Indus)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "203"
+    }
+  ]
+}

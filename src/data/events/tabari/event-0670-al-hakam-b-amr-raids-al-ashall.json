@@ -1,0 +1,24 @@
+{
+  "id": "event-0670-al-hakam-b-amr-raids-al-ashall",
+  "title": "Al-Hakam b. 'Amr raids al-Ashall",
+  "description": "I was told by 'Umar b. Shabbah-Hatim b. Qabisah -Ghilib b. Sulayman-'Abd al- Rahman b. Subh: I was with al-Hakam b. 'Amr in Khurisan. Ziyad wrote to (Ibn) 'Amr, \"The weapons of the people of the mountain of al-Ashall are felts and their vessels are gold.\" So Ibn 'Amr raided them until his force reached the middle (of the pass), whereupon the enemy took to the mountain trails and roads and surrounded him. At that he dispaired of the matter and put al-Muhallab'2' in charge of the war.",
+  "startDate": "0670-01-01",
+  "category": "military",
+  "connections": [
+    "event-0657-hashim-b-utbah-al-mirgal-and-the-night",
+    "event-0672-how-al-rabic-b-ziyad-al-harithi-died"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0671-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "19"
+    }
+  ]
+}

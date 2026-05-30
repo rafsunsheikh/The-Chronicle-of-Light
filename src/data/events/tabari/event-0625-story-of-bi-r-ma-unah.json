@@ -1,0 +1,16 @@
+{
+  "id": "event-0625-story-of-bi-r-ma-unah",
+  "title": "The Story of Bi'r Ma'unah",
+  "description": "Abu Ja'far (al-Tabari) says: In this year there occurred the disaster of the expedition sent out by the Messenger of God which was killed at Bi'r Ma'unah. According to Ibn Humayd-Salamah-Muhammad b. Ishaq: (After the battle of Uhud) the Messenger of God remained in Medina for the rest of Shawwil, and Dhu al-Hijjah (of year 3) and Muharram (of year 4) (late March 625 to early July 625). The polytheists had charge of the pilgrimage that year. Then in Safar (which began July 13, 625), four months after Uhud, he sent out the men of Bi'r Ma'unah.",
+  "startDate": "0625-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0626-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "1151"
+    }
+  ]
+}

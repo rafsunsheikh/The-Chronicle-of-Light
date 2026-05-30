@@ -1,0 +1,16 @@
+{
+  "id": "event-0696-destruction-of-the-azraqites",
+  "title": "Destruction of the Azraqites",
+  "description": "Destruction of the Azraqites. Recorded under the year 77 AH (696–697 CE) in al-Tabari's History, volume 22.",
+  "startDate": "0696-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0697-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "162"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "event-0867-killing-of-bundar-al-tabari",
+  "title": "The killing of Bundar al-Tabari",
+  "description": "The killing of Bundar al-Tabari. Recorded under the year 253 AH (867 CE) in al-Tabari's History, volume 35.",
+  "startDate": "0867-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 35",
+      "page": "147"
+    }
+  ]
+}

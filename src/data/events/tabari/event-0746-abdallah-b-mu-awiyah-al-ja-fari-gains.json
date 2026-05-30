@@ -1,0 +1,24 @@
+{
+  "id": "event-0746-abdallah-b-mu-awiyah-al-ja-fari-gains",
+  "title": "'Abdallah b. Mu'awiyah al-ja'fari Gains Control of Fars",
+  "description": "According to 'Ali b. Muhammad-'Asim b. Hafs al-TamImi and others: When 'Abdallah b. Mu'awiyah' b. 'Abdallah Ja'far b. AN Talib was driven out of Kufah, he went to Mada'in,12 where the people swore allegiance to him, and a group from Kufah joined him. He then went to Jibal and seized control there as well as in Hulwan, Qumis, Isbahan and Rayy. The slaves of the Kdfans ran away to join him. When he had prevailed, he resided at Isbahan. Muharib b.",
+  "startDate": "0746-09-22",
+  "category": "political",
+  "connections": [
+    "event-0719-supplement-to-the-biography-of-umar-b-abd",
+    "event-0756-arrest-of-abdallah-b-ali"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0747-09-10",
+  "location": {
+    "latitude": 29.6,
+    "longitude": 52.5,
+    "name": "Fars, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "85"
+    }
+  ]
+}

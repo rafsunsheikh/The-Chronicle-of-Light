@@ -1,0 +1,23 @@
+{
+  "id": "event-0872-account-of-the-battle-at-suq-al-ahwaz",
+  "title": "An Account of [the ] Battle [at Suq al -Ahwaz) and How the Army Commander of the Central Authorities Was Killed",
+  "description": "How the Army Commanderd211 of the",
+  "startDate": "0872-01-01",
+  "category": "military",
+  "connections": [
+    "event-0870-account-of-the-occupation-of-al-ahwaz"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0873-12-31",
+  "location": {
+    "latitude": 31.32,
+    "longitude": 48.67,
+    "name": "Ahvaz, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "152"
+    }
+  ]
+}

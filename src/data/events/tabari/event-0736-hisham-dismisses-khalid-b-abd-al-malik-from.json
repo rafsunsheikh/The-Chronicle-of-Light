@@ -1,0 +1,26 @@
+{
+  "id": "event-0736-hisham-dismisses-khalid-b-abd-al-malik-from",
+  "title": "Hisham Dismisses Khalid b. 'Abd al-Malik from al-Madinah",
+  "description": "'Abd al-Malik from al-Madinah (1592) In this year, Hisham b. 'Abd al-Malik dismissed Khalid b. 'Abd al-Malik b. al-Harith b. al-Hakam from (the governorship of) alMadinah, appointing to it Muhammad b. Hisham b. Ismail. According to al-Wagidi: On the day Khilid was dismissed from",
+  "startDate": "0736-01-01",
+  "category": "political",
+  "connections": [
+    "event-0724-pilgrimage-of-hisham-b-abd-al-malik-cont",
+    "event-0735-pilgrimage-and-governors",
+    "event-0736-pilgrimage-and-governors",
+    "event-0737-rebellion-and-execution-of-bahlul-b-bishr"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0737-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "128"
+    }
+  ]
+}

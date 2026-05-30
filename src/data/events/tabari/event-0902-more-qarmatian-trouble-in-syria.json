@@ -1,0 +1,24 @@
+{
+  "id": "event-0902-more-qarmatian-trouble-in-syria",
+  "title": "More Qarmatian trouble in Syria",
+  "description": "More Qarmatian trouble in Syria. Recorded under the year 289 AH (902–903 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0902-01-01",
+  "category": "military",
+  "connections": [
+    "event-0900-military-encounters-with-byzantines",
+    "event-0913-al-i-iallaj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0903-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "133"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-basrans-allegiance-to-ali-and-his-division-of",
+  "title": "The Basrans' Allegiance to 'Ali and His Division of the Contents of the Treasury among Them",
+  "description": "of the Contents of the Treasury among Them According to al-Sari (in writing)-Shu'ayb-Sayf-Muhammad and Talhah: Al-Ahnaf gave allegiance in the evening because he had been absent, he and Banu Sa'd. Then they all entered alBasrah, and the Basrans gave allegiance under their banners. `Ali gave allegiance to the Basrans, even the wounded and those who had sought protection. But when Marwan returned [to Medi-",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-al-ashtar-sends-a-ishah-a-he-camel",
+    "event-0656-ali-s-visit-to-a-ishah-and-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "166"
+    }
+  ]
+}

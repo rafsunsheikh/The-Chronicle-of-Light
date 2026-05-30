@@ -1,0 +1,25 @@
+{
+  "id": "event-0746-abu-muslim-openly-preaches-the-abbasid-revolution-in",
+  "title": "Abu Muslim Openly Preaches the 'Abbasid Revolution in Khurasan",
+  "description": "Abu Muslim Openly Preaches the 'Abbasid Revolution in Khurasan. Recorded under the year 128 AH (746–747 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0746-09-22",
+  "category": "political",
+  "connections": [
+    "event-0741-reason-why-bukayr-b-mahan-bought-abu-muslim",
+    "event-0745-slaying-of-al-harith-b-surayj-in-khurasan",
+    "event-0746-arab-tribesmen-of-khurasan-ally-against-abu-muslim"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0747-09-10",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "61"
+    }
+  ]
+}

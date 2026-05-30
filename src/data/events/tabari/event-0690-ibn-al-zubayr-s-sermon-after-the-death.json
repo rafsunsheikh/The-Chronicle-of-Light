@@ -1,0 +1,19 @@
+{
+  "id": "event-0690-ibn-al-zubayr-s-sermon-after-the-death",
+  "title": "Ibn al-Zubayr 's Sermon after the Death of Mus ' ab",
+  "description": "of Mus`ab]69 According to Abu Zayd ('Umar b. Shabbah]-Abu Ghassan Muhammad b. Yahya-Mus`ab b. Uthman, who said: When news of Mus'ab's death reached `Abdallah b. al-Zubayr, he arose among the people and said: \"Praise be to God! His are the creation and the command.698 He gives the kingdom to whom He will, and withdraws the kingdom from whom He will; He exalts whom He will, and abases whom He will.699 Verily, God does not abase him on whose side is the right, though he were…",
+  "startDate": "0690-01-01",
+  "category": "political",
+  "connections": [
+    "event-0689-those-in-office-during-the-year",
+    "event-0691-abd-al-malik-sends-al-hajjaj-to-fight"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0691-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "1194"
+    }
+  ]
+}

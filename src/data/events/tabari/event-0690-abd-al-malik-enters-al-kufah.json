@@ -1,0 +1,24 @@
+{
+  "id": "event-0690-abd-al-malik-enters-al-kufah",
+  "title": "Abd al -Malik Enters al-Kufah",
+  "description": "According to `Umar b. Shabbah-`Ali b. Muhammad [al-Mada'ini), who said: `Abd al- Malik came from Syria intending to fight Mus`ab. (This happened prior to this year, in the year 7o.) With him was Khalid b. `Abdallah b. Khalid b. Asid. Khalid said to Abd al -Malik, \" If you send me to al-Basrah and have a few horsemen follow me, I hope to subdue it for you.\" `Abd al-Malik sent him. Khalid arrived there clandestinely with his mawdli and close associates, and stayed at the home of `Amr b. Asma` alBahili. According to Umar [b. Shabbah)-Abu al- Hasan [`Ali b.",
+  "startDate": "0690-01-01",
+  "category": "political",
+  "connections": [
+    "event-0686-those-in-office-during-the-year",
+    "event-0695-shabib-s-entry-into-al-kufah-and-his"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0691-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "188"
+    }
+  ]
+}

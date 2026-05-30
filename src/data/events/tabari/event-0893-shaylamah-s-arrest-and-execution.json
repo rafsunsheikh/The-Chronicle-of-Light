@@ -1,0 +1,21 @@
+{
+  "id": "event-0893-shaylamah-s-arrest-and-execution",
+  "title": "Shaylamah's arrest and execution",
+  "description": "Shaylamah's arrest and execution. Recorded under the year 280 AH (893–894 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0893-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0894-12-31",
+  "location": {
+    "latitude": 40.0,
+    "longitude": 44.58,
+    "name": "Dvin, Armenia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "12"
+    }
+  ]
+}

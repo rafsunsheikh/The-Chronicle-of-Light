@@ -1,0 +1,19 @@
+{
+  "id": "event-0677-why-ubaydallah-b-ziyad-killed-the-kharijites",
+  "title": "Why 'Ubaydallah b. Ziyad killed the Kharijites",
+  "description": "Why 'Ubaydallah b. Ziyad killed the Kharijites. Recorded under the year 57 AH (677–678 CE) in al-Tabari's History, volume 18.",
+  "startDate": "0677-01-01",
+  "category": "military",
+  "connections": [
+    "event-0663-killing-of-al-mustawrid-b-ullifah",
+    "event-0684-end-of-the-kharijites-support-for-cabdallah-b"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0678-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "196"
+    }
+  ]
+}

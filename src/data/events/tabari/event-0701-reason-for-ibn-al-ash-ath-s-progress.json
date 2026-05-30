@@ -1,0 +1,19 @@
+{
+  "id": "event-0701-reason-for-ibn-al-ash-ath-s-progress",
+  "title": "The Reason for Ibn al-Ash'ath's Progress to Dayr al-Jamajim and (the Battle] between Him and al -Hajjaj",
+  "description": "to Dayr al-Jamajim and (the Battle)",
+  "startDate": "0701-01-01",
+  "category": "military",
+  "connections": [
+    "event-0700-what-led-abd-al-rahman-b-muhammad-b",
+    "event-0701-second-account-of-the-battle-of-maskinj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0702-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "20"
+    }
+  ]
+}

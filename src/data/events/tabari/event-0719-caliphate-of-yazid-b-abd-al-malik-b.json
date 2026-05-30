@@ -1,0 +1,19 @@
+{
+  "id": "event-0719-caliphate-of-yazid-b-abd-al-malik-b",
+  "title": "The Caliphate of Yazid b. 'Abd al-Malik b. Marwan 720",
+  "description": "The Caliphate of Yazid b. 'Abd al-Malik b. Marwan 720. Recorded under the year 100 AH (719–720 CE) in al-Tabari's History, volume 24.",
+  "startDate": "0719-01-01",
+  "category": "political",
+  "connections": [
+    "event-0719-supplement-to-the-biography-of-umar-b-abd",
+    "event-0723-death-of-yazid-b-abd-al-malik"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0720-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "105"
+    }
+  ]
+}

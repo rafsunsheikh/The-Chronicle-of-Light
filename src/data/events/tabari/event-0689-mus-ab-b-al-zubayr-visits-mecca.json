@@ -1,0 +1,24 @@
+{
+  "id": "event-0689-mus-ab-b-al-zubayr-visits-mecca",
+  "title": "Mus'ab b. al-Zubayr Visits Mecca",
+  "description": "Mus'ab b. al-Zubayr Visits Mecca. Recorded under the year 70 AH (689–690 CE) in al-Tabari's History, volume 21.",
+  "startDate": "0689-01-01",
+  "category": "political",
+  "connections": [
+    "event-0686-why-the-khashabiyyah-came-to-mecca",
+    "event-0691-abd-al-malik-sends-al-hajjaj-to-fight"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0690-12-31",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "169"
+    }
+  ]
+}

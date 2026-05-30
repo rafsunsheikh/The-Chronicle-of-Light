@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-sermon-of-the-messenger-of-god-at-the",
+  "title": "The Sermon of the Messenger of God at the First Friday Prayer",
+  "description": "First Friday Prayer' According to Yunus b. 'Abd al-A'la-Ibn Wahb- Said b. 'Abd alRahman al-Jumahi: The sermon of the Messenger of God at the first Friday prayer which he led at Medina in the territory of the Banu Salim b. 'Awf was as follows: Praise be to God. I praise him, and call on him for help, forgiveness and guidance. I believe in him, do not deny him and am an enemy of whoever denies him.",
+  "startDate": "0622-07-16",
+  "category": "religious",
+  "connections": [
+    "event-0622-choice-of-a-site-for-mosque-and-house",
+    "event-0622-first-friday-prayer"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "2"
+    }
+  ]
+}

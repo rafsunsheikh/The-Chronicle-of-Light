@@ -1,0 +1,22 @@
+{
+  "id": "event-0821-revolt-in-yemen-of-the-alid-abd-al",
+  "title": "The revolt in Yemen of the 'Alid 'Abd al-Rahman b. Ahmad",
+  "description": "The revolt in Yemen of the 'Alid 'Abd al-Rahman b. Ahmad. Recorded under the year 206 AH (c. 821 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0821-01-01",
+  "category": "military",
+  "connections": [
+    "event-0814-revolt-in-the-yemen-of-the-alid-ibrahim"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 15.355,
+    "longitude": 44.206,
+    "name": "Yemen (San'a')"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "130"
+    }
+  ]
+}

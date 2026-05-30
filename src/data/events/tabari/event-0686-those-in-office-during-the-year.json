@@ -1,0 +1,26 @@
+{
+  "id": "event-0686-those-in-office-during-the-year",
+  "title": "Those in Office during the Year",
+  "description": "`Abdallah b. al-Zubayr led the pilgrimage this year. His governor (`dmil) in charge of al-Kiifah was Mus` ab. (I have mentioned how the historiansa35 differ about the governor of al-Basrah.) `Abdallah b. `Utbah b. Masud was in charge of the judiciary of al-Kufah. Hisham b. Hubayrah was in charge of the judiciary of al-Basrah. 'Abd al -Malik b. Marwan was in Syria, and `Abdallah b. Khazim al-Sulami was in charge of Khurasan. 435.",
+  "startDate": "0686-07-28",
+  "category": "political",
+  "connections": [
+    "event-0686-ibn-al-zubayr-removes-mus-ab-from-al",
+    "event-0686-why-he-seized-them-names-of-those-he",
+    "event-0687-those-in-office-during-the-year",
+    "event-0690-abd-al-malik-enters-al-kufah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0687-07-17",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "121"
+    }
+  ]
+}

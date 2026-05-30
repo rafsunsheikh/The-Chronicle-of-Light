@@ -1,0 +1,24 @@
+{
+  "id": "event-0705-appointment-of-umar-b-abd-al-aziz-as",
+  "title": "The Appointment of 'Umar b. 'Abd al-'Aziz as Governor of Medina",
+  "description": "The Appointment of 'Umar b. 'Abd al-'Aziz as Governor of Medina. Recorded under the year 86 AH (705 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0705-01-01",
+  "category": "political",
+  "connections": [
+    "event-0693-important-events-of-this-year-x-al-muhallab",
+    "event-0706-reconstruction-of-the-mosque-of-medina",
+    "event-0718-umar-b-abd-al-aziz-appoints-abd-al"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "131"
+    }
+  ]
+}

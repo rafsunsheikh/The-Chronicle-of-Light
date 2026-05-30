@@ -1,0 +1,19 @@
+{
+  "id": "event-0837-al-mu-tasim-s-campaign-against-ammuriyyah",
+  "title": "Al-Mu'tasim 's Campaign against Ammuriyyah",
+  "description": "Al-Mu'tasim 's Campaign against Ammuriyyah. Recorded under the year 222 AH (837–838 CE) in al-Tabari's History, volume 33.",
+  "startDate": "0837-01-01",
+  "category": "military",
+  "connections": [
+    "event-0837-ai-afshin-s-bringing-of-babak-and-his",
+    "event-0838-reason-for-mazyar-s-open-rebellion-against-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0838-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "97"
+    }
+  ]
+}

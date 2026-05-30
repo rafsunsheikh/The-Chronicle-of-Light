@@ -1,0 +1,18 @@
+{
+  "id": "event-0737-rebellion-and-execution-of-bahlul-b-bishr",
+  "title": "The Rebellion and Execution of Bahlul b. Bishr",
+  "description": "According to Abu 'Ubaydah Ma'mar b. al-Muthanna: Bahlul would worship (much). He would have with him food the weight of a daniq. He became famous for being bold with Hisham b. 'Abd al-Malik. He went forth intending to make the pilgrimage and ordered his servant to buy a dirham's worth of vinegar, but this servant came to him with wine (instead). Bahlul ordered the servant to return and recover the dirham, but the shopowner did not fulfill his request. Bahlul came then to the governor of the town, which was in the Sawad,S60 and spoke to him.",
+  "startDate": "0737-01-01",
+  "category": "military",
+  "connections": [
+    "event-0736-hisham-dismisses-khalid-b-abd-al-malik-from",
+    "event-0737-reason-for-nasr-b-sayyir-s-governorship-of"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "155"
+    }
+  ]
+}

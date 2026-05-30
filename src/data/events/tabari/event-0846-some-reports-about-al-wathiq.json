@@ -1,0 +1,19 @@
+{
+  "id": "event-0846-some-reports-about-al-wathiq",
+  "title": "Some Reports about al -Wathiq",
+  "description": "Al-Husayn b. al-QahhAk201 reported that he saw al-Wathiq a few days after al-Mu`ta^im died. He was seated at the first soiree that 196. Al-Hasan b. Sahl was court astrologer and finance minister and governor for al-Ma'mun; d. 236 (85o-51); Bosworth, Reunification, Index, 272; Sourdel, Vizirat, Index, 766, and especially 215-18; Sezgin, GAS, VII, 122; E12, s.v. His brother al-Fadl b.",
+  "startDate": "0846-01-01",
+  "category": "political",
+  "connections": [
+    "event-0846-occasion-of-ja-far-s-becoming-caliph-and",
+    "event-0846-portrayal-of-al-wathiq-his-years-and-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0847-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "53"
+    }
+  ]
+}

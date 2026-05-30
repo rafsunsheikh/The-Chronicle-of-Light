@@ -1,0 +1,22 @@
+{
+  "id": "event-0818-ibrahim-b-al-mahdi-s-assumption-of-power",
+  "title": "Ibrahim b. al-Mahdi's assumption of power in central al-'Iraq",
+  "description": "Ibrahim b. al-Mahdi's assumption of power in central al-'Iraq. Recorded under the year 202 AH (818 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0818-01-01",
+  "category": "political",
+  "connections": [
+    "event-0814-various-events-in-al-iraq"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "66"
+    }
+  ]
+}

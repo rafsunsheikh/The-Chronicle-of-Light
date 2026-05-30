@@ -1,0 +1,23 @@
+{
+  "id": "event-0811-rebellion-of-al-sufyani-in-syria",
+  "title": "The Rebellion of al-Sufyani in Syria",
+  "description": "In this year, al-Sufyani338 (`Ali b. 'Abdallah b. Khalid b. Yazid b. Mu`awiyah) appeared in Syria and pressed his claim to power. This took place in the month of Dhii al-Hijjah 339 He expelled Sulayman b. Abi Ja'far from there, after having besieged him in Damascus. Sulayman was Muhammad's governor of Damascus, and he made his escape only after he had despaired.3ao Muhammad the Deposed dispatched alHusayn b. All b. `Isa b. Mahan to [fight) him. Al-Husayn did not reach him; instead, when he reached al-Raggah,341 he remained there.",
+  "startDate": "0811-09-23",
+  "category": "military",
+  "connections": [
+    "event-0796-ja-far-b-yabya-s-return-from-syria",
+    "event-0811-al-amin-imprisons-asad-b-yazid-and-dispatches"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "88"
+    }
+  ]
+}

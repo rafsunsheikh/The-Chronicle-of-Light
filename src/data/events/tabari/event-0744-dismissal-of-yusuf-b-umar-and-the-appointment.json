@@ -1,0 +1,23 @@
+{
+  "id": "event-0744-dismissal-of-yusuf-b-umar-and-the-appointment",
+  "title": "The Dismissal of Yusuf b. 'Umar and the Appointment of Manger b. Jumhur (as Governor of Iraq",
+  "description": "Appointment of Man$fir b. /umhur (as Governor of Iraq) When Yazid b. al-Walid had secured for himself the obedience of the Syrians, it was reported that he invited 'Abd al-'Aziz b. Harun b. 'Abdallah b. Daliyah b. Khalifah al-Kalbi to be governor of Iraq. 'Abd al-'Aziz said to Yazid: \"If I had a jund, I would accept.\" So Yazid dropped the idea of choosing him989 and appointed Mangur b. jumhur to the post.",
+  "startDate": "0744-01-01",
+  "category": "political",
+  "connections": [
+    "event-0744-dismissal-of-manger-b-jumhur-from-the-post"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0745-12-31",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "196"
+    }
+  ]
+}

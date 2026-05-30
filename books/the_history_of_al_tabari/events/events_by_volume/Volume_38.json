@@ -1,0 +1,534 @@
+[
+  {
+    "id": "tabari-v38-280-001",
+    "title": "al-Rayy",
+    "description": "",
+    "hijriYear": 280,
+    "ceLabel": "893–894",
+    "startDate": "893",
+    "endDate": "894",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 4,
+      "ceRaw": "893-894"
+    }
+  },
+  {
+    "id": "tabari-v38-280-002",
+    "title": "Shaylamah's arrest and execution/ 6-Campaign against the Shayban/ 7-Ibn Abi al-Saj's conquest of al-Maraghah/ 9Death of Dulafite/ 9-Conquest of 'Uman/ 10-Campaign 11-Earthquake in Dabil",
+    "description": "",
+    "hijriYear": 280,
+    "ceLabel": "893–894",
+    "startDate": "893",
+    "endDate": "894",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 12,
+      "ceRaw": "893-894"
+    }
+  },
+  {
+    "id": "tabari-v38-281-003",
+    "title": "14-Expedition to alJibal",
+    "description": "",
+    "hijriYear": 281,
+    "ceLabel": "894–895",
+    "startDate": "894",
+    "endDate": "895",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 14,
+      "ceRaw": "894-895"
+    }
+  },
+  {
+    "id": "tabari-v38-281-004",
+    "title": "and to Mosul against Hamdan b. Hamdun",
+    "description": "",
+    "hijriYear": 281,
+    "ceLabel": "894–895",
+    "startDate": "894",
+    "endDate": "895",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 15,
+      "ceRaw": "894-895"
+    }
+  },
+  {
+    "id": "tabari-v38-282-005",
+    "title": "The Mu'tadidi New Year/ 19-Wedding of al-Mu'tadid and Qatr al-Nada/ 19,22-Continuation of campaign against Hamdan/ 20-The Caspian Zaydite's annual subsidy to his followers and al-Mu tadid's dream about his attitude toward 24-Murder of Khumarawayh",
+    "description": "",
+    "hijriYear": 282,
+    "ceLabel": "895–896",
+    "startDate": "895",
+    "endDate": "896",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 26,
+      "ceRaw": "895-896"
+    }
+  },
+  {
+    "id": "tabari-v38-282-006",
+    "title": "*Considering the varied number of events mentioned under each year in this volume, the selection of subjects listed here under various years is, of necessity, somewhat arbitrary. Continued campaign against Husayn b. Hamdan and Kharijites/ 27 -Reform of inheritance/ 29-Egyptian officers arriving in Baghdad after defection/ 30-Relations between Byzantines and Slavs/ 31-Murder of Jaysh b. Khumarawayh/ 31-Ransom 34'Amr b. al-Layth defeats Rafi' b. Harthamah",
+    "description": "",
+    "hijriYear": 282,
+    "ceLabel": "895–896",
+    "startDate": "895",
+    "endDate": "896",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 39,
+      "ceRaw": "895-896"
+    }
+  },
+  {
+    "id": "tabari-v38-284-007",
+    "title": "Fighting in Tarsus/ 41 -Christian eunuch accused of slandering Prophet/ 42-Populace harassing black eunuchs/ 45-Edict against Umayyads/ 46-\"Specter\" in the palace/ 65-Escape of Dulafite Abu al-Layth from detention and his subsequent 67-Wrong astrological predictions of rain",
+    "description": "",
+    "hijriYear": 284,
+    "ceLabel": "897–898",
+    "startDate": "897",
+    "endDate": "898",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 69,
+      "ceRaw": "897-898"
+    }
+  },
+  {
+    "id": "tabari-v38-285-008",
+    "title": "Al-'D'a'i's attack on pilgrim caravan / 70-Atmospheric fallout in southern Mesopotamia/ 71-Naval raid against Byzantines/ 73-Negotiations with Harun b. Khumarawayh/ 73-Raid against Byzantines",
+    "description": "",
+    "hijriYear": 285,
+    "ceLabel": "898–899",
+    "startDate": "898",
+    "endDate": "899",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 74,
+      "ceRaw": "898-899"
+    }
+  },
+  {
+    "id": "tabari-v38-286-009",
+    "title": "Relations with Ibn Abi al-SAj/ 75-Expedition to Amid against Ibn Shaykh/ 75-Agreement with Harun b. Khumarawayh/ 76-Gifts from 'Amr b. al-Layth/ 77-Appearance of Qarmatians 77-Raids of the Shayban against al-Anbar",
+    "description": "",
+    "hijriYear": 286,
+    "ceLabel": "899–900",
+    "startDate": "899",
+    "endDate": "900",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 78,
+      "ceRaw": "899-900"
+    }
+  },
+  {
+    "id": "tabari-v38-287-010",
+    "title": "Arrest of Ibn Shaykh/ 81 -Bedouin attacks on the pilgrim caravan/ 81-Growing Qarmatian danger/ 82-Troubles in 91-Badr's expedition against the Qarmatians",
+    "description": "",
+    "hijriYear": 287,
+    "ceLabel": "900",
+    "startDate": "900",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 92,
+      "ceRaw": "900"
+    }
+  },
+  {
+    "id": "tabari-v38-287-011",
+    "title": "Death of Ibn Abi al -Saj/ 94 -'Amr b. al-Layth in Baghdad/ 95Gifts sent to Samanid/ 95-Troubles in $an' a/ 96-Fighting among Sajids",
+    "description": "",
+    "hijriYear": 287,
+    "ceLabel": "900",
+    "startDate": "900",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 97,
+      "ceRaw": "900"
+    }
+  },
+  {
+    "id": "tabari-v38-287-012",
+    "title": "Military encounters with Byzantines",
+    "description": "",
+    "hijriYear": 287,
+    "ceLabel": "900",
+    "startDate": "900",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 97,
+      "ceRaw": "900"
+    }
+  },
+  {
+    "id": "tabari-v38-288-013",
+    "title": "99-Death of alMu'tadid",
+    "description": "",
+    "hijriYear": 288,
+    "ceLabel": "901–902",
+    "startDate": "901",
+    "endDate": "902",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 101,
+      "ceRaw": "901-902"
+    }
+  },
+  {
+    "id": "tabari-v38-288-014",
+    "title": "The Caliphate of al-Muktafi bi-llah Death of 'Amr b. al-Layth/ 103-Downfall of Badr/ 104-Samanid 112-Zikrawayh and his sons",
+    "description": "",
+    "hijriYear": 288,
+    "ceLabel": "901–902",
+    "startDate": "901",
+    "endDate": "902",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 113,
+      "ceRaw": "901-902"
+    }
+  },
+  {
+    "id": "tabari-v38-289-015",
+    "title": "More Qarmatian trouble in Syria/ 118-Al-Muktafi's failed attempt to move to Samarra/ 120-Death of Yahya b. Zikrawayh and Syrian raids by his brother I iusayn, the Man of the Mole/ 121-A mother searching for her son in the Qarmatian camp/ 123-Qarmatian near Aleppo/ 127-Successful attacks from al-Bahrayn on al-Jannabi's relatives and lieutenant / 128-Letter 130-Ransom negotiations with Byzantines",
+    "description": "",
+    "hijriYear": 289,
+    "ceLabel": "902–903",
+    "startDate": "902",
+    "endDate": "903",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 133,
+      "ceRaw": "902-903"
+    }
+  },
+  {
+    "id": "tabari-v38-290-016",
+    "title": "Al-Muktafi in al-Raggah/ 134-Capture of the Man of the Mole/ 135-Muhammad b/ Sulayman's battle with Qarmatians/ 136Execution of Qarmatian leaders / 141-Al-Qasim b. Sima and the remnants of Qarmatian 'Ullay§/ 144, 147-Preparations for campaign against Harun b. Khumarawayh/ 146-Samanid 147-Appointment of al-'Abbas b. al-Hasan",
+    "description": "",
+    "hijriYear": 290,
+    "ceLabel": "903–904",
+    "startDate": "903",
+    "endDate": "904",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 149,
+      "ceRaw": "903-904"
+    }
+  },
+  {
+    "id": "tabari-v38-291-017",
+    "title": "Seizure of insurgents in the Ba§rah region/ 150-Byzantine raid on Mar'ash/ 151-Muhammad b. Sulayman in Egypt, Harun b. Khumarawayh killed/ 151-Revolt of al-Khaliji in Egypt/ 152- Byzantine-Muslim ransom negotiations/ 153-Flood in Baghdad/ 154-Byzantine preparations for raid against Tarsus",
+    "description": "",
+    "hijriYear": 291,
+    "ceLabel": "904–905",
+    "startDate": "904",
+    "endDate": "905",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 155,
+      "ceRaw": "904-905"
+    }
+  },
+  {
+    "id": "tabari-v38-292-018",
+    "title": "157-Unrest in the Yemen",
+    "description": "",
+    "hijriYear": 292,
+    "ceLabel": "905–906",
+    "startDate": "905",
+    "endDate": "906",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 157,
+      "ceRaw": "905-906"
+    }
+  },
+  {
+    "id": "tabari-v38-292-019",
+    "title": "Qarmatian 'Abdallah b. Said and the Qarmatian attacks against various cities (Hit, Tiberias, al-Kufah), defeat of government forces/ 158 -Zikrawayh/ 161-Battle at al-Saw'ar/ 167 -AlKhaliji' s defeat and transfer to Baghdad / 169-Byzantine raid on Qurus",
+    "description": "",
+    "hijriYear": 292,
+    "ceLabel": "905–906",
+    "startDate": "905",
+    "endDate": "906",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 171,
+      "ceRaw": "905-906"
+    }
+  },
+  {
+    "id": "tabari-v38-293-020",
+    "title": "Raid into Byzantine territory/ 172-Qarmatian attacks on pilgrim caravans/ 172-Zikrawayh' s death/ 179-Patrikios Andronikos defects to Muslims, raid on Konya/ 180-Qarmatian remnants 181Sufyani appearing in Syria",
+    "description": "",
+    "hijriYear": 293,
+    "ceLabel": "906–907",
+    "startDate": "906",
+    "endDate": "907",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 181,
+      "ceRaw": "906-907"
+    }
+  },
+  {
+    "id": "tabari-v38-294-021",
+    "title": "Al-Misma'i's rebellion/ 183-Death of Samanid Isma'il/ 183Events in the Yemen/ 184-Embassy of Aghlabite Ziyadatallah/ 185-Death of al-Muktafi",
+    "description": "",
+    "hijriYear": 294,
+    "ceLabel": "907–908",
+    "startDate": "907",
+    "endDate": "908",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 185,
+      "ceRaw": "907-908"
+    }
+  },
+  {
+    "id": "tabari-v38-294-022",
+    "title": "The Caliphate of al-Muqtadir bi-llah Riot of soldiers during pilgrimage",
+    "description": "",
+    "hijriYear": 294,
+    "ceLabel": "907–908",
+    "startDate": "907",
+    "endDate": "908",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 187,
+      "ceRaw": "907-908"
+    }
+  },
+  {
+    "id": "tabari-v38-295-023",
+    "title": "Rebellion of Ibn al-Mu'tazz/ 189-1lusayn b. Iiamdan in Baghdad",
+    "description": "",
+    "hijriYear": 295,
+    "ceLabel": "908–909",
+    "startDate": "908",
+    "endDate": "909",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 191,
+      "ceRaw": "908-909"
+    }
+  },
+  {
+    "id": "tabari-v38-296-024",
+    "title": "Mu'nis al-Khddim's campaign against Byzantines/ 193, in Fars to fight Saffarid al-Layth",
+    "description": "",
+    "hijriYear": 296,
+    "ceLabel": "909–910",
+    "startDate": "909",
+    "endDate": "910",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 193,
+      "ceRaw": "909-910"
+    }
+  },
+  {
+    "id": "tabari-v38-297-025",
+    "title": "Further developments in Fars",
+    "description": "",
+    "hijriYear": 297,
+    "ceLabel": "910–911",
+    "startDate": "910",
+    "endDate": "911",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 195,
+      "ceRaw": "910-911"
+    }
+  },
+  {
+    "id": "tabari-v38-299-026",
+    "title": "Falimid expedition against Barqah",
+    "description": "",
+    "hijriYear": 299,
+    "ceLabel": "912–913",
+    "startDate": "912",
+    "endDate": "913",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 198,
+      "ceRaw": "912-913"
+    }
+  },
+  {
+    "id": "tabari-v38-300-027",
+    "title": "Al-I iallaj/ 199- Husayn b. Hamdan 's campaign against Byzantines/ 200-Samanid ruler killed, quarrels about succession/ 202-Death of al-Jannabz",
+    "description": "",
+    "hijriYear": 300,
+    "ceLabel": "913–914",
+    "startDate": "913",
+    "endDate": "914",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 202,
+      "ceRaw": "913-914"
+    }
+  },
+  {
+    "id": "tabari-v38-301-028",
+    "title": "Campaign against Byzantines/ 204-Al-Ulrush seizing power in Tabaristan/ 204-Habasah's invasion of Egypt / 205-Defeated/ 206Bedouin attacks on pilgrim caravan",
+    "description": "",
+    "hijriYear": 301,
+    "ceLabel": "914–915",
+    "startDate": "914",
+    "endDate": "915",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "38",
+      "page": 207,
+      "ceRaw": "914-915"
+    }
+  }
+]

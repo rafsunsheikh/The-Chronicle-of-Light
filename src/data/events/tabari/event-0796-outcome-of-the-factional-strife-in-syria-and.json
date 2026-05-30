@@ -1,0 +1,24 @@
+{
+  "id": "event-0796-outcome-of-the-factional-strife-in-syria-and",
+  "title": "The Outcome of the Factional Strife in Syria and the Poetic Eulogies of Ja'far b. Ya1Lya, Restorer of Order There",
+  "description": "and the Poetic Eulogies of fa'far b. Yal7y4 Restorer of Order There It has been mentioned that, when this factional strife took place in Syria between its people and the state of affairs became grave, alRashid grew disturbed about what was happening among them; so he invested Ja`far b.",
+  "startDate": "0796-01-01",
+  "category": "political",
+  "connections": [
+    "event-0791-internecine-strife-fitnah-among-the-north-and-south",
+    "event-0796-ja-far-b-yabya-s-return-from-syria"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0797-12-31",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "155"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0655-names-of-uthman-s-provincial-governors-during-this",
+  "title": "The Names of 'Uthman' s Provincial Governors during This Year",
+  "description": "during This Year According to Muhammad b. 'Umar (a1-Wagidi)--'Abd al-Rahman b. Abi al-Zinad: When 'Uthman was killed, his provincial governors were as follows: i. in Mecca, 'Abdallah b. al-Hadrami; 2. in al-TA'if, al-QAsim b. Rabi'ah al-Thaqafi; 3. in $an 'a', Ya'la b. Munyah; 4. in al-Janad, 'Abdallah b. Abi Rabi'ah•457 5. in Bagrah, 'Abdallah b. 'Amir b. Kurayz-he had left his post, but 'Uthman had appointed no one to replace him; 6. in Kufah, Said b. al-'A4-he had been driven out and was not permitted to reenter the city; 7. in Egypt, 'Abdallah b.",
+  "startDate": "0655-01-01",
+  "category": "political",
+  "connections": [
+    "event-0629-conquest-of-mecca",
+    "event-0656-talhah-and-al-zubayr-ask-ali-if-they"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0656-12-31",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "255"
+    }
+  ]
+}

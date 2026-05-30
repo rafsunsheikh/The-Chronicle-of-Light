@@ -1,0 +1,21 @@
+{
+  "id": "event-0636-x-contents-the-conquest-of-baysan-and-the",
+  "title": "x Contents The Conquest of Baysan and the Battle of Ajnadayn",
+  "description": "x Contents The Conquest of Baysan and the Battle of Ajnadayn. Recorded under the year 15 AH (636–637 CE) in al-Tabari's History, volume 12.",
+  "startDate": "0636-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0637-12-31",
+  "location": {
+    "latitude": 31.7,
+    "longitude": 34.9,
+    "name": "Ajnadayn, Palestine"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "85"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "event-0642-i-fahan",
+  "title": "I$fahan",
+  "description": "I$fahan. Recorded under the year 21 AH (642–643 CE) in al-Tabari's History, volume 14.",
+  "startDate": "0642-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0643-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "6"
+    }
+  ]
+}

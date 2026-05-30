@@ -1,0 +1,23 @@
+{
+  "id": "event-0818-revolt-in-al-kufah-of-the-alid-al",
+  "title": "The revolt in al-Kufah of the 'Alid al-Abbas b. Musa al-Kizim, and its suppression by Ibrahim b. al-Mahdi's forces",
+  "description": "The revolt in al-Kufah of the 'Alid al-Abbas b. Musa al-Kizim, and its suppression by Ibrahim b. al-Mahdi's forces. Recorded under the year 202 AH (818 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0818-01-01",
+  "category": "military",
+  "connections": [
+    "event-0814-harthamah-b-a-yan-s-recapture-of-al",
+    "event-0848-how-itakh-was-killed"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "69"
+    }
+  ]
+}

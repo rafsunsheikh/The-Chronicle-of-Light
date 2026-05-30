@@ -1,0 +1,16 @@
+{
+  "id": "event-0784-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 167 AH (784–785 CE) in al-Tabari's History, volume 29.",
+  "startDate": "0784-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0785-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 29",
+      "page": "265"
+    }
+  ]
+}

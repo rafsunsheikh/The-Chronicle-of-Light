@@ -1,0 +1,24 @@
+{
+  "id": "event-0644-governorship-of-sa-d-b-abi-waggag-in",
+  "title": "The Governorship of Sa'd b. Abi Waggag in Kufah The Letters of 'Uthman to His Officials and Governors and to the Common People",
+  "description": "In this year, 'Uthman removed al-Mughirah b. Shu'bah from Kufah and appointed Sa'd b. Abi Wagqag as governor there, according to the account transmitted to me in writing by al-SariShu'ayb-Sayf-al-Mujalid-al-Sha'bi. He says: 'Umar had said, [2802) \"I enjoin the Caliph after me to name Sa'd b. Abi Wagqag as governor, for I did not remove him on account of any evil action, and I fear that something of that kind may be attributed to him.\" The first governor ('amil) whom 'Uthman appointed was Sa'd b. Abi Wagqag in Kufah. He removed al-Mughirah b.",
+  "startDate": "0644-01-01",
+  "category": "political",
+  "connections": [
+    "event-0642-information-on-umar-s-division-of-the-conquered",
+    "event-0644-gathering-of-byzantine-forces-against-the-muslims-and"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0645-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "5"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0722-umar-b-hubayrah-s-dismissal-of-said-b",
+  "title": "'Umar b. Hubayrah's Dismissal of Said b. 'Amr al-Harashi as Governor of Khurasan",
+  "description": "It is reported that 'Umar dismissed al-Harashi because the latter had angered him in connection with al-Diwashini.631 This is because al -Harashi had slain al -Diwashini, despite the fact that 'Umar had written to him ordering him to release the Turk.",
+  "startDate": "0722-01-01",
+  "category": "political",
+  "connections": [
+    "event-0721-omar-b-hubayrah-s-appointment-of-said-al",
+    "event-0722-appointment-of-muslim-b-said-as-governor-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0723-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "183"
+    }
+  ]
+}

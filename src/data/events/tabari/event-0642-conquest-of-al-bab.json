@@ -1,0 +1,24 @@
+{
+  "id": "event-0642-conquest-of-al-bab",
+  "title": "The Conquest of al-Bab",
+  "description": "According to Sayf, they, that is, those whose names I have previously mentioned, reported (as follows]. 'Umar sent Abu Musa back to al-Bagrah and Suragah b. 'Amr, known as Dhu al-Nur,t75 to al-Bab. He appointed over his vanguard 'Abd alRahman b. Rabi'ah who was also known as Dhu al-Nur. He appointed over one of the wings Hudhayfah b. Asid al-Ghifari and named for the other Bukayr b. 'Abdallah al-Laythi, who was already facing al-Bab before Suragah b. Amr reached him. ('Umar) wrote to (Suragah), [instructing] him to join up with (Bukayr).",
+  "startDate": "0642-01-01",
+  "category": "military",
+  "connections": [
+    "event-0635-building-of-al-bagrah",
+    "event-0649-reason-for-uthmin-s-removal-of-abu-musa"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0643-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "34"
+    }
+  ]
+}

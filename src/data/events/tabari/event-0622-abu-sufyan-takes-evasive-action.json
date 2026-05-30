@@ -1,0 +1,23 @@
+{
+  "id": "event-0622-abu-sufyan-takes-evasive-action",
+  "title": "Abu Sufyan Takes Evasive Action",
+  "description": "Abu Sufyan came in advance of the caravan as a precaution and arrived at the water. He said to Majdi b. 'Amr, \"Have you noticed 83. The list includes most of the leading men of Mecca apart from the older generation. For details see Watt, Mecca, Medina, index.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-news-of-defeat-reaches-mecca"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "44"
+    }
+  ]
+}

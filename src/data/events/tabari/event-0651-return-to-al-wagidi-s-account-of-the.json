@@ -1,0 +1,18 @@
+{
+  "id": "event-0651-return-to-al-wagidi-s-account-of-the",
+  "title": "Return to al-Wagidi 's Account of the Two Battles Mentioned Above",
+  "description": "Mentioned Above The Syrians set out under Mu'awiyah b. Abi Sufyan, while 'Abdallah b. Sa'd b. Abi Sarh was in command of the men from the maritime districts (ahl al-balir).127 According to (al-Wagidi): In that same year, Constantine the son of Heraclius128 set forth, because of what the Muslims had done to them (that is, the Byzantines] in Africa, in a fleet (jam`) whose like had not been assembled by the Byzantines since the coming of Islam. They set out in five hundred ships and encountered (the Muslims) under 'Abdallah b. Sa'd.",
+  "startDate": "0651-01-01",
+  "category": "military",
+  "connections": [
+    "event-0651-account-of-the-battles-of-the-masts-and"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0652-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "74"
+    }
+  ]
+}

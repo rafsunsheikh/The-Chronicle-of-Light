@@ -1,0 +1,16 @@
+{
+  "id": "event-0700-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 81 AH (700–701 CE) in al-Tabari's History, volume 22.",
+  "startDate": "0700-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0701-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "201"
+    }
+  ]
+}

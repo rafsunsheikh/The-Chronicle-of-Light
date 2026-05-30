@@ -1,0 +1,21 @@
+{
+  "id": "event-0719-aspects-of-his-character",
+  "title": "Aspects of His Character",
+  "description": "According to 'Ali b. Muhammad -Kulayb b. Khalaf-Idris b. Hanzalah and al-Mufaddal- his grandfather and'Ali b. MujahidKhalid: When 'Umar b. 'Abd al-'Aziz became Caliph, he wrote to Yazid b. al-Muhallab as follows: \"Now then, Sulayman was one of God ' s servants upon whom God bestowed His blessing and then took him away. He designated me as his successor and he designated Yazid b. ' Abd al-Malik- if he is still alive -to succeed me. The office that God has entrusted and allotted to me is not easily borne.",
+  "startDate": "0719-01-01",
+  "category": "political",
+  "connections": [
+    "event-0719-death-of-umar-b-abd-al-azizj",
+    "event-0719-escape-of-yazid-b-al-muhallab",
+    "event-0719-supplement-to-the-biography-of-umar-b-abd",
+    "event-0719-yazid-b-al-muhallab-renounces-his-allegiance-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0720-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "93"
+    }
+  ]
+}

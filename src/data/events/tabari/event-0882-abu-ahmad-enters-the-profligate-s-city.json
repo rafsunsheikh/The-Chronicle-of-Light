@@ -1,0 +1,16 @@
+{
+  "id": "event-0882-abu-ahmad-enters-the-profligate-s-city",
+  "title": "Abu Ahmad Enters the Profligate's City",
+  "description": "Abu Ahmad Enters the Profligate's City. Recorded under the year 268 AH (882–883 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0882-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0883-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "86"
+    }
+  ]
+}

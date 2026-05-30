@@ -1,0 +1,19 @@
+{
+  "id": "event-0662-what-happened-to-the-kharijites",
+  "title": "What happened to the Kharijites",
+  "description": "(According to) Hisham b. Muhammad94-Abu Mikhnaf9'-alNadr b. $alih b. Habib-Jarir b. Malik b. Zuhayr b. Jadhimah al-'Absi-Ubayy b. 'Umirah al-'Absi: Hayyan b. Zabyan\" alSulami held the view of the Kharijites and was among the wounded who were carried from the battlefield at al-Nahrawin. 'Ali included him among the four hundred of those who were wounded at the Battle of al-Nahr whom he forgave. Hayyan stayed with his family and clan, waiting for about a sent to Iraq by the caliph ' Umar as judge in 19(640). See Ibn Sa'd, Tabagat, VI, 90-100. 93.",
+  "startDate": "0662-01-01",
+  "category": "military",
+  "connections": [
+    "event-0661-kharijites-at-shahrazur",
+    "event-0663-killing-of-al-mustawrid-b-ullifah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0663-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "2"
+    }
+  ]
+}

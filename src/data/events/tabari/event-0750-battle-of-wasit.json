@@ -1,0 +1,22 @@
+{
+  "id": "event-0750-battle-of-wasit",
+  "title": "The Battle of Wasit",
+  "description": "In this year, Abu al-'Abbas sent his brother Abu Ja 'far to Wasit to do battle with Yazid b. 'Umar b. Hubayrah.° We have mentioned what happened when the troops of the Khurasan army encountered Ibn Hubayrah (first) under Qahtabah and then under Qahtabah's son al-Hasan - how Ibn Hubayrah was routed and how his supporters among the Syrian troops had gotten to Wasit and fortified themselves in that city. According to 'Ali b. Muhammad-Abu 'Abdallah al-Sulami- [62) 'Abdallah b. Badr, Zuhayr b. Hunayd, Bishr b.",
+  "startDate": "0750-08-09",
+  "category": "military",
+  "connections": [
+    "event-0745-death-of-al-dahhak-b-qays-the-kharijite"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 32.18,
+    "longitude": 46.3,
+    "name": "Wasit (near Kut), Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "185"
+    }
+  ]
+}

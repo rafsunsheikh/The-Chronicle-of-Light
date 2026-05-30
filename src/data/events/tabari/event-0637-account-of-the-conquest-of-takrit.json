@@ -1,0 +1,16 @@
+{
+  "id": "event-0637-account-of-the-conquest-of-takrit",
+  "title": "The Account of the Conquest of Takrit",
+  "description": "The Account of the Conquest of Takrit. Recorded under the year 16 AH (637–638 CE) in al-Tabari's History, volume 13.",
+  "startDate": "0637-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0638-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "54"
+    }
+  ]
+}

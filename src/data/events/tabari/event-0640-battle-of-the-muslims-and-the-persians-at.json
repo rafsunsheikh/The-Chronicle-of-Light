@@ -1,0 +1,20 @@
+{
+  "id": "event-0640-battle-of-the-muslims-and-the-persians-at",
+  "title": "The Battle of the Muslims and the Persians at Nihawand",
+  "description": "at Nihdwand616 The beginning of this episode was as follows according to Ibn Humayd-Salamah-Ibn Ishaq: (A basic element) of the story of Nihawand was that al -Nu'man b. Mugarrin was governor of Kas616. For a detailed source analysis of this battle and a comparison with the accounts concerning the conquest of Isfahan, see the fundamental study of Noth, \"Igfahin -Nihawand,\" in ZDMG, CXVIII (1968): 274-96.",
+  "startDate": "0640-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 34.19,
+    "longitude": 48.37,
+    "name": "Nahavand, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "179"
+    }
+  ]
+}

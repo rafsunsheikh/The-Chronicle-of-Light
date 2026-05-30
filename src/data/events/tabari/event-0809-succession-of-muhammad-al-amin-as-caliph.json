@@ -1,0 +1,26 @@
+{
+  "id": "event-0809-succession-of-muhammad-al-amin-as-caliph",
+  "title": "The Succession of Muhammad al-Amin as Caliph",
+  "description": "In this year, allegiance was sworn to Muhammad al-Amin b. Hirun as caliph at the camp of al-Rashid. t 'Abdallih b. Hirun (al-Ma' mun) was in Marw at the time? According to what has been mentioned, Hammawayh3 the mawla4 of al-Mahdi, the r. At the time of his death, the caliph Hirun al-Rashid was leading an army raised in Iraq to fight the rebel Raft' b. Layth in Khurasin province. He had left Baghdad on 5 Sha'bin t9 2. (June 4, 8o8) and died at Tus (see note 6) on 3 jumidi II 193 (March 14, 8o9).",
+  "startDate": "0809-10-15",
+  "category": "political",
+  "connections": [
+    "event-0791-reasons-for-al-rashid-s-exacting-allegiance-to",
+    "event-0806-al-rashid-s-answer-to-harthamah-s-letter",
+    "event-0808-more-aspects-of-al-rashid-s-conduct-and",
+    "event-0809-causes-of-the-discord-between-al-amin-and",
+    "event-0814-harthamah-b-a-yan-s-journeying-to-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0810-10-03",
+  "location": {
+    "latitude": 37.66,
+    "longitude": 62.19,
+    "name": "Merv, Turkmenistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31"
+    }
+  ]
+}

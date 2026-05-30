@@ -1,0 +1,24 @@
+{
+  "id": "event-0895-mu-tadidi-new-year",
+  "title": "The Mu'tadidi New Year",
+  "description": "and sent out from Mosul where al-Mu`tadid was at the time. In a dispatch concerning this sent to Yusuf b. Ya`qubl04 in Baghdad, al-Mu`tadid informed Yusuf that he wanted to help the people and show kindness to them. He also ordered that his dispatch be ready in public, and this was done. In this year, Ibn al-Jassas arrived from Egypt with the daughter of Abu al-Jaysh Khumarawayh b. Ahmad b.",
+  "startDate": "0895-01-01",
+  "category": "military",
+  "connections": [
+    "event-0890-fighting-in-baghdad",
+    "event-0900-death-of-ibn-abi-al-saj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0896-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "26"
+    }
+  ]
+}

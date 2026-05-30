@@ -1,0 +1,23 @@
+{
+  "id": "event-0833-ishaq-s-despatch-of-the-remaining-recalcitrants-to",
+  "title": "Ishaq's despatch of the remaining recalcitrants to the Caliph at Tarsus",
+  "description": "Ishaq's despatch of the remaining recalcitrants to the Caliph at Tarsus. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0833-august-833-and-burial-at-tarsus"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "location": {
+    "latitude": 36.92,
+    "longitude": 34.89,
+    "name": "Tarsus, Turkey"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "220"
+    }
+  ]
+}

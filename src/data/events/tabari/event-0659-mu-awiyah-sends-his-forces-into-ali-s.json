@@ -1,0 +1,24 @@
+{
+  "id": "event-0659-mu-awiyah-sends-his-forces-into-ali-s",
+  "title": "Mu'awiyah Sends His Forces into 'Ali s lbrritories 1198 The Sending of Ziyad to Fars",
+  "description": "He sent al-Nu' man b. Bashir771 (according to the report of `Ali b. Muhammad [al-MadWini]-'Awanah) with 2,000 men to 'Ayn alTamr,72 where Malik b. Ka'b was on garrison duty773 for `All with i,ooo men. Malik, however, had allowed his men to go to al-Kufah, and when al -Nu'mAn came against him he had only ioo left with him. Malik, therefore, wrote to 'All telling him of the matter of al-Nu'man and his party.",
+  "startDate": "0659-01-01",
+  "category": "political",
+  "connections": [
+    "event-0638-raid-into-fars",
+    "event-0687-azarigah-return-from-fars-to-iraq"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0660-12-31",
+  "location": {
+    "latitude": 29.6,
+    "longitude": 52.5,
+    "name": "Fars, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 17",
+      "page": "203"
+    }
+  ]
+}

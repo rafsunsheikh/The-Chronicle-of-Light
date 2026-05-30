@@ -1,0 +1,23 @@
+{
+  "id": "event-0747-battle-of-qudayd-by-madinah",
+  "title": "Battle of Qudayd by Madinah",
+  "description": "Battle of Qudayd by Madinah. Recorded under the year 129 AH (747 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0747-01-01",
+  "category": "military",
+  "connections": [
+    "event-0736-pilgrimage-and-governors",
+    "event-0747-abu-hamzah-the-kharijite-enters-madinah"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "112"
+    }
+  ]
+}

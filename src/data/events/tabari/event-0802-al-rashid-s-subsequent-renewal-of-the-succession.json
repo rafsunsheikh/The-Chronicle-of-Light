@@ -1,0 +1,25 @@
+{
+  "id": "event-0802-al-rashid-s-subsequent-renewal-of-the-succession",
+  "title": "Al-Rashid's Subsequent Renewal of the Succession Pledges to alMa'mun and al-Qasim at Qarmasin",
+  "description": "Pledges to al-Ma'mnn and al-Qasim at Qarmasin He related: At a period of time after the killing of Ja'far b. Yalya,693 al-Rashid went to al-Raqqah and then came to Baghdad, complaints about 'Ali b. Isa b. Mahan having reached him continuously from Khurisin and much adverse talk about 'Ali having come to his ears. Hence, he decided upon dismissing him from Khurisin, and preferred to have 'All near him.694 So when he went to Baghdad, he set out from there after a while towards Qarmasin; this was in the year z89 (805).",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0762-reason-abu-ja-far-built-baghdad",
+    "event-0802-reason-for-al-rashld-s-killing-of-ja",
+    "event-0802-text-of-the-letter-of-harnn-b-muhammad",
+    "event-0811-abortive-coup-of-al-husayn-b-ali-b"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "200"
+    }
+  ]
+}

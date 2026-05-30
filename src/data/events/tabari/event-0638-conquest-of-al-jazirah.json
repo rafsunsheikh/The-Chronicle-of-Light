@@ -1,0 +1,21 @@
+{
+  "id": "event-0638-conquest-of-al-jazirah",
+  "title": "The Conquest of al-Jazirah",
+  "description": "The conquest of al-Jazirah took place according to the accouht of Sayf (in the year 17 (638)), but Ibn Ishaq mentioned that it was conquered in the year 19 (640) of the Hijrah. He related among the causes leading to the conquest: According to Ibn Humayd-Salamah-Ibn Ishaq: 'Umar wrote to Sa'd b. Abi Wagga$, \"God has conquered Syria and Iraq for the Muslims. So from where you are dispatch an army to al-Jazirah and put one of the following three, Khalid b. 'Urfutah or Hashim b. 'Utbah or lyacl b.",
+  "startDate": "0638-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0639-12-31",
+  "location": {
+    "latitude": 36.5,
+    "longitude": 40.5,
+    "name": "Upper Mesopotamia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "86"
+    }
+  ]
+}

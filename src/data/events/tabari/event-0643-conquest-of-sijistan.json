@@ -1,0 +1,23 @@
+{
+  "id": "event-0643-conquest-of-sijistan",
+  "title": "The Conquest of Sijistan",
+  "description": "The Conquest of Sijistan. Recorded under the year 22 AH (643–644 CE) in al-Tabari's History, volume 14.",
+  "startDate": "0643-01-01",
+  "category": "military",
+  "connections": [
+    "event-0678-why-yasid-b-mufarrigh-ridiculed-the-sons-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0644-12-31",
+  "location": {
+    "latitude": 31.0,
+    "longitude": 61.5,
+    "name": "Sistan (Zaranj)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "75"
+    }
+  ]
+}

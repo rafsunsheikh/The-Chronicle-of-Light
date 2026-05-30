@@ -1,0 +1,24 @@
+{
+  "id": "event-0762-uprising-of-the-blacks-in-medina-in-this",
+  "title": "The Uprising of the Blacks in Medina in This Year and What Incited It",
+  "description": "and What Incited It According to cUmar b. Shabbah-Mubammad b. Yahya-alHarith b. Ishaq: Riyah b. `Uthman had installed Abu Bakr b.",
+  "startDate": "0762-01-01",
+  "category": "military",
+  "connections": [
+    "event-0761-remaining-account-of-events-for-144",
+    "event-0811-various-items-of-information"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0763-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "231"
+    }
+  ]
+}

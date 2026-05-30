@@ -1,0 +1,16 @@
+{
+  "id": "event-0754-episode-of-sunbadh",
+  "title": "The Episode of Sunbadh",
+  "description": "The Episode of Sunbadh. Recorded under the year 136 AH (754–755 CE) in al-Tabari's History, volume 28.",
+  "startDate": "0754-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0755-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "44"
+    }
+  ]
+}

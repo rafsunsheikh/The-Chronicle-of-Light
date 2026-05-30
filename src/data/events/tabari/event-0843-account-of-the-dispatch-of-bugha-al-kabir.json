@@ -1,0 +1,23 @@
+{
+  "id": "event-0843-account-of-the-dispatch-of-bugha-al-kabir",
+  "title": "An Account of the Dispatch of Bugha al -Kabir to the Tribesmen",
+  "description": "Tribesmen It is reported that the trouble began when the Banu Sulaym44 behaved insolently toward the people around Medina. Whenever [1336] 43. Bugha al-Kabir (the Elder) was a military commander of Turkish descent (Bugha = \"bull\") active during the reigns of al-Mu'tagim, al-Wathiq, and al-Mutawakkil. He died in 248 (862-63); Tabari, III, 1174; Marin, Reign, ii and n. 91; Index, 134; E12, s.v. Bugha al-Kabir. Another Bugha, called al-$aghir (\"the Younger\"), makes his appearance below.",
+  "startDate": "0843-01-01",
+  "category": "political",
+  "connections": [
+    "event-0811-various-items-of-information"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0844-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "17"
+    }
+  ]
+}

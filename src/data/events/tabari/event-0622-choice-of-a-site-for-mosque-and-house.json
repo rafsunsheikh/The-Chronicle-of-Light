@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-choice-of-a-site-for-mosque-and-house",
+  "title": "The Choice of a Site for Mosque and House",
+  "description": "According to Ibn Humayd -Salamah-Ibn Ishaq: The Messenger of God mounted his she-camel and let her reins hang loose. The inhabitants of every settlement of the Ansar (the Muslims of Medina) which she went past invited him to stay with them, saying, \"Come, 0 Messenger of God, to a settlement which has many defenders and is well-provisioned and impregnable.\" He would say to them, \"Let go her reins, for she is commanded (by God).\" Finally he reached the present site of his mosque, and his 11259) camel knelt down where the door of his mosque is.",
+  "startDate": "0622-07-16",
+  "category": "religious",
+  "connections": [
+    "event-0622-deaths-and-minor-events",
+    "event-0622-sermon-of-the-messenger-of-god-at-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "4"
+    }
+  ]
+}

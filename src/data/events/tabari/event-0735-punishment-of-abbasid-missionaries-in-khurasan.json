@@ -1,0 +1,24 @@
+{
+  "id": "event-0735-punishment-of-abbasid-missionaries-in-khurasan",
+  "title": "Punishment of 'Abbasid Missionaries in Khurasan",
+  "description": "In this year, Asad b. 'Abdallih arrested a group of the missionaries of the Bang al-'Abbas in Khurisin, killing some, mutilating some, and imprisoning some. Among those arrested were Sulayman b. Kathir, Malik b. al-Haytham, Musa b. Kab, Lahiz b. Qurayz, Khalid b. Ibrahim, and Talhah b.",
+  "startDate": "0735-01-01",
+  "category": "political",
+  "connections": [
+    "event-0735-reason-for-hisham-s-dismissal-of-asim-and",
+    "event-0736-asad-in-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0736-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "123"
+    }
+  ]
+}

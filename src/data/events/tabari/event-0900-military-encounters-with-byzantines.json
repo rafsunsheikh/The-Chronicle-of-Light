@@ -1,0 +1,23 @@
+{
+  "id": "event-0900-military-encounters-with-byzantines",
+  "title": "Military encounters with Byzantines",
+  "description": "Military encounters with Byzantines. Recorded under the year 287 AH (900 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0900-01-01",
+  "category": "political",
+  "connections": [
+    "event-0898-al-d-a-i-s-attack-on-pilgrim",
+    "event-0902-more-qarmatian-trouble-in-syria"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "97"
+    }
+  ]
+}

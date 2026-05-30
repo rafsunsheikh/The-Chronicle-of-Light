@@ -1,0 +1,21 @@
+{
+  "id": "event-0759-raid-on-al-daylam",
+  "title": "The Raid on al-Daylam",
+  "description": "It is said that when Abu Ja`far had news from al-Daylam that the Daylamites were assaulting and killing Muslims in a large-scale massacre, he dispatched Habib b. `Abdallah b. Rughban to alBa$rah. At that time Ismail b. `All was the governor of alBa$rah.389 The caliph ordered Ismail to to make a list of all those in al-Ba $rah who had io,ooo dirhams or more and to enjoin each of those who possessed that sum to go forth personally to wage 388. For other accounts see Ibn al -Athir, Kdmil, V, 512; Ibn Kathir, Biddyah, X, 8o. 389.",
+  "startDate": "0759-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0760-12-31",
+  "location": {
+    "latitude": 36.9,
+    "longitude": 49.8,
+    "name": "Daylam (Gilan)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "82"
+    }
+  ]
+}

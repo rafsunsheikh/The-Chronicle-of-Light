@@ -1,0 +1,16 @@
+{
+  "id": "event-0629-expedition-known-as-al-khabal",
+  "title": "The Expedition Known as al-Khabal",
+  "description": "According to al-Wagidi: In this year the expedition known as alKhabat took place620 Its commander was Abu 'Ubaydah b. alJarrab. The Messenger of God dispatched him in Rajab621 of this year with 300 Emigrants and An§ar toward [the tribe of J Juhaynah. During the expedition they suffered such severe dearth and distress that they divided up the dates by number. According to Abmad b. 'Abd al-Raliman622-his uncle, 'Abdallah b. Wahb623-'Amr b. al-Harith624-'Amr b. Dinar625-Jabir b. 'Abdallah, who said: We set'out with an expedition.",
+  "startDate": "0629-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0630-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "147"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "event-0872-account-of-ya-qub-b-al-layth-s",
+  "title": "An Account of (Ya'qub b. al-Layth 's Entry into Naysibur",
+  "description": "An Account of (Ya'qub b. al-Layth 's Entry into Naysibur. Recorded under the year 258 AH (872–873 CE) in al-Tabari's History, volume 36.",
+  "startDate": "0872-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0873-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "156"
+    }
+  ]
+}

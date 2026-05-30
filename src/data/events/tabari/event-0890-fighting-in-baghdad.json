@@ -1,0 +1,24 @@
+{
+  "id": "event-0890-fighting-in-baghdad",
+  "title": "Fighting in Baghdad",
+  "description": "Fighting in Baghdad. Recorded under the year 277 AH (890–891 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0890-01-01",
+  "category": "military",
+  "connections": [
+    "event-0878-account-of-muflih-s-death",
+    "event-0895-mu-tadidi-new-year"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0891-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "162"
+    }
+  ]
+}

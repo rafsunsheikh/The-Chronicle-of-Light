@@ -1,0 +1,22 @@
+{
+  "id": "event-0737-asad-s-campaign-against-al-khuttal-this-campaign",
+  "title": "Asad's Campaign against al-Khuttal: This Campaign and the Reason for His Killing Badr Tarkhan",
+  "description": "and the Reason for His Killing Badr Tarkhan According to 'Ali b. Muhammad-his authorities whom we have mentioned before: Asad campaigned against al-Khuttal-it was the campaign against Badr Tarkhan-dispatching Mus'ab b. 'Amr al-Khuza'i to it. Mu'sab kept going along until he encamped near Badr Tarkhan, who sought safe conduct for the purpose of going forth to Asad. Mus'ab responded positively, whereupon Badr Tarkhan went forth to Asad to ask him for certain things, but Asad held back.",
+  "startDate": "0737-01-01",
+  "category": "military",
+  "connections": [
+    "event-0737-story-of-this-campaign-in-al-khuttal"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 37.9,
+    "longitude": 69.8,
+    "name": "Khuttal (SW Tajikistan)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "162"
+    }
+  ]
+}

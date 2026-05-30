@@ -1,0 +1,23 @@
+{
+  "id": "event-0712-qutaybah-s-campaign-in-al-shish-and-farghanah",
+  "title": "Qutaybah's Campaign [in al-Shish and Farghanah",
+  "description": "Qutaybah's Campaign [in al-Shish and Farghanah. Recorded under the year 93 AH (712–713 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0712-01-01",
+  "category": "military",
+  "connections": [
+    "event-0721-soghdians-leave-their-country-for-farghanah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0713-12-31",
+  "location": {
+    "latitude": 40.4,
+    "longitude": 71.8,
+    "name": "Fergana valley"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "205"
+    }
+  ]
+}

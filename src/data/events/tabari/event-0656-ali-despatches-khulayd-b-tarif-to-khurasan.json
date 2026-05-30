@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-ali-despatches-khulayd-b-tarif-to-khurasan",
+  "title": "'Ali Despatches Khulayd b. Tarif to Khurasan",
+  "description": "According to `Ali b. Muhammad al-Mada 'ini-Abu MikhnafHanzalah b. al-A`lam1151-Mahan al-Hanafi1152 -al-ASbagh b. Nubatah al-Mujashi`i:1153 `Ali sent Khulayd b. Qurrah alYarbu'i-some say Khulayd b. Tarif-to Khurasan. `Amr b. al-`As Gives Allegiance to Mu`awiyah In this year, 36, `Amr b. al-'As gave allegiance to Mu `awiyah\"54 and made an agreement with him to fight `Ali.",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0651-abdallah-b-amir-s-campaign-in-khurasan",
+    "event-0657-hashim-b-utbah-al-mirgal-and-the-night"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "191"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "event-0887-military-force-is-sent-to-samara",
+  "title": "A Military Force is Sent to Samara",
+  "description": "A Military Force is Sent to Samara. Recorded under the year 274 AH (887–888 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0887-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0888-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "156"
+    }
+  ]
+}

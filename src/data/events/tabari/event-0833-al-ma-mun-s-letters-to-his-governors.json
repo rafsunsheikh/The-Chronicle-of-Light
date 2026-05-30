@@ -1,0 +1,18 @@
+{
+  "id": "event-0833-al-ma-mun-s-letters-to-his-governors",
+  "title": "Al-Ma'mun's letters to his governors appointing his brother Abu Ishaq al-Mu'tasim and his successor and commending him to their obedience",
+  "description": "Al-Ma'mun's letters to his governors appointing his brother Abu Ishaq al-Mu'tasim and his successor and commending him to their obedience. Recorded under the year 218 AH (833–834 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0833-01-27",
+  "category": "political",
+  "connections": [
+    "event-0833-al-ma-mun-s-fatal-illness-at-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0834-01-15",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "222"
+    }
+  ]
+}

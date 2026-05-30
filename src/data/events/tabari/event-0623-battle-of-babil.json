@@ -1,0 +1,22 @@
+{
+  "id": "event-0623-battle-of-babil",
+  "title": "The Battle of Babil",
+  "description": "They said: When Bislam brought Zuhrah the news about those who had escaped from al -Qadisiyyah and were now gathered at Babil, Zuhrah took the time to writer' this news to Sa'd. When Sa'd stopped with those who were staying with Hashim b. 'Utbah at al-Kufah and the news from Zuhrah reached him that the Persians were gathered under the command of al-Fayruzan at Babil, he sent 'Abdallah (b. al-Mu'tamm) ahead, followed by Shurahbil and Hashim. Then he departed with the remaining troops.",
+  "startDate": "0623-01-01",
+  "category": "military",
+  "connections": [
+    "event-0634-what-stirred-up-the-matter-of-al-qadisiyyah"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 31.71,
+    "longitude": 44.36,
+    "name": "al-Qadisiyyah (near Kufa)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "3"
+    }
+  ]
+}

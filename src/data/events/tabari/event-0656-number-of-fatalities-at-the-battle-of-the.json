@@ -1,0 +1,16 @@
+{
+  "id": "event-0656-number-of-fatalities-at-the-battle-of-the",
+  "title": "The Number of Fatalities at the Battle of the Camel",
+  "description": "According to al-Sari (in writing-Shu`ayb-Sayf-Muhammad and Talhah: Those killed at the Battle of the Camel around the camel numbered io,ooo, half from `All's followers and half from `A'ishah's. Two thousand Azdis fell plus Soo from the rest of alYaman. Two thousand from Mudar fell plus Soo from Qays, Soo from Tamim, i,ooo from Banu Dabbah, and Soo from Bakr b. Wall. It was said that in the first battle 5,000 Basrans were killed and a further 5,000 in the second battle, totaling io, ooo Basran fatalities and 5,ooo Kufans.",
+  "startDate": "0656-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "164"
+    }
+  ]
+}

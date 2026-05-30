@@ -1,0 +1,20 @@
+{
+  "id": "event-0737-execution-of-wazir-al-sakhtiyani",
+  "title": "The Execution of Wazir al-Sakhtiyani",
+  "description": "According to Abu 'Ubaydah: Then Wazir al-Sakhtiyani rebelled against Khalid with a small number of men. His rebellion took place at al-Hirah. He would not pass by a village but that he would burn it, nor by a person but that he would kill him. He got control over what was there and over the treasury. Khalid sent against him a commander from among his companions and a detachment from the security forces of al-Kufah. They fought him, while he had with him a very small number of men.",
+  "startDate": "0737-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 31.9,
+    "longitude": 44.3,
+    "name": "al-Hira (near Kufa), Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "161"
+    }
+  ]
+}

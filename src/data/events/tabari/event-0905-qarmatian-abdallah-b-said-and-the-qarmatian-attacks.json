@@ -1,0 +1,24 @@
+{
+  "id": "event-0905-qarmatian-abdallah-b-said-and-the-qarmatian-attacks",
+  "title": "Qarmatian 'Abdallah b. Said and the Qarmatian attacks against various cities (Hit, Tiberias, al-Kufah), defeat of government forces",
+  "description": "Qarmatian 'Abdallah b. Said and the Qarmatian attacks against various cities (Hit, Tiberias, al-Kufah), defeat of government forces. Recorded under the year 292 AH (905–906 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0905-01-01",
+  "category": "military",
+  "connections": [
+    "event-0904-seizure-of-insurgents-in-the-ba-rah-region",
+    "event-0908-rebellion-of-ibn-al-mu-tazz"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0906-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "171"
+    }
+  ]
+}

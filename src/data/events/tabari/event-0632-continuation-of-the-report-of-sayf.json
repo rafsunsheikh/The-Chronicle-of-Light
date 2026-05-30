@@ -1,0 +1,23 @@
+{
+  "id": "event-0632-continuation-of-the-report-of-sayf",
+  "title": "Continuation of the Report of Sayf",
+  "description": "Farwah bt. Abi Quhafah. (Al-Ash'ath) was in Medina until the conquest of Iraq.",
+  "startDate": "0632-01-01",
+  "category": "political",
+  "connections": [
+    "event-0631-his-bravery-and-generosity",
+    "event-0650-reports-concerning-abu-dharr-al-ghifari"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 10",
+      "page": "189"
+    }
+  ]
+}

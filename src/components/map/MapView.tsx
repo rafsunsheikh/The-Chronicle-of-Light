@@ -16,6 +16,7 @@ export const MapView: React.FC<MapViewProps> = ({
   timeRange,
 }) => {
   const filteredIncidents = incidents.filter(incident => {
+    if (!incident.location) return false; // only geocoded events appear on the map
     if (!timeRange) return true;
     if (incident.startDate < timeRange.start) return false;
     if (incident.endDate && incident.endDate > timeRange.end) return false;

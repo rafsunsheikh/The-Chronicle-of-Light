@@ -1,0 +1,19 @@
+{
+  "id": "event-0696-account-of-mutarrif-s-rebelling-and-throwing-off",
+  "title": "Account of Mutarrif's Rebelling and Throwing Off His Allegiance to 'Abd al-Malik b. Marwan",
+  "description": "His Allegiance to 'Abd al-Malik b. Marwdn According to Hisham-Abu Mikhnaf-Yusuf b. Bakr al-Azdi: The sons of al-Mughirah b. Shu'bah were excellent, noble men in their own right, aside from the nobility of their father and their status in their tribe. When al-Hajjaj came, and met and spoke with them, he learned that they were men of his own tribe and sons of his father,476 and he made 'Urwah b. al-Mughirah governor of al-Kufah,477 Mutarrif b. al-Mughirah governor of al1980) Mada'in, and Hamzah b. al-Mughirah governor of Hamadhan.",
+  "startDate": "0696-01-01",
+  "category": "military",
+  "connections": [
+    "event-0695-abd-al-malik-reforms-the-coinage",
+    "event-0719-supplement-to-the-biography-of-umar-b-abd"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0697-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "128"
+    }
+  ]
+}

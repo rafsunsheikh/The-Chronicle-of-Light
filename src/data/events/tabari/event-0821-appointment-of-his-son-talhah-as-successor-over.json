@@ -1,0 +1,23 @@
+{
+  "id": "event-0821-appointment-of-his-son-talhah-as-successor-over",
+  "title": "The appointment of his son Talhah as successor over Khurasan and the East; a variant account of this episode",
+  "description": "The appointment of his son Talhah as successor over Khurasan and the East; a variant account of this episode. Recorded under the year 206 AH (c. 821 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0821-01-01",
+  "category": "political",
+  "connections": [
+    "event-0821-al-hasan-b-al-husayn-al-mus-abi",
+    "event-0821-mysterious-death-in-khurasan-of-tahir-b-al"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "133"
+    }
+  ]
+}

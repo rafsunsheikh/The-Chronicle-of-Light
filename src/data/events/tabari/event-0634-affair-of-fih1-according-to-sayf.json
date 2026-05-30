@@ -1,0 +1,24 @@
+{
+  "id": "event-0634-affair-of-fih1-according-to-sayf",
+  "title": "The Affair of Fih1 According to Sayf",
+  "description": "Abu Ja`far: At this point, we will relate the matter of Fihl, though the report that relates it contains the differences of opinion that I have mentioned regarding the conquests of the army of Syria. In fact, among the disagreeable aspects [of this study] is the occurrence of such a difference as the one I have noted about the date of this battle, [a difference that arose] because of the nearness [in time] of some of those [battles] to others. As for what Ibn Ishaq has related about that and told its story, it has already been mentioned.",
+  "startDate": "0634-03-07",
+  "category": "political",
+  "connections": [
+    "event-0631-description-of-his-hair-and-whether-he-used",
+    "event-0638-umar-s-journey-to-syria"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "170"
+    }
+  ]
+}

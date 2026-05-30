@@ -1,0 +1,23 @@
+{
+  "id": "event-0802-al-rashid-s-return-to-iraq",
+  "title": "Al-Rashid's Return to Iraq",
+  "description": "Al-Rashid's Return to Iraq. Recorded under the year 186 AH (802 CE) in al-Tabari's History, volume 30.",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0761-reason-abu-ja-far-had-the-descendants-of",
+    "event-0814-various-events-in-al-iraq"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "256"
+    }
+  ]
+}

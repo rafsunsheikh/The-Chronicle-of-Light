@@ -1,0 +1,16 @@
+{
+  "id": "event-0727-governors",
+  "title": "Governors",
+  "description": "Governors. Recorded under the year 109 AH (727–728 CE) in al-Tabari's History, volume 25.",
+  "startDate": "0727-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0728-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "44"
+    }
+  ]
+}

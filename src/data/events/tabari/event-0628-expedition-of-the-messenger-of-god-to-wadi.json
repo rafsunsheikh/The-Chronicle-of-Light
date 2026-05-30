@@ -1,0 +1,24 @@
+{
+  "id": "event-0628-expedition-of-the-messenger-of-god-to-wadi",
+  "title": "The Expedition of the Messenger of God to Wadi al-Qura",
+  "description": "to Wadi al-Qura According to Ibn Humayd- Salamah-Ibn Isl}aq-Thawr b. Zayd515-_Salim, the mawla of 'Abdallah b. Muli1516-Abu Hurayrah, who said: After we returned with the Messenger of God from Khaybar to Wadi al-Qura, we halted late in the afternoon toward sunset. With the Messenger of God was a slave lad of his whom Rifa'ah b. Zayd al-judhami (and al-l7ubaybi)517 had given 513. Marwan b. 'Uthman b. Said b. al-Mu'alli al-AnIarl al-Zurql Aba 'Uthman is listed in In Hajar, Tahdhib, X, 95, as being from Medina, but without dates. 514.",
+  "startDate": "0628-01-01",
+  "category": "military",
+  "connections": [
+    "event-0628-division-of-the-spoils-of-khaybar",
+    "event-0628-expedition-to-khaybar"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0629-12-31",
+  "location": {
+    "latitude": 25.7,
+    "longitude": 39.29,
+    "name": "Khaybar, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "124"
+    }
+  ]
+}

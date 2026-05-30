@@ -1,0 +1,24 @@
+{
+  "id": "event-0722-yazid-b-abd-al-malik-s-dismissal-of",
+  "title": "Yazid b. 'Abd al -Malik's Dismissal of 'Abd al-Rahman b. al-lDahhak from Medina",
+  "description": "Yazid b. 'Abd al -Malik's Dismissal of 'Abd al-Rahman b. al-lDahhak from Medina. Recorded under the year 104 AH (722–723 CE) in al-Tabari's History, volume 24.",
+  "startDate": "0722-01-01",
+  "category": "political",
+  "connections": [
+    "event-0709-al-walid-s-visit-to-medina",
+    "event-0723-ibrahim-b-hisham-leads-the-pilgrimage"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0723-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "180"
+    }
+  ]
+}

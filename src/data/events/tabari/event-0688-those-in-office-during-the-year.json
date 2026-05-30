@@ -1,0 +1,26 @@
+{
+  "id": "event-0688-those-in-office-during-the-year",
+  "title": "Those in Office during the Year",
+  "description": "`Abdallah b. al-Zubayr led the pilgrimage this year. His governor in charge of the garrison cities of al-Kufah and al-Basrah this year was his brother Mus`ab b. al-Zubayr. Shurayh [b. al-Harith alKind!] was in charge of the judiciary of al-Kufah. Hisham b. Hubayrah was in charge of the judiciary of al-Basrah. `Abdallah b. Khazim was in charge of Khurasan.",
+  "startDate": "0688-01-01",
+  "category": "political",
+  "connections": [
+    "event-0686-ibn-al-zubayr-removes-mus-ab-from-al",
+    "event-0687-those-in-office-during-the-year",
+    "event-0689-those-in-office-during-the-year",
+    "event-0690-71-khalid-b-abdallah-raises-support-for-abd"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0689-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "168"
+    }
+  ]
+}

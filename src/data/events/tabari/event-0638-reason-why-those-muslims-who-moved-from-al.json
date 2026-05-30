@@ -1,0 +1,24 @@
+{
+  "id": "event-0638-reason-why-those-muslims-who-moved-from-al",
+  "title": "The Reason Why Those Muslims Who Moved from al -Mada'in to al-Kufah Did So, and the Reason for Their Planning of alKufah, According to Sayf",
+  "description": "al-Mada 'in to al-Kufah Did So, and the Reason for Their Planning of al-Kufah, According to Sayf According to al-Sari-Shu 'ayb-Sayf-Mubammad, Talhah, alMuhallab, 'Amr and Said: After the conquest of jalula' and Hulwan, after al-Qa'ga' b. 'Amr's settling in the latter with his men, after the conquest of Takrit and the twin fortresses (i.e., Ninawa",
+  "startDate": "0638-01-01",
+  "category": "political",
+  "connections": [
+    "event-0637-how-the-booty-acquired-at-al-mada-in",
+    "event-0638-conquest-of-al-mada-in-before-the-founding"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0639-12-31",
+  "location": {
+    "latitude": 33.09,
+    "longitude": 44.58,
+    "name": "Ctesiphon/al-Mada'in, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "61"
+    }
+  ]
+}

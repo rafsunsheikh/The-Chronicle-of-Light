@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-return-of-the-muslims-to-medina",
+  "title": "The Return of the Muslims to Medina",
+  "description": "After the victory, the Messenger of God sent 'Abd Allah b. Rawahah to take the good news that God had given the victory to his Messenger and the Muslims to the people of the upper part (of Medina), and he sent Zayd b. Harithah to the people of the lower part. Usamah b. Zayd said,\"\" \"The news came to us when we had buried Ruqayyah, the daughter of the Messenger of God, who was married to 'Uthman b. 'Affan. The Messenger of God had left me to look after her together with 'Uthman. Then Zayd b. Iiarithah 114.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-another-account",
+    "event-0622-zaynab-s-journey-to-medina"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "64"
+    }
+  ]
+}

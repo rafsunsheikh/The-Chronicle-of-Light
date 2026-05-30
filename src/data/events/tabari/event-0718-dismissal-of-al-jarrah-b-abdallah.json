@@ -1,0 +1,24 @@
+{
+  "id": "event-0718-dismissal-of-al-jarrah-b-abdallah",
+  "title": "The Dismissal of al-jarrah b. 'Abdallah",
+  "description": "with 'Abd al-Rahman b. Nu'aym al-Qushayri.294 Al-Jarrah's term of office in Khurasan had been one year and five months; he had",
+  "startDate": "0718-01-01",
+  "category": "political",
+  "connections": [
+    "event-0715-appointment-of-yazid-b-al-muhallab-as-governor",
+    "event-0718-umar-b-abd-al-aziz-appoints-abd-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0719-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "82"
+    }
+  ]
+}

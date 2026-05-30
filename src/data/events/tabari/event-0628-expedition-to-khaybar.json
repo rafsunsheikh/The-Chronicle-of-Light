@@ -1,0 +1,23 @@
+{
+  "id": "event-0628-expedition-to-khaybar",
+  "title": "The Expedition to Khaybar",
+  "description": "The Expedition to Khaybar. Recorded under the year 7 AH (628–629 CE) in al-Tabari's History, volume 08.",
+  "startDate": "0628-01-01",
+  "category": "military",
+  "connections": [
+    "event-0628-expedition-of-the-messenger-of-god-to-wadi"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0629-12-31",
+  "location": {
+    "latitude": 25.7,
+    "longitude": 39.29,
+    "name": "Khaybar, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "116"
+    }
+  ]
+}

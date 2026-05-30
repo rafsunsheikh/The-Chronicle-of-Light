@@ -1,0 +1,19 @@
+{
+  "id": "event-0838-reason-for-mazyar-s-open-rebellion-against-al",
+  "title": "The Reason for Mazyar's Open Rebellion against al-Mu'tasim and His Severe Measures with the People of the Plain",
+  "description": "The Reason for Mazyar's Open Rebellion against al-Mu'tasim and His Severe Measures with the People of the Plain. Recorded under the year 223 AH (838–839 CE) in al-Tabari's History, volume 33.",
+  "startDate": "0838-01-01",
+  "category": "military",
+  "connections": [
+    "event-0837-al-mu-tasim-s-campaign-against-ammuriyyah",
+    "event-0838-reason-for-al-mu-tasim-s-anger-against"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0839-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "1136"
+    }
+  ]
+}

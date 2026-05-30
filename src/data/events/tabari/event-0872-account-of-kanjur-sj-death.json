@@ -1,0 +1,24 @@
+{
+  "id": "event-0872-account-of-kanjur-sj-death",
+  "title": "An Account of [Kanjur'sJ Death",
+  "description": "At the time he was governor of al-Kufah, Kanjur left it without official sanction for Simard. He refused an order to return to al-Kufah and so, according to what has been reported, money was transported 419. Popovic, Rivolts,109, notes the disproportionate amount of detail that Tabari provides on the Zanj revolt. The years z55 - 58 /868 -7z cover more than twice the space given to the succeeding period, 259-65 /873-79. In this latter period, Tabari highlights only the important developments in the revolt. 4z0. See Popovic, Rdvolte, io8ff. 4 21. Seen.",
+  "startDate": "0872-01-01",
+  "category": "political",
+  "connections": [
+    "event-0848-how-itakh-was-killed",
+    "event-0877-account-of-the-battle-at-wasitj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0873-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "150"
+    }
+  ]
+}

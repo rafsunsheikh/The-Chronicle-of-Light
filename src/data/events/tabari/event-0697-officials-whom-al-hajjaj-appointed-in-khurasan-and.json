@@ -1,0 +1,25 @@
+{
+  "id": "event-0697-officials-whom-al-hajjaj-appointed-in-khurasan-and",
+  "title": "The Officials Whom al-Hajjaj Appointed in Khurasan and Sijistan, and Why He Appointed Whom He Did, with Further Details",
+  "description": "Khurusan and Sijistun, and Why He Appointed",
+  "startDate": "0697-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0697-important-events-occurring-in-this-year",
+    "event-0700-account-of-bal-it-b-warga-s-death",
+    "event-0700-what-led-abd-al-rahman-b-muhammad-b"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0698-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 22",
+      "page": "177"
+    }
+  ]
+}

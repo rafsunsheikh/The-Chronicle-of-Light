@@ -1,0 +1,18 @@
+{
+  "id": "event-0692-description-of-the-death-of-ibn-al-zubayr",
+  "title": "A Description of [the Death of Ibn al -Zubayr",
+  "description": "According to al-Harith [b. Muhammad ]-Muhammad b. Sa'dMulhammad b. `Umar [al-WagidiJ-Ishaq b. Yahya-Ubaydallah b. al-Qibtiyyah, who said: The war between Ibn al-Zubayr and alHajjaj took place for six months and seventeen nights in the hollow800 of Mecca. According to Muhammad b. `Umar [al-Wagidi]-Mus`ab b.",
+  "startDate": "0692-01-01",
+  "category": "political",
+  "connections": [
+    "event-0691-abd-al-malik-sends-al-hajjaj-to-fight"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0693-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "224"
+    }
+  ]
+}

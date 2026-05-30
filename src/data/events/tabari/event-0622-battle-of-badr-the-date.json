@@ -1,0 +1,23 @@
+{
+  "id": "event-0622-battle-of-badr-the-date",
+  "title": "The Battle of Badr-the Date",
+  "description": "In this year the greater battle of Badr53 took place between the Messenger of God and the Unbelievers of Quraysh. This was in the month of Ramadan. There is a difference of opinion as to the [1282) day on which the fighting took place between them. Some say the Battle of Badr took place on 19 Ramadan (March 15, 624).",
+  "startDate": "0622-07-16",
+  "category": "military",
+  "connections": [
+    "event-0622-account-of-the-greater-battle-of-badr-in"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 23.78,
+    "longitude": 38.7906,
+    "name": "Badr, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "26"
+    }
+  ]
+}

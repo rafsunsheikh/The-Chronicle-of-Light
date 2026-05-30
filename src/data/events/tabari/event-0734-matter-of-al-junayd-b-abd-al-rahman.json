@@ -1,0 +1,25 @@
+{
+  "id": "event-0734-matter-of-al-junayd-b-abd-al-rahman",
+  "title": "The Matter of al-Junayd b. 'Abd al-Rahman al-Murri and 'Asim b. 'Abdallah al-Hilali in Khurasan / to2 About the Revolt of al-Harith b. Surayj",
+  "description": "and 'Asim b. 'Abdalldh al-Hilali in Khurasan According to All b. Muhammad-his authorities: Al-Junayd b. 'Abd al-Rahman married al-Fadilah bt. Yazid b. al-Muhallab. At this, Hisham became angry with al-junayd and appointed 'Asim b. 'Abdallah as governor of Khurasin (instead). As al-junayd was suffering from dropsy, Hisham said to 'Asim, \"If you reach him while he still has a last spark of life, cause his soul to depart.\" But when 'Asim arrived, al-junayd had died. (Certain authorities) report that jabalah b.",
+  "startDate": "0734-01-01",
+  "category": "military",
+  "connections": [
+    "event-0720-slaying-of-yazid-b-al-muhallab",
+    "event-0729-reason-for-hisham-s-removal-of-ashras-from",
+    "event-0735-reason-for-hisham-s-dismissal-of-asim-and"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0735-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "104"
+    }
+  ]
+}

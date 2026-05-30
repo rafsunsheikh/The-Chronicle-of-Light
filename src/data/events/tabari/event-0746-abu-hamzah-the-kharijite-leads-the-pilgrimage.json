@@ -1,0 +1,19 @@
+{
+  "id": "event-0746-abu-hamzah-the-kharijite-leads-the-pilgrimage",
+  "title": "Abu Hamzah the Kharijite Leads the Pilgrimage",
+  "description": "Abu Hamzah the Kharijite Leads the Pilgrimage. Recorded under the year 128 AH (746–747 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0746-09-22",
+  "category": "military",
+  "connections": [
+    "event-0746-death-of-shayban-b-abd-al-aziz-the",
+    "event-0747-death-of-shayban-b-salamah-the-kharijite"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0747-09-10",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "90"
+    }
+  ]
+}

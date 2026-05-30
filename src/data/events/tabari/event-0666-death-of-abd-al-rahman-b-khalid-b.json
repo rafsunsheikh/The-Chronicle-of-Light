@@ -1,0 +1,24 @@
+{
+  "id": "event-0666-death-of-abd-al-rahman-b-khalid-b",
+  "title": "The death of °Abd al -Rahman b. Khalid b. al-Walid",
+  "description": "The reason for that was what I was told by 'Umar-`Ali--Maslamah b. Muharib: `Abd al-Rahman b. Khalid b. al-Walid had become great in Syria and the Syrians favored him because of the reputation among them of his father, Khalid b. al-Walid, and because of his usefulness to the Muslims in Byzantine territory, as well as his bravery. They favored him so much that 299. \"The Christian.\"",
+  "startDate": "0666-01-01",
+  "category": "political",
+  "connections": [
+    "event-0653-uthman-s-exile-of-certain-bagrans-to-syria",
+    "event-0684-rendering-of-allegiance-to-marwan-b-al-hakam"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0667-12-31",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "88"
+    }
+  ]
+}

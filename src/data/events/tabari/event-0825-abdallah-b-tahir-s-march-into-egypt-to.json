@@ -1,0 +1,21 @@
+{
+  "id": "event-0825-abdallah-b-tahir-s-march-into-egypt-to",
+  "title": "'Abdallah b. Tahir's march into Egypt to combat the rebel 'Ubaydallah b. al-Sari; his capture of Alexandria and expulsion thence of the Andalusians to Crete",
+  "description": "'Abdallah b. Tahir's march into Egypt to combat the rebel 'Ubaydallah b. al-Sari; his capture of Alexandria and expulsion thence of the Andalusians to Crete. Recorded under the year 210 AH (825–826 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0825-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0826-12-31",
+  "location": {
+    "latitude": 31.2,
+    "longitude": 29.92,
+    "name": "Alexandria, Egypt"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "159"
+    }
+  ]
+}

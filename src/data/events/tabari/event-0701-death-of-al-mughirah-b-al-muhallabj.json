@@ -1,0 +1,24 @@
+{
+  "id": "event-0701-death-of-al-mughirah-b-al-muhallabj",
+  "title": "The Death of al-Mughirah b. al-Muhallabj",
+  "description": "In this year al-Mughirah b. al-Muhallab129 died in Khurasan. According to 'All b. Muhammad-al-MufadcJal b. Muhammad: Al-Mughirah b. al-Muhallab was his father's deputy at Marw over the whole of his province; then he died in Rajab 82 (AugustSeptember 701). The news reached Yazid (b. al-Muhallab], and the army learned of it, but they did not inform al-Muhallab. Yazid 127. See Sayed's list, p. 357, no. 27. 128. E12, s.v. al-Djan:a1 b. 'Abd Allah) Crone, Slaves on Horses, pp. 132-33. 129. See above, n.",
+  "startDate": "0701-01-01",
+  "category": "political",
+  "connections": [
+    "event-0700-account-of-bal-it-b-warga-s-death",
+    "event-0701-reason-why-al-hajjaj-built-wasix"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0702-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "26"
+    }
+  ]
+}

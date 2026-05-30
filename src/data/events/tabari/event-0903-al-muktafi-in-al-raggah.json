@@ -1,0 +1,16 @@
+{
+  "id": "event-0903-al-muktafi-in-al-raggah",
+  "title": "Al-Muktafi in al-Raggah",
+  "description": "Al-Muktafi in al-Raggah. Recorded under the year 290 AH (903–904 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0903-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0904-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "149"
+    }
+  ]
+}

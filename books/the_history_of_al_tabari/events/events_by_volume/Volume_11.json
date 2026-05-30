@@ -1,0 +1,610 @@
+[
+  {
+    "id": "tabari-v11-13-001",
+    "title": "The Battle of al-Madhar",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 15,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-002",
+    "title": "The Battle of al-Walajah / i g About Ullays, Which Is on the Euphrates Itself/ zi The Affair of Amghishiya / z6 The Day of al-Maqr and the Mouth of Furat Badagla / z6 What Happened after al-Hirah",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 37,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-003",
+    "title": "Al-Anbar, Which Is Dhat al-'Uyun, and Kalwadha",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 49,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-004",
+    "title": "About 'Ayn al-Tamr",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 53,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-005",
+    "title": "Dumat al-Jandal",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 57,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-006",
+    "title": "Hu^ayd / 6z Al-Khanafis / 6z Al-Mugayyakh of the Banu al-Barsha' / 6z Al-Thani and al-Zumayl",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 65,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-007",
+    "title": "Al-Firm",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 67,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-008",
+    "title": "Khalid's Pilgrimage",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 68,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-009",
+    "title": "Those Who Say Abu Bakr Led the Pilgrimage",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 711,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-010",
+    "title": "Those Who Say 'Umar Led the Pilgrimage",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 72,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-011",
+    "title": "Al-Yarmuk",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 87,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-012",
+    "title": "Continuation of the Report of Ibn Ishaq",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 122,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-013",
+    "title": "Continuation of the Report of Abu Zayd /, z8 [Abu Bakr's Illness and Death] / 1 z9 Who Washed Abu Bakr, His Shroud, Who Prayed over Him, the Time of His Funeral Prayer, and the Time at Which He Died",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 133,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-014",
+    "title": "Abu Bakr's Appearance",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 138,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-015",
+    "title": "Abu Bakr's Genealogy, His Name, and What He Was Known by",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 139,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-016",
+    "title": "The Names of Abu Bakr 's Wives",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 140,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-017",
+    "title": "The Names of His Judges, Secretaries, and Tax Officials",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 142,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-018",
+    "title": "[His Appointment of 'Umar b. al-Khallab as His Successor]",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 145,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-019",
+    "title": "[The Expedition of Fihl and the Conquest of Damascus]",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 159,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-020",
+    "title": "The Report about Damascus According to Sayf",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 1611,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-021",
+    "title": "The Affair of Fih1 According to Sayf",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 170,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-022",
+    "title": "Baysan",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 172,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-023",
+    "title": "Tiberias",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 172,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-024",
+    "title": "Al-Muthanna b. Harithah and Abu 'Ubayd b. Masud",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 173,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-025",
+    "title": "Al-Namariq",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 176,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-026",
+    "title": "Al-Sagatiyyah in Kaskar",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 1182,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-027",
+    "title": "The Battle of al-Qarqus, Which Is Also Called al -Quss, Quss alNalif, the Bridge, and al-Marwahah",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 188,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-028",
+    "title": "Lesser Ullays",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 1195,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-029",
+    "title": "Al-Buwayb",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 1196,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-030",
+    "title": "Al-Khanafis",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 2115,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-031",
+    "title": "What Stirred Up the Matter of al-Qadisiyyah",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 2211,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  },
+  {
+    "id": "tabari-v11-13-032",
+    "title": "Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 13,
+    "ceLabel": "634–635",
+    "startDate": "0634-03-07",
+    "endDate": "0635-02-24",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "11",
+      "page": 227,
+      "ceRaw": "MARCH 7, 634- FEBRUARY 24, 635"
+    }
+  }
+]

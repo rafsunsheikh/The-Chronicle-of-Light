@@ -1,0 +1,914 @@
+[
+  {
+    "id": "tabari-v23-81-001",
+    "title": "What Led 'Abd al-Rahman b. Muhammad b. al-Ash'ath to Do What He Did",
+    "description": "",
+    "hijriYear": 81,
+    "ceLabel": "c. 700",
+    "startDate": "700",
+    "endDate": null,
+    "datePrecision": "estimated-from-AH",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 3,
+      "ceRaw": null
+    }
+  },
+  {
+    "id": "tabari-v23-82-002",
+    "title": "[Operations at al-Bagrah and al -Kufahj",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 14,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-82-003",
+    "title": "The Reason for Ibn al-Ash'ath's Progress to Dayr al-Jamajim and (the Battle] between Him and al -Hajjaj",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 20,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-82-004",
+    "title": "(The Death of al-Mughirah b. al-Muhallabj",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 26,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-82-005",
+    "title": "The Reason for al -Muhallab 's Departure from Kish",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 29,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-82-006",
+    "title": "The Cause and Place of the Death (of al-Muhallabi",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 31,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-82-007",
+    "title": "The Cause of (Ibn al- Ash'ath's) Defeat",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 35,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-82-008",
+    "title": "The Cause of the Battle [of Maskin], with a Description of It",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 46,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-82-009",
+    "title": "(The Breakup of Ibn al-Ash'ath 's Defeated Army]",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 49,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-82-010",
+    "title": "[A Second Account of the Battle of Maskinj",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 68,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-82-011",
+    "title": "[The Reason Why al -Hajjaj Built WasiX]",
+    "description": "",
+    "hijriYear": 82,
+    "ceLabel": "701–702",
+    "startDate": "701",
+    "endDate": "702",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 70,
+      "ceRaw": "701/702"
+    }
+  },
+  {
+    "id": "tabari-v23-84-012",
+    "title": "The Reason Why (Yazid b. al-MuhallabJ Conquered [the Fortress of Nizak]",
+    "description": "",
+    "hijriYear": 84,
+    "ceLabel": "703",
+    "startDate": "703",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 74,
+      "ceRaw": "703 1704"
+    }
+  },
+  {
+    "id": "tabari-v23-85-013",
+    "title": "What [Ibn al- Ash'athJ Died of and How It Came About",
+    "description": "",
+    "hijriYear": 85,
+    "ceLabel": "704–705",
+    "startDate": "704",
+    "endDate": "705",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 77,
+      "ceRaw": "704/705"
+    }
+  },
+  {
+    "id": "tabari-v23-85-014",
+    "title": "The Reason Why al- Hajjaj Dismissed [Yazid b. al-Muhallabj from Khurasan and Appointed al-Mufadcial",
+    "description": "",
+    "hijriYear": 85,
+    "ceLabel": "704–705",
+    "startDate": "704",
+    "endDate": "705",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 83,
+      "ceRaw": "704/705"
+    }
+  },
+  {
+    "id": "tabari-v23-85-015",
+    "title": "[Al-Mufacidal' s Conquest of Badghis]",
+    "description": "",
+    "hijriYear": 85,
+    "ceLabel": "704–705",
+    "startDate": "704",
+    "endDate": "705",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 88,
+      "ceRaw": "704/705"
+    }
+  },
+  {
+    "id": "tabari-v23-85-016",
+    "title": "[Musa b. 'Abdallah's) Going to al-Tirmidh [and His Activities] until He Was Killed There",
+    "description": "",
+    "hijriYear": 85,
+    "ceLabel": "704–705",
+    "startDate": "704",
+    "endDate": "705",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 90,
+      "ceRaw": "704/705"
+    }
+  },
+  {
+    "id": "tabari-v23-85-017",
+    "title": "('Abd al-Malik' s Desire to Remove His Brother from the Succession]",
+    "description": "",
+    "hijriYear": 85,
+    "ceLabel": "704–705",
+    "startDate": "704",
+    "endDate": "705",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 8,
+      "ceRaw": "704/705"
+    }
+  },
+  {
+    "id": "tabari-v23-86-018",
+    "title": "[The Death of 'Abd al- Malik] / r 116 Report on His Age When He Died",
+    "description": "",
+    "hijriYear": 86,
+    "ceLabel": "705",
+    "startDate": "705",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 3117,
+      "ceRaw": "705"
+    }
+  },
+  {
+    "id": "tabari-v23-86-019",
+    "title": "His Descent and His Teknonym (Kunyah)",
+    "description": "",
+    "hijriYear": 86,
+    "ceLabel": "705",
+    "startDate": "705",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 117,
+      "ceRaw": "705"
+    }
+  },
+  {
+    "id": "tabari-v23-86-020",
+    "title": "His Children and Wives",
+    "description": "",
+    "hijriYear": 86,
+    "ceLabel": "705",
+    "startDate": "705",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 118,
+      "ceRaw": "705"
+    }
+  },
+  {
+    "id": "tabari-v23-86-021",
+    "title": "What Happened to Qutaybah in Khurasan in This Year",
+    "description": "",
+    "hijriYear": 86,
+    "ceLabel": "705",
+    "startDate": "705",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 1127,
+      "ceRaw": "705"
+    }
+  },
+  {
+    "id": "tabari-v23-86-022",
+    "title": "[The Appointment of 'Umar b. 'Abd al-'Aziz as Governor of Medina]",
+    "description": "",
+    "hijriYear": 86,
+    "ceLabel": "705",
+    "startDate": "705",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 131,
+      "ceRaw": "705"
+    }
+  },
+  {
+    "id": "tabari-v23-86-023",
+    "title": "[Qutaybah's Peace Agreement with the People of Badghis]",
+    "description": "",
+    "hijriYear": 86,
+    "ceLabel": "705",
+    "startDate": "705",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 133,
+      "ceRaw": "705"
+    }
+  },
+  {
+    "id": "tabari-v23-86-024",
+    "title": "Report of [Qutaybah's) Campaign [against Paykand]",
+    "description": "",
+    "hijriYear": 86,
+    "ceLabel": "705",
+    "startDate": "705",
+    "endDate": null,
+    "datePrecision": "year",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 134,
+      "ceRaw": "705"
+    }
+  },
+  {
+    "id": "tabari-v23-87-025",
+    "title": "[Reconstruction of the Mosque of Medina]",
+    "description": "",
+    "hijriYear": 87,
+    "ceLabel": "706–707",
+    "startDate": "706",
+    "endDate": "707",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 141,
+      "ceRaw": "706/707"
+    }
+  },
+  {
+    "id": "tabari-v23-87-026",
+    "title": "[Qutaybah's] Campaign [against Tumushkath and Ramithanah)",
+    "description": "",
+    "hijriYear": 87,
+    "ceLabel": "706–707",
+    "startDate": "706",
+    "endDate": "707",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 143,
+      "ceRaw": "706/707"
+    }
+  },
+  {
+    "id": "tabari-v23-89-027",
+    "title": "[Qutaybah 's Conquest of Bukhara)",
+    "description": "",
+    "hijriYear": 89,
+    "ceLabel": "708–709",
+    "startDate": "708",
+    "endDate": "709",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 150,
+      "ceRaw": "708/709"
+    }
+  },
+  {
+    "id": "tabari-v23-89-028",
+    "title": "[Renewed Peace between Qutaybah and the Soghdians)",
+    "description": "",
+    "hijriYear": 89,
+    "ceLabel": "708–709",
+    "startDate": "708",
+    "endDate": "709",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 152,
+      "ceRaw": "708/709"
+    }
+  },
+  {
+    "id": "tabari-v23-89-029",
+    "title": "(Nizak 's) Perfidy and Why He Was Vanquished",
+    "description": "",
+    "hijriYear": 89,
+    "ceLabel": "708–709",
+    "startDate": "708",
+    "endDate": "709",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 153,
+      "ceRaw": "708/709"
+    }
+  },
+  {
+    "id": "tabari-v23-89-030",
+    "title": "[Qutaybah's Retribution against the People of al-Talagan)",
+    "description": "",
+    "hijriYear": 89,
+    "ceLabel": "708–709",
+    "startDate": "708",
+    "endDate": "709",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 155,
+      "ceRaw": "708/709"
+    }
+  },
+  {
+    "id": "tabari-v23-89-031",
+    "title": "The Reason for [the Muhallabids ') Escape from al-Hajjaj's Prison and Their Going to Sulayman",
+    "description": "",
+    "hijriYear": 89,
+    "ceLabel": "708–709",
+    "startDate": "708",
+    "endDate": "709",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 156,
+      "ceRaw": "708/709"
+    }
+  },
+  {
+    "id": "tabari-v23-90-032",
+    "title": "[Qutaybah 's Capture and Killing of Nizak)",
+    "description": "",
+    "hijriYear": 90,
+    "ceLabel": "709–710",
+    "startDate": "709",
+    "endDate": "710",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 164,
+      "ceRaw": "709/7-10"
+    }
+  },
+  {
+    "id": "tabari-v23-90-033",
+    "title": "[Qutaybah 's Campaign in Transoxania)",
+    "description": "",
+    "hijriYear": 90,
+    "ceLabel": "709–710",
+    "startDate": "709",
+    "endDate": "710",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 174,
+      "ceRaw": "709/7-10"
+    }
+  },
+  {
+    "id": "tabari-v23-90-034",
+    "title": "[Khalid al-Qasri's Strict Governorship of Mecca]",
+    "description": "",
+    "hijriYear": 90,
+    "ceLabel": "709–710",
+    "startDate": "709",
+    "endDate": "710",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 177,
+      "ceRaw": "709/7-10"
+    }
+  },
+  {
+    "id": "tabari-v23-90-035",
+    "title": "[Al-Walid's Visit to Medina]",
+    "description": "",
+    "hijriYear": 90,
+    "ceLabel": "709–710",
+    "startDate": "709",
+    "endDate": "710",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 179,
+      "ceRaw": "709/7-10"
+    }
+  },
+  {
+    "id": "tabari-v23-92-036",
+    "title": "(The Killing of the King of Kham Jird and Renewed Peace with Khwarazm)",
+    "description": "",
+    "hijriYear": 92,
+    "ceLabel": "711–712",
+    "startDate": "711",
+    "endDate": "712",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 185,
+      "ceRaw": "711/712"
+    }
+  },
+  {
+    "id": "tabari-v23-92-037",
+    "title": "[Qutaybah's Conquest of Samarqand)",
+    "description": "",
+    "hijriYear": 92,
+    "ceLabel": "711–712",
+    "startDate": "711",
+    "endDate": "712",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 189,
+      "ceRaw": "711/712"
+    }
+  },
+  {
+    "id": "tabari-v23-92-038",
+    "title": "[Musa b. Nugayr's Dismissal of Tariq b. Ziyad]",
+    "description": "",
+    "hijriYear": 92,
+    "ceLabel": "711–712",
+    "startDate": "711",
+    "endDate": "712",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 201,
+      "ceRaw": "711/712"
+    }
+  },
+  {
+    "id": "tabari-v23-92-039",
+    "title": "Why al-Walid Dismissed ['Umar b. 'Abd al-'Atiz]",
+    "description": "",
+    "hijriYear": 92,
+    "ceLabel": "711–712",
+    "startDate": "711",
+    "endDate": "712",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 201,
+      "ceRaw": "711/712"
+    }
+  },
+  {
+    "id": "tabari-v23-93-040",
+    "title": "Qutaybah's Campaign [in al-Shish and Farghanah]",
+    "description": "",
+    "hijriYear": 93,
+    "ceLabel": "712–713",
+    "startDate": "712",
+    "endDate": "713",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 205,
+      "ceRaw": "712/713"
+    }
+  },
+  {
+    "id": "tabari-v23-93-041",
+    "title": "('Uthman b. Hayyan al- Murri's] Governorship",
+    "description": "",
+    "hijriYear": 93,
+    "ceLabel": "712–713",
+    "startDate": "712",
+    "endDate": "713",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 206,
+      "ceRaw": "712/713"
+    }
+  },
+  {
+    "id": "tabari-v23-93-042",
+    "title": "The Report of (Sa'id b. Jubayr's) Death",
+    "description": "",
+    "hijriYear": 93,
+    "ceLabel": "712–713",
+    "startDate": "712",
+    "endDate": "713",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 209,
+      "ceRaw": "712/713"
+    }
+  },
+  {
+    "id": "tabari-v23-93-043",
+    "title": "The Report of [Qutaybah 's] Campaign [in al-Shish]",
+    "description": "",
+    "hijriYear": 93,
+    "ceLabel": "712–713",
+    "startDate": "712",
+    "endDate": "713",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 216,
+      "ceRaw": "712/713"
+    }
+  },
+  {
+    "id": "tabari-v23-95-044",
+    "title": "[The Death of al-Walid b. 'Abd al-Malik]",
+    "description": "",
+    "hijriYear": 95,
+    "ceLabel": "714–715",
+    "startDate": "714",
+    "endDate": "715",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 218,
+      "ceRaw": "714/715"
+    }
+  },
+  {
+    "id": "tabari-v23-95-045",
+    "title": "Report of Some of What He Did",
+    "description": "",
+    "hijriYear": 95,
+    "ceLabel": "714–715",
+    "startDate": "714",
+    "endDate": "715",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 219,
+      "ceRaw": "714/715"
+    }
+  },
+  {
+    "id": "tabari-v23-95-046",
+    "title": "(Al-Walid's Desire to Remove Sulayman from the Succession]",
+    "description": "",
+    "hijriYear": 95,
+    "ceLabel": "714–715",
+    "startDate": "714",
+    "endDate": "715",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 222,
+      "ceRaw": "714/715"
+    }
+  },
+  {
+    "id": "tabari-v23-95-047",
+    "title": "[Qutaybah in Kashghar and China]",
+    "description": "",
+    "hijriYear": 95,
+    "ceLabel": "714–715",
+    "startDate": "714",
+    "endDate": "715",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 224,
+      "ceRaw": "714/715"
+    }
+  },
+  {
+    "id": "tabari-v23-95-048",
+    "title": "Bibliography of Cited Works / 23 z Index",
+    "description": "",
+    "hijriYear": 95,
+    "ceLabel": "714–715",
+    "startDate": "714",
+    "endDate": "715",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "23",
+      "page": 237,
+      "ceRaw": "714/715"
+    }
+  }
+]

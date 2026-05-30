@@ -1,0 +1,16 @@
+{
+  "id": "event-0634-khalid-s-pilgrimage",
+  "title": "Khalid's Pilgrimage",
+  "description": "Khalid's Pilgrimage. Recorded under the year 13 AH (634–635 CE) in al-Tabari's History, volume 11.",
+  "startDate": "0634-03-07",
+  "category": "religious",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "68"
+    }
+  ]
+}

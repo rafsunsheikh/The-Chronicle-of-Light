@@ -1,0 +1,23 @@
+{
+  "id": "event-0723-bukayr-b-mahan-and-the-abbasid-revolutionaries",
+  "title": "Bukayr b. Mahan and the 'Abbasid Revolutionaries",
+  "description": "In this year Bukayr b. Mahan' came from Sind, where he had been serving as a translator for al -junayd b. 'Abd al-Rahman.9 When aljunayd b. 'Abd al-Rahmin was removed from office, Bukayr came to al-KUfah, having with him four bars of silver and one of gold. There he met Abu `Ikrimah al-Sadiq,1° Maysarah,\" Muhammad 5. That is, al-Wagidi.",
+  "startDate": "0723-01-01",
+  "category": "political",
+  "connections": [
+    "event-0741-reason-why-bukayr-b-mahan-bought-abu-muslim"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0724-12-31",
+  "location": {
+    "latitude": 26.0,
+    "longitude": 68.5,
+    "name": "Sindh (lower Indus)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "2"
+    }
+  ]
+}

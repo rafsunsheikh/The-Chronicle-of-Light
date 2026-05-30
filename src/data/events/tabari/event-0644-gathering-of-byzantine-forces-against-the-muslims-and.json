@@ -1,0 +1,24 @@
+{
+  "id": "event-0644-gathering-of-byzantine-forces-against-the-muslims-and",
+  "title": "The Gathering of Byzantine Forces against the Muslims and the Muslims' Call for Aid from the Kufans",
+  "description": "Muslims and the Muslims' Call for Aid from the Kufans In this year, according to Abu Mikhnaf, the Byzantines mobilized their forces to such a level that the Muslim armies in Syria sought reinforcements from 'Uthman. The Account of That Event According to Hishim-Abu Mikhnaf-Farwah b.",
+  "startDate": "0644-01-01",
+  "category": "political",
+  "connections": [
+    "event-0644-governorship-of-sa-d-b-abi-waggag-in",
+    "event-0645-reason-why-uthman-removed-sai-d-from-kufah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0645-12-31",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "9"
+    }
+  ]
+}

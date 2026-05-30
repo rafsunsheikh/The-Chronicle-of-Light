@@ -1,0 +1,16 @@
+{
+  "id": "event-0627-expedition-against-the-bane-libyan",
+  "title": "The Expedition against the Bane Libyan",
+  "description": "According to Abu Ja'far (al-Tabari]: The Messenger of God set out [ 1501(during Jumada 1180 at the end of six months from the conquest of the Banu QurayTah to the Banu Libyan, seeking [vengeance] for the men [who were betrayed ] at al-Raji', Khubayb b. 'Adi and his companions. 18 1 To take the enemy by surprise, he pretended to be setting out for the north. 182 He left Medina and traveled by Ghurab, a mountain near Medina, on his way north, then by Makhid183 and al-Batra '.",
+  "startDate": "0627-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0628-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "42"
+    }
+  ]
+}

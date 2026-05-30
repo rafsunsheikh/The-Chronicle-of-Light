@@ -1,0 +1,23 @@
+{
+  "id": "event-0725-campaign-of-asad-in-al-khuttal",
+  "title": "Campaign of Asad in al-Khuttal",
+  "description": "In it, Asad b. \"Abdallah campaigned in al-Khuttal.\"' According to 'Ali b. Muhammad: The Khagan came against Asad when the latter had [already] gone back to al-Quwadhiyan'42 and recrossed the Oxus, so that there was no fighting between them in that campaign. According to Abu 'Ubaydah:' Rather, they defeated Asad and put him to shame, so that young boys sang: You have come form Khuttalan.` With a spoiled face you have come.",
+  "startDate": "0725-01-01",
+  "category": "military",
+  "connections": [
+    "event-0737-story-of-this-campaign-in-al-khuttal"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0726-12-31",
+  "location": {
+    "latitude": 37.9,
+    "longitude": 69.8,
+    "name": "Khuttal (SW Tajikistan)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "30"
+    }
+  ]
+}

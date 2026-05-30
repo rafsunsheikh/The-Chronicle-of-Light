@@ -1,0 +1,23 @@
+{
+  "id": "event-0628-lesser-pilgrimage-of-fulfillment",
+  "title": "The Lesser Pilgrimage of Fulfillment",
+  "description": "According to Ibn Humayd- Salamah-Ibn Ishaq, who said:556 When the Messenger of God returned to Medina from Khaybar, he 55o. 'Abd al-Wabid b. Abi 'Awn al -Dawsi was born in Medina and died in 144/761-62. See Ibn Hajar, Tahdhib, VI, 438. 551. Yumn (Yaqut, Mu'jam al-buldan, VIII, 524) was a watering place of Gharafan between Barn Qaww and Ru'af, on the road between Tayma ' and Fayd; alJinab was near Khaybar (ibid., III, r30-31). 552. A Yabya b.",
+  "startDate": "0628-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0628-division-of-the-spoils-of-khaybar"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0629-12-31",
+  "location": {
+    "latitude": 25.7,
+    "longitude": 39.29,
+    "name": "Khaybar, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "133"
+    }
+  ]
+}

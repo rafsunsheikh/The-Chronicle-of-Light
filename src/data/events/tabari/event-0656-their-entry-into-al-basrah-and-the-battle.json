@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-their-entry-into-al-basrah-and-the-battle",
+  "title": "Their Entry into al-Basrah and the Battle between Them and 'Uthman b. Hunayf",
+  "description": "between Them and 'Uthman b. Hunayf According to al-Sari (in writing(-Shu'ayb-Sayf-Muhammad and Talhah: The army traveled on until, after turning off the road at the esplanade of al-Basrah, they were met by 'Umayr b. `Abdallah al-Tamimi. \"Mother of the Faithful!\" he said. \"I implore you in Allah's name to contact those men today to whom you haven't383 yet sent any message, and He will then protect you from them.\" \"You have given me sound advice,\" she said. \"You are384 a good man.\" \"Then send Ibn `Amir (b. Kurayzj immediately,\" he replied. \"Let him enter.",
+  "startDate": "0656-01-01",
+  "category": "military",
+  "connections": [
+    "event-0656-account-of-ali-b-abi-talib-s-advance",
+    "event-0656-ishah-s-remark-by-allah-i-will-seek"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "56"
+    }
+  ]
+}

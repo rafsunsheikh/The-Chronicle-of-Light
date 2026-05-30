@@ -1,0 +1,18 @@
+{
+  "id": "event-0835-reason-for-this-battle-between-al-afshin-and",
+  "title": "The Reason for This Battle between al-Afshin and Babak",
+  "description": "and Babak It has been mentioned that the reason for this was that al-Mu`tagim sent with Bughi al-Kabir79 a sum of money to al-Afshin for the latter to use as pay for his troops and for expenditure on supplies. Bugha brought that money to Ardabil, but when he halted there reports about this reached Babak and his followers, so they prepared to intercept him before he could reach al-Afshin.",
+  "startDate": "0835-01-01",
+  "category": "military",
+  "connections": [
+    "event-0835-affair-of-babak-and-his-outbreak",
+    "event-0835-clashes-of-bugha-al-kabir-and-al-afshin"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "19"
+    }
+  ]
+}

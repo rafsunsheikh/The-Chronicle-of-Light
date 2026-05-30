@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-ali-s-grief-over-those-killed-at-the",
+  "title": "Ali's Grief over Those Killed at the Battle of the Camel, Their Burial, and His Gathering What Was in the Camp and Its Despatch to al-Basrah",
+  "description": "of the Camel, Their Burial, and His Gathering What Was in the Camp and Its Despatch to al-Basrah According to al-Sari (in writing)-Shu`ayb-Sayf-Muhammad and Talhah: `Ali b. Abi Talib remained in his camp for three days and did not enter al-Basrah while the people were sent out to their dead. They went out to them and buried them, and `Ali went around with them among the bodies. When Ka'b b. Sur was brought to him, he said, \"You told me it was only fools who had joined up with them, and here you see the learned man.\" He then came upon `Abd al-Rahman b.",
+  "startDate": "0656-01-01",
+  "category": "military",
+  "connections": [
+    "event-0656-ali-s-visit-to-a-ishah-and-the",
+    "event-0656-ali-sets-up-camp-at-al-zawiyah-of"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "163"
+    }
+  ]
+}

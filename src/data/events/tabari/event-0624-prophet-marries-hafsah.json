@@ -1,0 +1,16 @@
+{
+  "id": "event-0624-prophet-marries-hafsah",
+  "title": "The Prophet Marries Hafsah",
+  "description": "Abu Ja'far (al-Tabari) says: In this year the Prophet married Hafsah bt. 'Umar, in Sha'ban (which began January 17, 625).'6 She had previously been married to Khunays b. Hudhafah al-Sahmi in the Jahiliyyah, and he had left her a widow.",
+  "startDate": "0624-01-01",
+  "category": "religious",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0625-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "105"
+    }
+  ]
+}

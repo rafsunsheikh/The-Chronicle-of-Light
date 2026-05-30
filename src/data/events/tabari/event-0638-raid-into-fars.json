@@ -1,0 +1,23 @@
+{
+  "id": "event-0638-raid-into-fars",
+  "title": "The Raid into Fars",
+  "description": "According to al-Sari-Shu'ayb-Sayf-Muhammad, al-Muhallab and 'Amr: In al-Ba $rah and its environs, comprising in those days the adjacent Sawid and al-Ahwiz, the Muslims had been living in circumstances prevailing until that day:451 what they had conquered was fully under their control, and the region with which they had concluded a peace treaty was under the control of its inhabitants, who duly paid the khardj, with the understanding that they would not be invaded, enjoying…",
+  "startDate": "0638-01-01",
+  "category": "military",
+  "connections": [
+    "event-0659-mu-awiyah-sends-his-forces-into-ali-s"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0639-12-31",
+  "location": {
+    "latitude": 29.6,
+    "longitude": 52.5,
+    "name": "Fars, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "126"
+    }
+  ]
+}

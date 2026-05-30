@@ -1,0 +1,20 @@
+{
+  "id": "event-0632-people-of-al-bahrayn-the-apostasy-of-al",
+  "title": "The People of al-Bahrayn, the Apostasy of al-Hutam, and Those Who Joined With Him in al-Bahrayn",
+  "description": "The People of al-Bahrayn, the Apostasy of al-Hutam, and Those Who Joined With Him in al-Bahrayn. Recorded under the year 11 AH (c. 632 CE) in al-Tabari's History, volume 10.",
+  "startDate": "0632-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 26.56,
+    "longitude": 49.996,
+    "name": "eastern Arabia (al-Qatif/al-Hasa)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 10",
+      "page": "134"
+    }
+  ]
+}

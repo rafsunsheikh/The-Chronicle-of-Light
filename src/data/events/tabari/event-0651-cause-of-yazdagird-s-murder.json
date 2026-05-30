@@ -1,0 +1,16 @@
+{
+  "id": "event-0651-cause-of-yazdagird-s-murder",
+  "title": "The Cause of [Yazdagird's] Murder",
+  "description": "There is a difference of opinion regarding the cause of his murder and how it came about. According to `Ali b. Muhammad (al-Mada'ini)-Ghiyath b. Ibrahim-Ibn Ishaq: Yazdagird fled with a tiny escort from Kirman to Marw. He sought money from its marzuban,135 but (the latter) refused him. Then (the people of Marw) were afraid for themselves and sent to the Turks, seeking their support against (Yazdagird).",
+  "startDate": "0651-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0652-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "78"
+    }
+  ]
+}

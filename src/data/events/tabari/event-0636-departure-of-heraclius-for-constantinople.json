@@ -1,0 +1,21 @@
+{
+  "id": "event-0636-departure-of-heraclius-for-constantinople",
+  "title": "The Departure of Heraclius for Constantinople",
+  "description": "According to Sayf - Abu al-Zahra' al-Qushayri - a man from Qushayr: When Heraclius set out from al-Ruha ' and asked its inhabitants to follow him, they said: \"We are better off here than with you,\" and they refused to follow him and separated themselves both from him and from the Muslims. The first man to cause the dogs of al-Ruha' to bark and its fowls to be scared666 was Ziyad b. HanZalah,667 who was a Companion of the Prophet. [In this expedition?] he was with `Umar b.",
+  "startDate": "0636-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0637-12-31",
+  "location": {
+    "latitude": 41.01,
+    "longitude": 28.98,
+    "name": "Istanbul"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 12",
+      "page": "181"
+    }
+  ]
+}

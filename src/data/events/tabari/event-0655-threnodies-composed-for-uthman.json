@@ -1,0 +1,16 @@
+{
+  "id": "event-0655-threnodies-composed-for-uthman",
+  "title": "The Threnodies Composed for 'Uthman",
+  "description": "After his murder the poets spoke about him-some in praise, some in derision, some in tearful lamentation, some in gleeful joy. Those who lauded him included Hassan b. Thabit al-Angari, Ka'b b. Malik al-An^ari, and Tamim b. Ubayy b. Muqbil, as well as others.",
+  "startDate": "0655-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0656-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "258"
+    }
+  ]
+}

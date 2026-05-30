@@ -1,0 +1,21 @@
+{
+  "id": "event-0786-idris-b-abdallah-b-hasan-s-escape-to",
+  "title": "Idris b. 'Abdallah b. Hasan's Escape to the Maghrib and His Foundation of the Idrisid Dynasty in Morocco",
+  "description": "Idris b. 'Abdallah b. Hasan's Escape to the Maghrib and His Foundation of the Idrisid Dynasty in Morocco. Recorded under the year 169 AH (786–787 CE) in al-Tabari's History, volume 30.",
+  "startDate": "0786-01-01",
+  "category": "cultural",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0787-12-31",
+  "location": {
+    "latitude": 33.5,
+    "longitude": -6.0,
+    "name": "the Maghrib (NW Africa)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "28"
+    }
+  ]
+}

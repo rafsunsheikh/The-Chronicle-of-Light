@@ -1,0 +1,25 @@
+{
+  "id": "event-0741-reason-why-bukayr-b-mahan-bought-abu-muslim",
+  "title": "The Reason Why Bukayr b. Mahan Bought Abu Muslim",
+  "description": "Muslim The sources differ on this matter. According to 'Ali b. Muhammad (al-Mada'ini)-Hamzah b. Talhah al-Sulami -his father: Bukayr b. Mahan358 was scribe to one of the agents ('ummal) of Sind. He went to al-Kufah and the 'Abbasid supporters assembled in a house there. Then mischievous rumors circulated about 357. These men were the leaders (nugaba'(of the'Abbisids in Khurisin. 358. Bukayr b. Mihin came originally from Sijistin and had served the governor of Sind, al- junayd b. 'Abd al-Rahmin. He was won over to the Hishimiyyah in roe (720-21(.",
+  "startDate": "0741-01-01",
+  "category": "political",
+  "connections": [
+    "event-0723-bukayr-b-mahan-and-the-abbasid-revolutionaries",
+    "event-0746-abu-muslim-openly-preaches-the-abbasid-revolution-in",
+    "event-0752-death-of-mansur-b-jumhur-in-sind"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0742-12-31",
+  "location": {
+    "latitude": 26.0,
+    "longitude": 68.5,
+    "name": "Sindh (lower Indus)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "66"
+    }
+  ]
+}

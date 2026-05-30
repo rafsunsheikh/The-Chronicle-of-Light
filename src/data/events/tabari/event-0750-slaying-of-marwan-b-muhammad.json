@@ -1,0 +1,17 @@
+{
+  "id": "event-0750-slaying-of-marwan-b-muhammad",
+  "title": "Slaying of Marwan b. Muhammad",
+  "description": "Slaying of Marwan b. Muhammad. Recorded under the year 132 AH (750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0750-08-09",
+  "category": "political",
+  "connections": [
+    "event-0746-death-of-shayban-b-abd-al-aziz-the"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "168"
+    }
+  ]
+}

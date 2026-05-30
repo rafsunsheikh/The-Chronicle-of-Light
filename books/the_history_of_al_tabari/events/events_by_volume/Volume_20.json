@@ -1,0 +1,401 @@
+[
+  {
+    "id": "tabari-v20-64-001",
+    "title": "The Caliphate of Mu-awiyah b. Yazid",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 1,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-002",
+    "title": "°Ubaydallah b. Ziyad and the People of al-Bagrah Following the Death of Yazid",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 6,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-003",
+    "title": "The Deposition of cAmr b. Hurayth by the People of alKiUfah and Their Appointment of cAmir b. Masud as Governor over Them",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 38,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-004",
+    "title": "The Rendering of Allegiance to Marwan b. al-Hakam in Syria",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 47,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-005",
+    "title": "The Battle at Marj Rahil between al-I?al l ak b. Qays and MarwAn b. al-Hakam and Its Immediate Consequences",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 56,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-006",
+    "title": "The Disturbances in Khurasan Associated with °Abdallah b. Khazim",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 70,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-007",
+    "title": "The Beginnings of the Movement of the Penitents (aITawwdbun) in al-KUfah",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 80,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-008",
+    "title": "The End of the Kharijites' Support for cAbdallah b. alZubayr in Mecca and the Dissensions among Them",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 97,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-009",
+    "title": "Contents The Arrival of al-Mukhtir in al-Kufah",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 105,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-010",
+    "title": "Ibn al-Zubayr's Demolition of the Kacbah",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 122,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-011",
+    "title": "The Departure of the Penitents from al-Kufah and Their Destruction by the Syrian Army at the Battle of °Ayn al-Wardah",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 124,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-012",
+    "title": "Marw3n's Designation of His Two Sons cAbd al-Malik and cAbd al-cAz1z as His Heirs Apparent",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 160,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-013",
+    "title": "The Death of Marw3n",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 160,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-014",
+    "title": "The Failure of the Syrian Expedition against Medina",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 162,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-015",
+    "title": "The Plague of al-JArif in al-Bagrah",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 163,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-016",
+    "title": "The Threat to al-Ba$rah from N3fic b. al-Azraq and the Kh3rijites and al-Muhallab b. Abi $ufrah's Victory over Them",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 164,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-017",
+    "title": "Ibn al-Zubayr' s Dismissal and Appointment of Governors in al-Kufah and Medina",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 175,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-018",
+    "title": "Ibn al-Zubayr's Rebuilding of the Kacbah",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 176,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-64-019",
+    "title": "The Continuation of Tribal Warfare in Khur3san under cAbdallAh b. Khazim",
+    "description": "",
+    "hijriYear": 64,
+    "ceLabel": "684–685",
+    "startDate": "684",
+    "endDate": "685",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 177,
+      "ceRaw": "684/685"
+    }
+  },
+  {
+    "id": "tabari-v20-65-020",
+    "title": "Al-Mukhtar' s Revolutionary Movement in al-Kufah and His Appeal to the Sh1°ah There",
+    "description": "",
+    "hijriYear": 65,
+    "ceLabel": "685–686",
+    "startDate": "685",
+    "endDate": "686",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 182,
+      "ceRaw": "685/686"
+    }
+  },
+  {
+    "id": "tabari-v20-65-021",
+    "title": "Bibliography of Cited Works",
+    "description": "",
+    "hijriYear": 65,
+    "ceLabel": "685–686",
+    "startDate": "685",
+    "endDate": "686",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "20",
+      "page": 227,
+      "ceRaw": "685/686"
+    }
+  }
+]

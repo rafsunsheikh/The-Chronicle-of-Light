@@ -1,0 +1,19 @@
+{
+  "id": "event-0808-al-rashid-s-children",
+  "title": "Al-Rashid's Children",
+  "description": "Of male children, al-Rashid had Muhammad the Elder (i.e., alAmin), by Zubaydah; 'Abdallah al-Ma'mun, by a slave concubine mother (umm waladj called Marajil; l098al-Qasim al-Mu'taman, by a slave concubine mother called Qasif, Abu Ishaq Muhammad al-Mu'ta$im, by a slave concubine mother called Maridah; 'All, by Amat al-'Aziz; $alili, by a slave concubine mother called Ri'm;1099 Abu Isa Muhammad, by a slave concubine mother called Idbah; 1100 Abu Ya'qub Muhammad, by a slave…",
+  "startDate": "0808-01-01",
+  "category": "political",
+  "connections": [
+    "event-0808-governors-in-the-provincial-capitals-in-harun-al",
+    "event-0808-more-aspects-of-al-rashid-s-conduct-and",
+    "event-0809-causes-of-the-discord-between-al-amin-and"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "327"
+    }
+  ]
+}

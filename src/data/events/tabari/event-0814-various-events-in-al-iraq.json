@@ -1,0 +1,24 @@
+{
+  "id": "event-0814-various-events-in-al-iraq",
+  "title": "Various events in al-'Iraq",
+  "description": "Various events in al-'Iraq. Recorded under the year 198 AH (814–815 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0814-01-01",
+  "category": "political",
+  "connections": [
+    "event-0802-al-rashid-s-return-to-iraq",
+    "event-0818-ibrahim-b-al-mahdi-s-assumption-of-power"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0815-12-31",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "12"
+    }
+  ]
+}

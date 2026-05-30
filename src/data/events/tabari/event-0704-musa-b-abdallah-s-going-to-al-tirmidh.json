@@ -1,0 +1,21 @@
+{
+  "id": "event-0704-musa-b-abdallah-s-going-to-al-tirmidh",
+  "title": "Musa b. 'Abdallah's) Going to al-Tirmidh [and His Activities] until He Was Killed There",
+  "description": "Musa b. 'Abdallah's) Going to al-Tirmidh [and His Activities] until He Was Killed There. Recorded under the year 85 AH (704–705 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0704-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0705-12-31",
+  "location": {
+    "latitude": 37.22,
+    "longitude": 67.28,
+    "name": "Termez, Uzbekistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "90"
+    }
+  ]
+}

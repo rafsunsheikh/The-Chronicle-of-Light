@@ -1,0 +1,21 @@
+{
+  "id": "event-0643-conquest-of-istakhr",
+  "title": "The Conquest of Istakhr",
+  "description": "The Conquest of Istakhr. Recorded under the year 22 AH (643–644 CE) in al-Tabari's History, volume 14.",
+  "startDate": "0643-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0644-12-31",
+  "location": {
+    "latitude": 29.98,
+    "longitude": 52.9,
+    "name": "Istakhr (near Persepolis)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "66"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "event-0723-caliphate-of-hisham-b-abd-al-malik",
+  "title": "The Caliphate of Hisham b. 'Abd al-Malik",
+  "description": "In this year, Hisham b. 'Abd al-Malik was made Caliph in the latter part of Shahan 1 1051 (January 3-31, 724). He was then some months beyond his thirty-fourth birthday. According to 'Umar b. Shabbah' -'Ali -Abt^ Muhammad alQurashi3 Abu Muhammad al-Ziyidi, al-Minhal b. 'Abd al-Malik and Suhaym b. Hafs al-'Ujayfi:4 Hishim b. 'Abd al-Malik was born the year Mus'ab b. al-Zubayr was slain, that is the year 72 (691). His mother was 'A'ishah bt. Hisham b. Ismail b. Hisham b. alWalid b. al-Mughirah b. 'Abdallih b. 'Umar b. Makhzum.",
+  "startDate": "0723-01-01",
+  "category": "political",
+  "connections": [
+    "event-0724-pilgrimage-of-hisham-b-abd-al-malik"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0724-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "1"
+    }
+  ]
+}

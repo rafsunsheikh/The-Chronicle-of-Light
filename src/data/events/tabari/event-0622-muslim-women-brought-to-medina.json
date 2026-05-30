@@ -1,0 +1,24 @@
+{
+  "id": "event-0622-muslim-women-brought-to-medina",
+  "title": "Muslim Women Brought to Medina",
+  "description": "In this year the Prophet sent Zayd b. Harithah and Abu Rafi' to his daughters and his wife Sawdah bt. Zam'ah, and they brought them from Mecca to Medina. 18 It is said that when 'Abd Allah b. Uraygit19 returned to Mecca he informed'Abd Allah b. Abi Bakr of the situation of his father Abu Bakr, and the latter brought his father's family to him. The party included Umm Ruman, the mother of 'A'ishah, ('A'ishah herself) and 'Abd Allah b. Abi Bakr, and they were accompanied to Medina by Talhah b.",
+  "startDate": "0622-07-16",
+  "category": "political",
+  "connections": [
+    "event-0622-deaths-and-minor-events",
+    "event-0622-expedition-led-by-muhammad-to-al-abwa"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0623-07-04",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "8"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0725-pilgrimage-and-officials",
+  "title": "Pilgrimage and Officials",
+  "description": "Ibrahim b. Hisham led the pilgrimage this year while he was governor of al-Madinah, Mecca and al-Ta'if. [1 495]",
+  "startDate": "0725-01-01",
+  "category": "religious",
+  "connections": [
+    "event-0723-ibrahim-b-hisham-leads-the-pilgrimage",
+    "event-0735-pilgrimage-and-governors"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0726-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "32"
+    }
+  ]
+}

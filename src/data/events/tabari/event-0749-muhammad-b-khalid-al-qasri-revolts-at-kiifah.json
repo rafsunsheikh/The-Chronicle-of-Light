@@ -1,0 +1,24 @@
+{
+  "id": "event-0749-muhammad-b-khalid-al-qasri-revolts-at-kiifah",
+  "title": "Muhammad b. Khalid al-Qasri Revolts at Kiifah in the Name of the 'Abbasids",
+  "description": "Muhammad b. Khalid al-Qasri Revolts at Kiifah in the Name of the 'Abbasids. Recorded under the year 131 AH (749–750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0749-08-20",
+  "category": "military",
+  "connections": [
+    "event-0696-shabib-s-second-entry-into-al-kiifah-and",
+    "event-0774-some-stories-about-al-mansur-and-his-conduct"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0750-08-08",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "140"
+    }
+  ]
+}

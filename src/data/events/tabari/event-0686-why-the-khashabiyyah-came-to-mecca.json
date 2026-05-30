@@ -1,0 +1,26 @@
+{
+  "id": "event-0686-why-the-khashabiyyah-came-to-mecca",
+  "title": "Why the Khashabiyyah Came to Mecca",
+  "description": "According to Hishim [b. al-Kalbij-Abu Mikhnaf and `Ali b. Muhammad [al-Madi 'inij-Maslamah b. Muhirib, the reason was as follows: `Abdallah b. al-Zubayr imprisoned Muhammad b. al-Hanafiyyah and those members of his family who were with him, together with seventeen notables from al-Kufah, at Zamzam.231 Unwilling to swear allegiance to someone upon whom the community (ummah) had not united in agreement, 228. Cf. Qur'an 7: 87, ro: ro9, and r2:8o. 229. Leiden note suggests that one should read \"He said....\" 230. For the origin of the name, see note 207.",
+  "startDate": "0686-07-28",
+  "category": "political",
+  "connections": [
+    "event-0686-al-mukhtar-sends-an-army-to-trick-ibn",
+    "event-0686-khashabiyyah-perform-the-pilgrimage",
+    "event-0686-mus-ab-b-al-zubayr-becomes-governor-of",
+    "event-0689-mus-ab-b-al-zubayr-visits-mecca"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0687-07-17",
+  "location": {
+    "latitude": 21.4225,
+    "longitude": 39.8262,
+    "name": "Mecca, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "59"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "event-0755-reason-jahwar-turned-against-al-mangur",
+  "title": "The Reason Jahwar Turned against al-Mangur",
+  "description": "The reason for that mentioned in the sources is as follows: When Jahwar put Sunbadh to flight, he took possession of the contents of his camp, including the stored treasures that Abu Muslim had left behind in al-Rayy. Then Jahwar failed to forward these things to Abu ja`far and, fearing the consequences, he turned [outright] renegade. Abu Ja`far then sent Muhammad b. al-Ash`ath alKhuza`i221 against him with a huge force. Muhammad engaged Jahwar, and they waged a hard-fought battle. With Jahwar were 218. Al-`Abbas b. Muhammad b. `Ali b. `Abdallah b.",
+  "startDate": "0755-01-01",
+  "category": "military",
+  "connections": [
+    "event-0754-account-of-abu-muslim-s-murder-and-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0756-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "49"
+    }
+  ]
+}

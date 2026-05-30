@@ -1,0 +1,16 @@
+{
+  "id": "event-0722-battle-between-al-harashi-and-the-soghdian-army",
+  "title": "The Battle between al-Harashi and the Soghdian Army",
+  "description": "The Battle between al-Harashi and the Soghdian Army. Recorded under the year 104 AH (722–723 CE) in al-Tabari's History, volume 24.",
+  "startDate": "0722-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0723-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "172"
+    }
+  ]
+}

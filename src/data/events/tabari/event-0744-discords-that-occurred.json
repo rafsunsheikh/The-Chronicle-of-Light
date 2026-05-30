@@ -1,0 +1,19 @@
+{
+  "id": "event-0744-discords-that-occurred",
+  "title": "The Discords That Occurred",
+  "description": "One such source of discord was the uprising of Sulayman b. Hisham b. 'Abd al-Malik in 'Amman after the killing of al-Walid b. Yazid. According to Abmad b. Zuhayr-'Ali b. Mubammad (alMada'ini): When al-Walid was killed, Sulayman b. Hishim came out of prison-he had been imprisoned in 'Ammin939-took what revenues there were in 'Amman, and made for Damascus, where he began cursing al-Walid and upbraiding him for being an unbeliever. In this year the people of Himg attacked the dependents of 118261 al= Abbas b. al-Walid.",
+  "startDate": "0744-01-01",
+  "category": "political",
+  "connections": [
+    "event-0743-reason-for-yazid-s-killing-of-al-walid",
+    "event-0743-some-of-the-reasons-why-al-walid-acceded"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0745-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "183"
+    }
+  ]
+}

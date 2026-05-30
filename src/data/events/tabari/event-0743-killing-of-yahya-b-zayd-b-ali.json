@@ -1,0 +1,16 @@
+{
+  "id": "event-0743-killing-of-yahya-b-zayd-b-ali",
+  "title": "The Killing of Yahya b. Zayd b. 'Ali",
+  "description": "The Killing of Yahya b. Zayd b. 'Ali. Recorded under the year 125 AH (743–744 CE) in al-Tabari's History, volume 26.",
+  "startDate": "0743-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0744-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 26",
+      "page": "120"
+    }
+  ]
+}

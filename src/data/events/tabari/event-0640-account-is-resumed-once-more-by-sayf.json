@@ -1,0 +1,22 @@
+{
+  "id": "event-0640-account-is-resumed-once-more-by-sayf",
+  "title": "The Account Is Resumed Once More by Sayf",
+  "description": "Through Rib'i b. 'Amir, Umar wrote to 'Abdallah b. 'Abdallah (b. 'Itban), \"Call up so-and-so many men from al-Kufah to accompany al-Nu'man. I have written to him ordering him to go from alAhwaz to Mali, and these troops are to join him there. He is to march with them to Nihawand. I have appointed Hudhayfah b. alYaman as their commander until he meets up with al-Nu'man b. Muqarrin. In the meantime, I have written to al-Nu'man, 'If something happens to you, Hudhayfah b.",
+  "startDate": "0640-01-01",
+  "category": "political",
+  "connections": [
+    "event-0642-information-on-umar-s-division-of-the-conquered"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "200"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "event-0634-al-anbar-which-is-dhat-al-uyun-and",
+  "title": "Al-Anbar, Which Is Dhat al-'Uyun, and Kalwadha",
+  "description": "Al-Sari-Shucayb-Sayf- Muhammad, Talhah, and their companions: Khilid b. al-Walid went forth with that mobilization in which 171. The site of al-Husayn's martyrdom. See EIS, s.v Karbala'. 172. Al-Mujishi`i al-Dirimi, of a noble Tamimi lineage, he is said to have become a Muslim in Medina before the fall of Mecca in 8/630, more likely in the year of delegations, 9/63 i. He is alleged to have been the cause of the revelation of Qur'an 49:4 - 5.",
+  "startDate": "0634-03-07",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 33.37,
+    "longitude": 43.69,
+    "name": "al-Anbar (near Fallujah), Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "49"
+    }
+  ]
+}

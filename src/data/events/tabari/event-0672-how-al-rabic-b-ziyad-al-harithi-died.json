@@ -1,0 +1,23 @@
+{
+  "id": "event-0672-how-al-rabic-b-ziyad-al-harithi-died",
+  "title": "How al-Rabic b. Ziyad al-Harithi died",
+  "description": "I was told by 'Umar-'Ali b. Muhammad: Al-Rabi' b. Ziyad was governor of Khurasan for two years and several months and died in the year in which Ziyad died. He had appointed his son 'Abdallah b. al-Rabi ' as his successor. The latter was governor for two months and then he died. Al-Rabi\"s letter of appointment from Ziyad reached Khurasan after he had been buried. 'Abdallah b. al-Rabi' appointed Khulayd b. 'Abdallah al-Hanafi as his successor over Khurasan. (According to) 'Ali-Muhammad b. al-Fadl -his father: I heard that al-Rabi' b.",
+  "startDate": "0672-01-01",
+  "category": "political",
+  "connections": [
+    "event-0670-al-hakam-b-amr-raids-al-ashall",
+    "event-0673-how-ubaydallah-b-ziyad-became-governor-over-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 18",
+      "page": "170"
+    }
+  ]
+}

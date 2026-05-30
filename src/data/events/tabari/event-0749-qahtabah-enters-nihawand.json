@@ -1,0 +1,24 @@
+{
+  "id": "event-0749-qahtabah-enters-nihawand",
+  "title": "Qahtabah Enters Nihawand",
+  "description": "Qahtabah Enters Nihawand. Recorded under the year 131 AH (749–750 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0749-08-20",
+  "category": "political",
+  "connections": [
+    "event-0749-amir-b-dubarah-is-slain-by-qahtabah",
+    "event-0749-death-of-qahtabah-b-shabib"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0750-08-08",
+  "location": {
+    "latitude": 34.19,
+    "longitude": 48.37,
+    "name": "Nahavand, Iran"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "129"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "event-0629-account-of-the-messenger-of-god-s-expedition",
+  "title": "An Account of the Messenger of God's Expedition against the Hawazin and the Battle of Hunayn / z [The Siege of al-W'a'if",
+  "description": "against the Hawuzin' and the Battle of Hunayn2 Concerning the affairs of the Messenger of God, the Muslims, and the [clans ofj Hawazin, we have received an account on the authority of both 'Ali b. Na$r b. 'Ali al- Jah4ami3 and 'Abd al-Wanith b. 'Abd al-$amad b. 'Abd al-W3rith4-'Abd al-$ amad [b. 'Abd alr. A large North Arabian tribe or a group of tribes. They were bitterly hostile to Quraysh because of the trade rivalry between Mecca and al -'f a'if, since they were either the inhabitants of the latter city or in close alliance with its people.",
+  "startDate": "0629-01-01",
+  "category": "military",
+  "connections": [
+    "event-0629-division-of-the-booty-captured-at-hunayn-and"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 21.46,
+    "longitude": 40.2,
+    "name": "near Ta'if"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 09",
+      "page": "20"
+    }
+  ]
+}

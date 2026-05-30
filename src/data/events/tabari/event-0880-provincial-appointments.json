@@ -1,0 +1,16 @@
+{
+  "id": "event-0880-provincial-appointments",
+  "title": "Provincial Appointments",
+  "description": "Provincial Appointments. Recorded under the year 266 AH (880–881 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0880-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0881-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "1"
+    }
+  ]
+}

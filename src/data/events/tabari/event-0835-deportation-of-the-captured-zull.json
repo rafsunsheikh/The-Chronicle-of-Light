@@ -1,0 +1,22 @@
+{
+  "id": "event-0835-deportation-of-the-captured-zull",
+  "title": "The Deportation of the Captured Zull",
+  "description": "Among the events taking place during this year was 'Ujayf's entry into Baghdad with the Zutt and his crushing them to the point that they had sought from him a guarantee of security, which he had granted them. They came forth to him (in surrender) in Dhu al-Hijjah of the year 219 (December 834-January 835), on condition that he would guarantee the security of their lives and possessions. They numbered, according to what has been mentioned, 27,000, of whom iz, ooo were fighting men. `Ujayf enumerated them at 27,000 persons, men, women, and children.",
+  "startDate": "0835-01-01",
+  "category": "political",
+  "connections": [
+    "event-0833-ishaq-s-interrogation-at-baghdad-of-a-further",
+    "event-0845-reason-for-the-rebellion-of-the-baghdad-group"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33"
+    }
+  ]
+}

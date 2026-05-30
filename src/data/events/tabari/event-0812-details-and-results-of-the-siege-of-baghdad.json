@@ -1,0 +1,24 @@
+{
+  "id": "event-0812-details-and-results-of-the-siege-of-baghdad",
+  "title": "Details and Results of the Siege of Baghdad",
+  "description": "According to Muhammad b. Yazid al-Tamimi and others: Zuhayr b. al-Musayyab al-I?abbi encamped at the Palace of Raqqat Kalwadhi.498 He set up siege engines-manjanigs and arradahs499-and dug ditches. He would go out during 497. Parallels: Ya'qubi, 11, 5351 Mas'udi, VI, 447-721 Ibn al-Athir, VI, 188-941 Fragmenta, 332-34. 498. This palace (the name means \"the palace of the plain or marsh of Kalwidhi \") was built by al-Amin on the east bank of the Tigris, near the town of Kalwidhi, about 6 miles south of the Lower Bridge of Baghdad.",
+  "startDate": "0812-01-01",
+  "category": "military",
+  "connections": [
+    "event-0811-abortive-coup-of-al-husayn-b-ali-b",
+    "event-0812-tahir-forbids-boatmen-to-bring-anything-to-baghdad"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "134"
+    }
+  ]
+}

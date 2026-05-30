@@ -1,0 +1,16 @@
+{
+  "id": "event-0692-those-in-office-during-the-year",
+  "title": "Those in Office during the Year",
+  "description": "Those in Office during the Year. Recorded under the year 73 AH (692–693 CE) in al-Tabari's History, volume 21.",
+  "startDate": "0692-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0693-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "234"
+    }
+  ]
+}

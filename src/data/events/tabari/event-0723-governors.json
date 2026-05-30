@@ -1,0 +1,16 @@
+{
+  "id": "event-0723-governors",
+  "title": "Governors",
+  "description": "Governors. Recorded under the year 105 AH (723–724 CE) in al-Tabari's History, volume 25.",
+  "startDate": "0723-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0724-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "7"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "event-0812-some-aspects-of-the-conduct-and-mode-of",
+  "title": "Some Aspects of the Conduct and Mode of Life of the Deposed Muhammad b. Harun",
+  "description": "Deposed Muhammad b. Hdrun762 According to Humayd b. Said, who said: After he became ruler and after al-Ma'mun wrote to him and gave him his allegiance, Muhammad sought out eunuchs and purchased them, spending inordinately on them. He appointed them to [attend on] his private quarters by night and by day, his provisions of food and drink, and his decisions commanding or forbidding.",
+  "startDate": "0812-01-01",
+  "category": "political",
+  "connections": [
+    "event-0811-al-amin-imprisons-asad-b-yazid-and-dispatches",
+    "event-0817-al-ma-mun-s-designation-of-the-eighth"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0813-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "225"
+    }
+  ]
+}

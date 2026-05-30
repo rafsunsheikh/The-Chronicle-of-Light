@@ -1,0 +1,16 @@
+{
+  "id": "event-0891-abu-ahmad-returns-from-al-jabal",
+  "title": "Abu Ahmad Returns from al-Jabal",
+  "description": "Abu Ahmad Returns from al-Jabal. Recorded under the year 278 AH (891–892 CE) in al-Tabari's History, volume 37.",
+  "startDate": "0891-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0892-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "165"
+    }
+  ]
+}

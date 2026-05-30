@@ -1,0 +1,16 @@
+{
+  "id": "event-0643-sources-of-the-conflicting-report-of-umar-s",
+  "title": "The Sources of [the Conflicting Report of 'Umar's Death",
+  "description": "The Sources of [the Conflicting Report of 'Umar's Death. Recorded under the year 22 AH (643–644 CE) in al-Tabari's History, volume 14.",
+  "startDate": "0643-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0644-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 14",
+      "page": "93"
+    }
+  ]
+}

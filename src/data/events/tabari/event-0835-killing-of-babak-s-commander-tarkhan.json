@@ -1,0 +1,18 @@
+{
+  "id": "event-0835-killing-of-babak-s-commander-tarkhan",
+  "title": "The Killing of Babak 's Commander Tarkhan",
+  "description": "The Killing of Babak 's Commander Tarkhan. Recorded under the year 220 AH (835 CE) in al-Tabari's History, volume 33.",
+  "startDate": "0835-01-01",
+  "category": "political",
+  "connections": [
+    "event-0835-clashes-of-bugha-al-kabir-and-al-afshin",
+    "event-0837-ai-afshin-s-bringing-of-babak-and-his"
+  ],
+  "confidence": "auto-imported",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "43"
+    }
+  ]
+}

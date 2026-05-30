@@ -1,0 +1,16 @@
+{
+  "id": "event-0880-reason-for-this-engagement",
+  "title": "The Reason for This Engagement",
+  "description": "It is reported that the leader of the Zanj ordered the procurement of barges. These were constructed for him and added to those used in military operations. He divided his barges into three groups led by Bahbudh, Nasr al-Rumi and Ahmad b. alZaranji respectively. Each commander was made responsible for his group. There were some fifty barges to a squadron. He manned them with archers and lancers, and an effort was made to bring their equipment and arms into perfect condition.",
+  "startDate": "0880-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0881-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 37",
+      "page": "54"
+    }
+  ]
+}

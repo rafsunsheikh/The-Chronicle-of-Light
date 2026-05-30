@@ -1,0 +1,24 @@
+{
+  "id": "event-0736-pilgrimage-and-governors",
+  "title": "Pilgrimage and Governors",
+  "description": "In this year, Muhammad b. Hisham led the pilgrimage while he was governor of Mecca, al-Madinah, and al-Ta'if. It has been said that the governor of al-Madinah in this year was Khalid b. 'Abd atMalik and that Muhammad b. Hisham during it held (only) Mecca 473. He is Abu Bakr b. Muhammad b. 'Amr b. Hazen al-Najjiri al-Khazraji, governor of al-Madinah for al-Walid, Sulayman and Umar b. 'Abd al-'Aziz and also sometimes in charge of the judiciary.",
+  "startDate": "0736-01-01",
+  "category": "political",
+  "connections": [
+    "event-0736-hisham-dismisses-khalid-b-abd-al-malik-from",
+    "event-0747-battle-of-qudayd-by-madinah"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0737-12-31",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "129"
+    }
+  ]
+}

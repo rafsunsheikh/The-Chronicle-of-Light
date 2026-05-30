@@ -1,0 +1,25 @@
+{
+  "id": "event-0722-appointment-of-muslim-b-said-as-governor-of",
+  "title": "The Appointment of Muslim b. Said as Governor of Khurasan",
+  "description": "Khurasan According to 'Ali b. Muhammad-Abu al-Dhayyal, 'Ali b. Mujihid, and others: When Said b. Aslam was killed, al-Hajjaj took his son, Muslim b. Said, and raised him together with his own children, providing him with an excellent education. When 'Adi b. Arlat arrived,\"' he wanted to confer an appointment upon Muslim, so he consulted with his scribe, who said, \"(First) give him a minor appointment and then promote him.\" 'Adi put him in charge of a certain province, where he established himself, doing a fine job of managing its affairs.",
+  "startDate": "0722-01-01",
+  "category": "political",
+  "connections": [
+    "event-0720-slaying-of-yazid-b-abi-muslim",
+    "event-0722-umar-b-hubayrah-s-dismissal-of-said-b",
+    "event-0724-asad-b-abdallah-al-qasri-in-khurasin"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0723-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "187"
+    }
+  ]
+}

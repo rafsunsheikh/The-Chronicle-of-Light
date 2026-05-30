@@ -1,0 +1,23 @@
+{
+  "id": "event-0634-continuation-of-the-report-of-abu-zayd-z8",
+  "title": "Continuation of the Report of Abu Zayd /, z8 [Abu Bakr's Illness and Death",
+  "description": "`Ali b. Muhammad, according to his isndd, which has been mentioned before: Khalid came to Damascus, and the governor of Bu$ra massed [his forces) against him. Khalid set out against him, he and `Abu `Ubaydah. Adrunjar met them, and Khalid triumphed over them, defeating them so that they entered their fortress and sought a peace agreement. He made peace with them on condition that [they pay] a dinar for each person every year, and a jarib\", of wheat. Then the enemy came back against the Muslims. The Muslims' troops came all together to Ajnadayn.",
+  "startDate": "0634-03-07",
+  "category": "political",
+  "connections": [
+    "event-0634-expedition-of-fihl-and-the-conquest-of-damascus"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "name": "Damascus, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "133"
+    }
+  ]
+}

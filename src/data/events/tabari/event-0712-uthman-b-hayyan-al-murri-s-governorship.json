@@ -1,0 +1,16 @@
+{
+  "id": "event-0712-uthman-b-hayyan-al-murri-s-governorship",
+  "title": "'Uthman b. Hayyan al- Murri's] Governorship",
+  "description": "206-9, 214",
+  "startDate": "0712-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0713-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "206"
+    }
+  ]
+}

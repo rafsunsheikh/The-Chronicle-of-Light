@@ -1,0 +1,23 @@
+{
+  "id": "event-0644-campaign-of-lal-walid-b-ugbah-in-adharbayjin",
+  "title": "The Campaign of lal-Walid b. 'Ugbah in Adharbayjin and Armenia",
+  "description": "The Campaign of lal-Walid b. 'Ugbah in Adharbayjin and Armenia. Recorded under the year 23 AH (644–645 CE) in al-Tabari's History, volume 15.",
+  "startDate": "0644-01-01",
+  "category": "military",
+  "connections": [
+    "event-0644-account-of-that-event"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0645-12-31",
+  "location": {
+    "latitude": 40.0,
+    "longitude": 44.5,
+    "name": "Armenia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "8"
+    }
+  ]
+}

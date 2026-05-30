@@ -1,0 +1,16 @@
+{
+  "id": "event-0866-death-of-al-mustain",
+  "title": "The Death of al-Mustain",
+  "description": "The Death of al-Mustain. Recorded under the year 252 AH (866–867 CE) in al-Tabari's History, volume 35.",
+  "startDate": "0866-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0867-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 35",
+      "page": "132"
+    }
+  ]
+}

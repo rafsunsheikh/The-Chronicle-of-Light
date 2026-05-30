@@ -1,0 +1,25 @@
+{
+  "id": "event-0762-reason-abu-ja-far-built-baghdad",
+  "title": "The Reason Abu Ja'far Built Baghdad",
+  "description": "The reason for that is as follows: Tradition has it that at the time when the caliphate devolved upon Abu Ja`far al-Mansur, he built al-Hashimiyyah opposite Madinat Ibn Hubayrah.1094 Between the 1092. Ibrahim's edition, VII, 614, vocalizes this as Mis`ar. 1093.",
+  "startDate": "0762-01-01",
+  "category": "cultural",
+  "connections": [
+    "event-0758-rawandiyyah-affair-and-how-abu-ja-far-al",
+    "event-0774-some-stories-about-al-mansur-and-his-conduct",
+    "event-0802-al-rashid-s-subsequent-renewal-of-the-succession"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0763-12-31",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "237"
+    }
+  ]
+}

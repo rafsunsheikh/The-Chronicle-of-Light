@@ -1,0 +1,19 @@
+{
+  "id": "event-0689-those-in-office-during-the-year",
+  "title": "Those in Office during the Year",
+  "description": "Abdallah b. al-Zubayr led the pilgrimage this year. His governors in charge of the garrison cities during this year were his agents of the previous year in charge of finances6O7 and the judiciary. 607. Ma' dwin seems here to be used generally for \"financial matters, taxes.\" See Dozy, Supplement, II, 191; and note 446, above.",
+  "startDate": "0689-01-01",
+  "category": "political",
+  "connections": [
+    "event-0688-those-in-office-during-the-year",
+    "event-0690-ibn-al-zubayr-s-sermon-after-the-death"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0690-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "170"
+    }
+  ]
+}

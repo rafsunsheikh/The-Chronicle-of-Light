@@ -1,0 +1,24 @@
+{
+  "id": "event-0656-ali-sets-up-camp-at-al-zawiyah-of",
+  "title": "'Ali Sets Up Camp at al-Zawiyah of al-Basrah",
+  "description": "According to `Umar b. Shabbah-Abu al-Hasan-Maslamah b. Muharib-Qatadah: `Ali set up camp at al-Zawiyah for a few days, and al-Ahnaf sent a message to him: \" If you wish I personally will join you, or if you wish I will prevent 4,000 swords736 from attacking you.\" \"How so, considering how you have promised neutrality to your followers?\" came back 'Ali's reply. \" But to fight them is to fulfill my promise to Almighty and Glorious Allah,\" replied al-Ahnaf.",
+  "startDate": "0656-01-01",
+  "category": "political",
+  "connections": [
+    "event-0656-account-of-ali-b-abi-talib-s-advance",
+    "event-0656-ali-s-grief-over-those-killed-at-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "114"
+    }
+  ]
+}

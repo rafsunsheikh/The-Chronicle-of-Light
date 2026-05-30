@@ -1,0 +1,23 @@
+{
+  "id": "event-0789-death-of-muhammad-b-sulayman-and-the-confiscation",
+  "title": "The Death of Muhammad b. Sulayman and the Confiscation of His Fortune",
+  "description": "and the Confiscation of His Fortune Among the events taking place during this year was the death of Muhammad b. Sulayman4m at al-Bagrah a few nights before the end of Jumada II (mid-November 789). It has been mentioned that when Muhammad b. Sulaymin died, al-Rashid despatched an agent for every category of what Muhammad b. Sulaymin had left behind, ordering him to select the best items from it.",
+  "startDate": "0789-01-01",
+  "category": "political",
+  "connections": [
+    "event-0833-al-ma-mfin-and-the-poet-of-tamim"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0790-12-31",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "105"
+    }
+  ]
+}

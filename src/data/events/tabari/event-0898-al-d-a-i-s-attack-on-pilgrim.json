@@ -1,0 +1,24 @@
+{
+  "id": "event-0898-al-d-a-i-s-attack-on-pilgrim",
+  "title": "Al-'D'a'i's attack on pilgrim caravan",
+  "description": "Al-'D'a'i's attack on pilgrim caravan. Recorded under the year 285 AH (898–899 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0898-01-01",
+  "category": "military",
+  "connections": [
+    "event-0895-considering-the-varied-number-of-events-mentioned-under",
+    "event-0900-military-encounters-with-byzantines"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0899-12-31",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "74"
+    }
+  ]
+}

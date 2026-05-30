@@ -1,0 +1,26 @@
+{
+  "id": "event-0753-visit-of-abu-muslim-to-abu-al-abbas",
+  "title": "The Visit of Abu Muslim to Abu al-'Abbas in Iraq",
+  "description": "The Visit of Abu Muslim to Abu al-'Abbas in Iraq. Recorded under the year 135 AH (753–754 CE) in al-Tabari's History, volume 27.",
+  "startDate": "0753-07-07",
+  "category": "political",
+  "connections": [
+    "event-0745-yazid-b-umar-b-hubayrah-is-sent-to",
+    "event-0753-abu-ja-far-the-abbasid-and-abu-muslim",
+    "event-0753-rebellion-of-ziyad-b-salih-in-transoxania",
+    "event-0761-reason-the-descendants-of-hasan-were-transported-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0754-06-26",
+  "location": {
+    "latitude": 32.5,
+    "longitude": 44.5,
+    "name": "Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "209"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "event-0632-story-of-tahir-when-he-marched-to-reinforce",
+  "title": "The Story of Tahir When He Marched to Reinforce Fayruz",
+  "description": "Fayruz Abu Ja`far al -Tabari said: Abu Bakr had written to Tahir b. Abi Halah and to Masruq to go down to $an`a' and to assist the Abna'; so the two of them went out until they came to $an`a'. and he wrote [also] to `Abdallah b. Thawr b. Asghar'° 72 to gather",
+  "startDate": "0632-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 15.5,
+    "longitude": 48.5,
+    "name": "Hadramawt, Yemen"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 10",
+      "page": "175"
+    }
+  ]
+}

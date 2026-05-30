@@ -1,0 +1,24 @@
+{
+  "id": "event-0834-rebellion-of-the-alid-muhammad-b-al-qasim",
+  "title": "The Rebellion of the 'Alid Muhammad b. al-Qasim at alTalagan",
+  "description": "at al-7'dlagan Among the events taking place during this year was the rebellion, at al-Talagan14 in Khurasan, of Muhammad b. al-Qdsim b. 'Umar b. All b. al-llusayn b. 'Ali b. Abi Talib,15 summoning people to the cause of \"the well-pleasing one from the family of Muhammad \" (al-ridd16 min dl Muhammad. A considerable number of people there rallied to his side, and military encounters took place in the vicinity of al-Talagan and the mountains there between him and 'Abdallah b. Tahir's17 14.",
+  "startDate": "0834-01-16",
+  "category": "military",
+  "connections": [
+    "event-0821-al-hasan-b-al-husayn-al-mus-abi",
+    "event-0838-story-of-the-poet-abu-shas"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0835-01-04",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "5"
+    }
+  ]
+}

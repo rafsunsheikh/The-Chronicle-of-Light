@@ -1,0 +1,23 @@
+{
+  "id": "event-0737-story-of-this-campaign-in-al-khuttal",
+  "title": "The Story of This Campaign in al-Khuttal",
+  "description": "According to All b. Muhammad-his authorities: Ibn al-Sa'iji >9 wrote to the Khagan Abu Muzalzim -he was only given the patronymic Abu Muzahim because he used to put the Arabs in",
+  "startDate": "0737-01-01",
+  "category": "military",
+  "connections": [
+    "event-0725-campaign-of-asad-in-al-khuttal",
+    "event-0737-asad-s-campaign-against-al-khuttal-this-campaign"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 37.9,
+    "longitude": 69.8,
+    "name": "Khuttal (SW Tajikistan)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "131"
+    }
+  ]
+}

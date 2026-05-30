@@ -1,0 +1,23 @@
+{
+  "id": "event-0826-ahmad-b-yusuf-s-letter-of-congratulation-to",
+  "title": "Ahmad b. Yusuf's letter of congratulation to 'Abdallah on his restoration of order in Egypt",
+  "description": "Ahmad b. Yusuf's letter of congratulation to 'Abdallah on his restoration of order in Egypt. Recorded under the year 211 AH (826–827 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0826-01-01",
+  "category": "political",
+  "connections": [
+    "event-0791-reason-behind-al-rashid-s-appointment-of-ja"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0827-12-31",
+  "location": {
+    "latitude": 30.007,
+    "longitude": 31.23,
+    "name": "Egypt (Fustat)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "172"
+    }
+  ]
+}

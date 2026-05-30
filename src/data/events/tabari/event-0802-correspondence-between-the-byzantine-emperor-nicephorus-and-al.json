@@ -1,0 +1,25 @@
+{
+  "id": "event-0802-correspondence-between-the-byzantine-emperor-nicephorus-and-al",
+  "title": "The Correspondence between the Byzantine Emperor Nicephorus and al-Rashid on the Occasion of the Former 's Breaking the Peace Agreement, and the Caliph's Punitive Measures against the Byzantines",
+  "description": "Nicephorus and al-Rashid on the Occasion of the Fortner's Breaking the Peace Agreement, and the Caliph's Punitive Measures against the Byzantines The reason for the Byzantines' breaking that peace agreement was that there had been a peace agreement in operation between the Muslims and the ruler of Byzantium, their ruler being at that time Irene [ Rini ] (we have already mentioned previously the occasion of the peace agreement which existed between her [or, between the Byzantines, al-Rion ] and the Muslims).",
+  "startDate": "0802-01-01",
+  "category": "political",
+  "connections": [
+    "event-0786-various-items-of-information",
+    "event-0802-al-rashid-receives-the-allegiance-of-the-local",
+    "event-0802-killing-of-ja-far",
+    "event-0805-various-campaigns-by-al-rashid-against-the-byzantines"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 39.0,
+    "longitude": 33.0,
+    "name": "Byzantine Anatolia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "239"
+    }
+  ]
+}

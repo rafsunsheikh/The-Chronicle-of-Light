@@ -1,0 +1,25 @@
+{
+  "id": "event-0799-various-items-of-information",
+  "title": "Various Items of Information",
+  "description": "In this year, al-Rashid wrote to 'Ali b. 'Isa b. Mahin, who was at that time (governor) in Khurisan, to come to him. The reason for his despatch to 'Ali with these instructions was that a rumor had been brought to his notice and he had been informed that 'Ali had determined upon an act of rebelliousness. So 'Ali b.",
+  "startDate": "0799-01-01",
+  "category": "political",
+  "connections": [
+    "event-0796-various-items-of-information",
+    "event-0802-al-rashid-s-journeying-to-al-rayy-in",
+    "event-0802-al-rashid-s-succession-arrangements-for-his-three"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0800-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "171"
+    }
+  ]
+}

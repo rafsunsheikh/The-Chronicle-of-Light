@@ -1,0 +1,23 @@
+{
+  "id": "event-0914-campaign-against-byzantines",
+  "title": "Campaign against Byzantines",
+  "description": "Campaign against Byzantines. Recorded under the year 301 AH (914–915 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0914-01-01",
+  "category": "military",
+  "connections": [
+    "event-0873-account-of-the-battle-in-tabaristin"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0915-12-31",
+  "location": {
+    "latitude": 36.4,
+    "longitude": 52.5,
+    "name": "Tabaristan (Mazandaran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "207"
+    }
+  ]
+}

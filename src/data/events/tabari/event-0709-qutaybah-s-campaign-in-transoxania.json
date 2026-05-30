@@ -1,0 +1,23 @@
+{
+  "id": "event-0709-qutaybah-s-campaign-in-transoxania",
+  "title": "Qutaybah 's Campaign in Transoxania",
+  "description": "Qutaybah 's Campaign in Transoxania. Recorded under the year 90 AH (709–710 CE) in al-Tabari's History, volume 23.",
+  "startDate": "0709-01-01",
+  "category": "military",
+  "connections": [
+    "event-0720-said-khudhaynah-s-military-expedition-against-the-soghdians"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0710-12-31",
+  "location": {
+    "latitude": 39.7,
+    "longitude": 65.7,
+    "name": "Transoxania (between Oxus & Jaxartes)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 23",
+      "page": "174"
+    }
+  ]
+}

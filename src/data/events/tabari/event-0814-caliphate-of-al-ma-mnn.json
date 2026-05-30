@@ -1,0 +1,16 @@
+{
+  "id": "event-0814-caliphate-of-al-ma-mnn",
+  "title": "The Caliphate of al-Ma'mnn",
+  "description": "The Caliphate of al-Ma'mnn. Recorded under the year 198 AH (814–815 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0814-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0815-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "9"
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+[
+  {
+    "id": "tabari-v31-193-001",
+    "title": "The Succession of Muhammad al-Amin as Caliph",
+    "description": "",
+    "hijriYear": 193,
+    "ceLabel": "809–810",
+    "startDate": "0809-10-15",
+    "endDate": "0810-10-03",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": null,
+      "ceRaw": "OCTOBER 15, 809-OCTOBER 3, 810"
+    }
+  },
+  {
+    "id": "tabari-v31-193-002",
+    "title": "Causes of the Discord between al -Amin and al-Ma'mun",
+    "description": "",
+    "hijriYear": 193,
+    "ceLabel": "809–810",
+    "startDate": "0809-10-15",
+    "endDate": "0810-10-03",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 4,
+      "ceRaw": "OCTOBER 15, 809-OCTOBER 3, 810"
+    }
+  },
+  {
+    "id": "tabari-v31-193-003",
+    "title": "The Letter of Muhammad al-Amin to His Brother 'Abdallah al-Ma'mun",
+    "description": "",
+    "hijriYear": 193,
+    "ceLabel": "809–810",
+    "startDate": "0809-10-15",
+    "endDate": "0810-10-03",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 6,
+      "ceRaw": "OCTOBER 15, 809-OCTOBER 3, 810"
+    }
+  },
+  {
+    "id": "tabari-v31-193-004",
+    "title": "The Letter of Muhammad al-Amin to His Brother $alih",
+    "description": "",
+    "hijriYear": 193,
+    "ceLabel": "809–810",
+    "startDate": "0809-10-15",
+    "endDate": "0810-10-03",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 8,
+      "ceRaw": "OCTOBER 15, 809-OCTOBER 3, 810"
+    }
+  },
+  {
+    "id": "tabari-v31-193-005",
+    "title": "Various Items of Information",
+    "description": "",
+    "hijriYear": 193,
+    "ceLabel": "809–810",
+    "startDate": "0809-10-15",
+    "endDate": "0810-10-03",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 118,
+      "ceRaw": "OCTOBER 15, 809-OCTOBER 3, 810"
+    }
+  },
+  {
+    "id": "tabari-v31-193-006",
+    "title": "The Events of the Year.194 (8o9-8ro)",
+    "description": "",
+    "hijriYear": 193,
+    "ceLabel": "809–810",
+    "startDate": "0809-10-15",
+    "endDate": "0810-10-03",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 21,
+      "ceRaw": "OCTOBER 15, 809-OCTOBER 3, 810"
+    }
+  },
+  {
+    "id": "tabari-v31-193-007",
+    "title": "Reasons for the Falling out between Muhammad al-Amin and 'Abdallah al-Ma'mun",
+    "description": "",
+    "hijriYear": 193,
+    "ceLabel": "809–810",
+    "startDate": "0809-10-15",
+    "endDate": "0810-10-03",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 22,
+      "ceRaw": "OCTOBER 15, 809-OCTOBER 3, 810"
+    }
+  },
+  {
+    "id": "tabari-v31-193-008",
+    "title": "Various Items of Information",
+    "description": "",
+    "hijriYear": 193,
+    "ceLabel": "809–810",
+    "startDate": "0809-10-15",
+    "endDate": "0810-10-03",
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 44,
+      "ceRaw": "OCTOBER 15, 809-OCTOBER 3, 810"
+    }
+  },
+  {
+    "id": "tabari-v31-195-009",
+    "title": "Al-Amin Forbids Prayer for al-Ma'mun and al-Qasim as Heirs",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 47,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-010",
+    "title": "'Ali b. Isa b. Mahan Assigned Command of al-Jabal",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 48,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-011",
+    "title": "'Ali b. 'Isa b. Mahan Goes to al-Rayy to Fight the Forces of al-Ma'mun",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 49,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-012",
+    "title": "Al-Amin Sends 'Abd al-Rahman b. Jabalah to Fight Tahir",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 84,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-013",
+    "title": "Tahir b. al-Husayn Named Dhu al-Yaminayn",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 87,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-014",
+    "title": "The Rebellion of al-Sufyani in Syria",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 88,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-015",
+    "title": "Tahir Expels al-Amin 's Agents from al-Jibal Province",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 88,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-016",
+    "title": "The Death of 'Abd al -Rahman b. Jabalah al-Abnawi",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 89,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-017",
+    "title": "Various Items of Information",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 91,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-018",
+    "title": "Al-Amin Imprisons Asad b. Yazid and Dispatches Ahmad b. Mazyad to Fight Tahir / 9z Al-Ma'mun Raises the Rank of al-Fadl b. Sahl /,or 'Abd al-Malik b. $alih Appointed Governor of Syria",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 102,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-019",
+    "title": "Abd al-Malik b. $alih Recruits Troops in Syria for al-Amin",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 104,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-020",
+    "title": "The Abortive Coup of al -Husayn b. 'Ali b. Isa b. Mahan against al-Amin in Baghdad / rob The Death of Muhammad b. Yazid al-Muhallabi and Tl hir's Entry into al-Ahwaz",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 1114,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-021",
+    "title": "Tahir Takes al-Mada'in and Marches toward $arsar",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 1120,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-022",
+    "title": "The Governor of Mecca Casts off Allegiance to al-Amin",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 124,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-023",
+    "title": "Harthamah b. A'yan Defeats al-Amin 's Forces",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 29,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-195-024",
+    "title": "Some of Tahir's Men Go over to al-Amin",
+    "description": "",
+    "hijriYear": 195,
+    "ceLabel": "811",
+    "startDate": "0811-09-23",
+    "endDate": null,
+    "datePrecision": "day",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 130,
+      "ceRaw": "SEPTEMBER 23, 81I - SEPTEMBER II, 812"
+    }
+  },
+  {
+    "id": "tabari-v31-196-025",
+    "title": "Details and Results of the Siege of Baghdad",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 134,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-026",
+    "title": "The Battle at Qasr $alih",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 150,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-027",
+    "title": "Tahir Forbids Boatmen to Bring Anything to Baghdad",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 156,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-028",
+    "title": "The Battle of al-Kunasah",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 159,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-029",
+    "title": "The Battle of Darb al-Hijarah",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 162,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-030",
+    "title": "The Battle of al-Shammasiyyah Gate",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 64,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-031",
+    "title": "Tahir Captures Baghdad",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 173,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-032",
+    "title": "The Death of al-Amin",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 182,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-033",
+    "title": "The Army Mutinies against Tahir / zo6 A Description of Muhammad b. Harun, His Agnomen, the Length of His Reign, and His Age",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 2110,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-034",
+    "title": "Poems Composed about Muhammad b. Harun and Elegies for Him",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 2112,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-035",
+    "title": "Some Aspects of the Conduct and Mode of Life of the Deposed Muhammad b. Harun",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 225,
+      "ceRaw": "812-813"
+    }
+  },
+  {
+    "id": "tabari-v31-196-036",
+    "title": "Bibliography of Cited Works / z5' Index",
+    "description": "",
+    "hijriYear": 196,
+    "ceLabel": "812–813",
+    "startDate": "812",
+    "endDate": "813",
+    "datePrecision": "year-range",
+    "location": null,
+    "category": null,
+    "connections": [],
+    "source": {
+      "work": "The History of al-Tabari",
+      "volume": "31",
+      "page": 257,
+      "ceRaw": "812-813"
+    }
+  }
+]

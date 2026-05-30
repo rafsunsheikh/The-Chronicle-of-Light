@@ -1,0 +1,22 @@
+{
+  "id": "event-0737-campaign-of-kharistan",
+  "title": "The Campaign of Kharistan",
+  "description": "Asad then went on until he stopped at al-Sidrah, a village by Balkh. In charge of the cavalry of the Ahl al-'Aliyah was Rayhan b. Ziyad al-'Amiri al-'Abdalli of the Banu 'Abdallih b. Kab. Asad removed him, putting Mansur b. Silim512 in charge of the Ahi al-'Aliyah. Then he left al-Sidrah, encamping at Kharistan. Asad heard the neighing of a horse and asked, \"Whose is this?\" He was told, \"It belongs to al-'Aggar b.",
+  "startDate": "0737-01-01",
+  "category": "military",
+  "connections": [
+    "event-0737-reason-for-asad-s-death"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.76,
+    "longitude": 66.9,
+    "name": "Balkh, Afghanistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "143"
+    }
+  ]
+}

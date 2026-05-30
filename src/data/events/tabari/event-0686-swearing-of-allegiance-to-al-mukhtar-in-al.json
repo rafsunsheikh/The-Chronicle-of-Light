@@ -1,0 +1,26 @@
+{
+  "id": "event-0686-swearing-of-allegiance-to-al-mukhtar-in-al",
+  "title": "The Swearing of Allegiance to al-Mukhtar in al-Basrah",
+  "description": "a]-Basrah] According to Abu Ja`far [sc. al-Tabari]: In this year, al-Muthanna b. Mukharribah al-Abdi summoned the people of al-Basrah to swear allegiance to al-Mukhtar. According to Ahmad b. Zuhayr178-Ali b. Muhammad (alMada'ini]179-Abdallah b. Atiyyah al-Laythi and Amir b. alAswad: Al-Muthanna b. Mukharribah al-`Abdi was among those who had witnessed [the Battle of ] 'Ayn al-Wardah with Sulayman b. $urad. Afterwards, he returned with the surviving Tawwabun who returned to al-Kufah. Al-Mukhtar was then being detained.",
+  "startDate": "0686-07-28",
+  "category": "political",
+  "connections": [
+    "event-0686-al-mukhtar-acts-against-the-murderers-of-al",
+    "event-0686-al-mukhtar-acts-against-the-slayers-of-al",
+    "event-0686-al-mukhtar-s-motive-in-sending-this-army",
+    "event-0686-al-mukhtar-sends-an-army-to-trick-ibn"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0687-07-17",
+  "location": {
+    "latitude": 30.5085,
+    "longitude": 47.7836,
+    "name": "Basra, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "45"
+    }
+  ]
+}

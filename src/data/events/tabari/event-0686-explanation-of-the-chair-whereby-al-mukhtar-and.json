@@ -1,0 +1,19 @@
+{
+  "id": "event-0686-explanation-of-the-chair-whereby-al-mukhtar-and",
+  "title": "An Explanation of the Chair Whereby al-Mukhtar and His Companions Prayed for Assistance",
+  "description": "His Companions Prayed forAssistance267 According to Abu Ja `far [sc. al-Tabari ]: Its origin was as follows, according to what I was told by `Abdallah b. Ahmad b. Shabbawayh, from his father, from Sulayman, 268 from Abdallah b. alMubarak, 269 from Ishaq b. Yahya270 b. Talhah, from Ma'bad b. Khalid [al-Jadali], from Tufayl b. ja`dah b. Hubayrah, who said: I was once in need of money. While in that state, I went out one day and came upon an oil merchant, a neighbor of mine, who had a chair covered with a thick [coat of ] filth.",
+  "startDate": "0686-07-28",
+  "category": "political",
+  "connections": [
+    "event-0686-al-mukhtar-s-motive-in-sending-this-army",
+    "event-0686-mus-ab-b-al-zubayr-defeats-al-mukhtar"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0687-07-17",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "69"
+    }
+  ]
+}

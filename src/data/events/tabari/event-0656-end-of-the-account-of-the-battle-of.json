@@ -1,0 +1,23 @@
+{
+  "id": "event-0656-end-of-the-account-of-the-battle-of",
+  "title": "The End of the Account of the Battle of the Camel 'Ali b. Abi Talib Sends Qays b. Sad b. 'Ubadah to Be Ruler of Egypt Muhammad b. Abi Bakr's Governorship of Egypt",
+  "description": "The End of the Account of the Battle of the Camel 'Ali b. Abi Talib Sends Qays b. Sad b. 'Ubadah to Be Ruler of Egypt Muhammad b. Abi Bakr's Governorship of Egypt. Recorded under the year 35 AH (656–657 CE) in al-Tabari's History, volume 16.",
+  "startDate": "0656-01-01",
+  "category": "military",
+  "connections": [
+    "event-0647-conquest-of-ifrigiyah-and-the-reason-for-the"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0657-12-31",
+  "location": {
+    "latitude": 30.007,
+    "longitude": 31.23,
+    "name": "Egypt (Fustat)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 16",
+      "page": "187"
+    }
+  ]
+}

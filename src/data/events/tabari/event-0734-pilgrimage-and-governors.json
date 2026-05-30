@@ -1,0 +1,16 @@
+{
+  "id": "event-0734-pilgrimage-and-governors",
+  "title": "Pilgrimage and Governors",
+  "description": "Pilgrimage and Governors. Recorded under the year 116 AH (734–735 CE) in al-Tabari's History, volume 25.",
+  "startDate": "0734-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0735-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "110"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "event-0629-other-notices",
+  "title": "Other Notices",
+  "description": "In this year the Messenger of God sent al-'Ala' b. al-Iiadrami to alMundhir b. Sawa al= Abd1602 and wrote to him a letter containing the following: In the name of God, the Merciful and Compassionate. From Muhammad the Prophet, Messenger of God, to alMundhir b. Sawa: Peace be upon you! I praise to you God, save Whom there is no god. To proceed: I have received your letter and your messengers.",
+  "startDate": "0629-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0630-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "142"
+    }
+  ]
+}

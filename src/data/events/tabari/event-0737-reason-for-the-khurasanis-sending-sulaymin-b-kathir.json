@@ -1,0 +1,23 @@
+{
+  "id": "event-0737-reason-for-the-khurasanis-sending-sulaymin-b-kathir",
+  "title": "The Reason for the Khurasanis' Sending Sulaymin b. Kathir to Muhammad b. 'All 1171 The Reason for Hisham's Dismissal of Khilid al-Qasri",
+  "description": "Sulayman b. Kathir to Muhammad b. 'Ali The reason for that was the anger of Muhammad b. 'Ali against those of his party who were in Khurisin, owing to their having obeyed Khidash, whose story we have referred to before, and their (16401 acceptance from him of those lies that were transmitted on his authority. Therefore, Muhammad ceased writing to them. When his letter was slow in coming to them, they met, making mention of that among themselves. They resolved on the appointment of Sulayman b.",
+  "startDate": "0737-01-01",
+  "category": "political",
+  "connections": [
+    "event-0736-asad-in-khurasan",
+    "event-0737-reason-for-nasr-b-sayyir-s-governorship-of"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "172"
+    }
+  ]
+}

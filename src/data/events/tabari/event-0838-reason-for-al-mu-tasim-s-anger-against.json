@@ -1,0 +1,20 @@
+{
+  "id": "event-0838-reason-for-al-mu-tasim-s-anger-against",
+  "title": "The Reason for al-Mu'tasim 's Anger against al-Afshin and His Imprisoning Him",
+  "description": "and His Imprisoning Him",
+  "startDate": "0838-01-01",
+  "category": "political",
+  "connections": [
+    "event-0838-reason-behind-minkajur-s-rebellion-in-adharbayjan",
+    "event-0838-reason-for-mazyar-s-open-rebellion-against-al",
+    "event-0841-al-mu-tasim-s-fatal-illness-the-length"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0839-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "180"
+    }
+  ]
+}

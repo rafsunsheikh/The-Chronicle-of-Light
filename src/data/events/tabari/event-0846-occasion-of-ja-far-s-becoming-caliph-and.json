@@ -1,0 +1,19 @@
+{
+  "id": "event-0846-occasion-of-ja-far-s-becoming-caliph-and",
+  "title": "The Occasion of Ja'far 's Becoming Caliph and the Period of His Caliphate",
+  "description": "Period of His Caliphate I was informed by more than one authority that when al-Wathiq died Ahmad b. Abi Du'ad, Itakh, Waif, 'Umar b. Faraj, Ibn alZayyat, and Ahmad b. Khalid Abu al-Wazir were present in his",
+  "startDate": "0846-01-01",
+  "category": "political",
+  "connections": [
+    "event-0846-some-reports-about-al-wathiq",
+    "event-0847-reason-for-al-mutawakkil-s-anger-at-muhammad"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0847-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 34",
+      "page": "61"
+    }
+  ]
+}

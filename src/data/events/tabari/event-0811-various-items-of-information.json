@@ -1,0 +1,23 @@
+{
+  "id": "event-0811-various-items-of-information",
+  "title": "Various Items of Information",
+  "description": "In this year, the governor of Mecca and Medina for Muhammad b. Harun was Dawud b. Isa b. Musa b. Muhammad b. All b. `Abdallah b. Abbas. It was he who led the pilgrimage in this year and in the two years preceding-193 and 194. Al-`Abbas b. Musa al-Hidi was governor of al-Kufah for Muhammad. Manqur b. al-Mahdi was governor of al-Ba*rah for Muhammad. Al-Ma'mun was in Khurasan; his brother Muhammad was in Baghdad 351 35o. The word suq (\"market \") is frequent in military metaphors.",
+  "startDate": "0811-09-23",
+  "category": "political",
+  "connections": [
+    "event-0762-uprising-of-the-blacks-in-medina-in-this",
+    "event-0843-account-of-the-dispatch-of-bugha-al-kabir"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 31",
+      "page": "91"
+    }
+  ]
+}

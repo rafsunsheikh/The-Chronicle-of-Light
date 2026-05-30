@@ -1,0 +1,19 @@
+{
+  "id": "event-0719-death-of-umar-b-abd-al-azizj",
+  "title": "The Death of 'Umar b. 'Abd al-'Azizj",
+  "description": "According to Ahmad b. Thabit- the person he mentioned-Ishaq b. 'Isa-Abu Ma'shar: 'Umar b. 'Abd al-'Aziz died on the twentyfifth of Rajab in the year ioi (February 10, 720). Muhammad b. 'Umar reported likewise. According to al-Harith -Ibn Sa' d-Muhammad b. 'Umar'Amr b. 'Uthman: 'Umar b. 'Abd al-' Aziz died on the twentieth of Rajab in the year ioi (February 5, 720). According to Hisham-Abu Mikhnaf: ' Umar b. 'Abd al-'Aziz died on Friday the twenty -fifth of Rajab, in Dayr Sim'an, in the year ror (February 10, 720).",
+  "startDate": "0719-01-01",
+  "category": "political",
+  "connections": [
+    "event-0719-aspects-of-his-character",
+    "event-0719-escape-of-yazid-b-al-muhallab"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0720-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "91"
+    }
+  ]
+}

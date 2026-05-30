@@ -1,0 +1,24 @@
+{
+  "id": "event-0727-hisham-s-removal-of-khalid-and-his-brother",
+  "title": "Hisham's Removal of Khalid and His Brother from Khurasan",
+  "description": "and His Brother from Khurdsan The reason for that was that Asad, the brother of Khalid, was so zealous for his tribal grouping that he alienated the people. According to 'Ali b. Muhammad: Abu al-Band said to one of the Azd, \"Let me go in to your fellow tribesman \"Abd al-Rahman b. Subh; 160 commend me to him and tell him about me.\" At this he let him in. 'Abd al-Rahman b. Subh was then Asad's governor of Balkh. The Azdi said, \"May God make the amir prosper! This is Abu al-Band al-Bakri, our brother and helper. He is the poet of the people of the East.",
+  "startDate": "0727-01-01",
+  "category": "political",
+  "connections": [
+    "event-0724-asad-b-abdallah-al-qasri-in-khurasin",
+    "event-0727-abbasid-missionaries-in-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0728-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 25",
+      "page": "35"
+    }
+  ]
+}

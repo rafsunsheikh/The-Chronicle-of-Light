@@ -1,0 +1,21 @@
+{
+  "id": "event-0719-escape-of-yazid-b-al-muhallab",
+  "title": "The Escape of Yazid b. al-Muhallab",
+  "description": "According to Hisham b. Muhammad -Abu Mikhnaf: 'Umar b. 'Abd al-'Aziz, upon being addressed on behalf of Yazid b. alMuhallab at the time that he wanted to banish him to Dahlakthat is, when someone said to him, \"We fear that his tribe will attempt to recover him\"-sent Yazid back to prison,318 where he remained until he learned that 'Umar had taken ill. At this point, Yazid began to plot his escape from prison, due to his fear of Yazid b. 'Abd al- Malik, whose in-laws, the family of Abu 'Agil,319 had been tortured by him.320 Umm al-Hajjaj, the daugh317.",
+  "startDate": "0719-01-01",
+  "category": "political",
+  "connections": [
+    "event-0718-capture-of-yazid-b-al-muhallab",
+    "event-0718-umar-b-abd-al-aziz-appoints-abd-al",
+    "event-0719-aspects-of-his-character",
+    "event-0719-death-of-umar-b-abd-al-azizj"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0720-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "89"
+    }
+  ]
+}

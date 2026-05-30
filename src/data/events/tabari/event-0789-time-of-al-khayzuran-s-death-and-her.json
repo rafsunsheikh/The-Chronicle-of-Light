@@ -1,0 +1,18 @@
+{
+  "id": "event-0789-time-of-al-khayzuran-s-death-and-her",
+  "title": "The Time of al-Khayzuran's Death and Her Burial",
+  "description": "Yahyi b. al-Hasan has mentioned that his father transmitted the information to him, saying: I saw al-Rashid on the day when alKhayzurin died-this being in the year 173-wearing a Sa'idi robe (jubbah ]409 and a patched and ragged taylasdn which was tied (609] around his waist, gripping the framework of the funeral bier and walking barefoot through the mud until he reached the Cemetery of Quraysh.410 He washed his feet and then called for a pair of boots, prayed over her corpse and went down into her grave.",
+  "startDate": "0789-01-01",
+  "category": "political",
+  "connections": [
+    "event-0796-various-items-of-information"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0790-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 30",
+      "page": "107"
+    }
+  ]
+}

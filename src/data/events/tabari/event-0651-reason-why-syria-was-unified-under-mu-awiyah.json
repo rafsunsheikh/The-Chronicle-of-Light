@@ -1,0 +1,24 @@
+{
+  "id": "event-0651-reason-why-syria-was-unified-under-mu-awiyah",
+  "title": "The Reason Why (Syria) Was Unified under [Mu 'awiyah",
+  "description": "[Mu'awiyahJ It was transmitted to me in writing by al-Sari -Shu'ayb-Sayf'Abd al-Malik, al-Rabi', Abu Mujalid, Abu 'Uthman, and Abu Harithah: When Abu'Ubaydah died, he named 'Iyad b. Ghanm to succeed him in his governorship ('amal). 'Iyad was [both] his maternal uncle and the son of his father 's brother. ('Iyad) had been governor (waliya 'amalan) in the Jazirah, but'Umar b. al-Khattab 128661 had deposed him. So he attached himself to Abu 'Ubaydah in Syria and remained with him.",
+  "startDate": "0651-01-01",
+  "category": "political",
+  "connections": [
+    "event-0651-account-of-the-battles-of-the-masts-and",
+    "event-0653-exile-of-the-kufans-whom-uthman-sent-to"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0652-12-31",
+  "location": {
+    "latitude": 34.5,
+    "longitude": 37.5,
+    "name": "Greater Syria (al-Sham)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "72"
+    }
+  ]
+}

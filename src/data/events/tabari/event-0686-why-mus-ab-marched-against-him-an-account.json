@@ -1,0 +1,18 @@
+{
+  "id": "event-0686-why-mus-ab-marched-against-him-an-account",
+  "title": "Why Mus'ab Marched against Him; an Account of al-Mukhtar 's Death",
+  "description": "Mukhtar's Death According to Hisham b. Muhammad lal-Kalbil-Abu MikhnafHabib b. Budayl, who said:319 When Shabath lb. Rib'i] came to join Mus`ab, he was riding a female mule whose tail had been docked and the tip of whose ear had been cut. He had torn his tunic (qabd') and was shouting, \"Help! Help!\" Someone went to Mus`ab and told him that there was a man at the gate with his tunic torn shouting for help, and he described him. Mus'ab said, \"Yes, this is Shabath b. Rib' i; no one else would do this. Bring him in.\" Shabath was brought before Mus`ab.",
+  "startDate": "0686-07-28",
+  "category": "political",
+  "connections": [
+    "event-0686-mus-ab-b-al-zubayr-defeats-al-mukhtar"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0687-07-17",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 21",
+      "page": "85"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "event-0637-how-the-booty-acquired-at-al-mada-in",
+  "title": "How the Booty Acquired at al-Mada'in Was Distributed among the People Present at Its Conquest, Who Numbered, as Sayf Claims, in All Sixty Thousand",
+  "description": "Distributed among the People Present at Its Conquest, Who Numbered, as Sayf Claims, in All Sixty Thousand According to al-Sari-S hu'ayb-Sayf- Muhammad, Talhah, 'Amr, Sa'id and al-Muhallab: When Sa'd, afterhis arrival in al-Mada 'in, had dispatched people in pursuit of the Persians who had fled, the search party reached al-Nahrawin. Then they gradually retreated and the unbelievers marched on to Hulwin. After he had set aside the fifth, Sa'd distributed the booty among the people. Every horseman received a share to the value of twelve thousand (dirhams).",
+  "startDate": "0637-01-01",
+  "category": "military",
+  "connections": [
+    "event-0638-reason-why-those-muslims-who-moved-from-al"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0638-12-31",
+  "location": {
+    "latitude": 33.09,
+    "longitude": 44.58,
+    "name": "Ctesiphon/al-Mada'in, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 13",
+      "page": "29"
+    }
+  ]
+}

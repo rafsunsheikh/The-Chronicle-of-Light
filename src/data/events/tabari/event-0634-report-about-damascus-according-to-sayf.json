@@ -1,0 +1,24 @@
+{
+  "id": "event-0634-report-about-damascus-according-to-sayf",
+  "title": "The Report about Damascus According to Sayf",
+  "description": "Al-Sari - Shucayb - Sayf - Abu `Uthman - Khalid and `Ubadah: When God had defeated the army of al-Yarmuk and the forces of alWaqugah had fallen to pieces, when the dividing of the spoils had been completed, the fifths sent off, and the delegations dispatched, Abu cUbaydah appointed Bashir b. Ka`b b.",
+  "startDate": "0634-03-07",
+  "category": "political",
+  "connections": [
+    "event-0634-expedition-of-fihl-and-the-conquest-of-damascus",
+    "event-0688-revolt-and-death-of-amr-b-said-in"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "name": "Damascus, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "1611"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "event-0818-al-ma-mun-s-decision-to-leave-marw",
+  "title": "Al-Ma'mun's decision to leave Marw and to travel westwards and secure al-'Iraq; the murder of his minister al-Fall b. Sahl; Ibrahim b. al-Mahdi's preparations to withstand al-Ma'mun's forces",
+  "description": "Al-Ma'mun's decision to leave Marw and to travel westwards and secure al-'Iraq; the murder of his minister al-Fall b. Sahl; Ibrahim b. al-Mahdi's preparations to withstand al-Ma'mun's forces. Recorded under the year 202 AH (818 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0818-01-01",
+  "category": "political",
+  "connections": [
+    "event-0814-harthamah-b-a-yan-s-journeying-to-al"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 37.66,
+    "longitude": 62.19,
+    "name": "Merv, Turkmenistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "78"
+    }
+  ]
+}

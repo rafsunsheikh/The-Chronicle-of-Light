@@ -1,0 +1,23 @@
+{
+  "id": "event-0899-relations-with-ibn-abi-al-saj",
+  "title": "Relations with Ibn Abi al-SAj",
+  "description": "Relations with Ibn Abi al-SAj. Recorded under the year 286 AH (899–900 CE) in al-Tabari's History, volume 38.",
+  "startDate": "0899-01-01",
+  "category": "military",
+  "connections": [
+    "event-0865-al-anbar-and-the-civil-war"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0900-12-31",
+  "location": {
+    "latitude": 33.37,
+    "longitude": 43.69,
+    "name": "al-Anbar (near Fallujah), Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 38",
+      "page": "78"
+    }
+  ]
+}

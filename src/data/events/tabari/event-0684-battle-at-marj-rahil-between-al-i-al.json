@@ -1,0 +1,21 @@
+{
+  "id": "event-0684-battle-at-marj-rahil-between-al-i-al",
+  "title": "The Battle at Marj Rahil between al-I?al l ak b. Qays and MarwAn b. al-Hakam and Its Immediate Consequences",
+  "description": "Qays and Marwdn b. al-Hakam and Its Immediate Consequences Abu Ja-far (al-Tabari) said: According to Nub b. HabibHisham b. Muhammad -°Awinah b. al-Hakam al-Kalbi: When he headed for al-Jiibiyah to meet Hassan b. M31ik, al-Qahhak b. Qays turned aside with those who were with him and won them over.270 Then he pressed on and pitched camp at Marj Rahil. There he publicly proclaimed the oath of allegiance to Ibn al-Zubayr and renounced the Banu Umayyah.",
+  "startDate": "0684-01-01",
+  "category": "military",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0685-12-31",
+  "location": {
+    "latitude": 33.6,
+    "longitude": 36.5,
+    "name": "near Damascus"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 20",
+      "page": "56"
+    }
+  ]
+}

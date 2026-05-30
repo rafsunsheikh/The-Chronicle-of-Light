@@ -1,0 +1,18 @@
+{
+  "id": "event-0755-how-al-mulabbid-came-to-be-killed",
+  "title": "How al -Mulabbid Came to Be Killed",
+  "description": "It is said that when al-Mulabbid226 had bested IHumayd b. Qahtabah, and IIumayd, in turn, had taken refuge from alMulabbid, Abu Ja`far sent against him `Abd al-`Aziz b. `Abd alRabman,227 the brother of `Abd al-Jabbar b. `Abd al-Rahman,22s in conjunction with Ziyad b. Mushkan. Al-Mulabbid waylaid him [123] with ioo cavalry in such a way that when `Abd al-`Aziz met up with him, those lying in ambush came forth and routed him, killing the greater part of his confederates. At this Abu Ja`far dispatched against him Khazim b.",
+  "startDate": "0755-01-01",
+  "category": "political",
+  "connections": [
+    "event-0750-marwan-s-defeat-at-the-zab"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0756-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 28",
+      "page": "50"
+    }
+  ]
+}

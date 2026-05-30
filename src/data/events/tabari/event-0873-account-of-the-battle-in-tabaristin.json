@@ -1,0 +1,23 @@
+{
+  "id": "event-0873-account-of-the-battle-in-tabaristin",
+  "title": "An Account of (the) Battle (in Tabaristin",
+  "description": "An Account of (the) Battle (in Tabaristin. Recorded under the year 259 AH (873–874 CE) in al-Tabari's History, volume 36.",
+  "startDate": "0873-01-01",
+  "category": "military",
+  "connections": [
+    "event-0914-campaign-against-byzantines"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0874-12-31",
+  "location": {
+    "latitude": 36.4,
+    "longitude": 52.5,
+    "name": "Tabaristan (Mazandaran)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "158"
+    }
+  ]
+}

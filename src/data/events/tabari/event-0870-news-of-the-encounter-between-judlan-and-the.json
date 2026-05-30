@@ -1,0 +1,23 @@
+{
+  "id": "event-0870-news-of-the-encounter-between-judlan-and-the",
+  "title": "News of [the ] Encounter [between Judlan and the ZanjJ / to8 An Account of the Zanj Occupation of al-Ubullah",
+  "description": "Following his arrival in al-Bagrah, Judlin reportedly advanced with his army from the city until he was just a farsakh32-1 distant from the Zanj army. There he had a trench excavated to enclose his forces where he remained for six months. Al-Zaynabi, Burayh, the Banu Hashim, and other Bagrans who were prepared to fight the abominable one were sent forth on the day that Judlan promised them he would attack the Zanj. But, when the two sides met, they only threw 3 19. Literally \"a barrier between the wild ass and escape.\" 310.",
+  "startDate": "0870-01-01",
+  "category": "political",
+  "connections": [
+    "event-0870-account-of-the-zanj-leader-s-summons-for"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0887-12-31",
+  "location": {
+    "latitude": 30.5,
+    "longitude": 47.9,
+    "name": "al-Ubulla (near Basra)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 36",
+      "page": "110"
+    }
+  ]
+}

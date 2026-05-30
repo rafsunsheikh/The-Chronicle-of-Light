@@ -1,0 +1,23 @@
+{
+  "id": "event-0634-dumat-al-jandal",
+  "title": "Dumat al-Jandal",
+  "description": "[The same transmitters ]: When Khalid was done with `Ayn al-Tamr, he left in charge of it `Uwaym b. al-Kahil al -Aslami317 and then marched forth in the same formation with which he had entered al`Ayn. When the people of Dumah heard that Khalid was marching against them, they sent [ messages ] to their allies among the Bahra',318 the Kalb,319 the Ghassan,32° the Tanukh, 321 and the I)ahistorian Ibn Islaaq. This could be because Sayf did not want to include in this glorious ancestry the dean of the more sober Medinan school of historians.",
+  "startDate": "0634-03-07",
+  "category": "political",
+  "connections": [
+    "event-0626-expedition-to-dumat-al-jandal-and-other-events"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 29.812,
+    "longitude": 39.867,
+    "name": "al-Jawf, Saudi Arabia"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "57"
+    }
+  ]
+}

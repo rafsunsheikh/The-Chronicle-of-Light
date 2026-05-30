@@ -1,0 +1,16 @@
+{
+  "id": "event-0625-bibliography-of-cited-works",
+  "title": "Bibliography of Cited Works",
+  "description": "Bibliography of Cited Works. Recorded under the year 4 AH (625–626 CE) in al-Tabari's History, volume 07.",
+  "startDate": "0625-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0626-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 07",
+      "page": "169"
+    }
+  ]
+}

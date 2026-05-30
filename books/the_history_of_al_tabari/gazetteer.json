@@ -1,0 +1,1326 @@
+[
+  {
+    "name": "Mecca",
+    "type": "city",
+    "modern": "Mecca, Saudi Arabia",
+    "lat": 21.4225,
+    "lon": 39.8262,
+    "aliases": [
+      "makkah"
+    ]
+  },
+  {
+    "name": "Medina",
+    "type": "city",
+    "modern": "Medina, Saudi Arabia",
+    "lat": 24.4709,
+    "lon": 39.6121,
+    "aliases": [
+      "al-madinah",
+      "madinah",
+      "yathrib"
+    ]
+  },
+  {
+    "name": "Badr",
+    "type": "battle",
+    "modern": "Badr, Saudi Arabia",
+    "lat": 23.78,
+    "lon": 38.7906,
+    "aliases": []
+  },
+  {
+    "name": "Uhud",
+    "type": "battle",
+    "modern": "Mount Uhud, Medina",
+    "lat": 24.51,
+    "lon": 39.613,
+    "aliases": []
+  },
+  {
+    "name": "Hunayn",
+    "type": "battle",
+    "modern": "near Ta'if",
+    "lat": 21.46,
+    "lon": 40.2,
+    "aliases": []
+  },
+  {
+    "name": "Khaybar",
+    "type": "site",
+    "modern": "Khaybar, Saudi Arabia",
+    "lat": 25.7,
+    "lon": 39.29,
+    "aliases": []
+  },
+  {
+    "name": "Nakhlah",
+    "type": "site",
+    "modern": "between Mecca and Ta'if",
+    "lat": 21.5,
+    "lon": 40.2,
+    "aliases": []
+  },
+  {
+    "name": "al-Ta'if",
+    "type": "city",
+    "modern": "Ta'if, Saudi Arabia",
+    "lat": 21.27,
+    "lon": 40.415,
+    "aliases": [
+      "taif",
+      "ta'if"
+    ]
+  },
+  {
+    "name": "al-Yamamah",
+    "type": "region",
+    "modern": "central Najd, Arabia",
+    "lat": 24.1,
+    "lon": 47.3,
+    "aliases": [
+      "yamamah"
+    ]
+  },
+  {
+    "name": "Najran",
+    "type": "city",
+    "modern": "Najran, Saudi Arabia",
+    "lat": 17.49,
+    "lon": 44.13,
+    "aliases": []
+  },
+  {
+    "name": "Dumat al-Jandal",
+    "type": "site",
+    "modern": "al-Jawf, Saudi Arabia",
+    "lat": 29.812,
+    "lon": 39.867,
+    "aliases": [
+      "dumah"
+    ]
+  },
+  {
+    "name": "al-Bahrayn",
+    "type": "region",
+    "modern": "eastern Arabia (al-Qatif/al-Hasa)",
+    "lat": 26.56,
+    "lon": 49.996,
+    "aliases": [
+      "bahrayn",
+      "bahrain"
+    ]
+  },
+  {
+    "name": "Oman",
+    "type": "region",
+    "modern": "Oman (Suhar)",
+    "lat": 24.347,
+    "lon": 56.709,
+    "aliases": [
+      "uman",
+      "'uman"
+    ]
+  },
+  {
+    "name": "Yemen",
+    "type": "region",
+    "modern": "Yemen (San'a')",
+    "lat": 15.355,
+    "lon": 44.206,
+    "aliases": [
+      "yaman"
+    ]
+  },
+  {
+    "name": "Hadramawt",
+    "type": "region",
+    "modern": "Hadramawt, Yemen",
+    "lat": 15.5,
+    "lon": 48.5,
+    "aliases": []
+  },
+  {
+    "name": "San'a'",
+    "type": "city",
+    "modern": "Sana'a, Yemen",
+    "lat": 15.355,
+    "lon": 44.206,
+    "aliases": [
+      "sana",
+      "sanaa"
+    ]
+  },
+  {
+    "name": "al-Hijaz",
+    "type": "region",
+    "modern": "Hijaz, western Arabia",
+    "lat": 23.5,
+    "lon": 39.5,
+    "aliases": [
+      "hijaz"
+    ]
+  },
+  {
+    "name": "Baghdad",
+    "type": "city",
+    "modern": "Baghdad, Iraq",
+    "lat": 33.3152,
+    "lon": 44.3661,
+    "aliases": []
+  },
+  {
+    "name": "al-Kufah",
+    "type": "city",
+    "modern": "Kufa, Iraq",
+    "lat": 32.0336,
+    "lon": 44.4019,
+    "aliases": [
+      "kufah",
+      "kufa",
+      "kiifah",
+      "kufan",
+      "kufans"
+    ]
+  },
+  {
+    "name": "al-Basrah",
+    "type": "city",
+    "modern": "Basra, Iraq",
+    "lat": 30.5085,
+    "lon": 47.7836,
+    "aliases": [
+      "basrah",
+      "basra",
+      "bagrah",
+      "bagra",
+      "bagrans",
+      "basrans"
+    ]
+  },
+  {
+    "name": "Wasit",
+    "type": "city",
+    "modern": "Wasit (near Kut), Iraq",
+    "lat": 32.18,
+    "lon": 46.3,
+    "aliases": [
+      "wasit"
+    ]
+  },
+  {
+    "name": "Samarra",
+    "type": "city",
+    "modern": "Samarra, Iraq",
+    "lat": 34.198,
+    "lon": 43.874,
+    "aliases": [
+      "samarra",
+      "surra man ra'a"
+    ]
+  },
+  {
+    "name": "al-Mada'in",
+    "type": "city",
+    "modern": "Ctesiphon/al-Mada'in, Iraq",
+    "lat": 33.09,
+    "lon": 44.58,
+    "aliases": [
+      "madain",
+      "ctesiphon",
+      "mada'in"
+    ]
+  },
+  {
+    "name": "al-Anbar",
+    "type": "city",
+    "modern": "al-Anbar (near Fallujah), Iraq",
+    "lat": 33.37,
+    "lon": 43.69,
+    "aliases": [
+      "anbar"
+    ]
+  },
+  {
+    "name": "al-Hirah",
+    "type": "city",
+    "modern": "al-Hira (near Kufa), Iraq",
+    "lat": 31.9,
+    "lon": 44.3,
+    "aliases": [
+      "hirah",
+      "hira"
+    ]
+  },
+  {
+    "name": "Karbala",
+    "type": "battle",
+    "modern": "Karbala, Iraq",
+    "lat": 32.61,
+    "lon": 44.02,
+    "aliases": [
+      "karbala",
+      "kerbala"
+    ]
+  },
+  {
+    "name": "al-Qadisiyyah",
+    "type": "battle",
+    "modern": "al-Qadisiyyah (near Kufa)",
+    "lat": 31.71,
+    "lon": 44.36,
+    "aliases": [
+      "qadisiyyah",
+      "qadisiya"
+    ]
+  },
+  {
+    "name": "Jalula",
+    "type": "battle",
+    "modern": "Jalawla, Iraq",
+    "lat": 34.27,
+    "lon": 45.16,
+    "aliases": [
+      "jalula",
+      "jalawla"
+    ]
+  },
+  {
+    "name": "al-Ubullah",
+    "type": "city",
+    "modern": "al-Ubulla (near Basra)",
+    "lat": 30.5,
+    "lon": 47.9,
+    "aliases": [
+      "ubullah"
+    ]
+  },
+  {
+    "name": "Daskarah",
+    "type": "site",
+    "modern": "al-Daskara, Iraq",
+    "lat": 33.97,
+    "lon": 44.93,
+    "aliases": [
+      "daskarah"
+    ]
+  },
+  {
+    "name": "al-Nukhaylah",
+    "type": "site",
+    "modern": "near Kufa",
+    "lat": 32.1,
+    "lon": 44.35,
+    "aliases": [
+      "nukhaylah"
+    ]
+  },
+  {
+    "name": "al-Madhar",
+    "type": "battle",
+    "modern": "Maysan, Iraq",
+    "lat": 31.7,
+    "lon": 47.15,
+    "aliases": [
+      "madhar"
+    ]
+  },
+  {
+    "name": "Dayr al-Jathaliq",
+    "type": "battle",
+    "modern": "near al-Anbar, Iraq",
+    "lat": 33.6,
+    "lon": 43.9,
+    "aliases": []
+  },
+  {
+    "name": "Kaskar",
+    "type": "city",
+    "modern": "Kaskar (near Wasit), Iraq",
+    "lat": 32.0,
+    "lon": 46.0,
+    "aliases": [
+      "kaskar"
+    ]
+  },
+  {
+    "name": "Dhu Qar",
+    "type": "battle",
+    "modern": "Dhu Qar (SE of Kufa)",
+    "lat": 30.97,
+    "lon": 46.1,
+    "aliases": [
+      "dhu qar",
+      "dhi qar"
+    ]
+  },
+  {
+    "name": "al-Khawarnaq",
+    "type": "site",
+    "modern": "al-Khawarnaq (near al-Hira)",
+    "lat": 31.95,
+    "lon": 44.4,
+    "aliases": [
+      "khawarnaq"
+    ]
+  },
+  {
+    "name": "Shahrazur",
+    "type": "city",
+    "modern": "Sharazor (Iraqi Kurdistan)",
+    "lat": 35.4,
+    "lon": 45.85,
+    "aliases": [
+      "shahrazur",
+      "sharazor"
+    ]
+  },
+  {
+    "name": "Qarqisiya",
+    "type": "city",
+    "modern": "Circesium (Khabur-Euphrates)",
+    "lat": 35.16,
+    "lon": 40.43,
+    "aliases": [
+      "qarqisiya",
+      "qarqisiya'",
+      "circesium"
+    ]
+  },
+  {
+    "name": "Balanjar",
+    "type": "battle",
+    "modern": "Balanjar (Khazar frontier, Dagestan)",
+    "lat": 42.5,
+    "lon": 47.0,
+    "aliases": [
+      "balanjar"
+    ]
+  },
+  {
+    "name": "al-Jazirah",
+    "type": "region",
+    "modern": "Upper Mesopotamia",
+    "lat": 36.5,
+    "lon": 40.5,
+    "aliases": [
+      "jazirah"
+    ]
+  },
+  {
+    "name": "Mosul",
+    "type": "city",
+    "modern": "Mosul, Iraq",
+    "lat": 36.34,
+    "lon": 43.13,
+    "aliases": [
+      "al-mawsil",
+      "mawsil"
+    ]
+  },
+  {
+    "name": "Nisibis",
+    "type": "city",
+    "modern": "Nusaybin, Turkey",
+    "lat": 37.07,
+    "lon": 41.22,
+    "aliases": [
+      "nasibin",
+      "nisibin"
+    ]
+  },
+  {
+    "name": "Harran",
+    "type": "city",
+    "modern": "Harran, Turkey",
+    "lat": 36.86,
+    "lon": 39.03,
+    "aliases": [
+      "harran"
+    ]
+  },
+  {
+    "name": "al-Raqqah",
+    "type": "city",
+    "modern": "Raqqa, Syria",
+    "lat": 35.95,
+    "lon": 39.01,
+    "aliases": [
+      "raqqah",
+      "raqqa"
+    ]
+  },
+  {
+    "name": "the Zab",
+    "type": "battle",
+    "modern": "Great Zab river (battle of 750)",
+    "lat": 36.07,
+    "lon": 43.46,
+    "aliases": [
+      "zab",
+      "great zab"
+    ]
+  },
+  {
+    "name": "Sinjar",
+    "type": "city",
+    "modern": "Sinjar, Iraq",
+    "lat": 36.32,
+    "lon": 41.87,
+    "aliases": []
+  },
+  {
+    "name": "Syria",
+    "type": "region",
+    "modern": "Greater Syria (al-Sham)",
+    "lat": 34.5,
+    "lon": 37.5,
+    "aliases": [
+      "al-sham",
+      "sham"
+    ]
+  },
+  {
+    "name": "Damascus",
+    "type": "city",
+    "modern": "Damascus, Syria",
+    "lat": 33.5138,
+    "lon": 36.2765,
+    "aliases": [
+      "dimashq"
+    ]
+  },
+  {
+    "name": "Hims",
+    "type": "city",
+    "modern": "Homs, Syria",
+    "lat": 34.73,
+    "lon": 36.71,
+    "aliases": [
+      "hims",
+      "homs",
+      "emesa"
+    ]
+  },
+  {
+    "name": "Aleppo",
+    "type": "city",
+    "modern": "Aleppo, Syria",
+    "lat": 36.2,
+    "lon": 37.16,
+    "aliases": [
+      "halab"
+    ]
+  },
+  {
+    "name": "Qinnasrin",
+    "type": "city",
+    "modern": "Qinnasrin (south of Aleppo)",
+    "lat": 35.99,
+    "lon": 37.05,
+    "aliases": [
+      "qinnasrin",
+      "chalcis"
+    ]
+  },
+  {
+    "name": "Antioch",
+    "type": "city",
+    "modern": "Antakya, Turkey",
+    "lat": 36.2,
+    "lon": 36.16,
+    "aliases": [
+      "antakiyah",
+      "antakya"
+    ]
+  },
+  {
+    "name": "Siffin",
+    "type": "battle",
+    "modern": "Siffin (on the Euphrates)",
+    "lat": 35.95,
+    "lon": 39.0,
+    "aliases": [
+      "siffin"
+    ]
+  },
+  {
+    "name": "Marj Rahit",
+    "type": "battle",
+    "modern": "near Damascus",
+    "lat": 33.6,
+    "lon": 36.5,
+    "aliases": [
+      "marj rahit",
+      "marj rahil"
+    ]
+  },
+  {
+    "name": "al-Yarmuk",
+    "type": "battle",
+    "modern": "Yarmouk river (battle of 636)",
+    "lat": 32.72,
+    "lon": 35.95,
+    "aliases": [
+      "yarmuk",
+      "yarmouk"
+    ]
+  },
+  {
+    "name": "Ajnadayn",
+    "type": "battle",
+    "modern": "Ajnadayn, Palestine",
+    "lat": 31.7,
+    "lon": 34.9,
+    "aliases": [
+      "ajnadayn"
+    ]
+  },
+  {
+    "name": "Fihl",
+    "type": "battle",
+    "modern": "Pella, Jordan",
+    "lat": 32.45,
+    "lon": 35.61,
+    "aliases": [
+      "fihl",
+      "pella",
+      "fahl"
+    ]
+  },
+  {
+    "name": "Jerusalem",
+    "type": "city",
+    "modern": "Jerusalem",
+    "lat": 31.78,
+    "lon": 35.23,
+    "aliases": [
+      "bayt al-maqdis",
+      "iliya",
+      "aelia"
+    ]
+  },
+  {
+    "name": "al-Ramlah",
+    "type": "city",
+    "modern": "Ramla, Palestine",
+    "lat": 31.93,
+    "lon": 34.87,
+    "aliases": [
+      "ramlah"
+    ]
+  },
+  {
+    "name": "Tiberias",
+    "type": "city",
+    "modern": "Tiberias",
+    "lat": 32.79,
+    "lon": 35.53,
+    "aliases": [
+      "tabariyyah"
+    ]
+  },
+  {
+    "name": "Caesarea",
+    "type": "city",
+    "modern": "Caesarea Maritima",
+    "lat": 32.5,
+    "lon": 34.9,
+    "aliases": [
+      "qaysariyyah"
+    ]
+  },
+  {
+    "name": "Egypt",
+    "type": "region",
+    "modern": "Egypt (Fustat)",
+    "lat": 30.007,
+    "lon": 31.23,
+    "aliases": [
+      "misr",
+      "fustat",
+      "al-fustat"
+    ]
+  },
+  {
+    "name": "Alexandria",
+    "type": "city",
+    "modern": "Alexandria, Egypt",
+    "lat": 31.2,
+    "lon": 29.92,
+    "aliases": [
+      "al-iskandariyyah"
+    ]
+  },
+  {
+    "name": "Ifriqiya",
+    "type": "region",
+    "modern": "Ifriqiya (Tunisia)",
+    "lat": 35.5,
+    "lon": 9.5,
+    "aliases": [
+      "ifriqiyah"
+    ]
+  },
+  {
+    "name": "al-Qayrawan",
+    "type": "city",
+    "modern": "Kairouan, Tunisia",
+    "lat": 35.68,
+    "lon": 10.1,
+    "aliases": [
+      "qayrawan",
+      "kairouan"
+    ]
+  },
+  {
+    "name": "the Maghrib",
+    "type": "region",
+    "modern": "the Maghrib (NW Africa)",
+    "lat": 33.5,
+    "lon": -6.0,
+    "aliases": [
+      "maghrib",
+      "morocco"
+    ]
+  },
+  {
+    "name": "al-Andalus",
+    "type": "region",
+    "modern": "al-Andalus (Iberia)",
+    "lat": 37.88,
+    "lon": -4.78,
+    "aliases": [
+      "andalus",
+      "cordoba",
+      "cordova"
+    ]
+  },
+  {
+    "name": "al-Rayy",
+    "type": "city",
+    "modern": "Rayy (near Tehran)",
+    "lat": 35.59,
+    "lon": 51.43,
+    "aliases": [
+      "rayy",
+      "rai",
+      "ray"
+    ]
+  },
+  {
+    "name": "Nihawand",
+    "type": "battle",
+    "modern": "Nahavand, Iran",
+    "lat": 34.19,
+    "lon": 48.37,
+    "aliases": [
+      "nihawand",
+      "nahavand"
+    ]
+  },
+  {
+    "name": "Hulwan",
+    "type": "city",
+    "modern": "Hulwan (Sarpol-e Zahab)",
+    "lat": 34.45,
+    "lon": 45.85,
+    "aliases": [
+      "hulwan"
+    ]
+  },
+  {
+    "name": "Hamadhan",
+    "type": "city",
+    "modern": "Hamadan, Iran",
+    "lat": 34.8,
+    "lon": 48.5,
+    "aliases": [
+      "hamadan",
+      "hamadhan",
+      "ecbatana"
+    ]
+  },
+  {
+    "name": "Dinawar",
+    "type": "city",
+    "modern": "Dinavar, Iran",
+    "lat": 34.6,
+    "lon": 47.4,
+    "aliases": [
+      "dinawar"
+    ]
+  },
+  {
+    "name": "Isbahan",
+    "type": "city",
+    "modern": "Isfahan, Iran",
+    "lat": 32.65,
+    "lon": 51.67,
+    "aliases": [
+      "isfahan",
+      "isbahan",
+      "ispahan"
+    ]
+  },
+  {
+    "name": "Qom",
+    "type": "city",
+    "modern": "Qom, Iran",
+    "lat": 34.64,
+    "lon": 50.88,
+    "aliases": [
+      "qum",
+      "qomm"
+    ]
+  },
+  {
+    "name": "al-Ahwaz",
+    "type": "city",
+    "modern": "Ahvaz, Iran",
+    "lat": 31.32,
+    "lon": 48.67,
+    "aliases": [
+      "ahwaz",
+      "ahvaz"
+    ]
+  },
+  {
+    "name": "Khuzistan",
+    "type": "region",
+    "modern": "Khuzestan, Iran",
+    "lat": 31.3,
+    "lon": 49.0,
+    "aliases": [
+      "khuzistan",
+      "ahwaz region"
+    ]
+  },
+  {
+    "name": "Fars",
+    "type": "region",
+    "modern": "Fars, Iran",
+    "lat": 29.6,
+    "lon": 52.5,
+    "aliases": [
+      "fars",
+      "pars",
+      "persis"
+    ]
+  },
+  {
+    "name": "Shiraz",
+    "type": "city",
+    "modern": "Shiraz, Iran",
+    "lat": 29.6,
+    "lon": 52.53,
+    "aliases": [
+      "shiraz"
+    ]
+  },
+  {
+    "name": "Istakhr",
+    "type": "city",
+    "modern": "Istakhr (near Persepolis)",
+    "lat": 29.98,
+    "lon": 52.9,
+    "aliases": [
+      "istakhr"
+    ]
+  },
+  {
+    "name": "Kirman",
+    "type": "region",
+    "modern": "Kerman, Iran",
+    "lat": 30.28,
+    "lon": 57.08,
+    "aliases": [
+      "kirman",
+      "kerman"
+    ]
+  },
+  {
+    "name": "Tabaristan",
+    "type": "region",
+    "modern": "Tabaristan (Mazandaran)",
+    "lat": 36.4,
+    "lon": 52.5,
+    "aliases": [
+      "tabaristan",
+      "tabaristin"
+    ]
+  },
+  {
+    "name": "Jurjan",
+    "type": "city",
+    "modern": "Gorgan, Iran",
+    "lat": 36.84,
+    "lon": 54.44,
+    "aliases": [
+      "jurjan",
+      "gurgan",
+      "gorgan"
+    ]
+  },
+  {
+    "name": "Qumis",
+    "type": "region",
+    "modern": "Qumis (Damghan)",
+    "lat": 36.17,
+    "lon": 54.35,
+    "aliases": [
+      "qumis",
+      "damghan"
+    ]
+  },
+  {
+    "name": "al-Daylam",
+    "type": "region",
+    "modern": "Daylam (Gilan)",
+    "lat": 36.9,
+    "lon": 49.8,
+    "aliases": [
+      "daylam"
+    ]
+  },
+  {
+    "name": "Adharbayjan",
+    "type": "region",
+    "modern": "Azerbaijan (NW Iran)",
+    "lat": 37.8,
+    "lon": 46.3,
+    "aliases": [
+      "adharbayjan",
+      "azerbaijan",
+      "azarbayjan"
+    ]
+  },
+  {
+    "name": "Armenia",
+    "type": "region",
+    "modern": "Armenia",
+    "lat": 40.0,
+    "lon": 44.5,
+    "aliases": [
+      "arminiyah"
+    ]
+  },
+  {
+    "name": "Barda'ah",
+    "type": "city",
+    "modern": "Barda, Azerbaijan",
+    "lat": 40.37,
+    "lon": 47.13,
+    "aliases": [
+      "bardaah",
+      "barda'a",
+      "bardha'ah"
+    ]
+  },
+  {
+    "name": "Dabil",
+    "type": "city",
+    "modern": "Dvin, Armenia",
+    "lat": 40.0,
+    "lon": 44.58,
+    "aliases": [
+      "dabil",
+      "dvin"
+    ]
+  },
+  {
+    "name": "Tiflis",
+    "type": "city",
+    "modern": "Tbilisi, Georgia",
+    "lat": 41.7,
+    "lon": 44.8,
+    "aliases": [
+      "tiflis"
+    ]
+  },
+  {
+    "name": "the Khazars",
+    "type": "region",
+    "modern": "Khazar lands (lower Volga)",
+    "lat": 47.0,
+    "lon": 47.0,
+    "aliases": [
+      "khazar",
+      "khazars"
+    ]
+  },
+  {
+    "name": "Khurasan",
+    "type": "region",
+    "modern": "Khurasan (NE Iran/Central Asia)",
+    "lat": 36.3,
+    "lon": 59.6,
+    "aliases": [
+      "khurasan",
+      "khurasin",
+      "khurisin",
+      "khurisan",
+      "khur3san",
+      "khorasan"
+    ]
+  },
+  {
+    "name": "Nishapur",
+    "type": "city",
+    "modern": "Nishapur, Iran",
+    "lat": 36.21,
+    "lon": 58.79,
+    "aliases": [
+      "nishapur",
+      "naysabur",
+      "nisabur"
+    ]
+  },
+  {
+    "name": "Tus",
+    "type": "city",
+    "modern": "Tus (near Mashhad)",
+    "lat": 36.48,
+    "lon": 59.6,
+    "aliases": [
+      "tus"
+    ]
+  },
+  {
+    "name": "Sarakhs",
+    "type": "city",
+    "modern": "Sarakhs",
+    "lat": 36.54,
+    "lon": 61.16,
+    "aliases": [
+      "sarakhs"
+    ]
+  },
+  {
+    "name": "Abiward",
+    "type": "city",
+    "modern": "Abivard, Turkmenistan",
+    "lat": 37.9,
+    "lon": 59.0,
+    "aliases": [
+      "abiward",
+      "abaward"
+    ]
+  },
+  {
+    "name": "Marw",
+    "type": "city",
+    "modern": "Merv, Turkmenistan",
+    "lat": 37.66,
+    "lon": 62.19,
+    "aliases": [
+      "marw",
+      "merv",
+      "marv"
+    ]
+  },
+  {
+    "name": "Herat",
+    "type": "city",
+    "modern": "Herat, Afghanistan",
+    "lat": 34.35,
+    "lon": 62.2,
+    "aliases": [
+      "harat",
+      "herat"
+    ]
+  },
+  {
+    "name": "Balkh",
+    "type": "city",
+    "modern": "Balkh, Afghanistan",
+    "lat": 36.76,
+    "lon": 66.9,
+    "aliases": [
+      "balkh"
+    ]
+  },
+  {
+    "name": "Sijistan",
+    "type": "region",
+    "modern": "Sistan (Zaranj)",
+    "lat": 31.0,
+    "lon": 61.5,
+    "aliases": [
+      "sijistan",
+      "sijistin",
+      "sistan",
+      "sagistan"
+    ]
+  },
+  {
+    "name": "Kabul",
+    "type": "city",
+    "modern": "Kabul, Afghanistan",
+    "lat": 34.55,
+    "lon": 69.2,
+    "aliases": [
+      "kabul"
+    ]
+  },
+  {
+    "name": "Tukharistan",
+    "type": "region",
+    "modern": "Tokharistan (upper Oxus)",
+    "lat": 36.7,
+    "lon": 68.0,
+    "aliases": [
+      "tukharistan",
+      "tokharistan"
+    ]
+  },
+  {
+    "name": "al-Khuttal",
+    "type": "region",
+    "modern": "Khuttal (SW Tajikistan)",
+    "lat": 37.9,
+    "lon": 69.8,
+    "aliases": [
+      "khuttal",
+      "khuttalan"
+    ]
+  },
+  {
+    "name": "Transoxania",
+    "type": "region",
+    "modern": "Transoxania (between Oxus & Jaxartes)",
+    "lat": 39.7,
+    "lon": 65.7,
+    "aliases": [
+      "ma wara al-nahr",
+      "transoxiana",
+      "soghd",
+      "sughd"
+    ]
+  },
+  {
+    "name": "Bukhara",
+    "type": "city",
+    "modern": "Bukhara, Uzbekistan",
+    "lat": 39.77,
+    "lon": 64.42,
+    "aliases": [
+      "bukhara",
+      "bukhar"
+    ]
+  },
+  {
+    "name": "Samarqand",
+    "type": "city",
+    "modern": "Samarkand, Uzbekistan",
+    "lat": 39.65,
+    "lon": 66.96,
+    "aliases": [
+      "samarqand",
+      "samarkand"
+    ]
+  },
+  {
+    "name": "Khwarazm",
+    "type": "region",
+    "modern": "Khwarazm (Khiva)",
+    "lat": 41.378,
+    "lon": 60.364,
+    "aliases": [
+      "khwarazm",
+      "khwarazm",
+      "khorezm"
+    ]
+  },
+  {
+    "name": "al-Shash",
+    "type": "city",
+    "modern": "Tashkent",
+    "lat": 41.3,
+    "lon": 69.3,
+    "aliases": [
+      "shash",
+      "shish",
+      "tashkent",
+      "chach"
+    ]
+  },
+  {
+    "name": "Kashghar",
+    "type": "city",
+    "modern": "Kashgar, Xinjiang",
+    "lat": 39.47,
+    "lon": 75.99,
+    "aliases": [
+      "kashghar",
+      "kashgar"
+    ]
+  },
+  {
+    "name": "Farghanah",
+    "type": "region",
+    "modern": "Fergana valley",
+    "lat": 40.4,
+    "lon": 71.8,
+    "aliases": [
+      "farghanah",
+      "fergana",
+      "ferghana"
+    ]
+  },
+  {
+    "name": "Khujandah",
+    "type": "city",
+    "modern": "Khujand, Tajikistan",
+    "lat": 40.28,
+    "lon": 69.62,
+    "aliases": [
+      "khujandah",
+      "khujand"
+    ]
+  },
+  {
+    "name": "Nasaf",
+    "type": "city",
+    "modern": "Nasaf (Qarshi)",
+    "lat": 38.86,
+    "lon": 65.79,
+    "aliases": [
+      "nasaf",
+      "nakhshab"
+    ]
+  },
+  {
+    "name": "Kish",
+    "type": "city",
+    "modern": "Kesh (Shahrisabz)",
+    "lat": 39.05,
+    "lon": 66.83,
+    "aliases": [
+      "kish",
+      "kashsh"
+    ]
+  },
+  {
+    "name": "Tirmidh",
+    "type": "city",
+    "modern": "Termez, Uzbekistan",
+    "lat": 37.22,
+    "lon": 67.28,
+    "aliases": [
+      "tirmidh",
+      "termez",
+      "termidh"
+    ]
+  },
+  {
+    "name": "Sind",
+    "type": "region",
+    "modern": "Sindh (lower Indus)",
+    "lat": 26.0,
+    "lon": 68.5,
+    "aliases": [
+      "sind",
+      "sindh"
+    ]
+  },
+  {
+    "name": "Daybul",
+    "type": "city",
+    "modern": "Debal (Indus delta)",
+    "lat": 24.0,
+    "lon": 67.0,
+    "aliases": [
+      "daybul",
+      "debal"
+    ]
+  },
+  {
+    "name": "Multan",
+    "type": "city",
+    "modern": "Multan, Pakistan",
+    "lat": 30.2,
+    "lon": 71.5,
+    "aliases": [
+      "multan"
+    ]
+  },
+  {
+    "name": "Tarsus",
+    "type": "city",
+    "modern": "Tarsus, Turkey",
+    "lat": 36.92,
+    "lon": 34.89,
+    "aliases": [
+      "tarsus"
+    ]
+  },
+  {
+    "name": "the Byzantines",
+    "type": "region",
+    "modern": "Byzantine Anatolia",
+    "lat": 39.0,
+    "lon": 33.0,
+    "aliases": [
+      "byzantines",
+      "byzantium",
+      "rum",
+      "al-rum"
+    ]
+  },
+  {
+    "name": "Constantinople",
+    "type": "city",
+    "modern": "Istanbul",
+    "lat": 41.01,
+    "lon": 28.98,
+    "aliases": [
+      "qustantiniyyah",
+      "constantinople"
+    ]
+  },
+  {
+    "name": "Amorium",
+    "type": "battle",
+    "modern": "Amorium, Anatolia",
+    "lat": 39.02,
+    "lon": 31.3,
+    "aliases": [
+      "ammuriyah",
+      "amorium"
+    ]
+  },
+  {
+    "name": "Malatya",
+    "type": "city",
+    "modern": "Malatya, Turkey",
+    "lat": 38.35,
+    "lon": 38.3,
+    "aliases": [
+      "malatiyah",
+      "melitene"
+    ]
+  },
+  {
+    "name": "Iraq",
+    "type": "region",
+    "modern": "Iraq",
+    "lat": 32.5,
+    "lon": 44.5,
+    "aliases": [
+      "al-iraq"
+    ]
+  },
+  {
+    "name": "Persia",
+    "type": "region",
+    "modern": "Iran (Persia)",
+    "lat": 32.0,
+    "lon": 53.0,
+    "aliases": [
+      "persia",
+      "iran",
+      "fars empire"
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "id": "event-0841-something-about-al-mu-tasim-s-character-and",
+  "title": "Something about al-Mu'tasim 's Character and Behavior",
+  "description": "Something about al-Mu'tasim 's Character and Behavior. Recorded under the year 226 AH (841–842 CE) in al-Tabari's History, volume 33.",
+  "startDate": "0841-01-01",
+  "category": "political",
+  "connections": [
+    "event-0841-al-mu-tasim-s-fatal-illness-the-length",
+    "event-0848-reason-for-itakh-s-pilgrimage-this-year"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0842-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 33",
+      "page": "210"
+    }
+  ]
+}

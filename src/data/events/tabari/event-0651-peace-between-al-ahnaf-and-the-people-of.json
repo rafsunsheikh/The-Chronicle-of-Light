@@ -1,0 +1,21 @@
+{
+  "id": "event-0651-peace-between-al-ahnaf-and-the-people-of",
+  "title": "The Peace between al-Ahnaf and the People of Balkh",
+  "description": "Balkh] According to `Ali (b. Muhammad al-Mad a'ini)-Zuhayr b. Hunayd-Iyas b. al-Muhallab: Al-Ahnaf advanced from Marwarudh to Balkh and besieged its inhabitants. They made peace with him in return for [a tribute of] 400,000 (dirhams). He was satisfied with that, appointing his nephew, Asid b. al-Mutashammis, as his deputy to collect from them the amount agreed to in the peace treaty. Then he marched on to Khwarazm and remained there until winter assailed him. He asked the opinion of his comrades, and Hugayn [b. al-Mundhir) 182 said to him: `Amr b.",
+  "startDate": "0651-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0652-12-31",
+  "location": {
+    "latitude": 36.76,
+    "longitude": 66.9,
+    "name": "Balkh, Afghanistan"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 15",
+      "page": "6"
+    }
+  ]
+}

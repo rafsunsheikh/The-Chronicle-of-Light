@@ -1,0 +1,24 @@
+{
+  "id": "event-0720-dismissal-of-maslamah-from-iraq-and-khurasan",
+  "title": "The Dismissal of Maslamah from Iraq and Khurasan",
+  "description": "According to 'All b. Muhammad, Maslamah was dismissed because, after being put in charge of the provinces of Iraq and",
+  "startDate": "0720-01-01",
+  "category": "political",
+  "connections": [
+    "event-0720-maslamah-appoints-said-khudhaynah-as-governor-of-khurasan",
+    "event-0721-dismissal-of-said-khudhaynah-as-governor-of-khurasan"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0721-12-31",
+  "location": {
+    "latitude": 36.3,
+    "longitude": 59.6,
+    "name": "Khurasan (NE Iran/Central Asia)"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 24",
+      "page": "162"
+    }
+  ]
+}

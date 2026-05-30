@@ -1,0 +1,20 @@
+{
+  "id": "event-0746-death-of-shayban-b-abd-al-aziz-the",
+  "title": "The Death of Shayban b. 'Abd al -'Aziz the Kharijite",
+  "description": "When al-Dahhak b. Qays al-Shaybani the leader of the Kharijites was slain, and al-Khaybari after him, those Kharijites who were opposing Marwan b. Muhammad and making war on him chose Shayban as their leader and gave him the oath of allegiance. Marwan then fought them. Hisham b. Muhammad and al-Haytham b. 'Adi reported: When alKhaybari was slain, Sulayman b. Hisham who was in their camp told the Kharijites, \"What you are doing is not a good idea. If you accept my advice, fine.",
+  "startDate": "0746-09-22",
+  "category": "military",
+  "connections": [
+    "event-0745-abu-hamzah-the-kharijite-in-arabia",
+    "event-0746-abu-hamzah-the-kharijite-leads-the-pilgrimage",
+    "event-0750-slaying-of-marwan-b-muhammad"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0747-09-10",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 27",
+      "page": "54"
+    }
+  ]
+}

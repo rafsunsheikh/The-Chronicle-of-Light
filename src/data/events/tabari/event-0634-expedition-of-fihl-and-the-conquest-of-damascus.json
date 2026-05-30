@@ -1,0 +1,24 @@
+{
+  "id": "event-0634-expedition-of-fihl-and-the-conquest-of-damascus",
+  "title": "The Expedition of Fihl and the Conquest of Damascus",
+  "description": "The Expedition of Fihl and the Conquest of Damascus. Recorded under the year 13 AH (634–635 CE) in al-Tabari's History, volume 11.",
+  "startDate": "0634-03-07",
+  "category": "military",
+  "connections": [
+    "event-0634-continuation-of-the-report-of-abu-zayd-z8",
+    "event-0634-report-about-damascus-according-to-sayf"
+  ],
+  "confidence": "auto-imported",
+  "endDate": "0635-02-24",
+  "location": {
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "name": "Damascus, Syria"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 11",
+      "page": "159"
+    }
+  ]
+}

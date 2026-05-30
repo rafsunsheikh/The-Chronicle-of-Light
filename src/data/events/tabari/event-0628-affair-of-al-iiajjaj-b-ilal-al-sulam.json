@@ -1,0 +1,16 @@
+{
+  "id": "event-0628-affair-of-al-iiajjaj-b-ilal-al-sulam",
+  "title": "The Affair of al-Iiajjaj b. 'Ilal al-Sulam!",
+  "description": "The Affair of al-Iiajjaj b. 'Ilal al-Sulam!. Recorded under the year 7 AH (628–629 CE) in al-Tabari's History, volume 08.",
+  "startDate": "0628-01-01",
+  "category": "political",
+  "connections": [],
+  "confidence": "auto-imported",
+  "endDate": "0629-12-31",
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 08",
+      "page": "126"
+    }
+  ]
+}

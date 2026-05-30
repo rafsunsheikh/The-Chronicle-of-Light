@@ -1,0 +1,23 @@
+{
+  "id": "event-0818-ibrahim-b-al-mahdi-s-despairing-attempt-to",
+  "title": "Ibrahim b. al-Mahdi's despairing attempt to retain his caliphal power in Baghdad; his loss of the people of Baghdad's allegiance; his disappearance underground in the city",
+  "description": "Ibrahim b. al-Mahdi's despairing attempt to retain his caliphal power in Baghdad; his loss of the people of Baghdad's allegiance; his disappearance underground in the city. Recorded under the year 202 AH (818 CE) in al-Tabari's History, volume 32.",
+  "startDate": "0818-01-01",
+  "category": "political",
+  "connections": [
+    "event-0818-ibrahim-b-al-mahdi-s-arrest-and-jailing",
+    "event-0819-al-ma-mun-s-arrival-in-baghdad-and"
+  ],
+  "confidence": "auto-imported",
+  "location": {
+    "latitude": 33.3152,
+    "longitude": 44.3661,
+    "name": "Baghdad, Iraq"
+  },
+  "sources": [
+    {
+      "citation": "al-Tabari, The History of al-Tabari (SUNY), vol. 32",
+      "page": "86"
+    }
+  ]
+}
