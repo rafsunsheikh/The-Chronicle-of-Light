@@ -1,5 +1,11 @@
-import { useState, useMemo } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { HistoricalIncident } from '../types/incident';
+import {
+  EventOverrides,
+  downloadJson,
+  loadOverrides,
+  persistOverrides,
+} from '../lib/eventStore';
 
 const eventModules = import.meta.glob<{ default: HistoricalIncident }>(
   '../data/events/**/*.json',
@@ -15,7 +21,7 @@ const startTimestamp = (iso: string): number => {
   return new Date(Date.UTC(y || 0, (m || 1) - 1, d || 1)).getTime();
 };
 
-const incidentsData: HistoricalIncident[] = Object.values(eventModules)
+const baseIncidentsData: HistoricalIncident[] = Object.values(eventModules)
   .map((m) => m.default)
   .sort((a, b) => startTimestamp(a.startDate) - startTimestamp(b.startDate));
 
@@ -24,12 +30,24 @@ export function useIncidents() {
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
   const [dateRange, setDateRange] = useState<{ start: string; end: string } | null>(null);
   const [selectedEra, setSelectedEra] = useState<string | undefined>(undefined);
+  const [searchQuery, setSearchQuery] = useState<string>('');
 
+  // Writable overlay (user edits + newly-added events) persisted to localStorage.
+  const [overrides, setOverrides] = useState<EventOverrides>(() => loadOverrides());
+
+  // Merge the immutable build-time data with the overlay: an override with the
+  // same id replaces a base event; an override with a new id is appended.
   const incidents = useMemo(() => {
-    return incidentsData as HistoricalIncident[];
-  }, []);
+    const merged = new Map<string, HistoricalIncident>();
+    for (const incident of baseIncidentsData) merged.set(incident.id, incident);
+    for (const id of Object.keys(overrides)) merged.set(id, overrides[id]);
+    return [...merged.values()].sort(
+      (a, b) => startTimestamp(a.startDate) - startTimestamp(b.startDate),
+    );
+  }, [overrides]);
 
   const filteredIncidents = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
     return incidents.filter(incident => {
       if (selectedCategory && incident.category !== selectedCategory) return false;
       if (selectedRegion && incident.region !== selectedRegion) return false;
@@ -37,9 +55,23 @@ export function useIncidents() {
         if (incident.startDate < dateRange.start) return false;
         if (incident.endDate && incident.endDate > dateRange.end) return false;
       }
+      if (query) {
+        const haystack = [
+          incident.title,
+          incident.description,
+          incident.region,
+          incident.dynasty,
+          incident.category,
+          incident.location?.name,
+        ]
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase();
+        if (!haystack.includes(query)) return false;
+      }
       return true;
     });
-  }, [incidents, selectedCategory, selectedRegion, dateRange]);
+  }, [incidents, selectedCategory, selectedRegion, dateRange, searchQuery]);
 
   const categories = useMemo(() => {
     return [...new Set(incidents.map(i => i.category))];
@@ -48,6 +80,25 @@ export function useIncidents() {
   const regions = useMemo(() => {
     return [...new Set(incidents.map(i => i.region).filter((r): r is string => !!r))];
   }, [incidents]);
+
+  // Insert or update an event in the overlay and persist it.
+  const upsertIncident = useCallback((incident: HistoricalIncident) => {
+    setOverrides((prev) => {
+      const next = { ...prev, [incident.id]: incident };
+      persistOverrides(next);
+      return next;
+    });
+  }, []);
+
+  const changeCount = Object.keys(overrides).length;
+
+  // Download every edited / added event as a JSON array so it can be committed
+  // back into src/data/events/.
+  const exportChanges = useCallback(() => {
+    const list = Object.values(overrides);
+    if (list.length === 0) return;
+    downloadJson(`events-export-${list.length}.json`, list);
+  }, [overrides]);
 
   return {
     incidents: filteredIncidents,
@@ -62,5 +113,10 @@ export function useIncidents() {
     setDateRange,
     selectedEra,
     setSelectedEra,
+    searchQuery,
+    setSearchQuery,
+    upsertIncident,
+    exportChanges,
+    changeCount,
   };
 }

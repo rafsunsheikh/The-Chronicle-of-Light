@@ -1,4 +1,4 @@
-import { Marker, Popup } from 'react-leaflet';
+import { Marker, Tooltip } from 'react-leaflet';
 import { HistoricalIncident } from '../../types/incident';
 import L from 'leaflet';
 
@@ -10,6 +10,11 @@ const CATEGORY_COLOR: Record<string, string> = {
   military: '#EF4444',
 };
 const DEFAULT_COLOR = '#1B8A87';
+
+const formatYear = (iso: string): string => {
+  const year = parseInt(iso.split('-')[0], 10);
+  return Number.isNaN(year) ? iso : String(year);
+};
 
 interface MapMarkerProps {
   incident: HistoricalIncident;
@@ -35,13 +40,36 @@ export const MapMarker: React.FC<MapMarkerProps> = ({ incident, onClick }) => {
         click: () => onClick(incident),
       }}
     >
-      <Popup>
-        <div className="p-2">
-          <h3 className="font-bold">{incident.title}</h3>
-          <p className="text-sm text-gray-600">{incident.startDate}</p>
-          <p className="text-sm">{loc.name}</p>
+      {/* Hover preview card. `interactive` keeps it alive while the pointer is
+          over it, so clicking the card itself opens the event too. */}
+      <Tooltip
+        direction="top"
+        offset={[0, -14]}
+        opacity={1}
+        interactive
+        className="map-hover-tooltip"
+      >
+        <div
+          role="button"
+          tabIndex={0}
+          onClick={() => onClick(incident)}
+          className="w-52 cursor-pointer rounded-md bg-white px-3 py-2 shadow-lg ring-1 ring-slate-200"
+        >
+          <div
+            className="text-[10px] font-semibold uppercase tracking-wider"
+            style={{ color }}
+          >
+            {incident.category}
+          </div>
+          <div className="text-sm font-semibold leading-snug text-slate-800">
+            {incident.title}
+          </div>
+          <div className="mt-0.5 text-[11px] text-slate-500">
+            {formatYear(incident.startDate)}
+            {loc.name ? ` · ${loc.name}` : ''}
+          </div>
         </div>
-      </Popup>
+      </Tooltip>
     </Marker>
   );
 };

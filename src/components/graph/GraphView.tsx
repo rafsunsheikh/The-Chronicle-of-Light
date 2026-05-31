@@ -28,15 +28,16 @@ interface GraphLink {
   target: string;
 }
 
+// Vivid, highly-saturated palette — reads punchy against the white backdrop.
 const CATEGORY_COLOR: Record<string, string> = {
-  political: '#3B82F6',
-  religious: '#10B981',
-  cultural: '#8B5CF6',
-  scientific: '#F59E0B',
-  military: '#EF4444',
+  political: '#2D6BFF',
+  religious: '#00C572',
+  cultural: '#A24BFF',
+  scientific: '#FF9500',
+  military: '#FF2D55',
 };
 
-const DEFAULT_COLOR = '#1B8A87';
+const DEFAULT_COLOR = '#00C2B8';
 
 export const GraphView: React.FC<GraphViewProps> = ({
   incidents,
@@ -137,7 +138,7 @@ export const GraphView: React.FC<GraphViewProps> = ({
       </div>
       <div
         ref={containerRef}
-        className="relative flex-1 rounded overflow-hidden bg-slate-900"
+        className="relative flex-1 rounded overflow-hidden bg-white border border-slate-200"
       >
         {size.width > 0 && (
           <ForceGraph3D
@@ -145,7 +146,7 @@ export const GraphView: React.FC<GraphViewProps> = ({
             width={size.width}
             height={size.height}
             graphData={data}
-            backgroundColor="#0f172a"
+            backgroundColor="#ffffff"
             nodeLabel={(node: GraphNode) =>
               `<div style="background:#fff;color:#0f172a;padding:6px 10px;border-radius:6px;font-family:'Public Sans',sans-serif;font-size:12px;box-shadow:0 4px 12px rgba(0,0,0,0.2)">
                 <div style="font-weight:600">${node.name}</div>
@@ -156,7 +157,7 @@ export const GraphView: React.FC<GraphViewProps> = ({
               CATEGORY_COLOR[node.category] ?? DEFAULT_COLOR
             }
             nodeVal={(node: GraphNode) => node.val}
-            nodeOpacity={0.95}
+            nodeOpacity={1}
             nodeResolution={16}
             nodeThreeObjectExtend={true}
             nodeThreeObject={(node: GraphNode) => {
@@ -177,7 +178,7 @@ export const GraphView: React.FC<GraphViewProps> = ({
               sprite.visible = false;
               return sprite;
             }}
-            linkColor={() => 'rgba(148, 163, 184, 0.55)'}
+            linkColor={() => 'rgba(100, 116, 139, 0.55)'}
             linkWidth={0.6}
             linkOpacity={0.65}
             linkDirectionalParticles={2}

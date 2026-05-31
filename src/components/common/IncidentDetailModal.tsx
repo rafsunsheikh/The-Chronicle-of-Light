@@ -1,9 +1,12 @@
-import React, { useEffect } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { HistoricalIncident } from '../../types/incident';
+
+const CLOSE_ANIM_MS = 250;
 
 interface IncidentDetailModalProps {
   incident: HistoricalIncident | null;
   onClose: () => void;
+  onEdit?: (incident: HistoricalIncident) => void;
 }
 
 const formatProseDate = (iso: string): string => {
@@ -25,19 +28,32 @@ const formatProseDate = (iso: string): string => {
 export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
   incident,
   onClose,
+  onEdit,
 }) => {
+  // Drives the enter/exit transition. The component stays mounted through the
+  // closing animation (onClose is deferred), so the map behind is revealed
+  // smoothly as the panel fades out.
+  const [visible, setVisible] = useState(false);
+
+  const requestClose = useCallback(() => {
+    setVisible(false);
+    window.setTimeout(onClose, CLOSE_ANIM_MS);
+  }, [onClose]);
+
   useEffect(() => {
     if (!incident) return;
+    const raf = requestAnimationFrame(() => setVisible(true));
     const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
+      if (e.key === 'Escape') requestClose();
     };
     document.addEventListener('keydown', handleKeyDown);
     document.body.style.overflow = 'hidden';
     return () => {
+      cancelAnimationFrame(raf);
       document.removeEventListener('keydown', handleKeyDown);
       document.body.style.overflow = 'auto';
     };
-  }, [incident, onClose]);
+  }, [incident, requestClose]);
 
   if (!incident) return null;
 
@@ -50,10 +66,12 @@ export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
       role="dialog"
       aria-modal="true"
       aria-labelledby="incident-headline"
-      className="fixed inset-0 z-50 bg-panel overflow-y-auto"
+      className={`fixed inset-0 z-[1100] bg-panel overflow-y-auto transition-all duration-300 ease-out ${
+        visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
+      }`}
     >
       <button
-        onClick={onClose}
+        onClick={requestClose}
         aria-label="Close detail panel"
         className="fixed sm:absolute top-3 sm:top-6 right-3 sm:right-6 w-9 h-9 sm:w-10 sm:h-10 rounded-full border border-slate-300 bg-white/95 backdrop-blur-sm text-slate-600 hover:bg-slate-100 flex items-center justify-center transition-colors z-20"
       >
@@ -98,14 +116,25 @@ export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
             {incident.description}
           </p>
 
-          <button
-            type="button"
-            disabled
-            title="Article page coming soon"
-            className="bg-teal-nma hover:bg-teal-nma/90 disabled:bg-slate-300 disabled:cursor-not-allowed text-white text-[11px] sm:text-xs font-semibold tracking-wider uppercase px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-colors"
-          >
-            Read more about this moment
-          </button>
+          <div className="flex flex-wrap items-center gap-3">
+            <button
+              type="button"
+              disabled
+              title="Article page coming soon"
+              className="bg-teal-nma hover:bg-teal-nma/90 disabled:bg-slate-300 disabled:cursor-not-allowed text-white text-[11px] sm:text-xs font-semibold tracking-wider uppercase px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-colors"
+            >
+              Read more about this moment
+            </button>
+            {onEdit && (
+              <button
+                type="button"
+                onClick={() => onEdit(incident)}
+                className="border border-teal-nma text-teal-nma hover:bg-teal-nma/10 text-[11px] sm:text-xs font-semibold tracking-wider uppercase px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-colors"
+              >
+                Edit
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </div>

@@ -8,7 +8,14 @@ import { TimelineView } from './components/timeline/TimelineView';
 import { MapView } from './components/map/MapView';
 import { GraphView } from './components/graph/GraphView';
 import { IncidentDetailModal } from './components/common/IncidentDetailModal';
+import { EventFormModal } from './components/common/EventFormModal';
+import { emptyIncident, generateId } from './lib/eventStore';
 import type { HistoricalIncident } from './types/incident';
+
+interface EditorState {
+  mode: 'add' | 'edit';
+  draft: HistoricalIncident;
+}
 
 function App() {
   const {
@@ -24,19 +31,55 @@ function App() {
     setDateRange,
     selectedEra,
     setSelectedEra,
+    searchQuery,
+    setSearchQuery,
+    upsertIncident,
+    exportChanges,
+    changeCount,
   } = useIncidents();
 
   const route = useHashRoute();
   const [selectedIncident, setSelectedIncident] = useState<HistoricalIncident | null>(null);
+  const [editor, setEditor] = useState<EditorState | null>(null);
 
   const handleIncidentClick = useCallback((incident: HistoricalIncident) => {
     setSelectedIncident(incident);
   }, []);
   const handleCloseModal = useCallback(() => setSelectedIncident(null), []);
 
+  const handleEdit = useCallback((incident: HistoricalIncident) => {
+    setEditor({ mode: 'edit', draft: incident });
+  }, []);
+
+  const handleAddEvent = useCallback(() => {
+    setEditor({ mode: 'add', draft: emptyIncident() });
+  }, []);
+
+  const handleSaveEvent = useCallback(
+    (draft: HistoricalIncident) => {
+      let toSave = draft;
+      if (!toSave.id) {
+        const taken = new Set(allIncidents.map((i) => i.id));
+        toSave = { ...draft, id: generateId(draft.title, draft.startDate, taken) };
+      }
+      upsertIncident(toSave);
+      // Keep the detail modal in sync if the edited event is open behind it.
+      setSelectedIncident((prev) => (prev && prev.id === toSave.id ? toSave : prev));
+      setEditor(null);
+    },
+    [allIncidents, upsertIncident],
+  );
+
+  const handleCancelEdit = useCallback(() => setEditor(null), []);
+
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-panel font-sans">
-      <NavBar route={route} eventCount={allIncidents.length} />
+      <NavBar
+        route={route}
+        eventCount={allIncidents.length}
+        searchQuery={searchQuery}
+        setSearchQuery={setSearchQuery}
+      />
 
       <main className="flex-1 min-h-0">
         {route === '/timeline' && (
@@ -48,20 +91,55 @@ function App() {
             onEraChange={setSelectedEra}
             dateRange={dateRange}
             onDateRangeChange={setDateRange}
+            onAddEvent={handleAddEvent}
+            onExport={exportChanges}
+            changeCount={changeCount}
           />
         )}
 
         {route === '/map' && (
-          <MapView
-            fill
-            incidents={incidents}
-            onIncidentClick={handleIncidentClick}
-            timeRange={dateRange}
-          />
+          <div className="h-full flex flex-col">
+            <div className="shrink-0 p-4 border-b border-slate-200 bg-white">
+              <FilterBar
+                categories={categories}
+                regions={regions}
+                selectedCategory={selectedCategory}
+                setSelectedCategory={setSelectedCategory}
+                selectedRegion={selectedRegion}
+                setSelectedRegion={setSelectedRegion}
+                dateRange={dateRange}
+                setDateRange={setDateRange}
+              />
+            </div>
+            <div className="flex-1 min-h-0">
+              <MapView
+                fill
+                incidents={incidents}
+                onIncidentClick={handleIncidentClick}
+                timeRange={dateRange}
+              />
+            </div>
+          </div>
         )}
 
         {route === '/connections' && (
-          <GraphView fill incidents={incidents} onNodeClick={handleIncidentClick} />
+          <div className="h-full flex flex-col">
+            <div className="shrink-0 p-4 border-b border-slate-200 bg-white">
+              <FilterBar
+                categories={categories}
+                regions={regions}
+                selectedCategory={selectedCategory}
+                setSelectedCategory={setSelectedCategory}
+                selectedRegion={selectedRegion}
+                setSelectedRegion={setSelectedRegion}
+                dateRange={dateRange}
+                setDateRange={setDateRange}
+              />
+            </div>
+            <div className="flex-1 min-h-0">
+              <GraphView fill incidents={incidents} onNodeClick={handleIncidentClick} />
+            </div>
+          </div>
         )}
 
         {route === '/moments' && (
@@ -104,7 +182,20 @@ function App() {
       </main>
 
       {selectedIncident && (
-        <IncidentDetailModal incident={selectedIncident} onClose={handleCloseModal} />
+        <IncidentDetailModal
+          incident={selectedIncident}
+          onClose={handleCloseModal}
+          onEdit={handleEdit}
+        />
+      )}
+
+      {editor && (
+        <EventFormModal
+          draft={editor.draft}
+          mode={editor.mode}
+          onSave={handleSaveEvent}
+          onCancel={handleCancelEdit}
+        />
       )}
     </div>
   );

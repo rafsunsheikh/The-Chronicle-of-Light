@@ -4,6 +4,21 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Map hover preview: drop Leaflet's default tooltip box so the inner card
+   (white, rounded, shadowed) is the only visible chrome. */
+.leaflet-tooltip.map-hover-tooltip {
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+  white-space: normal;
+}
+.leaflet-tooltip.map-hover-tooltip::before {
+  display: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,

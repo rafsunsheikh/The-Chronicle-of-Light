@@ -16,6 +16,9 @@ interface TimelineViewProps {
   dateRange: { start: string; end: string } | null;
   onDateRangeChange?: (range: { start: string; end: string } | null) => void;
   fill?: boolean; // stretch the timeline stage to fill a full-window page
+  onAddEvent?: () => void;
+  onExport?: () => void;
+  changeCount?: number;
 }
 
 interface EraDef {
@@ -227,6 +230,9 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
   selectedEra,
   onEraChange,
   fill = false,
+  onAddEvent,
+  onExport,
+  changeCount,
 }) => {
   const scrollerRef = useRef<HTMLDivElement>(null);
   const eraRefs = useRef<Record<string, HTMLDivElement | null>>({});
@@ -289,6 +295,9 @@ export const TimelineView: React.FC<TimelineViewProps> = ({
       <TimelineTopBar
         selectedEra={selectedEra}
         onEraChange={onEraChange ?? (() => {})}
+        onAddEvent={onAddEvent}
+        onExport={onExport}
+        changeCount={changeCount}
       />
       <div
         ref={scrollerRef}

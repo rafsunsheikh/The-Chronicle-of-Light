@@ -28,17 +28,30 @@ interface TimelineTopBarProps {
   selectedEra?: string;
   onEraChange: (era: string) => void;
   onClose?: () => void;
+  onAddEvent?: () => void;
+  onExport?: () => void;
+  changeCount?: number;
 }
 
 export const TimelineTopBar: React.FC<TimelineTopBarProps> = ({
   selectedEra,
   onEraChange,
   onClose,
+  onAddEvent,
+  onExport,
+  changeCount = 0,
 }) => {
   const buttonRefs = useRef<Record<string, HTMLButtonElement | null>>({});
 
+  const showActions = Boolean(onAddEvent || onExport);
+
   return (
-    <div className="relative bg-white border-b border-slate-200 h-12 sm:h-16 flex items-start pl-28 sm:pl-44 pr-6 sm:pr-14 pt-2 sm:pt-3 overflow-x-auto">
+    <div className="relative bg-white border-b border-slate-200 h-12 sm:h-16">
+      <div
+        className={`h-full flex items-start pl-28 sm:pl-44 pt-2 sm:pt-3 overflow-x-auto ${
+          showActions ? 'pr-44 sm:pr-80' : 'pr-6 sm:pr-14'
+        }`}
+      >
       <nav
         role="navigation"
         aria-label="Era navigation"
@@ -88,18 +101,47 @@ export const TimelineTopBar: React.FC<TimelineTopBarProps> = ({
           );
         })}
       </nav>
+      </div>
 
-      {onClose && (
-        <button
-          onClick={onClose}
-          aria-label="Close timeline"
-          className="absolute top-1/2 right-4 -translate-y-1/2 w-8 h-8 rounded-full border border-slate-300 text-slate-600 hover:bg-slate-100 flex items-center justify-center"
-        >
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            <path d="M6 6L18 18M6 18L18 6" />
-          </svg>
-        </button>
-      )}
+      <div className="absolute top-1/2 right-3 sm:right-4 -translate-y-1/2 flex items-center gap-2 bg-white pl-3">
+        {onAddEvent && (
+          <button
+            onClick={onAddEvent}
+            className="flex items-center gap-1 rounded-full bg-teal-nma hover:bg-teal-nma/90 text-white text-[11px] sm:text-xs font-semibold tracking-wider uppercase px-3 sm:px-4 py-1.5 sm:py-2 transition-colors"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+              <path d="M12 5v14M5 12h14" />
+            </svg>
+            <span className="hidden sm:inline">Add event</span>
+            <span className="sm:hidden">Add</span>
+          </button>
+        )}
+        {onExport && (
+          <button
+            onClick={onExport}
+            disabled={changeCount === 0}
+            title={
+              changeCount === 0
+                ? 'No edits to export yet'
+                : `Download ${changeCount} edited/added event(s) as JSON`
+            }
+            className="rounded-full border border-slate-300 text-slate-700 hover:bg-slate-100 disabled:opacity-40 disabled:cursor-not-allowed text-[11px] sm:text-xs font-semibold tracking-wider uppercase px-3 sm:px-4 py-1.5 sm:py-2 transition-colors"
+          >
+            Export{changeCount > 0 ? ` (${changeCount})` : ''}
+          </button>
+        )}
+        {onClose && (
+          <button
+            onClick={onClose}
+            aria-label="Close timeline"
+            className="w-8 h-8 rounded-full border border-slate-300 text-slate-600 hover:bg-slate-100 flex items-center justify-center"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M6 6L18 18M6 18L18 6" />
+            </svg>
+          </button>
+        )}
+      </div>
     </div>
   );
 };
