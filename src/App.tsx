@@ -9,6 +9,8 @@ import { MapView } from './components/map/MapView';
 import { GraphView } from './components/graph/GraphView';
 import { IncidentDetailModal } from './components/common/IncidentDetailModal';
 import { EventFormModal } from './components/common/EventFormModal';
+import { DashboardPage } from './components/contrib/DashboardPage';
+import { ReviewPage } from './components/contrib/ReviewPage';
 import { emptyIncident, generateId } from './lib/eventStore';
 import { createSubmission } from './lib/submissions';
 import { useAuth } from './lib/auth';
@@ -35,6 +37,7 @@ function App() {
     setSelectedEra,
     searchQuery,
     setSearchQuery,
+    refreshEvents,
   } = useIncidents();
 
   const { enabled: authEnabled, user, signInWithGoogle } = useAuth();
@@ -201,20 +204,10 @@ function App() {
           </div>
         )}
 
-        {(route === '/dashboard' || route === '/review') && (
-          <div className="h-full flex items-center justify-center p-8 text-center">
-            <div className="max-w-md">
-              <h2 className="text-2xl font-semibold text-teal-nma mb-2">
-                {route === '/dashboard' ? 'My contributions' : 'Review queue'}
-              </h2>
-              <p className="text-sm text-slate-500">
-                Coming in the next step. Sign-in is live — this page will list{' '}
-                {route === '/dashboard'
-                  ? 'your proposed edits and their status.'
-                  : 'pending submissions for you to approve or reject.'}
-              </p>
-            </div>
-          </div>
+        {route === '/dashboard' && <DashboardPage />}
+
+        {route === '/review' && (
+          <ReviewPage currentEvents={allIncidents} onChanged={refreshEvents} />
         )}
       </main>
 
