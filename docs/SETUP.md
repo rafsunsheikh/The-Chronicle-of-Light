@@ -89,11 +89,11 @@ signed in, with your name shown in the top-right account menu.
 ## 6. Make yourself the maintainer
 
 Your profile row is created automatically on first sign-in. Promote it once via
-**SQL Editor**:
+**SQL Editor** — use the **exact email of the Google account you sign in with**:
 
 ```sql
 update public.profiles set role = 'maintainer'
-where email = 'rafsun.sheikh@audd.digital';
+where email = 'rafsun.sheikh@gmail.com';
 ```
 
 Sign out and back in (or refresh) — the account menu will now show a
@@ -158,16 +158,24 @@ back into `src/data/events/*.json` daily, so the repo stays a recent backup.
 
 ---
 
-## What's built so far
+## What's built
 
 - ✅ Supabase schema + RLS + approval functions (`0001`)
 - ✅ Canonical `events` table — full corpus in the DB (`0002`)
 - ✅ Google auth, account menu, maintainer role detection
 - ✅ Edits/new events submitted as **pending** submissions
 - ✅ App reads the corpus live from the database (bundled JSON = fallback)
+- ✅ **My contributions** dashboard (your submissions + statuses + withdraw)
+- ✅ **Review queue** for maintainers (field-level diff, approve / reject)
 - ✅ Seed script + scheduled GitHub backup of the knowledge base
 
-## Still to come (next phases)
+## How the contribution loop works
 
-- **My contributions** dashboard (your submissions + statuses)
-- **Review queue** for maintainers (approve / reject with a diff)
+1. A signed-in contributor opens an event and clicks **Suggest an edit**, or
+   **Add event** on the timeline, and submits the form.
+2. The proposal is stored as a **pending** row — it does *not* change the live
+   data. The contributor tracks it under **My contributions**.
+3. A maintainer opens **Review queue**, sees the proposed-vs-current diff, and
+   **Approves** (writes it to the `events` table — live immediately) or
+   **Rejects** (with an optional note).
+4. The scheduled GitHub Action mirrors the `events` table back into the repo.

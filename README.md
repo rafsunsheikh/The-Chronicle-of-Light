@@ -2,21 +2,29 @@
 
 An interactive web application for exploring Islamic history through a
 time-axis timeline, a geolocated map of events, and a 3-D force-directed
-graph of connections between them. The dataset lives as one JSON file per
-event under `src/data/events/`; a Wikipedia/Wikidata importer is included
-for bulk-seeding drafts that humans then review and promote.
+graph of connections between them. Signed-in users can **propose edits and
+new events**, which a maintainer reviews and approves; approved changes go
+live immediately. The corpus is stored in **Supabase** with a copy mirrored
+back to one JSON file per event under `src/data/events/`. A Wikipedia/Wikidata
+importer is included for bulk-seeding drafts.
 
 > **Status:** open-source. MIT license for code, CC BY-SA 4.0 for the
 > dataset. See [Contributing](#contributing) to add events, fix bugs, or
 > suggest features.
 >
-> **Live demo:** https://rafsunsheikh.github.io/The-Chronicle-of-Light/
+> **Live demo:** https://the-chronicle-of-light.vercel.app
+> (also mirrored at https://rafsunsheikh.github.io/The-Chronicle-of-Light/)
+>
+> **Backend setup:** accounts and the contribution workflow are powered by
+> Supabase — see [`docs/SETUP.md`](docs/SETUP.md). The app also runs
+> read-only with no backend configured.
 
 ## Contents
 
 - [What's here](#whats-here)
 - [Tech stack](#tech-stack)
 - [Quick start](#quick-start)
+- [Accounts & the contribution workflow](#accounts--the-contribution-workflow)
 - [Repo layout](#repo-layout)
 - [Available npm scripts](#available-npm-scripts)
 - [The data model](#the-data-model)
@@ -39,19 +47,33 @@ for bulk-seeding drafts that humans then review and promote.
   visually closer); top/bottom lanes are assigned only to avoid overlap.
   Card shapes are deterministically randomized per `id` for visual
   variety.
-- **Inline detail panel** with a full-bleed two-column NMA-style layout
-  (hero image + caption left, date / teal headline / body / disabled
-  *Read more* CTA right). Closes on `Escape` or the circular `×`.
+- **Floating detail page** with a full-bleed two-column NMA-style layout
+  (hero image + caption left, date / teal headline / body right). Animates
+  in/out and closes on `Escape` or the circular `×`. Includes a
+  **Suggest an edit** button for signed-in users.
 - **Interactive map** using CARTO Voyager tiles (English place labels
-  worldwide, no API key). Markers are uniform teal — no per-category
-  colour palette.
+  worldwide, no API key). Markers are category-coloured divIcons; hovering
+  a marker shows a small preview card, and clicking the marker or card
+  opens the detail page floating over the map.
 - **3-D Event Connections graph** rendered by `react-force-graph-3d`
-  (Three.js + WebGL): force-directed sphere of nodes, category-coloured
-  spheres sized by connection degree, animated link particles, sprite
-  text labels that fade in as the camera approaches a node, click-to-fly
-  camera focus.
-- **Filter bar** (category, region, date range) and an "All moments" card
-  grid below the stage.
+  (Three.js + WebGL): force-directed nodes on a **white** background,
+  vivid category-coloured spheres sized by connection degree, animated link
+  particles, sprite text labels that fade in as the camera approaches a
+  node, click-to-fly camera focus.
+- **Global event search** in the nav bar (matches title, description,
+  region, dynasty, category, place) plus a **filter bar** (category,
+  region, date range) on the map, connections, and "All moments" views.
+
+**Accounts & contributions**
+
+- **Google sign-in** (Supabase Auth) with an account menu in the nav bar.
+- **Propose edits / new events** in-app; submissions are stored as
+  *pending* and never change the live data until approved.
+- **My contributions** dashboard — your submissions with
+  pending/approved/rejected status, plus withdraw.
+- **Review queue** (maintainers only) — proposed-vs-current diff with
+  approve/reject; approvals go live immediately.
+- See [Accounts & the contribution workflow](#accounts--the-contribution-workflow).
 
 **Tooling**
 
@@ -61,6 +83,8 @@ for bulk-seeding drafts that humans then review and promote.
   resolves to an existing event.
 - Wikipedia → events importer with optional `--depth` recursion through
   the Wikipedia link graph.
+- Supabase seed + a scheduled GitHub Action that mirrors the database
+  back into the repo.
 - ESLint flat config, TypeScript strict mode, GitHub Actions CI.
 
 ## Tech stack
@@ -73,12 +97,17 @@ for bulk-seeding drafts that humans then review and promote.
 | 3-D graph | **react-force-graph-3d** on **Three.js**, with **three-spritetext** for in-scene labels |
 | Map | **react-leaflet 4** on **Leaflet 1.9**, CARTO Voyager tiles |
 | Timeline | bespoke CSS scroller (NMA-style; replaced an earlier vis-timeline restyle) |
+| Backend | **Supabase** (Postgres + Auth + row-level security) via **@supabase/supabase-js** |
+| Hosting | **Vercel** (primary) and **GitHub Pages** (mirror); `base` switches automatically |
 | Linting | **ESLint 10** flat config (`eslint.config.js`) |
 | Schema validation | **ajv** + **ajv-formats**, run from a Node script |
-| CI | GitHub Actions: lint, build, validate-events |
+| CI | GitHub Actions: lint, build, validate-events (+ a scheduled Supabase→repo backup) |
 
-No backend yet. The app is a static SPA — events are bundled into the
-JS at build time via Vite's `import.meta.glob`.
+The canonical corpus lives in a Supabase `events` table that the app reads
+live; the bundled JSON (`import.meta.glob`) provides an instant first paint
+and an offline fallback, and is kept in sync by the backup job. With no
+Supabase credentials configured the app still runs read-only off the bundled
+JSON, with sign-in and contributions hidden.
 
 ## Quick start
 
@@ -103,8 +132,31 @@ npm run validate:events
 npm run build
 ```
 
-That's the whole flow for code or content work — there's no database,
-no env var setup, and no auth.
+That's the whole flow for visual/code work — the dev server runs read-only
+off the bundled JSON with no env setup. To exercise **sign-in and the
+contribution workflow** locally, copy `.env.example` to `.env`, fill in your
+Supabase URL + anon key, and follow [`docs/SETUP.md`](docs/SETUP.md).
+
+## Accounts & the contribution workflow
+
+The app reads its corpus from a Supabase `events` table and accepts community
+contributions through a moderated workflow:
+
+1. A signed-in user opens an event → **Suggest an edit**, or clicks
+   **Add event** on the timeline, and submits the form.
+2. The proposal is saved as a **pending** submission (`event_submissions`); it
+   does **not** change the live data.
+3. The contributor tracks status under **My contributions** (`/dashboard`).
+4. A **maintainer** opens the **Review queue** (`/review`), inspects the
+   proposed-vs-current field diff, and **approves** (upserts into `events` — live
+   at once) or **rejects** with a note.
+5. A scheduled GitHub Action mirrors the `events` table back into
+   `src/data/events/*.json`, so git stays a recent backup of the corpus.
+
+Roles live on the `profiles` table (`contributor` | `maintainer`); the first
+maintainer is promoted with one SQL statement. Full provisioning steps —
+Supabase project, migrations, Google OAuth, seeding, Vercel, and the backup
+job — are in [`docs/SETUP.md`](docs/SETUP.md).
 
 ## Repo layout
 
@@ -118,40 +170,64 @@ no env var setup, and no auth.
 │   │
 │   ├── components/
 │   │   ├── common/
+│   │   │   ├── NavBar.tsx               ← tabs + global search + account menu
+│   │   │   ├── AccountMenu.tsx          ← Google sign-in / account dropdown
 │   │   │   ├── FilterBar.tsx            ← category / region / date filters
 │   │   │   ├── IncidentCard.tsx         ← card in the "All moments" grid
-│   │   │   └── IncidentDetailModal.tsx  ← full-bleed inline detail panel
+│   │   │   ├── IncidentDetailModal.tsx  ← floating detail page (+ Suggest an edit)
+│   │   │   └── EventFormModal.tsx       ← add/edit form → pending submission
+│   │   ├── contrib/
+│   │   │   ├── DashboardPage.tsx        ← "My contributions" (status + withdraw)
+│   │   │   └── ReviewPage.tsx           ← maintainer review queue (diff + approve/reject)
 │   │   ├── timeline/
 │   │   │   ├── TimelineView.tsx         ← time-axis layout + placement algorithm
-│   │   │   ├── TimelineTopBar.tsx       ← era nav + red-square indicator
+│   │   │   ├── TimelineTopBar.tsx       ← era nav + red-square indicator + Add event
 │   │   │   └── timeline.css             ← stage / rail / card / slot styling
 │   │   ├── map/
 │   │   │   ├── MapView.tsx              ← Leaflet MapContainer + tile config
-│   │   │   └── MapMarker.tsx            ← per-incident divIcon marker
+│   │   │   └── MapMarker.tsx            ← category-coloured divIcon + hover card
 │   │   └── graph/
 │   │       └── GraphView.tsx            ← 3-D force graph + label visibility
 │   │
 │   ├── hooks/
-│   │   └── useIncidents.ts              ← glob-loads events, filter state, derived lists
+│   │   ├── useIncidents.ts              ← reads corpus from Supabase (JSON fallback), filter/search state
+│   │   └── useHashRoute.ts              ← minimal hash router
+│   │
+│   ├── lib/
+│   │   ├── supabase.ts                  ← Supabase client (null when unconfigured)
+│   │   ├── auth.tsx                     ← AuthProvider + useAuth (Google, role)
+│   │   ├── submissions.ts               ← create/list/approve/reject/withdraw submissions
+│   │   └── eventStore.ts               ← form helpers (slugify, id gen, constants)
 │   │
 │   ├── types/
-│   │   └── incident.ts                  ← HistoricalIncident, Media, Location types
+│   │   ├── incident.ts                  ← HistoricalIncident, Media, Location types
+│   │   └── contribution.ts              ← Profile, EventSubmission, EventOverride types
 │   │
 │   └── data/
 │       ├── event.schema.json            ← JSON Schema draft 2020-12
-│       └── events/                      ← one JSON file per event (the canonical dataset)
-│           ├── event-0610-revelation-of-the-quran.json
-│           ├── event-0622-hijra-migration-to-medina.json
-│           └── …  (34 events currently)
+│       └── events/                      ← one JSON file per event (backup mirror of the DB)
+│           ├── event-0610-revelation-of-the-quran.json   (34 at root)
+│           └── tabari/…                                   (1,087 imported from al-Tabari)
 │
 ├── scripts/
 │   ├── validate-events.mjs              ← schema + connections cross-ref checker
+│   ├── seed-supabase.mjs                ← one-time JSON → Supabase events table (service role)
+│   ├── backup-from-supabase.mjs         ← Supabase events table → JSON files (used by the Action)
+│   ├── _env.mjs                         ← .env loader shared by the Node scripts
 │   └── wikipedia-import/                ← Wikipedia/Wikidata importer (see its own README)
 │       ├── README.md                    ← detailed usage doc
 │       ├── index.mjs                    ← BFS-capable orchestrator
 │       ├── wikipedia.mjs                ← MediaWiki + REST API clients
 │       ├── wikidata.mjs                 ← SPARQL client (chunked POST)
 │       └── transform.mjs                ← Wikidata/summary → schema mapping
+│
+├── supabase/
+│   └── migrations/
+│       ├── 0001_contributions.sql       ← profiles, submissions, RLS, approve/reject RPCs
+│       └── 0002_events_canonical.sql    ← canonical events table
+│
+├── docs/
+│   └── SETUP.md                         ← backend / accounts / deployment guide
 │
 ├── thoughts/
 │   └── shared/
@@ -160,7 +236,8 @@ no env var setup, and no auth.
 │
 ├── .github/
 │   └── workflows/
-│       └── ci.yml                       ← lint, build, validate-events on every PR
+│       ├── ci.yml                       ← lint, build, validate-events on every PR
+│       └── backup-supabase.yml          ← daily Supabase → repo mirror (+ manual run)
 │
 ├── eslint.config.js                     ← ESLint 10 flat config
 ├── tsconfig.json / tsconfig.node.json   ← strict TS
@@ -181,13 +258,18 @@ no env var setup, and no auth.
 | `npm run lint` | ESLint over `src/`. CI runs the same command. |
 | `npm run validate:events` | Checks every JSON file in `src/data/events/` against the schema, asserts unique IDs, filename ↔ id alignment, year-of-id ↔ year-of-startDate match, and that every `connections[]` ID resolves to a real event. |
 | `npm run import:wikipedia` | Run the Wikipedia importer. See `scripts/wikipedia-import/README.md`. |
+| `npm run seed:supabase` | One-time: upsert every event JSON file into the Supabase `events` table. Needs `SUPABASE_SERVICE_ROLE_KEY`. See [`docs/SETUP.md`](docs/SETUP.md). |
+| `npm run backup:supabase` | Pull the `events` table back into `src/data/events/*.json` (run by the scheduled GitHub Action; also runnable locally). |
 
 ## The data model
 
-Every event lives in **one file per event** at
-`src/data/events/{id}.json`. The runtime loads them with Vite's
-`import.meta.glob`, sorts numerically by `startDate`, and feeds them to
-the components. There is no database.
+The canonical corpus is the Supabase `events` table; each row's `payload` is
+one event object. The app fetches the table (paginated) and sorts numerically
+by `startDate`. The same events are also stored **one file per event** at
+`src/data/events/{id}.json` — bundled via Vite's `import.meta.glob` for an
+instant first paint and offline fallback, and kept in sync with the table by
+the [backup job](#accounts--the-contribution-workflow). The per-event JSON is
+still the format you edit in PRs and the schema below applies to both.
 
 ### Schema
 
@@ -238,7 +320,20 @@ Optional fields the schema accepts:
 
 ## Adding or editing an event
 
-The workflow is **PR-driven**; there is no UI for content editing.
+There are two paths:
+
+**In-app (recommended for content contributors).** Sign in, open an event and
+click **Suggest an edit**, or **Add event** on the timeline. Your submission is
+queued for maintainer review; once approved it goes live and is later mirrored
+back into the repo by the backup job. See
+[Accounts & the contribution workflow](#accounts--the-contribution-workflow).
+No local setup required — just an account on the live site.
+
+**PR-driven (for code contributors editing the JSON directly).** The
+per-event JSON files remain editable in git; this is the path below. Note the
+files are a backup mirror of the database, so coordinate larger direct edits
+with a maintainer to avoid being overwritten by a sync, or apply them through
+the seed/backup tooling.
 
 **To add an event:**
 
@@ -301,12 +396,14 @@ caching, politeness checklist, and the review workflow:
 
 A few things that aren't obvious from the file tree:
 
-**`useIncidents` is the single data entry point.** Vite globs every
-`src/data/events/*.json` at build time and bundles the contents into
-the JS chunk. The hook sorts numerically by `startDate`, exposes
-filtered + unfiltered lists, and holds filter state (category, region,
-date range, selected era). All visualisation components read from this
-one source.
+**`useIncidents` is the single data entry point.** It renders the bundled
+JSON (globbed by Vite at build time) immediately, then fetches the full corpus
+from the Supabase `events` table — paginated past PostgREST's 1,000-row cap —
+and swaps it in. If Supabase is unreachable or the table is empty, it keeps the
+bundled fallback. The hook sorts numerically by `startDate`, exposes filtered +
+unfiltered lists, holds filter + search state, and exposes `refreshEvents()`
+(called after an approval). All visualisation components read from this one
+source.
 
 **Timeline placement is data-driven.** `TimelineView.tsx::placeEra`
 sorts events chronologically, then greedily walks them left-to-right,
@@ -326,27 +423,41 @@ as you zoom in and disappear when you zoom out.
 
 **The map renders CARTO Voyager tiles** (`{s}.basemaps.cartocdn.com/
 rastertiles/voyager/...`) instead of vanilla OpenStreetMap so place
-names are in English worldwide. No API key required. Markers are plain
-teal divIcons; the per-category colour palette was removed when the
-project moved to the NMA palette.
+names are in English worldwide. No API key required. Markers are
+category-coloured divIcons with a hover preview card (an interactive
+Leaflet `Tooltip`); clicking the marker or the card opens the detail page,
+which is layered above Leaflet's panes with a high `z-index`.
+
+**Contributions are server-backed, auth-gated, and moderated.**
+`lib/supabase.ts` lazily creates the client (or `null` when unconfigured);
+`lib/auth.tsx` wraps the app in an `AuthProvider`. Edits/new events become rows
+in `event_submissions` (status `pending`); approval runs the `approve_submission`
+Postgres RPC (security-definer) which upserts into `events`. Row-level security
+enforces that contributors only see their own submissions while maintainers see
+all — see `supabase/migrations/`.
 
 **CI is three Actions jobs** (`.github/workflows/ci.yml`): `lint`,
 `build`, and `validate-events`, all on `pull_request` and pushes to
 `main`. Each installs deps via `npm ci` with the Node 20 cache, runs
-the corresponding npm script, and fails the PR on any non-zero exit.
+the corresponding npm script, and fails the PR on any non-zero exit. A
+separate scheduled workflow (`backup-supabase.yml`) mirrors the database
+into the repo daily.
 
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute
 events, code, or documentation. In short:
 
-- The dataset is the primary contribution surface — most PRs are event
-  additions, corrections, or `connections[]` enrichment.
+- **Content** is easiest contributed **in-app** — sign in and use
+  *Suggest an edit* / *Add event*; a maintainer approves it. No git needed.
+- The dataset is also editable via **PRs** — event additions, corrections,
+  or `connections[]` enrichment (see the note in
+  [Adding or editing an event](#adding-or-editing-an-event)).
 - Code PRs: keep them focused. Run lint, build, and validate-events
   before pushing.
 - Cite sources for new events. Mark contested events with
   `confidence: "contested"` and list `perspectives[]`.
-- All PRs require maintainer approval before merge.
+- All PRs and submissions require maintainer approval before going live.
 
 ## Continuous integration
 
