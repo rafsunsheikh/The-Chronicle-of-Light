@@ -97,6 +97,14 @@ export const AccountMenu: React.FC = () => {
           >
             My contributions
           </a>
+          <a
+            href="#/leaderboard"
+            role="menuitem"
+            onClick={() => setOpen(false)}
+            className="block px-3 py-2 hover:bg-slate-50"
+          >
+            View leaderboard
+          </a>
           {isMaintainer && (
             <a
               href="#/review"

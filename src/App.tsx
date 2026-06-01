@@ -10,6 +10,7 @@ import { GraphView } from './components/graph/GraphView';
 import { IncidentDetailModal } from './components/common/IncidentDetailModal';
 import { EventFormModal } from './components/common/EventFormModal';
 import { DashboardPage } from './components/contrib/DashboardPage';
+import { LeaderboardPage } from './components/contrib/LeaderboardPage';
 import { ReviewPage } from './components/contrib/ReviewPage';
 import { emptyIncident, generateId } from './lib/eventStore';
 import { createSubmission } from './lib/submissions';
@@ -203,6 +204,8 @@ function App() {
             </div>
           </div>
         )}
+
+        {route === '/leaderboard' && <LeaderboardPage />}
 
         {route === '/dashboard' && <DashboardPage />}
 

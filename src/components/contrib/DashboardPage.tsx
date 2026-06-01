@@ -1,7 +1,17 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useAuth } from '../../lib/auth';
-import { listMySubmissions, withdrawSubmission } from '../../lib/submissions';
+import {
+  fetchLeaderboard,
+  listMySubmissions,
+  withdrawSubmission,
+} from '../../lib/submissions';
 import type { EventSubmission } from '../../types/contribution';
+
+const ordinal = (n: number): string => {
+  const s = ['th', 'st', 'nd', 'rd'];
+  const v = n % 100;
+  return n + (s[(v - 20) % 10] ?? s[v] ?? s[0]);
+};
 
 const STATUS_STYLES: Record<EventSubmission['status'], string> = {
   pending: 'bg-amber-100 text-amber-800',
@@ -30,6 +40,11 @@ export const DashboardPage: React.FC = () => {
   const { enabled, user, signInWithGoogle } = useAuth();
   const [items, setItems] = useState<EventSubmission[] | null>(null);
   const [busyId, setBusyId] = useState<string | null>(null);
+  const [rank, setRank] = useState<{
+    position: number;
+    total: number;
+    approved: number;
+  } | null>(null);
 
   const reload = useCallback(async () => {
     if (!user) return;
@@ -40,8 +55,22 @@ export const DashboardPage: React.FC = () => {
     if (!user) return;
     let cancelled = false;
     void (async () => {
-      const data = await listMySubmissions(user.id);
-      if (!cancelled) setItems(data);
+      const [data, board] = await Promise.all([
+        listMySubmissions(user.id),
+        fetchLeaderboard(),
+      ]);
+      if (cancelled) return;
+      setItems(data);
+      const idx = board.findIndex((e) => e.author_id === user.id);
+      setRank(
+        idx === -1
+          ? null
+          : {
+              position: idx + 1,
+              total: board.length,
+              approved: board[idx].approved_count,
+            },
+      );
     })();
     return () => {
       cancelled = true;
@@ -89,6 +118,26 @@ export const DashboardPage: React.FC = () => {
           Edits and new events you've proposed. They go live once a maintainer
           approves them.
         </p>
+
+        {rank && (
+          <a
+            href="#/leaderboard"
+            className="mb-6 flex items-center gap-3 rounded-lg border border-teal-nma/30 bg-teal-nma/5 px-4 py-3 hover:bg-teal-nma/10 transition-colors"
+          >
+            <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-teal-nma text-sm font-bold text-white">
+              #{rank.position}
+            </span>
+            <span className="text-sm text-slate-700">
+              You're <span className="font-semibold">{ordinal(rank.position)}</span>{' '}
+              of {rank.total} contributors with{' '}
+              <span className="font-semibold">{rank.approved}</span> approved{' '}
+              {rank.approved === 1 ? 'contribution' : 'contributions'}.
+              <span className="ml-1 text-teal-nma font-medium">
+                View leaderboard →
+              </span>
+            </span>
+          </a>
+        )}
 
         {items === null ? (
           <p className="text-slate-500">Loading…</p>

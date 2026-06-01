@@ -12,6 +12,7 @@ export type RoutePath =
   | '/map'
   | '/connections'
   | '/moments'
+  | '/leaderboard'
   | '/dashboard'
   | '/review';
 
@@ -21,6 +22,7 @@ const ROUTES: RoutePath[] = [
   '/map',
   '/connections',
   '/moments',
+  '/leaderboard',
   '/dashboard',
   '/review',
 ];

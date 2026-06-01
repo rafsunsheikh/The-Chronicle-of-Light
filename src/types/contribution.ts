@@ -34,3 +34,14 @@ export interface EventOverride {
   updated_at: string;
   updated_by: string | null;
 }
+
+/** One row of the contributors leaderboard (see `contributor_leaderboard` RPC). */
+export interface LeaderboardEntry {
+  author_id: string;
+  display_name: string;
+  approved_count: number;
+  pending_count: number;
+  rejected_count: number;
+  total_count: number;
+  last_contribution: string;
+}

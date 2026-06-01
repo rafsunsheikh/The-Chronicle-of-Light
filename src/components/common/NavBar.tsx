@@ -14,6 +14,7 @@ const TABS: { path: RoutePath; label: string }[] = [
   { path: '/map', label: 'Map' },
   { path: '/connections', label: 'Connections' },
   { path: '/moments', label: 'All Moments' },
+  { path: '/leaderboard', label: 'Leaderboard' },
 ];
 
 export const NavBar: React.FC<NavBarProps> = ({

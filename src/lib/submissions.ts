@@ -1,6 +1,10 @@
 import { supabase } from './supabase';
 import type { HistoricalIncident } from '../types/incident';
-import type { EventSubmission, SubmissionType } from '../types/contribution';
+import type {
+  EventSubmission,
+  LeaderboardEntry,
+  SubmissionType,
+} from '../types/contribution';
 
 export interface SubmitResult {
   error?: string;
@@ -82,6 +86,18 @@ export async function rejectSubmission(
     note: note?.trim() ? note.trim() : null,
   });
   return { error: error?.message };
+}
+
+/**
+ * Contributors ranked by approved submissions (server-side aggregation via the
+ * `contributor_leaderboard` RPC, which safely reads past RLS). Public — works
+ * for logged-out visitors too.
+ */
+export async function fetchLeaderboard(): Promise<LeaderboardEntry[]> {
+  if (!supabase) return [];
+  const { data, error } = await supabase.rpc('contributor_leaderboard');
+  if (error || !data) return [];
+  return data as LeaderboardEntry[];
 }
 
 /** A contributor withdraws their own still-pending submission. */
