@@ -10,6 +10,8 @@ import { GraphView } from './components/graph/GraphView';
 import { IncidentDetailModal } from './components/common/IncidentDetailModal';
 import { EventFormModal } from './components/common/EventFormModal';
 import { emptyIncident, generateId } from './lib/eventStore';
+import { createSubmission } from './lib/submissions';
+import { useAuth } from './lib/auth';
 import type { HistoricalIncident } from './types/incident';
 
 interface EditorState {
@@ -33,10 +35,9 @@ function App() {
     setSelectedEra,
     searchQuery,
     setSearchQuery,
-    upsertIncident,
-    exportChanges,
-    changeCount,
   } = useIncidents();
+
+  const { enabled: authEnabled, user, signInWithGoogle } = useAuth();
 
   const route = useHashRoute();
   const [selectedIncident, setSelectedIncident] = useState<HistoricalIncident | null>(null);
@@ -47,27 +48,49 @@ function App() {
   }, []);
   const handleCloseModal = useCallback(() => setSelectedIncident(null), []);
 
-  const handleEdit = useCallback((incident: HistoricalIncident) => {
-    setEditor({ mode: 'edit', draft: incident });
-  }, []);
+  // Contributing requires sign-in: if a signed-out user clicks Edit/Add, send
+  // them through Google sign-in instead of opening the form.
+  const requireAuth = useCallback((): boolean => {
+    if (user) return true;
+    if (authEnabled) signInWithGoogle();
+    return false;
+  }, [user, authEnabled, signInWithGoogle]);
+
+  const handleEdit = useCallback(
+    (incident: HistoricalIncident) => {
+      if (!requireAuth()) return;
+      setEditor({ mode: 'edit', draft: incident });
+    },
+    [requireAuth],
+  );
 
   const handleAddEvent = useCallback(() => {
+    if (!requireAuth()) return;
     setEditor({ mode: 'add', draft: emptyIncident() });
-  }, []);
+  }, [requireAuth]);
 
+  // Submit the proposed edit/new event as a pending submission. Returns the
+  // result so the form can show success / error inline.
   const handleSaveEvent = useCallback(
-    (draft: HistoricalIncident) => {
-      let toSave = draft;
-      if (!toSave.id) {
-        const taken = new Set(allIncidents.map((i) => i.id));
-        toSave = { ...draft, id: generateId(draft.title, draft.startDate, taken) };
+    async (draft: HistoricalIncident, note: string) => {
+      if (!user) {
+        return { error: 'You must be signed in to contribute.' };
       }
-      upsertIncident(toSave);
-      // Keep the detail modal in sync if the edited event is open behind it.
-      setSelectedIncident((prev) => (prev && prev.id === toSave.id ? toSave : prev));
-      setEditor(null);
+      let payload = draft;
+      const isCreate = !payload.id;
+      if (isCreate) {
+        const taken = new Set(allIncidents.map((i) => i.id));
+        payload = { ...draft, id: generateId(draft.title, draft.startDate, taken) };
+      }
+      return createSubmission({
+        type: isCreate ? 'create' : 'edit',
+        payload,
+        authorId: user.id,
+        authorEmail: user.email ?? null,
+        note,
+      });
     },
-    [allIncidents, upsertIncident],
+    [allIncidents, user],
   );
 
   const handleCancelEdit = useCallback(() => setEditor(null), []);
@@ -92,8 +115,6 @@ function App() {
             dateRange={dateRange}
             onDateRangeChange={setDateRange}
             onAddEvent={handleAddEvent}
-            onExport={exportChanges}
-            changeCount={changeCount}
           />
         )}
 

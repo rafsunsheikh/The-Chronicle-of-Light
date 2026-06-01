@@ -1,0 +1,47 @@
+name: Backup Supabase events to repo
+
+# Mirrors the canonical Supabase `events` table back into src/data/events/*.json
+# so the repo is always a recent backup of the knowledge base.
+
+on:
+  schedule:
+    - cron: '0 3 * * *' # daily at 03:00 UTC
+  workflow_dispatch: {} # allow manual runs from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: backup-supabase
+  cancel-in-progress: true
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Pull events from Supabase
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: npm run backup:supabase
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain src/data/events)" ]]; then
+            git add src/data/events
+            git commit -m "chore(backup): sync events from Supabase [skip ci]"
+            git push
+          else
+            echo "No changes to back up."
+          fi

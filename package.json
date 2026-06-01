@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "lint": "eslint src",
     "validate:events": "node scripts/validate-events.mjs",
-    "import:wikipedia": "node scripts/wikipedia-import/index.mjs"
+    "import:wikipedia": "node scripts/wikipedia-import/index.mjs",
+    "seed:supabase": "node scripts/seed-supabase.mjs",
+    "backup:supabase": "node scripts/backup-from-supabase.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.106.2",

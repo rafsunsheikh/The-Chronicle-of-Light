@@ -1,16 +1,30 @@
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { HistoricalIncident } from '../types/incident';
-import {
-  EventOverrides,
-  downloadJson,
-  loadOverrides,
-  persistOverrides,
-} from '../lib/eventStore';
+import { supabase } from '../lib/supabase';
 
 const eventModules = import.meta.glob<{ default: HistoricalIncident }>(
   '../data/events/**/*.json',
   { eager: true },
 );
+
+// PostgREST caps a single response at 1,000 rows, so the corpus is fetched in
+// pages. Returns null on any failure (or an empty/not-yet-seeded table) so the
+// caller falls back to the bundled JSON mirror.
+const DB_PAGE_SIZE = 1000;
+async function fetchAllEvents(): Promise<HistoricalIncident[] | null> {
+  if (!supabase) return null;
+  const all: HistoricalIncident[] = [];
+  for (let from = 0; ; from += DB_PAGE_SIZE) {
+    const { data, error } = await supabase
+      .from('events')
+      .select('payload')
+      .range(from, from + DB_PAGE_SIZE - 1);
+    if (error || !data) return null;
+    all.push(...data.map((r) => (r as { payload: HistoricalIncident }).payload));
+    if (data.length < DB_PAGE_SIZE) break;
+  }
+  return all.length > 0 ? all : null;
+}
 // Sort numerically rather than lexicographically — protects against any
 // data inconsistency where some dates are 3-digit ("610-10-13") and others
 // are 4-digit ("0610-10-13"); string compare would put all 4-digit before
@@ -32,19 +46,27 @@ export function useIncidents() {
   const [selectedEra, setSelectedEra] = useState<string | undefined>(undefined);
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  // Writable overlay (user edits + newly-added events) persisted to localStorage.
-  const [overrides, setOverrides] = useState<EventOverrides>(() => loadOverrides());
+  // The canonical corpus lives in Supabase. We render the bundled JSON mirror
+  // immediately for a fast first paint, then replace it with the live table
+  // data once it loads. `null` means "DB not loaded / unavailable" → keep the
+  // bundled fallback.
+  const [dbEvents, setDbEvents] = useState<HistoricalIncident[] | null>(null);
 
-  // Merge the immutable build-time data with the overlay: an override with the
-  // same id replaces a base event; an override with a new id is appended.
+  const refreshEvents = useCallback(async () => {
+    const events = await fetchAllEvents();
+    if (events) setDbEvents(events);
+  }, []);
+
+  useEffect(() => {
+    refreshEvents();
+  }, [refreshEvents]);
+
   const incidents = useMemo(() => {
-    const merged = new Map<string, HistoricalIncident>();
-    for (const incident of baseIncidentsData) merged.set(incident.id, incident);
-    for (const id of Object.keys(overrides)) merged.set(id, overrides[id]);
-    return [...merged.values()].sort(
+    const source = dbEvents ?? baseIncidentsData;
+    return [...source].sort(
       (a, b) => startTimestamp(a.startDate) - startTimestamp(b.startDate),
     );
-  }, [overrides]);
+  }, [dbEvents]);
 
   const filteredIncidents = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
@@ -81,25 +103,6 @@ export function useIncidents() {
     return [...new Set(incidents.map(i => i.region).filter((r): r is string => !!r))];
   }, [incidents]);
 
-  // Insert or update an event in the overlay and persist it.
-  const upsertIncident = useCallback((incident: HistoricalIncident) => {
-    setOverrides((prev) => {
-      const next = { ...prev, [incident.id]: incident };
-      persistOverrides(next);
-      return next;
-    });
-  }, []);
-
-  const changeCount = Object.keys(overrides).length;
-
-  // Download every edited / added event as a JSON array so it can be committed
-  // back into src/data/events/.
-  const exportChanges = useCallback(() => {
-    const list = Object.values(overrides);
-    if (list.length === 0) return;
-    downloadJson(`events-export-${list.length}.json`, list);
-  }, [overrides]);
-
   return {
     incidents: filteredIncidents,
     allIncidents: incidents,
@@ -115,8 +118,6 @@ export function useIncidents() {
     setSelectedEra,
     searchQuery,
     setSearchQuery,
-    upsertIncident,
-    exportChanges,
-    changeCount,
+    refreshEvents,
   };
 }

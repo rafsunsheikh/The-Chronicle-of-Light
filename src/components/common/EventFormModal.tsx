@@ -1,11 +1,12 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { HistoricalIncident, Media } from '../../types/incident';
 import { CATEGORIES, CONFIDENCE_LEVELS } from '../../lib/eventStore';
+import type { SubmitResult } from '../../lib/submissions';
 
 interface EventFormModalProps {
   draft: HistoricalIncident;
   mode: 'add' | 'edit';
-  onSave: (incident: HistoricalIncident) => void;
+  onSave: (incident: HistoricalIncident, note: string) => Promise<SubmitResult>;
   onCancel: () => void;
 }
 
@@ -34,6 +35,10 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
   const [imageCaption, setImageCaption] = useState<string>(
     existingImage?.caption ?? '',
   );
+  const [note, setNote] = useState<string>('');
+  const [submitting, setSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [done, setDone] = useState(false);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -83,8 +88,9 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
     return Object.keys(next).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (submitting) return;
     if (!validate()) return;
 
     // Re-assemble media: keep non-image entries, prepend the edited image.
@@ -119,7 +125,15 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
       connections: form.connections ?? [],
     };
 
-    onSave(cleaned);
+    setSubmitting(true);
+    setSubmitError(null);
+    const result = await onSave(cleaned, note);
+    setSubmitting(false);
+    if (result?.error) {
+      setSubmitError(result.error);
+      return;
+    }
+    setDone(true);
   };
 
   return (
@@ -135,7 +149,11 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
             id="event-form-heading"
             className="text-2xl sm:text-3xl font-semibold text-teal-nma"
           >
-            {mode === 'add' ? 'Add event' : 'Edit event'}
+            {done
+              ? 'Thank you!'
+              : mode === 'add'
+                ? 'Propose a new event'
+                : 'Suggest an edit'}
           </h2>
           <button
             type="button"
@@ -149,7 +167,41 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
           </button>
         </div>
 
+        {done ? (
+          <div className="rounded-lg border border-teal-nma/30 bg-teal-nma/5 p-6 text-slate-700">
+            <p className="text-base font-semibold text-teal-nma mb-2">
+              Submitted for review
+            </p>
+            <p className="text-sm leading-relaxed">
+              Your {mode === 'add' ? 'proposed event' : 'suggested edit'} has been
+              sent to the maintainers. It won't appear on the site until it's
+              approved. You can track its status under{' '}
+              <span className="font-semibold">My contributions</span>.
+            </p>
+            <div className="mt-5 flex gap-3">
+              <a
+                href="#/dashboard"
+                onClick={onCancel}
+                className="px-5 py-2.5 rounded-full bg-teal-nma hover:bg-teal-nma/90 text-white text-xs font-semibold tracking-wider uppercase transition-colors"
+              >
+                View my contributions
+              </a>
+              <button
+                type="button"
+                onClick={onCancel}
+                className="px-5 py-2.5 rounded-full border border-slate-300 text-slate-700 text-xs font-semibold tracking-wider uppercase hover:bg-slate-100 transition-colors"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        ) : (
         <form onSubmit={handleSubmit} className="space-y-5">
+          <div className="rounded-md bg-slate-100 px-4 py-3 text-xs text-slate-600">
+            {mode === 'add'
+              ? 'Your new event will be submitted for review and published once a maintainer approves it.'
+              : 'Your changes will be submitted for review and applied once a maintainer approves them.'}
+          </div>
           <div>
             <label className={labelClass} htmlFor="ev-title">Title *</label>
             <input
@@ -338,22 +390,49 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
             </div>
           </fieldset>
 
+          <div>
+            <label className={labelClass} htmlFor="ev-note">
+              Note to reviewer (optional)
+            </label>
+            <textarea
+              id="ev-note"
+              rows={2}
+              className={inputClass}
+              placeholder="Sources, reasoning, or anything that helps the reviewer"
+              value={note}
+              onChange={(e) => setNote(e.target.value)}
+            />
+          </div>
+
+          {submitError && (
+            <p className="text-sm text-red-nma">
+              Couldn't submit: {submitError}
+            </p>
+          )}
+
           <div className="flex items-center justify-end gap-3 pt-2">
             <button
               type="button"
               onClick={onCancel}
-              className="px-5 py-2.5 rounded-full border border-slate-300 text-slate-700 text-xs font-semibold tracking-wider uppercase hover:bg-slate-100 transition-colors"
+              disabled={submitting}
+              className="px-5 py-2.5 rounded-full border border-slate-300 text-slate-700 text-xs font-semibold tracking-wider uppercase hover:bg-slate-100 disabled:opacity-50 transition-colors"
             >
               Cancel
             </button>
             <button
               type="submit"
-              className="px-6 py-2.5 rounded-full bg-teal-nma hover:bg-teal-nma/90 text-white text-xs font-semibold tracking-wider uppercase transition-colors"
+              disabled={submitting}
+              className="px-6 py-2.5 rounded-full bg-teal-nma hover:bg-teal-nma/90 disabled:opacity-60 disabled:cursor-not-allowed text-white text-xs font-semibold tracking-wider uppercase transition-colors"
             >
-              {mode === 'add' ? 'Add event' : 'Save changes'}
+              {submitting
+                ? 'Submitting…'
+                : mode === 'add'
+                  ? 'Submit new event'
+                  : 'Submit edit'}
             </button>
           </div>
         </form>
+        )}
       </div>
     </div>
   );

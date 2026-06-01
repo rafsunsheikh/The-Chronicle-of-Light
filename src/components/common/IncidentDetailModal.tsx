@@ -131,7 +131,7 @@ export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
                 onClick={() => onEdit(incident)}
                 className="border border-teal-nma text-teal-nma hover:bg-teal-nma/10 text-[11px] sm:text-xs font-semibold tracking-wider uppercase px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-colors"
               >
-                Edit
+                Suggest an edit
               </button>
             )}
           </div>

@@ -14,15 +14,19 @@ You only need to do this once. Until it's done, the app still runs read-only
 2. Pick a name, a strong database password, and a region close to your users.
 3. Wait for it to finish provisioning (~2 min).
 
-## 2. Run the database migration
+## 2. Run the database migrations
 
-1. In the Supabase dashboard, open **SQL Editor → New query**.
-2. Paste the entire contents of
-   [`supabase/migrations/0001_contributions.sql`](../supabase/migrations/0001_contributions.sql)
-   and click **Run**.
-3. This creates the `profiles`, `event_submissions`, and `event_overrides`
-   tables, the row-level-security policies, and the `approve_submission` /
-   `reject_submission` functions.
+In the Supabase dashboard, open **SQL Editor → New query**, then run each file's
+contents in order:
+
+1. [`supabase/migrations/0001_contributions.sql`](../supabase/migrations/0001_contributions.sql)
+   — `profiles`, `event_submissions`, RLS policies, and the
+   `approve_submission` / `reject_submission` functions.
+2. [`supabase/migrations/0002_events_canonical.sql`](../supabase/migrations/0002_events_canonical.sql)
+   — the canonical `events` table (the full corpus the app reads from) and
+   re-points approval to write into it.
+
+Then **seed the corpus** (see [section 8](#8-seed-the-event-corpus-one-time)).
 
 ## 3. Get your API keys
 
@@ -62,10 +66,15 @@ You only need to do this once. Until it's done, the app still runs read-only
    - Copy the **Callback URL** shown here back into the Google credential's
      Authorized redirect URIs (step 1) if you hadn't already.
 
-3. **In Supabase → Authentication → URL Configuration**, add your app origins to
-   **Redirect URLs** (one per environment):
-   - `http://localhost:5173` (local dev)
-   - your Vercel URL once deployed, e.g. `https://your-app.vercel.app`
+3. **In Supabase → Authentication → URL Configuration**:
+   - **Site URL** → your deployed app, e.g.
+     `https://the-chronicle-of-light.vercel.app`.
+     (Leaving this at the default `http://localhost:3000` makes sign-in redirect
+     there and fail — Supabase uses the Site URL as the fallback redirect.)
+   - **Redirect URLs** → add one per environment, using the `/**` wildcard:
+     - `https://the-chronicle-of-light.vercel.app/**` (production)
+     - `http://localhost:5173/**` (local dev — note the dev server serves under
+       `/The-Chronicle-of-Light/`, which the wildcard covers)
 
 ## 5. Run locally
 
@@ -110,16 +119,55 @@ Sign out and back in (or refresh) — the account menu will now show a
 
 ---
 
-## What's built so far (phases 1–2)
+## 8. Seed the event corpus (one-time)
 
-- ✅ Supabase schema + RLS + approval functions
-- ✅ Supabase client (degrades gracefully when unconfigured)
+Loads all ~1,121 JSON event files into the Supabase `events` table, which the
+app then reads from. This needs the **service-role key** (it bypasses RLS for
+the bulk insert).
+
+1. Supabase → **Project Settings → API → service_role** key. Copy it.
+   - ⚠️ This key is a **secret** — never commit it or put it in a `VITE_` var.
+2. Run the seed once, locally:
+
+   ```bash
+   SUPABASE_SERVICE_ROLE_KEY=<service-role-key> npm run seed:supabase
+   ```
+
+   (Or add `SUPABASE_SERVICE_ROLE_KEY=…` to your `.env` and just run
+   `npm run seed:supabase`.)
+
+3. Verify in **Table editor → events** that ~1,121 rows are present. The app now
+   serves the corpus from the database (the bundled JSON remains as an instant
+   first-paint and offline fallback).
+
+## 9. Schedule the GitHub backup
+
+A workflow (`.github/workflows/backup-supabase.yml`) mirrors the `events` table
+back into `src/data/events/*.json` daily, so the repo stays a recent backup.
+
+1. In **GitHub → repo → Settings → Secrets and variables → Actions**, add:
+   - `SUPABASE_URL` — your bare project URL.
+   - `SUPABASE_ANON_KEY` — the anon public key (read-only is enough).
+2. **Settings → Actions → General → Workflow permissions** → enable
+   **Read and write permissions** (so the job can commit).
+3. Trigger it once from the **Actions** tab (**Run workflow**) to confirm it
+   commits any drift. It then runs daily at 03:00 UTC.
+
+> Cadence is set by the `cron` in the workflow — change it there if you want
+> more/less frequent backups.
+
+---
+
+## What's built so far
+
+- ✅ Supabase schema + RLS + approval functions (`0001`)
+- ✅ Canonical `events` table — full corpus in the DB (`0002`)
 - ✅ Google auth, account menu, maintainer role detection
+- ✅ Edits/new events submitted as **pending** submissions
+- ✅ App reads the corpus live from the database (bundled JSON = fallback)
+- ✅ Seed script + scheduled GitHub backup of the knowledge base
 
 ## Still to come (next phases)
 
-- Submitting an edit/new event as a **pending** submission (instead of localStorage)
-- Reading approved overrides live from the database
-- **My contributions** dashboard
-- **Review queue** for maintainers (approve / reject)
-- Switching the deploy from GitHub Pages to Vercel (`base` change)
+- **My contributions** dashboard (your submissions + statuses)
+- **Review queue** for maintainers (approve / reject with a diff)

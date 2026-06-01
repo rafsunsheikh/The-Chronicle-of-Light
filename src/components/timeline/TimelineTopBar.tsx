@@ -29,8 +29,6 @@ interface TimelineTopBarProps {
   onEraChange: (era: string) => void;
   onClose?: () => void;
   onAddEvent?: () => void;
-  onExport?: () => void;
-  changeCount?: number;
 }
 
 export const TimelineTopBar: React.FC<TimelineTopBarProps> = ({
@@ -38,18 +36,16 @@ export const TimelineTopBar: React.FC<TimelineTopBarProps> = ({
   onEraChange,
   onClose,
   onAddEvent,
-  onExport,
-  changeCount = 0,
 }) => {
   const buttonRefs = useRef<Record<string, HTMLButtonElement | null>>({});
 
-  const showActions = Boolean(onAddEvent || onExport);
+  const showActions = Boolean(onAddEvent);
 
   return (
     <div className="relative bg-white border-b border-slate-200 h-12 sm:h-16">
       <div
         className={`h-full flex items-start pl-28 sm:pl-44 pt-2 sm:pt-3 overflow-x-auto ${
-          showActions ? 'pr-44 sm:pr-80' : 'pr-6 sm:pr-14'
+          showActions ? 'pr-32 sm:pr-52' : 'pr-6 sm:pr-14'
         }`}
       >
       <nav
@@ -114,20 +110,6 @@ export const TimelineTopBar: React.FC<TimelineTopBarProps> = ({
             </svg>
             <span className="hidden sm:inline">Add event</span>
             <span className="sm:hidden">Add</span>
-          </button>
-        )}
-        {onExport && (
-          <button
-            onClick={onExport}
-            disabled={changeCount === 0}
-            title={
-              changeCount === 0
-                ? 'No edits to export yet'
-                : `Download ${changeCount} edited/added event(s) as JSON`
-            }
-            className="rounded-full border border-slate-300 text-slate-700 hover:bg-slate-100 disabled:opacity-40 disabled:cursor-not-allowed text-[11px] sm:text-xs font-semibold tracking-wider uppercase px-3 sm:px-4 py-1.5 sm:py-2 transition-colors"
-          >
-            Export{changeCount > 0 ? ` (${changeCount})` : ''}
           </button>
         )}
         {onClose && (
