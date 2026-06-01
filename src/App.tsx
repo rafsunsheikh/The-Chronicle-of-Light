@@ -179,6 +179,22 @@ function App() {
             </div>
           </div>
         )}
+
+        {(route === '/dashboard' || route === '/review') && (
+          <div className="h-full flex items-center justify-center p-8 text-center">
+            <div className="max-w-md">
+              <h2 className="text-2xl font-semibold text-teal-nma mb-2">
+                {route === '/dashboard' ? 'My contributions' : 'Review queue'}
+              </h2>
+              <p className="text-sm text-slate-500">
+                Coming in the next step. Sign-in is live — this page will list{' '}
+                {route === '/dashboard'
+                  ? 'your proposed edits and their status.'
+                  : 'pending submissions for you to approve or reject.'}
+              </p>
+            </div>
+          </div>
+        )}
       </main>
 
       {selectedIncident && (

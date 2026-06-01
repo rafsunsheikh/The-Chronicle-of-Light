@@ -1,5 +1,6 @@
 import React from 'react';
 import type { RoutePath } from '../../hooks/useHashRoute';
+import { AccountMenu } from './AccountMenu';
 
 interface NavBarProps {
   route: RoutePath;
@@ -86,6 +87,7 @@ export const NavBar: React.FC<NavBarProps> = ({
         <span className="hidden lg:block text-xs text-white/60 whitespace-nowrap">
           {eventCount.toLocaleString()} events
         </span>
+        <AccountMenu />
       </div>
     </nav>
   );

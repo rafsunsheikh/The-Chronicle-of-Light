@@ -7,10 +7,23 @@ import { useEffect, useState } from 'react';
  * from a GitHub Pages sub-path and a normal path router would 404 on deep links
  * / refreshes without an SPA fallback. The hash never hits the server.
  */
-export type RoutePath = '/timeline' | '/map' | '/connections' | '/moments';
+export type RoutePath =
+  | '/timeline'
+  | '/map'
+  | '/connections'
+  | '/moments'
+  | '/dashboard'
+  | '/review';
 
 const DEFAULT_ROUTE: RoutePath = '/timeline';
-const ROUTES: RoutePath[] = ['/timeline', '/map', '/connections', '/moments'];
+const ROUTES: RoutePath[] = [
+  '/timeline',
+  '/map',
+  '/connections',
+  '/moments',
+  '/dashboard',
+  '/review',
+];
 
 const currentRoute = (): RoutePath => {
   const h = window.location.hash.replace(/^#/, '') as RoutePath;
