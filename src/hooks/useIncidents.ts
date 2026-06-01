@@ -58,8 +58,17 @@ export function useIncidents() {
   }, []);
 
   useEffect(() => {
-    refreshEvents();
-  }, [refreshEvents]);
+    let cancelled = false;
+    // Fetch inside an async IIFE so setState happens after the await (not
+    // synchronously in the effect body).
+    void (async () => {
+      const events = await fetchAllEvents();
+      if (!cancelled && events) setDbEvents(events);
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const incidents = useMemo(() => {
     const source = dbEvents ?? baseIncidentsData;

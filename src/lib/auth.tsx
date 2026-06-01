@@ -40,10 +40,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, []);
 
   useEffect(() => {
-    if (!supabase) {
-      setLoading(false);
-      return;
-    }
+    // `loading` initialises to isSupabaseConfigured, so when there's no client
+    // it's already false — nothing to do (and no synchronous setState here).
+    if (!supabase) return;
     let active = true;
 
     supabase.auth.getSession().then(({ data }: { data: { session: Session | null } }) => {
