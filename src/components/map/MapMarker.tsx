@@ -53,7 +53,7 @@ export const MapMarker: React.FC<MapMarkerProps> = ({ incident, onClick }) => {
           role="button"
           tabIndex={0}
           onClick={() => onClick(incident)}
-          className="w-52 cursor-pointer rounded-md bg-white px-3 py-2 shadow-lg ring-1 ring-slate-200"
+          className="w-44 sm:w-52 max-w-[75vw] cursor-pointer rounded-md bg-white px-3 py-2 shadow-lg ring-1 ring-slate-200"
         >
           <div
             className="text-[10px] font-semibold uppercase tracking-wider"

@@ -44,6 +44,23 @@
   }
 }
 
+/* Very narrow phones: reclaim horizontal space so the rail and first era are
+   not pushed far off the left edge. Stage padding and rail offset stay in sync
+   so the dashed centreline still starts at the same x. */
+@media (max-width: 480px) {
+  .timeline-stage {
+    padding-left: 44px;
+    padding-right: 20px;
+  }
+  .timeline-rail {
+    left: 44px;
+  }
+  .timeline-era-label {
+    font-size: 26px;
+    padding: 0 8px;
+  }
+}
+
 /* Continuous dashed rail running through the vertical centerline */
 .timeline-rail {
   position: absolute;

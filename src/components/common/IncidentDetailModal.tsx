@@ -73,7 +73,7 @@ export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
       <button
         onClick={requestClose}
         aria-label="Close detail panel"
-        className="fixed sm:absolute top-3 sm:top-6 right-3 sm:right-6 w-9 h-9 sm:w-10 sm:h-10 rounded-full border border-slate-300 bg-white/95 backdrop-blur-sm text-slate-600 hover:bg-slate-100 flex items-center justify-center transition-colors z-20"
+        className="fixed sm:absolute top-3 sm:top-6 right-3 sm:right-6 w-10 h-10 sm:w-11 sm:h-11 rounded-full border border-slate-300 bg-white/95 backdrop-blur-sm text-slate-600 hover:bg-slate-100 flex items-center justify-center transition-colors z-20"
       >
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M6 6L18 18M6 18L18 6" />

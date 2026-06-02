@@ -159,7 +159,7 @@ export const EventFormModal: React.FC<EventFormModalProps> = ({
             type="button"
             onClick={onCancel}
             aria-label="Cancel"
-            className="w-9 h-9 rounded-full border border-slate-300 bg-white text-slate-600 hover:bg-slate-100 flex items-center justify-center"
+            className="shrink-0 w-10 h-10 rounded-full border border-slate-300 bg-white text-slate-600 hover:bg-slate-100 flex items-center justify-center"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M6 6L18 18M6 18L18 6" />

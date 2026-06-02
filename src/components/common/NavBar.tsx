@@ -27,14 +27,14 @@ export const NavBar: React.FC<NavBarProps> = ({
     <nav className="h-14 shrink-0 bg-navy-nma text-white flex items-stretch z-30 shadow-md">
       <a
         href="#/timeline"
-        className="px-4 flex flex-col justify-center shrink-0 hover:bg-white/5 transition-colors"
+        className="px-3 sm:px-4 flex flex-col justify-center shrink-0 hover:bg-white/5 transition-colors"
         aria-label="The Chronicle of Light — home"
       >
         <div className="text-[10px] tracking-widest uppercase opacity-70 leading-tight">The</div>
-        <div className="font-bold leading-tight text-sm">Chronicle of Light</div>
+        <div className="font-bold leading-tight text-xs sm:text-sm whitespace-nowrap">Chronicle of Light</div>
       </a>
 
-      <div className="flex items-stretch overflow-x-auto">
+      <div className="flex items-stretch overflow-x-auto min-w-0 flex-1">
         {TABS.map((tab) => {
           const active = route === tab.path;
           return (
@@ -43,7 +43,7 @@ export const NavBar: React.FC<NavBarProps> = ({
               href={`#${tab.path}`}
               aria-current={active ? 'page' : undefined}
               className={[
-                'px-4 sm:px-5 flex items-center text-sm font-medium whitespace-nowrap',
+                'px-3 sm:px-5 flex items-center text-sm font-medium whitespace-nowrap',
                 'border-b-2 transition-colors',
                 active
                   ? 'border-white text-white bg-white/10'
@@ -56,7 +56,7 @@ export const NavBar: React.FC<NavBarProps> = ({
         })}
       </div>
 
-      <div className="ml-auto flex items-center gap-3 pl-2 pr-3">
+      <div className="ml-auto shrink-0 flex items-center gap-2 sm:gap-3 pl-2 pr-2 sm:pr-3">
         <div className="relative">
           <span className="pointer-events-none absolute left-2.5 top-1/2 -translate-y-1/2 text-white/50">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

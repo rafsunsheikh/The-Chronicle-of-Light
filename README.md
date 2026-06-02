@@ -2,11 +2,7 @@
 
 An interactive web application for exploring Islamic history through a
 time-axis timeline, a geolocated map of events, and a 3-D force-directed
-graph of connections between them. Signed-in users can **propose edits and
-new events**, which a maintainer reviews and approves; approved changes go
-live immediately. The corpus is stored in **Supabase** with a copy mirrored
-back to one JSON file per event under `src/data/events/`. A Wikipedia/Wikidata
-importer is included for bulk-seeding drafts.
+graph of connections between them. 
 
 > **Status:** open-source. MIT license for code, CC BY-SA 4.0 for the
 > dataset. See [Contributing](#contributing) to add events, fix bugs, or
@@ -14,10 +10,6 @@ importer is included for bulk-seeding drafts.
 >
 > **Live demo:** https://the-chronicle-of-light.vercel.app
 > (also mirrored at https://rafsunsheikh.github.io/The-Chronicle-of-Light/)
->
-> **Backend setup:** accounts and the contribution workflow are powered by
-> Supabase — see [`docs/SETUP.md`](docs/SETUP.md). The app also runs
-> read-only with no backend configured.
 
 ## Contents
 
@@ -66,7 +58,7 @@ importer is included for bulk-seeding drafts.
 
 **Accounts & contributions**
 
-- **Google sign-in** (Supabase Auth) with an account menu in the nav bar.
+- **Google sign-in** with an account menu in the nav bar.
 - **Propose edits / new events** in-app; submissions are stored as
   *pending* and never change the live data until approved.
 - **My contributions** dashboard — your submissions with
