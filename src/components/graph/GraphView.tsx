@@ -5,6 +5,7 @@ import * as THREE from 'three';
 import { HistoricalIncident } from '../../types/incident';
 
 const LABEL_VISIBLE_DISTANCE = 160;
+const MOBILE_BREAKPOINT = 768;
 
 interface GraphViewProps {
   incidents: HistoricalIncident[];
@@ -50,6 +51,21 @@ export const GraphView: React.FC<GraphViewProps> = ({
     width: 0,
     height: 384,
   });
+
+  // Mobile GPUs can't hold a WebGL texture + sphere + label per node for the
+  // full corpus — it OOMs and the browser kills the tab. On phones we render a
+  // stripped-down scene: no per-node SpriteText textures, no link particles,
+  // lower sphere resolution, and no continuous auto-rotate render loop.
+  const [isMobile, setIsMobile] = useState<boolean>(
+    typeof window !== 'undefined' && window.innerWidth < MOBILE_BREAKPOINT,
+  );
+
+  useEffect(() => {
+    const mq = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT - 1}px)`);
+    const handle = (e: MediaQueryListEvent) => setIsMobile(e.matches);
+    mq.addEventListener('change', handle);
+    return () => mq.removeEventListener('change', handle);
+  }, []);
 
   const data = useMemo(() => {
     const nodeIds = new Set(incidents.map((i) => i.id));
@@ -101,8 +117,12 @@ export const GraphView: React.FC<GraphViewProps> = ({
       addEventListener?: (e: string, cb: () => void) => void;
       removeEventListener?: (e: string, cb: () => void) => void;
     };
-    controls.autoRotate = true;
+    // Auto-rotate keeps the GPU rendering forever; skip it on mobile to save
+    // memory/battery. The sprite-label visibility loop below is also pointless
+    // on mobile (no sprite labels are created there), so bail out early.
+    controls.autoRotate = !isMobile;
     controls.autoRotateSpeed = 0.6;
+    if (isMobile) return;
 
     const camera = g.camera() as THREE.PerspectiveCamera;
     const scene = g.scene() as THREE.Scene;
@@ -126,7 +146,7 @@ export const GraphView: React.FC<GraphViewProps> = ({
       window.clearInterval(handle);
       controls.removeEventListener?.('change', updateLabelVisibility);
     };
-  }, [data]);
+  }, [data, isMobile]);
 
   return (
     <div className={`bg-white flex flex-col ${fill ? 'h-full w-full p-3 sm:p-4' : 'rounded-lg shadow-md p-3 sm:p-4 h-80 sm:h-96'}`}>
@@ -158,9 +178,9 @@ export const GraphView: React.FC<GraphViewProps> = ({
             }
             nodeVal={(node: GraphNode) => node.val}
             nodeOpacity={1}
-            nodeResolution={16}
-            nodeThreeObjectExtend={true}
-            nodeThreeObject={(node: GraphNode) => {
+            nodeResolution={isMobile ? 8 : 16}
+            nodeThreeObjectExtend={!isMobile}
+            nodeThreeObject={isMobile ? undefined : (node: GraphNode) => {
               const sprite = new SpriteText(node.name);
               sprite.color = '#ffffff';
               sprite.backgroundColor = 'rgba(15, 23, 42, 0.85)';
@@ -181,7 +201,7 @@ export const GraphView: React.FC<GraphViewProps> = ({
             linkColor={() => 'rgba(100, 116, 139, 0.55)'}
             linkWidth={0.6}
             linkOpacity={0.65}
-            linkDirectionalParticles={2}
+            linkDirectionalParticles={isMobile ? 0 : 2}
             linkDirectionalParticleSpeed={0.005}
             linkDirectionalParticleWidth={1.6}
             linkDirectionalParticleColor={() => '#2EB6B0'}
