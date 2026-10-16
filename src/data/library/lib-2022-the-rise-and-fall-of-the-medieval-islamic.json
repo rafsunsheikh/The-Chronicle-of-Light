@@ -1,0 +1,34 @@
+{
+  "id": "lib-2022-the-rise-and-fall-of-the-medieval-islamic",
+  "type": "video",
+  "title": "The Rise and Fall of the Medieval Islamic Empire",
+  "creators": [
+    "TED-Ed",
+    "Petra Sijpesteijn",
+    "Birte Kristiansen"
+  ],
+  "year": 2022,
+  "language": "en",
+  "categories": [
+    "institutions"
+  ],
+  "summary": "A five-minute animated lesson on how the caliphate grew from Arabia to Spain and Central Asia within a century, how the Abbasids governed it from Baghdad, and why it fragmented. Useful context for the whole section.",
+  "url": "https://www.youtube.com/watch?v=rQ0EKiCt6H8",
+  "license": "all-rights-reserved",
+  "hosted": false,
+  "contentPath": null,
+  "video": {
+    "provider": "youtube",
+    "id": "rQ0EKiCt6H8"
+  },
+  "source": {
+    "name": "YouTube (TED-Ed)",
+    "url": "https://www.youtube.com/watch?v=rQ0EKiCt6H8",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0746-abbasid-revolution",
+    "event-0661-establishment-of-umayyad-caliphate"
+  ],
+  "confidence": "established"
+}

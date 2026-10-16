@@ -17,5 +17,11 @@
   "learningPath": "islamic-golden-age",
   "dynasty": "Abbasid",
   "region": "Mesopotamia",
-  "media": []
+  "media": [
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=bkVsus8Ehxs",
+      "caption": "The Medieval Islamicate World, Crash Course History of Science #7 (CrashCourse, YouTube)"
+    }
+  ]
 }

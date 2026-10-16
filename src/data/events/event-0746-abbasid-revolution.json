@@ -25,6 +25,11 @@
     {
       "type": "image",
       "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Caliphate_750.jpg/330px-Caliphate_750.jpg"
+    },
+    {
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=rQ0EKiCt6H8",
+      "caption": "The rise and fall of the medieval Islamic Empire (TED-Ed, YouTube)"
     }
   ]
 }

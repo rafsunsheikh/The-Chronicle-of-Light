@@ -1,0 +1,30 @@
+{
+  "id": "lib-2015-science-in-a-golden-age-astronomy-the-science",
+  "type": "video",
+  "title": "Science in a Golden Age: Astronomy, the Science of the Stars",
+  "creators": [
+    "Al Jazeera English",
+    "Jim Al-Khalili (presenter)"
+  ],
+  "year": 2015,
+  "language": "en",
+  "categories": [
+    "astronomy"
+  ],
+  "summary": "Physicist Jim Al-Khalili visits observatories and instruments to show how astronomers of the Islamic world refined Ptolemy's models, built star tables and astrolabes, and fixed the direction of Mecca and the times of prayer. About 25 minutes, from Al Jazeera's six-part series.",
+  "url": "https://www.youtube.com/watch?v=3cVfyurIFvM",
+  "license": "all-rights-reserved",
+  "hosted": false,
+  "contentPath": null,
+  "video": {
+    "provider": "youtube",
+    "id": "3cVfyurIFvM"
+  },
+  "source": {
+    "name": "YouTube (Al Jazeera English)",
+    "url": "https://www.youtube.com/watch?v=3cVfyurIFvM",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

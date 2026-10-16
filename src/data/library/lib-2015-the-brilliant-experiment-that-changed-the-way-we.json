@@ -1,0 +1,29 @@
+{
+  "id": "lib-2015-the-brilliant-experiment-that-changed-the-way-we",
+  "type": "video",
+  "title": "The Brilliant Experiment That Changed the Way We See Light",
+  "creators": [
+    "Smithsonian Channel"
+  ],
+  "year": 2015,
+  "language": "en",
+  "categories": [
+    "science-and-mathematics"
+  ],
+  "summary": "A short Smithsonian Channel clip on Ibn al-Haytham's camera obscura experiment and how it overturned the Greek theory that sight comes from rays leaving the eye.",
+  "url": "https://www.youtube.com/watch?v=4Dk2CfO5PAY",
+  "license": "all-rights-reserved",
+  "hosted": false,
+  "contentPath": null,
+  "video": {
+    "provider": "youtube",
+    "id": "4Dk2CfO5PAY"
+  },
+  "source": {
+    "name": "YouTube (Smithsonian Channel)",
+    "url": "https://www.youtube.com/watch?v=4Dk2CfO5PAY",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

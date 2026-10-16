@@ -1,0 +1,32 @@
+{
+  "id": "lib-2017-science-in-a-golden-age-al-razi-ibn",
+  "type": "video",
+  "title": "Science in a Golden Age: Al-Razi, Ibn Sina and the Canon of Medicine",
+  "creators": [
+    "Al Jazeera English",
+    "Jim Al-Khalili (presenter)"
+  ],
+  "year": 2017,
+  "language": "en",
+  "categories": [
+    "medicine"
+  ],
+  "summary": "The hospitals of Baghdad, al-Razi's clinical observations and Ibn Sina's Canon of Medicine, the textbook taught in Europe until the seventeenth century, told through visits to the places and manuscripts. About 25 minutes.",
+  "url": "https://www.youtube.com/watch?v=c8HlFFDTBWQ",
+  "license": "all-rights-reserved",
+  "hosted": false,
+  "contentPath": null,
+  "video": {
+    "provider": "youtube",
+    "id": "c8HlFFDTBWQ"
+  },
+  "source": {
+    "name": "YouTube (Al Jazeera English)",
+    "url": "https://www.youtube.com/watch?v=c8HlFFDTBWQ",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-1025-avicenna-writes-the-canon"
+  ],
+  "confidence": "established"
+}

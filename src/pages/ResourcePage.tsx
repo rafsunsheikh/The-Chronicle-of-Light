@@ -1,4 +1,5 @@
 import { ResourceCard } from '../components/library/ResourceCard';
+import { VideoEmbed } from '../components/library/VideoEmbed';
 import { LICENSE_LABELS } from '../data/licenses';
 import { useLibrary } from '../hooks/useLibrary';
 import { categoryLabel } from '../data/renaissanceCategories';
@@ -40,6 +41,9 @@ export function ResourcePage({ id, incidents, onIncidentClick }: ResourcePagePro
         </a>
 
         <article className="mt-6 bg-white rounded-md border border-slate-200 p-5 sm:p-8">
+          {resource.type === 'video' && resource.video && (
+            <VideoEmbed video={resource.video} title={resource.title} className="mb-6" />
+          )}
           <div className="text-[11px] font-semibold tracking-widest uppercase text-slate-500 mb-2">
             {resource.type} · {resource.year}
           </div>

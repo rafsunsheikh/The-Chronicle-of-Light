@@ -1,0 +1,35 @@
+{
+  "id": "lib-2018-the-medieval-islamicate-world-crash-course-history-of",
+  "type": "video",
+  "title": "The Medieval Islamicate World: Crash Course History of Science #7",
+  "creators": [
+    "CrashCourse",
+    "Hank Green (presenter)"
+  ],
+  "year": 2018,
+  "language": "en",
+  "categories": [
+    "institutions",
+    "translation-movement",
+    "science-and-mathematics"
+  ],
+  "summary": "A twelve-minute overview of science in the medieval Islamic world: the translation movement, the House of Wisdom, the main figures in mathematics, astronomy, medicine and optics, and how their work reached Europe. Fast and friendly; a good first video.",
+  "url": "https://www.youtube.com/watch?v=bkVsus8Ehxs",
+  "license": "all-rights-reserved",
+  "hosted": false,
+  "contentPath": null,
+  "video": {
+    "provider": "youtube",
+    "id": "bkVsus8Ehxs"
+  },
+  "source": {
+    "name": "YouTube (CrashCourse)",
+    "url": "https://www.youtube.com/watch?v=bkVsus8Ehxs",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0830-house-of-wisdom-established",
+    "event-0786-translation-movement"
+  ],
+  "confidence": "established"
+}

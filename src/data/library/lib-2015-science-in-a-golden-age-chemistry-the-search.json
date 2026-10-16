@@ -1,0 +1,30 @@
+{
+  "id": "lib-2015-science-in-a-golden-age-chemistry-the-search",
+  "type": "video",
+  "title": "Science in a Golden Age: Chemistry, the Search for the Philosopher's Stone",
+  "creators": [
+    "Al Jazeera English",
+    "Jim Al-Khalili (presenter)"
+  ],
+  "year": 2015,
+  "language": "en",
+  "categories": [
+    "science-and-mathematics"
+  ],
+  "summary": "Jabir ibn Hayyan and the alchemists of the Islamic world, whose laboratory methods, distillation and classification of substances laid groundwork for modern chemistry. About 25 minutes.",
+  "url": "https://www.youtube.com/watch?v=uFAFZbrrCjA",
+  "license": "all-rights-reserved",
+  "hosted": false,
+  "contentPath": null,
+  "video": {
+    "provider": "youtube",
+    "id": "uFAFZbrrCjA"
+  },
+  "source": {
+    "name": "YouTube (Al Jazeera English)",
+    "url": "https://www.youtube.com/watch?v=uFAFZbrrCjA",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

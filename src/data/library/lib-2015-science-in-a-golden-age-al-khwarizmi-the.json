@@ -1,0 +1,34 @@
+{
+  "id": "lib-2015-science-in-a-golden-age-al-khwarizmi-the",
+  "type": "video",
+  "title": "Science in a Golden Age: Al-Khwarizmi, the Father of Algebra",
+  "creators": [
+    "Al Jazeera English",
+    "Jim Al-Khalili (presenter)"
+  ],
+  "year": 2015,
+  "language": "en",
+  "categories": [
+    "science-and-mathematics",
+    "institutions"
+  ],
+  "summary": "Al-Khwarizmi's work at the House of Wisdom in Baghdad: the book that named algebra, the spread of Hindu-Arabic numerals, and why his name became the word algorithm. About 25 minutes.",
+  "url": "https://www.youtube.com/watch?v=sAxWF_W6Q9w",
+  "license": "all-rights-reserved",
+  "hosted": false,
+  "contentPath": null,
+  "video": {
+    "provider": "youtube",
+    "id": "sAxWF_W6Q9w"
+  },
+  "source": {
+    "name": "YouTube (Al Jazeera English)",
+    "url": "https://www.youtube.com/watch?v=sAxWF_W6Q9w",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0830-house-of-wisdom-established",
+    "event-0786-translation-movement"
+  ],
+  "confidence": "established"
+}
