@@ -1,0 +1,29 @@
+{
+  "id": "lib-1909-the-confessions-of-al-ghazzali",
+  "type": "book",
+  "title": "The Confessions of Al Ghazzali",
+  "originalTitle": "Al-Munqidh min al-Dalal (Deliverance from Error)",
+  "creators": [
+    "Al-Ghazali",
+    "Claud Field (translator)"
+  ],
+  "edition": "Claud Field's translation, Wisdom of the East series, 1909. Project Gutenberg eBook 58977.",
+  "year": 1909,
+  "language": "en",
+  "categories": [
+    "philosophy-and-theology"
+  ],
+  "summary": "Al-Ghazali's own account, written near the end of his life, of how he lost confidence in the theologians, the philosophers and the Ismaili teachers in turn, suffered a breakdown while teaching in Baghdad, gave up his post, and found certainty in the Sufi path. Short, personal and one of the most readable books of the period. The translation is from 1909 and public domain.",
+  "url": "https://www.gutenberg.org/ebooks/58977",
+  "license": "public-domain",
+  "hosted": true,
+  "contentPath": "content/books/the-confessions-of-al-ghazzali/content.md",
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/58977",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

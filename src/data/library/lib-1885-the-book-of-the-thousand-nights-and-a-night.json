@@ -3,18 +3,27 @@
   "type": "book",
   "title": "The Book of the Thousand Nights and a Night, Volume 1",
   "originalTitle": "Alf layla wa-layla",
-  "creators": ["Anonymous", "Richard F. Burton (translator)"],
+  "creators": [
+    "Anonymous",
+    "Richard F. Burton (translator)"
+  ],
   "edition": "Richard Burton's complete English translation, 1885, volume 1 of 16. Project Gutenberg eBook 3435.",
   "year": 1885,
   "language": "en",
-  "categories": ["literature-and-poetry"],
+  "categories": [
+    "literature-and-poetry"
+  ],
   "summary": "The frame story of Shahrazad and the tales she tells grew over centuries in Baghdad, Cairo and beyond, drawing on Persian and Indian story collections. Burton's unexpurgated translation, with its long footnotes on daily life, is the fullest English version and is free to read.",
   "url": "https://www.gutenberg.org/ebooks/3435",
   "license": "public-domain",
-  "hosted": false,
-  "contentPath": null,
+  "hosted": true,
+  "contentPath": "content/books/book-of-the-thousand-nights-and-a-night-volume-1/content.md",
   "video": null,
-  "source": { "name": "Project Gutenberg", "url": "https://www.gutenberg.org/ebooks/3435", "retrieved": "2026-10-16" },
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/3435",
+    "retrieved": "2026-10-16"
+  },
   "relatedEvents": [],
   "confidence": "established"
 }

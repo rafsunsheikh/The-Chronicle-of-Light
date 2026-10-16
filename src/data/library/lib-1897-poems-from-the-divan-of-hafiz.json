@@ -1,0 +1,28 @@
+{
+  "id": "lib-1897-poems-from-the-divan-of-hafiz",
+  "type": "book",
+  "title": "Poems from the Divan of Hafiz",
+  "creators": [
+    "Hafiz",
+    "Gertrude Lowthian Bell (translator)"
+  ],
+  "edition": "Gertrude Bell's verse translations with her long introduction on Hafiz and fourteenth-century Shiraz, 1897. Project Gutenberg eBook 74883.",
+  "year": 1897,
+  "language": "en",
+  "categories": [
+    "literature-and-poetry"
+  ],
+  "summary": "Forty-three of Hafiz's ghazals in English verse by Gertrude Bell, prefaced by an essay on the poet's life, the politics of Shiraz under the Muzaffarids and Timur, and the problem of reading his wine and love poems as mysticism or as pleasure. Still among the best English versions.",
+  "url": "https://www.gutenberg.org/ebooks/74883",
+  "license": "public-domain",
+  "hosted": true,
+  "contentPath": "content/books/poems-from-the-divan-of-hafiz/content.md",
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/74883",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

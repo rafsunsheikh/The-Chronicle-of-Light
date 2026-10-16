@@ -368,6 +368,14 @@ a `media[]` entry of type `video` whose `url` is a YouTube, Archive or
 PeerTube link plays in the detail panel. Videos are embedded and linked,
 never downloaded or re-hosted, which is what the providers' terms allow.
 
+**Reading library.** A resource with `hosted: true` and a `contentPath`
+under `content/books/` can be read on the site at `/#/library/<id>/read`.
+The reader renders the Markdown with a table of contents built from its
+headings, shows the licence and source at the top, and offers the Markdown
+for download. Each book is a separate lazily loaded chunk. Six public domain
+books are hosted at the moment; the full list is in
+[`content/books/README.md`](content/books/README.md).
+
 **Licensing rule.** A resource is linked to its source unless its licence
 allows redistribution, in which case its full text may be committed under
 `content/books/` and `hosted` set to `true`. The validator refuses a hosted

@@ -1,0 +1,20 @@
+{
+  "title": "The Book of the Thousand Nights and a Night, Volume 1",
+  "author": "Translated by Richard F. Burton",
+  "language": "en",
+  "format": "epub",
+  "source": {
+    "url": "https://www.gutenberg.org/ebooks/3435.epub.noimages",
+    "name": "3435.epub.noimages",
+    "bytes": 508946,
+    "sha256": "edcfb58ce4448406c69a91ca9ac427140e3abf19d744d3db508f4f5c31a84d2c"
+  },
+  "converted": "2026-10-16",
+  "converter": "chronicle-convert/0.1.0",
+  "stats": {
+    "chars": 952067,
+    "words": 174736,
+    "headings": 43,
+    "chapters": 44
+  }
+}

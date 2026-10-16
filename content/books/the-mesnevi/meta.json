@@ -1,0 +1,20 @@
+{
+  "title": "The Mesnevi (Book 1), with the Acts of the Adepts",
+  "author": "Jalal al-Din Rumi; translated by James W. Redhouse",
+  "language": "en",
+  "format": "epub",
+  "source": {
+    "url": "https://www.gutenberg.org/ebooks/61724.epub.noimages",
+    "name": "61724.epub.noimages",
+    "bytes": 471051,
+    "sha256": "8632f3ebecdc5a6ee17ac5482382fc37f59c7264ffb34f2c18a3122b463e692f"
+  },
+  "converted": "2026-10-16",
+  "converter": "chronicle-convert/0.1.0",
+  "stats": {
+    "chars": 783576,
+    "words": 126562,
+    "headings": 177,
+    "chapters": 44
+  }
+}

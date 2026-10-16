@@ -1,0 +1,20 @@
+{
+  "title": "Poems from the Divan of Hafiz",
+  "author": "Hafiz; translated by Gertrude Lowthian Bell",
+  "language": "en",
+  "format": "epub",
+  "source": {
+    "url": "https://www.gutenberg.org/ebooks/74883.epub.noimages",
+    "name": "74883.epub.noimages",
+    "bytes": 195975,
+    "sha256": "303d460a270d253defa7af8f75ea8ada56f725b09a2dfc0988dd7362d14f740c"
+  },
+  "converted": "2026-10-16",
+  "converter": "chronicle-convert/0.1.0",
+  "stats": {
+    "chars": 198922,
+    "words": 35314,
+    "headings": 82,
+    "chapters": 10
+  }
+}
