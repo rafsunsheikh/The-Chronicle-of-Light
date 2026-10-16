@@ -1,0 +1,18 @@
+{
+  "id": "lib-2026-islamic-golden-age-wikipedia",
+  "type": "article",
+  "title": "Islamic Golden Age (Wikipedia)",
+  "creators": ["Wikipedia contributors"],
+  "year": 2026,
+  "language": "en",
+  "categories": ["institutions", "science-and-mathematics", "medicine", "astronomy"],
+  "summary": "The best single starting point. The article covers the usual dates for the period, the role of the Abbasid caliphs and the House of Wisdom, and the main achievements in science, medicine, mathematics, astronomy and the arts, with hundreds of references to follow up.",
+  "url": "https://en.wikipedia.org/wiki/Islamic_Golden_Age",
+  "license": "cc-by-sa",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": { "name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Islamic_Golden_Age", "retrieved": "2026-10-16" },
+  "relatedEvents": ["event-0830-house-of-wisdom-established", "event-0786-translation-movement", "event-1025-avicenna-writes-the-canon"],
+  "confidence": "established"
+}

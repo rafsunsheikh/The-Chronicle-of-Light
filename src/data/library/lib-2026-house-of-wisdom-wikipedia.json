@@ -1,0 +1,18 @@
+{
+  "id": "lib-2026-house-of-wisdom-wikipedia",
+  "type": "article",
+  "title": "House of Wisdom (Wikipedia)",
+  "creators": ["Wikipedia contributors"],
+  "year": 2026,
+  "language": "en",
+  "categories": ["institutions", "translation-movement"],
+  "summary": "What is known, and what is disputed, about the Bayt al-Hikma in Abbasid Baghdad: whether it was a formal academy or a palace library, who worked there, and its destruction in the Mongol sack of 1258. Useful because it lays out the scholarly debate rather than repeating the legend.",
+  "url": "https://en.wikipedia.org/wiki/House_of_Wisdom",
+  "license": "cc-by-sa",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": { "name": "Wikipedia", "url": "https://en.wikipedia.org/wiki/House_of_Wisdom", "retrieved": "2026-10-16" },
+  "relatedEvents": ["event-0830-house-of-wisdom-established", "event-0786-translation-movement"],
+  "confidence": "established"
+}

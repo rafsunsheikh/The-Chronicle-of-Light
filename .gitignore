@@ -57,3 +57,9 @@ books/**/cleaned_text/
 # Python bytecode cache
 __pycache__/
 *.pyc
+
+# Auto-imported library drafts (review then promote to src/data/library/)
+src/data/library/imported/
+
+# Private source materials converted for AI extraction (never committed)
+content/private/

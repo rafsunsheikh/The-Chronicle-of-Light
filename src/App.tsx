@@ -12,6 +12,8 @@ import { EventFormModal } from './components/common/EventFormModal';
 import { DashboardPage } from './components/contrib/DashboardPage';
 import { LeaderboardPage } from './components/contrib/LeaderboardPage';
 import { ReviewPage } from './components/contrib/ReviewPage';
+import { RenaissancePage } from './pages/RenaissancePage';
+import { ResourcePage } from './pages/ResourcePage';
 import { emptyIncident, generateId } from './lib/eventStore';
 import { createSubmission } from './lib/submissions';
 import { useAuth } from './lib/auth';
@@ -102,14 +104,14 @@ function App() {
   return (
     <div className="h-screen flex flex-col overflow-hidden bg-panel font-sans">
       <NavBar
-        route={route}
+        route={route.path}
         eventCount={allIncidents.length}
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
       />
 
       <main className="flex-1 min-h-0">
-        {route === '/timeline' && (
+        {route.path === '/timeline' && (
           <TimelineView
             fill
             incidents={incidents}
@@ -122,7 +124,7 @@ function App() {
           />
         )}
 
-        {route === '/map' && (
+        {route.path === '/map' && (
           <div className="h-full flex flex-col">
             <div className="shrink-0 p-4 border-b border-slate-200 bg-white">
               <FilterBar
@@ -147,7 +149,7 @@ function App() {
           </div>
         )}
 
-        {route === '/connections' && (
+        {route.path === '/connections' && (
           <div className="h-full flex flex-col">
             <div className="shrink-0 p-4 border-b border-slate-200 bg-white">
               <FilterBar
@@ -167,7 +169,7 @@ function App() {
           </div>
         )}
 
-        {route === '/moments' && (
+        {route.path === '/moments' && (
           <div className="h-full flex flex-col">
             <div className="shrink-0 p-4 border-b border-slate-200 bg-white">
               <FilterBar
@@ -205,11 +207,27 @@ function App() {
           </div>
         )}
 
-        {route === '/leaderboard' && <LeaderboardPage />}
+        {route.path === '/renaissance' && (
+          <div className="h-full overflow-y-auto">
+            <RenaissancePage incidents={allIncidents} onIncidentClick={handleIncidentClick} />
+          </div>
+        )}
 
-        {route === '/dashboard' && <DashboardPage />}
+        {route.path === '/library' && (
+          <div className="h-full overflow-y-auto">
+            <ResourcePage
+              id={route.param}
+              incidents={allIncidents}
+              onIncidentClick={handleIncidentClick}
+            />
+          </div>
+        )}
 
-        {route === '/review' && (
+        {route.path === '/leaderboard' && <LeaderboardPage />}
+
+        {route.path === '/dashboard' && <DashboardPage />}
+
+        {route.path === '/review' && (
           <ReviewPage currentEvents={allIncidents} onChanged={refreshEvents} />
         )}
       </main>

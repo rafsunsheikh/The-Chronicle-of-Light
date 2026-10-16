@@ -20,6 +20,7 @@ graph of connections between them.
 - [Repo layout](#repo-layout)
 - [Available npm scripts](#available-npm-scripts)
 - [The data model](#the-data-model)
+- [The Islamic Renaissance section and the library](#the-islamic-renaissance-section-and-the-library)
 - [Adding or editing an event](#adding-or-editing-an-event)
 - [The Wikipedia importer](#the-wikipedia-importer)
 - [Architecture notes](#architecture-notes)
@@ -55,6 +56,10 @@ graph of connections between them.
 - **Global event search** in the nav bar (matches title, description,
   region, dynasty, category, place) plus a **filter bar** (category,
   region, date range) on the map, connections, and "All moments" views.
+- **Islamic Renaissance section** (`/#/renaissance`): an introduction to
+  the period (about 750 to 1400), nine subject tiles, a filterable grid of
+  open books and articles, and the timeline moments in that range. Each
+  resource has its own page at `/#/library/<id>`.
 
 **Accounts & contributions**
 
@@ -249,6 +254,8 @@ job — are in [`docs/SETUP.md`](docs/SETUP.md).
 | `npm run preview` | Serves the `dist/` build locally. |
 | `npm run lint` | ESLint over `src/`. CI runs the same command. |
 | `npm run validate:events` | Checks every JSON file in `src/data/events/` against the schema, asserts unique IDs, filename ↔ id alignment, year-of-id ↔ year-of-startDate match, and that every `connections[]` ID resolves to a real event. |
+| `npm run validate:library` | Checks every JSON file in `src/data/library/` against `library.schema.json`, plus the rules the schema cannot express: filename matches id, id year matches `year`, hosted entries have a redistributable licence and an existing `contentPath`, video entries carry a `video` block, and every `relatedEvents` id resolves to a real event. |
+| `npm run validate` | Runs both validators. |
 | `npm run import:wikipedia` | Run the Wikipedia importer. See `scripts/wikipedia-import/README.md`. |
 | `npm run seed:supabase` | One-time: upsert every event JSON file into the Supabase `events` table. Needs `SUPABASE_SERVICE_ROLE_KEY`. See [`docs/SETUP.md`](docs/SETUP.md). |
 | `npm run backup:supabase` | Pull the `events` table back into `src/data/events/*.json` (run by the scheduled GitHub Action; also runnable locally). |
@@ -309,6 +316,55 @@ Optional fields the schema accepts:
   `624-3-13`). This makes filename alphabetical sort match chronological
   sort, and avoids the lexicographic ordering bug that comes from
   mixing 3-digit and 4-digit year strings.
+
+## The Islamic Renaissance section and the library
+
+`/#/renaissance` is a top-level tab. It introduces the Islamic Golden Age
+(roughly 750 to 1400) and lists **library resources**: books, reports,
+articles, videos and courses about the period, each filed under one or more
+of nine subjects (science and mathematics, astronomy, medicine, philosophy
+and theology, literature and poetry, art and architecture, translation
+movement, institutions, geography and travel). Clicking a moment on that
+page opens the same detail panel as the timeline.
+
+Resources follow the same rules as events: **one JSON file per resource**
+at `src/data/library/{id}.json`, loaded with `import.meta.glob` by
+`src/hooks/useLibrary.ts`, validated in CI against
+`src/data/library.schema.json` by `npm run validate:library`. Unlike
+events, resources live only in git; there is no Supabase table for them.
+
+```jsonc
+{
+  "id": "lib-0830-the-algebra-of-al-khwarizmi",   // lib-YYYY-slug, YYYY = year
+  "type": "book",                                  // book | report | article | video | course
+  "title": "The Algebra of Mohammed ben Musa (al-Khwarizmi)",
+  "creators": ["Muhammad ibn Musa al-Khwarizmi", "Frederic Rosen (translator)"],
+  "year": 830,                                     // year the work was written or first published
+  "language": "en",                                // language of the linked edition
+  "categories": ["science-and-mathematics", "translation-movement"],
+  "summary": "One paragraph in plain words.",
+  "url": "https://archive.org/details/algebraofmohamme00khuwrich",
+  "license": "public-domain",                      // see the schema for the full list
+  "hosted": false,                                 // true only when the full text is in content/books/
+  "source": { "name": "Internet Archive", "retrieved": "2026-10-16" },
+  "relatedEvents": ["event-0830-house-of-wisdom-established"],
+  "confidence": "established"                      // or auto-imported, for unreviewed drafts
+}
+```
+
+**Licensing rule.** A resource is linked to its source unless its licence
+allows redistribution, in which case its full text may be committed under
+`content/books/` and `hosted` set to `true`. The validator refuses a hosted
+entry whose licence does not allow it. Books from shadow libraries are not
+accepted.
+
+Adding a resource is the same pull-request workflow as adding an event:
+create the file, run `npm run validate:library`, open a PR. Drafts written
+by scripts go to `src/data/library/imported/` (gitignored) until reviewed.
+
+The roadmap for this section (open resource importer, video embeds, a
+reading library, AI extraction) is tracked in
+[issue #15](https://github.com/rafsunsheikh/The-Chronicle-of-Light/issues/15).
 
 ## Adding or editing an event
 

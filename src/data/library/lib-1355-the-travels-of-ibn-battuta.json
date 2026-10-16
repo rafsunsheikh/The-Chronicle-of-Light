@@ -1,0 +1,20 @@
+{
+  "id": "lib-1355-the-travels-of-ibn-battuta",
+  "type": "book",
+  "title": "The Travels of Ibn Batuta",
+  "originalTitle": "Rihla (A Gift to Those Who Contemplate the Wonders of Cities and the Marvels of Travelling)",
+  "creators": ["Ibn Battuta", "Samuel Lee (translator)"],
+  "edition": "Translated from the abridged Arabic manuscripts in the Cambridge Public Library by Samuel Lee, London, 1829. Scan from the Wellcome Collection.",
+  "year": 1355,
+  "language": "en",
+  "categories": ["geography-and-travel"],
+  "summary": "Ibn Battuta left Tangier in 1325 to make the pilgrimage to Mecca and did not stop travelling for nearly thirty years, reaching East Africa, India, the Maldives and China. His dictated account is the fullest first-hand picture of the fourteenth-century Islamic world. This is the first English translation, of an abridged text.",
+  "url": "https://archive.org/details/b28406084",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": { "name": "Internet Archive (Wellcome Collection)", "url": "https://archive.org/details/b28406084", "retrieved": "2026-10-16" },
+  "relatedEvents": [],
+  "confidence": "established"
+}
