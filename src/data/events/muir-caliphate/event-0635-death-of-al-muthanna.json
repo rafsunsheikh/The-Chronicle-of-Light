@@ -1,0 +1,18 @@
+{
+  "id": "event-0635-death-of-al-muthanna",
+  "title": "Death of Al-Muthanna",
+  "description": "Al-Muthanna lived only a few months after his victory at Al-Buweib and died of wounds received at the battle of the Bridge, from which he never fully recovered. Jarir had refused to serve under him, a common Bedawi and not a Companion, and complained to 'Omar, who later appointed another commander over both. Dated to the year 0635 by the source.",
+  "startDate": "0635-01-01",
+  "category": "political",
+  "connections": [
+    "event-0633-muslim-conquest-of-persia"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"A. IT. 13-14.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

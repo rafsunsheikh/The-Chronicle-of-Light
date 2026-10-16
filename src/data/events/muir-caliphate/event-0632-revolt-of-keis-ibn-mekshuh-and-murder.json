@@ -1,0 +1,23 @@
+{
+  "id": "event-0632-revolt-of-keis-ibn-mekshuh-and-murder",
+  "title": "Revolt of Keis ibn Mekshuh and murder of Daduweihi in the Yemen",
+  "description": "Keis ibn Mekshuh, unwilling to serve under the Persian Feiruz, plotted to expel the foreign settlers and called in 'Amr ibn Ma'dikerib, a poet and chief who had cast off the Faith. Daduweihi was treacherously slain by 'Amr at a feast; Feiruz escaped to a friendly tribe, his family was taken captive, and the Persian settlers fled to the mountains or took ship from Aden. Dated to the year 0632 by the source.",
+  "startDate": "0632-01-01",
+  "location": {
+    "latitude": 15.355,
+    "longitude": 44.206,
+    "name": "Sana'a, Yemen"
+  },
+  "category": "political",
+  "connections": [
+    "event-0632-ridda-wars"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"II A.H. 632-633 A.D.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

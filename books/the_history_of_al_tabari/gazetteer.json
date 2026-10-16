@@ -108,7 +108,9 @@
     "lon": 49.996,
     "aliases": [
       "bahrayn",
-      "bahrain"
+      "bahrain",
+      "al-Bahrein",
+      "Bahrein"
     ]
   },
   {
@@ -228,7 +230,10 @@
     "aliases": [
       "madain",
       "ctesiphon",
-      "mada'in"
+      "mada'in",
+      "al-Medain",
+      "Medain",
+      "al-Madain"
     ]
   },
   {
@@ -1321,6 +1326,28 @@
       "persia",
       "iran",
       "fars empire"
+    ]
+  },
+  {
+    "name": "Dibba",
+    "type": "town",
+    "modern": "Dibba, Oman / UAE",
+    "lat": 25.6167,
+    "lon": 56.2667,
+    "aliases": [
+      "Daba",
+      "Dibba al-Hisn"
+    ]
+  },
+  {
+    "name": "Darin",
+    "type": "island",
+    "modern": "Tarut Island (Darin), Saudi Arabia",
+    "lat": 26.5728,
+    "lon": 50.0636,
+    "aliases": [
+      "Darayn",
+      "Tarut"
     ]
   }
 ]

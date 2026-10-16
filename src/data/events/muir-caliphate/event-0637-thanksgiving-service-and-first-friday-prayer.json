@@ -1,0 +1,23 @@
+{
+  "id": "event-0637-thanksgiving-service-and-first-friday-prayer",
+  "title": "Thanksgiving service and first Friday prayer in the Palace of the Chosroes",
+  "description": "After taking Al-Medain, Sa'd turned the royal palace into a house of prayer and held a service of praise, reading from the Kor'an the passage on Pharaoh and Sura xliv. 24 f. The grand hall was consecrated as a place of prayer, and there the Friday service of Islam was first celebrated in the land of Persia (A.H. 15-16). Dated to the year 0637 by the source.",
+  "startDate": "0637-01-01",
+  "location": {
+    "latitude": 33.09,
+    "longitude": 44.58,
+    "name": "Ctesiphon/al-Mada'in, Iraq"
+  },
+  "category": "religious",
+  "connections": [
+    "event-0633-muslim-conquest-of-persia"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"A.H. 15-16.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

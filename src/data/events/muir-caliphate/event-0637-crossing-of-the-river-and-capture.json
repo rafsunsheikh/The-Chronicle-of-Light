@@ -1,0 +1,24 @@
+{
+  "id": "event-0637-crossing-of-the-river-and-capture",
+  "title": "Crossing of the river and capture of Al-Medain",
+  "description": "Sa'd's army crossed the flooded river in bands of sixty picked cavalry led by 'Asim, drove back a Persian picket and reached the far bank without loss. The Persians fled in panic, the few who remained submitted as tributaries, and Sa'd took the Palace of the Chosroes at Al-Medain (A.H. 15-16, A.D. 636-7).",
+  "startDate": "0637-01-01",
+  "location": {
+    "latitude": 33.09,
+    "longitude": 44.58,
+    "name": "Ctesiphon/al-Mada'in, Iraq"
+  },
+  "category": "military",
+  "connections": [
+    "event-0633-muslim-conquest-of-persia",
+    "event-0636-battle-of-al-qadisiyyah"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"A.H. 15-16.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

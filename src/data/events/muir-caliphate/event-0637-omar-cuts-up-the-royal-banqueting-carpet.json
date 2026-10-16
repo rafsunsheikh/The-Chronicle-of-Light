@@ -1,0 +1,23 @@
+{
+  "id": "event-0637-omar-cuts-up-the-royal-banqueting-carpet",
+  "title": "'Omar cuts up the royal banqueting carpet of the Chosroes",
+  "description": "The royal carpet from Al-Medain, seventy cubits by sixty and wrought in gold, silver and jewels, was sent to the Caliph. Most advised keeping it as a trophy of Islam, but 'Ali objected and 'Omar had it cut in pieces and distributed with the other booty; 'Ali's share fetched twenty thousand dirhems (A.H. 15-16). Dated to the year 0637 by the source.",
+  "startDate": "0637-01-01",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "category": "political",
+  "connections": [
+    "event-0633-muslim-conquest-of-persia"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"A.H. 15-16.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

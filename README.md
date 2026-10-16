@@ -24,6 +24,7 @@ graph of connections between them.
 - [Adding or editing an event](#adding-or-editing-an-event)
 - [The Wikipedia importer](#the-wikipedia-importer)
 - [Converting source material to Markdown](#converting-source-material-to-markdown)
+- [Extracting events from a book with Claude](#extracting-events-from-a-book-with-claude)
 - [Architecture notes](#architecture-notes)
 - [Contributing](#contributing)
 - [Continuous integration](#continuous-integration)
@@ -259,6 +260,9 @@ job — are in [`docs/SETUP.md`](docs/SETUP.md).
 | `npm run validate` | Runs both validators. |
 | `npm run import:wikipedia` | Run the Wikipedia importer. See `scripts/wikipedia-import/README.md`. |
 | `npm run convert -- <file-or-url>` | Converts a PDF, EPUB, DOCX, TXT, Markdown or HTML source (file or URL) to Markdown with page or chapter markers, into `content/private/<slug>/` (gitignored) or, with `--public`, `content/books/<slug>/`. See [`scripts/convert/README.md`](scripts/convert/README.md). |
+| `npm run extract:chunk -- <content.md>` | Splits a converted book into heading-aware chunks under `<book>/extract/chunks/` for the extractor agent. |
+| `npm run extract:draft -- <content.md>` | Turns the agent's candidate lists into schema-valid draft events under `src/data/events/imported/<slug>/` (gitignored) plus a review report. |
+| `npm run extract:promote -- <slug> --all` | Moves reviewed drafts into `src/data/events/<slug>/` and runs the validator. Add `--established` to flip confidence. |
 | `npm run seed:supabase` | One-time: upsert every event JSON file into the Supabase `events` table. Needs `SUPABASE_SERVICE_ROLE_KEY`. See [`docs/SETUP.md`](docs/SETUP.md). |
 | `npm run backup:supabase` | Pull the `events` table back into `src/data/events/*.json` (run by the scheduled GitHub Action; also runnable locally). |
 
@@ -469,6 +473,33 @@ not redistribute. Only public domain and openly licensed texts go under
 `content/books/` with `--public`. Scanned PDFs without a text layer need OCR
 first; the script stops with a message when almost nothing comes out.
 Full options and limits: [`scripts/convert/README.md`](scripts/convert/README.md).
+
+## Extracting events from a book with Claude
+
+A dedicated Claude Code agent reads a converted book one chunk at a time and
+drafts timeline events from it. The pipeline lives in `scripts/extract/`
+and runs from the `/extract_events` command:
+
+```
+npm run convert -- <book>                 Markdown with page markers
+npm run extract:chunk -- <content.md>     chunks the agent can read one at a time
+/extract_events <content.md>              one history-extractor agent per chunk -> candidates JSON
+npm run extract:draft -- <content.md>     draft event files + extract/report.md
+npm run extract:promote -- <slug> --all   move keepers into src/data/events/<slug>/
+```
+
+The agent (`.claude/agents/history-extractor.md`) follows two prompt files
+under `scripts/extract/prompts/`: it reports only what the text states, dates
+every event to at least the year in the Common Era, keeps the author's
+spellings, and quotes the sentence that supports each event. The draft stage
+gives each event a stable id, a `sources[]` entry naming author, title,
+section and page, a location from the gazetteer at
+`books/the_history_of_al_tabari/gazetteer.json`, and `connections` that the
+validator checks. Drafts carry `confidence: "auto-imported"`.
+
+Humans promote, machines draft: drafts are gitignored and nothing reaches
+`src/data/events/` until someone reviews `extract/report.md` and runs the
+promote step. Full details: [`scripts/extract/README.md`](scripts/extract/README.md).
 
 ## Architecture notes
 

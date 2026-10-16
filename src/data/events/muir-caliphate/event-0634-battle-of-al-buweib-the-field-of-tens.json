@@ -1,0 +1,25 @@
+{
+  "id": "event-0634-battle-of-al-buweib-the-field-of-tens",
+  "title": "Battle of Al-Buweib (The field of Tens)",
+  "description": "Al-Muthanna awaited the Persian army at Al-Buweib on the western branch of the Euphrates, close by the future site of Al-Kufa, letting them cross the bridge before fighting during the fast of Ramadan. A charge with the Christian tribe broke the Persian centre, a Beni Taghlib youth slew the Persian leader Mihran, and the Persians, cut off from the bridge, were slaughtered into the night. Al-Muthanna's brother and the Christian chieftain died, and great stores of grain and cattle were taken. Dated to the year 0634 by the source.",
+  "startDate": "0634-01-01",
+  "location": {
+    "latitude": 32.0336,
+    "longitude": 44.4019,
+    "name": "Kufa, Iraq"
+  },
+  "category": "military",
+  "connections": [
+    "event-0633-arab-conquest-of-mesopotamia",
+    "event-0633-muslim-conquest-of-persia",
+    "event-0638-construction-of-kufa"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"A. IT. 13-14.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}
