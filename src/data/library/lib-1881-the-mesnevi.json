@@ -1,0 +1,30 @@
+{
+  "id": "lib-1881-the-mesnevi",
+  "type": "book",
+  "title": "The Mesnevi (Book 1), with the Acts of the Adepts",
+  "originalTitle": "Masnavi-i Ma‘navi",
+  "creators": [
+    "Jalal al-Din Rumi",
+    "James W. Redhouse (translator)"
+  ],
+  "edition": "James Redhouse's translation of Book 1 of the Mathnawi, preceded by Aflaki's Acts of the Adepts, the early biography of Rumi and his circle, 1881. Project Gutenberg eBook 61724.",
+  "year": 1881,
+  "language": "en",
+  "categories": [
+    "literature-and-poetry",
+    "philosophy-and-theology"
+  ],
+  "summary": "The first book of Rumi's great mystical poem in the earliest complete English translation, together with the Acts of the Adepts, a collection of stories about Rumi, his father, his teacher Shams of Tabriz and the first Mevlevi dervishes, written within a lifetime of their deaths. Public domain.",
+  "url": "https://www.gutenberg.org/ebooks/61724",
+  "license": "public-domain",
+  "hosted": true,
+  "contentPath": "content/books/the-mesnevi/content.md",
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/61724",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

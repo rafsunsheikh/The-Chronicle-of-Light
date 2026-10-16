@@ -92,11 +92,27 @@ export function ResourcePage({ id, incidents, onIncidentClick }: ResourcePagePro
             </div>
             <div>
               <dt className="text-[10px] uppercase tracking-widest text-slate-500">Full text on this site</dt>
-              <dd className="text-slate-800">{resource.hosted ? 'Yes' : 'No, read it at the source'}</dd>
+              <dd className="text-slate-800">
+                {resource.hosted ? (
+                  <a href={`#/library/${encodeURIComponent(resource.id)}/read`} className="text-teal-nma font-semibold hover:underline">
+                    Yes, read it here
+                  </a>
+                ) : (
+                  'No, read it at the source'
+                )}
+              </dd>
             </div>
           </dl>
 
-          <div className="mt-6">
+          <div className="mt-6 flex flex-wrap gap-3">
+            {resource.hosted && (
+              <a
+                href={`#/library/${encodeURIComponent(resource.id)}/read`}
+                className="inline-block bg-navy-nma hover:bg-navy-nma/90 text-white text-[11px] sm:text-xs font-semibold tracking-wider uppercase px-5 sm:px-6 py-2.5 sm:py-3 rounded-full transition-colors"
+              >
+                Read on this site
+              </a>
+            )}
             <a
               href={resource.url}
               target="_blank"

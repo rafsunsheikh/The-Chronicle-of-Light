@@ -1,0 +1,31 @@
+{
+  "id": "lib-1901-moorish-literature",
+  "type": "book",
+  "title": "Moorish Literature",
+  "creators": [
+    "René Basset (editor)",
+    "Chauncey C. Starkweather (editor)"
+  ],
+  "edition": "From the World’s Great Classics series, 1901. Project Gutenberg eBook 10085.",
+  "year": 1901,
+  "language": "en",
+  "categories": [
+    "literature-and-poetry",
+    "geography-and-travel"
+  ],
+  "summary": "A collection of tales, ballads and legends from North Africa and Muslim Spain, including the romances of the Moors of Granada, Berber folk tales and Kabyle poetry, with an introduction by the French orientalist René Basset. Popular rather than scholarly, but a rare English window onto the western Islamic world. Public domain.",
+  "url": "https://www.gutenberg.org/ebooks/10085",
+  "license": "public-domain",
+  "hosted": true,
+  "contentPath": "content/books/moorish-literature/content.md",
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/10085",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0711-muslim-conquest-of-the-iberian-peninsula"
+  ],
+  "confidence": "established"
+}

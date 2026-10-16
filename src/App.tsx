@@ -14,6 +14,7 @@ import { LeaderboardPage } from './components/contrib/LeaderboardPage';
 import { ReviewPage } from './components/contrib/ReviewPage';
 import { RenaissancePage } from './pages/RenaissancePage';
 import { ResourcePage } from './pages/ResourcePage';
+import { ReaderPage } from './pages/ReaderPage';
 import { emptyIncident, generateId } from './lib/eventStore';
 import { createSubmission } from './lib/submissions';
 import { useAuth } from './lib/auth';
@@ -213,7 +214,13 @@ function App() {
           </div>
         )}
 
-        {route.path === '/library' && (
+        {route.path === '/library' && route.sub === 'read' && (
+          <div className="h-full overflow-y-auto">
+            <ReaderPage id={route.param} />
+          </div>
+        )}
+
+        {route.path === '/library' && route.sub !== 'read' && (
           <div className="h-full overflow-y-auto">
             <ResourcePage
               id={route.param}

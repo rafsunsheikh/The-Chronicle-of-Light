@@ -25,6 +25,8 @@ export interface HashRoute {
   path: RoutePath;
   /** The segment after the path, for routes that take one. Null otherwise. */
   param: string | null;
+  /** A third segment such as "read" in #/library/<id>/read. Null otherwise. */
+  sub: string | null;
 }
 
 const DEFAULT_ROUTE: RoutePath = '/timeline';
@@ -43,11 +45,12 @@ const PARAM_ROUTES = new Set<RoutePath>(['/library']);
 
 export const currentRoute = (): HashRoute => {
   const raw = window.location.hash.replace(/^#/, '').split('?')[0];
-  const [, first = '', second = ''] = raw.split('/');
+  const [, first = '', second = '', third = ''] = raw.split('/');
   const path = `/${first}` as RoutePath;
-  if (!ROUTES.includes(path)) return { path: DEFAULT_ROUTE, param: null };
+  if (!ROUTES.includes(path)) return { path: DEFAULT_ROUTE, param: null, sub: null };
   const param = PARAM_ROUTES.has(path) && second ? decodeURIComponent(second) : null;
-  return { path, param };
+  const sub = param && third ? decodeURIComponent(third) : null;
+  return { path, param, sub };
 };
 
 export function useHashRoute(): HashRoute {

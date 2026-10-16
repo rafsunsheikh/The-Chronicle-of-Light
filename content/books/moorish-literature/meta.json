@@ -1,0 +1,20 @@
+{
+  "title": "Moorish Literature",
+  "author": "Edited by René Basset",
+  "language": "en",
+  "format": "epub",
+  "source": {
+    "url": "https://www.gutenberg.org/ebooks/10085.epub.noimages",
+    "name": "10085.epub.noimages",
+    "bytes": 337659,
+    "sha256": "440153d81dcc269868f0bbf8629fa335f81e4f9060d0bb86082b6528d4edeb23"
+  },
+  "converted": "2026-10-16",
+  "converter": "chronicle-convert/0.1.0",
+  "stats": {
+    "chars": 529016,
+    "words": 92046,
+    "headings": 175,
+    "chapters": 43
+  }
+}

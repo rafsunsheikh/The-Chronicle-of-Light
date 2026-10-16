@@ -1,0 +1,18 @@
+/* Typography for hosted book text rendered from Markdown. */
+.reader-prose { color: #1e293b; font-size: 1.05rem; line-height: 1.75; }
+.reader-prose h1, .reader-prose h2, .reader-prose h3, .reader-prose h4 { color: #0c2230; font-weight: 600; line-height: 1.25; scroll-margin-top: 1rem; margin: 2.2em 0 0.8em; }
+.reader-prose h1 { font-size: 1.9rem; margin-top: 0; }
+.reader-prose h2 { font-size: 1.5rem; }
+.reader-prose h3 { font-size: 1.2rem; }
+.reader-prose h4 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.reader-prose p { margin: 0 0 1.1em; }
+.reader-prose blockquote { border-left: 3px solid #1b8a87; margin: 1.2em 0; padding: 0.2em 0 0.2em 1.2em; color: #334155; font-style: italic; }
+.reader-prose ul, .reader-prose ol { margin: 0 0 1.1em 1.4em; }
+.reader-prose li { margin-bottom: 0.3em; }
+.reader-prose hr { border: 0; border-top: 1px solid #e2e8f0; margin: 2.5em auto; width: 40%; }
+.reader-prose a { color: #1b8a87; text-decoration: underline; text-underline-offset: 2px; }
+.reader-prose img { max-width: 100%; height: auto; }
+.reader-prose pre { white-space: pre-wrap; font-family: inherit; }
+.reader-prose table { border-collapse: collapse; margin: 1.2em 0; font-size: 0.95em; }
+.reader-prose td, .reader-prose th { border: 1px solid #e2e8f0; padding: 0.3em 0.6em; vertical-align: top; }
+@media (max-width: 640px) { .reader-prose { font-size: 1rem; } }

@@ -1,0 +1,20 @@
+{
+  "title": "The Confessions of Al Ghazzali",
+  "author": "Al-Ghazali; translated by Claud Field",
+  "language": "en",
+  "format": "epub",
+  "source": {
+    "url": "https://www.gutenberg.org/ebooks/58977.epub.noimages",
+    "name": "58977.epub.noimages",
+    "bytes": 102389,
+    "sha256": "3b3d2e6a8c3d9591184c2633daa6bf0c5ff8ad7d78f3026d19494b3a19daef4a"
+  },
+  "converted": "2026-10-16",
+  "converter": "chronicle-convert/0.1.0",
+  "stats": {
+    "chars": 80544,
+    "words": 13640,
+    "headings": 13,
+    "chapters": 2
+  }
+}
