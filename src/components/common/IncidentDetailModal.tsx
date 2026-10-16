@@ -1,5 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { HistoricalIncident } from '../../types/incident';
+import { parseVideoUrl } from '../../lib/video';
+import { VideoEmbed } from '../library/VideoEmbed';
 
 const CLOSE_ANIM_MS = 250;
 
@@ -60,6 +62,8 @@ export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
   const heroMedia = incident.media?.find((m) => m.type === 'image');
   const heroUrl = heroMedia?.url;
   const heroCaption = heroMedia?.caption;
+  const videoMedia = incident.media?.find((m) => m.type === 'video');
+  const video = videoMedia ? parseVideoUrl(videoMedia.url) : null;
 
   return (
     <div
@@ -82,7 +86,7 @@ export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
 
       <div className="max-w-6xl mx-auto px-4 sm:px-8 md:px-16 py-8 sm:py-12 md:py-16 grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-12">
         <figure>
-          {heroUrl ? (
+          {heroUrl || video ? heroUrl && (
             <img
               src={heroUrl}
               alt={heroCaption ?? incident.title}
@@ -97,6 +101,14 @@ export const IncidentDetailModal: React.FC<IncidentDetailModalProps> = ({
             <figcaption className="mt-3 text-xs italic text-slate-500">
               {heroCaption}
             </figcaption>
+          )}
+          {video && (
+            <div className={heroUrl ? 'mt-6' : 'mt-0'}>
+              <VideoEmbed video={video} title={videoMedia?.caption ?? incident.title} />
+              {videoMedia?.caption && (
+                <p className="mt-3 text-xs italic text-slate-500">{videoMedia.caption}</p>
+              )}
+            </div>
           )}
         </figure>
 

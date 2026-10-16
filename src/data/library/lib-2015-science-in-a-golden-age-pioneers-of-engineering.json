@@ -1,0 +1,31 @@
+{
+  "id": "lib-2015-science-in-a-golden-age-pioneers-of-engineering",
+  "type": "video",
+  "title": "Science in a Golden Age: Pioneers of Engineering, Al-Jazari and the Banu Musa",
+  "creators": [
+    "Al Jazeera English",
+    "Jim Al-Khalili (presenter)"
+  ],
+  "year": 2015,
+  "language": "en",
+  "categories": [
+    "science-and-mathematics",
+    "art-and-architecture"
+  ],
+  "summary": "The Banu Musa brothers' Book of Ingenious Devices and al-Jazari's water clocks, pumps and automata, reconstructed and explained. About 25 minutes.",
+  "url": "https://www.youtube.com/watch?v=mYzPxwnGs34",
+  "license": "all-rights-reserved",
+  "hosted": false,
+  "contentPath": null,
+  "video": {
+    "provider": "youtube",
+    "id": "mYzPxwnGs34"
+  },
+  "source": {
+    "name": "YouTube (Al Jazeera English)",
+    "url": "https://www.youtube.com/watch?v=mYzPxwnGs34",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

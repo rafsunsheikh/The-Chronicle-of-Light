@@ -1,0 +1,31 @@
+{
+  "id": "lib-2024-a-history-of-islam-and-science-with-timothy",
+  "type": "video",
+  "title": "A History of Islam and Science, with Timothy Winter",
+  "creators": [
+    "The Royal Institution",
+    "Timothy Winter (speaker)"
+  ],
+  "year": 2024,
+  "language": "en",
+  "categories": [
+    "philosophy-and-theology",
+    "science-and-mathematics"
+  ],
+  "summary": "A Royal Institution lecture by the Cambridge scholar Timothy Winter on the relationship between Islamic thought and the sciences, from the Golden Age to the present. About an hour.",
+  "url": "https://www.youtube.com/watch?v=7EKtVx2A6d4",
+  "license": "all-rights-reserved",
+  "hosted": false,
+  "contentPath": null,
+  "video": {
+    "provider": "youtube",
+    "id": "7EKtVx2A6d4"
+  },
+  "source": {
+    "name": "YouTube (The Royal Institution)",
+    "url": "https://www.youtube.com/watch?v=7EKtVx2A6d4",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

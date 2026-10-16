@@ -359,6 +359,15 @@ events, resources live only in git; there is no Supabase table for them.
 }
 ```
 
+**Videos.** A resource of type `video` carries `video: { provider, id }`
+for YouTube, the Internet Archive or PeerTube. The `VideoEmbed` component
+shows a poster image and a play button, and only creates the provider's
+player (YouTube through `youtube-nocookie.com`) after the visitor clicks, so
+opening a page sets no third-party cookies. An event can carry a video too:
+a `media[]` entry of type `video` whose `url` is a YouTube, Archive or
+PeerTube link plays in the detail panel. Videos are embedded and linked,
+never downloaded or re-hosted, which is what the providers' terms allow.
+
 **Licensing rule.** A resource is linked to its source unless its licence
 allows redistribution, in which case its full text may be committed under
 `content/books/` and `hosted` set to `true`. The validator refuses a hosted

@@ -2,6 +2,7 @@ import React from 'react';
 import type { LibraryResource } from '../../types/library';
 import { categoryLabel } from '../../data/renaissanceCategories';
 import { LICENSE_LABELS } from '../../data/licenses';
+import { VideoEmbed } from './VideoEmbed';
 
 interface ResourceCardProps {
   resource: LibraryResource;
@@ -10,6 +11,9 @@ interface ResourceCardProps {
 export const ResourceCard: React.FC<ResourceCardProps> = ({ resource }) => {
   return (
     <article className="bg-white rounded-md border border-slate-200 p-4 flex flex-col gap-2 hover:border-slate-400 transition-colors">
+      {resource.type === 'video' && resource.video && (
+        <VideoEmbed video={resource.video} title={resource.title} className="-mx-4 -mt-4 mb-1 rounded-b-none" />
+      )}
       <div className="flex items-center justify-between gap-2">
         <span className="text-[10px] uppercase tracking-widest text-teal-nma font-semibold">
           {resource.type}
