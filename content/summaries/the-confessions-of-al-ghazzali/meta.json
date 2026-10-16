@@ -1,0 +1,14 @@
+{
+  "title": "The Confessions of Al Ghazzali",
+  "author": "Al-Ghazali, translated by Claud Field",
+  "source": "https://www.gutenberg.org/ebooks/58977.epub.noimages",
+  "slug": "the-confessions-of-al-ghazzali",
+  "model": "claude-sonnet-5-5",
+  "costUsd": 0.207482,
+  "inputTokens": 41664,
+  "outputTokens": 4083,
+  "chunks": 1,
+  "durationMs": 32770,
+  "generated": "2026-10-16",
+  "generator": "chronicle-runner summarize"
+}

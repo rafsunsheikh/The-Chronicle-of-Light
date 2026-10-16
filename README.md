@@ -266,6 +266,7 @@ job — are in [`docs/SETUP.md`](docs/SETUP.md).
 | `npm run extract:promote -- <slug> --all` | Moves reviewed drafts into `src/data/events/<slug>/` and runs the validator. Add `--established` to flip confidence. |
 | `npm run seed:supabase` | One-time: upsert every event JSON file into the Supabase `events` table. Needs `SUPABASE_SERVICE_ROLE_KEY`. See [`docs/SETUP.md`](docs/SETUP.md). |
 | `npm run backup:supabase` | Pull the `events` table back into `src/data/events/*.json` (run by the scheduled GitHub Action; also runnable locally). |
+| `npm run runner` / `npm run runner:once` | Start the home runner that executes queued AI jobs (needs `runner/.env`). See [`runner/README.md`](runner/README.md). |
 
 ## The data model
 
@@ -524,6 +525,17 @@ validator checks. Drafts carry `confidence: "auto-imported"`.
 Humans promote, machines draft: drafts are gitignored and nothing reaches
 `src/data/events/` until someone reviews `extract/report.md` and runs the
 promote step. Full details: [`scripts/extract/README.md`](scripts/extract/README.md).
+
+## AI jobs from the admin page
+
+Maintainers can queue two kinds of AI run from `/#/admin`: summarise a book,
+or extract events from one. The row goes into a Supabase `ai_jobs` table; a
+runner on the owner's machine (`runner/`) claims it, does the work with the
+Claude Code CLI on the owner's subscription, and opens a pull request with
+the result. Nothing goes live until that pull request is merged, so the
+public site stays static and the website never holds a Claude credential.
+Setup and the trust boundaries are in [`docs/AI_JOBS.md`](docs/AI_JOBS.md)
+and [`runner/README.md`](runner/README.md).
 
 ## Architecture notes
 

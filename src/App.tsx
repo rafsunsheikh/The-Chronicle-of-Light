@@ -12,6 +12,7 @@ import { EventFormModal } from './components/common/EventFormModal';
 import { DashboardPage } from './components/contrib/DashboardPage';
 import { LeaderboardPage } from './components/contrib/LeaderboardPage';
 import { ReviewPage } from './components/contrib/ReviewPage';
+import { AdminPage } from './components/admin/AdminPage';
 import { RenaissancePage } from './pages/RenaissancePage';
 import { ResourcePage } from './pages/ResourcePage';
 import { ReaderPage } from './pages/ReaderPage';
@@ -233,6 +234,8 @@ function App() {
         {route.path === '/leaderboard' && <LeaderboardPage />}
 
         {route.path === '/dashboard' && <DashboardPage />}
+
+        {route.path === '/admin' && <AdminPage />}
 
         {route.path === '/review' && (
           <ReviewPage currentEvents={allIncidents} onChanged={refreshEvents} />

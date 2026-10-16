@@ -115,6 +115,16 @@ export const AccountMenu: React.FC = () => {
               Review queue
             </a>
           )}
+          {isMaintainer && (
+            <a
+              href="#/admin"
+              role="menuitem"
+              onClick={() => setOpen(false)}
+              className="block px-3 py-2 hover:bg-slate-50"
+            >
+              AI jobs
+            </a>
+          )}
 
           <button
             type="button"

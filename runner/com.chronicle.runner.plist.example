@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Keep the Chronicle runner alive on macOS.
+
+  Install:
+    sed "s|__REPO__|$PWD|g" runner/com.chronicle.runner.plist.example \
+      > ~/Library/LaunchAgents/com.chronicle.runner.plist
+    launchctl load ~/Library/LaunchAgents/com.chronicle.runner.plist
+
+  Stop:
+    launchctl unload ~/Library/LaunchAgents/com.chronicle.runner.plist
+-->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.chronicle.runner</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>-lc</string>
+    <string>cd __REPO__ &amp;&amp; exec node runner/src/index.mjs</string>
+  </array>
+
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>__REPO__/runner/runner.log</string>
+  <key>StandardErrorPath</key>
+  <string>__REPO__/runner/runner.error.log</string>
+</dict>
+</plist>

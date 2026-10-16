@@ -66,3 +66,7 @@ src/data/library/imported/
 
 # Private source materials converted for AI extraction (never committed)
 content/private/
+# AI job runner: secrets and per-job worktrees
+runner/.env
+runner/*.log
+.ai-worktrees/
