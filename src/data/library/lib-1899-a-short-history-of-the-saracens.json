@@ -1,0 +1,28 @@
+{
+  "id": "lib-1899-a-short-history-of-the-saracens",
+  "type": "book",
+  "title": "A Short History of the Saracens",
+  "creators": [
+    "Syed Ameer Ali"
+  ],
+  "year": 1899,
+  "language": "en",
+  "categories": [
+    "institutions"
+  ],
+  "summary": "A one-volume history of the Arabs and the caliphate to the fall of Baghdad, by the Indian jurist and historian Syed Ameer Ali, written to present the Muslim past to English readers from a Muslim point of view. Public domain; the author died in 1928.",
+  "url": "https://archive.org/details/shorthistoryofsa00alis",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Internet Archive (via Open Library)",
+    "url": "https://openlibrary.org/works/OL63194W",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0746-abbasid-revolution"
+  ],
+  "confidence": "established"
+}

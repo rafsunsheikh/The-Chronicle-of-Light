@@ -1,0 +1,27 @@
+{
+  "id": "lib-1911-idrisi-encyclopaedia-britannica-1911",
+  "type": "article",
+  "title": "Idrisi (Encyclopaedia Britannica, 1911)",
+  "creators": [
+    "Encyclopaedia Britannica, eleventh edition"
+  ],
+  "year": 1911,
+  "language": "en",
+  "categories": [
+    "geography-and-travel",
+    "science-and-mathematics"
+  ],
+  "summary": "On al-Idrisi (about 1100 to 1165), the geographer who worked for Roger II of Sicily and produced the Book of Roger, the most detailed map and description of the known world made in the twelfth century. The article explains how it was compiled from travellers' reports.",
+  "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Idrisi",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Idrisi",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

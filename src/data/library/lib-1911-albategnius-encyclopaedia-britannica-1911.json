@@ -1,0 +1,27 @@
+{
+  "id": "lib-1911-albategnius-encyclopaedia-britannica-1911",
+  "type": "article",
+  "title": "Albategnius (Encyclopaedia Britannica, 1911)",
+  "creators": [
+    "Encyclopaedia Britannica, eleventh edition"
+  ],
+  "year": 1911,
+  "language": "en",
+  "categories": [
+    "astronomy",
+    "science-and-mathematics"
+  ],
+  "summary": "On al-Battani (about 858 to 929), the astronomer of Raqqa whose star tables and measurements of the solar year and the precession of the equinoxes were the most accurate of his age, and who introduced trigonometric methods in place of Greek chords. Latin translations of his work were used by Copernicus.",
+  "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Albategnius",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Albategnius",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

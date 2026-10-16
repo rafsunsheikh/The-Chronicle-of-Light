@@ -1,0 +1,26 @@
+{
+  "id": "lib-1911-arabian-literature-encyclopaedia-britannica-1911",
+  "type": "article",
+  "title": "Arabian Literature (Encyclopaedia Britannica, 1911)",
+  "creators": [
+    "Encyclopaedia Britannica, eleventh edition"
+  ],
+  "year": 1911,
+  "language": "en",
+  "categories": [
+    "literature-and-poetry"
+  ],
+  "summary": "A survey of Arabic literature from pre-Islamic poetry through the Qur'an, the Abbasid poets, prose, history and the sciences, written for the 1911 Britannica. A useful map of names and genres before reading Nicholson's fuller Literary History of the Arabs.",
+  "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Arabian%20Literature",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Arabian%20Literature",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

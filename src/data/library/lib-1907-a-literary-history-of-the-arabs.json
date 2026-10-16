@@ -1,0 +1,28 @@
+{
+  "id": "lib-1907-a-literary-history-of-the-arabs",
+  "type": "book",
+  "title": "A Literary History of the Arabs",
+  "creators": [
+    "Reynold A. Nicholson"
+  ],
+  "edition": "Project Gutenberg eBook 37985",
+  "year": 1907,
+  "language": "en",
+  "categories": [
+    "literature-and-poetry",
+    "philosophy-and-theology"
+  ],
+  "summary": "The standard English survey of Arabic literature from the pre-Islamic poets to the Ottoman period, by the Cambridge Arabist R. A. Nicholson, with long sections on the Umayyad and Abbasid ages, the poets of the court, the historians, the philosophers and the mystics. Public domain; the author died in 1945.",
+  "url": "https://www.gutenberg.org/ebooks/37985",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/37985",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "lib-1911-farabi-encyclopaedia-britannica-1911",
+  "type": "article",
+  "title": "Farabi (Encyclopaedia Britannica, 1911)",
+  "creators": [
+    "Encyclopaedia Britannica, eleventh edition"
+  ],
+  "year": 1911,
+  "language": "en",
+  "categories": [
+    "philosophy-and-theology",
+    "translation-movement"
+  ],
+  "summary": "A short life of al-Farabi (died about 950), the Turkic-born philosopher the Arabs called 'the Second Teacher' after Aristotle. The article covers his years in Baghdad and Aleppo, his commentaries on Aristotle and his own works on logic, politics and music, and explains how his system prepared the way for Avicenna.",
+  "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/F%C4%81r%C4%81b%C4%AB",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/F%C4%81r%C4%81b%C4%AB",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0786-translation-movement"
+  ],
+  "confidence": "established"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "lib-1886-the-moors-in-spain",
+  "type": "book",
+  "title": "The Moors in Spain",
+  "creators": [
+    "Stanley Lane-Poole"
+  ],
+  "edition": "Project Gutenberg eBook 37223",
+  "year": 1886,
+  "language": "en",
+  "categories": [
+    "institutions",
+    "art-and-architecture"
+  ],
+  "summary": "A readable one-volume history of Muslim Spain from the conquest of 711 to the fall of Granada in 1492, by the orientalist Stanley Lane-Poole. It covers the Umayyad emirate and caliphate of Cordoba, the city's libraries and scholars, the Almoravids and Almohads, and the Nasrids of Granada. Public domain; the author died in 1931.",
+  "url": "https://www.gutenberg.org/ebooks/37223",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/37223",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0711-muslim-conquest-of-the-iberian-peninsula"
+  ],
+  "confidence": "established"
+}

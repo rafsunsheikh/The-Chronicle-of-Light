@@ -1,0 +1,31 @@
+{
+  "id": "lib-1911-kindi-encyclopaedia-britannica-1911",
+  "type": "article",
+  "title": "Kindi (Encyclopaedia Britannica, 1911)",
+  "creators": [
+    "Encyclopaedia Britannica, eleventh edition"
+  ],
+  "year": 1911,
+  "language": "en",
+  "categories": [
+    "philosophy-and-theology",
+    "science-and-mathematics",
+    "translation-movement"
+  ],
+  "summary": "A brief notice of al-Kindi (died about 873), 'the philosopher of the Arabs', who worked in Baghdad under three caliphs. It lists the range of his writing, from philosophy and mathematics to music, medicine and optics, and his part in making Greek thought available in Arabic.",
+  "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Kind%C4%AB",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Kind%C4%AB",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0786-translation-movement",
+    "event-0830-house-of-wisdom-established"
+  ],
+  "confidence": "established"
+}

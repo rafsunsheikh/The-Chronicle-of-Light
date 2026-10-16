@@ -1,0 +1,29 @@
+{
+  "id": "lib-1902-the-arab-conquest-of-egypt-and-the-last",
+  "type": "book",
+  "title": "The Arab Conquest of Egypt and the Last Thirty Years of the Roman Dominion",
+  "creators": [
+    "Alfred J. Butler"
+  ],
+  "year": 1902,
+  "language": "en",
+  "categories": [
+    "institutions",
+    "geography-and-travel"
+  ],
+  "summary": "The detailed study of how Egypt passed from Byzantine to Arab rule between 639 and 642, drawing on Coptic, Greek and Arabic sources, by the Oxford scholar A. J. Butler. Still cited by historians of the conquest. Public domain; the author died in 1936.",
+  "url": "https://archive.org/details/cu31924028717324",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Internet Archive (via Open Library)",
+    "url": "https://openlibrary.org/works/OL1847393W",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0639-arab-conquest-of-egypt"
+  ],
+  "confidence": "established"
+}
