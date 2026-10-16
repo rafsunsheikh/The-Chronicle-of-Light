@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/rafsunsheikh/The-Chronicle-of-Light/blob/main/src/data/library.schema.json",
+  "title": "LibraryResource",
+  "description": "A book, report, article, video or course in the Islamic Renaissance library. Each resource lives in its own file at src/data/library/{id}.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "title",
+    "creators",
+    "year",
+    "language",
+    "categories",
+    "summary",
+    "url",
+    "license",
+    "hosted",
+    "source",
+    "confidence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^lib-[0-9]{4}-[a-z0-9-]+$",
+      "description": "Stable identifier. Format: lib-YYYY-slug, where YYYY is the 4-digit `year` (zero-padded) and slug is a lowercase derivation of the title."
+    },
+    "type": {
+      "type": "string",
+      "enum": ["book", "report", "article", "video", "course"]
+    },
+    "title": { "type": "string", "minLength": 3, "maxLength": 200 },
+    "originalTitle": { "type": "string", "minLength": 1, "maxLength": 200 },
+    "creators": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Authors, translators, editors, presenters or publishers, in display form."
+    },
+    "edition": {
+      "type": "string",
+      "description": "Which edition or translation the url points at, e.g. \"Translated by Frederic Rosen, London, 1831\"."
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 2100,
+      "description": "Year the work was written or first published. For continuously edited web pages, the year it was retrieved."
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Za-z0-9]{2,8})*$",
+      "description": "BCP 47 language tag of the linked edition."
+    },
+    "categories": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "science-and-mathematics",
+          "astronomy",
+          "medicine",
+          "philosophy-and-theology",
+          "literature-and-poetry",
+          "art-and-architecture",
+          "translation-movement",
+          "institutions",
+          "geography-and-travel"
+        ]
+      }
+    },
+    "summary": { "type": "string", "minLength": 20, "maxLength": 1500 },
+    "url": { "type": "string", "format": "uri" },
+    "license": {
+      "type": "string",
+      "enum": [
+        "public-domain",
+        "cc0",
+        "cc-by",
+        "cc-by-sa",
+        "cc-by-nc",
+        "cc-by-nc-sa",
+        "all-rights-reserved",
+        "unknown"
+      ]
+    },
+    "hosted": {
+      "type": "boolean",
+      "description": "True only when the full text is committed to this repo under content/books/. Requires a redistributable license."
+    },
+    "contentPath": {
+      "type": ["string", "null"],
+      "pattern": "^content/books/[a-z0-9-]+/content\\.md$"
+    },
+    "video": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["provider", "id"],
+      "properties": {
+        "provider": { "type": "string", "enum": ["youtube", "internet-archive", "peertube"] },
+        "id": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "retrieved"],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "retrieved": { "type": "string", "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+      }
+    },
+    "relatedEvents": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^event-[0-9]{4}-[a-z0-9-]+$" }
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["established", "auto-imported"],
+      "description": "auto-imported entries were written by a script or agent and await human review."
+    }
+  }
+}

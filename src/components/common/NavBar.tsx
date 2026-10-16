@@ -14,6 +14,7 @@ const TABS: { path: RoutePath; label: string }[] = [
   { path: '/map', label: 'Map' },
   { path: '/connections', label: 'Connections' },
   { path: '/moments', label: 'All Moments' },
+  { path: '/renaissance', label: 'Renaissance' },
   { path: '/leaderboard', label: 'Leaderboard' },
 ];
 
@@ -36,7 +37,8 @@ export const NavBar: React.FC<NavBarProps> = ({
 
       <div className="flex items-stretch overflow-x-auto min-w-0 flex-1">
         {TABS.map((tab) => {
-          const active = route === tab.path;
+          const active =
+            route === tab.path || (tab.path === '/renaissance' && route === '/library');
           return (
             <a
               key={tab.path}

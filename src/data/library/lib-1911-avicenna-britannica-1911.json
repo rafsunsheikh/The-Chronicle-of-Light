@@ -1,0 +1,18 @@
+{
+  "id": "lib-1911-avicenna-britannica-1911",
+  "type": "article",
+  "title": "Avicenna (Encyclopaedia Britannica, 1911)",
+  "creators": ["Encyclopaedia Britannica, eleventh edition"],
+  "year": 1911,
+  "language": "en",
+  "categories": ["medicine", "philosophy-and-theology"],
+  "summary": "A concise life of Ibn Sina (980 to 1037): his education at Bukhara, his wandering career as a court physician and vizier, and his two great works, the Canon of Medicine and the philosophical encyclopaedia Kitab al-Shifa. Written in 1911, so the scholarship is dated, but the article is clear, free and a good first read.",
+  "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Avicenna",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": { "name": "Wikisource", "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Avicenna", "retrieved": "2026-10-16" },
+  "relatedEvents": ["event-1025-avicenna-writes-the-canon"],
+  "confidence": "established"
+}

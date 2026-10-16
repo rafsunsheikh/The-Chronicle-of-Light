@@ -1,0 +1,18 @@
+{
+  "id": "lib-1911-arabian-philosophy-britannica-1911",
+  "type": "article",
+  "title": "Arabian Philosophy (Encyclopaedia Britannica, 1911)",
+  "creators": ["Encyclopaedia Britannica, eleventh edition"],
+  "year": 1911,
+  "language": "en",
+  "categories": ["philosophy-and-theology", "translation-movement"],
+  "summary": "A long survey of philosophy in the Islamic world from the translation of Aristotle into Arabic through al-Kindi, al-Farabi, Avicenna, al-Ghazali and Averroes, and of how their commentaries reached Latin Europe. Dated in places but still a useful map of who argued what and when.",
+  "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Arabian_Philosophy",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": { "name": "Wikisource", "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Arabian_Philosophy", "retrieved": "2026-10-16" },
+  "relatedEvents": ["event-0786-translation-movement", "event-0830-house-of-wisdom-established"],
+  "confidence": "established"
+}

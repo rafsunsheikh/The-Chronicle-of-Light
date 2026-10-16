@@ -1,0 +1,20 @@
+{
+  "id": "lib-0830-the-algebra-of-al-khwarizmi",
+  "type": "book",
+  "title": "The Algebra of Mohammed ben Musa (al-Khwarizmi)",
+  "originalTitle": "Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala",
+  "creators": ["Muhammad ibn Musa al-Khwarizmi", "Frederic Rosen (translator)"],
+  "edition": "Arabic text with English translation by Frederic Rosen, London, 1831. Scan from the University of California libraries.",
+  "year": 830,
+  "language": "en",
+  "categories": ["science-and-mathematics", "translation-movement"],
+  "summary": "The book that gave algebra its name. Al-Khwarizmi, working in Baghdad under the caliph al-Mamun, shows how to solve linear and quadratic equations with worked examples drawn from inheritance law, trade and land measurement. Rosen's 1831 edition prints the Arabic and the first full English translation side by side.",
+  "url": "https://archive.org/details/algebraofmohamme00khuwrich",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": { "name": "Internet Archive", "url": "https://archive.org/details/algebraofmohamme00khuwrich", "retrieved": "2026-10-16" },
+  "relatedEvents": ["event-0830-house-of-wisdom-established", "event-0786-translation-movement"],
+  "confidence": "established"
+}

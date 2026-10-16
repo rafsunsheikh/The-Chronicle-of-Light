@@ -1,0 +1,19 @@
+{
+  "id": "lib-1120-rubaiyat-of-omar-khayyam",
+  "type": "book",
+  "title": "Rubaiyat of Omar Khayyam",
+  "creators": ["Omar Khayyam", "Edward FitzGerald (translator)"],
+  "edition": "Edward FitzGerald's English verse translation (first, second and fifth editions), Project Gutenberg eBook 246.",
+  "year": 1120,
+  "language": "en",
+  "categories": ["literature-and-poetry"],
+  "summary": "Short four-line poems attributed to the Persian mathematician and astronomer Omar Khayyam, who also reformed the calendar at Isfahan. FitzGerald's loose Victorian translation made the quatrains famous in English and is free to read in full.",
+  "url": "https://www.gutenberg.org/ebooks/246",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": { "name": "Project Gutenberg", "url": "https://www.gutenberg.org/ebooks/246", "retrieved": "2026-10-16" },
+  "relatedEvents": [],
+  "confidence": "established"
+}

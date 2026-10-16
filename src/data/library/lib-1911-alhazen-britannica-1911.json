@@ -1,0 +1,18 @@
+{
+  "id": "lib-1911-alhazen-britannica-1911",
+  "type": "article",
+  "title": "Alhazen (Encyclopaedia Britannica, 1911)",
+  "creators": ["Encyclopaedia Britannica, eleventh edition"],
+  "year": 1911,
+  "language": "en",
+  "categories": ["science-and-mathematics", "astronomy"],
+  "summary": "A short account of Ibn al-Haytham (about 965 to 1040), the Basra-born scholar whose Book of Optics overturned the Greek idea that sight comes from rays leaving the eye, and whose insistence on testing claims by experiment anticipates the modern scientific method.",
+  "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Alhazen",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": { "name": "Wikisource", "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Alhazen", "retrieved": "2026-10-16" },
+  "relatedEvents": [],
+  "confidence": "established"
+}
