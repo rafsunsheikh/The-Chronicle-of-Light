@@ -1,0 +1,27 @@
+{
+  "id": "lib-1886-the-art-of-the-saracens-in-egypt",
+  "type": "book",
+  "title": "The Art of the Saracens in Egypt",
+  "creators": [
+    "Stanley Lane-Poole"
+  ],
+  "edition": "Project Gutenberg eBook 78943",
+  "year": 1886,
+  "language": "en",
+  "categories": [
+    "art-and-architecture"
+  ],
+  "summary": "A survey of Islamic art in Egypt from the Fatimids to the Mamluks: mosque architecture, woodwork, metalwork, glass, pottery and textiles, with many drawings. Written for the South Kensington Museum handbooks. Public domain; the author died in 1931.",
+  "url": "https://www.gutenberg.org/ebooks/78943",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/78943",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

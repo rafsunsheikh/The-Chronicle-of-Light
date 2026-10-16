@@ -1,0 +1,29 @@
+{
+  "id": "lib-1921-arabian-medicine",
+  "type": "book",
+  "title": "Arabian Medicine",
+  "creators": [
+    "Edward G. Browne"
+  ],
+  "year": 1921,
+  "language": "en",
+  "categories": [
+    "medicine"
+  ],
+  "summary": "Four lectures given at the Royal College of Physicians in 1919 and 1920 by the Cambridge orientalist E. G. Browne on medicine in the Islamic world: the translation of Greek medicine into Arabic, Rhazes and Avicenna, the hospitals, and the passage of Arabic medicine to Europe. Short, clear and still a good starting point. Public domain; the author died in 1926.",
+  "url": "https://archive.org/details/arabianmedicineb0000unse",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Internet Archive (via Open Library)",
+    "url": "https://openlibrary.org/works/OL42987102W",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-1025-avicenna-writes-the-canon",
+    "event-0786-translation-movement"
+  ],
+  "confidence": "established"
+}

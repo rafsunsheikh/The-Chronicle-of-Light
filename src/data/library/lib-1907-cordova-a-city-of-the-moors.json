@@ -1,0 +1,30 @@
+{
+  "id": "lib-1907-cordova-a-city-of-the-moors",
+  "type": "book",
+  "title": "Cordova: A City of the Moors",
+  "creators": [
+    "Albert F. Calvert",
+    "Walter M. Gallichan"
+  ],
+  "edition": "Project Gutenberg eBook 58831",
+  "year": 1907,
+  "language": "en",
+  "categories": [
+    "art-and-architecture"
+  ],
+  "summary": "An illustrated guide to Cordoba's Moorish past, with many photographs of the Great Mosque and the city, and chapters on the caliphs, the scholars and daily life under Muslim rule. Light on scholarship, strong on pictures. Public domain; both authors died before 1950.",
+  "url": "https://www.gutenberg.org/ebooks/58831",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/58831",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0711-muslim-conquest-of-the-iberian-peninsula"
+  ],
+  "confidence": "established"
+}

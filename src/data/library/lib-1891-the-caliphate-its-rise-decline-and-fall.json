@@ -1,0 +1,31 @@
+{
+  "id": "lib-1891-the-caliphate-its-rise-decline-and-fall",
+  "type": "book",
+  "title": "The Caliphate: Its Rise, Decline, and Fall",
+  "creators": [
+    "Sir William Muir"
+  ],
+  "year": 1891,
+  "language": "en",
+  "categories": [
+    "institutions"
+  ],
+  "summary": "Sir William Muir's narrative history of the caliphate from the death of Muhammad to the Mongol sack of Baghdad, built from the Arabic chroniclers, above all al-Tabari. Victorian in its judgements but detailed and chronological, which makes it a good source for datable events. Public domain; the author died in 1905.",
+  "url": "https://archive.org/details/caliphateitsrise0000sirw",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Internet Archive (via Open Library)",
+    "url": "https://openlibrary.org/works/OL43126590W",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0632-ridda-wars",
+    "event-0636-battle-of-yarmuk",
+    "event-0661-establishment-of-umayyad-caliphate",
+    "event-0746-abbasid-revolution"
+  ],
+  "confidence": "established"
+}

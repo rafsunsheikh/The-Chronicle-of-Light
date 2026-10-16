@@ -1,0 +1,27 @@
+{
+  "id": "lib-1911-abulfeda-encyclopaedia-britannica-1911",
+  "type": "article",
+  "title": "Abulfeda (Encyclopaedia Britannica, 1911)",
+  "creators": [
+    "Encyclopaedia Britannica, eleventh edition"
+  ],
+  "year": 1911,
+  "language": "en",
+  "categories": [
+    "geography-and-travel",
+    "astronomy"
+  ],
+  "summary": "On Abu al-Fida (1273 to 1331), prince of Hama in Syria, whose Geography gave latitude and longitude for hundreds of places and whose Concise History of Mankind was a standard reference in Europe for centuries.",
+  "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Abulfeda",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Abulfeda",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

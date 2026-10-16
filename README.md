@@ -259,6 +259,7 @@ job — are in [`docs/SETUP.md`](docs/SETUP.md).
 | `npm run validate:library` | Checks every JSON file in `src/data/library/` against `library.schema.json`, plus the rules the schema cannot express: filename matches id, id year matches `year`, hosted entries have a redistributable licence and an existing `contentPath`, video entries carry a `video` block, and every `relatedEvents` id resolves to a real event. |
 | `npm run validate` | Runs both validators. |
 | `npm run import:wikipedia` | Run the Wikipedia importer. See `scripts/wikipedia-import/README.md`. |
+| `npm run import:library -- --source <wikisource\|gutenberg\|openlibrary\|ia> --query "<q>" --category <cat>` | Finds open books and articles for the Renaissance library and writes drafts to `src/data/library/imported/` (gitignored) for review. See [`scripts/library-import/README.md`](scripts/library-import/README.md). |
 | `npm run convert -- <file-or-url>` | Converts a PDF, EPUB, DOCX, TXT, Markdown or HTML source (file or URL) to Markdown with page or chapter markers, into `content/private/<slug>/` (gitignored) or, with `--public`, `content/books/<slug>/`. See [`scripts/convert/README.md`](scripts/convert/README.md). |
 | `npm run extract:chunk -- <content.md>` | Splits a converted book into heading-aware chunks under `<book>/extract/chunks/` for the extractor agent. |
 | `npm run extract:draft -- <content.md>` | Turns the agent's candidate lists into schema-valid draft events under `src/data/events/imported/<slug>/` (gitignored) plus a review report. |
@@ -365,8 +366,14 @@ entry whose licence does not allow it. Books from shadow libraries are not
 accepted.
 
 Adding a resource is the same pull-request workflow as adding an event:
-create the file, run `npm run validate:library`, open a PR. Drafts written
-by scripts go to `src/data/library/imported/` (gitignored) until reviewed.
+create the file, run `npm run validate:library`, open a PR. To find
+candidates, `npm run import:library` searches Wikisource (the 1911
+Britannica), the Project Gutenberg catalogue, Open Library and the Internet
+Archive and writes drafts to `src/data/library/imported/` (gitignored). A
+reviewer writes each summary, confirms the licence and promotes with
+`node scripts/library-import/promote.mjs`; the promote step refuses a draft
+whose summary is still the placeholder. See
+[`scripts/library-import/README.md`](scripts/library-import/README.md).
 
 The roadmap for this section (open resource importer, video embeds, a
 reading library, AI extraction) is tracked in

@@ -1,0 +1,29 @@
+{
+  "id": "lib-1911-bagdad-city-encyclopaedia-britannica-1911",
+  "type": "article",
+  "title": "Bagdad (city) (Encyclopaedia Britannica, 1911)",
+  "creators": [
+    "Encyclopaedia Britannica, eleventh edition"
+  ],
+  "year": 1911,
+  "language": "en",
+  "categories": [
+    "institutions",
+    "art-and-architecture"
+  ],
+  "summary": "Baghdad as the Britannica described it in 1911, including the history of the Round City founded by al-Mansur in 762, its growth under Harun al-Rashid and al-Mamun as the capital of the Abbasid caliphate, and its sack by the Mongols in 1258.",
+  "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Bagdad%20(city)",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Bagdad%20(city)",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0830-house-of-wisdom-established"
+  ],
+  "confidence": "established"
+}

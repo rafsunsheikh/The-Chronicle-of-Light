@@ -1,0 +1,29 @@
+{
+  "id": "lib-1911-cordova-city-encyclopaedia-britannica-1911",
+  "type": "article",
+  "title": "Cordova (city) (Encyclopaedia Britannica, 1911)",
+  "creators": [
+    "Encyclopaedia Britannica, eleventh edition"
+  ],
+  "year": 1911,
+  "language": "en",
+  "categories": [
+    "art-and-architecture",
+    "institutions"
+  ],
+  "summary": "The city of Cordoba in the 1911 Britannica, with a long section on its Muslim period as capital of the Umayyad emirate and caliphate of al-Andalus, the Great Mosque, and its reputation as a centre of learning before the city's decline after 1031.",
+  "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Cordova%20(city)",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Cordova%20(city)",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0711-muslim-conquest-of-the-iberian-peninsula"
+  ],
+  "confidence": "established"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "lib-1904-history-of-the-moorish-empire-in-europe-volume",
+  "type": "book",
+  "title": "History of the Moorish Empire in Europe, Volume 1",
+  "creators": [
+    "S. P. Scott"
+  ],
+  "edition": "Project Gutenberg eBook 73492",
+  "year": 1904,
+  "language": "en",
+  "categories": [
+    "institutions",
+    "art-and-architecture"
+  ],
+  "summary": "The first of three volumes by the American jurist Samuel Parsons Scott on Muslim Spain and its influence on Europe: the conquest, the Umayyad state at Cordoba, its arts and learning. Old-fashioned in tone and sometimes uncritical, but full and free. Public domain; the author died in 1929.",
+  "url": "https://www.gutenberg.org/ebooks/73492",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/73492",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0711-muslim-conquest-of-the-iberian-peninsula"
+  ],
+  "confidence": "established"
+}

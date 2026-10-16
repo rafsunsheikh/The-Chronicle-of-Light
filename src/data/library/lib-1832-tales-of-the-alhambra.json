@@ -1,0 +1,28 @@
+{
+  "id": "lib-1832-tales-of-the-alhambra",
+  "type": "book",
+  "title": "Tales of the Alhambra",
+  "creators": [
+    "Washington Irving"
+  ],
+  "edition": "Project Gutenberg eBook 49947",
+  "year": 1832,
+  "language": "en",
+  "categories": [
+    "art-and-architecture",
+    "literature-and-poetry"
+  ],
+  "summary": "Washington Irving's sketches and legends written while he lodged in the Alhambra in 1829: descriptions of the courts and towers, local tales of the Moorish kings, and the romantic image of Granada that shaped how the West saw the palace. Public domain.",
+  "url": "https://www.gutenberg.org/ebooks/49947",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Project Gutenberg",
+    "url": "https://www.gutenberg.org/ebooks/49947",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}

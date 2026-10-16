@@ -1,0 +1,29 @@
+{
+  "id": "lib-1911-caliphate-encyclopaedia-britannica-1911",
+  "type": "article",
+  "title": "Caliphate (Encyclopaedia Britannica, 1911)",
+  "creators": [
+    "Encyclopaedia Britannica, eleventh edition"
+  ],
+  "year": 1911,
+  "language": "en",
+  "categories": [
+    "institutions"
+  ],
+  "summary": "A long narrative history of the caliphate from Abu Bakr to the fall of Baghdad in 1258, written by the Dutch orientalist M. J. de Goeje. Dense but reliable for its date, and the best free overview of the political frame within which the Islamic Renaissance happened.",
+  "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Caliphate",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Wikisource",
+    "url": "https://en.wikisource.org/wiki/1911%20Encyclop%C3%A6dia%20Britannica/Caliphate",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [
+    "event-0661-establishment-of-umayyad-caliphate",
+    "event-0746-abbasid-revolution"
+  ],
+  "confidence": "established"
+}

@@ -58,6 +58,9 @@ books/**/cleaned_text/
 __pycache__/
 *.pyc
 
+# Library importer cache
+scripts/library-import/.cache/
+
 # Auto-imported library drafts (review then promote to src/data/library/)
 src/data/library/imported/
 

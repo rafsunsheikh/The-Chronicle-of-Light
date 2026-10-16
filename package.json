@@ -12,6 +12,7 @@
     "validate:library": "node scripts/validate-library.mjs",
     "validate": "npm run validate:events && npm run validate:library",
     "import:wikipedia": "node scripts/wikipedia-import/index.mjs",
+    "import:library": "node scripts/library-import/index.mjs",
     "convert": "node scripts/convert/index.mjs",
     "extract:chunk": "node scripts/extract/chunk.mjs",
     "extract:draft": "node scripts/extract/draft.mjs",

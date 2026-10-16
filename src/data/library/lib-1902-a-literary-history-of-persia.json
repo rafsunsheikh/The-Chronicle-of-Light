@@ -1,0 +1,27 @@
+{
+  "id": "lib-1902-a-literary-history-of-persia",
+  "type": "book",
+  "title": "A Literary History of Persia",
+  "creators": [
+    "Edward G. Browne"
+  ],
+  "year": 1902,
+  "language": "en",
+  "categories": [
+    "literature-and-poetry",
+    "philosophy-and-theology"
+  ],
+  "summary": "The first volume of E. G. Browne's four-volume history of Persian literature, running from the earliest times to Firdausi. It also covers Persian scholars who wrote in Arabic during the early Abbasid period, and the religious and philosophical movements of the time. Public domain; the author died in 1926.",
+  "url": "https://archive.org/details/literaryhistoryo0000edwa_y7t6",
+  "license": "public-domain",
+  "hosted": false,
+  "contentPath": null,
+  "video": null,
+  "source": {
+    "name": "Internet Archive (via Open Library)",
+    "url": "https://openlibrary.org/works/OL43264383W",
+    "retrieved": "2026-10-16"
+  },
+  "relatedEvents": [],
+  "confidence": "established"
+}
