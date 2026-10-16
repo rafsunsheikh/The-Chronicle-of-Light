@@ -30,6 +30,15 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - run: npm run build
+      - name: Check site size against the budget
+        run: |
+          budget_mb=200
+          size_mb=$(du -sm dist | cut -f1)
+          echo "dist/ is ${size_mb} MB (budget ${budget_mb} MB)"
+          if [ "$size_mb" -gt "$budget_mb" ]; then
+            echo "::error::dist/ is ${size_mb} MB, over the ${budget_mb} MB budget. See docs/PUBLISHING.md."
+            exit 1
+          fi
 
   validate-events:
     name: Validate events

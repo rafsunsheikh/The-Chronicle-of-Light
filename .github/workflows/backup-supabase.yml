@@ -29,9 +29,12 @@ jobs:
       - run: npm ci
 
       - name: Pull events from Supabase
+        # The URL is a repository variable (it is not secret) and the anon key
+        # is stored under the VITE_ name the app also uses; the bare names
+        # still work if someone sets them later.
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_URL: ${{ vars.SUPABASE_URL || secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY || secrets.VITE_SUPABASE_ANON_KEY }}
         run: npm run backup:supabase
 
       - name: Commit changes if any

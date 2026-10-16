@@ -633,6 +633,7 @@ in `thoughts/` usually explain why:
   — visual reference research and design decisions.
 - `scripts/wikipedia-import/README.md` — flag reference, recursion
   semantics, suggested seed pages, review workflow.
+- [`docs/PUBLISHING.md`](docs/PUBLISHING.md): where the site runs, what it costs (nothing), the CI size budget, the Supabase backup, and when any of that would change.
 
 For per-component design rationale (e.g., why timeline X positions are
 computed instead of grid-based, why the 3-D graph uses Sprite labels
