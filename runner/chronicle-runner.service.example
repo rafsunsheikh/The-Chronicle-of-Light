@@ -1,0 +1,35 @@
+# Keep the Chronicle runner alive on a Linux home server (systemd).
+#
+# Install:
+#   sed "s|__REPO__|/srv/the-chronicle-of-light|g; s|__USER__|$USER|g" \
+#     runner/chronicle-runner.service.example \
+#     | sudo tee /etc/systemd/system/chronicle-runner.service
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now chronicle-runner
+#
+# Logs:  journalctl -u chronicle-runner -f
+#
+# Claude Code must already be signed in AS THIS USER (run `claude` once
+# interactively and complete the login); the runner reuses those credentials.
+# The GitHub CLI must be signed in too (gh auth login) so it can open PRs.
+
+[Unit]
+Description=The Chronicle of Light AI job runner
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__USER__
+WorkingDirectory=__REPO__
+ExecStart=/usr/bin/env node runner/src/index.mjs
+Restart=always
+RestartSec=15
+# A long book is a long-running child process; give it room to finish.
+TimeoutStopSec=300
+# Signal the runner only, never the Claude process it is driving, or a job
+# dies mid-flight and the subscription usage is wasted.
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target

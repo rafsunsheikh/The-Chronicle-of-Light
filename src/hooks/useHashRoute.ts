@@ -19,7 +19,8 @@ export type RoutePath =
   | '/library'
   | '/leaderboard'
   | '/dashboard'
-  | '/review';
+  | '/review'
+  | '/admin';
 
 export interface HashRoute {
   path: RoutePath;
@@ -40,6 +41,7 @@ const ROUTES: RoutePath[] = [
   '/leaderboard',
   '/dashboard',
   '/review',
+  '/admin',
 ];
 const PARAM_ROUTES = new Set<RoutePath>(['/library']);
 

@@ -26,6 +26,10 @@ contents in order:
    — the canonical `events` table (the full corpus the app reads from) and
    re-points approval to write into it.
 
+3. [`supabase/migrations/0004_ai_jobs.sql`](../supabase/migrations/0004_ai_jobs.sql)
+   — the `ai_jobs` queue for maintainer-triggered AI runs (see
+   [`AI_JOBS.md`](AI_JOBS.md)); only needed if you run the home runner.
+
 Then **seed the corpus** (see [section 8](#8-seed-the-event-corpus-one-time)).
 
 ## 3. Get your API keys
