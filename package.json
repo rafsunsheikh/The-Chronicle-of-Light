@@ -12,6 +12,7 @@
     "validate:library": "node scripts/validate-library.mjs",
     "validate": "npm run validate:events && npm run validate:library",
     "import:wikipedia": "node scripts/wikipedia-import/index.mjs",
+    "convert": "node scripts/convert/index.mjs",
     "seed:supabase": "node scripts/seed-supabase.mjs",
     "backup:supabase": "node scripts/backup-from-supabase.mjs"
   },
@@ -27,6 +28,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@mozilla/readability": "^0.6.0",
     "@types/leaflet": "^1.9.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
@@ -41,8 +43,13 @@
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
     "globals": "^17.6.0",
+    "jsdom": "^29.1.1",
+    "jszip": "^3.10.2",
+    "mammoth": "^1.13.0",
+    "pdfjs-dist": "5.4.624",
     "postcss": "^8.4.0",
     "tailwindcss": "^3.4.0",
+    "turndown": "^7.2.4",
     "typescript": "^5.3.0",
     "vite": "^5.0.0"
   }

@@ -23,6 +23,7 @@ graph of connections between them.
 - [The Islamic Renaissance section and the library](#the-islamic-renaissance-section-and-the-library)
 - [Adding or editing an event](#adding-or-editing-an-event)
 - [The Wikipedia importer](#the-wikipedia-importer)
+- [Converting source material to Markdown](#converting-source-material-to-markdown)
 - [Architecture notes](#architecture-notes)
 - [Contributing](#contributing)
 - [Continuous integration](#continuous-integration)
@@ -257,6 +258,7 @@ job — are in [`docs/SETUP.md`](docs/SETUP.md).
 | `npm run validate:library` | Checks every JSON file in `src/data/library/` against `library.schema.json`, plus the rules the schema cannot express: filename matches id, id year matches `year`, hosted entries have a redistributable licence and an existing `contentPath`, video entries carry a `video` block, and every `relatedEvents` id resolves to a real event. |
 | `npm run validate` | Runs both validators. |
 | `npm run import:wikipedia` | Run the Wikipedia importer. See `scripts/wikipedia-import/README.md`. |
+| `npm run convert -- <file-or-url>` | Converts a PDF, EPUB, DOCX, TXT, Markdown or HTML source (file or URL) to Markdown with page or chapter markers, into `content/private/<slug>/` (gitignored) or, with `--public`, `content/books/<slug>/`. See [`scripts/convert/README.md`](scripts/convert/README.md). |
 | `npm run seed:supabase` | One-time: upsert every event JSON file into the Supabase `events` table. Needs `SUPABASE_SERVICE_ROLE_KEY`. See [`docs/SETUP.md`](docs/SETUP.md). |
 | `npm run backup:supabase` | Pull the `events` table back into `src/data/events/*.json` (run by the scheduled GitHub Action; also runnable locally). |
 
@@ -439,6 +441,34 @@ a time.
 **Full documentation** including all flags, recursion behaviour,
 caching, politeness checklist, and the review workflow:
 [`scripts/wikipedia-import/README.md`](scripts/wikipedia-import/README.md).
+
+## Converting source material to Markdown
+
+Every book, report or article becomes Markdown before any AI tool reads it,
+and the same Markdown feeds the reading library. `scripts/convert/` does the
+conversion:
+
+```bash
+npm run convert -- path/to/book.pdf                 # private: content/private/<slug>/
+npm run convert -- path/to/book.epub --public       # public domain: content/books/<slug>/
+npm run convert -- https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Avicenna
+```
+
+Each output folder holds `content.md` (YAML front matter, then the text with
+`<!-- page N -->` or `<!-- chapter N -->` markers so later stages can cite a
+position) and `meta.json` (title, author, language, source, SHA-256, word and
+heading counts). PDF text comes from the file's text layer, with running
+headers and page numbers stripped and plain-text headings such as
+`CHAPTER III` promoted to `##`. EPUB chapters follow the spine order. Web
+pages go through Readability so only the article survives. Project Gutenberg
+licence boilerplate is removed and the title and author are read from its
+header.
+
+Private output is gitignored: use it for your own copies of books you may
+not redistribute. Only public domain and openly licensed texts go under
+`content/books/` with `--public`. Scanned PDFs without a text layer need OCR
+first; the script stops with a message when almost nothing comes out.
+Full options and limits: [`scripts/convert/README.md`](scripts/convert/README.md).
 
 ## Architecture notes
 

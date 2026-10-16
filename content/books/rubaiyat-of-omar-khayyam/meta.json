@@ -1,0 +1,20 @@
+{
+  "title": "The Rubaiyat of Omar Khayyam",
+  "author": "Omar Khayyam; translated by Edward FitzGerald",
+  "language": "en",
+  "format": "epub",
+  "source": {
+    "url": "https://www.gutenberg.org/ebooks/246.epub.noimages",
+    "name": "246.epub.noimages",
+    "bytes": 105111,
+    "sha256": "6a9f8b3472d630f25059a0d6d13e9c5ae8262675cb6e0f9335d046c026716429"
+  },
+  "converted": "2026-10-16",
+  "converter": "chronicle-convert/0.1.0",
+  "stats": {
+    "chars": 68599,
+    "words": 11760,
+    "headings": 10,
+    "chapters": 3
+  }
+}
