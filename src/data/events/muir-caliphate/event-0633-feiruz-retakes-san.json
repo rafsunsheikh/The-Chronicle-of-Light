@@ -1,0 +1,23 @@
+{
+  "id": "event-0633-feiruz-retakes-san",
+  "title": "Feiruz retakes San'a",
+  "description": "Feiruz appealed to Medina, but the Caliph long had no men to send. With the aid of loyal tribes he put the troops of Keis ibn Mekshuh to flight, regained his captive family and reoccupied San'a. Dated to the year 0633 by the source.",
+  "startDate": "0633-01-01",
+  "location": {
+    "latitude": 15.355,
+    "longitude": 44.206,
+    "name": "Sana'a, Yemen"
+  },
+  "category": "military",
+  "connections": [
+    "event-0632-ridda-wars"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"II A.H. 632-633 A.D.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

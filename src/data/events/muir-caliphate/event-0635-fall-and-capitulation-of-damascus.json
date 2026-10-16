@@ -1,0 +1,24 @@
+{
+  "id": "event-0635-fall-and-capitulation-of-damascus",
+  "title": "Fall and capitulation of Damascus",
+  "description": "After six months of investment the Muslims entered Damascus from two points at once: one party forced an entrance by assault, only to find that the Governor had capitulated and admitted their comrades at the other side. The two divisions met in the Bazaar of the Coppersmiths or of the Oil Merchants and, after some dispute, agreed that the capitulation should hold for the whole town. The treaty was drawn up in the church called the Maxillat, where that of St Mary now stands, in the name of Khalid ibn al-Welid, in the month of Rejeb AH 14. The text dates it to Rejeb, AH 14, about September 635.",
+  "startDate": "0635-09-01",
+  "location": {
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "name": "Damascus, Syria"
+  },
+  "category": "political",
+  "connections": [
+    "event-0633-muslim-conquest-of-syria",
+    "event-0629-arab-byzantine-wars"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"CHAPTER XIII\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

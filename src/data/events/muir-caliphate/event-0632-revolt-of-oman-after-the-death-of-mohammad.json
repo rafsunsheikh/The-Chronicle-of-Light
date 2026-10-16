@@ -1,0 +1,24 @@
+{
+  "id": "event-0632-revolt-of-oman-after-the-death-of-mohammad",
+  "title": "Revolt of 'Oman after the death of Mohammad",
+  "description": "The Prince of 'Oman had recently tendered allegiance to Mohammad, with 'Amr deputed as Resident. As soon as Mohammad was dead, the people rebelled under a rebel who claimed to be a prophet; the Prince fled to the mountains and 'Amr to Medina. Dated to the year 0632 by the source.",
+  "startDate": "0632-01-01",
+  "location": {
+    "latitude": 24.347,
+    "longitude": 56.709,
+    "name": "Oman (Suhar)"
+  },
+  "category": "political",
+  "connections": [
+    "event-0632-ridda-wars",
+    "event-0632-death-of-prophet-muhammad"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"II A.H. 632-633 A.D.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

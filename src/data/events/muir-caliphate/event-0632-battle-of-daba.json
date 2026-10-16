@@ -1,0 +1,23 @@
+{
+  "id": "event-0632-battle-of-daba",
+  "title": "Battle of Daba",
+  "description": "Hodheifa, charged by Abu Bekr with reclaiming 'Oman and Mahra and assisted by 'Ikrima, joined the loyal Prince of 'Oman. In the battle that followed the Muslims were near defeat until a column from the tribes recently reclaimed in Al-Bahrein arrived and turned the day. The mart of Daba yielded a great booty, and the royal fifth of slaves and plunder was sent to Medina. Hodheifa was left as governor of 'Oman. Dated to the year 0632 by the source.",
+  "startDate": "0632-01-01",
+  "location": {
+    "latitude": 25.6167,
+    "longitude": 56.2667,
+    "name": "Dibba, Oman / UAE"
+  },
+  "category": "military",
+  "connections": [
+    "event-0632-ridda-wars"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"II A.H. 632-633 A.D.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

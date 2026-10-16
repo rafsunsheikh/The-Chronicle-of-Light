@@ -1,0 +1,23 @@
+{
+  "id": "event-0632-al-ala-s-reconquest-of-al-bahrein",
+  "title": "Al-'Ala's reconquest of Al-Bahrein and slaughter at Darin",
+  "description": "Sent back with a strong force and joined by contingents from chiefs near Al-Yemama, Al-'Ala entrenched his army against the well-supported rebel prince. Learning from spies that the enemy were drunk and festive, he overwhelmed them by surprise and took their Prince prisoner. The fleeing host took ship to the island of Darin, where they were pursued and put to the sword, with prodigious spoil and many captives. Dated to the year 0632 by the source.",
+  "startDate": "0632-01-01",
+  "location": {
+    "latitude": 26.5728,
+    "longitude": 50.0636,
+    "name": "Tarut Island (Darin), Saudi Arabia"
+  },
+  "category": "military",
+  "connections": [
+    "event-0632-ridda-wars"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"II A.H. 632-633 A.D.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

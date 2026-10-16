@@ -1,0 +1,24 @@
+{
+  "id": "event-0634-omar-calls-a-general-levy-after-the-defeat",
+  "title": "'Omar calls a general levy after the defeat at the Bridge",
+  "description": "At Medina 'Omar received the news of Abu 'Obeid's defeat calmly, comforted the fugitives who had returned there, and sent out a fresh cry for a levy en masse across the Peninsula. Bands arriving at Medina asked to go to Syria, but 'Omar sent every available man to Al-'Irak, winning over Jarir's levy with the promise of one-fourth of the royal fifth of booty taken in Persia. Dated to the year 0634 by the source.",
+  "startDate": "0634-01-01",
+  "location": {
+    "latitude": 24.4709,
+    "longitude": 39.6121,
+    "name": "Medina, Saudi Arabia"
+  },
+  "category": "political",
+  "connections": [
+    "event-0633-arab-conquest-of-mesopotamia",
+    "event-0633-muslim-conquest-of-persia"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"A. IT. 13-14.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "event-0632-abu-bekr-appoints-feiruz-his-lieutenant-in-san",
+  "title": "Abu Bekr appoints Feiruz his lieutenant in San'a",
+  "description": "The 'Veiled Prophet' Aswad had recently been assassinated by Keis ibn Mekshuh, Feiruz and Daduweihi, into whose hands the government of San'a fell. The news reached Medina just after Mohammad's death, and Abu Bekr appointed Feiruz, a man of Persian descent, as his lieutenant. Dated to the year 0632 by the source.",
+  "startDate": "0632-01-01",
+  "location": {
+    "latitude": 15.355,
+    "longitude": 44.206,
+    "name": "Sana'a, Yemen"
+  },
+  "category": "political",
+  "connections": [
+    "event-0632-death-of-prophet-muhammad",
+    "event-0632-ridda-wars"
+  ],
+  "sources": [
+    {
+      "citation": "Sir William Muir, The Caliphate: Its Rise, Decline, and Fall, \"II A.H. 632-633 A.D.\"",
+      "url": "https://archive.org/download/caliphateitsrise00muir/caliphateitsrise00muir_djvu.txt",
+      "retrieved": "2026-10-16"
+    }
+  ],
+  "confidence": "auto-imported"
+}
