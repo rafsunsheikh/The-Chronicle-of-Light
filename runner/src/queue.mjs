@@ -39,6 +39,13 @@ export async function complete(id, result) {
   if (error) throw new Error(error.message);
 }
 
+/** The per-book, per-stage board the admin page reads (pipeline_status). */
+export async function setStatus(slug, stage, state, { stats = {}, jobId = null, error = null } = {}) {
+  const row = { slug, stage, state, stats, job_id: jobId, error: error ? String(error).slice(0, 2000) : null, updated_at: new Date().toISOString() };
+  const { error: err } = await db().from('pipeline_status').upsert(row, { onConflict: 'slug,stage' });
+  if (err) throw new Error(err.message);
+}
+
 export async function fail(id, message) {
   const { error } = await db()
     .from('ai_jobs')

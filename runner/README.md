@@ -26,7 +26,9 @@ Claude credential never leaves the machine; the website never holds one.
    login. Run `gh auth login` so the runner can push branches and open pull
    requests as you. The repository checkout must have `origin` set.
 3. **Configure.** `cp runner/.env.example runner/.env` and fill in the
-   Supabase URL and the **service-role** key (Project Settings, API). Point
+   Supabase URL and the **secret key** (Project Settings, API Keys, "Secret
+   keys", starts with `sb_secret_`; older dashboards call it the
+   service-role key under the Legacy API Keys tab). Point
    `CLAUDE_BIN` at the real binary: `type claude` shows the path if your
    shell wraps it in a function.
 4. **Start.**
@@ -89,3 +91,16 @@ node runner/src/index.mjs --local-job /tmp/job.json --no-git
 opens no pull request. Without it, the local job still creates the branch
 and the pull request, which is a good end-to-end test before trusting the
 queue.
+
+## Book pipeline stages
+
+Jobs of kind `convert`, `chunk`, `extract-local`, `merge`, `draft`, `enrich`
+and `all` (see `docs/AI_JOBS.md`) run the extraction scripts in this checkout
+with the local model and write their counts to the `pipeline_status` table.
+Set the four pipeline variables in `.env`. To test a stage without Supabase:
+
+```bash
+echo '{"kind":"draft","input":{"slug":"tabari-volume-35","title":"Volume 35"}}' > /tmp/job.json
+node runner/src/index.mjs --local-job /tmp/job.json --no-git
+npm run runner:board -- --dry      # what the board would say, from disk
+```

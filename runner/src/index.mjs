@@ -8,11 +8,16 @@
 //   node runner/src/index.mjs --local-job job.json [--no-git]
 //       run a job described in a JSON file without Supabase; --no-git skips
 //       the worktree, commit and pull request and writes into this checkout
+//
+// Pipeline jobs (convert, chunk, extract-local, merge, draft, enrich, all)
+// name a book from scripts/convert/manifests and run that stage's script in
+// this checkout; see pipeline.mjs. They never touch git.
 import { readFileSync } from 'node:fs';
 import { assertClaudeInstalled, config, repoRoot, requireSupabase } from './config.mjs';
 import { commitAll, createWorktree, openPullRequest, pushBranch, removeWorktree } from './git.mjs';
 import { extract, slugify, summarize } from './jobs.mjs';
 import * as queue from './queue.mjs';
+import { isPipelineKind, runPipeline } from './pipeline.mjs';
 
 const args = process.argv.slice(2);
 const once = args.includes('--once');
@@ -91,7 +96,16 @@ async function handle(job, { local = false } = {}) {
     ? async () => {}
     : (stage, done, total) => queue.progress(job.id, stage, done, total).catch((e) => log(`  (progress update failed: ${e.message})`));
   try {
-    const result = await runJob(job, report);
+    const result = isPipelineKind(job.kind)
+      ? await runPipeline(job, {
+          report: (stage, done, total) => {
+            log(`  ${stage}${total ? ` (${done}/${total})` : ''}`);
+            return report(stage, done, total);
+          },
+          // The board is a Supabase table; a --local-job run has nowhere to write it.
+          setStatus: local ? async () => {} : (slug, stage, state, opts) => queue.setStatus(slug, stage, state, opts).catch((e) => log(`  (board update failed: ${e.message})`)),
+        })
+      : await runJob(job, report);
     const summary = {
       prUrl: result.prUrl,
       branch: result.branch,
@@ -102,6 +116,7 @@ async function handle(job, { local = false } = {}) {
       outputTokens: result.outputTokens,
       durationMs: result.durationMs,
       drafts: result.drafts,
+      stages: result.stages,
     };
     if (!local) await queue.complete(job.id, summary);
     log(`Done ${job.id} in ${Math.round((Date.now() - started) / 1000)} s: ${result.prUrl ?? 'no PR'} (~$${result.costUsd.toFixed(2)})`);

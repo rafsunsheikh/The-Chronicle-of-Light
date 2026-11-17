@@ -63,3 +63,36 @@ inbound connections. See `runner/README.md` for setup.
 Supabase free tier, GitHub free tier, and the owner's existing Claude
 subscription. The runner records tokens and an estimated cost per job and
 shows it on the admin page.
+
+## The books pipeline (added 2026-11-17)
+
+The admin page has a second tab, **Books pipeline**, for the source books
+listed in `scripts/convert/manifests/*.json`. Each book moves through six
+stages, and each stage is a job of its own kind in the same `ai_jobs` table:
+
+| Stage | Job kind | What runs on the owner's machine |
+| --- | --- | --- |
+| Convert | `convert` | `npm run convert:batch -- <manifest> --only <slug>` (pdfdown) |
+| Chunk | `chunk` | `scripts/extract/chunk.mjs` |
+| Extract | `extract-local` | `scripts/extract/local.mjs` against the local llama-server |
+| Merge | `merge` | `scripts/extract/merge.mjs` |
+| Draft | `draft` | `scripts/extract/draft.mjs --from merged` |
+| Enrich | `enrich` | `scripts/extract/enrich.mjs` (Wikipedia and Wikidata) |
+
+`all` runs them in order, skipping convert and chunk when their output exists.
+A job's input is only `{slug, title, force}`; the runner looks the slug up in
+the manifests and refuses anything not listed, so no path or command ever
+comes from the queue. Pipeline jobs never touch git: drafts land under
+`src/data/events/imported/<slug>/`, and promotion plus `npm run seed:supabase`
+stay a person's decision.
+
+The page reads the `pipeline_status` table (migration 0005), one row per book
+and stage with the stage's counts: pages, chunks read, events, drafts,
+Wikipedia matches, seconds per chunk. The runner writes it as stages finish;
+`npm run runner:board` rebuilds it from what is on disk after command-line
+runs. The runner needs `BOOKS_DIR`, `PDFDOWN_BIN`, `PDFDOWN_ARGS` and
+`LOCAL_MODEL_URL` in `runner/.env` (see `.env.example`).
+
+Progress on the page comes from the job row: the runner reads each script's
+progress lines and writes "chunk 18 of 59" with a heartbeat, and the page
+estimates the time left from the book's measured seconds per chunk.
