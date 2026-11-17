@@ -52,4 +52,22 @@ export interface PipelineBook {
   author: string | null;
   translator?: string | null;
   public?: boolean;
+  /** Set for books uploaded from the admin page (pipeline_books), absent for manifest books. */
+  upload?: { state: UploadState; error: string | null; createdAt: string };
+}
+
+/** An uploaded book's own state, kept by queue_book_upload() and the runner (migration 0006). */
+export type UploadState = 'uploaded' | 'fetched' | 'failed';
+
+/** A row of pipeline_books as the admin page reads it. */
+export interface UploadedBook {
+  slug: string;
+  title: string;
+  author: string | null;
+  translator: string | null;
+  is_public: boolean;
+  size_bytes: number | null;
+  state: UploadState;
+  error: string | null;
+  created_at: string;
 }

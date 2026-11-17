@@ -2,8 +2,10 @@ import { useCallback, useEffect, useState } from 'react';
 import { useAuth } from '../../lib/auth';
 import { cancelAiJob, createAiJob, listAiJobs } from '../../lib/aiJobs';
 import { listPipelineStatus } from '../../lib/pipeline';
+import { listUploadedBooks } from '../../lib/bookUploads';
 import type { AiJob, AiJobKind } from '../../types/aiJob';
-import type { PipelineStatus } from '../../types/pipeline';
+import type { PipelineStatus, UploadedBook } from '../../types/pipeline';
+import type { Uploader } from './AddBookDialog';
 import { PipelinePanel } from './PipelinePanel';
 
 type Tab = 'pipeline' | 'jobs';
@@ -21,6 +23,7 @@ const KIND_LABEL: Record<AiJobKind, string> = {
   draft: 'Draft',
   enrich: 'Enrich',
   all: 'Every stage',
+  upload: 'Uploaded book',
 };
 
 const Centered: React.FC<{ children: React.ReactNode }> = ({ children }) => (
@@ -59,6 +62,7 @@ export const AdminPage: React.FC = () => {
   const { enabled, loading, user, isMaintainer, signInWithGoogle } = useAuth();
   const [jobs, setJobs] = useState<AiJob[]>([]);
   const [board, setBoard] = useState<PipelineStatus[]>([]);
+  const [uploaded, setUploaded] = useState<UploadedBook[]>([]);
   const [boardError, setBoardError] = useState<string | null>(null);
   const [tab, setTab] = useState<Tab>('pipeline');
   const [error, setError] = useState<string | null>(null);
@@ -73,12 +77,27 @@ export const AdminPage: React.FC = () => {
   const [chunks, setChunks] = useState('');
 
   const refresh = useCallback(async (): Promise<AiJob[]> => {
-    const [{ jobs: list, error: err }, { rows, error: boardErr }] = await Promise.all([listAiJobs(), listPipelineStatus()]);
+    const [{ jobs: list, error: err }, { rows, error: boardErr }, { books, error: uploadsErr }] = await Promise.all([
+      listAiJobs(),
+      listPipelineStatus(),
+      listUploadedBooks(),
+    ]);
     setJobs(list);
     setError(err ?? null);
     setBoard(rows);
-    // A missing table means migration 0005 has not been applied yet; say so instead of a bare error code.
-    setBoardError(boardErr ? (/pipeline_status/.test(boardErr) ? 'The pipeline board is not set up yet: run supabase/migrations/0005_pipeline.sql.' : boardErr) : null);
+    setUploaded(books);
+    // A missing table means a migration has not been applied yet; say which instead of a bare error code.
+    setBoardError(
+      boardErr
+        ? /pipeline_status/.test(boardErr)
+          ? 'The pipeline board is not set up yet: run supabase/migrations/0005_pipeline.sql.'
+          : boardErr
+        : uploadsErr
+          ? /pipeline_books/.test(uploadsErr)
+            ? 'Book uploads are not set up yet: run supabase/migrations/0006_book_uploads.sql.'
+            : uploadsErr
+          : null,
+    );
     return list;
   }, []);
 
@@ -177,7 +196,7 @@ export const AdminPage: React.FC = () => {
         <TabBar tab={tab} onChange={setTab} />
 
         {tab === 'pipeline' && (
-          <PipelinePanel board={board} jobs={jobs} userId={user.id} boardError={boardError} onQueued={refresh} />
+          <PipelinePanel board={board} jobs={jobs} uploaded={uploaded} userId={user.id} boardError={boardError} onQueued={refresh} />
         )}
 
         {tab === 'jobs' && (
@@ -351,9 +370,11 @@ const TabBar: React.FC<{ tab: Tab; onChange: (t: Tab) => void }> = ({ tab, onCha
 /** The pipeline screen with sample data, for looking at it without a backend (dev server only). */
 const PreviewShell: React.FC = () => {
   const [tab, setTab] = useState<Tab>('pipeline');
-  const [fixture, setFixture] = useState<{ board: PipelineStatus[]; jobs: AiJob[] } | null>(null);
+  const [fixture, setFixture] = useState<{ board: PipelineStatus[]; jobs: AiJob[]; uploaded: UploadedBook[]; uploader: Uploader } | null>(null);
   useEffect(() => {
-    import('./pipelineFixture').then((m) => setFixture({ board: m.FIXTURE_BOARD, jobs: m.FIXTURE_JOBS }));
+    import('./pipelineFixture').then((m) =>
+      setFixture({ board: m.FIXTURE_BOARD, jobs: m.FIXTURE_JOBS, uploaded: m.FIXTURE_UPLOADS, uploader: m.fakeUploader }),
+    );
   }, []);
   if (!fixture) return null;
   return (
@@ -361,7 +382,15 @@ const PreviewShell: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 py-8 max-w-5xl space-y-8">
         <TabBar tab={tab} onChange={setTab} />
         {tab === 'pipeline' ? (
-          <PipelinePanel board={fixture.board} jobs={fixture.jobs} userId="preview" boardError={null} onQueued={async () => {}} />
+          <PipelinePanel
+            board={fixture.board}
+            jobs={fixture.jobs}
+            uploaded={fixture.uploaded}
+            userId="preview"
+            boardError={null}
+            onQueued={async () => {}}
+            uploader={fixture.uploader}
+          />
         ) : (
           <p className="text-sm text-slate-600">The jobs tab needs the backend; this preview shows the pipeline only.</p>
         )}

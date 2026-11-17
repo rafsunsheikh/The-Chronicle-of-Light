@@ -1,10 +1,13 @@
-import { useMemo, useState } from 'react';
-import { PIPELINE_BOOKS } from '../../data/pipeline/books';
+import { useMemo, useRef, useState } from 'react';
+import { allBooks } from '../../data/pipeline/books';
 import { queuePipelineJob } from '../../lib/pipeline';
 import type { AiJob } from '../../types/aiJob';
-import { PIPELINE_STAGES, STAGE_LABEL, type PipelineBook, type PipelineStage, type PipelineStatus } from '../../types/pipeline';
+import { PIPELINE_STAGES, STAGE_LABEL, type PipelineBook, type PipelineStage, type PipelineStatus, type UploadedBook } from '../../types/pipeline';
+import { AddBookDialog, type Uploader } from './AddBookDialog';
 
-const PIPELINE_KINDS = new Set<string>([...PIPELINE_STAGES, 'all']);
+// 'upload' jobs fetch an uploaded PDF and then convert it (runner/src/uploads.mjs).
+const PIPELINE_KINDS = new Set<string>([...PIPELINE_STAGES, 'all', 'upload']);
+
 const isPipelineJob = (j: AiJob) => PIPELINE_KINDS.has(j.kind);
 
 /** What a book has reached, read from the board and the live queue. */
@@ -19,7 +22,7 @@ interface BookRow {
   failed: PipelineStatus | null;
 }
 
-function rowsFor(board: PipelineStatus[], jobs: AiJob[]): BookRow[] {
+function rowsFor(books: PipelineBook[], board: PipelineStatus[], jobs: AiJob[]): BookRow[] {
   const bySlug = new Map<string, Partial<Record<PipelineStage, PipelineStatus>>>();
   for (const r of board) {
     const m = bySlug.get(r.slug) ?? {};
@@ -32,9 +35,14 @@ function rowsFor(board: PipelineStatus[], jobs: AiJob[]): BookRow[] {
     const slug = String(j.input.slug ?? '');
     if (!active.has(slug)) active.set(slug, j);
   }
-  return PIPELINE_BOOKS.map((book) => {
+  return books.map((book) => {
     const byStage = bySlug.get(book.slug) ?? {};
     const failed = PIPELINE_STAGES.map((s) => byStage[s]).find((s) => s?.state === 'failed') ?? null;
+    // An upload not yet on the owner's machine has no stage to run: the runner
+    // fetches it, or, if that failed, the maintainer uploads it again.
+    if (book.upload && book.upload.state !== 'fetched') {
+      return { book, byStage, job: active.get(book.slug) ?? null, next: null, reached: null, failed };
+    }
     let reached: PipelineStage | null = null;
     let next: PipelineStage | null = null;
     for (const stage of PIPELINE_STAGES) {
@@ -73,7 +81,15 @@ const CHIP = {
 function StageChip({ row }: { row: BookRow }) {
   let text = 'Not started';
   let tone: keyof typeof CHIP = 'neutral';
-  if (row.job) {
+  if (row.job?.kind === 'upload') {
+    text = row.job.status === 'queued' ? 'Waiting for the runner' : row.job.stage?.startsWith('convert') ? 'Converting' : 'Fetching';
+    tone = 'running';
+  } else if (row.book.upload?.state === 'failed' && !row.job) {
+    text = 'Upload failed';
+    tone = 'failed';
+  } else if (row.book.upload?.state === 'uploaded' && !row.job) {
+    text = 'Waiting for the runner';
+  } else if (row.job) {
     text = row.job.status === 'queued' ? 'Queued' : `Running ${STAGE_LABEL[(row.job.stage?.split(':')[0] as PipelineStage) ?? row.job.kind as PipelineStage] ?? ''}`.trim();
     tone = 'running';
   } else if (row.failed) {
@@ -94,19 +110,30 @@ function StageChip({ row }: { row: BookRow }) {
 interface Props {
   board: PipelineStatus[];
   jobs: AiJob[];
+  /** Books uploaded from this page (pipeline_books). */
+  uploaded: UploadedBook[];
   userId: string;
   boardError: string | null;
   onQueued: () => Promise<unknown>;
+  /** The dev preview passes a fake; the real page uses the default. */
+  uploader?: Uploader;
 }
 
-export const PipelinePanel: React.FC<Props> = ({ board, jobs, userId, boardError, onQueued }) => {
-  const rows = useMemo(() => rowsFor(board, jobs), [board, jobs]);
+export const PipelinePanel: React.FC<Props> = ({ board, jobs, uploaded, userId, boardError, onQueued, uploader }) => {
+  const books = useMemo(() => allBooks(uploaded), [uploaded]);
+  const rows = useMemo(() => rowsFor(books, board, jobs), [books, board, jobs]);
+  const [adding, setAdding] = useState(false);
+  const addButtonRef = useRef<HTMLButtonElement>(null);
+  // Names a new upload may not take: every book in the list, except uploads that failed (they may be uploaded again).
+  const takenSlugs = useMemo(() => new Set(books.filter((b) => b.upload?.state !== 'failed').map((b) => b.slug)), [books]);
   const [busySlug, setBusySlug] = useState<string | null>(null);
   const [queueAllBusy, setQueueAllBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   const totals = useMemo(() => {
     const converted = rows.filter((r) => r.byStage.convert?.state === 'done').length;
+    // An upload that failed before it reached the owner's machine has no file to convert; leave it out of the count.
+    const counted = rows.filter((r) => !(r.book.upload?.state === 'failed' && r.byStage.convert?.state !== 'done')).length;
     let chunksRead = 0;
     let chunksTotal = 0;
     let drafts = 0;
@@ -119,7 +146,7 @@ export const PipelinePanel: React.FC<Props> = ({ board, jobs, userId, boardError
       drafts += r.byStage.draft?.stats.drafts ?? 0;
       enriched += r.byStage.enrich?.stats.enriched ?? 0;
     }
-    return { converted, chunksRead, chunksTotal, drafts, enriched };
+    return { converted, counted, chunksRead, chunksTotal, drafts, enriched };
   }, [rows]);
 
   const running = rows.filter((r) => r.job);
@@ -161,24 +188,34 @@ export const PipelinePanel: React.FC<Props> = ({ board, jobs, userId, boardError
         <div>
           <h1 className="text-2xl font-semibold text-slate-900">Books pipeline</h1>
           <p className="text-sm text-slate-600 mt-1">
-            {totals.converted} of {PIPELINE_BOOKS.length} books converted, {fmt(totals.chunksRead)} of {fmt(totals.chunksTotal)} chunks read. {finding}.
+            {totals.converted} of {totals.counted} books converted, {fmt(totals.chunksRead)} of {fmt(totals.chunksTotal)} chunks read. {finding}.
           </p>
         </div>
-        <button
-          type="button"
-          onClick={queueAll}
-          disabled={queueAllBusy || withNext.length === 0}
-          className="bg-teal-nma hover:bg-teal-nma/90 disabled:bg-slate-300 text-white text-xs font-semibold tracking-wider uppercase px-5 py-2.5 rounded-full min-h-[44px]"
-        >
-          {queueAllBusy ? 'Queueing…' : `Run every stage for ${withNext.length} book${withNext.length === 1 ? '' : 's'}`}
-        </button>
+        <div className="flex flex-wrap gap-2">
+          <button
+            ref={addButtonRef}
+            type="button"
+            onClick={() => setAdding(true)}
+            className="bg-teal-nma hover:bg-teal-nma/90 text-white text-xs font-semibold tracking-wider uppercase px-5 py-2.5 rounded-full min-h-[44px]"
+          >
+            Add a book
+          </button>
+          <button
+            type="button"
+            onClick={queueAll}
+            disabled={queueAllBusy || withNext.length === 0}
+            className="border border-slate-300 bg-white hover:bg-slate-100 disabled:opacity-50 text-slate-800 text-xs font-semibold tracking-wider uppercase px-5 py-2.5 rounded-full min-h-[44px]"
+          >
+            {queueAllBusy ? 'Queueing…' : `Run every stage for ${withNext.length} book${withNext.length === 1 ? '' : 's'}`}
+          </button>
+        </div>
       </header>
 
       {(error || boardError) && <p className="text-sm text-red-nma">{error ?? boardError}</p>}
 
       <dl className="bg-white rounded-md border border-slate-200 grid grid-cols-2 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-slate-200">
         {[
-          ['Books converted', `${totals.converted} / ${PIPELINE_BOOKS.length}`],
+          ['Books converted', `${totals.converted} / ${totals.counted}`],
           ['Chunks read', `${fmt(totals.chunksRead)} / ${fmt(totals.chunksTotal)}`],
           ['Draft events', fmt(totals.drafts)],
           ['Drafts with a Wikipedia source', `${fmt(totals.enriched)} / ${fmt(totals.drafts)}`],
@@ -246,10 +283,13 @@ export const PipelinePanel: React.FC<Props> = ({ board, jobs, userId, boardError
                 const enriched = row.byStage.enrich?.stats.enriched ?? null;
                 const busy = busySlug === row.book.slug;
                 return (
-                  <tr key={row.book.slug} className="align-middle">
+                  <tr key={row.book.slug} className={`align-middle ${row.book.upload && row.byStage.convert?.state !== 'done' ? 'bg-[#F3FAFA]' : ''}`}>
                     <td className="px-4 py-2.5 min-w-[14rem] max-w-md">
                       <div className="text-slate-900 font-medium">{short(row.book.title)}</div>
-                      <div className="text-xs text-slate-500">{row.book.translator ? `tr. ${row.book.translator}` : row.book.author ?? ''}</div>
+                      <div className="text-xs text-slate-500">
+                        {row.book.translator ? `tr. ${row.book.translator}` : row.book.author ?? ''}
+                        {row.book.upload ? `${row.book.translator || row.book.author ? ' · ' : ''}uploaded ${new Date(row.book.upload.createdAt).toLocaleDateString('en-AU', { day: 'numeric', month: 'short' })}` : ''}
+                      </div>
                     </td>
                     <td className="px-3 py-2.5 text-right tabular-nums text-slate-700">{fmt(row.byStage.convert?.stats.pages)}</td>
                     <td className="px-3 py-2.5 text-right tabular-nums text-slate-700">
@@ -262,6 +302,9 @@ export const PipelinePanel: React.FC<Props> = ({ board, jobs, userId, boardError
                     <td className="px-3 py-2.5">
                       <StageChip row={row} />
                       {row.failed && !row.job && <div className="text-xs text-rose-700 mt-1 max-w-[16rem] truncate" title={row.failed.error ?? ''}>{row.failed.error}</div>}
+                      {!row.failed && !row.job && row.book.upload?.state === 'failed' && (
+                        <div className="text-xs text-rose-700 mt-1 max-w-[16rem] truncate" title={row.book.upload.error ?? ''}>{row.book.upload.error}</div>
+                      )}
                     </td>
                     <td className="px-4 py-2.5 text-right whitespace-nowrap">
                       {row.job ? (
@@ -275,6 +318,10 @@ export const PipelinePanel: React.FC<Props> = ({ board, jobs, userId, boardError
                         >
                           {busy ? 'Queueing…' : row.failed ? `Retry ${STAGE_LABEL[row.next].toLowerCase()}` : STAGE_LABEL[row.next]}
                         </button>
+                      ) : row.book.upload?.state === 'failed' ? (
+                        <span className="text-xs text-slate-500">Upload it again</span>
+                      ) : row.book.upload?.state === 'uploaded' ? (
+                        <span className="text-xs text-slate-500">Waiting</span>
                       ) : (
                         <span className="text-xs text-emerald-800">Ready to review</span>
                       )}
@@ -286,6 +333,17 @@ export const PipelinePanel: React.FC<Props> = ({ board, jobs, userId, boardError
           </table>
         </div>
       </section>
+
+      <AddBookDialog
+        open={adding}
+        onClose={() => {
+          setAdding(false);
+          addButtonRef.current?.focus();
+        }}
+        takenSlugs={takenSlugs}
+        onQueued={onQueued}
+        uploader={uploader}
+      />
     </div>
   );
 };

@@ -37,7 +37,8 @@
     "react-force-graph-3d": "^1.29.1",
     "react-leaflet": "^4.2.0",
     "three": "^0.184.0",
-    "three-spritetext": "^1.10.0"
+    "three-spritetext": "^1.10.0",
+    "tus-js-client": "^4.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

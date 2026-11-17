@@ -3,7 +3,8 @@
 // dev server. Vite drops this from production builds (import.meta.env.DEV).
 // The figures are the real ones measured for volume 35 on 2026-11-17.
 import type { AiJob } from '../../types/aiJob';
-import type { PipelineStatus } from '../../types/pipeline';
+import type { PipelineStatus, UploadedBook } from '../../types/pipeline';
+import type { Uploader } from './AddBookDialog';
 
 const at = '2026-11-17T08:40:00.000Z';
 const row = (slug: string, stage: PipelineStatus['stage'], state: PipelineStatus['state'], stats: PipelineStatus['stats'], error: string | null = null): PipelineStatus => ({
@@ -30,9 +31,28 @@ export const FIXTURE_BOARD: PipelineStatus[] = [
   row('tabari-volume-30', 'extract-local', 'failed', { chunks: 121, done: 3, events: 9 }, 'model server at http://localhost:8080 is unreachable (fetch failed)'),
   ...['01', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'].map((n) => row(`tabari-volume-${n}`, 'convert', 'done', { pages: 250, words: 90000, figures: 4 })),
   row('akram-muslim-conquest-of-persia', 'convert', 'done', { pages: 332, words: 127204, figures: 20 }),
+  row('the-origins-of-the-islamic-state-part-1', 'convert', 'done', { pages: 312, words: 141022, figures: 2 }),
 ];
 
 export const FIXTURE_JOBS: AiJob[] = [
+  // The queued upload of the second sample book below.
+  {
+    id: 'job-2',
+    kind: 'upload',
+    input: { slug: 'the-origins-of-the-islamic-state-part-2', title: 'The Origins of the Islamic State, Part 2', source: 'the-origins-of-the-islamic-state-part-2' },
+    status: 'queued',
+    stage: null,
+    progress_done: 0,
+    progress_total: 0,
+    attempts: 0,
+    error: null,
+    result: null,
+    created_by: 'preview',
+    created_at: '2026-11-18T09:30:00.000Z',
+    claimed_at: null,
+    heartbeat_at: null,
+    finished_at: null,
+  },
   {
     id: 'job-1',
     kind: 'extract-local',
@@ -68,3 +88,53 @@ export const FIXTURE_JOBS: AiJob[] = [
     finished_at: '2026-11-15T05:01:14.000Z',
   },
 ];
+
+// Sample uploads, one in each state: converted and waiting for chunk, waiting
+// for the runner (with a queued job below), and failed before it was fetched.
+const upload = (slug: string, title: string, state: UploadedBook['state'], error: string | null, created_at: string): UploadedBook => ({
+  slug,
+  title,
+  author: 'al-Baladhuri',
+  translator: 'Philip Khuri Hitti',
+  is_public: true,
+  size_bytes: 24 * 1048576,
+  state,
+  error,
+  created_at,
+});
+
+export const FIXTURE_UPLOADS: UploadedBook[] = [
+  upload('the-origins-of-the-islamic-state-part-2', 'The Origins of the Islamic State, Part 2', 'uploaded', null, '2026-11-18T09:30:00.000Z'),
+  upload('the-origins-of-the-islamic-state-part-1', 'The Origins of the Islamic State, Part 1', 'fetched', null, '2026-11-18T09:00:00.000Z'),
+  upload('futuh-misr', 'Futuh Misr (The Conquest of Egypt)', 'failed', 'The uploaded file is not a PDF (it does not start with %PDF-)', '2026-11-17T16:00:00.000Z'),
+];
+
+/**
+ * A pretend upload for the preview: about four seconds of progress, then
+ * success. A file whose name contains "refuse" fails the way the database
+ * refuses a duplicate, so the error state can be seen too.
+ */
+export const fakeUploader: Uploader = (file, _slug, _details, onProgress) => {
+  let timer = 0;
+  let stop: ((e: Error) => void) | null = null;
+  const done = new Promise<void>((resolve, reject) => {
+    stop = reject;
+    let sent = 0;
+    const step = Math.max(1, Math.ceil(file.size / 20));
+    const tick = () => {
+      sent = Math.min(file.size, sent + step);
+      onProgress(sent, file.size);
+      if (sent < file.size) timer = window.setTimeout(tick, 200);
+      else if (/refuse/i.test(file.name)) reject(new Error('A book with this name has already been added.'));
+      else resolve();
+    };
+    timer = window.setTimeout(tick, 200);
+  });
+  return {
+    done,
+    cancel: () => {
+      window.clearTimeout(timer);
+      stop?.(new Error('Upload cancelled.'));
+    },
+  };
+};

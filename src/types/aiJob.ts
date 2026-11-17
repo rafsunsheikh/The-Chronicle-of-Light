@@ -1,6 +1,6 @@
 /** summarize and extract use Claude and come back as a pull request; the rest are
  *  book pipeline stages run by the local model (see src/types/pipeline.ts). */
-export type AiJobKind = 'summarize' | 'extract' | 'convert' | 'chunk' | 'extract-local' | 'merge' | 'draft' | 'enrich' | 'all';
+export type AiJobKind = 'summarize' | 'extract' | 'convert' | 'chunk' | 'extract-local' | 'merge' | 'draft' | 'enrich' | 'all' | 'upload';
 export type AiJobStatus = 'queued' | 'running' | 'done' | 'failed' | 'cancelled';
 
 export interface AiJobInput {
