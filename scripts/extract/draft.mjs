@@ -3,9 +3,10 @@
 // src/data/event.schema.json, with sources, gazetteer locations and checked
 // connections, plus a review report.
 //
-//   npm run extract:draft -- content/private/<slug>/content.md
+//   npm run extract:draft -- content/private/<slug>/content.md [--from merged]
 //
 // Reads  <book>/extract/book.json and <book>/extract/candidates/*.json
+//        (or <book>/extract/<dir>/*.json with --from, for merge.mjs output)
 // Writes src/data/events/imported/<slug>/event-YYYY-slug.json (folder rewritten)
 //        <book>/extract/report.md
 import fs from 'node:fs';
@@ -20,7 +21,8 @@ if (!input) {
   process.exit(1);
 }
 const book = loadBook(input);
-const candDir = path.join(book.extractDir, 'candidates');
+const fromArg = process.argv.indexOf('--from');
+const candDir = path.join(book.extractDir, fromArg >= 0 ? process.argv[fromArg + 1] : 'candidates');
 const chunksIndex = JSON.parse(fs.readFileSync(path.join(book.extractDir, 'chunks.json'), 'utf8'));
 const chunkByIndex = new Map(chunksIndex.map((c) => [c.index, c]));
 

@@ -15,7 +15,16 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
-import { extractDocx, extractEpub, extractHtml, extractPdf, extractPlain } from './extractors.mjs';
+import os from 'node:os';
+import {
+  extractDocx,
+  extractEpub,
+  extractHtml,
+  extractPdf,
+  extractPdfWithPdfdown,
+  extractPlain,
+  pdfdownCommand,
+} from './extractors.mjs';
 import { countHeadings, frontMatter, slugify, wordCount } from './text.mjs';
 
 const VERSION = '0.1.0';
@@ -31,18 +40,22 @@ const repoRoot = path.resolve(__dirname, '..', '..');
 function usage(msg) {
   if (msg) console.error(`Error: ${msg}\n`);
   console.error(
-    'Usage: npm run convert -- <file-or-url> [--public] [--slug <slug>] [--title <title>] [--author <author>] [--force]',
+    'Usage: npm run convert -- <file-or-url> [--public] [--slug <slug>] [--title <title>] [--author <author>] ' +
+      '[--engine auto|pdfdown|pdfjs] [--force]',
   );
   process.exit(msg ? 1 : 0);
 }
 
 function parseArgs(argv) {
-  const opts = { input: null, isPublic: false, slug: null, title: null, author: null, force: false };
+  const opts = { input: null, isPublic: false, slug: null, title: null, author: null, force: false, engine: 'auto' };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--public') opts.isPublic = true;
     else if (a === '--force') opts.force = true;
-    else if (a === '--slug') opts.slug = argv[++i];
+    else if (a === '--engine') {
+      opts.engine = argv[++i];
+      if (!['auto', 'pdfdown', 'pdfjs'].includes(opts.engine)) usage('--engine must be auto, pdfdown or pdfjs');
+    } else if (a === '--slug') opts.slug = argv[++i];
     else if (a === '--title') opts.title = argv[++i];
     else if (a === '--author') opts.author = argv[++i];
     else if (a === '--help' || a === '-h') usage();
@@ -85,7 +98,13 @@ async function load(input) {
     const buffer = Buffer.from(await res.arrayBuffer());
     const format =
       formatFromContentType(res.headers.get('content-type')) ?? formatFromName(new URL(input).pathname);
-    return { buffer, format, name: path.basename(new URL(input).pathname) || 'page', source: { url: input } };
+    return {
+      buffer,
+      format,
+      name: path.basename(new URL(input).pathname) || 'page',
+      file: null,
+      source: { url: input },
+    };
   }
   const file = path.resolve(input);
   if (!fs.existsSync(file)) throw new Error(`no such file: ${input}`);
@@ -94,6 +113,7 @@ async function load(input) {
     buffer,
     format: formatFromName(file),
     name: path.basename(file),
+    file,
     // Relative when the file lives in the repo, absolute otherwise.
     source: { path: file.startsWith(repoRoot + path.sep) ? path.relative(repoRoot, file) : file },
   };
@@ -106,7 +126,7 @@ async function main() {
   const opts = parseArgs(process.argv.slice(2));
   const log = (m) => console.error(m);
 
-  const { buffer, format, name, source } = await load(opts.input);
+  const { buffer, format, name, file, source } = await load(opts.input);
   if (!format) throw new Error(`cannot tell the format of ${name}; supported: pdf, epub, docx, txt, md, html`);
   if (buffer.length > MAX_BYTES) {
     throw new Error(`${name} is ${(buffer.length / 1024 / 1024).toFixed(0)} MB, over the ${MAX_BYTES / 1024 / 1024} MB limit`);
@@ -115,8 +135,22 @@ async function main() {
 
   const progress = (stage) => log(`  ${stage}`);
   let result;
-  if (format === 'pdf') result = await extractPdf(buffer, progress);
-  else if (format === 'epub') result = await extractEpub(buffer, progress);
+  let tempFile = null;
+  if (format === 'pdf') {
+    // pdfdown when it is installed (or --engine pdfdown), otherwise the built-in pdf.js text layer.
+    const engine = opts.engine === 'auto' ? (pdfdownCommand() ? 'pdfdown' : 'pdfjs') : opts.engine;
+    log(`  PDF engine: ${engine}`);
+    if (engine === 'pdfdown') {
+      let pdfPath = file;
+      if (!pdfPath) {
+        // pdfdown reads files, so a downloaded PDF is written to a temporary one first.
+        tempFile = path.join(fs.mkdtempSync(path.join(os.tmpdir(), 'chronicle-convert-')), name.endsWith('.pdf') ? name : `${name}.pdf`);
+        fs.writeFileSync(tempFile, buffer);
+        pdfPath = tempFile;
+      }
+      result = await extractPdfWithPdfdown(pdfPath, progress);
+    } else result = await extractPdf(buffer, progress);
+  } else if (format === 'epub') result = await extractEpub(buffer, progress);
   else if (format === 'docx') result = await extractDocx(buffer);
   else if (format === 'html') result = extractHtml(buffer.toString('utf8'), source.url);
   else result = extractPlain(buffer.toString('utf8'), format);
@@ -131,8 +165,10 @@ async function main() {
   const author = opts.author || result.author || null;
   const slug = slugify(opts.slug || title);
   const outDir = path.join(repoRoot, 'content', opts.isPublic ? 'books' : 'private', slug);
-  if (fs.existsSync(outDir) && !opts.force) {
-    throw new Error(`${path.relative(repoRoot, outDir)} already exists; pass --force to overwrite`);
+  if (fs.existsSync(outDir)) {
+    if (!opts.force) throw new Error(`${path.relative(repoRoot, outDir)} already exists; pass --force to overwrite`);
+    // The whole folder is generated, so a rerun starts clean (no stale figures from a previous engine).
+    fs.rmSync(outDir, { recursive: true, force: true });
   }
 
   const converted = new Date().toISOString().slice(0, 10);
@@ -150,8 +186,10 @@ async function main() {
     format,
     source: { ...source, name, bytes: buffer.length, sha256, siteName: result.siteName ?? undefined },
     converted,
-    converter: `chronicle-convert/${VERSION}`,
+    converter: result.tool ? `chronicle-convert/${VERSION} + ${result.tool.name}` : `chronicle-convert/${VERSION}`,
     stats,
+    // What the PDF engine reported: which pages were read with OCR, what it cleaned up, what it could not fix.
+    engine: result.tool ?? undefined,
   };
 
   const front = frontMatter({
@@ -168,13 +206,19 @@ async function main() {
   fs.mkdirSync(outDir, { recursive: true });
   fs.writeFileSync(path.join(outDir, 'content.md'), front + result.markdown + '\n');
   fs.writeFileSync(path.join(outDir, 'meta.json'), JSON.stringify(meta, null, 2) + '\n');
+  // Cropped figures and tables sit next to content.md under the same relative paths the Markdown links to.
+  for (const asset of result.assets ?? []) fs.cpSync(asset.from, path.join(outDir, asset.to), { recursive: true });
+  result.cleanup?.();
+  if (tempFile) fs.rmSync(path.dirname(tempFile), { recursive: true, force: true });
 
   log(
     `Wrote ${path.relative(repoRoot, outDir)}/content.md: ${stats.words.toLocaleString()} words, ` +
       `${stats.headings} heading(s)` +
       (stats.pages ? `, ${stats.pages} pages` : '') +
-      (stats.chapters ? `, ${stats.chapters} chapters` : ''),
+      (stats.chapters ? `, ${stats.chapters} chapters` : '') +
+      (result.assets?.length ? `, ${result.assets.map((a) => a.to).join(' and ')} copied` : ''),
   );
+  for (const problem of result.tool?.problems ?? []) log(`  pdfdown could not fix: ${problem}`);
   if (!opts.isPublic) log('  (private output, gitignored; use --public for texts you may redistribute)');
 }
 

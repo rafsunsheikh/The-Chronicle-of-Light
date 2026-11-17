@@ -29,9 +29,15 @@ const lines = book.body.split('\n');
 // Walk the text once, tracking the current heading, page and chapter, and cut
 // at headings. Oversized sections are cut again at paragraph breaks.
 const sections = [];
-let cur = { heading: '(opening)', lines: [], pageStart: null, pageEnd: null, chapter: null };
+let cur = { heading: '(opening)', lines: [], pageStart: null, pageEnd: null, chapter: null, annal: null };
 let page = null;
 let chapter = null;
+// Annalistic histories (al-Tabari) head each year "The Events of the Year 249"
+// with "(February 24, 863-February 12, 864)" beneath; a scan often splits that
+// into two headings. Every chunk carries the year it sits under, so a passage
+// that never restates its date can still be dated to the year.
+let annal = null;
+let awaitingYear = false;
 const push = () => {
   if (cur.lines.join('\n').trim()) sections.push(cur);
 };
@@ -43,14 +49,40 @@ for (const line of lines) {
   const hm = line.match(/^#{1,3}\s+(.+)$/);
   if (hm) {
     push();
-    cur = { heading: hm[1].trim().slice(0, 80), lines: [line], pageStart: page, pageEnd: page, chapter };
+    const heading = hm[1].trim();
+    const ym = heading.match(/^the events of the year\s*(\d{1,4})?\s*$/i);
+    if (ym) {
+      annal = ym[1] ? { ah: Number(ym[1]), ce: null } : null;
+      awaitingYear = !ym[1];
+    } else if (awaitingYear && /^\d{1,4}$/.test(heading)) {
+      annal = { ah: Number(heading), ce: null };
+      awaitingYear = false;
+    } else {
+      awaitingYear = false;
+    }
+    cur = { heading: heading.slice(0, 80), lines: [line], pageStart: page, pageEnd: page, chapter, annal };
     continue;
+  }
+  // The year number often sits on its own line under the heading rather than in it.
+  if (awaitingYear && /^\d{1,4}$/.test(line.trim())) {
+    annal = { ah: Number(line.trim()), ce: null };
+    awaitingYear = false;
+    cur.annal = annal;
+  } else if (annal && annal.ce === null && line.trim() && !/^<!--/.test(line)) {
+    // "(FEBRUARY 13, 864-FEBRUARY I, 865)": OCR turns digits into I, l and O; read the years out anyway.
+    const inside = line.match(/\(([^)]*)\)/)?.[1] ?? '';
+    const years = (inside.replace(/[Il|]/g, '1').replace(/[Oo]/g, '0').match(/\b\d{3,4}\b/g) ?? []).map(Number).filter((y) => y >= 600 && y <= 1600);
+    if (years.length) annal = { ...annal, ce: years[0], ceEnd: years[years.length - 1] };
+    else annal = { ...annal, ce: Math.round(622 + annal.ah * 0.97), estimated: true };
+    cur.annal = annal;
   }
   if (cur.pageStart === null && page !== null) cur.pageStart = page;
   if (page !== null) cur.pageEnd = page;
   cur.lines.push(line);
 }
 push();
+
+const annalLabel = (a) => (a ? `AH ${a.ah} = ${a.ce}${a.ceEnd && a.ceEnd !== a.ce ? `/${a.ceEnd}` : ''} CE${a.estimated ? ' (estimated)' : ''}` : null);
 
 // Merge short sections forward, split long ones at blank lines.
 const chunks = [];
@@ -72,22 +104,24 @@ for (const s of sections) {
       if (pm) lastPage = Number(pm[pm.length - 1].match(/\d+/)[0]);
       if (part.length + para.length + 2 > MAX && part) {
         n += 1;
-        chunks.push({ heading: `${s.heading} (part ${n})`, text: part, pageStart: partStartPage, pageEnd: lastPage, chapter: s.chapter });
+        chunks.push({ heading: `${s.heading} (part ${n})`, text: part, pageStart: partStartPage, pageEnd: lastPage, chapter: s.chapter, annal: s.annal });
         part = para;
         partStartPage = lastPage;
       } else {
         part = part ? `${part}\n\n${para}` : para;
       }
     }
-    if (part.trim()) chunks.push({ heading: n ? `${s.heading} (part ${n + 1})` : s.heading, text: part, pageStart: partStartPage, pageEnd: lastPage, chapter: s.chapter });
+    if (part.trim()) chunks.push({ heading: n ? `${s.heading} (part ${n + 1})` : s.heading, text: part, pageStart: partStartPage, pageEnd: lastPage, chapter: s.chapter, annal: s.annal });
     continue;
   }
   if (acc && acc.text.length + text.length + 2 <= MAX && acc.text.length < MIN) {
     acc.text += `\n\n${text}`;
     acc.pageEnd = s.pageEnd ?? acc.pageEnd;
+    // A merged chunk keeps the first annal it started under; a year change inside it is in its text.
+    acc.annal = acc.annal ?? s.annal;
   } else {
     flush();
-    acc = { heading: s.heading, text, pageStart: s.pageStart, pageEnd: s.pageEnd, chapter: s.chapter };
+    acc = { heading: s.heading, text, pageStart: s.pageStart, pageEnd: s.pageEnd, chapter: s.chapter, annal: s.annal };
   }
 }
 flush();
@@ -104,9 +138,10 @@ const index = chunks.map((c, i) => {
     `<!-- chunk ${id} of ${String(chunks.length).padStart(3, '0')} | book: ${book.title} | heading: ${c.heading}` +
     (pages ? ` | pages ${pages}` : '') +
     (c.chapter ? ` | chapter ${c.chapter}` : '') +
+    (c.annal ? ` | year: ${annalLabel(c.annal)}` : '') +
     ' -->\n\n';
   fs.writeFileSync(path.join(outDir, `${id}.md`), header + c.text.trim() + '\n');
-  return { index: i + 1, file: `extract/chunks/${id}.md`, heading: c.heading, pageStart: c.pageStart, pageEnd: c.pageEnd, chapter: c.chapter, chars: c.text.length };
+  return { index: i + 1, file: `extract/chunks/${id}.md`, heading: c.heading, pageStart: c.pageStart, pageEnd: c.pageEnd, chapter: c.chapter, annal: c.annal ?? null, chars: c.text.length };
 });
 
 fs.writeFileSync(path.join(book.extractDir, 'chunks.json'), JSON.stringify(index, null, 2) + '\n');
