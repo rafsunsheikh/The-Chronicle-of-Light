@@ -165,6 +165,15 @@ describe('runUpload failure handling', () => {
     await assert.rejects(runUpload({ id: 'job-3', input: { slug: 'never-uploaded' } }, opts), /upload failed: No uploaded book "never-uploaded" is recorded/);
   });
 
+  it('frees the name when the book cannot be read: clears the bucket and marks the book failed with the reason, no board write', async () => {
+    const { calls, opts } = fakes({ getBook: async () => { throw new Error('fetch failed'); } });
+    await assert.rejects(runUpload({ id: 'job-7', input: { slug: 'unreadable' } }, opts), /upload failed: could not read the uploaded book: fetch failed/);
+    assert.deepEqual(calls.removed, ['unreadable']);
+    assert.equal(calls.states.at(-1).state, 'failed');
+    assert.match(calls.states.at(-1).error, /could not read the uploaded book: fetch failed/);
+    assert.deepEqual(calls.board, []);
+  });
+
   it('marks the book failed when convert fails after a successful fetch, with the bucket already cleared', async () => {
     // A temporary BOOKS_DIR and manifests folder keep the real ones untouched.
     // With pdfdown pointed at a missing program the converter falls back to its

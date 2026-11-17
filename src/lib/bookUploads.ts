@@ -7,7 +7,7 @@
 //    type and anything over 50 MB, whatever this code does.
 // 3. It calls queue_book_upload(), which checks everything again and records
 //    the book and its upload job in one step. The home runner does the rest.
-import { Upload, type DetailedError } from 'tus-js-client';
+import type { DetailedError, Upload } from 'tus-js-client';
 import { supabase, supabaseKey, supabaseUrl } from './supabase';
 import type { UploadedBook } from '../types/pipeline';
 
@@ -108,6 +108,8 @@ export function uploadBook(file: File, slug: string, details: BookDetails, onPro
     const { data } = await supabase.auth.getSession();
     const token = data.session?.access_token;
     if (!token) throw new Error('Your session has ended. Sign in again, then add the book.');
+    // Loaded only when someone uploads, so the public site does not carry it.
+    const { Upload: TusUpload } = await import('tus-js-client');
 
     await new Promise<void>((resolve, reject) => {
       stop = reject;
@@ -117,7 +119,7 @@ export function uploadBook(file: File, slug: string, details: BookDetails, onPro
         upload = null;
         resolve();
       };
-      upload = new Upload(file, {
+      upload = new TusUpload(file, {
         endpoint: tusEndpoint(),
         retryDelays: [0, 3000, 5000, 10000],
         headers: { authorization: `Bearer ${token}`, apikey: supabaseKey, 'x-upsert': 'false' },

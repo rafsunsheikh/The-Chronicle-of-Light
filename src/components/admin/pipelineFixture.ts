@@ -35,6 +35,24 @@ export const FIXTURE_BOARD: PipelineStatus[] = [
 ];
 
 export const FIXTURE_JOBS: AiJob[] = [
+  // A running upload whose runner went quiet hours ago: shows as stopped.
+  {
+    id: 'job-3',
+    kind: 'upload',
+    input: { slug: 'ansab-al-ashraf-1', title: 'Ansab al-Ashraf, Part 1', source: 'ansab-al-ashraf-1' },
+    status: 'running',
+    stage: 'upload: fetching the PDF',
+    progress_done: 0,
+    progress_total: 1,
+    attempts: 3,
+    error: null,
+    result: null,
+    created_by: 'preview',
+    created_at: '2026-11-17T12:00:00.000Z',
+    claimed_at: '2026-11-17T12:00:05.000Z',
+    heartbeat_at: '2026-11-17T12:00:05.000Z',
+    finished_at: null,
+  },
   // The queued upload of the second sample book below.
   {
     id: 'job-2',
@@ -106,6 +124,7 @@ const upload = (slug: string, title: string, state: UploadedBook['state'], error
 export const FIXTURE_UPLOADS: UploadedBook[] = [
   upload('the-origins-of-the-islamic-state-part-2', 'The Origins of the Islamic State, Part 2', 'uploaded', null, '2026-11-18T09:30:00.000Z'),
   upload('the-origins-of-the-islamic-state-part-1', 'The Origins of the Islamic State, Part 1', 'fetched', null, '2026-11-18T09:00:00.000Z'),
+  upload('ansab-al-ashraf-1', 'Ansab al-Ashraf, Part 1', 'uploaded', null, '2026-11-17T12:00:00.000Z'),
   upload('futuh-misr', 'Futuh Misr (The Conquest of Egypt)', 'failed', 'The uploaded file is not a PDF (it does not start with %PDF-)', '2026-11-17T16:00:00.000Z'),
 ];
 

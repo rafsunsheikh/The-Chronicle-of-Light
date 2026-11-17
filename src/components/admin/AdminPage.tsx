@@ -320,7 +320,8 @@ export const AdminPage: React.FC = () => {
                     </p>
                   )}
                   {j.status === 'failed' && j.error && <p className="mt-2 text-xs text-red-nma">{j.error}</p>}
-                  {j.status === 'queued' && (
+                  {/* Upload jobs are not cancellable: the runner always finishes or fails them (migration 0007). */}
+                  {j.status === 'queued' && j.kind !== 'upload' && (
                     <button
                       type="button"
                       onClick={async () => {

@@ -111,7 +111,17 @@ export async function runUpload(job, { source, report, setStatus }) {
     await Promise.resolve(source.setState(slug, 'failed', err.message)).catch(() => {});
     throw new Error(`upload failed: ${err.message}`);
   }
-  const book = await source.getBook(slug);
+  let book;
+  try {
+    book = await source.getBook(slug);
+  } catch (err) {
+    // Could not read the book (a network or database error): free the name so
+    // the maintainer can upload again, as for any other failure.
+    const message = `could not read the uploaded book: ${err instanceof Error ? err.message : String(err)}`;
+    await Promise.resolve(source.remove(slug)).catch(() => {});
+    await Promise.resolve(source.setState(slug, 'failed', message)).catch(() => {});
+    throw new Error(`upload failed: ${message}`);
+  }
   if (!book) throw new Error(`upload failed: No uploaded book "${slug}" is recorded`);
   // A duplicate or stale job for a book already fetched (or failed) must not
   // mark it failed again; only a fresh upload is processed.

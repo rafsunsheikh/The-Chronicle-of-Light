@@ -6,6 +6,8 @@ import { PIPELINE_STAGES, STAGE_LABEL, type PipelineBook, type PipelineStage, ty
 import { AddBookDialog, type Uploader } from './AddBookDialog';
 
 // 'upload' jobs fetch an uploaded PDF and then convert it (runner/src/uploads.mjs).
+// Must match the 30 minutes in migration 0007 and the runner's STALE_MINUTES.
+const UPLOAD_STALE_MS = 30 * 60 * 1000;
 const PIPELINE_KINDS = new Set<string>([...PIPELINE_STAGES, 'all', 'upload']);
 
 const isPipelineJob = (j: AiJob) => PIPELINE_KINDS.has(j.kind);
@@ -30,8 +32,21 @@ function rowsFor(books: PipelineBook[], board: PipelineStatus[], jobs: AiJob[]):
     bySlug.set(r.slug, m);
   }
   const active = new Map<string, AiJob>();
+  const staleBefore = Date.now() - UPLOAD_STALE_MS;
   for (const j of jobs) {
     if (!isPipelineJob(j) || (j.status !== 'queued' && j.status !== 'running')) continue;
+    // A running upload whose runner went quiet for 30 minutes is stopped, not
+    // running: the same rule queue_book_upload uses (migration 0007), so the
+    // page offers "Upload it again" exactly when the server will accept it.
+    // Only before convert: once converting, the book is on the owner's machine
+    // and convert reports progress rarely, so a long conversion is not "stopped".
+    if (
+      j.kind === 'upload' &&
+      j.status === 'running' &&
+      !j.stage?.startsWith('convert') &&
+      (!j.heartbeat_at || Date.parse(j.heartbeat_at) < staleBefore)
+    )
+      continue;
     const slug = String(j.input.slug ?? '');
     if (!active.has(slug)) active.set(slug, j);
   }
@@ -88,7 +103,9 @@ function StageChip({ row }: { row: BookRow }) {
     text = 'Upload failed';
     tone = 'failed';
   } else if (row.book.upload?.state === 'uploaded' && !row.job) {
-    text = 'Waiting for the runner';
+    // Its job was cancelled or ended without the runner marking it failed.
+    text = 'Upload stopped';
+    tone = 'failed';
   } else if (row.job) {
     text = row.job.status === 'queued' ? 'Queued' : `Running ${STAGE_LABEL[(row.job.stage?.split(':')[0] as PipelineStage) ?? row.job.kind as PipelineStage] ?? ''}`.trim();
     tone = 'running';
@@ -124,16 +141,22 @@ export const PipelinePanel: React.FC<Props> = ({ board, jobs, uploaded, userId, 
   const rows = useMemo(() => rowsFor(books, board, jobs), [books, board, jobs]);
   const [adding, setAdding] = useState(false);
   const addButtonRef = useRef<HTMLButtonElement>(null);
-  // Names a new upload may not take: every book in the list, except uploads that failed (they may be uploaded again).
-  const takenSlugs = useMemo(() => new Set(books.filter((b) => b.upload?.state !== 'failed').map((b) => b.slug)), [books]);
+  // Names a new upload may not take: every book in the list, except uploads that
+  // failed or stopped with no live job (queue_book_upload replaces those too).
+  const takenSlugs = useMemo(
+    () => new Set(rows.filter((r) => !(r.book.upload && (r.book.upload.state === 'failed' || (r.book.upload.state === 'uploaded' && !r.job)))).map((r) => r.book.slug)),
+    [rows],
+  );
   const [busySlug, setBusySlug] = useState<string | null>(null);
   const [queueAllBusy, setQueueAllBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
   const totals = useMemo(() => {
     const converted = rows.filter((r) => r.byStage.convert?.state === 'done').length;
-    // An upload that failed before it reached the owner's machine has no file to convert; leave it out of the count.
-    const counted = rows.filter((r) => !(r.book.upload?.state === 'failed' && r.byStage.convert?.state !== 'done')).length;
+    // Uploads that failed or stopped before reaching the owner's machine have no file to convert; leave them out.
+    const counted = rows.filter(
+      (r) => !(r.book.upload && (r.book.upload.state === 'failed' || (r.book.upload.state === 'uploaded' && !r.job)) && r.byStage.convert?.state !== 'done'),
+    ).length;
     let chunksRead = 0;
     let chunksTotal = 0;
     let drafts = 0;
@@ -318,10 +341,8 @@ export const PipelinePanel: React.FC<Props> = ({ board, jobs, uploaded, userId, 
                         >
                           {busy ? 'Queueing…' : row.failed ? `Retry ${STAGE_LABEL[row.next].toLowerCase()}` : STAGE_LABEL[row.next]}
                         </button>
-                      ) : row.book.upload?.state === 'failed' ? (
+                      ) : row.book.upload && row.book.upload.state !== 'fetched' ? (
                         <span className="text-xs text-slate-500">Upload it again</span>
-                      ) : row.book.upload?.state === 'uploaded' ? (
-                        <span className="text-xs text-slate-500">Waiting</span>
                       ) : (
                         <span className="text-xs text-emerald-800">Ready to review</span>
                       )}
