@@ -5,7 +5,7 @@ import type { AiJob } from '../../types/aiJob';
 import { PIPELINE_STAGES, STAGE_LABEL, type PipelineBook, type PipelineStage, type PipelineStatus, type UploadedBook } from '../../types/pipeline';
 import { AddBookDialog, type Uploader } from './AddBookDialog';
 
-// 'upload' jobs fetch an uploaded PDF and then convert it (runner/src/uploads.mjs).
+// 'upload' jobs fetch an uploaded PDF or EPUB and then convert it (runner/src/uploads.mjs).
 // Must match the 30 minutes in migration 0007 and the runner's STALE_MINUTES.
 const UPLOAD_STALE_MS = 30 * 60 * 1000;
 const PIPELINE_KINDS = new Set<string>([...PIPELINE_STAGES, 'all', 'upload']);

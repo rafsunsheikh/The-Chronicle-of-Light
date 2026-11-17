@@ -1,11 +1,11 @@
-// Uploading a book from the admin page (migration 0006).
+// Uploading a book from the admin page (migrations 0006, 0007, 0008).
 //
-// 1. The browser checks the file (a real PDF, 50 MB or less) and makes the
-//    book's short name from its title.
-// 2. It uploads <slug>.pdf to the private book-uploads bucket with tus, which
+// 1. The browser checks the file (a real PDF or EPUB, 50 MB or less) and makes
+//    the book's short name from its title.
+// 2. It uploads <slug>.<format> to the private book-uploads bucket with tus, which
 //    reports progress. Storage refuses anyone who is not a maintainer, any other
 //    type and anything over 50 MB, whatever this code does.
-// 3. It calls queue_book_upload(), which checks everything again and records
+// 3. It calls queue_book_upload() with the file's size, which checks everything again and records
 //    the book and its upload job in one step. The home runner does the rest.
 import type { DetailedError, Upload } from 'tus-js-client';
 import { supabase, supabaseKey, supabaseUrl } from './supabase';

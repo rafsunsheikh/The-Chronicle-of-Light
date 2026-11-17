@@ -279,7 +279,7 @@ export async function runUpload(job, { source, report, setStatus }) {
   }
 }
 
-/** A source for --local-job runs: the job names a PDF on this machine. Never used for queued jobs. */
+/** A source for --local-job runs: the job names a PDF or EPUB on this machine. Never used for queued jobs. */
 export function localSource(job) {
   const file = String(job.input?.file ?? '');
   return {

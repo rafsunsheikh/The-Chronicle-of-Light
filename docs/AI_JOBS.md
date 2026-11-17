@@ -114,7 +114,7 @@ sequenceDiagram
   M->>D: queue_book_upload(slug, title, author, translator, public, size)
   D->>D: check maintainer, fields, file present and the same size, name free; add pipeline_books row (with its format) and an 'upload' job
   R->>D: claim the job
-  R->>S: download the PDF
+  R->>S: download the file
   R->>R: check it again by content, save to BOOKS_DIR/uploads/<slug>.<format>, list it in uploads.json
   R->>S: remove it from the bucket
   R->>R: run the convert stage (pdfdown for a PDF, the built-in EPUB reader for an EPUB)
@@ -131,7 +131,7 @@ sequenceDiagram
 The runner acts on the job's short name (slug) only (the title in the job is there for the Jobs
 tab); it reads everything else from `pipeline_books` and checks it again. A slug that a committed
 manifest already uses is refused. When fetching or converting fails, the runner marks the book
-failed with the reason and makes sure the PDF is no longer in the bucket, so the same book can be
+failed with the reason and makes sure the file is no longer in the bucket, so the same book can be
 uploaded again. A malformed slug, a missing book or a duplicate job for a book already fetched
 is refused without changing anything. The page shows uploaded books first, with
 the states *Waiting for the runner*, *Fetching*, *Converting*, *Converted* (with a **Chunk**
@@ -159,3 +159,8 @@ Known limit: when a stopped upload's file is still in the bucket and a file of t
 uploaded under the same title, the database refuses ("Both a PDF and an EPUB are stored under this
 name") and the second file stays in the bucket until removed in the Supabase dashboard; adding a
 word to the title uploads it under a new name.
+
+Known limit: a maintainer can still add an `upload` job straight to the queue (the insert rule from
+migration 0004), and such a job cannot be cancelled (0007). While it waits, `queue_book_upload`
+refuses that name; the runner refuses the job itself because no uploaded book row matches, which
+frees the name. Nothing unsafe happens; a later migration could leave `upload` out of that rule.

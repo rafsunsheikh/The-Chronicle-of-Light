@@ -13,7 +13,7 @@
 // name a book from scripts/convert/manifests and run that stage's script in
 // this checkout; see pipeline.mjs. They never touch git.
 //
-// Upload jobs (kind 'upload') fetch a PDF a maintainer uploaded from the admin
+// Upload jobs (kind 'upload') fetch a PDF or EPUB a maintainer uploaded from the admin
 // page, list it in scripts/convert/manifests/uploads.json and run convert; see
 // uploads.mjs.
 import { readFileSync } from 'node:fs';

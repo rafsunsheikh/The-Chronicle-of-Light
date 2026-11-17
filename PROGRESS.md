@@ -2,12 +2,12 @@
 
 An interactive web app for exploring Islamic history: a timeline and map of about 1,150 events, an Islamic Renaissance section with an open library of books and videos, and an AI pipeline that reads source books and proposes new events for a person to review.
 
-**Status:** Roadmap phases 1 to 8 shipped (2026-10-16); all 41 source books converted with pdfdown (2026-11-15)
-**Last updated:** 2026-11-17
+**Status:** Roadmap phases 1 to 8 shipped (2026-10-16); all 41 source books converted with pdfdown (2026-11-15); book upload (PDF and EPUB) built and checked on branch `feat/book-upload`, waiting for its pull request (2026-11-18)
+**Last updated:** 2026-11-18
 
 ## 1. Where we are now
 
-The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Pages mirror. All eight roadmap phases are merged into `main` [1]. The converter that turns a book into Markdown now uses pdfdown, the owner's own PDF tool, and on 2026-11-15 all 40 volumes of The History of al-Tabari plus The Muslim Conquest of Persia were converted into `content/private/` (see stage 9), ready for the chunker and the extraction agent. Two pdfdown changes that the books needed are made in the pdfdown checkout but not yet committed or released there. On 2026-11-17 the owner finished the Supabase and home-runner setup: migrations 0004 and 0005 are applied, `runner/.env` holds the new `sb_secret_` key, the runner starts and reads an empty queue, and the pipeline board holds 48 rows for 41 books. Waiting on the owner: re-enabling the nightly backup, and a decision on publishing the pdfdown changes.
+The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Pages mirror. All eight roadmap phases are merged into `main` [1]. The converter that turns a book into Markdown now uses pdfdown, the owner's own PDF tool, and on 2026-11-15 all 40 volumes of The History of al-Tabari plus The Muslim Conquest of Persia were converted into `content/private/` (see stage 9), ready for the chunker and the extraction agent. Two pdfdown changes that the books needed are made in the pdfdown checkout but not yet committed or released there. On 2026-11-17 the owner finished the Supabase and home-runner setup: migrations 0004 and 0005 are applied, `runner/.env` holds the new `sb_secret_` key, the runner starts and reads an empty queue, and the pipeline board holds 48 rows for 41 books. On 2026-11-18 a maintainer can add a book by uploading its PDF or EPUB from the admin page; the runner fetches it, checks it, converts it and it waits for chunking (stage 12, issue #25). Migrations 0006, 0007 and 0008 are applied. The work and yesterday's pipeline board sit unpushed on `feat/book-upload`, for one pull request. Next: the map (CARTO now needs an API key) and a 2D connections view (issue #26). Waiting on the owner: re-enabling the nightly backup, and a decision on publishing the pdfdown changes.
 
 ## 2. Decisions
 
@@ -22,6 +22,10 @@ The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Page
 | 7 | 2026-11-15 | Use Sultana's local models (Devstral on llama-server) to extract events, sort and merge them, enrich them from the internet and store them in the database, starting with a pilot on volume 35 | The owner's own agent engine; no API cost; the loop stays in code and the model answers only what it can see | User | This file, stage 10; `scripts/extract/README.md` |
 | 8 | 2026-11-17 | Pause the extraction at 28 chunks and judge quality first; run the Wikipedia enrichment on those events | Spend compute only once the output is known to be good | User | Stage 10 |
 | 9 | 2026-11-17 | Build the pipeline stages as buttons with live progress and counts on the admin page, reusing the Phase 7 job queue and runner; generate `PRODUCT.md` and `DESIGN.md` from the existing code rather than an interview | Start runs by clicking, watch them, keep review and the database seed manual | User | Stage 11; `docs/AI_JOBS.md` |
+| 10 | 2026-11-17 | Upload a book from the admin page through a private Supabase Storage bucket; the runner fetches it and runs convert; chunking waits for a person; a GitHub issue tracks it | The site is on Vercel and the runner on the Mac, so both need a place they can reach | User | Stage 12; issue #25 |
+| 11 | 2026-11-18 | Add EPUB uploads to the same delivery, plus a file-size check; skip new mockups for the wording-only dialog change | The converter already reads EPUB; the owner asked for it before the pull request | User | Stage 12 |
+| 12 | 2026-11-18 | One pull request for the pipeline board work and book upload together; remove both upload test books afterwards | The work belongs together | User | Stage 12 |
+| 13 | 2026-11-18 | Replace CARTO tiles with OpenFreeMap (no key); show connections in 2D | CARTO now requires an API key on every style; the 3D sphere did not read well | User | Issue #26 |
 
 ## 3. Stages and what was built
 
@@ -53,6 +57,13 @@ The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Page
 - **Check it yourself:** `npm run dev` then open `/#/admin?preview=pipeline` for the screen with sample data (dev server only); `node runner/src/index.mjs --local-job job.json --no-git` with `{"kind":"draft","input":{"slug":"tabari-volume-35","title":"Volume 35"}}` runs a stage through the runner without Supabase.
 - **Test results (2026-11-17):** TypeScript and lint clean (one pre-existing warning). Runner local jobs: draft stage ran in under a second; enrich stage ran in 439 s and re-attached 74 Wikipedia sources. Browser check at 1440 and 390 px: no console errors; the Next column with one button per row visible on desktop; the table scrolls inside its card on the phone; clicking a stage button without a backend shows "The backend is not configured". Impeccable's detector: one advisory (an 11 px chip size), recorded in `DESIGN.md` as a deliberate step. Security review of the changes: no findings; two hardening notes applied (child scripts get an allow-listed environment without the service key; Wikidata ids are validated before use).
 - **Changes from the plan:** none. Not yet verified: the live path through Supabase, because migrations 0004 and 0005 are not applied.
+
+### Stage 12: upload a book from the admin page (built 2026-11-17 to 18, issue #25)
+
+- **What was built:** an **Add a book** dialog on the Books pipeline tab (choose a PDF or EPUB, check the details, convert) with real upload progress; a private `book-uploads` bucket and a `pipeline_books` table (migrations 0006, 0007, 0008) where only maintainers can upload and one database call, `queue_book_upload`, checks everything again and queues the job; a runner `upload` job (`runner/src/uploads.mjs`) that fetches the file, checks it by its content, stores it in the books folder, lists it in a git-ignored `uploads.json`, clears the bucket and runs convert. Uploaded books join the list with their own states (waiting for the runner, fetching, converting, converted with a Chunk button, upload failed, upload stopped). The project's first tests (`npm test`).
+- **Check it yourself:** `npm test` (48 pass); `node scripts/check-book-upload-rules.mjs` (13 pass against the real project); on `/#/admin`, Add a book with a small PDF or EPUB while `npm run runner` is on.
+- **Test results (2026-11-18):** owner's PDF run: 14 pages converted in 28 s, chunk in 1 s; owner's EPUB run: 109,728 words converted in 5 s, chunk in 1 s; both test books removed afterwards. Type check, build and lint clean (one old warning). Security reviews of the whole branch: no high or medium findings. 17 independent review rounds across five phases and the final gate.
+- **Changes from the plan:** EPUB and the size check added as phase 5 (owner, 2026-11-18); a final-gate fix for uploads that could get stuck (migration 0007); the converter now keeps a valid given short name whole (it cut names to 60 characters) and reads each EPUB chapter once.
 
 ## 4. Diagrams
 
@@ -100,19 +111,22 @@ timeline
 2. pdfdown read the Tabari scans three lines out of place because every page has a CropBox 36 pt above the MediaBox corner, while the text layer uses MediaBox coordinates. Docling's layout boxes were correct; the character rebuild was not. Evidence: volume 35 had 58 duplicated or overlapping paragraphs before the fix and none after, and the Persia book, whose boxes coincide, had none either way (2026-11-15).
 3. Reading blank scanned pages with OCR is slow in pdfdown 0.1.5: five pages took about 13 minutes on this Mac. With `--ocr off` the same volume converts in 34 seconds.
 4. The nightly backup workflow failed every night in July and August 2026 because its secrets were empty; the fix is on `main` but no run has proved it yet (`gh run list --workflow=backup-supabase.yml`, 2026-11-15).
+5. An EPUB's ZIP table of contents cannot be trusted for size limits: in review, crafted files that understated a part's size, hid a second directory behind a gap, used ZIP64 disk fields or listed one chapter hundreds of times each made the converter unpack hundreds of MB from a few KB. The check now measures real sizes with a capped inflate and matches JSZip's reading exactly (2026-11-18, `runner/src/uploads.mjs`).
+6. CARTO's free basemaps stopped working without an API key: every tile is an "API KEY REQUIRED" image (checked 2026-11-18).
 
 ## 6. Open items and next step
 
 | What | Who acts | Notes |
 |---|---|---|
-| Push branch `feat/pipeline-admin-board` and open a pull request | User approves, session runs | Committed locally on 2026-11-17 in three commits; not pushed |
-| Create a local `.env` with `VITE_SUPABASE_URL` and the publishable key so `npm run dev` can sign in | User | Without it the local site runs read-only |
+| Push `feat/book-upload` (pipeline board plus book upload) and open one pull request | User runs the commands after approving the text | Issue #25 closes on merge |
+| Map with OpenFreeMap tiles and a 2D connections view | Session, next delivery | Issue #26 |
+| Known limits of book upload (a second-format file next to a stopped upload stays in the bucket; jsdom memory on a huge chapter; "Upload failed" shown for a convert failure; maintainers can insert upload jobs directly) | Later | `docs/AI_JOBS.md` |
 | Commit or publish the two pdfdown changes (CropBox fix, page markers) | User | Uncommitted in `~/Projects/pdfdown`; tests pass |
 | Re-enable and test the nightly backup workflow | User approves, session runs | Needs the approval token |
 | Close roadmap issue #15; fix issue #17 (blank timeline without WebGL) | User, then session | |
 | Decide whether to run the extraction agent over the Tabari volumes | User | Costs Claude usage per chunk; volume 35 alone is 59 chunks |
 
-**Next step:** the owner chooses a first volume for the extraction agent, or asks for the converter changes to be committed.
+**Next step:** the owner approves the pull request text for `feat/book-upload`; then the map and connections delivery (#26) starts.
 
 ## 7. References
 
