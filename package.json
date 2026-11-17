@@ -28,7 +28,7 @@
     "runner:board": "node runner/src/board.mjs"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.106.2",
+    "@supabase/supabase-js": "^2.119.0",
     "leaflet": "^1.9.4",
     "marked": "^18.1.1",
     "react": "^18.2.0",
