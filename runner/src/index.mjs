@@ -12,12 +12,17 @@
 // Pipeline jobs (convert, chunk, extract-local, merge, draft, enrich, all)
 // name a book from scripts/convert/manifests and run that stage's script in
 // this checkout; see pipeline.mjs. They never touch git.
+//
+// Upload jobs (kind 'upload') fetch a PDF a maintainer uploaded from the admin
+// page, list it in scripts/convert/manifests/uploads.json and run convert; see
+// uploads.mjs.
 import { readFileSync } from 'node:fs';
 import { assertClaudeInstalled, config, repoRoot, requireSupabase } from './config.mjs';
 import { commitAll, createWorktree, openPullRequest, pushBranch, removeWorktree } from './git.mjs';
 import { extract, slugify, summarize } from './jobs.mjs';
 import * as queue from './queue.mjs';
 import { isPipelineKind, runPipeline } from './pipeline.mjs';
+import { localSource, runUpload } from './uploads.mjs';
 
 const args = process.argv.slice(2);
 const once = args.includes('--once');
@@ -96,16 +101,21 @@ async function handle(job, { local = false } = {}) {
     ? async () => {}
     : (stage, done, total) => queue.progress(job.id, stage, done, total).catch((e) => log(`  (progress update failed: ${e.message})`));
   try {
-    const result = isPipelineKind(job.kind)
-      ? await runPipeline(job, {
-          report: (stage, done, total) => {
-            log(`  ${stage}${total ? ` (${done}/${total})` : ''}`);
-            return report(stage, done, total);
-          },
-          // The board is a Supabase table; a --local-job run has nowhere to write it.
-          setStatus: local ? async () => {} : (slug, stage, state, opts) => queue.setStatus(slug, stage, state, opts).catch((e) => log(`  (board update failed: ${e.message})`)),
-        })
-      : await runJob(job, report);
+    const pipelineOpts = {
+      report: (stage, done, total) => {
+        log(`  ${stage}${total ? ` (${done}/${total})` : ''}`);
+        return report(stage, done, total);
+      },
+      // The board is a Supabase table; a --local-job run has nowhere to write it.
+      setStatus: local ? async () => {} : (slug, stage, state, opts) => queue.setStatus(slug, stage, state, opts).catch((e) => log(`  (board update failed: ${e.message})`)),
+    };
+    const result =
+      job.kind === 'upload'
+        ? // A queued upload reads its file from Supabase; only a --local-job run may name a local file.
+          await runUpload(job, { ...pipelineOpts, source: local ? localSource(job) : queue.uploadSource })
+        : isPipelineKind(job.kind)
+          ? await runPipeline(job, pipelineOpts)
+          : await runJob(job, report);
     const summary = {
       prUrl: result.prUrl,
       branch: result.branch,

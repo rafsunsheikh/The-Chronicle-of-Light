@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src",
+    "test": "node --test \"runner/test/*.test.mjs\"",
     "validate:events": "node scripts/validate-events.mjs",
     "validate:library": "node scripts/validate-library.mjs",
     "validate": "npm run validate:events && npm run validate:library",

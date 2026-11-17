@@ -53,3 +53,32 @@ export async function fail(id, message) {
     .eq('id', id);
   if (error) throw new Error(error.message);
 }
+
+// ---- uploaded books (migration 0006) -------------------------------------------
+
+const UPLOAD_BUCKET = 'book-uploads';
+
+/** The source runUpload() reads an uploaded book from: the row and its file. */
+export const uploadSource = {
+  async getBook(slug) {
+    const { data, error } = await db().from('pipeline_books').select('*').eq('slug', slug).maybeSingle();
+    if (error) throw new Error(error.message);
+    return data;
+  },
+  async download(slug) {
+    const { data, error } = await db().storage.from(UPLOAD_BUCKET).download(`${slug}.pdf`);
+    if (error) throw new Error(`could not download the uploaded PDF: ${error.message}`);
+    return Buffer.from(await data.arrayBuffer());
+  },
+  async remove(slug) {
+    const { error } = await db().storage.from(UPLOAD_BUCKET).remove([`${slug}.pdf`]);
+    if (error) throw new Error(`could not remove the uploaded PDF from the bucket: ${error.message}`);
+  },
+  async setState(slug, state, message = null) {
+    const { error } = await db()
+      .from('pipeline_books')
+      .update({ state, error: message ? String(message).slice(0, 2000) : null, updated_at: new Date().toISOString() })
+      .eq('slug', slug);
+    if (error) throw new Error(error.message);
+  },
+};
