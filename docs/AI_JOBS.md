@@ -100,7 +100,8 @@ estimates the time left from the book's measured seconds per chunk.
 ## Uploading a book (added 2026-11-18)
 
 A maintainer can add a book without editing a manifest: **Books pipeline → Add a book**,
-choose the PDF, check the title, author and translator, and press **Upload and convert**.
+choose the PDF or EPUB (EPUB added 2026-11-18), check the title, author and translator, and
+press **Upload and convert**.
 
 ```mermaid
 sequenceDiagram
@@ -108,23 +109,23 @@ sequenceDiagram
   participant S as Supabase Storage (book-uploads)
   participant D as Supabase database
   participant R as Runner (owner's Mac)
-  M->>M: check: a real PDF (starts with %PDF-), 50 MB or less, title not in the list
-  M->>S: upload <slug>.pdf with progress (tus, maintainers only)
-  M->>D: queue_book_upload(slug, title, author, translator, public)
-  D->>D: check maintainer, fields, file present, name free; add pipeline_books row and an 'upload' job
+  M->>M: check: a real PDF (starts with %PDF-) or EPUB (ZIP with the EPUB mimetype first), 50 MB or less, title not in the list
+  M->>S: upload <slug>.pdf or <slug>.epub with progress (tus, maintainers only)
+  M->>D: queue_book_upload(slug, title, author, translator, public, size)
+  D->>D: check maintainer, fields, file present and the same size, name free; add pipeline_books row (with its format) and an 'upload' job
   R->>D: claim the job
   R->>S: download the PDF
-  R->>R: check it again, save to BOOKS_DIR/uploads/<slug>.pdf, list it in uploads.json
+  R->>R: check it again by content, save to BOOKS_DIR/uploads/<slug>.<format>, list it in uploads.json
   R->>S: remove it from the bucket
-  R->>R: run the convert stage with pdfdown
+  R->>R: run the convert stage (pdfdown for a PDF, the built-in EPUB reader for an EPUB)
   R->>D: board: convert done (pages, words); book waits for Chunk
 ```
 
 | Piece | Where | Rule |
 | --- | --- | --- |
-| `book-uploads` bucket | Supabase Storage (migration 0006) | Private, PDF only, 50 MB. Only maintainers may upload, only at a name of lower-case letters, digits and hyphens. Nobody may read, change or delete through the API; the runner uses the secret key. |
-| `pipeline_books` table | Supabase (migration 0006) | One row per uploaded book: details, size, state (`uploaded`, `fetched`, `failed`) and the reason when it failed. Maintainers read it; only `queue_book_upload()` and the runner write it. |
-| `queue_book_upload()` | Supabase (migration 0006) | The only write the browser makes. Refuses non-maintainers, bad fields, a missing file and a name already used (a failed upload may be replaced). Records the book and its job in one step. |
+| `book-uploads` bucket | Supabase Storage (migrations 0006, 0008) | Private, PDF or EPUB, 50 MB. Only maintainers may upload, only at a name of lower-case letters, digits and hyphens. Nobody may read, change or delete through the API; the runner uses the secret key. |
+| `pipeline_books` table | Supabase (migrations 0006, 0008) | One row per uploaded book: details, size, format (`pdf` or `epub`), state (`uploaded`, `fetched`, `failed`) and the reason when it failed. Maintainers read it; only `queue_book_upload()` and the runner write it. |
+| `queue_book_upload()` | Supabase (migrations 0006, 0007, 0008) | The only write the browser makes. Refuses non-maintainers, bad fields, a missing file, a stored file of a different size, and a name already used (a failed or stopped upload may be replaced). Records the book and its job in one step, one call per name at a time. |
 | `scripts/convert/manifests/uploads.json` | The owner's Mac | Written by the runner, ignored by git, read by the runner like any manifest. |
 
 The runner acts on the job's short name (slug) only (the title in the job is there for the Jobs
@@ -136,8 +137,25 @@ is refused without changing anything. The page shows uploaded books first, with
 the states *Waiting for the runner*, *Fetching*, *Converting*, *Converted* (with a **Chunk**
 button) and *Upload failed*. Nothing after convert runs by itself.
 
-Known limit: if a file with the same short name is already in the bucket (an earlier try whose
-queue call failed), the page queues that stored file rather than uploading again. Choosing a
-*different* PDF under the same title in that moment would queue the earlier file, and two
-maintainers adding the same new title within seconds could cross their files. A follow-up would
-pass the file size to `queue_book_upload` and compare it with the stored file's size.
+An EPUB is checked by its content, not its name: a ZIP whose first entry is `mimetype`, stored
+uncompressed, reading `application/epub+zip`, with `META-INF/container.xml`, at most 5,000 parts
+and at most 300 MB unpacked. The runner measures what each part really unpacks to (capped at the
+size the part states), so a package that understates a part's size or hides parts in its
+directory is refused before conversion; the converter then reads it with JSZip and jsdom, which
+run no scripts and load no outside resources. It reads each chapter file once, however often the book's
+reading order lists it, and stops past 300 MB of chapter text. Known limit: the 300 MB caps what
+is unpacked, not the memory jsdom uses to parse a chapter; a 300 MB chapter of very many tiny
+elements could still use several GB while converting. Only maintainers can upload.
+
+If a file with the same short name is already in the bucket (an earlier try whose queue call
+failed, or a stopped upload), the page does not upload again; `queue_book_upload` queues the
+stored file only when its size matches the chosen file, and otherwise says "A different file is
+already stored under this name. Add a word to the title to upload this one." (migration 0008).
+An upload stops when its job is cancelled, the runner cannot read it, or the runner goes quiet for
+30 minutes before converting (migration 0007); the page then shows *Upload stopped* and the name
+can be used again.
+
+Known limit: when a stopped upload's file is still in the bucket and a file of the other format is
+uploaded under the same title, the database refuses ("Both a PDF and an EPUB are stored under this
+name") and the second file stays in the bucket until removed in the Supabase dashboard; adding a
+word to the title uploads it under a new name.

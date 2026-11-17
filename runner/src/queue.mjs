@@ -65,14 +65,15 @@ export const uploadSource = {
     if (error) throw new Error(error.message);
     return data;
   },
-  async download(slug) {
-    const { data, error } = await db().storage.from(UPLOAD_BUCKET).download(`${slug}.pdf`);
-    if (error) throw new Error(`could not download the uploaded PDF: ${error.message}`);
+  async download(slug, format = 'pdf') {
+    const { data, error } = await db().storage.from(UPLOAD_BUCKET).download(`${slug}.${format}`);
+    if (error) throw new Error(`could not download the uploaded ${format.toUpperCase()}: ${error.message}`);
     return Buffer.from(await data.arrayBuffer());
   },
   async remove(slug) {
-    const { error } = await db().storage.from(UPLOAD_BUCKET).remove([`${slug}.pdf`]);
-    if (error) throw new Error(`could not remove the uploaded PDF from the bucket: ${error.message}`);
+    // Every format, so a failed or replaced upload never leaves a file behind.
+    const { error } = await db().storage.from(UPLOAD_BUCKET).remove([`${slug}.pdf`, `${slug}.epub`]);
+    if (error) throw new Error(`could not remove the uploaded file from the bucket: ${error.message}`);
   },
   async setState(slug, state, message = null) {
     const { error } = await db()

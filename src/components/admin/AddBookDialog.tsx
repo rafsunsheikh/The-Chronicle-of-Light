@@ -1,8 +1,8 @@
 import { useEffect, useId, useRef, useState } from 'react';
-import { fileProblem, formatMb, slugFromTitle, titleFromFileName, uploadBook, type BookDetails, type UploadHandle } from '../../lib/bookUploads';
+import { fileKind, formatMb, slugFromTitle, titleFromFileName, uploadBook, type BookDetails, type BookFormat, type UploadHandle } from '../../lib/bookUploads';
 
 /** Uploads one book; the admin page passes the real one, the dev preview a fake. */
-export type Uploader = (file: File, slug: string, details: BookDetails, onProgress: (sent: number, total: number) => void) => UploadHandle;
+export type Uploader = (file: File, slug: string, format: BookFormat, details: BookDetails, onProgress: (sent: number, total: number) => void) => UploadHandle;
 
 type Phase = 'choose' | 'details' | 'uploading' | 'queued';
 
@@ -16,13 +16,13 @@ interface Props {
   uploader?: Uploader;
 }
 
-const STEPS = ['Choose the PDF', 'Check the details', 'Convert'] as const;
+const STEPS = ['Choose the file', 'Check the details', 'Convert'] as const;
 
-const PdfIcon = () => (
+const FileIcon = ({ label = 'PDF' }: { label?: string }) => (
   <svg className="w-10 h-12 flex-none" viewBox="0 0 40 48" aria-hidden="true">
     <path d="M4 2h22l10 10v32a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" fill="#fff" stroke="#94A3B8" strokeWidth="2" />
     <path d="M26 2v10h10" fill="none" stroke="#94A3B8" strokeWidth="2" />
-    <text x="20" y="36" textAnchor="middle" fontSize="9" fontWeight="700" fill="#1B8A87">PDF</text>
+    <text x="20" y="36" textAnchor="middle" fontSize="9" fontWeight="700" fill="#1B8A87">{label}</text>
   </svg>
 );
 
@@ -48,6 +48,7 @@ export const AddBookDialog: React.FC<Props> = ({ open, onClose, takenSlugs, onQu
 
   const [phase, setPhase] = useState<Phase>('choose');
   const [file, setFile] = useState<File | null>(null);
+  const [format, setFormat] = useState<BookFormat>('pdf');
   const [fileError, setFileError] = useState<string | null>(null);
   const [submitError, setSubmitError] = useState<string | null>(null);
   const [details, setDetails] = useState<BookDetails>({ title: '', author: '', translator: '', isPublic: false });
@@ -60,6 +61,7 @@ export const AddBookDialog: React.FC<Props> = ({ open, onClose, takenSlugs, onQu
   const reset = () => {
     setPhase('choose');
     setFile(null);
+    setFormat('pdf');
     setFileError(null);
     setSubmitError(null);
     setDetails({ title: '', author: '', translator: '', isPublic: false });
@@ -101,8 +103,10 @@ export const AddBookDialog: React.FC<Props> = ({ open, onClose, takenSlugs, onQu
     if (!f) return;
     setSubmitError(null);
     setFile(f);
-    const problem = await fileProblem(f);
+    const kind = await fileKind(f);
+    const problem = kind.problem ?? null;
     setFileError(problem);
+    setFormat(kind.format ?? (/\.epub$/i.test(f.name) ? 'epub' : 'pdf'));
     if (!problem) {
       setDetails((d) => (d.title.trim() ? d : { ...d, title: titleFromFileName(f.name) }));
       setPhase('details');
@@ -126,7 +130,7 @@ export const AddBookDialog: React.FC<Props> = ({ open, onClose, takenSlugs, onQu
     setSubmitError(null);
     setPhase('uploading');
     setProgress({ sent: 0, total: file.size });
-    const handle = uploader(file, slug, details, (sent, total) => setProgress({ sent, total }));
+    const handle = uploader(file, slug, format, details, (sent, total) => setProgress({ sent, total }));
     handleRef.current = handle;
     try {
       await handle.done;
@@ -231,16 +235,16 @@ export const AddBookDialog: React.FC<Props> = ({ open, onClose, takenSlugs, onQu
             <input
               ref={fileInputRef}
               type="file"
-              accept="application/pdf,.pdf"
+              accept="application/pdf,.pdf,application/epub+zip,.epub"
               aria-describedby={ids.limits}
               className="sr-only"
               onChange={(e) => void pick(e.target.files?.[0])}
             />
-            <PdfIcon />
+            <FileIcon label={format === 'epub' ? 'EPUB' : 'PDF'} />
             <span>
-              <strong className="block text-slate-900">Choose a PDF or drop it here</strong>
+              <strong className="block text-slate-900">Choose a PDF or EPUB, or drop it here</strong>
               <span id={ids.limits} className="text-xs text-slate-500">
-                PDF only, up to 50&nbsp;MB
+                PDF or EPUB, up to 50&nbsp;MB
               </span>
             </span>
           </label>
@@ -248,7 +252,7 @@ export const AddBookDialog: React.FC<Props> = ({ open, onClose, takenSlugs, onQu
 
         {file && fileError && (
           <div className="flex flex-wrap sm:flex-nowrap items-center gap-3 p-3 rounded-lg border border-rose-300 bg-white">
-            <PdfIcon />
+            <FileIcon label={format === 'epub' ? 'EPUB' : 'PDF'} />
             <div className="flex-1 min-w-[12rem]">
               <div className="font-semibold break-words">{file.name}</div>
               <p id={ids.fileError} role="alert" className="flex gap-1.5 mt-1 text-sm text-rose-800">
@@ -272,7 +276,7 @@ export const AddBookDialog: React.FC<Props> = ({ open, onClose, takenSlugs, onQu
 
         {file && !fileError && (phase === 'details' || phase === 'uploading') && (
           <div className="flex flex-wrap sm:flex-nowrap items-center gap-3 p-3 rounded-lg border border-slate-200 bg-white">
-            <PdfIcon />
+            <FileIcon label={format === 'epub' ? 'EPUB' : 'PDF'} />
             <div className="flex-1 min-w-[12rem]">
               <div className="font-semibold break-words">{file.name}</div>
               {phase === 'uploading' ? (
@@ -313,11 +317,11 @@ export const AddBookDialog: React.FC<Props> = ({ open, onClose, takenSlugs, onQu
 
         {phase === 'queued' && file && (
           <div className="flex flex-wrap sm:flex-nowrap items-center gap-3 p-3 rounded-lg border border-slate-200 bg-white" role="status">
-            <PdfIcon />
+            <FileIcon label={format === 'epub' ? 'EPUB' : 'PDF'} />
             <div className="flex-1 min-w-[12rem]">
               <div className="font-semibold break-words">Uploaded</div>
               <div className="text-xs text-slate-500">
-                The runner converts it with pdfdown when it next checks the queue. It is at the top of the list behind this window, and waits there for chunking.
+                The runner converts it to Markdown when it next checks the queue. It is at the top of the list behind this window, and waits there for chunking.
               </div>
             </div>
             <button type="button" className={smallGhostBtn} onClick={reset}>

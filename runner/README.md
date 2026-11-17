@@ -21,7 +21,8 @@ Claude credential never leaves the machine; the website never holds one.
 1. **Apply the migrations.** In the Supabase SQL editor run
    `supabase/migrations/0004_ai_jobs.sql`, then `0005_pipeline.sql` (the
    books pipeline board) and `0006_book_uploads.sql` (uploading a book from
-   the admin page). 0004 creates the `ai_jobs` table,
+   the admin page), then `0007_book_upload_recovery.sql` and
+   `0008_book_upload_epub.sql` (stopped uploads, EPUB uploads). 0004 creates the `ai_jobs` table,
    its row-level-security policies (maintainers read and insert, nobody else
    sees it) and the `claim_ai_job()` function only the service role may call.
 2. **Sign in the tools on this machine.** Run `claude` once and complete the
@@ -110,12 +111,15 @@ npm run runner:board -- --dry      # what the board would say, from disk
 ## Uploaded books
 
 Jobs of kind `upload` come from **Add a book** on the admin page. The runner
-reads the book from `pipeline_books`, downloads `<slug>.pdf` from the private
-`book-uploads` bucket, checks it is a PDF of 50 MB or less, saves it as
-`$BOOKS_DIR/uploads/<slug>.pdf`, lists it in
+reads the book (and its format) from `pipeline_books`, downloads `<slug>.pdf` or
+`<slug>.epub` from the private `book-uploads` bucket, checks it by content (a PDF
+starts with `%PDF-`; an EPUB must have its mimetype first and its container,
+at most 5,000 parts, and at most 300 MB measured by really unpacking each part
+with a cap), 50 MB or less,
+saves it as `$BOOKS_DIR/uploads/<slug>.<format>`, lists it in
 `scripts/convert/manifests/uploads.json` (ignored by git), removes it from the
 bucket and runs the convert stage. Chunking and the rest wait for a person.
-To try it without Supabase, with a PDF on this machine:
+To try it without Supabase, with a PDF or EPUB on this machine:
 
 ```bash
 echo '{"kind":"upload","input":{"slug":"my-test-book","title":"My test book","file":"/path/to/book.pdf"}}' > /tmp/job.json

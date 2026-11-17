@@ -41,18 +41,38 @@ export function slugFromTitle(title: string): string {
 
 /** A starting title from a file name: "Baladhuri_Origins_Part1.pdf" -> "Baladhuri Origins Part1". */
 export function titleFromFileName(name: string): string {
-  return name.replace(/\.pdf$/i, '').replace(/[_]+/g, ' ').replace(/\s+/g, ' ').trim();
+  return name.replace(/\.(pdf|epub)$/i, '').replace(/[_]+/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
 export const formatMb = (bytes: number) => `${(bytes / 1048576).toFixed(bytes < 10 * 1048576 ? 1 : 0)}\u00a0MB`;
 
-/** Why this file cannot be uploaded, or null when it can. Reads the first bytes, so it is async. */
-export async function fileProblem(file: File): Promise<string | null> {
-  if (file.size === 0) return 'This file is empty. Choose the PDF again.';
-  if (file.size > MAX_UPLOAD_BYTES) return `This file is ${formatMb(file.size)}. Files over 50 MB cannot be uploaded.`;
-  const head = await file.slice(0, 5).text();
-  if (head !== '%PDF-') return 'This file is not a PDF. Only PDF books can be converted.';
-  return null;
+export type BookFormat = 'pdf' | 'epub';
+
+const CONTENT_TYPE: Record<BookFormat, string> = { pdf: 'application/pdf', epub: 'application/epub+zip' };
+
+/**
+ * What this file is, by its first bytes, or why it cannot be uploaded. A PDF
+ * starts with %PDF-. An EPUB is a ZIP whose first entry is "mimetype", stored
+ * uncompressed, reading application/epub+zip, right at the start of the file.
+ * The runner checks the whole package again.
+ */
+export async function fileKind(file: File): Promise<{ format: BookFormat; problem?: undefined } | { format?: undefined; problem: string }> {
+  if (file.size === 0) return { problem: 'This file is empty. Choose the book again.' };
+  if (file.size > MAX_UPLOAD_BYTES) return { problem: `This file is ${formatMb(file.size)}. Files over 50 MB cannot be uploaded.` };
+  const head = new Uint8Array(await file.slice(0, 30).arrayBuffer());
+  const text = (bytes: Uint8Array, from: number, to: number) => String.fromCharCode(...bytes.slice(from, to));
+  if (text(head, 0, 5) === '%PDF-') return { format: 'pdf' };
+  if (text(head, 0, 4) === 'PK\u0003\u0004' && head.length === 30) {
+    // The first entry's name and extra field have their lengths in the header,
+    // as the runner reads them (some tools add an extra field).
+    const nameLen = head[26] | (head[27] << 8);
+    const extraLen = head[28] | (head[29] << 8);
+    const at = 30 + nameLen + extraLen;
+    const first = new Uint8Array(await file.slice(0, at + 20).arrayBuffer());
+    if (text(first, 30, 30 + nameLen) === 'mimetype' && text(first, at, at + 20) === 'application/epub+zip') return { format: 'epub' };
+    return { problem: 'This file is a ZIP package but not an EPUB book. Export it as an EPUB or a PDF.' };
+  }
+  return { problem: 'This file is not a PDF or an EPUB. Only PDF and EPUB books can be converted.' };
 }
 
 export interface BookDetails {
@@ -69,7 +89,7 @@ export interface UploadHandle {
   cancel: () => void;
 }
 
-/** True when storage refused because <slug>.pdf is already in the bucket. */
+/** True when storage refused because <slug>.<format> is already in the bucket. */
 function alreadyStored(err: Error): boolean {
   const res = (err as DetailedError).originalResponse;
   return res?.getStatus() === 409 || /already exists/i.test(res?.getBody() ?? '');
@@ -82,7 +102,7 @@ function uploadMessage(err: Error): string {
   const body = res?.getBody() ?? '';
   if (status === 413 || /maximum allowed size|too large/i.test(body)) return 'The file is over 50 MB, so storage refused it.';
   if (status === 401 || status === 403 || /row-level security|unauthori/i.test(body)) return 'Storage refused the upload: only maintainers can add books. Sign in again if your session expired.';
-  if (/mime type/i.test(body)) return 'Storage accepts PDF files only.';
+  if (/mime type/i.test(body)) return 'Storage accepts PDF and EPUB files only.';
   if (status === 0) return 'The upload could not reach the server. Check the connection and try again.';
   return `The upload failed (${status}${body ? `: ${body.slice(0, 200)}` : ''}).`;
 }
@@ -97,7 +117,7 @@ function tusEndpoint(): string {
  * Upload one book and queue it. `slug` must already be checked by the caller
  * against the book list; the server checks it again.
  */
-export function uploadBook(file: File, slug: string, details: BookDetails, onProgress: (sent: number, total: number) => void): UploadHandle {
+export function uploadBook(file: File, slug: string, format: BookFormat, details: BookDetails, onProgress: (sent: number, total: number) => void): UploadHandle {
   let upload: Upload | null = null;
   let cancelled = false;
   // tus does not call onError after abort(), so cancelling settles the promise itself.
@@ -126,7 +146,7 @@ export function uploadBook(file: File, slug: string, details: BookDetails, onPro
         uploadDataDuringCreation: true,
         storeFingerprintForResuming: false,
         removeFingerprintOnSuccess: true,
-        metadata: { bucketName: BUCKET, objectName: `${slug}.pdf`, contentType: 'application/pdf', cacheControl: '3600' },
+        metadata: { bucketName: BUCKET, objectName: `${slug}.${format}`, contentType: CONTENT_TYPE[format], cacheControl: '3600' },
         chunkSize: 6 * 1024 * 1024, // Supabase requires exactly 6 MB chunks
         // Retry only what a retry can fix: no answer, or a server error.
         onShouldRetry: (err) => {
@@ -134,7 +154,7 @@ export function uploadBook(file: File, slug: string, details: BookDetails, onPro
           return status === 0 || status >= 500;
         },
         onProgress,
-        // A 409 means <slug>.pdf is already in the bucket, most likely from an
+        // A 409 means <slug>.<format> is already in the bucket, most likely from an
         // earlier try whose queue call failed. Queue it anyway: the database
         // call checks the file exists and the name is free, and refuses in plain
         // words if another book already took it.
@@ -152,6 +172,8 @@ export function uploadBook(file: File, slug: string, details: BookDetails, onPro
       p_author: details.author.trim() || null,
       p_translator: details.translator.trim() || null,
       p_is_public: details.isPublic,
+      // The database refuses when a different file is already stored under this name.
+      p_size: file.size,
     });
     // The function's refusals are written for people ("A book with this name has already been added.").
     if (error) throw new Error(error.message);

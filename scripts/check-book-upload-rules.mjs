@@ -53,6 +53,13 @@ const pdf = new Blob([Buffer.from('%PDF-1.4\n%%EOF\n')], { type: 'application/pd
   expectRefused('signed-out upload to book-uploads', error, ['row-level security']);
 }
 
+// 1b. The same for an EPUB (migration 0008 allows .epub names, still maintainers only).
+{
+  const epub = new Blob([Buffer.from('PK\u0003\u0004')], { type: 'application/epub+zip' });
+  const { error } = await anon.storage.from('book-uploads').upload('rules-check.epub', epub, { upsert: false });
+  expectRefused('signed-out EPUB upload to book-uploads', error, ['row-level security']);
+}
+
 // 2. Queue a book signed out. Execute is revoked from anon, so Postgres refuses
 //    before the function runs ("permission denied"). If the grant were ever
 //    widened, the function's own check would answer instead ("Only maintainers"),
@@ -106,8 +113,9 @@ if (secret) {
   const { data: bucket, error } = await admin.storage.getBucket('book-uploads');
   if (error) fail('bucket book-uploads exists', error.message);
   else {
-    const okSettings = bucket.public === false && Number(bucket.file_size_limit) === 52428800 && (bucket.allowed_mime_types ?? []).join(',') === 'application/pdf';
-    if (okSettings) pass('bucket book-uploads is private, 50 MB, PDF only');
+    const types = [...(bucket.allowed_mime_types ?? [])].sort().join(',');
+    const okSettings = bucket.public === false && Number(bucket.file_size_limit) === 52428800 && types === 'application/epub+zip,application/pdf';
+    if (okSettings) pass('bucket book-uploads is private, 50 MB, PDF and EPUB only');
     else fail('bucket book-uploads settings', JSON.stringify({ public: bucket.public, file_size_limit: bucket.file_size_limit, allowed_mime_types: bucket.allowed_mime_types }));
   }
   const table = await admin.from('pipeline_books').select('slug', { count: 'exact', head: true });

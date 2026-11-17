@@ -157,7 +157,10 @@ export async function extractPdf(buffer, onProgress = () => {}) {
   };
 }
 
-export async function extractEpub(buffer, onProgress = () => {}) {
+/** The most chapter text one EPUB may hold; the same 300 MB as the upload check's unpacked limit. */
+export const EPUB_MAX_TEXT = 300 * 1024 * 1024;
+
+export async function extractEpub(buffer, onProgress = () => {}, { maxText = EPUB_MAX_TEXT } = {}) {
   const { default: JSZip } = await import('jszip');
   const zip = await JSZip.loadAsync(buffer);
   const Parser = domParser();
@@ -191,11 +194,20 @@ export async function extractEpub(buffer, onProgress = () => {}) {
     .map((ref) => manifest.get(ref.getAttribute('idref') ?? ''))
     .filter(Boolean);
 
+  // Each file is read once, however often the spine lists it, and the text read
+  // is capped: a tiny package could otherwise list one large chapter hundreds of
+  // times and make this unpack far more than the upload check measured.
   const chapters = [];
+  const read = new Set();
+  let textRead = 0;
   for (const [i, href] of spine.entries()) {
     const path = decodeURIComponent(opfDir + href.split('#')[0]);
+    if (read.has(path)) continue;
+    read.add(path);
     const html = await zip.file(path)?.async('text');
     if (!html) continue;
+    textRead += html.length;
+    if (textRead > maxText) throw new Error(`This EPUB's chapters hold more than ${maxText / 1048576} MB of text, the limit`);
     const dom = new JSDOM(html, { contentType: 'application/xhtml+xml' });
     const d = dom.window.document;
     d.querySelectorAll('script, style, nav[epub\\:type="toc"], nav[*|type="toc"]').forEach((el) => el.remove());

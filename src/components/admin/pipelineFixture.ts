@@ -41,7 +41,7 @@ export const FIXTURE_JOBS: AiJob[] = [
     kind: 'upload',
     input: { slug: 'ansab-al-ashraf-1', title: 'Ansab al-Ashraf, Part 1', source: 'ansab-al-ashraf-1' },
     status: 'running',
-    stage: 'upload: fetching the PDF',
+    stage: 'upload: fetching the file',
     progress_done: 0,
     progress_total: 1,
     attempts: 3,
@@ -133,7 +133,7 @@ export const FIXTURE_UPLOADS: UploadedBook[] = [
  * success. A file whose name contains "refuse" fails the way the database
  * refuses a duplicate, so the error state can be seen too.
  */
-export const fakeUploader: Uploader = (file, _slug, _details, onProgress) => {
+export const fakeUploader: Uploader = (file, _slug, _format, _details, onProgress) => {
   let timer = 0;
   let stop: ((e: Error) => void) | null = null;
   const done = new Promise<void>((resolve, reject) => {
