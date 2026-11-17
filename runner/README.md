@@ -18,8 +18,10 @@ Claude credential never leaves the machine; the website never holds one.
 
 ## Setup, once
 
-1. **Apply the migration.** In the Supabase SQL editor run
-   `supabase/migrations/0004_ai_jobs.sql`. It creates the `ai_jobs` table,
+1. **Apply the migrations.** In the Supabase SQL editor run
+   `supabase/migrations/0004_ai_jobs.sql`, then `0005_pipeline.sql` (the
+   books pipeline board) and `0006_book_uploads.sql` (uploading a book from
+   the admin page). 0004 creates the `ai_jobs` table,
    its row-level-security policies (maintainers read and insert, nobody else
    sees it) and the `claim_ai_job()` function only the service role may call.
 2. **Sign in the tools on this machine.** Run `claude` once and complete the
@@ -104,3 +106,21 @@ echo '{"kind":"draft","input":{"slug":"tabari-volume-35","title":"Volume 35"}}' 
 node runner/src/index.mjs --local-job /tmp/job.json --no-git
 npm run runner:board -- --dry      # what the board would say, from disk
 ```
+
+## Uploaded books
+
+Jobs of kind `upload` come from **Add a book** on the admin page. The runner
+reads the book from `pipeline_books`, downloads `<slug>.pdf` from the private
+`book-uploads` bucket, checks it is a PDF of 50 MB or less, saves it as
+`$BOOKS_DIR/uploads/<slug>.pdf`, lists it in
+`scripts/convert/manifests/uploads.json` (ignored by git), removes it from the
+bucket and runs the convert stage. Chunking and the rest wait for a person.
+To try it without Supabase, with a PDF on this machine:
+
+```bash
+echo '{"kind":"upload","input":{"slug":"my-test-book","title":"My test book","file":"/path/to/book.pdf"}}' > /tmp/job.json
+node runner/src/index.mjs --local-job /tmp/job.json --no-git
+```
+
+`input.file` is read only for `--local-job` runs; a job from the queue always
+reads its file from the bucket. `npm test` runs the upload checks.

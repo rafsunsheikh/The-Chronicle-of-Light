@@ -96,3 +96,48 @@ runs. The runner needs `BOOKS_DIR`, `PDFDOWN_BIN`, `PDFDOWN_ARGS` and
 Progress on the page comes from the job row: the runner reads each script's
 progress lines and writes "chunk 18 of 59" with a heartbeat, and the page
 estimates the time left from the book's measured seconds per chunk.
+
+## Uploading a book (added 2026-11-18)
+
+A maintainer can add a book without editing a manifest: **Books pipeline → Add a book**,
+choose the PDF, check the title, author and translator, and press **Upload and convert**.
+
+```mermaid
+sequenceDiagram
+  participant M as Maintainer's browser
+  participant S as Supabase Storage (book-uploads)
+  participant D as Supabase database
+  participant R as Runner (owner's Mac)
+  M->>M: check: a real PDF (starts with %PDF-), 50 MB or less, title not in the list
+  M->>S: upload <slug>.pdf with progress (tus, maintainers only)
+  M->>D: queue_book_upload(slug, title, author, translator, public)
+  D->>D: check maintainer, fields, file present, name free; add pipeline_books row and an 'upload' job
+  R->>D: claim the job
+  R->>S: download the PDF
+  R->>R: check it again, save to BOOKS_DIR/uploads/<slug>.pdf, list it in uploads.json
+  R->>S: remove it from the bucket
+  R->>R: run the convert stage with pdfdown
+  R->>D: board: convert done (pages, words); book waits for Chunk
+```
+
+| Piece | Where | Rule |
+| --- | --- | --- |
+| `book-uploads` bucket | Supabase Storage (migration 0006) | Private, PDF only, 50 MB. Only maintainers may upload, only at a name of lower-case letters, digits and hyphens. Nobody may read, change or delete through the API; the runner uses the secret key. |
+| `pipeline_books` table | Supabase (migration 0006) | One row per uploaded book: details, size, state (`uploaded`, `fetched`, `failed`) and the reason when it failed. Maintainers read it; only `queue_book_upload()` and the runner write it. |
+| `queue_book_upload()` | Supabase (migration 0006) | The only write the browser makes. Refuses non-maintainers, bad fields, a missing file and a name already used (a failed upload may be replaced). Records the book and its job in one step. |
+| `scripts/convert/manifests/uploads.json` | The owner's Mac | Written by the runner, ignored by git, read by the runner like any manifest. |
+
+The runner acts on the job's short name (slug) only (the title in the job is there for the Jobs
+tab); it reads everything else from `pipeline_books` and checks it again. A slug that a committed
+manifest already uses is refused. When fetching or converting fails, the runner marks the book
+failed with the reason and makes sure the PDF is no longer in the bucket, so the same book can be
+uploaded again. A malformed slug, a missing book or a duplicate job for a book already fetched
+is refused without changing anything. The page shows uploaded books first, with
+the states *Waiting for the runner*, *Fetching*, *Converting*, *Converted* (with a **Chunk**
+button) and *Upload failed*. Nothing after convert runs by itself.
+
+Known limit: if a file with the same short name is already in the bucket (an earlier try whose
+queue call failed), the page queues that stored file rather than uploading again. Choosing a
+*different* PDF under the same title in that moment would queue the earlier file, and two
+maintainers adding the same new title within seconds could cross their files. A follow-up would
+pass the file size to `queue_book_upload` and compare it with the stored file's size.

@@ -163,7 +163,10 @@ async function main() {
 
   const title = opts.title || result.title || titleFromName(name);
   const author = opts.author || result.author || null;
-  const slug = slugify(opts.slug || title);
+  // A slug given explicitly (manifests, uploads up to 80 characters) is used as
+  // it is when it is already valid; slugify() caps names made from titles at 60,
+  // and cutting a given slug would put the output where the runner does not look.
+  const slug = opts.slug && /^[a-z0-9](?:[a-z0-9-]{0,78}[a-z0-9])?$/.test(opts.slug) ? opts.slug : slugify(opts.slug || title);
   const outDir = path.join(repoRoot, 'content', opts.isPublic ? 'books' : 'private', slug);
   if (fs.existsSync(outDir)) {
     if (!opts.force) throw new Error(`${path.relative(repoRoot, outDir)} already exists; pass --force to overwrite`);
