@@ -35,6 +35,10 @@ Guidance:
   mosque building, pilgrimages, conversions and the Qur'an are "religious";
   cities founded, poetry and buildings are "cultural"; observatories,
   hospitals, books of science and medicine are "scientific".
+- If the chunk header carries `year: AH 249 = 863/864 CE`, the passage sits
+  under that year of an annal. An event the text does not date itself takes
+  that year: startDate "0863", datePrecision "year", dateBasis "annal year
+  249". Never invent a different year from memory.
 - If the chunk has no datable events, return an empty array: `[]`.
 
 Write the array to the output path you were given, as JSON, and nothing else.

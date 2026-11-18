@@ -41,6 +41,13 @@ export const config = {
   ghBin: process.env.GH_BIN || 'gh',
   promptsDir: resolve(runnerRoot, 'prompts'),
   worktreesDir: resolve(repoRoot, '.ai-worktrees'),
+  // The book pipeline: where the source PDFs are and which local tools to use.
+  booksDir: expandHome(process.env.BOOKS_DIR || ''),
+  // A command with arguments: $HOME and ~ may appear anywhere in it, not only at the start.
+  pdfdownBin: (process.env.PDFDOWN_BIN || 'pdfdown').replace(/\$HOME|(?<=^|\s)~(?=\/)/g, homedir()),
+  pdfdownArgs: process.env.PDFDOWN_ARGS || '',
+  localModelUrl: (process.env.LOCAL_MODEL_URL || 'http://localhost:8080').replace(/\/+$/, ''),
+  manifestsDir: resolve(repoRoot, 'scripts', 'convert', 'manifests'),
 };
 
 export function requireSupabase() {

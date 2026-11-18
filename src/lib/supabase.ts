@@ -18,6 +18,10 @@ const url = rawUrl
 
 export const isSupabaseConfigured = Boolean(url && anonKey);
 
+/** The bare project URL and publishable key, for the few calls supabase-js does not wrap (resumable uploads). */
+export const supabaseUrl = url ?? '';
+export const supabaseKey = anonKey ?? '';
+
 export const supabase: SupabaseClient | null = isSupabaseConfigured
   ? createClient(url as string, anonKey as string, {
       auth: {

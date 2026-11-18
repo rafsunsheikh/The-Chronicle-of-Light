@@ -18,15 +18,20 @@ Claude credential never leaves the machine; the website never holds one.
 
 ## Setup, once
 
-1. **Apply the migration.** In the Supabase SQL editor run
-   `supabase/migrations/0004_ai_jobs.sql`. It creates the `ai_jobs` table,
+1. **Apply the migrations.** In the Supabase SQL editor run
+   `supabase/migrations/0004_ai_jobs.sql`, then `0005_pipeline.sql` (the
+   books pipeline board) and `0006_book_uploads.sql` (uploading a book from
+   the admin page), then `0007_book_upload_recovery.sql` and
+   `0008_book_upload_epub.sql` (stopped uploads, EPUB uploads). 0004 creates the `ai_jobs` table,
    its row-level-security policies (maintainers read and insert, nobody else
    sees it) and the `claim_ai_job()` function only the service role may call.
 2. **Sign in the tools on this machine.** Run `claude` once and complete the
    login. Run `gh auth login` so the runner can push branches and open pull
    requests as you. The repository checkout must have `origin` set.
 3. **Configure.** `cp runner/.env.example runner/.env` and fill in the
-   Supabase URL and the **service-role** key (Project Settings, API). Point
+   Supabase URL and the **secret key** (Project Settings, API Keys, "Secret
+   keys", starts with `sb_secret_`; older dashboards call it the
+   service-role key under the Legacy API Keys tab). Point
    `CLAUDE_BIN` at the real binary: `type claude` shows the path if your
    shell wraps it in a function.
 4. **Start.**
@@ -89,3 +94,37 @@ node runner/src/index.mjs --local-job /tmp/job.json --no-git
 opens no pull request. Without it, the local job still creates the branch
 and the pull request, which is a good end-to-end test before trusting the
 queue.
+
+## Book pipeline stages
+
+Jobs of kind `convert`, `chunk`, `extract-local`, `merge`, `draft`, `enrich`
+and `all` (see `docs/AI_JOBS.md`) run the extraction scripts in this checkout
+with the local model and write their counts to the `pipeline_status` table.
+Set the four pipeline variables in `.env`. To test a stage without Supabase:
+
+```bash
+echo '{"kind":"draft","input":{"slug":"tabari-volume-35","title":"Volume 35"}}' > /tmp/job.json
+node runner/src/index.mjs --local-job /tmp/job.json --no-git
+npm run runner:board -- --dry      # what the board would say, from disk
+```
+
+## Uploaded books
+
+Jobs of kind `upload` come from **Add a book** on the admin page. The runner
+reads the book (and its format) from `pipeline_books`, downloads `<slug>.pdf` or
+`<slug>.epub` from the private `book-uploads` bucket, checks it by content (a PDF
+starts with `%PDF-`; an EPUB must have its mimetype first and its container,
+at most 5,000 parts, and at most 300 MB measured by really unpacking each part
+with a cap), 50 MB or less,
+saves it as `$BOOKS_DIR/uploads/<slug>.<format>`, lists it in
+`scripts/convert/manifests/uploads.json` (ignored by git), removes it from the
+bucket and runs the convert stage. Chunking and the rest wait for a person.
+To try it without Supabase, with a PDF or EPUB on this machine:
+
+```bash
+echo '{"kind":"upload","input":{"slug":"my-test-book","title":"My test book","file":"/path/to/book.pdf"}}' > /tmp/job.json
+node runner/src/index.mjs --local-job /tmp/job.json --no-git
+```
+
+`input.file` is read only for `--local-job` runs; a job from the queue always
+reads its file from the bucket. `npm test` runs the upload checks.
