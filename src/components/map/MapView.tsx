@@ -1,8 +1,9 @@
-import { MapContainer, TileLayer } from 'react-leaflet';
+import { MapContainer } from 'react-leaflet';
 import 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import type { HistoricalIncident } from '../../types/incident';
 import { MapMarker } from './MapMarker';
+import { OpenFreeMapLayer } from './OpenFreeMapLayer';
 
 interface MapViewProps {
   incidents: HistoricalIncident[];
@@ -34,13 +35,13 @@ export const MapView: React.FC<MapViewProps> = ({
           zoom={3}
           style={{ height: '100%', width: '100%' }}
           scrollWheelZoom={true}
+          // As @maplibre/maplibre-gl-leaflet's README advises: MapLibre limits
+          // latitude more strictly than Leaflet and syncs badly at zoom 0.
+          minZoom={1}
+          maxBounds={[[180, -Infinity], [-180, Infinity]]}
+          maxBoundsViscosity={1}
         >
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
-            url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
-            subdomains={['a', 'b', 'c', 'd']}
-            maxZoom={19}
-          />
+          <OpenFreeMapLayer />
           {filteredIncidents.map(incident => (
             <MapMarker
               key={incident.id}

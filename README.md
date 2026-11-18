@@ -566,9 +566,12 @@ deterministically from a hash of `id` so they don't shuffle on rerender.
 hide each label based on its distance to the camera, so labels appear
 as you zoom in and disappear when you zoom out.
 
-**The map renders CARTO Voyager tiles** (`{s}.basemaps.cartocdn.com/
-rastertiles/voyager/...`) instead of vanilla OpenStreetMap so place
-names are in English worldwide. No API key required. Markers are
+**The map draws OpenFreeMap's Positron style** (`tiles.openfreemap.org/
+styles/positron`, free, no API key) with MapLibre GL inside the Leaflet
+map, through `@maplibre/maplibre-gl-leaflet`; place names are shown in
+English where the map data has them. CARTO's tiles, used until
+2026-11-18, now need an API key. MapLibre loads only on the map page and
+needs WebGL2; without it the markers still show. Markers are
 category-coloured divIcons with a hover preview card (an interactive
 Leaflet `Tooltip`); clicking the marker or the card opens the detail page,
 which is layered above Leaflet's panes with a high `z-index`.
