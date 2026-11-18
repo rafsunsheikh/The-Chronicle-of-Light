@@ -1,8 +1,8 @@
 # The Chronicle of Light
 
 An interactive web application for exploring Islamic history through a
-time-axis timeline, a geolocated map of events, and a 3-D force-directed
-graph of connections between them. 
+time-axis timeline, a geolocated map of events, and a view of the
+connections between events along time. 
 
 > **Status:** open-source. MIT license for code, CC BY-SA 4.0 for the
 > dataset. See [Contributing](#contributing) to add events, fix bugs, or
@@ -46,15 +46,16 @@ graph of connections between them.
   (hero image + caption left, date / teal headline / body right). Animates
   in/out and closes on `Escape` or the circular `×`. Includes a
   **Suggest an edit** button for signed-in users.
-- **Interactive map** using CARTO Voyager tiles (English place labels
-  worldwide, no API key). Markers are category-coloured divIcons; hovering
-  a marker shows a small preview card, and clicking the marker or card
-  opens the detail page floating over the map.
-- **3-D Event Connections graph** rendered by `react-force-graph-3d`
-  (Three.js + WebGL): force-directed nodes on a **white** background,
-  vivid category-coloured spheres sized by connection degree, animated link
-  particles, sprite text labels that fade in as the camera approaches a
-  node, click-to-fly camera focus.
+- **Interactive map** on OpenFreeMap's Positron style (English place labels
+  where the data has them, no API key), drawn with MapLibre GL inside Leaflet.
+  Markers are category-coloured divIcons; hovering a marker shows a small
+  preview card, and clicking the marker or card opens the detail page
+  floating over the map.
+- **Event Connections along time**: connected events on a year axis, one
+  lane per category, with arcs between connected events. Scroll over the
+  chart to zoom the years, drag to move along time, pinch on touch screens;
+  choosing an event lists its connections by year. Drawn as SVG (no WebGL);
+  the chart is one tab stop and the arrow keys move between events by year.
 - **Global event search** in the nav bar (matches title, description,
   region, dynasty, category, place) plus a **filter bar** (category,
   region, date range) on the map, connections, and "All moments" views.
@@ -93,8 +94,8 @@ graph of connections between them.
 | Build / dev server | **Vite 5** + **TypeScript 5** |
 | UI | **React 18** functional components + hooks |
 | Styling | **Tailwind CSS 3** (Public Sans typeface) |
-| 3-D graph | **react-force-graph-3d** on **Three.js**, with **three-spritetext** for in-scene labels |
-| Map | **react-leaflet 4** on **Leaflet 1.9**, CARTO Voyager tiles |
+| Connections | bespoke SVG time axis (`ConnectionsTimeline.tsx`), no chart library |
+| Map | **react-leaflet 4** on **Leaflet 1.9**, OpenFreeMap tiles through **MapLibre GL 6** and **@maplibre/maplibre-gl-leaflet** |
 | Timeline | bespoke CSS scroller (NMA-style; replaced an earlier vis-timeline restyle) |
 | Backend | **Supabase** (Postgres + Auth + row-level security) via **@supabase/supabase-js** |
 | Hosting | **Vercel** (primary) and **GitHub Pages** (mirror); `base` switches automatically |
@@ -183,10 +184,12 @@ job — are in [`docs/SETUP.md`](docs/SETUP.md).
 │   │   │   ├── TimelineTopBar.tsx       ← era nav + red-square indicator + Add event
 │   │   │   └── timeline.css             ← stage / rail / card / slot styling
 │   │   ├── map/
-│   │   │   ├── MapView.tsx              ← Leaflet MapContainer + tile config
+│   │   │   ├── MapView.tsx              ← Leaflet MapContainer + bounds
+│   │   │   ├── OpenFreeMapLayer.tsx     ← MapLibre background, loaded on the map page only
 │   │   │   └── MapMarker.tsx            ← category-coloured divIcon + hover card
 │   │   └── graph/
-│   │       └── GraphView.tsx            ← 3-D force graph + label visibility
+│   │       ├── ConnectionsTimeline.tsx  ← connections along a time axis, zoom and pan
+│   │       └── connectionsLayout.ts     ← which events and links are drawn, and where
 │   │
 │   ├── hooks/
 │   │   ├── useIncidents.ts              ← reads corpus from Supabase (JSON fallback), filter/search state
@@ -422,7 +425,7 @@ the seed/backup tooling.
    event(s) validated, connections intact`. If it complains, fix what
    it says and re-run.
 4. (Optional) `npm run dev` and verify the card shows up on the
-   timeline / map / 3-D graph.
+   timeline / map / connections view.
 5. Open a PR. CI runs lint + build + validate-events.
 
 **To edit an event:**
@@ -559,16 +562,19 @@ Constants at the top of the file (`PX_PER_YEAR`, `LANE_GAP`,
 `ERA_RIGHT_BUFFER`) tune visual density. Card shapes are picked
 deterministically from a hash of `id` so they don't shuffle on rerender.
 
-**The 3-D graph uses two layers per node**: the base sphere from
-`react-force-graph-3d` (sized by `connections.length`), plus a
-`SpriteText` label child added via `nodeThreeObjectExtend`. A
-`controls.change` listener plus a per-frame polling interval show or
-hide each label based on its distance to the camera, so labels appear
-as you zoom in and disappear when you zoom out.
+**The connections view is plain SVG.** `connectionsLayout.ts` keeps the
+events that have at least one connection and a year, places each in its
+category's lane, and lists the links once each. The component scales years
+to pixels for the years in view; the wheel, drag and pinch change those
+years, batched to one update per animation frame. Arcs and dots are text
+and shapes only; no event data is inserted as HTML.
 
-**The map renders CARTO Voyager tiles** (`{s}.basemaps.cartocdn.com/
-rastertiles/voyager/...`) instead of vanilla OpenStreetMap so place
-names are in English worldwide. No API key required. Markers are
+**The map draws OpenFreeMap's Positron style** (`tiles.openfreemap.org/
+styles/positron`, free, no API key) with MapLibre GL inside the Leaflet
+map, through `@maplibre/maplibre-gl-leaflet`; place names are shown in
+English where the map data has them. CARTO's tiles, used until
+2026-11-18, now need an API key. MapLibre loads only on the map page and
+needs WebGL2; without it the markers still show. Markers are
 category-coloured divIcons with a hover preview card (an interactive
 Leaflet `Tooltip`); clicking the marker or the card opens the detail page,
 which is layered above Leaflet's panes with a high `z-index`.
@@ -648,8 +654,8 @@ in `thoughts/` usually explain why:
 - [`docs/PUBLISHING.md`](docs/PUBLISHING.md): where the site runs, what it costs (nothing), the CI size budget, the Supabase backup, and when any of that would change.
 
 For per-component design rationale (e.g., why timeline X positions are
-computed instead of grid-based, why the 3-D graph uses Sprite labels
-instead of HTML), check the comments at the top of the relevant file —
+computed instead of grid-based, why the connections view draws text
+rather than HTML), check the comments at the top of the relevant file —
 non-obvious decisions are documented inline.
 
 ## Acknowledgments
@@ -661,4 +667,5 @@ non-obvious decisions are documented inline.
 - **Wikipedia** and **Wikidata** contributors — source for event
   metadata via the importer. CC BY-SA 4.0; attribution recorded in each
   imported event's `sources[]`.
-- **CARTO** — Voyager basemap tiles used by the map view.
+- **OpenFreeMap**, **OpenMapTiles** and **OpenStreetMap** contributors —
+  the map's background tiles and data.

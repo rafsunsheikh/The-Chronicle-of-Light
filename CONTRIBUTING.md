@@ -80,7 +80,7 @@ Edit the JSON file directly. If you rename an event, update every `connections[]
 
 #### Enriching Connections
 
-Link related events by adding event IDs to the `connections` array. This powers the 3-D graph visualization. Cross-references are validated in CI — every ID must resolve to an existing event.
+Link related events by adding event IDs to the `connections` array. This powers the Event Connections view, which draws linked events along a time axis. Cross-references are validated in CI — every ID must resolve to an existing event.
 
 ### Content Guidelines
 

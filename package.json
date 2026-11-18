@@ -29,15 +29,14 @@
     "runner:board": "node runner/src/board.mjs"
   },
   "dependencies": {
+    "@maplibre/maplibre-gl-leaflet": "^0.1.4",
     "@supabase/supabase-js": "^2.119.0",
     "leaflet": "^1.9.4",
+    "maplibre-gl": "^6.19.0",
     "marked": "^18.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-force-graph-3d": "^1.29.1",
     "react-leaflet": "^4.2.0",
-    "three": "^0.184.0",
-    "three-spritetext": "^1.10.0",
     "tus-js-client": "^4.3.1"
   },
   "devDependencies": {
@@ -46,7 +45,6 @@
     "@types/leaflet": "^1.9.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "@types/three": "^0.184.1",
     "@typescript-eslint/eslint-plugin": "^8.59.3",
     "@typescript-eslint/parser": "^8.59.3",
     "@vitejs/plugin-react": "^4.2.0",
