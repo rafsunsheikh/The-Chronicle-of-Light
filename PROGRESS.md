@@ -2,12 +2,12 @@
 
 An interactive web app for exploring Islamic history: a timeline and map of about 1,150 events, an Islamic Renaissance section with an open library of books and videos, and an AI pipeline that reads source books and proposes new events for a person to review.
 
-**Status:** Roadmap phases 1 to 8 shipped (2026-10-16); all 41 source books converted with pdfdown (2026-11-15); book upload (PDF and EPUB) built and checked on branch `feat/book-upload`, waiting for its pull request (2026-11-18)
+**Status:** Roadmap phases 1 to 8 shipped (2026-10-16); all 41 source books converted with pdfdown (2026-11-15); book upload (PDF and EPUB) built and checked; pull request #27 open (2026-11-18)
 **Last updated:** 2026-11-18
 
 ## 1. Where we are now
 
-The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Pages mirror. All eight roadmap phases are merged into `main` [1]. The converter that turns a book into Markdown now uses pdfdown, the owner's own PDF tool, and on 2026-11-15 all 40 volumes of The History of al-Tabari plus The Muslim Conquest of Persia were converted into `content/private/` (see stage 9), ready for the chunker and the extraction agent. Two pdfdown changes that the books needed are made in the pdfdown checkout but not yet committed or released there. On 2026-11-17 the owner finished the Supabase and home-runner setup: migrations 0004 and 0005 are applied, `runner/.env` holds the new `sb_secret_` key, the runner starts and reads an empty queue, and the pipeline board holds 48 rows for 41 books. On 2026-11-18 a maintainer can add a book by uploading its PDF or EPUB from the admin page; the runner fetches it, checks it, converts it and it waits for chunking (stage 12, issue #25). Migrations 0006, 0007 and 0008 are applied. The work and yesterday's pipeline board sit unpushed on `feat/book-upload`, for one pull request. Next: the map (CARTO now needs an API key) and a 2D connections view (issue #26). Waiting on the owner: re-enabling the nightly backup, and a decision on publishing the pdfdown changes.
+The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Pages mirror. All eight roadmap phases are merged into `main` [1]. The converter that turns a book into Markdown now uses pdfdown, the owner's own PDF tool, and on 2026-11-15 all 40 volumes of The History of al-Tabari plus The Muslim Conquest of Persia were converted into `content/private/` (see stage 9), ready for the chunker and the extraction agent. Two pdfdown changes that the books needed are made in the pdfdown checkout but not yet committed or released there. On 2026-11-17 the owner finished the Supabase and home-runner setup: migrations 0004 and 0005 are applied, `runner/.env` holds the new `sb_secret_` key, the runner starts and reads an empty queue, and the pipeline board holds 48 rows for 41 books. On 2026-11-18 a maintainer can add a book by uploading its PDF or EPUB from the admin page; the runner fetches it, checks it, converts it and it waits for chunking (stage 12, issue #25). Migrations 0006, 0007 and 0008 are applied. The work and yesterday's pipeline board are in pull request #27, waiting for the owner to merge. Next: the map (CARTO now needs an API key) and a 2D connections view (issue #26). Waiting on the owner: re-enabling the nightly backup, and a decision on publishing the pdfdown changes.
 
 ## 2. Decisions
 
@@ -118,7 +118,7 @@ timeline
 
 | What | Who acts | Notes |
 |---|---|---|
-| Push `feat/book-upload` (pipeline board plus book upload) and open one pull request | User runs the commands after approving the text | Issue #25 closes on merge |
+| Review and merge pull request #27 (pipeline board plus book upload) | User | Issue #25 closes on merge |
 | Map with OpenFreeMap tiles and a 2D connections view | Session, next delivery | Issue #26 |
 | Known limits of book upload (a second-format file next to a stopped upload stays in the bucket; jsdom memory on a huge chapter; "Upload failed" shown for a convert failure; maintainers can insert upload jobs directly) | Later | `docs/AI_JOBS.md` |
 | Commit or publish the two pdfdown changes (CropBox fix, page markers) | User | Uncommitted in `~/Projects/pdfdown`; tests pass |
@@ -126,7 +126,7 @@ timeline
 | Close roadmap issue #15; fix issue #17 (blank timeline without WebGL) | User, then session | |
 | Decide whether to run the extraction agent over the Tabari volumes | User | Costs Claude usage per chunk; volume 35 alone is 59 chunks |
 
-**Next step:** the owner approves the pull request text for `feat/book-upload`; then the map and connections delivery (#26) starts.
+**Next step:** the map and connections delivery (#26); the owner merges #27 when ready.
 
 ## 7. References
 
