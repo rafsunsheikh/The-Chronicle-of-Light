@@ -6,7 +6,7 @@ import { IncidentCard } from './components/common/IncidentCard';
 import { FilterBar } from './components/common/FilterBar';
 import { TimelineView } from './components/timeline/TimelineView';
 import { MapView } from './components/map/MapView';
-import { GraphView } from './components/graph/GraphView';
+import { ConnectionsTimeline } from './components/graph/ConnectionsTimeline';
 import { IncidentDetailModal } from './components/common/IncidentDetailModal';
 import { EventFormModal } from './components/common/EventFormModal';
 import { DashboardPage } from './components/contrib/DashboardPage';
@@ -166,7 +166,7 @@ function App() {
               />
             </div>
             <div className="flex-1 min-h-0">
-              <GraphView fill incidents={incidents} onNodeClick={handleIncidentClick} />
+              <ConnectionsTimeline fill incidents={incidents} onNodeClick={handleIncidentClick} />
             </div>
           </div>
         )}
