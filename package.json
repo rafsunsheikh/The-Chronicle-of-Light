@@ -8,22 +8,28 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src",
+    "test": "node --test \"runner/test/*.test.mjs\"",
     "validate:events": "node scripts/validate-events.mjs",
     "validate:library": "node scripts/validate-library.mjs",
     "validate": "npm run validate:events && npm run validate:library",
     "import:wikipedia": "node scripts/wikipedia-import/index.mjs",
     "import:library": "node scripts/library-import/index.mjs",
     "convert": "node scripts/convert/index.mjs",
+    "convert:batch": "node scripts/convert/batch.mjs",
     "extract:chunk": "node scripts/extract/chunk.mjs",
+    "extract:local": "node scripts/extract/local.mjs",
+    "extract:merge": "node scripts/extract/merge.mjs",
+    "extract:enrich": "node scripts/extract/enrich.mjs",
     "extract:draft": "node scripts/extract/draft.mjs",
     "extract:promote": "node scripts/extract/promote.mjs",
     "seed:supabase": "node scripts/seed-supabase.mjs",
     "backup:supabase": "node scripts/backup-from-supabase.mjs",
     "runner": "node runner/src/index.mjs",
-    "runner:once": "node runner/src/index.mjs --once"
+    "runner:once": "node runner/src/index.mjs --once",
+    "runner:board": "node runner/src/board.mjs"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.106.2",
+    "@supabase/supabase-js": "^2.119.0",
     "leaflet": "^1.9.4",
     "marked": "^18.1.1",
     "react": "^18.2.0",
@@ -31,7 +37,8 @@
     "react-force-graph-3d": "^1.29.1",
     "react-leaflet": "^4.2.0",
     "three": "^0.184.0",
-    "three-spritetext": "^1.10.0"
+    "three-spritetext": "^1.10.0",
+    "tus-js-client": "^4.3.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

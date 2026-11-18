@@ -7,10 +7,44 @@ ships.
 ```
 npm run convert -- <book>            content/<private|books>/<slug>/content.md
 npm run extract:chunk -- <content.md>   -> <book>/extract/chunks/NNN.md + chunks.json
-/extract_events <content.md>            -> <book>/extract/candidates/NNN.json   (the agent, one chunk each)
-npm run extract:draft -- <content.md>   -> src/data/events/imported/<slug>/*.json + <book>/extract/report.md
+/extract_events <content.md>            -> <book>/extract/candidates/NNN.json   (the Claude agent, one chunk each)
+  or
+npm run extract:local -- <content.md>   -> the same files, read by the local model (Sultana's llama-server)
+npm run extract:merge -- <content.md>   -> <book>/extract/merged/NNN.json + timeline.md + merge-report.md
+npm run extract:draft -- <content.md> [--from merged]
+                                        -> src/data/events/imported/<slug>/*.json + <book>/extract/report.md
 npm run extract:promote -- <slug> --all -> src/data/events/<slug>/*.json, then validate
 ```
+
+## Reading with a local model instead of Claude
+
+`extract:local` sends each chunk to an OpenAI-compatible llama.cpp server
+(default `http://localhost:8080`, the Devstral server Sultana runs; set
+`LOCAL_MODEL_URL` or `--base-url`). The server's grammar forces the answer
+into the candidate JSON shape, so every reply parses; the prompts are the same
+files the agent reads. One chunk takes one to five minutes on an M1 Max,
+depending on how much it has to write. Chunks that already have a candidate
+file are skipped, so a stopped run resumes where it was. `--limit N` and
+`--only 010,011` pick chunks; `--force` redoes them. Each chunk's time and
+token counts go to `<book>/extract/local-log.jsonl`.
+
+Annalistic books (al-Tabari) head each year "The Events of the Year 249".
+The chunker now carries that year into every chunk's header as
+`year: AH 249 = 863/864 CE`, and the prompt tells the reader to use it for
+events the text does not date itself, instead of guessing.
+
+## Merging before drafting
+
+`extract:merge` is code first, model second. For every candidate it checks
+that the date is supported by the chunk text (the words in `dateBasis`, or
+the year itself); an unsupported date in an annal chunk is reset to the annal
+year and noted. Then it sorts by date and merges duplicates: the same title
+words or the same two people, place and year merge by rule; a pair that is
+only partly alike is shown to the local model with one yes-or-no question,
+and any unusable answer keeps both records. Candidates already on the
+timeline are dropped and listed. `timeline.md` lists what is kept in date
+order; `merge-report.md` says what was fixed, merged or dropped and why.
+`--no-model` skips the model questions.
 
 ## Stage by stage
 

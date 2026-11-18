@@ -1,7 +1,30 @@
 import { useCallback, useEffect, useState } from 'react';
 import { useAuth } from '../../lib/auth';
 import { cancelAiJob, createAiJob, listAiJobs } from '../../lib/aiJobs';
+import { listPipelineStatus } from '../../lib/pipeline';
+import { listUploadedBooks } from '../../lib/bookUploads';
 import type { AiJob, AiJobKind } from '../../types/aiJob';
+import type { PipelineStatus, UploadedBook } from '../../types/pipeline';
+import type { Uploader } from './AddBookDialog';
+import { PipelinePanel } from './PipelinePanel';
+
+type Tab = 'pipeline' | 'jobs';
+
+/** Dev-only preview with sample data: /#/admin?preview=pipeline on the dev server. */
+const PREVIEW = import.meta.env.DEV && new URLSearchParams(window.location.search).get('preview') === 'pipeline';
+
+const KIND_LABEL: Record<AiJobKind, string> = {
+  summarize: 'Summarise (Claude)',
+  extract: 'Extract (Claude)',
+  convert: 'Convert',
+  chunk: 'Chunk',
+  'extract-local': 'Extract (local model)',
+  merge: 'Merge',
+  draft: 'Draft',
+  enrich: 'Enrich',
+  all: 'Every stage',
+  upload: 'Uploaded book',
+};
 
 const Centered: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <div className="h-full flex items-center justify-center p-8 text-center">
@@ -38,6 +61,10 @@ const POLL_IDLE_MS = 30000;
 export const AdminPage: React.FC = () => {
   const { enabled, loading, user, isMaintainer, signInWithGoogle } = useAuth();
   const [jobs, setJobs] = useState<AiJob[]>([]);
+  const [board, setBoard] = useState<PipelineStatus[]>([]);
+  const [uploaded, setUploaded] = useState<UploadedBook[]>([]);
+  const [boardError, setBoardError] = useState<string | null>(null);
+  const [tab, setTab] = useState<Tab>('pipeline');
   const [error, setError] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
 
@@ -50,15 +77,33 @@ export const AdminPage: React.FC = () => {
   const [chunks, setChunks] = useState('');
 
   const refresh = useCallback(async (): Promise<AiJob[]> => {
-    const { jobs: list, error: err } = await listAiJobs();
+    const [{ jobs: list, error: err }, { rows, error: boardErr }, { books, error: uploadsErr }] = await Promise.all([
+      listAiJobs(),
+      listPipelineStatus(),
+      listUploadedBooks(),
+    ]);
     setJobs(list);
     setError(err ?? null);
+    setBoard(rows);
+    setUploaded(books);
+    // A missing table means a migration has not been applied yet; say which instead of a bare error code.
+    setBoardError(
+      boardErr
+        ? /pipeline_status/.test(boardErr)
+          ? 'The pipeline board is not set up yet: run supabase/migrations/0005_pipeline.sql.'
+          : boardErr
+        : uploadsErr
+          ? /pipeline_books/.test(uploadsErr)
+            ? 'Book uploads are not set up yet: run supabase/migrations/0006_book_uploads.sql.'
+            : uploadsErr
+          : null,
+    );
     return list;
   }, []);
 
   // Poll while anything is queued or running so progress shows up as it lands.
   useEffect(() => {
-    if (!isMaintainer) return;
+    if (!isMaintainer || PREVIEW) return;
     let stopped = false;
     let timer = 0;
     const tick = async () => {
@@ -74,6 +119,7 @@ export const AdminPage: React.FC = () => {
     };
   }, [isMaintainer, refresh]);
 
+  if (PREVIEW) return <PreviewShell />;
   if (!enabled) {
     return (
       <Centered>
@@ -147,12 +193,20 @@ export const AdminPage: React.FC = () => {
   return (
     <div className="h-full overflow-y-auto bg-panel">
       <div className="container mx-auto px-4 sm:px-6 py-8 max-w-5xl space-y-8">
+        <TabBar tab={tab} onChange={setTab} />
+
+        {tab === 'pipeline' && (
+          <PipelinePanel board={board} jobs={jobs} uploaded={uploaded} userId={user.id} boardError={boardError} onQueued={refresh} />
+        )}
+
+        {tab === 'jobs' && (
+          <>
         <header>
           <h1 className="text-2xl font-semibold text-slate-900">AI jobs</h1>
           <p className="text-sm text-slate-600 mt-1">
             Queue a run for the home runner. It converts the source to Markdown, reads it with Claude on the
             owner's subscription, and opens a pull request with the result. Nothing goes live until that pull
-            request is merged.
+            request is merged. Pipeline stages queued from the Books tab appear in the queue below too.
           </p>
         </header>
 
@@ -233,7 +287,7 @@ export const AdminPage: React.FC = () => {
                     <span className={`text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full ${STATUS_STYLE[j.status]}`}>
                       {j.status}
                     </span>
-                    <span className="text-[10px] uppercase tracking-widest text-slate-500">{j.kind}</span>
+                    <span className="text-xs text-slate-500">{KIND_LABEL[j.kind] ?? j.kind}</span>
                     <span className="font-semibold text-slate-900">{j.input.title}</span>
                     <span className="text-xs text-slate-500 ml-auto">
                       {formatWhen(j.created_at)}
@@ -266,7 +320,8 @@ export const AdminPage: React.FC = () => {
                     </p>
                   )}
                   {j.status === 'failed' && j.error && <p className="mt-2 text-xs text-red-nma">{j.error}</p>}
-                  {j.status === 'queued' && (
+                  {/* Upload jobs are not cancellable: the runner always finishes or fails them (migration 0007). */}
+                  {j.status === 'queued' && j.kind !== 'upload' && (
                     <button
                       type="button"
                       onClick={async () => {
@@ -283,6 +338,63 @@ export const AdminPage: React.FC = () => {
             </ul>
           )}
         </section>
+          </>
+        )}
+      </div>
+    </div>
+  );
+};
+
+const TabBar: React.FC<{ tab: Tab; onChange: (t: Tab) => void }> = ({ tab, onChange }) => (
+  <nav aria-label="Admin sections" className="border-b border-slate-200 flex gap-6">
+    {(
+      [
+        ['pipeline', 'Books pipeline'],
+        ['jobs', 'AI jobs'],
+      ] as Array<[Tab, string]>
+    ).map(([id, label]) => (
+      <button
+        key={id}
+        type="button"
+        onClick={() => onChange(id)}
+        aria-current={tab === id ? 'page' : undefined}
+        className={`-mb-px min-h-[44px] px-1 text-sm border-b-2 ${
+          tab === id ? 'border-teal-nma text-slate-900 font-semibold' : 'border-transparent text-slate-600 hover:text-slate-900'
+        }`}
+      >
+        {label}
+      </button>
+    ))}
+  </nav>
+);
+
+/** The pipeline screen with sample data, for looking at it without a backend (dev server only). */
+const PreviewShell: React.FC = () => {
+  const [tab, setTab] = useState<Tab>('pipeline');
+  const [fixture, setFixture] = useState<{ board: PipelineStatus[]; jobs: AiJob[]; uploaded: UploadedBook[]; uploader: Uploader } | null>(null);
+  useEffect(() => {
+    import('./pipelineFixture').then((m) =>
+      setFixture({ board: m.FIXTURE_BOARD, jobs: m.FIXTURE_JOBS, uploaded: m.FIXTURE_UPLOADS, uploader: m.fakeUploader }),
+    );
+  }, []);
+  if (!fixture) return null;
+  return (
+    <div className="h-full overflow-y-auto bg-panel">
+      <div className="container mx-auto px-4 sm:px-6 py-8 max-w-5xl space-y-8">
+        <TabBar tab={tab} onChange={setTab} />
+        {tab === 'pipeline' ? (
+          <PipelinePanel
+            board={fixture.board}
+            jobs={fixture.jobs}
+            uploaded={fixture.uploaded}
+            userId="preview"
+            boardError={null}
+            onQueued={async () => {}}
+            uploader={fixture.uploader}
+          />
+        ) : (
+          <p className="text-sm text-slate-600">The jobs tab needs the backend; this preview shows the pipeline only.</p>
+        )}
       </div>
     </div>
   );

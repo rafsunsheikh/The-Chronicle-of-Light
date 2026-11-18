@@ -1,4 +1,6 @@
-export type AiJobKind = 'summarize' | 'extract';
+/** summarize and extract use Claude and come back as a pull request; the rest are
+ *  book pipeline stages run by the local model (see src/types/pipeline.ts). */
+export type AiJobKind = 'summarize' | 'extract' | 'convert' | 'chunk' | 'extract-local' | 'merge' | 'draft' | 'enrich' | 'all' | 'upload';
 export type AiJobStatus = 'queued' | 'running' | 'done' | 'failed' | 'cancelled';
 
 export interface AiJobInput {
@@ -12,6 +14,8 @@ export interface AiJobInput {
   public?: boolean;
   /** For extract jobs: a chunk range such as "1-10". Empty means every chunk. */
   chunks?: string | null;
+  /** For pipeline stages: redo the stage even when its output exists. */
+  force?: boolean;
 }
 
 export interface AiJobResult {
@@ -23,7 +27,9 @@ export interface AiJobResult {
   inputTokens?: number;
   outputTokens?: number;
   durationMs?: number;
-  drafts?: number;
+  drafts?: number | null;
+  /** Pipeline jobs: what each stage reported, keyed by stage. */
+  stages?: Record<string, Record<string, unknown>>;
 }
 
 export interface AiJob {

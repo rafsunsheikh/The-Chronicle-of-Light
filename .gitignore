@@ -70,3 +70,6 @@ content/private/
 runner/.env
 runner/*.log
 .ai-worktrees/
+
+# Books uploaded from the admin page; their titles may name books in copyright.
+scripts/convert/manifests/uploads.json

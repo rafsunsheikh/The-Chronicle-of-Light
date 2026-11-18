@@ -3,6 +3,10 @@
 // Location markers are HTML comments (`<!-- page 12 -->`,
 // `<!-- chapter 3: text/ch03.xhtml -->`) so they survive Markdown rendering
 // invisibly and later stages can cite a position.
+import { spawnSync } from 'node:child_process';
+import fs from 'node:fs';
+import os from 'node:os';
+import path from 'node:path';
 import TurndownService from 'turndown';
 import { JSDOM } from 'jsdom';
 import { Readability } from '@mozilla/readability';
@@ -17,6 +21,79 @@ const turndown = new TurndownService({
 turndown.remove(['script', 'style', 'noscript', 'iframe']);
 
 const domParser = () => new JSDOM('').window.DOMParser;
+
+// pdfdown (https://github.com/rafsunsheikh/pdfdown) reads a PDF with a layout
+// model: columns in order, paragraphs joined across pages, headers and page
+// numbers dropped, figures cropped, scanned pages read with OCR. It is the
+// preferred PDF engine when installed. PDFDOWN_BIN overrides the command, for
+// example "uv run --project ~/Projects/pdfdown pdfdown" to run a checkout.
+export function pdfdownCommand() {
+  const [cmd, ...args] = (process.env.PDFDOWN_BIN || 'pdfdown').split(/\s+/);
+  const probe = spawnSync(cmd, [...args, '--help'], { encoding: 'utf8' });
+  if (probe.error || probe.status !== 0) return null;
+  // --page-markers arrived after 0.1.5; without it the Markdown has no page positions to cite.
+  return { cmd, args, pageMarkers: probe.stdout.includes('--page-markers') };
+}
+
+export async function extractPdfWithPdfdown(file, onProgress = () => {}) {
+  const tool = pdfdownCommand();
+  if (!tool) {
+    throw new Error('pdfdown is not installed (uv tool install pdfdown) and PDFDOWN_BIN is not set; use --engine pdfjs');
+  }
+  const workDir = fs.mkdtempSync(path.join(os.tmpdir(), 'chronicle-pdfdown-'));
+  // PDFDOWN_ARGS adds options, for example "--ocr off" for scans whose text layer is already complete
+  // (OCR of a blank page can take minutes) or "--no-latex" for books without equations.
+  const extra = (process.env.PDFDOWN_ARGS || '').split(/\s+/).filter(Boolean);
+  const args = [...tool.args, '--batch', '--json', ...(tool.pageMarkers ? ['--page-markers'] : []), ...extra, file, '-o', workDir];
+  onProgress(
+    tool.pageMarkers
+      ? 'pdfdown with page markers'
+      : 'pdfdown without --page-markers (older version): passages cannot be cited by page',
+  );
+  // pdfdown's progress goes to stderr and is shown as it happens; the JSON summary comes on stdout.
+  const run = spawnSync(tool.cmd, args, {
+    encoding: 'utf8',
+    maxBuffer: 64 * 1024 * 1024,
+    stdio: ['ignore', 'pipe', 'inherit'],
+  });
+  if (run.error) throw run.error;
+  // A library pdfdown uses may print a warning on stdout before the summary; take the JSON from its start.
+  const jsonStart = run.stdout.indexOf('{\n  "results"');
+  let summary;
+  try {
+    summary = JSON.parse(jsonStart >= 0 ? run.stdout.slice(jsonStart) : run.stdout);
+  } catch {
+    throw new Error(`pdfdown gave no JSON summary (exit code ${run.status}): ${run.stdout.slice(0, 300)}`);
+  }
+  const result = summary.results?.[0];
+  if (!result) throw new Error(`pdfdown failed: ${summary.failed?.[0]?.error ?? `exit code ${run.status}`}`);
+
+  const markdown = fs.readFileSync(result.markdown, 'utf8').trim();
+  const folder = path.dirname(result.markdown);
+  const assets = ['figures', 'tables', 'equations']
+    .filter((d) => fs.existsSync(path.join(folder, d)))
+    .map((d) => ({ from: path.join(folder, d), to: d }));
+  return {
+    markdown,
+    // The first heading is whatever the layout model saw on page one, often a cover fragment;
+    // the caller's --title wins when given.
+    title: markdown.match(/^# (.+)$/m)?.[1]?.trim() || null,
+    author: null,
+    language: null,
+    units: { pages: result.pages },
+    assets,
+    cleanup: () => fs.rmSync(workDir, { recursive: true, force: true }),
+    tool: {
+      name: 'pdfdown',
+      pageMarkers: tool.pageMarkers,
+      figures: result.figures,
+      tables: result.tables,
+      ocrPages: result.ocr_pages ?? [],
+      notes: result.notes ?? [],
+      problems: result.problems ?? [],
+    },
+  };
+}
 
 export async function extractPdf(buffer, onProgress = () => {}) {
   const pdfjs = await import('pdfjs-dist/legacy/build/pdf.mjs');
@@ -80,7 +157,10 @@ export async function extractPdf(buffer, onProgress = () => {}) {
   };
 }
 
-export async function extractEpub(buffer, onProgress = () => {}) {
+/** The most chapter text one EPUB may hold; the same 300 MB as the upload check's unpacked limit. */
+export const EPUB_MAX_TEXT = 300 * 1024 * 1024;
+
+export async function extractEpub(buffer, onProgress = () => {}, { maxText = EPUB_MAX_TEXT } = {}) {
   const { default: JSZip } = await import('jszip');
   const zip = await JSZip.loadAsync(buffer);
   const Parser = domParser();
@@ -114,11 +194,20 @@ export async function extractEpub(buffer, onProgress = () => {}) {
     .map((ref) => manifest.get(ref.getAttribute('idref') ?? ''))
     .filter(Boolean);
 
+  // Each file is read once, however often the spine lists it, and the text read
+  // is capped: a tiny package could otherwise list one large chapter hundreds of
+  // times and make this unpack far more than the upload check measured.
   const chapters = [];
+  const read = new Set();
+  let textRead = 0;
   for (const [i, href] of spine.entries()) {
     const path = decodeURIComponent(opfDir + href.split('#')[0]);
+    if (read.has(path)) continue;
+    read.add(path);
     const html = await zip.file(path)?.async('text');
     if (!html) continue;
+    textRead += html.length;
+    if (textRead > maxText) throw new Error(`This EPUB's chapters hold more than ${maxText / 1048576} MB of text, the limit`);
     const dom = new JSDOM(html, { contentType: 'application/xhtml+xml' });
     const d = dom.window.document;
     d.querySelectorAll('script, style, nav[epub\\:type="toc"], nav[*|type="toc"]').forEach((el) => el.remove());

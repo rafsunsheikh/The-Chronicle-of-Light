@@ -39,6 +39,13 @@ export async function complete(id, result) {
   if (error) throw new Error(error.message);
 }
 
+/** The per-book, per-stage board the admin page reads (pipeline_status). */
+export async function setStatus(slug, stage, state, { stats = {}, jobId = null, error = null } = {}) {
+  const row = { slug, stage, state, stats, job_id: jobId, error: error ? String(error).slice(0, 2000) : null, updated_at: new Date().toISOString() };
+  const { error: err } = await db().from('pipeline_status').upsert(row, { onConflict: 'slug,stage' });
+  if (err) throw new Error(err.message);
+}
+
 export async function fail(id, message) {
   const { error } = await db()
     .from('ai_jobs')
@@ -46,3 +53,33 @@ export async function fail(id, message) {
     .eq('id', id);
   if (error) throw new Error(error.message);
 }
+
+// ---- uploaded books (migration 0006) -------------------------------------------
+
+const UPLOAD_BUCKET = 'book-uploads';
+
+/** The source runUpload() reads an uploaded book from: the row and its file. */
+export const uploadSource = {
+  async getBook(slug) {
+    const { data, error } = await db().from('pipeline_books').select('*').eq('slug', slug).maybeSingle();
+    if (error) throw new Error(error.message);
+    return data;
+  },
+  async download(slug, format = 'pdf') {
+    const { data, error } = await db().storage.from(UPLOAD_BUCKET).download(`${slug}.${format}`);
+    if (error) throw new Error(`could not download the uploaded ${format.toUpperCase()}: ${error.message}`);
+    return Buffer.from(await data.arrayBuffer());
+  },
+  async remove(slug) {
+    // Every format, so a failed or replaced upload never leaves a file behind.
+    const { error } = await db().storage.from(UPLOAD_BUCKET).remove([`${slug}.pdf`, `${slug}.epub`]);
+    if (error) throw new Error(`could not remove the uploaded file from the bucket: ${error.message}`);
+  },
+  async setState(slug, state, message = null) {
+    const { error } = await db()
+      .from('pipeline_books')
+      .update({ state, error: message ? String(message).slice(0, 2000) : null, updated_at: new Date().toISOString() })
+      .eq('slug', slug);
+    if (error) throw new Error(error.message);
+  },
+};
