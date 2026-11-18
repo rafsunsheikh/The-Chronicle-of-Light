@@ -38,6 +38,9 @@ export const MapView: React.FC<MapViewProps> = ({
           // As @maplibre/maplibre-gl-leaflet's README advises: MapLibre limits
           // latitude more strictly than Leaflet and syncs badly at zoom 0.
           minZoom={1}
+          // The old tile layer capped zoom at 19; MapLibre stops at 22 (Leaflet
+          // zoom 23), so without a cap the markers drift off the background.
+          maxZoom={19}
           maxBounds={[[180, -Infinity], [-180, Infinity]]}
           maxBoundsViscosity={1}
         >

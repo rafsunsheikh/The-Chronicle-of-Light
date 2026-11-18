@@ -402,7 +402,7 @@ export const ConnectionsTimeline: React.FC<Props> = ({ incidents, onNodeClick, f
                     <button
                       type="button"
                       onClick={() => choose(n.incident.id)}
-                      className="w-full flex items-baseline gap-2 py-2 text-left text-sm text-slate-800 hover:bg-slate-50 min-h-[44px] sm:min-h-0"
+                      className="w-full flex items-baseline gap-2 py-2 text-left text-sm text-slate-800 hover:bg-slate-50 min-h-[44px] sm:min-h-0 focus-visible:outline focus-visible:outline-2 focus-visible:outline-teal-nma"
                     >
                       <span className="inline-block w-2 h-2 rounded-full flex-none" style={{ background: CATEGORY_COLOR[n.incident.category as Category] }} aria-hidden="true" />
                       <span className="w-12 flex-none tabular-nums text-slate-500">{n.year}</span>
@@ -414,7 +414,7 @@ export const ConnectionsTimeline: React.FC<Props> = ({ incidents, onNodeClick, f
               <button
                 type="button"
                 onClick={() => onNodeClick(focused.incident)}
-                className="mt-3 inline-flex items-center justify-center min-h-[44px] px-5 rounded-full bg-teal-nma hover:bg-teal-nma/90 text-white text-sm font-semibold"
+                className="mt-3 inline-flex items-center justify-center min-h-[44px] px-5 rounded-full bg-teal-nma hover:bg-teal-nma/90 text-white text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-nma"
               >
                 Open event
               </button>
