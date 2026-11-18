@@ -2,12 +2,12 @@
 
 An interactive web app for exploring Islamic history: a timeline and map of about 1,150 events, an Islamic Renaissance section with an open library of books and videos, and an AI pipeline that reads source books and proposes new events for a person to review.
 
-**Status:** Roadmap phases 1 to 8 shipped (2026-10-16); all 41 source books converted with pdfdown (2026-11-15); book upload (PDF and EPUB) built and checked; pull request #27 open (2026-11-18)
+**Status:** Roadmap phases 1 to 8 shipped (2026-10-16); all 41 source books converted with pdfdown (2026-11-15); book upload (PDF and EPUB) built and checked, pull request #27 open; map fixed and connections shown along time, pull request #28 open (2026-11-18)
 **Last updated:** 2026-11-18
 
 ## 1. Where we are now
 
-The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Pages mirror. All eight roadmap phases are merged into `main` [1]. The converter that turns a book into Markdown now uses pdfdown, the owner's own PDF tool, and on 2026-11-15 all 40 volumes of The History of al-Tabari plus The Muslim Conquest of Persia were converted into `content/private/` (see stage 9), ready for the chunker and the extraction agent. Two pdfdown changes that the books needed are made in the pdfdown checkout but not yet committed or released there. On 2026-11-17 the owner finished the Supabase and home-runner setup: migrations 0004 and 0005 are applied, `runner/.env` holds the new `sb_secret_` key, the runner starts and reads an empty queue, and the pipeline board holds 48 rows for 41 books. On 2026-11-18 a maintainer can add a book by uploading its PDF or EPUB from the admin page; the runner fetches it, checks it, converts it and it waits for chunking (stage 12, issue #25). Migrations 0006, 0007 and 0008 are applied. The work and yesterday's pipeline board are in pull request #27, waiting for the owner to merge. Next: the map (CARTO now needs an API key) and a 2D connections view (issue #26). Waiting on the owner: re-enabling the nightly backup, and a decision on publishing the pdfdown changes.
+The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Pages mirror. All eight roadmap phases are merged into `main` [1]. The converter that turns a book into Markdown now uses pdfdown, the owner's own PDF tool, and on 2026-11-15 all 40 volumes of The History of al-Tabari plus The Muslim Conquest of Persia were converted into `content/private/` (see stage 9), ready for the chunker and the extraction agent. Two pdfdown changes that the books needed are made in the pdfdown checkout but not yet committed or released there. On 2026-11-17 the owner finished the Supabase and home-runner setup: migrations 0004 and 0005 are applied, `runner/.env` holds the new `sb_secret_` key, the runner starts and reads an empty queue, and the pipeline board holds 48 rows for 41 books. On 2026-11-18 a maintainer can add a book by uploading its PDF or EPUB from the admin page; the runner fetches it, checks it, converts it and it waits for chunking (stage 12, issue #25). Migrations 0006, 0007 and 0008 are applied. The work and yesterday's pipeline board are in pull request #27, waiting for the owner to merge. The map now draws OpenFreeMap tiles (CARTO started requiring an API key) and the Connections page shows events along a zoomable time axis instead of a 3D sphere (stage 13, issue #26, pull request #28). Next: rebuild all event data with a connection-aware pipeline (decision 14). Waiting on the owner: re-enabling the nightly backup, and a decision on publishing the pdfdown changes.
 
 ## 2. Decisions
 
@@ -25,7 +25,8 @@ The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Page
 | 10 | 2026-11-17 | Upload a book from the admin page through a private Supabase Storage bucket; the runner fetches it and runs convert; chunking waits for a person; a GitHub issue tracks it | The site is on Vercel and the runner on the Mac, so both need a place they can reach | User | Stage 12; issue #25 |
 | 11 | 2026-11-18 | Add EPUB uploads to the same delivery, plus a file-size check; skip new mockups for the wording-only dialog change | The converter already reads EPUB; the owner asked for it before the pull request | User | Stage 12 |
 | 12 | 2026-11-18 | One pull request for the pipeline board work and book upload together; remove both upload test books afterwards | The work belongs together | User | Stage 12 |
-| 13 | 2026-11-18 | Replace CARTO tiles with OpenFreeMap (no key); show connections in 2D | CARTO now requires an API key on every style; the 3D sphere did not read well | User | Issue #26 |
+| 13 | 2026-11-18 | Replace CARTO tiles with OpenFreeMap (no key); show connections in 2D, option 2 "Along time" with mouse-scroll zoom of the years | CARTO now requires an API key on every style; the 3D sphere did not read well | User | Stage 13; issue #26 |
+| 14 | 2026-11-18 | Rebuild the event data: archive all 1,136 events, rerun every book with extraction that links to earlier events, a later AI connection-maker loop using all events and internet search, and images from Wikipedia or a local model (no prophets or faces of revered figures; labelled "AI illustration") | About 95% of today's links are unreviewed machine output; the owner wants connections that make sense | User | `thoughts/shared/deliveries/pipeline-v2/idea.md` |
 
 ## 3. Stages and what was built
 
@@ -64,6 +65,13 @@ The site is live at https://the-chronicle-of-light.vercel.app with a GitHub Page
 - **Check it yourself:** `npm test` (48 pass); `node scripts/check-book-upload-rules.mjs` (13 pass against the real project); on `/#/admin`, Add a book with a small PDF or EPUB while `npm run runner` is on.
 - **Test results (2026-11-18):** owner's PDF run: 14 pages converted in 28 s, chunk in 1 s; owner's EPUB run: 109,728 words converted in 5 s, chunk in 1 s; both test books removed afterwards. Type check, build and lint clean (one old warning). Security reviews of the whole branch: no high or medium findings. 17 independent review rounds across five phases and the final gate.
 - **Changes from the plan:** EPUB and the size check added as phase 5 (owner, 2026-11-18); a final-gate fix for uploads that could get stuck (migration 0007); the converter now keeps a valid given short name whole (it cut names to 60 characters) and reads each EPUB chapter once.
+
+### Stage 13: a working map and connections along time (built 2026-11-18, issue #26, pull request #28)
+
+- **What was built:** the map draws OpenFreeMap's Positron style with MapLibre GL inside Leaflet (`src/components/map/OpenFreeMapLayer.tsx`), English place names, loaded only on the map page, with a WebGL2 fallback note and the old zoom cap of 19; the Connections page is a time axis with one lane per category and arcs between connected events (`src/components/graph/ConnectionsTimeline.tsx`), zoomed with the mouse wheel, drag, pinch or buttons, with one keyboard tab stop. three.js and the 3D graph packages are removed.
+- **Check it yourself:** restart `npm run dev` (it caches the old packages), then open `#/map` and `#/connections`.
+- **Test results (2026-11-18):** production build in the browser at 1440 and 390 px: 144 OpenFreeMap tiles, none from CARTO, 497 markers, WebGL2 switched off without errors; 533 connected events and 544 arcs, wheel zoom without page scroll, two-finger pinch, keyboard; main bundle 3.5 MB to 2.15 MB; type check, lint, build and validation clean; 10 review rounds, security review with no high or medium findings.
+- **Changes from the plan:** the owner added mouse-scroll zoom to the chosen mockup; the final review restored the map's zoom limit, which the old tile layer had provided.
 
 ## 4. Diagrams
 
@@ -119,14 +127,15 @@ timeline
 | What | Who acts | Notes |
 |---|---|---|
 | Review and merge pull request #27 (pipeline board plus book upload) | User | Issue #25 closes on merge |
-| Map with OpenFreeMap tiles and a 2D connections view | Session, next delivery | Issue #26 |
+| Look at `#/map` and `#/connections` once on a restarted dev server, then merge #28 | User | Issue #26 closes on merge |
+| Pipeline v2: archive events, connection-aware extraction, connection maker, images | Session, next delivery | `thoughts/shared/deliveries/pipeline-v2/idea.md` |
 | Known limits of book upload (a second-format file next to a stopped upload stays in the bucket; jsdom memory on a huge chapter; "Upload failed" shown for a convert failure; maintainers can insert upload jobs directly) | Later | `docs/AI_JOBS.md` |
 | Commit or publish the two pdfdown changes (CropBox fix, page markers) | User | Uncommitted in `~/Projects/pdfdown`; tests pass |
 | Re-enable and test the nightly backup workflow | User approves, session runs | Needs the approval token |
 | Close roadmap issue #15; fix issue #17 (blank timeline without WebGL) | User, then session | |
 | Decide whether to run the extraction agent over the Tabari volumes | User | Costs Claude usage per chunk; volume 35 alone is 59 chunks |
 
-**Next step:** the map and connections delivery (#26); the owner merges #27 when ready.
+**Next step:** the owner merges #27 and #28; then the pipeline v2 delivery starts.
 
 ## 7. References
 
